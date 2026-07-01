@@ -1,0 +1,115 @@
+{
+  "id": "2024-het-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2024h2]t1-6-ag.pdf"
+  },
+  "title": "Sinus und Cosinus",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-06-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AG 4.2",
+          "description": "Definitionen von Sinus und Cosinus für Winkel größer als 90° kennen und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1369a",
+          "baseId": "1_1369",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/925/1_1369_srdp_ma_Sinus%20und%20Cosinus_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha \\in [45^\\circ; 225^\\circ]"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Intervalls."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das größtmögliche Intervall für α an, in dem diese Beziehung gilt."
+        },
+        {
+          "t": "math",
+          "v": "\\alpha \\in [\\,\\square^\\circ;\\ \\square^\\circ\\,]"
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": 45,
+        "upper": 225,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1369",
+      "baseId": "1_1369",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/925/1_1369_srdp_ma_Sinus%20und%20Cosinus_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für bestimmte Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha \\in [0^\\circ; 360^\\circ)"
+    },
+    {
+      "t": "text",
+      "v": " gilt die Beziehung "
+    },
+    {
+      "t": "math",
+      "v": "\\sin(\\alpha) \\geq \\cos(\\alpha)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

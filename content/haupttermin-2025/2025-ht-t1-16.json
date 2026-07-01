@@ -1,0 +1,230 @@
+{
+  "id": "2025-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2025h1]t1-16-an.pdf"
+  },
+  "title": "Abschätzung eines bestimmten Integrals",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-16-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1464a",
+          "baseId": "1_1464",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1034/1_1464_srdp_ma_Absch%C3%A4tzung%20eines%20bestimmten%20Integrals_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\ge 1\\cdot f(0)+1\\cdot f(2)"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\le 2\\cdot f(1)"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nEs gilt in jedem Fall ① und ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\ge 1\\cdot f(0)+1\\cdot f(1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\ge 1\\cdot f(1)+1\\cdot f(2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\ge 1\\cdot f(0)+1\\cdot f(2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\le 2\\cdot f(0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\le 2\\cdot f(1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx \\le 2\\cdot f(2)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1464",
+      "baseId": "1_1464",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1034/1_1464_srdp_ma_Absch%C3%A4tzung%20eines%20bestimmten%20Integrals_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die stetige Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon[0;\\,2]\\to\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie Funktion f ist im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;\\,1]"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton steigend und im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[1;\\,2]"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton fallend.\n\nDas bestimmte Integral "
+    },
+    {
+      "t": "math",
+      "v": "\\int_{0}^{2} f(x)\\,dx"
+    },
+    {
+      "t": "text",
+      "v": " wird mithilfe der Funktionswerte "
+    },
+    {
+      "t": "math",
+      "v": "f(0)"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f(1)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f(2)"
+    },
+    {
+      "t": "text",
+      "v": " abgeschätzt."
+    }
+  ]
+}

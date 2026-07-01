@@ -1,0 +1,111 @@
+{
+  "id": "2019-nt1-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2019n1]t1-8-fa.pdf"
+  },
+  "title": "Schwingung einer Saite",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-08-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.8",
+          "description": "durch Gleichungen (Formeln) gegebene Funktionen mit mehreren Veränderlichen im Kontext deuten können, Funktionswerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_717a",
+          "baseId": "1_717",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/456/Schwingung%20einer%20Saite.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn die anderen Größen (F, ϱ, A) konstant gehalten werden, ist die Länge l einer Saite zu halbieren, damit die Saite mit einer doppelt so hohen Frequenz schwingt."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie die Länge l einer Saite zu ändern ist, wenn die Saite mit einer doppelt so hohen Frequenz schwingen soll und die anderen Größen (F, ϱ, A) dabei konstant gehalten werden."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Wenn die anderen Größen (F, ϱ, A) konstant gehalten werden, ist die Länge l einer Saite zu halbieren, damit die Saite mit einer doppelt so hohen Frequenz schwingt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_717",
+      "baseId": "1_717",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/456/Schwingung%20einer%20Saite.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Frequenz f der Grundschwingung einer Saite eines Musikinstruments kann mithilfe der nachstehenden Formel berechnet werden."
+    },
+    {
+      "t": "math",
+      "v": "f=\\frac{1}{2\\cdot l}\\cdot\\sqrt{\\frac{F}{\\varrho\\cdot A}}"
+    },
+    {
+      "t": "text",
+      "v": "l … Länge der Saite\nA … Querschnittsfläche der Saite\nϱ … Dichte des Materials der Saite\nF … Kraft, mit der die Saite gespannt ist"
+    }
+  ]
+}

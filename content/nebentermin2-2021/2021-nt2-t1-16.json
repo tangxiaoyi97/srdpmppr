@@ -1,0 +1,156 @@
+{
+  "id": "2021-nt2-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2021n2]t1-16-fa.pdf"
+  },
+  "title": "Stammfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-16-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-16-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_821a",
+          "baseId": "1_821",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/609/Stammfunktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "G_2=c+F"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "G_3=F-c"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Funktionen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei der nachstehenden Funktionen G₁ bis G₅ sind für alle "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb{R}\\setminus\\{0\\}"
+        },
+        {
+          "t": "text",
+          "v": " jedenfalls auch Stammfunktionen von f.\n\nKreuzen Sie die beiden zutreffenden Funktionen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "G_1=c\\cdot F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G_2=c+F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G_3=F-c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G_4=c-F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G_5=\\dfrac{F}{c}"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_821",
+      "baseId": "1_821",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/609/Stammfunktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Stammfunktion F einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

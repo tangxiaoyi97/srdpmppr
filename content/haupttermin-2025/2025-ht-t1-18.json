@@ -1,0 +1,162 @@
+{
+  "id": "2025-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2025h1]t1-18-an.pdf"
+  },
+  "title": "Beschleunigungsphase",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1466a",
+          "baseId": "1_1466",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1036/1_1466_srdp_ma_Beschleunigungsphase_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v(5)=15+\\int_{0}^{5} a(t)\\,dt = 15+\\int_{0}^{5}\\bigl(-0{,}1\\cdot t^{2}+t\\bigr)\\,dt = 23{,}\\overline{3}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Autos zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=5\\,\\mathrm{s}"
+            },
+            {
+              "t": "text",
+              "v": " beträgt "
+            },
+            {
+              "t": "math",
+              "v": "23{,}\\overline{3}\\ \\mathrm{m/s}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Geschwindigkeit des Autos (in m/s) zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=5\\,\\mathrm{s}"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "label": "v(5)",
+            "value": 23.3333333333,
+            "tol": 0.05,
+            "unit": "m/s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1466",
+      "baseId": "1_1466",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1036/1_1466_srdp_ma_Beschleunigungsphase_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein fahrendes Auto hat zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " eine Geschwindigkeit von 15 m/s.\n\nFür die Beschleunigung a des Autos zum Zeitpunkt t gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a(t)=-0{,}1\\cdot t^{2}+t"
+    },
+    {
+      "t": "text",
+      "v": "\n(t in s, "
+    },
+    {
+      "t": "math",
+      "v": "a(t)"
+    },
+    {
+      "t": "text",
+      "v": " in m/s"
+    },
+    {
+      "t": "math",
+      "v": "^{2}"
+    },
+    {
+      "t": "text",
+      "v": ")"
+    }
+  ]
+}

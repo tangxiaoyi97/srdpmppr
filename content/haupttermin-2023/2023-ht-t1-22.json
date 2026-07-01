@@ -1,0 +1,173 @@
+{
+  "id": "2023-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2023h1]t1-22-ws.pdf"
+  },
+  "title": "Bit-Kombinationen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-22-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1289a",
+          "baseId": "1_1289",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/828/1_1289_srdp_ma_Bit-Kombinationen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Anzahl der Möglichkeiten an, dass in einem Byte genau drei 1er enthalten sind."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Interpretation an, die im gegebenen Sachzusammenhang für "
+        },
+        {
+          "t": "math",
+          "v": "\\binom{8}{3}"
+        },
+        {
+          "t": "text",
+          "v": " zutrifft. [1 aus 6]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Wahrscheinlichkeit an, dass in einem Byte die ersten drei Bit 1er sind."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Wahrscheinlichkeit an, dass in einem Byte genau drei 1er hintereinander auftreten."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Wahrscheinlichkeit an, dass in einem Byte genau drei 1er enthalten sind."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Anzahl der Möglichkeiten an, dass in einem Byte genau drei 1er enthalten sind."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Anzahl der Möglichkeiten an, dass in einem Byte genau drei 1er hintereinander auftreten."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{8}{3}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Anzahl der Möglichkeiten an, dass in einem Byte die ersten drei Bit 1er sind."
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1289",
+      "baseId": "1_1289",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/828/1_1289_srdp_ma_Bit-Kombinationen_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Computer rechnet mit sogenannten Bits. Ein Bit kann entweder den Wert 0 oder den Wert 1 annehmen. Eine beliebige Abfolge aus acht Bits wird Byte genannt."
+    }
+  ]
+}

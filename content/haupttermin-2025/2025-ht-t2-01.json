@@ -1,0 +1,466 @@
+{
+  "id": "2025-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2025h1]t2-1.pdf"
+  },
+  "title": "Garten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_149a",
+          "baseId": "2_149",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1043/2_149_srdp_ma_Garten_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nebenstehenden nicht maßstabgetreuen Abbildung ist ein Blumenbeet modellhaft in der Ansicht von oben dargestellt.\n\nDas Blumenbeet wird durch drei geradlinige Seiten und den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f\\colon[-3;\\,3]\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^{2}+b"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a,\\,b\\in\\mathbb{R}"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-a-q.png",
+          "alt": "Nicht maßstabgetreue Abbildung eines Blumenbeets von oben: nach unten geöffnete Parabel f über [-3; 3], die zusammen mit drei geradlinigen Seiten das Beet begrenzt. f(x) in m, x in m."
+        },
+        {
+          "t": "text",
+          "v": "\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nFür den Parameter a gilt ①; für den Parameter b gilt ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "0<a<1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_149a",
+          "baseId": "2_149",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1043/2_149_srdp_ma_Garten_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Dieses Blumenbeet soll so umgestaltet werden, dass es die Form eines Rechtecks mit der Länge 6 m und der Breite c (in m) hat (siehe nachstehende Abbildung). Der Flächeninhalt des Blumenbeets soll durch die Umgestaltung nicht verändert werden."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-a2-q.png",
+          "alt": "Abbildung: das umgestaltete Blumenbeet als Rechteck der Länge 6 m (von x = -3 bis x = 3) und der Breite c."
+        },
+        {
+          "t": "text",
+          "v": "\n\nStellen Sie mithilfe von f eine Formel zur Berechnung von c auf.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "c="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Anzugeben ist die Formel "
+          },
+          {
+            "t": "math",
+            "v": "c=\\dfrac{1}{6}\\cdot\\int_{-3}^{3} f(x)\\,dx"
+          },
+          {
+            "t": "text",
+            "v": " (Flächeninhalt des Beets dividiert durch die Länge 6 m)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c=\\dfrac{1}{6}\\cdot\\int_{-3}^{3} f(x)\\,dx"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_149b",
+          "baseId": "2_149",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1043/2_149_srdp_ma_Garten_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem Garten wurde eine Fichte gepflanzt. Die Höhe dieser Fichte in Abhängigkeit von der Zeit t kann durch die Funktion h modelliert werden.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "h(t)=\\dfrac{35}{1+7\\cdot e^{-0{,}06\\cdot t}}-4"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit in Jahren mit "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " für den Zeitpunkt der Pflanzung\nh(t) ... Höhe der Fichte zum Zeitpunkt t in m\n\nDie Höhe der Fichte nähert sich gemäß diesem Modell für unbeschränkt größer werdende t beliebig nahe dem Wert G an.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "G=\\lim_{t\\to\\infty} h(t)"
+        },
+        {
+          "t": "text",
+          "v": "\n\nGeben Sie G an.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "G=\\rule{3em}{0.4pt}\\ \\mathrm{m}"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "G",
+            "label": "G",
+            "value": 31,
+            "tol": 1e-9,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "G=31\\ \\mathrm{m}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes von G."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_149c",
+          "baseId": "2_149",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1043/2_149_srdp_ma_Garten_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem Garten soll ein Gartenhaus errichtet werden. In der nachstehenden Abbildung ist ein Plan für dieses Gartenhaus in der Ansicht von der Seite dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-c-q.png",
+          "alt": "Seitenansicht eines Gartenhauses (Plan): linke senkrechte Wandhöhe h1, rechte senkrechte Wandhöhe h2 (h2 > h1), Bodenlänge ℓ; das Dach verläuft schräg von h1 zu h2."
+        },
+        {
+          "t": "text",
+          "v": "\n\nZeichnen Sie in der obigen Abbildung den Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": ", der mit der nachstehenden Formel berechnet werden kann, ein.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\alpha=\\arctan\\left(\\dfrac{h_2-h_1}{\\ell}\\right)"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Einzuzeichnen ist der Steigungswinkel "
+          },
+          {
+            "t": "math",
+            "v": "\\alpha"
+          },
+          {
+            "t": "text",
+            "v": " des Daches zwischen der Horizontalen und der schräg verlaufenden Dachlinie (an der Stelle, an der die Dachlinie die niedrigere Wand h1 erreicht). Das Markieren des rechten Winkels ist im Hinblick auf die Punktevergabe nicht erforderlich."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Winkel "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha"
+            },
+            {
+              "t": "text",
+              "v": " ist als Steigungswinkel der Dachlinie gegenüber der Horizontalen einzuzeichnen. Das Markieren des rechten Winkels ist im Hinblick auf die Punktevergabe nicht erforderlich."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-c-sol.png",
+              "alt": "Lösung: Plan des Gartenhauses mit eingezeichnetem Steigungswinkel α zwischen Horizontale und Dachlinie."
+            }
+          ],
+          "note": "Ein Punkt für das Einzeichnen des richtigen Winkels."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_149",
+      "baseId": "2_149",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1043/2_149_srdp_ma_Garten_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Garten"
+    }
+  ]
+}

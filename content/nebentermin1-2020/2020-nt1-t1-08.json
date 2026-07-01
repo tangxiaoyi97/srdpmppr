@@ -1,0 +1,141 @@
+{
+  "id": "2020-nt1-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2020n1]t1-8-fa.pdf"
+  },
+  "title": "Futterbedarf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-08-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "FA 2.6",
+          "description": "direkte Proportionalität als lineare Funktion vom Typ f(x) = k * x beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_789a",
+          "baseId": "1_789",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/573/Futterbedarf.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f(p)=c\\cdot p\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Gleichung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende Gleichung an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f(p)=p+t+c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(p)=c+p\\cdot t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(p)=\\tfrac{c\\cdot t}{p}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(p)=\\tfrac{c}{p\\cdot t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(p)=c\\cdot p\\cdot t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(p)=\\tfrac{p\\cdot t}{c}"
+            }
+          ]
+        ],
+        "correct": [
+          4
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_789",
+      "baseId": "1_789",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/573/Futterbedarf.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Reitstall werden Pferde für t Tage eingestellt. Der tägliche Futterbedarf jedes dieser Pferde wird als konstant angenommen und mit c bezeichnet.\n\nDie Funktion f beschreibt den gesamten Futterbedarf f(p) für t Tage in Abhängigkeit von der Anzahl p der Pferde in diesem Reitstall."
+    }
+  ]
+}

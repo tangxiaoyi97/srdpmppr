@@ -1,0 +1,109 @@
+{
+  "id": "2019-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2019h1]t1-13-an.pdf"
+  },
+  "title": "Kriminalstatistik 2010-2011",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_698a",
+          "baseId": "1_698",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/431/Kriminalstatistik%202010-2011.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{10\\,391-9\\,306}{9\\,306}\\approx 0{,}117"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die relative Änderung beträgt ca. 0,117."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,11; 0,12] bzw. [11 %; 12 %] Grundkompetenz: AN 1.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für das Burgenland die relative Änderung der angezeigten Kriminalfälle im Jahr 2011 im Vergleich zum Jahr 2010 an!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rel",
+            "value": 0.115,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_698",
+      "baseId": "1_698",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/431/Kriminalstatistik%202010-2011.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle gibt an, wie viele Kriminalfälle in jedem Bundesland in Österreich in den Jahren 2010 und 2011 angezeigt wurden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-13-q.png",
+      "alt": "Tabelle angezeigte Kriminalfälle 2010 / 2011 je Bundesland: Burgenland 9 306 / 10 391; Kärnten 30 192 / 29 710; Niederösterreich 73 146 / 78 634; Oberösterreich 66 141 / 67 477; Salzburg 29 382 / 30 948; Steiermark 55 167 / 55 472; Tirol 44 185 / 45 944; Vorarlberg 20 662 / 20 611; Wien 207 564 / 200 820."
+    }
+  ]
+}

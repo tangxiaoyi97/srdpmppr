@@ -1,0 +1,126 @@
+{
+  "id": "2023-ht-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2023h1]t1-19-fa.pdf"
+  },
+  "title": "Monatsgehälter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-19-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-19-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1286a",
+          "baseId": "1_1286",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/825/1_1286_srdp_ma_Monatsgeh%C3%A4lter_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\overline{x}=\\dfrac{40\\cdot 2\\,280{,}50-26\\cdot 2\\,200}{14}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overline{x}=2\\,430{,}00"
+            },
+            {
+              "t": "text",
+              "v": " €"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von x."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\overline{x}"
+        },
+        {
+          "t": "text",
+          "v": " der Monatsgehälter der Angestellten der ersten Abteilung."
+        },
+        {
+          "t": "math",
+          "v": "\\overline{x}="
+        },
+        {
+          "t": "text",
+          "v": " €"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x̄",
+            "value": 2430,
+            "tol": 0.5,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1286",
+      "baseId": "1_1286",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/825/1_1286_srdp_ma_Monatsgeh%C3%A4lter_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmtes Unternehmen hat zwei Abteilungen.\n\nIn der ersten Abteilung gibt es 14 Angestellte und in der zweiten Abteilung gibt es 26 Angestellte.\n\nÜber die Monatsgehälter der Angestellten ist Folgendes bekannt:\n- Das arithmetische Mittel der Monatsgehälter aller 40 Angestellten beträgt € 2.280,50.\n- Das arithmetische Mittel der Monatsgehälter der Angestellten der zweiten Abteilung beträgt € 2.200,00."
+    }
+  ]
+}

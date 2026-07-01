@@ -1,0 +1,113 @@
+{
+  "id": "2026-wt-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2026w1]t1-8-an.pdf"
+  },
+  "title": "Kostenfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-08-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1574a",
+          "baseId": "1_1574",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1087/1_1574_srdp_ma_Kostenfunktion_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "note": "Ein Punkt für das richtige Skizzieren des Graphen von K im Intervall [0; a]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der obigen Abbildung den Graphen der Kostenfunktion K im Intervall [0; a]."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Graph von K wird als der um F nach oben verschobene Graph von Kv im Intervall [0; a] skizziert (K(x) = Kv(x) + F, also bei x = 0 beim Wert F beginnend)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1574",
+      "baseId": "1_1574",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1087/1_1574_srdp_ma_Kostenfunktion_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Kostenfunktion "
+    },
+    {
+      "t": "math",
+      "v": "K:[0;a]\\to\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "K(x)=K_v(x)+F"
+    },
+    {
+      "t": "text",
+      "v": ".\nx ... produzierte Menge in ME\nK(x) ... Gesamtkosten für die produzierte Menge x in GE\nKv(x) ... variable Kosten für die produzierte Menge x in GE\nF ... Fixkosten in GE\n\nIn der nachstehenden Abbildung sind F und der Graph von Kv dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-08-q.png",
+      "alt": "Koordinatensystem (x in ME, Kv(x), K(x) in GE) mit dem Graphen der variablen Kosten Kv (durch den Ursprung) und der eingezeichneten Fixkostenhöhe F auf der vertikalen Achse."
+    }
+  ]
+}

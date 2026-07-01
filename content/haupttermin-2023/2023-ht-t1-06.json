@@ -1,0 +1,150 @@
+{
+  "id": "2023-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2023h1]t1-6-ag.pdf"
+  },
+  "title": "Dreieck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-6-ag.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-06-q.png",
+      "alt": "Rechtwinkeliges Dreieck: a = 15 cm, b = 36 cm, c = 39 cm; Winkel α oben, β unten links, rechter Winkel unten rechts"
+    }
+  ],
+  "parts": [
+    {
+      "id": "2023-ht-t1-06-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1273a",
+          "baseId": "1_1273",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/812/1_1273_srdp_ma_Dreieck_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=\\tfrac{15}{39}=\\tfrac{5}{13}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\cos(90^\\circ-\\alpha)=\\sin(\\alpha)=\\tfrac{15}{39}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=\\tfrac{5}{13}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\cos(\\beta)=\\tfrac{5}{12}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\tfrac{12}{5}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sin(90^\\circ-\\beta)=\\tfrac{15}{36}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\cos(90^\\circ-\\alpha)=\\tfrac{15}{39}"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1273",
+      "baseId": "1_1273",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/812/1_1273_srdp_ma_Dreieck_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden nicht maßstabgetreuen Abbildung ist ein rechtwinkeliges Dreieck dargestellt. Die Winkel werden in Grad gemessen, die Seitenlängen in cm."
+    }
+  ]
+}

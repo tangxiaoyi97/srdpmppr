@@ -1,0 +1,114 @@
+{
+  "id": "2022-wt-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2022w1]t1-24-ws.pdf"
+  },
+  "title": "Approximation durch die Normalverteilung",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-24-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "P(\\mu - \\sigma \\le X \\le \\mu + \\sigma)"
+            },
+            {
+              "t": "text",
+              "v": "  und  "
+            },
+            {
+              "t": "math",
+              "v": "P(\\mu - 2 \\cdot \\sigma \\le X)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Ausdrücke an, deren Wert mindestens 66 % beträgt. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "P(0 \\le X \\le \\mu)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(\\mu \\le X)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X \\le \\mu - \\sigma)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(\\mu - \\sigma \\le X \\le \\mu + \\sigma)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(\\mu - 2 \\cdot \\sigma \\le X)"
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine binomialverteilte Zufallsvariable, die durch die normalverteilte Zufallsvariable X mit dem Erwartungswert μ und der Standardabweichung σ approximiert wird."
+    }
+  ]
+}

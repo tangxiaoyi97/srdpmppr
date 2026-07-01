@@ -1,0 +1,125 @@
+{
+  "id": "2019-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2019h1]t1-22-ws.pdf"
+  },
+  "title": "Häufigkeit von Nebenwirkungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-22-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_707a",
+          "baseId": "1_707",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/440/H%C3%A4ufigkeit%20von%20Nebenwirkungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Die Zufallsvariable X beschreibt die Anzahl an von dieser Nebenwirkung betroffenen Personen."
+            },
+            {
+              "t": "math",
+              "v": "n=50\\,000"
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}0001"
+            },
+            {
+              "t": "math",
+              "v": "E(X)=n\\cdot p=50\\,000\\cdot 0{,}0001=5"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die erwartete Anzahl an von dieser Nebenwirkung betroffenen Personen ist mindestens 5."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Grundkompetenz: WS 3.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Verwenden Sie die obigen Häufigkeitsangaben als Wahrscheinlichkeiten und bestimmen Sie unter dieser Voraussetzung, wie groß die erwartete Anzahl an von dieser Nebenwirkung betroffenen Personen mindestens ist!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "E",
+            "value": 5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_707",
+      "baseId": "1_707",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/440/H%C3%A4ufigkeit%20von%20Nebenwirkungen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Pharmaunternehmen sind verpflichtet, alle bekannt gewordenen Nebenwirkungen eines Medikaments im Beipackzettel anzugeben. Die Häufigkeitsangaben zu Nebenwirkungen basieren auf folgenden Kategorien:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-22-q.png",
+      "alt": "Tabelle Häufigkeitsangabe / Auftreten von Nebenwirkungen: sehr häufig (mehr als 1 von 10), häufig (1 bis 10 von 100), gelegentlich (1 bis 10 von 1 000), selten (1 bis 10 von 10 000), sehr selten (weniger als 1 von 10 000), nicht bekannt (nicht abschätzbar)."
+    },
+    {
+      "t": "text",
+      "v": "Eine bestimmte Nebenwirkung ist im Beipackzettel eines Medikaments mit der Häufigkeitsangabe „selten“ kategorisiert.\nEs werden 50 000 Personen unabhängig voneinander mit diesem Medikament behandelt. Bei einer gewissen Anzahl dieser Personen tritt diese Nebenwirkung auf."
+    }
+  ]
+}

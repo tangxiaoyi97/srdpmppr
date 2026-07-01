@@ -1,0 +1,126 @@
+{
+  "id": "2025-wt-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2025w1]t1-11-fa.pdf"
+  },
+  "title": "Anzahl an Brutpaaren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1435a",
+          "baseId": "1_1435",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/997/1_1435_srdp_ma_Anzahl%20an%20Brutpaaren_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Brutpaare hat sich in 15 Jahren verachtfacht, das entspricht 3 Verdoppelungen. Die Anzahl der Brutpaare verdoppelt sich alle 5 Jahre.\noder:\na ... Wachstumsfaktor; T ... Verdoppelungszeit\n"
+            },
+            {
+              "t": "math",
+              "v": "a=\\sqrt[15]{8}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "2=\\left(\\sqrt[15]{8}\\right)^{T}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "T=5"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Brutpaare verdoppelt sich alle 5 Jahre."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Anzahl der Jahre, in denen sich die Anzahl an Brutpaaren verdoppelt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "T",
+            "label": "T",
+            "value": 5,
+            "tol": 1e-9,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1435",
+      "baseId": "1_1435",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/997/1_1435_srdp_ma_Anzahl%20an%20Brutpaaren_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Naturschutzgebiet wird eine bestimmte Vogelart beobachtet. Im Verlauf von 15 Jahren hat sich die Anzahl an Brutpaaren dieser Vogelart von ursprünglich 3 auf 24 erhöht.\nEs wird angenommen, dass die Anzahl an Brutpaaren mit den Jahren exponentiell zunimmt."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2021-het-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2021h2]t1-19-ws.pdf"
+  },
+  "title": "Ergebnisse einer Mathematikschularbeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_872a",
+          "baseId": "1_872",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/681/Ergebnisse_Mathematikschularbeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=5"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=2"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer bestimmten Mathematikschularbeit, bei der 30 Schüler/innen teilnahmen, konnten maximal 48 Punkte erreicht werden.\nDie Ergebnisse dieser Mathematikschularbeit sind nachstehend in einem Boxplot und in einem Stängel-Blatt-Diagramm dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-19-q.png",
+          "alt": "Boxplot der Punkte (0 bis 45) und Stängel-Blatt-Diagramm mit Zehnerziffer und Einerziffer; gesuchte Werte a und b."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie a und b an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 5,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 2,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "perBlank",
+        "pointsPerCorrect": 0.5,
+        "max": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_872",
+      "baseId": "1_872",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/681/Ergebnisse_Mathematikschularbeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

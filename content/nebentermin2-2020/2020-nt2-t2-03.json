@@ -1,0 +1,460 @@
+{
+  "id": "2020-nt2-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2020n2]t2-3.pdf"
+  },
+  "title": "Aufzugsfahrt",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059a",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für jeden im Folgenden genannten Abschnitt der dargestellten Aufzugsfahrt das entsprechende Zeitintervall an.\n\nAufzug bremst ab:\n\nAufzug fährt mit konstanter Geschwindigkeit:"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "brems_von",
+            "label": "Aufzug bremst ab — von",
+            "value": 17,
+            "tol": 0.3,
+            "unit": "s"
+          },
+          {
+            "id": "brems_bis",
+            "label": "Aufzug bremst ab — bis",
+            "value": 20,
+            "tol": 0.3,
+            "unit": "s"
+          },
+          {
+            "id": "konst_von",
+            "label": "konstante Geschwindigkeit — von",
+            "value": 3.5,
+            "tol": 0.3,
+            "unit": "s"
+          },
+          {
+            "id": "konst_bis",
+            "label": "konstante Geschwindigkeit — bis",
+            "value": 17,
+            "tol": 0.3,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Aufzug bremst ab: [17 s; 20 s]\nAufzug fährt mit konstanter Geschwindigkeit: [3,5 s; 17 s]"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die Angabe der beiden richtigen Zeitintervalle. Abweichungen von bis zu ±0,3 s bei den Intervallgrenzen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-03-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059a",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kim behauptet, dass die Geschwindigkeit des Aufzugs im Zeitintervall [1,5 s; 2 s] konstant bleibt.\n\nGeben Sie an, ob Kim recht hat, und begründen Sie Ihre Entscheidung."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Kim hat nicht recht, da die Beschleunigung in diesem Zeitintervall konstant und positiv ist und somit die Geschwindigkeit gleichmäßig (linear) zunimmt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für eine richtige Beschreibung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Kim hat nicht recht, da die Beschleunigung in diesem Zeitintervall konstant und positiv ist und somit die Geschwindigkeit gleichmäßig (linear) zunimmt."
+            }
+          ],
+          "note": "a2) Ein Punkt für eine richtige Beschreibung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059b",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie anhand der gegebenen Abbildung näherungsweise die Höchstgeschwindigkeit v_max während der dargestellten Aufzugsfahrt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "vmax",
+            "label": "v_max",
+            "value": 1.2,
+            "tol": 0.2,
+            "unit": "m/s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{3{,}5+0{,}5}{2}\\cdot 0{,}6=1{,}2"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v_{\\max}\\approx 1{,}2\\ \\text{m/s}"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss. Toleranzintervall: [1 m/s; 1,4 m/s]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059b",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph der Funktion a schließt mit der t-Achse in den Zeitintervallen [0; 3,5] und [17; 20] jeweils ein Flächenstück ein.\n\nBegründen Sie, warum im gegebenen Kontext die Inhalte dieser beiden Flächenstücke gleich groß sein müssen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Inhalte der beiden Flächenstücke müssen gleich groß sein, da die Geschwindigkeitszunahme während der Beschleunigungsphase gleich groß wie die Geschwindigkeitsabnahme während des Abbremsvorgangs sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für eine richtige Begründung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Inhalte der beiden Flächenstücke müssen gleich groß sein, da die Geschwindigkeitszunahme während der Beschleunigungsphase gleich groß wie die Geschwindigkeitsabnahme während des Abbremsvorgangs sein muss."
+            }
+          ],
+          "note": "b2) Ein Punkt für eine richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059c",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Produzent von Aufzugsanlagen plant die Herstellung eines neuen Aufzugs.\nDie Beschleunigung dieses Aufzugs wird in den ersten 3 Sekunden durch die differenzierbare Funktion a₁: [0; 3] → ℝ mit"
+        },
+        {
+          "t": "math",
+          "v": "a_1(t)=\\begin{cases}0{,}6\\cdot t^{2}\\cdot(3-2\\cdot t) & \\text{für } 0\\le t<1\\\\[2pt] 0{,}6 & \\text{für } 1\\le t<2\\\\[2pt] 0{,}6\\cdot(t-3)^{2}\\cdot(2\\cdot t-3) & \\text{für } 2\\le t\\le 3\\end{cases}"
+        },
+        {
+          "t": "text",
+          "v": "beschrieben (t in s, a₁(t) in m/s²).\n\nBerechnen Sie die Geschwindigkeitszunahme dieses Aufzugs im Zeitintervall [0; 3]."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dv",
+            "value": 1.2,
+            "tol": 0.1,
+            "unit": "m/s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{1}0{,}6\\cdot t^{2}\\cdot(3-2\\cdot t)\\,dt+\\int_{1}^{2}0{,}6\\,dt+\\int_{2}^{3}0{,}6\\cdot(t-3)^{2}\\cdot(2\\cdot t-3)\\,dt=1{,}2"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall [0; 3] beträgt die Geschwindigkeitszunahme 1,2 m/s."
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss. Toleranzintervall: [1,1; 1,3] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_059c",
+          "baseId": "2_059",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für den Verlauf der Fahrt müssen bestimmte Bedingungen für die Beschleunigung eingehalten werden. Der sogenannte Ruck, die momentane Änderungsrate der Beschleunigung, soll bei einer Fahrt mit einem Aufzug Werte zwischen –1 m/s³ und 1 m/s³ annehmen.\n\nÜberprüfen Sie, ob dieser Aufzug bei t = 1 die angeführten Bedingungen für den Ruck einhält."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "a₁′(t) = 0 für alle t ∈ [1; 2) ⇒ a₁′(1) = 0. Zum Zeitpunkt t = 1 beträgt die momentane Änderungsrate der Beschleunigung 0 m/s³. Die angeführten Bedingungen sind bei t = 1 eingehalten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "a_1'(t)=0\\ \\text{für alle}\\ t\\in[1;2)\\ \\Rightarrow\\ a_1'(1)=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 1 beträgt die momentane Änderungsrate der Beschleunigung 0 m/s³. Die angeführten Bedingungen sind bei t = 1 eingehalten."
+            }
+          ],
+          "note": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_059",
+      "baseId": "2_059",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/536/Aufzugsfahrt.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeiten von Personenaufzügen können sich je nach Bauart und Gebäudehöhe sehr stark unterscheiden.\n\nDie nachstehende Abbildung zeigt das Zeit-Beschleunigung-Diagramm für eine 20 s dauernde Aufzugsfahrt. Zu Beginn und am Ende der Fahrt steht der Aufzug still. Die Zeit t wird in Sekunden, die Beschleunigung a(t) in m/s² angegeben. Die Beschleunigungswerte wurden mithilfe eines Sensors ermittelt und der Verlauf der Beschleunigung wurde mit einer differenzierbaren Funktion a modelliert."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-03-q.png",
+      "alt": "Zeit-Beschleunigung-Diagramm einer 20 s dauernden Aufzugsfahrt: a(t) startet bei 0, steigt auf ca. 0,6 m/s² (Beschleunigungsphase bis ca. 3,5 s), bleibt 0 zwischen ca. 3,5 s und 17 s, und sinkt auf negative Werte (Abbremsphase) bis 20 s."
+    }
+  ]
+}

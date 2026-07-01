@@ -1,0 +1,118 @@
+{
+  "id": "2019-nt1-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2019n1]t1-24-ws.pdf"
+  },
+  "title": "Sonntagsfrage",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nh ... relative Häufigkeit, "
+            },
+            {
+              "t": "math",
+              "v": "h=0{,}234"
+            },
+            {
+              "t": "math",
+              "v": "0{,}234\\pm 1{,}96\\cdot\\sqrt{\\tfrac{0{,}234\\cdot(1-0{,}234)}{1\\,000}}\\approx 0{,}234\\pm 0{,}026\\ \\Rightarrow\\ [0{,}208;\\ 0{,}260]"
+            },
+            {
+              "t": "math",
+              "v": "0{,}295\\notin[0{,}208;\\ 0{,}260]"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der tatsächliche Anteil liegt nicht im berechneten 95-%-Konfidenzintervall."
+            }
+          ],
+          "note": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist. Toleranzintervall für den unteren Wert: [0,2; 0,22] Toleranzintervall für den oberen Wert: [0,25; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie auf Basis dieses Umfrageergebnisses ein symmetrisches 95-%-Konfidenzintervall für den (unbekannten) Stimmenanteil der Partei A und geben Sie an, ob der tatsächliche Anteil in diesem Intervall enthalten ist."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein richtiges symmetrisches 95-%-Konfidenzintervall ist "
+          },
+          {
+            "t": "math",
+            "v": "[0{,}208;\\ 0{,}260]"
+          },
+          {
+            "t": "text",
+            "v": " (Toleranzintervall für den unteren Wert: [0,2; 0,22]; für den oberen Wert: [0,25; 0,27]). Da "
+          },
+          {
+            "t": "math",
+            "v": "0{,}295\\notin[0{,}208;\\ 0{,}260]"
+          },
+          {
+            "t": "text",
+            "v": ", liegt der tatsächliche Anteil nicht im berechneten Konfidenzintervall."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Sonntagsfrage nennt man in der Meinungsforschung die Frage „Welche Partei würden Sie wählen, wenn am kommenden Sonntag Wahlen wären?“. Bei einer solchen Sonntagsfrage, bei der die Parteien A und B zur Auswahl standen, gaben 234 von 1 000 befragten Personen an, Partei A zu wählen. Bei der darauffolgenden Wahl lag der tatsächliche Anteil der Personen, die die Partei A gewählt haben, bei 29,5 %."
+    }
+  ]
+}

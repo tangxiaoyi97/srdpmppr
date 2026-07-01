@@ -1,0 +1,147 @@
+{
+  "id": "2021-het-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2021h2]t1-13-an.pdf"
+  },
+  "title": "Abkühlung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-13-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_866a",
+          "baseId": "1_866",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/675/Abkuehlung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Zum Zeitpunkt t = 1 beträgt die momentane Änderungsrate der Temperatur des Körpers –15 °C/h.“ und "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{T(3)-T(1)}{2}>-15"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die differenzierbare Funktion T ordnet der Zeit t ≥ 0 die Temperatur T(t) eines Körpers zu (t in h, T(t) in °C).\n\nDie nachstehende Abbildung zeigt den Graphen dieser Funktion T."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-13-q.png",
+          "alt": "Graph der fallenden Funktion T (T(t) in °C über t in h, 0 bis 5)."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: T′(1) = –15.\n\nKreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 2 ist die momentane Änderungsrate der Temperatur des Körpers kleiner als –15 °C/h."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Temperatur des Körpers ist eine Stunde nach Beginn des Abkühlungsprozesses um 15 °C niedriger als zum Zeitpunkt t = 0."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 1 beträgt die momentane Änderungsrate der Temperatur des Körpers –15 °C/h."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{T(3)-T(1)}{2}>-15"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Verlauf der ersten Stunde beträgt die durchschnittliche Abkühlungsgeschwindigkeit des Körpers 15 °C/h."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_866",
+      "baseId": "1_866",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/675/Abkuehlung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

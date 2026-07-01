@@ -1,0 +1,185 @@
+{
+  "id": "2025-ht-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2025h1]t1-3-ag.pdf"
+  },
+  "title": "Gleichung mit Parameter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-03-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1451a",
+          "baseId": "1_1451",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1021/1_1451_srdp_ma_Gleichung%20mit%20Parameter%20_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a=0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② keine reelle Lösung"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nWenn ① ist, dann hat die Gleichung ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "keine reelle Lösung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "zwei reelle Lösungen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "unendlich viele Lösungen"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1451",
+      "baseId": "1_1451",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1021/1_1451_srdp_ma_Gleichung%20mit%20Parameter%20_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "a\\cdot x-5=10"
+    },
+    {
+      "t": "text",
+      "v": " in "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit dem Parameter "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

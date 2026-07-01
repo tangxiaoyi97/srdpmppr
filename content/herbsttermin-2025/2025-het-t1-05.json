@@ -1,0 +1,111 @@
+{
+  "id": "2025-het-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2025h2]t1-5-ag.pdf"
+  },
+  "title": "Einzeichnen eines Vektors",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-05-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1547a",
+          "baseId": "1_1547",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1054/1_1547_srdp_ma_Einzeichnen%20eines%20Vektors_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ausgehend von P wird ein Pfeil b mit gleicher Länge wie a eingezeichnet, der normal auf a steht. Es gibt zwei mögliche Lösungen (b nach der einen oder der anderen Seite)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie einen möglichen Vektor b als Pfeil ausgehend von P ein."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein möglicher Vektor b wird als Pfeil ausgehend von P eingezeichnet, wobei b dieselbe Länge wie a hat und normal (senkrecht) auf a steht (sodass a·b = 0). Beide möglichen Orientierungen (um 90° nach links oder nach rechts gegenüber a gedreht) sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1547",
+      "baseId": "1_1547",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1054/1_1547_srdp_ma_Einzeichnen%20eines%20Vektors_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind der Vektor a sowie der Punkt P dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-q.png",
+      "alt": "Koordinatengitter mit dem als Pfeil dargestellten Vektor a (nach rechts oben gerichtet) und dem Punkt P."
+    },
+    {
+      "t": "text",
+      "v": "Für einen Vektor b gilt:\n- a und b haben die gleiche Länge\n- "
+    },
+    {
+      "t": "math",
+      "v": "a\\cdot b=0"
+    }
+  ]
+}

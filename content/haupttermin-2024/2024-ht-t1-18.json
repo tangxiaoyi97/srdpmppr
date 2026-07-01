@@ -1,0 +1,122 @@
+{
+  "id": "2024-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2024h1]t1-18-an.pdf"
+  },
+  "title": "Flächeninhalt zwischen zwei Funktionsgraphen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1357a",
+          "baseId": "1_1357",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/909/1_1357_srdp_ma_Flaecheninhalt%20zwischen%20zwei%20Funktionsgraphen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "A=\\displaystyle\\int_{0}^{6}\\big(g(x)-f(x)\\big)\\,dx=G(6)-G(0)-\\big(F(6)-F(0)\\big)=12-(-3)-(6-0)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "A=9"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von A."
+        },
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Toleranzbereich: "
+            },
+            {
+              "t": "math",
+              "v": "[8{,}5;9{,}5]"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe der Abbildungen den Flächeninhalt A der grau markierten Fläche."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "A",
+            "label": "A",
+            "value": 9,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1357",
+      "baseId": "1_1357",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/909/1_1357_srdp_ma_Flaecheninhalt%20zwischen%20zwei%20Funktionsgraphen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In Abbildung 1 sind die Graphen der quadratischen Funktion f und der linearen Funktion g dargestellt.\nIn Abbildung 2 sind die Graphen der Funktionen F und G dargestellt.\n\nEs gilt:\nF ist eine Stammfunktion von f.\nG ist eine Stammfunktion von g."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-18-q.png",
+      "alt": "Abbildung 1: Graphen von f (quadratisch) und g (linear). Abbildung 2: Graphen der Stammfunktionen F und G; grau markierte Fläche."
+    }
+  ]
+}

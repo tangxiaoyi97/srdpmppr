@@ -1,0 +1,111 @@
+{
+  "id": "2026-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2026h1]t1-21-ws.pdf"
+  },
+  "title": "Änderung einer Datenliste",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-21-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1611a",
+          "baseId": "1_1611",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1131/1_1611_%C3%84nderung%20einer%20Datenliste_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar{x}=46{,}3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von x."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{x}"
+        },
+        {
+          "t": "text",
+          "v": " der geänderten Datenliste."
+        },
+        {
+          "t": "math",
+          "v": "\\bar{x}="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x̄",
+            "value": 46.3,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1611",
+      "baseId": "1_1611",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1131/1_1611_%C3%84nderung%20einer%20Datenliste_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine bestimmte Datenliste besteht aus 20 Werten, die alle voneinander verschieden sind.\nDas arithmetische Mittel dieser Datenliste beträgt 46.\n\nEin Wert der Datenliste wird von 42 auf 48 geändert."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "2019-ht-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2019h1]t1-20-ws.pdf"
+  },
+  "title": "Lawinengefahr",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-20-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_705a",
+          "baseId": "1_705",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/438/Lawinengefahr.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Zentriwinkel des Sektors für „Gefahrenstufe 2“ ist größer als 180°. Das bedeutet, dass mehr als 50 % der Einträge in der zugrunde liegenden Datenliste Tage mit „Gefahrenstufe 2“ sind. Daher beträgt der Median 2."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für eine richtige Begründung. Andere richtige Begründungen (z. B. grafische Begründungen) sind ebenfalls als richtig zu werten. Grundkompetenz: WS 1.4"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die Gefahrenstufe 2 der Median der Datenliste (die der obigen Abbildung zugrunde liegt) sein muss!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Zentriwinkel des Sektors für „Gefahrenstufe 2“ ist größer als 180°. Das bedeutet, dass mehr als 50 % der Einträge in der zugrunde liegenden Datenliste Tage mit „Gefahrenstufe 2“ sind. Daher beträgt der Median 2."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Begründung. Andere richtige Begründungen (z. B. grafische Begründungen) sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_705",
+      "baseId": "1_705",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/438/Lawinengefahr.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den Wintermonaten wird täglich vom Lawinenwarndienst der sogenannte Lawinenlagebericht veröffentlicht. Dieser enthält unter anderem eine Einschätzung der Lawinengefahr entsprechend den fünf Gefahrenstufen.\n\nIn einer bestimmten Region wurden im Winter 2013/14 Aufzeichnungen über die Gefahrenstufen geführt. Die Aufzeichnungen listen in einer Datenliste alle Tage auf, an denen eine der Gefahrenstufen 1 bis 4 galt. (Für die Gefahrenstufe 5 gibt es in dieser Datenliste keinen Eintrag, da diese Gefahrenstufe im betrachteten Zeitraum nicht auftrat.)\n\nDie nachstehende Abbildung zeigt den relativen Anteil der Tage mit einer entsprechenden Gefahrenstufe."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-20-q.png",
+      "alt": "Kreisdiagramm der relativen Anteile der Tage je Gefahrenstufe 1 bis 4; der Sektor für Gefahrenstufe 2 ist der größte und umfasst mehr als die Hälfte des Kreises."
+    }
+  ]
+}

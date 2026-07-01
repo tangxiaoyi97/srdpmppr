@@ -1,0 +1,137 @@
+{
+  "id": "2024-wt-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2024w1]t1-22-ws.pdf"
+  },
+  "title": "Kugeln",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-22-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1337a",
+          "baseId": "1_1337",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/885/1_1337_srdp_ma_Kugeln_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "p=\\dfrac{n}{n+5}\\cdot\\dfrac{n-1}{n+4}\\cdot\\dfrac{5}{n+3}\\cdot 3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende Aussage an. [1 aus 6]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{n}{n+5}\\cdot\\dfrac{n-1}{n+5}\\cdot\\dfrac{5}{n+5}\\cdot 3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{\\binom{n}{2}}{n+5}\\cdot\\dfrac{5}{n+5}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{n}{n+5}\\cdot\\dfrac{n-1}{n+4}\\cdot\\dfrac{5}{n+3}\\cdot 3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{5}{n+5}\\cdot\\dfrac{\\binom{n}{2}}{n+5}\\cdot 3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{5}{n+5}\\cdot\\dfrac{n}{n+4}\\cdot\\dfrac{n-1}{n+3}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{5}{n+5}\\cdot\\dfrac{n}{n+5}\\cdot\\dfrac{n-1}{n+5}"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1337",
+      "baseId": "1_1337",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/885/1_1337_srdp_ma_Kugeln_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Gefäß befinden sich 5 rote und n grüne Kugeln (n ≥ 2).\n\nEs werden 3 Kugeln ohne Zurücklegen aus dem Gefäß gezogen.\n\nDie Wahrscheinlichkeit, dass genau 2 grüne Kugeln gezogen werden, wird mit p bezeichnet."
+    }
+  ]
+}

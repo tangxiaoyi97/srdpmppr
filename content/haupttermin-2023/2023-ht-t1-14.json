@@ -1,0 +1,115 @@
+{
+  "id": "2023-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2023h1]t1-14-an.pdf"
+  },
+  "title": "Radfahrerin",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-14-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1281a",
+          "baseId": "1_1281",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/820/1_1281_srdp_ma_Radfahrerin_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit der Radfahrerin nimmt (zu jedem Zeitpunkt) im Zeitintervall [0; 6] zu.\noder:\nDie Beschleunigung/momentane Änderungsrate der Geschwindigkeit der Radfahrerin ist (zu jedem Zeitpunkt) im Zeitintervall [0; 6] positiv."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Beschreiben der Bedeutung im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beschreiben Sie die Bedeutung der angegebenen Ungleichung im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Geschwindigkeit der Radfahrerin nimmt (zu jedem Zeitpunkt) im Zeitintervall [0; 6] zu.\noder:\nDie Beschleunigung/momentane Änderungsrate der Geschwindigkeit der Radfahrerin ist (zu jedem Zeitpunkt) im Zeitintervall [0; 6] positiv."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Beschreiben der Bedeutung im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1281",
+      "baseId": "1_1281",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/820/1_1281_srdp_ma_Radfahrerin_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die differenzierbare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "v:\\mathbb{R}_0^+\\to\\mathbb{R}_0^+,\\ t\\mapsto v(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt modellhaft die Geschwindigkeit einer Radfahrerin auf ihrer Fahrt zur Schule in Abhängigkeit von der Zeit (t in s, v(t) in m/s).\n\nFür alle t ∈ [0; 6] gilt: "
+    },
+    {
+      "t": "math",
+      "v": "v'(t)>0"
+    }
+  ]
+}

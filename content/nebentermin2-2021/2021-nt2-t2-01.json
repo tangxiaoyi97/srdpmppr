@@ -1,0 +1,460 @@
+{
+  "id": "2021-nt2-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2021n2]t2-1.pdf"
+  },
+  "title": "Tee",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.6",
+          "description": "die Angemessenheit einer Beschreibung mittels Exponentialfunktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097a",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Modellhaft wird angenommen, dass der Pro-Kopf-Verbrauch von Tee in Österreich jedes Jahr im Vergleich zum jeweiligen Vorjahr um den gleichen Prozentsatz steigt.\n\nUnter dieser Annahme gibt die Funktion f den jährlichen Pro-Kopf-Verbrauch von Tee in Österreich ab 2016 in Abhängigkeit von der Zeit t an (t in Jahren, f(t) in Litern).\n\nGeben Sie an, um welchen Funktionstyp es sich bei f handelt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Richtiger Funktionstyp: Exponentialfunktion."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die Angabe des richtigen Funktionstyps. Grundkompetenzpunkt: FA 1.9"
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097a",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der jährliche Pro-Kopf-Verbrauch von Tee lag in Österreich im Jahr 2016 bei 33 L. Der Anteil des Tees, der in Österreich im Jahr 2016 mittels Teebeuteln zubereitet wurde, beträgt 95 %.\n\nEs werden folgende Annahmen getroffen:\n- Der Pro-Kopf-Verbrauch von Tee in Österreich steigt seit dem Jahr 2016 jedes Jahr im Vergleich zum jeweiligen Vorjahr um 2 %.\n- Der Anteil des Tees, der in Österreich jedes Jahr mittels Teebeuteln zubereitet wird, bleibt gleich.\n\nGeben Sie an, wie viele Liter Tee im Jahr 2026 unter den oben angeführten Annahmen pro Kopf in Österreich mittels Teebeuteln zubereitet werden."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "L",
+            "label": "Liter Tee mittels Teebeuteln (2026)",
+            "value": 38.2,
+            "tol": 0.1,
+            "unit": "L"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "33\\cdot 1{,}02^{10}\\cdot 0{,}95=38{,}21\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "In Österreich werden im Jahr 2026 pro Kopf ca. 38,2 L Tee mittels Teebeuteln zubereitet."
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung, wobei die Einheit „L“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097b",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der weltweit größte Teeproduzent ist China. Die nachstehende Tabelle gibt die Menge des in China produzierten Tees in Millionen Tonnen für einige Jahre im Zeitraum von 2011 bis 2017 an.\n\nJahr | 2011 | 2013 | 2015 | 2017\nMenge des in China produzierten Tees in Millionen Tonnen | 1,55 | 1,85 | 2,23 | 2,55\n\nDie Menge des in China produzierten Tees soll in Abhängigkeit von der Zeit t ab dem Jahr 2011 näherungsweise durch eine lineare Funktion g beschrieben werden (t in Jahren ab dem Jahr 2011, g(t) in Millionen Tonnen).\n\nGeben Sie unter Verwendung der Daten aus den Jahren 2011 und 2017 eine Funktionsgleichung für g an."
+        },
+        {
+          "t": "math",
+          "v": "g(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{1}{6}\\cdot t+1.55",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "g(0)=1{,}55,\\quad g(6)=2{,}55"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "g(t)=\\tfrac{1}{6}\\cdot t+1{,}55"
+            }
+          ],
+          "note": "b1) Ein Punkt für eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-01-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097b",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In den Jahren 2013 und 2015 gibt es jeweils eine Abweichung zwischen den Funktionswerten von g und den Werten aus der obigen Tabelle.\n\nGeben Sie an, in welchem der Jahre 2013 und 2015 der Betrag der absoluten Abweichung zwischen dem Funktionswert von g und dem zugehörigen Wert aus der obigen Tabelle größer ist. Ermitteln Sie für das angegebene Jahr ebenso den Betrag der absoluten Abweichung."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "jahr",
+            "label": "Jahr",
+            "value": 2013
+          },
+          {
+            "id": "abweichung",
+            "label": "Betrag der absoluten Abweichung",
+            "value": 0.03,
+            "tol": 0.005,
+            "unit": "Millionen Tonnen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jahr: 2013;  Betrag der absoluten Abweichung: 0,03 Millionen Tonnen"
+            }
+          ],
+          "note": "b2) Ein Punkt für die Angabe des richtigen Jahres und der richtigen Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097c",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Heißer Tee kühlt bei niedrigerer Umgebungstemperatur ab.\n\nDie Temperatur T(t) des Tees t Minuten nach Beginn des Abkühlungsprozesses kann bei einer Anfangstemperatur T₀ und einer konstanten Umgebungstemperatur T_U durch die nachstehende Funktionsgleichung näherungsweise beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "T(t)=(T_0-T_U)\\cdot e^{-k\\cdot t}+T_U\\ \\text{mit}\\ k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "(t in Minuten, T_U in °C, T₀ in °C, T(t) in °C)\n\nEine Tasse mit Tee mit der Anfangstemperatur T₀ = 90 °C wird in einen Raum mit einer konstanten Umgebungstemperatur von T_U = 20 °C gestellt. Der Tee ist nach 10 Minuten auf eine Temperatur von 65 °C abgekühlt.\n\nErmitteln Sie k."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": 0.044,
+            "tol": 0.0005,
+            "unit": "min⁻¹"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "65=70\\cdot e^{-k\\cdot 10}+20"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "k=\\dfrac{\\ln\\!\\left(\\tfrac{45}{70}\\right)}{-10}=0{,}0441\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "k\\approx 0{,}044\\ \\text{min}^{-1}"
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „min–1“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.3",
+          "description": "die Wirkung der Parameter a und b (bzw. e^lambda ) kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_097c",
+          "baseId": "2_097",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nehmen Sie an, dass der ermittelte Wert von k sowohl für den Abkühlungsprozess eines Tees mit einer Anfangstemperatur von 90 °C als auch für den Abkühlungsprozess eines anderen Tees mit einer Anfangstemperatur von 70 °C gilt.\n\nGeben Sie an, bei welcher Umgebungstemperatur T_U beide Tees in der gleichen Zeit auf die Hälfte des Wertes ihrer jeweiligen Anfangstemperatur (in °C) abkühlen."
+        },
+        {
+          "t": "math",
+          "v": "T_U="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "TU",
+            "label": "T_U",
+            "value": 0,
+            "unit": "°C"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "45=(90-T_U)\\cdot e^{-k\\cdot t}+T_U"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "35=(70-T_U)\\cdot e^{-k\\cdot t}+T_U"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow\\ \\dfrac{45-T_U}{90-T_U}=\\dfrac{35-T_U}{70-T_U}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "T_U=0\\ ^\\circ\\mathrm{C}"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_097",
+      "baseId": "2_097",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Tee ist weltweit eines der meistkonsumierten Getränke."
+    }
+  ]
+}

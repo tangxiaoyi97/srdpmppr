@@ -1,0 +1,476 @@
+{
+  "id": "2019-nt2-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2019n2]t2-2.pdf"
+  },
+  "title": "Kondensator",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t2-02-a1",
+      "label": "a1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_042a",
+          "baseId": "2_042",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/416/Kondensator.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Kondensator mit einer bestimmten Kapazität C wird bis zur Ladungsmenge "
+        },
+        {
+          "t": "math",
+          "v": "Q_1"
+        },
+        {
+          "t": "text",
+          "v": " aufgeladen, die gemessene Spannung "
+        },
+        {
+          "t": "math",
+          "v": "U(Q_1)"
+        },
+        {
+          "t": "text",
+          "v": " hat dann den Wert "
+        },
+        {
+          "t": "math",
+          "v": "U_1"
+        },
+        {
+          "t": "text",
+          "v": ".\nSkizzieren Sie in der nachstehenden Abbildung die Spannung U beim Ladevorgang am Kondensator in Abhängigkeit von der Ladung Q!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-02-a1-q.png",
+          "alt": "Leeres Koordinatensystem mit U(Q) auf der senkrechten Achse (Wert U1 markiert) und Q auf der waagrechten Achse (Wert Q1 markiert)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Skizze einer durch den Ursprung verlaufenden, ansteigenden Geraden U(Q), die durch den Punkt "
+          },
+          {
+            "t": "math",
+            "v": "(Q_1\\,|\\,U_1)"
+          },
+          {
+            "t": "text",
+            "v": " geht (direkt proportionaler Zusammenhang "
+          },
+          {
+            "t": "math",
+            "v": "U=\\tfrac{Q}{C}"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für eine richtige Skizze.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine durch den Ursprung verlaufende Gerade U(Q), die durch den Punkt (Q1 | U1) verläuft."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine richtige Skizze."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-02-a2",
+      "label": "a2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_042a",
+          "baseId": "2_042",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/416/Kondensator.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die in diesem Kondensator gespeicherte Energie W kann mithilfe der Formel "
+        },
+        {
+          "t": "math",
+          "v": "W=\\int_{0}^{Q_1} U(Q)\\,dQ"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden.\nGeben Sie eine Formel für die gespeicherte Energie W in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "U_1"
+        },
+        {
+          "t": "text",
+          "v": " und C an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{1}{2}\\cdot C\\cdot U_1^{2}",
+        "vars": [
+          "C",
+          "U_1"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Formel. Äquivalente Formeln sind als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "W=\\int_{0}^{Q_1} U(Q)\\,dQ=\\tfrac{1}{2}\\cdot U_1\\cdot Q_1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "W=\\tfrac{1}{2}\\cdot C\\cdot U_1^{2}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_042b",
+          "baseId": "2_042",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/416/Kondensator.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Ladevorgang kann die Spannung zwischen den Kondensatorplatten als Funktion U in Abhängigkeit von der Zeit t durch "
+        },
+        {
+          "t": "math",
+          "v": "U(t)=U^{*}\\cdot\\left(1-e^{-\\frac{t}{\\tau}}\\right)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden. Dabei ist "
+        },
+        {
+          "t": "math",
+          "v": "U^{*}>0"
+        },
+        {
+          "t": "text",
+          "v": " die an den Kondensator angelegte Spannung und "
+        },
+        {
+          "t": "math",
+          "v": "\\tau>0"
+        },
+        {
+          "t": "text",
+          "v": " eine für den Ladevorgang charakteristische Konstante. Der Ladevorgang beginnt zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": ".\nDie Zeit, nach der die Spannung U(t) zwischen den Kondensatorplatten 99 % der angelegten Spannung "
+        },
+        {
+          "t": "math",
+          "v": "U^{*}"
+        },
+        {
+          "t": "text",
+          "v": " beträgt, wird als Ladezeit bezeichnet.\nBestimmen Sie die Ladezeit eines Kondensators in Abhängigkeit von τ!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ladezeit: "
+          },
+          {
+            "t": "math",
+            "v": "t=-\\tau\\cdot\\ln(0{,}01)"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "t=\\tau\\cdot\\ln(100)"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen der Lösung sind als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}99\\cdot U^{*}=U^{*}\\cdot\\left(1-e^{-\\frac{t}{\\tau}}\\right)"
+            },
+            {
+              "t": "math",
+              "v": "0{,}01=e^{-\\frac{t}{\\tau}}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t=-\\tau\\cdot\\ln(0{,}01)\\ \\text{bzw.}\\ t=\\tau\\cdot\\ln(100)"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen der Lösung sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_042b",
+          "baseId": "2_042",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/416/Kondensator.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel für die momentane Änderungsrate der Spannung zwischen den Kondensatorplatten in Abhängigkeit von t an und zeigen Sie mithilfe dieser Formel, dass die Spannung während des Ladevorgangs ständig steigt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Momentane Änderungsrate: "
+          },
+          {
+            "t": "math",
+            "v": "U'(t)=\\dfrac{e^{-\\frac{t}{\\tau}}\\cdot U^{*}}{\\tau}"
+          },
+          {
+            "t": "text",
+            "v": ". Es gilt "
+          },
+          {
+            "t": "math",
+            "v": "U^{*}>0,\\ \\tau>0,\\ e^{-\\frac{t}{\\tau}}>0 \\Rightarrow U'(t)>0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "t\\geq 0"
+          },
+          {
+            "t": "text",
+            "v": ". Da "
+          },
+          {
+            "t": "math",
+            "v": "U'(t)>0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "t\\geq 0"
+          },
+          {
+            "t": "text",
+            "v": " gilt, ist U während des Ladevorgangs streng monoton steigend."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Formel und eine (sinngemäß) korrekte Begründung. Äquivalente Formeln sind als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "U'(t)=\\dfrac{e^{-\\frac{t}{\\tau}}\\cdot U^{*}}{\\tau}"
+            },
+            {
+              "t": "math",
+              "v": "U^{*}>0,\\ \\tau>0,\\ e^{-\\frac{t}{\\tau}}>0 \\Rightarrow U'(t)>0\\ \\text{für alle}\\ t\\geq 0"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Da U′(t) > 0 für alle t ≥ 0 gilt, ist U während des Ladevorgangs streng monoton steigend."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Formel und eine (sinngemäß) korrekte Begründung. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_042",
+      "baseId": "2_042",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/416/Kondensator.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Kondensator ist ein elektrisches Bauelement, mit dem elektrische Ladung und die daraus resultierende elektrische Energie gespeichert werden kann.\nEine einfache Form des Kondensators ist der sogenannte Plattenkondensator. Er besteht aus zwei einander gegenüberliegenden elektrisch leitfähigen Flächen, die als Kondensatorplatten bezeichnet werden.\nDas Verhältnis zwischen der gespeicherten Ladung Q und der an die Kondensatorplatten angelegten (Gleich-)Spannung U wird als Kapazität C bezeichnet.\nEs gilt "
+    },
+    {
+      "t": "math",
+      "v": "C=\\dfrac{Q}{U}"
+    },
+    {
+      "t": "text",
+      "v": ", wobei C in der Einheit Farad angegeben wird."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "2025-wt-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2025w1]t1-1-ag.pdf"
+  },
+  "title": "Zahlenmengen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1425a",
+          "baseId": "1_1425",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/988/1_1425_srdp_ma_Zahlenmengen%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Jedes Element von B ist auch Element von A.“ und „A und B sind jeweils eine Teilmenge der komplexen Zahlen.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "A und B enthalten jeweils ganze Zahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Summe zweier Elemente aus B liegt in jedem Fall in A."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jedes Element von B ist auch Element von A."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Produkt zweier Elemente aus B liegt in jedem Fall in A."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "A und B sind jeweils eine Teilmenge der komplexen Zahlen."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1425",
+      "baseId": "1_1425",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/988/1_1425_srdp_ma_Zahlenmengen%20_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Mengen "
+    },
+    {
+      "t": "math",
+      "v": "A=\\{x\\in\\mathbb{R}\\mid -1<x<0\\}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=\\{y\\in\\mathbb{Q}\\mid -1<y<0\\}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

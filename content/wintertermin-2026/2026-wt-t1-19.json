@@ -1,0 +1,133 @@
+{
+  "id": "2026-wt-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2026w1]t1-19-ws.pdf"
+  },
+  "title": "Körpergröße",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-19-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1585a",
+          "baseId": "1_1585",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1098/1_1585_srdp_ma_K%C3%B6rpergr%C3%B6%C3%9Fe_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Mindestens 25 % der Kinder haben eine ermittelte Körpergröße von genau 118 cm.“ und „Mindestens 75 % der Kinder haben eine ermittelte Körpergröße von höchstens 127 cm.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 25 % der Kinder haben eine ermittelte Körpergröße von genau 118 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 75 % der Kinder haben eine ermittelte Körpergröße von höchstens 127 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 75 % der Kinder haben eine ermittelte Körpergröße von mindestens 120 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau ein Kind, das eine ermittelte Körpergröße von 135 cm hat."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Kinder, die eine ermittelte Körpergröße von genau 125 cm haben."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1585",
+      "baseId": "1_1585",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1098/1_1585_srdp_ma_K%C3%B6rpergr%C3%B6%C3%9Fe_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von 200 Kindern wurden die Körpergrößen auf Zentimeter genau ermittelt. Die ermittelten Messdaten sind im nachstehenden Boxplot dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-19-q.png",
+      "alt": "Boxplot der Körpergröße in cm (Skala 117 bis 135): Minimum 118, weitere Quartilswerte im Bereich 118 bis 127."
+    }
+  ]
+}

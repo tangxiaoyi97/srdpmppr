@@ -1,0 +1,160 @@
+{
+  "id": "2022-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2022h1]t1-4-ag.pdf"
+  },
+  "title": "Normalvektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-04-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 3.5",
+          "description": "Normalvektoren in R² aufstellen, verständig einsetzen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1182a",
+          "baseId": "1_1182",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/725/Normalvektoren.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}1{,}5\\cdot a\\\\3{,}5\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}-6\\cdot a^{2}\\\\-14\\cdot a\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Vektoren an, die normal auf "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}"
+        },
+        {
+          "t": "text",
+          "v": " stehen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}-3\\cdot a\\\\7\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}1{,}5\\cdot a\\\\3{,}5\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}-6\\cdot a^{2}\\\\-14\\cdot a\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}1{,}5\\\\3{,}5\\cdot a\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}9\\cdot a^{2}\\\\-21\\cdot a\\end{pmatrix}"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1182",
+      "baseId": "1_1182",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/725/Normalvektoren.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}=\\begin{pmatrix}7\\\\-3\\cdot a\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " mit a > 1."
+    }
+  ]
+}

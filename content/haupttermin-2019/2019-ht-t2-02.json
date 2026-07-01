@@ -1,0 +1,388 @@
+{
+  "id": "2019-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2019h1]t2-2.pdf"
+  },
+  "title": "Algenteppich",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t2-02-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In den ersten fünf Wochen kann der Flächeninhalt A(t) des Algenteppichs näherungsweise durch eine Exponentialfunktion A beschrieben werden, weil der Algenteppich nur einen kleinen Teil des Teichs bedeckt (A(t) in m², t in Wochen).\n\nErmitteln Sie, um welchen Prozentsatz sich der Flächeninhalt des Algenteppichs wöchentlich vergrößert, und geben Sie eine Funktionsgleichung für A an!"
+        },
+        {
+          "t": "math",
+          "v": "A(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "4\\cdot 1{,}75^{t}",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Fläche des Algenteppichs vergrößert sich jede Woche um ca. 75 %. "
+            },
+            {
+              "t": "math",
+              "v": "A(t)=4\\cdot 1{,}75^{t}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen (z. B.: A(t) = 4 · e^{0,5596 · t}) sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-02-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Am Ende der fünften Woche sollen nach erfolgter Messung 30 m² Algen geerntet werden. Das soll regelmäßig im Abstand von jeweils einer Woche wiederholt werden.\n\nErmitteln Sie, wie oft dieser Vorgang unter der Voraussetzung, dass sich der Flächeninhalt des Algenteppichs zwischen den Erntevorgängen weiterhin um den gleichen Prozentsatz vergrößert, durchgeführt werden kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "A(6)=(A(5)-30)\\cdot 1{,}75\\approx 62{,}39"
+            },
+            {
+              "t": "math",
+              "v": "A(7)=(A(6)-30)\\cdot 1{,}75\\approx 56{,}68"
+            },
+            {
+              "t": "math",
+              "v": "A(8)=(A(7)-30)\\cdot 1{,}75\\approx 46{,}69"
+            },
+            {
+              "t": "math",
+              "v": "A(9)=(A(8)-30)\\cdot 1{,}75\\approx 29{,}21"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die geplante Menge kann viermal geerntet werden."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-02-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die durchschnittliche wöchentliche Änderung (in m² pro Woche) des Flächeninhalts des Algenteppichs vom Ende der zweiten Woche bis zum Ende der vierten Woche des Beobachtungszeitraums!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d",
+            "value": 12.5,
+            "tol": 0.5,
+            "unit": "m²/Woche"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{37{,}52-12{,}25}{2}\\approx 12{,}64"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche wöchentliche Änderung beträgt in diesem Zeitraum ca. 12,64 m²/Woche."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „m²/Woche“ nicht angeführt sein muss. Toleranzintervall: [12; 13] Grundkompetenz: AN 1.3"
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-02-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die bisher verwendete Exponentialfunktion beschreibt das Algenwachstum bei größerer bedeckter Fläche nur ungenau, weil sich in Abhängigkeit von der Größe des Teichs das Algenwachstum irgendwann verlangsamen wird. Ein realistischeres Modell berücksichtigt auch diesen Aspekt.\n\nIn Abhängigkeit vom Flächeninhalt A des Algenteppichs kann die Wachstumsgeschwindigkeit durch die Funktion w mit "
+        },
+        {
+          "t": "math",
+          "v": "w(A)=k\\cdot A\\cdot(800-A)"
+        },
+        {
+          "t": "text",
+          "v": " modelliert werden. Dabei wird A in m² angegeben; "
+        },
+        {
+          "t": "math",
+          "v": "k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " ist der sogenannte Wachstumsparameter, der unter anderem von der Algenart abhängt.\n\nErmitteln Sie denjenigen Flächeninhalt "
+        },
+        {
+          "t": "math",
+          "v": "A_1"
+        },
+        {
+          "t": "text",
+          "v": " des Algenteppichs, bei dem die Wachstumsgeschwindigkeit am größten ist!"
+        },
+        {
+          "t": "math",
+          "v": "A_1="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "A1",
+            "label": "A_1",
+            "value": 400,
+            "tol": 1e-9,
+            "unit": "m²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "w'(A)=k\\cdot(800-A)-k\\cdot A"
+            },
+            {
+              "t": "math",
+              "v": "800\\cdot k-2\\cdot k\\cdot A_1=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "A_1=400\\ \\text{m}^{2}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-02-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Beobachtungszeitraum wird über die in der Einleitung beschriebenen fünf Wochen hinaus verlängert. Der Flächeninhalt des Algenteppichs t Wochen nach Beobachtungsbeginn wird mithilfe einer Funktion A2 mit"
+        },
+        {
+          "t": "math",
+          "v": "A_2(t)=\\frac{800}{1+199\\cdot e^{-800\\cdot k\\cdot t}}"
+        },
+        {
+          "t": "text",
+          "v": " modelliert (A2(t) in m², t in Wochen).\n\nGeben Sie den Wert des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe des in der Tabelle angegebenen Messwerts zum Zeitpunkt t = 5 an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": 0.00075,
+            "tol": 0.00005,
+            "unit": "m⁻²/Woche"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "65{,}65=\\frac{800}{1+199\\cdot e^{-800\\cdot 5\\cdot k}}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "k\\approx 0{,}00072\\ \\text{m}^{-2}/\\text{Woche}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m⁻²/Woche“ nicht angeführt sein muss. Toleranzintervall: [0,0007; 0,0008] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-02-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zu welchem Zeitpunkt bedeckt der Algenteppich erstmals 90 % der Oberfläche, wenn dieses Modell zugrunde liegt?\n\nErmitteln Sie diesen Zeitpunkt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 13.5,
+            "tol": 0.5,
+            "unit": "Wochen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "720=\\frac{800}{1+199\\cdot e^{-800\\cdot 0{,}00072\\cdot t}}"
+            },
+            {
+              "t": "math",
+              "v": "t\\approx 13"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Nach ca. 13 Wochen sind erstmals 90 % der Oberfläche des Teichs mit Algen bedeckt."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe des richtigen Zeitpunkts. Auch die Angabe „in der 14. Woche“ ist als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf der Oberfläche eines 800 m² großen Teichs befindet sich ein Algenteppich, der immer weiter wächst. Fünf Wochen lang werden jeweils am Ende der Woche die Flächeninhalte des Algenteppichs gemessen. Die Messwerte sind in der nachstehenden Tabelle aufgelistet. Zu Beginn der Beobachtung bedeckt der Algenteppich 4 m²."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-02-q.png",
+      "alt": "Tabelle t (in Wochen) / A(t) (Flächeninhalt des Algenteppichs nach t Wochen in m²): 0 / 4; 1 / 7; 2 / 12,25; 3 / 21,44; 4 / 37,52; 5 / 65,65."
+    },
+    {
+      "t": "text",
+      "v": "Das Algenwachstum kann mathematisch unterschiedlich modelliert werden."
+    }
+  ]
+}

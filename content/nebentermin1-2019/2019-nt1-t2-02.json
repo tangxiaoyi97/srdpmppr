@@ -1,0 +1,652 @@
+{
+  "id": "2019-nt1-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2019n1]t2-2.pdf"
+  },
+  "title": "Kostenfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052a",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie für dieses Produkt den durchschnittlichen Kostenanstieg pro zusätzlich produzierter Mengeneinheit im Intervall [100 ME; 200 ME]."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "value": 0.075,
+            "tol": 0.025,
+            "unit": "GE/ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{K(200)-K(100)}{200-100}=\\dfrac{66{,}5-59{,}35}{100}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "=0{,}0715\\ \\text{GE/ME}"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „GE/ME“ nicht angeführt sein muss. Toleranzintervall: [0,05 GE/ME; 0,10 GE/ME] Grundkompetenz: FA 1.4 Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052a",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie, ab welcher Produktionsmenge die Grenzkosten steigen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 312.5,
+            "tol": 0.5,
+            "unit": "ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "K''(x)=4{,}8\\cdot 10^{-6}\\cdot x-1{,}5\\cdot 10^{-3}"
+            },
+            {
+              "t": "math",
+              "v": "K''(x)\\ge 0\\ \\Rightarrow\\ x\\ge 312{,}5\\ \\text{ME}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Ab der Produktionsmenge von 312,5 ME steigen die Grenzkosten."
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung, wobei die Einheit „ME“ nicht angeführt sein muss. Toleranzintervall: [312 ME; 313 ME] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052b",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Produktionsmenge x_opt, für die die Stückkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "\\bar K\\ \\text{mit}\\ \\bar K(x)=\\dfrac{K(x)}{x}"
+        },
+        {
+          "t": "text",
+          "v": " minimal ist, heißt Betriebsoptimum zur Kostenfunktion K."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie das Betriebsoptimum x_opt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "xopt",
+            "value": 554.5,
+            "tol": 0.5,
+            "unit": "ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\bar K(x)=8\\cdot 10^{-7}\\cdot x^{2}-7{,}5\\cdot 10^{-4}\\cdot x+0{,}2405+\\dfrac{42}{x}"
+            },
+            {
+              "t": "math",
+              "v": "\\bar K'(x)=16\\cdot 10^{-7}\\cdot x-7{,}5\\cdot 10^{-4}-\\dfrac{42}{x^{2}}"
+            },
+            {
+              "t": "math",
+              "v": "\\bar K'(x)=0\\ \\Rightarrow\\ x_{opt}\\approx 554{,}2\\ \\text{ME}\\quad(\\bar K''(x)>0\\Rightarrow\\text{Minimum})"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_{opt}\\approx 554{,}2\\ \\text{ME}"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung, wobei die Einheit „ME“ nicht angeführt sein muss und eine Überprüfung, dass es sich um ein Minimum handelt, nicht durchgeführt werden muss. Toleranzintervall: [554 ME; 555 ME] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052b",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Hersteller berechnet die Produktionskosten für die Produktionsmenge x_opt. Dabei stellt er fest, dass diese Kosten 65 % seines für die Produktion dieses Produkts verfügbaren Kapitals ausmachen."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie das dem Hersteller für die Produktion dieses Produkts zur Verfügung stehende Kapital."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "kapital",
+            "value": 125,
+            "tol": 5,
+            "unit": "GE"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "K(554{,}2)\\approx 81{,}1\\ \\text{GE}\\ \\Rightarrow\\ 81{,}1:0{,}65\\approx 125"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Dem Hersteller stehen für die Produktion dieses Produkts ca. 125 GE zur Verfügung."
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „GE“ nicht angeführt sein muss. Toleranzintervall: [120 GE; 130 GE]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052c",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für den Verkaufspreis p kann der Erlös in Abhängigkeit von der Produktionsmenge x durch eine lineare Funktion E mit E(x) = p · x beschrieben werden (E(x) in GE, x in ME, p in GE/ME). Dabei wird vorausgesetzt, dass gleich viele Mengeneinheiten verkauft wie produziert werden."
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie p so, dass der maximale Gewinn bei einem Verkauf von 600 ME erzielt wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.2045,
+            "tol": 0.005,
+            "unit": "GE/ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "G(x)=E(x)-K(x)"
+            },
+            {
+              "t": "math",
+              "v": "G'(x)=p-K'(x)"
+            },
+            {
+              "t": "math",
+              "v": "G'(600)=p-K'(600)=0\\ \\Rightarrow\\ p=0{,}2045\\ \\text{GE/ME}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p=0{,}2045\\ \\text{GE/ME}"
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „GE/ME“ nicht angeführt sein muss. Toleranzintervall: [0,20; 0,21]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.6",
+          "description": "Schnittpunkte zweier Funktionsgraphen grafisch und rechnerisch ermitteln und im Kontext interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052c",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die maximal mögliche Produktionsmenge beträgt 650 ME."
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie den Gewinnbereich (also denjenigen Produktionsbereich, in dem der Hersteller Gewinn erzielt)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x1",
+            "label": "untere Grenze des Gewinnbereichs",
+            "value": 335,
+            "tol": 10,
+            "unit": "ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "G(x)=0\\ \\Rightarrow\\ x_1\\approx 335\\quad(x_2\\approx 799,\\ x_3\\approx -196)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Gewinnbereich: [355 ME; 650 ME]"
+            }
+          ],
+          "note": "c2) Ein Punkt für die Angabe eines richtigen Gewinnbereichs, wobei die Einheit „ME“ nicht angeführt sein muss. Toleranzintervall für x₁: [325; 345]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052d",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein weiteres Produkt dieses Herstellers sind in der nachstehenden Tabelle die Produktionskosten (in GE) für verschiedene Produktionsmengen (in ME) dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t2-02-d-tab.png",
+          "alt": "Tabelle: Produktionsmenge (in ME): 50, 100, 250, ?, 500; Produktionskosten (in GE): 197, 253, 308, 380, 700. Eine Produktionsmenge fehlt."
+        },
+        {
+          "t": "text",
+          "v": "Diese Produktionskosten können durch eine Polynomfunktion dritten Grades K₁ mit "
+        },
+        {
+          "t": "math",
+          "v": "K_1(x)=a\\cdot x^{3}+b\\cdot x^{2}+c\\cdot x+d"
+        },
+        {
+          "t": "text",
+          "v": " mit a, b, c, d ∈ ℝ modelliert werden."
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Werte von a, b, c und d."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.000015,
+            "tol": 0.000005
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": -0.0098,
+            "tol": 0.0008
+          },
+          {
+            "id": "c",
+            "label": "c",
+            "value": 2.324,
+            "tol": 0.25
+          },
+          {
+            "id": "d",
+            "label": "d",
+            "value": 103,
+            "tol": 2.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a\\approx 1{,}5\\cdot 10^{-5},\\quad b\\approx -9{,}8\\cdot 10^{-3},\\quad c\\approx 2{,}324,\\quad d\\approx 103"
+            }
+          ],
+          "note": "d1) Ein Punkt für die richtigen Werte von a, b, c und d. Toleranzintervall für a: [1·10⁻⁵; 2·10⁻⁵] Toleranzintervall für b: [–1·10⁻²; –9·10⁻³] Toleranzintervall für c: [2; 2,5] Toleranzintervall für d: [100; 105]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-02-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_052d",
+          "baseId": "2_052",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die in der obigen Tabelle fehlende Produktionsmenge."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 365,
+            "tol": 15,
+            "unit": "ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "K_1(x)=380\\ \\Rightarrow\\ x\\approx 365\\ \\text{ME}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die fehlende Produktionsmenge beträgt ca. 365 ME."
+            }
+          ],
+          "note": "d2) Ein Punkt für die richtige Lösung, wobei die Lösung je nach Rundung der Koeffizienten a, b, c und d variieren kann."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_052",
+      "baseId": "2_052",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/474/2_052_Kostenfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Hersteller interessiert sich für die monatlich anfallenden Kosten bei der Produktion eines bestimmten Produkts. Die Produktionskosten für dieses Produkt lassen sich in Abhängigkeit von der Produktionsmenge x (in Mengeneinheiten, ME) durch eine Polynomfunktion dritten Grades K mit"
+    },
+    {
+      "t": "math",
+      "v": "K(x)=8\\cdot 10^{-7}\\cdot x^{3}-7{,}5\\cdot 10^{-4}\\cdot x^{2}+0{,}2405\\cdot x+42"
+    },
+    {
+      "t": "text",
+      "v": "modellieren (K(x) in Geldeinheiten, GE)."
+    }
+  ]
+}

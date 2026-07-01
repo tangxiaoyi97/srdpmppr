@@ -1,0 +1,153 @@
+{
+  "id": "2024-ht-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2024h1]t1-9-fa.pdf"
+  },
+  "title": "Potenzfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-09-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge dieser Art als entsprechende Potenzfunktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1348a",
+          "baseId": "1_1348",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/900/1_1348_srdp_ma_Potenzfunktion_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "z=-2"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "a=8"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Werte von a und z an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "z",
+            "label": "z",
+            "value": -2,
+            "tol": 1e-9
+          },
+          {
+            "id": "a",
+            "label": "a",
+            "value": 8,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1348",
+      "baseId": "1_1348",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/900/1_1348_srdp_ma_Potenzfunktion_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Potenzfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\!:\\mathbb{R}\\setminus\\{0\\}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{z}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "z\\in\\mathbb{Z}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nEs gilt:\n- Verdoppelt man den Wert des Arguments x, so verringert sich der zugehörige Funktionswert auf ein Viertel des ursprünglichen Funktionswerts.\n- Der Punkt "
+    },
+    {
+      "t": "math",
+      "v": "(2\\mid 2)"
+    },
+    {
+      "t": "text",
+      "v": " liegt auf dem Graphen von f."
+    }
+  ]
+}

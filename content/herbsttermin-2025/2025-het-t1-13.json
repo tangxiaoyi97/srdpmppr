@@ -1,0 +1,157 @@
+{
+  "id": "2025-het-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2025h2]t1-13-fa.pdf"
+  },
+  "title": "Wassertank",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-13-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1555a",
+          "baseId": "1_1555",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1062/1_1555_srdp_ma_Wassertank_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① 125 %;  ② 5 dm"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nUm 13 Uhr ist der Wasserstand um ① höher als um 7 Uhr; die absolute Änderung des Wasserstands von 7 Uhr bis 13 Uhr beträgt ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "1,25 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "25 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "125 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "4 dm"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "5 dm"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "9 dm"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1555",
+      "baseId": "1_1555",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1062/1_1555_srdp_ma_Wassertank_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für einen Wassertank kann der Wasserstand an einem bestimmten Tag in Abhängigkeit von der Zeit t durch die Funktion w: [0; 24] → ℝ⁺ modelliert werden (t in h mit t = 0 für 0 Uhr an diesem Tag, w(t) in dm).\n\nUm 7 Uhr beträgt der Wasserstand 4 dm.\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "\\dfrac{w(13)-w(7)}{w(7)}=1{,}25"
+    }
+  ]
+}

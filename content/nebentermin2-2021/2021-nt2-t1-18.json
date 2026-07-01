@@ -1,0 +1,113 @@
+{
+  "id": "2021-nt2-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2021n2]t1-18-an.pdf"
+  },
+  "title": "Arbeit bei der Dehnung einer Schraubenfeder",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_823a",
+          "baseId": "1_823",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/611/Arbeit%20bei%20der%20Dehnung%20einer%20Schraubenfeder.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "W=\\int_{0}^{0{,}08} 40\\cdot s\\;ds=20\\cdot s^{2}\\Big|_{0}^{0{,}08}=0{,}128"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "W=0{,}128\\ \\text{Joule}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Joule“ nicht angegeben sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die bei der oben beschriebenen Dehnung verrichtete Arbeit."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "W",
+            "label": "W",
+            "value": 0.128,
+            "unit": "Joule"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_823",
+      "baseId": "1_823",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/611/Arbeit%20bei%20der%20Dehnung%20einer%20Schraubenfeder.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Schraubenfeder mit der Federkonstanten k = 40 N/m wird aus der Gleichgewichtslage s₀ = 0 m um h = 0,08 m gedehnt.\n\nDie dabei verrichtete Arbeit W (in Joule) wird mithilfe des nachstehenden Ausdrucks berechnet."
+    },
+    {
+      "t": "math",
+      "v": "W=\\int_{s_0}^{s_0+h} k\\cdot s\\;ds"
+    }
+  ]
+}

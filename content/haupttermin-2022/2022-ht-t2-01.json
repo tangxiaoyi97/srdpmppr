@@ -1,0 +1,354 @@
+{
+  "id": "2022-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2022h1]t2-1.pdf"
+  },
+  "title": "Fahrradtour",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_113a",
+          "baseId": "2_113",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/744/Fahrradtour.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bettina macht eine 2-stündige Fahrradtour. Ihre Geschwindigkeit kann dabei näherungsweise durch die Funktion v beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "v(t)=-0{,}08\\cdot t^{2}+16\\quad\\text{mit}\\ 0\\le t\\le 2"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in h mit t = 0 für den Beginn der Fahrradtour\nv(t) ... Geschwindigkeit zum Zeitpunkt t in km/h\n\nBerechnen Sie die Zeitdauer, die Bettina für die ersten 10 km dieser Fahrradtour benötigt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "label": "t₁",
+            "value": 0.62,
+            "tol": 0.05,
+            "unit": "h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{t_1} v(t)\\,dt=10"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t_1=0{,}62\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bettina benötigt für die ersten 10 km rund 0,6 h."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der Zeitdauer."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_113a",
+          "baseId": "2_113",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/744/Fahrradtour.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Beschleunigung zum Zeitpunkt t = 1. Geben Sie auch die zugehörige Einheit an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a(1)",
+            "value": -0.16,
+            "tol": 1e-9,
+            "unit": "km/h²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein halber Punkt für das richtige Berechnen der Beschleunigung.",
+            "points": 0.5
+          },
+          {
+            "desc": "Ein halber Punkt für das Angeben der richtigen Einheit.",
+            "points": 0.5
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "a(t)=v'(t)=-0{,}16\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "v'(1)=-0{,}16"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Beschleunigung zum Zeitpunkt t = 1 beträgt –0,16 km/h²."
+            }
+          ],
+          "note": "a2) Ein halber Punkt für das richtige Berechnen der Beschleunigung, ein halber Punkt für das Angeben der richtigen Einheit."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_113b",
+          "baseId": "2_113",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/744/Fahrradtour.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der empfohlene Reifendruck eines Fahrradreifens sinkt mit zunehmender Breite des Reifens. Für einen empfohlenen Reifendruck von 2 bar bis 9 bar kann der empfohlene Reifendruck näherungsweise durch die Funktion p beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "p(x)=19{,}1\\cdot e^{-0{,}0376\\cdot x}"
+        },
+        {
+          "t": "text",
+          "v": "x ... Breite des Reifens in mm\np(x) ... empfohlener Reifendruck bei der Breite x in bar\n\nErmitteln Sie das größtmögliche Intervall für die Breite des Reifens, für das sich ein empfohlener Reifendruck von 2 bar bis 9 bar ergibt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "interval",
+        "lower": 20,
+        "upper": 60,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "p(x)=9\\ \\Rightarrow\\ x=20{,}0\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "p(x)=2\\ \\Rightarrow\\ x=60{,}0\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "größtmögliches Intervall: "
+            },
+            {
+              "t": "math",
+              "v": "[20{,}0\\ldots;\\,60{,}0\\ldots]"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ermitteln des größtmöglichen Intervalls."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_113b",
+          "baseId": "2_113",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/744/Fahrradtour.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das Ergebnis der nachstehenden Berechnung unter Angabe der zugehörigen Einheiten im gegebenen Sachzusammenhang."
+        },
+        {
+          "t": "math",
+          "v": "p(30)-p(20)\\approx -2{,}8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der für einen 30 mm breiten Reifen empfohlene Reifendruck ist um rund 2,8 bar geringer als der für einen 20 mm breiten Reifen empfohlene Reifendruck."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren unter Angabe der zugehörigen Einheiten im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der für einen 30 mm breiten Reifen empfohlene Reifendruck ist um rund 2,8 bar geringer als der für einen 20 mm breiten Reifen empfohlene Reifendruck."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Interpretieren unter Angabe der zugehörigen Einheiten im gegebenen Sachzusammenhang."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_113",
+      "baseId": "2_113",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/744/Fahrradtour.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "2024-wt-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2024w1]t1-4-ag.pdf"
+  },
+  "title": "Position eines Schiffes",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1319a",
+          "baseId": "1_1319",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/867/1_1319_srdp_ma_Position%20eines%20Schiffes_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec{s}=\\begin{pmatrix}2\\\\0{,}5\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Komponenten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Komponenten des Vektors s an."
+        },
+        {
+          "t": "math",
+          "v": "\\vec{s}=\\begin{pmatrix}\\ \\\\ \\ \\end{pmatrix}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "s1",
+            "label": "s_x",
+            "value": 2,
+            "tol": 1e-9
+          },
+          {
+            "id": "s2",
+            "label": "s_y",
+            "value": 0.5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1319",
+      "baseId": "1_1319",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/867/1_1319_srdp_ma_Position%20eines%20Schiffes_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Schiff fährt an einem bestimmten Tag von 8:10 Uhr bis 8:30 Uhr mit konstanter Geschwindigkeit einen geradlinigen Kurs.\n\nIn einem kartesischen Koordinatensystem wird die Position dieses Schiffes um 8:10 Uhr durch den Punkt A = (2 | 3) festgelegt, die Position um 8:30 Uhr durch den Punkt B = (10 | 5).\n\nDer Vektor s beschreibt die Veränderung der Position dieses Schiffes in einem Zeitintervall von 5 min."
+    }
+  ]
+}

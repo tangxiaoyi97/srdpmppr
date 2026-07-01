@@ -1,0 +1,171 @@
+{
+  "id": "2019-nt2-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2019n2]t1-18-an.pdf"
+  },
+  "title": "Wert eines bestimmten Integrals",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-18-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_679a",
+          "baseId": "1_679",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/408/Wert%20eines%20bestimmten%20Integrals.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{6} f(x)\\,dx=-3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des bestimmten Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{6} f(x)\\,dx"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{6} f(x)\\,dx="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "I",
+            "value": -3,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_679",
+      "baseId": "1_679",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/408/Wert%20eines%20bestimmten%20Integrals.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f:\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Zusätzlich sind zwei Flächen gekennzeichnet.\nDie Fläche "
+    },
+    {
+      "t": "math",
+      "v": "A_1"
+    },
+    {
+      "t": "text",
+      "v": " wird vom Graphen der Funktion f und von der x-Achse im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[0; 4]"
+    },
+    {
+      "t": "text",
+      "v": " begrenzt und hat einen Flächeninhalt von "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{16}{3}"
+    },
+    {
+      "t": "text",
+      "v": " Flächeneinheiten.\nDie Fläche "
+    },
+    {
+      "t": "math",
+      "v": "A_2"
+    },
+    {
+      "t": "text",
+      "v": " wird vom Graphen der Funktion f und von der x-Achse im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[4; 6]"
+    },
+    {
+      "t": "text",
+      "v": " begrenzt und hat einen Flächeninhalt von "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{7}{3}"
+    },
+    {
+      "t": "text",
+      "v": " Flächeneinheiten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-18-q.png",
+      "alt": "Graph einer Funktion f; im Intervall [0; 4] liegt die Fläche A1 unterhalb der x-Achse, im Intervall [4; 6] liegt die Fläche A2 oberhalb der x-Achse."
+    }
+  ]
+}

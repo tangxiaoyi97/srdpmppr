@@ -1,0 +1,144 @@
+{
+  "id": "2023-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2023h1]t1-12-fa.pdf"
+  },
+  "title": "Windrad",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-12-fa.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-12-q.png",
+      "alt": "Graph von h(t): sinusförmig, Maximum 160 m bei t = 3 s, Minimum 40 m bei t = 9 s, Periode 12 s"
+    }
+  ],
+  "parts": [
+    {
+      "id": "2023-ht-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.2",
+          "description": "aus Graphen und Gleichungen von allgemeinen Sinusfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1279a",
+          "baseId": "1_1279",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/818/1_1279_srdp_ma_Windrad_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Rotordurchmesser "
+            },
+            {
+              "t": "math",
+              "v": "=h_{\\max}-h_{\\min}=160-40=120\\,\\text{m}"
+            },
+            {
+              "t": "text",
+              "v": "; Umlaufzeit = Periode = 12 s."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Rotordurchmesser 120 m; Zeit für eine volle Umdrehung 12 s."
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie mithilfe der obigen Abbildung den Rotordurchmesser sowie die Zeit, die ein Rotorblatt für eine volle Umdrehung benötigt, an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rotordurchmesser",
+            "label": "Rotordurchmesser",
+            "value": 120,
+            "tol": 0.5,
+            "unit": "m"
+          },
+          {
+            "id": "umlaufzeit",
+            "label": "Zeit für eine volle Umdrehung",
+            "value": 12,
+            "tol": 0.1,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1279",
+      "baseId": "1_1279",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/818/1_1279_srdp_ma_Windrad_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Spitzen der Rotorblätter von Windrädern bewegen sich auf einer Kreisbahn, deren Durchmesser als Rotordurchmesser bezeichnet wird.\n\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h:\\mathbb{R}\\to\\mathbb{R},\\ t\\mapsto h(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt modellhaft die Höhe der Spitze eines der Rotorblätter eines bestimmten Windrads über dem Boden in Abhängigkeit von der Zeit t (t in s, h(t) in m).\n\nDer Funktionsgraph von h ist in der nachstehenden Abbildung dargestellt."
+    }
+  ]
+}

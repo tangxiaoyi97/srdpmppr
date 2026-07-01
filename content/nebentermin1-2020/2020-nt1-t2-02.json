@@ -1,0 +1,530 @@
+{
+  "id": "2020-nt1-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2020n1]t2-2.pdf"
+  },
+  "title": "Benzinverbrauch",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075a",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent der Benzinverbrauch bei einer Geschwindigkeit von 90 km/h höher als bei einer Geschwindigkeit von 70 km/h ist.\n\n___ %"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 21.4,
+            "tol": 0.2,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tfrac{B(90)-B(70)}{B(70)}=0{,}2138\\ldots\\approx 21{,}4\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\approx 21{,}4\\,\\%"
+            }
+          ],
+          "note": "a1) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075a",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Benzinverbrauch bei einer Geschwindigkeit von 40 km/h ist um 25 % geringer als der Benzinverbrauch bei einer Geschwindigkeit v₁ mit 20 < v₁ < 40.\n\nErmitteln Sie die Geschwindigkeit v₁.\n\nv₁ = ___ km/h"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v1",
+            "label": "v₁",
+            "value": 24.24,
+            "tol": 0.1,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "B(v_1)\\cdot 0{,}75=B(40)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v_1=24{,}24\\ldots\\ \\text{km/h}"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075b",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für hohe Geschwindigkeiten soll die Funktion B durch eine lineare Funktion f mit "
+        },
+        {
+          "t": "math",
+          "v": "f(v)=k\\cdot v+d\\ \\text{mit}\\ k,d\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " angenähert werden, sodass gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(100)=B(100)"
+        },
+        {
+          "t": "math",
+          "v": "f(130)=B(130)"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie einen Funktionsterm der Funktion f.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(v)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(100)=B(100)=4{,}40\\ldots,\\quad f(130)=B(130)=6{,}60\\ldots"
+          },
+          {
+            "t": "math",
+            "v": "f(v)=0{,}0734\\ldots\\cdot v-2{,}9399\\ldots"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(100)=B(100)=4{,}40\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "f(130)=B(130)=6{,}60\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(v)=0{,}0734\\ldots\\cdot v-2{,}9399\\ldots"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für einen richtigen Funktionsterm. Äquivalente Funktionsterme sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075b",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Diese Näherung kann verwendet werden, wenn die Abweichung zwischen den Funktionswerten von f und B höchstens 0,3 L/100 km beträgt.\n\nGeben Sie das größtmögliche Intervall für die Geschwindigkeit an, in dem die Funktion f als Näherung verwendet werden kann."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "interval",
+        "lower": 87.1,
+        "upper": 143.3,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "D(v)=B(v)-f(v)"
+            },
+            {
+              "t": "math",
+              "v": "D(v)=0{,}3"
+            },
+            {
+              "t": "math",
+              "v": "(v_1=-10{,}94\\ldots),\\quad v_2=87{,}08\\ldots,\\quad v_3=143{,}34\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "Da die Funktion D an der Stelle v = 114,91... km/h eine Minimumstelle mit dem Funktionswert –0,1 > –0,3 hat, erhält man das Intervall [87,1 km/h; 143,3 km/h]."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "[87,1 km/h; 143,3 km/h]"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Intervall, wobei die Einheit „km/h“ nicht angeführt sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075c",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe der Funktion B diejenige Geschwindigkeit v_min, bei der der Benzinverbrauch am geringsten ist, sowie den zugehörigen Benzinverbrauch B_min.\n\nv_min = ___ km/h\n\nB_min = ___ L/100 km"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "vmin",
+            "label": "v_min",
+            "value": 55.73,
+            "tol": 0.1,
+            "unit": "km/h"
+          },
+          {
+            "id": "Bmin",
+            "label": "B_min",
+            "value": 3.03,
+            "tol": 0.05,
+            "unit": "L/100 km"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_{\\min}=55{,}73\\ldots\\ \\text{km/h},\\quad B_{\\min}=3{,}03\\ldots\\ \\text{L/100 km}"
+            }
+          ],
+          "note": "c1) Ein Punkt für die beiden richtigen Werte."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-02-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_075c",
+          "baseId": "2_075",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Benzinverbrauch hängt auch vom Reifendruck ab.\nDie Funktion g beschreibt den Benzinverbrauch in Abhängigkeit von der Geschwindigkeit v bei einem etwas zu niedrigen Reifendruck.\nDabei gilt: "
+        },
+        {
+          "t": "math",
+          "v": "g(v)=1{,}02\\cdot B(v)"
+        },
+        {
+          "t": "text",
+          "v": "\n\nBerechnen Sie mithilfe der Funktion g, bei welchen beiden Geschwindigkeiten der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als B_min ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v1",
+            "label": "v₁",
+            "value": 20.41,
+            "tol": 0.1,
+            "unit": "km/h"
+          },
+          {
+            "id": "v2",
+            "label": "v₂",
+            "value": 108.67,
+            "tol": 0.1,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "g(v)=B_{\\min}+2"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei Geschwindigkeiten von ca. 20,4 km/h und ca. 108,7 km/h ist der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als B_min."
+            }
+          ],
+          "note": "c2) Ein Punkt für die beiden richtigen Geschwindigkeiten, wobei die Einheit „km/h“ nicht angeführt sein muss."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_075",
+      "baseId": "2_075",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/591/Benzinverbrauch.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Benzinverbrauch eines bestimmten Kleinwagens kann in Abhängigkeit von der Geschwindigkeit modellhaft durch die Funktion B beschrieben werden."
+    },
+    {
+      "t": "math",
+      "v": "B(v)=0{,}000483\\cdot v^{2}-0{,}0326\\cdot v+2{,}1714+\\tfrac{66}{v}\\quad\\text{mit}\\ 20<v<150"
+    },
+    {
+      "t": "text",
+      "v": "v ... Geschwindigkeit in km/h\nB(v) ... Benzinverbrauch in Litern pro 100 km (L/100 km) bei der Geschwindigkeit v"
+    }
+  ]
+}

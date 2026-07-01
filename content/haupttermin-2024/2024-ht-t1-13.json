@@ -1,0 +1,140 @@
+{
+  "id": "2024-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2024h1]t1-13-fa.pdf"
+  },
+  "title": "CO2-Emissionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1352a",
+          "baseId": "1_1352",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/904/1_1352_srdp_ma_CO2-Emissionen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "absolute Änderung 2017 → 2018: "
+            },
+            {
+              "t": "math",
+              "v": "-3"
+            },
+            {
+              "t": "text",
+              "v": " Millionen Tonnen;  relative Änderung 1990 → 2005: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}178\\ldots\\ (=17{,}8\\ldots\\,\\%)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen beider Werte, ein halber Punkt für nur einen richtigen Wert."
+        },
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Angabe des Wertes 3 für die absolute Änderung ist nicht als richtig zu werten."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Werte der nachstehend angegebenen Größen.\n\nabsolute Änderung der CO₂-Emissionen von 2017 auf 2018 (in Millionen Tonnen):\n\nrelative Änderung der CO₂-Emissionen von 1990 auf 2005:"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abs",
+            "label": "absolute Änderung",
+            "value": -3,
+            "tol": 1e-9,
+            "unit": "Millionen Tonnen"
+          },
+          {
+            "id": "rel",
+            "label": "relative Änderung",
+            "value": 0.17834394904458598,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1352",
+      "baseId": "1_1352",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/904/1_1352_srdp_ma_CO2-Emissionen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle zeigt die Höhe der CO₂-Emissionen in Österreich für ausgewählte Jahre."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-13-q.png",
+      "alt": "Tabelle: Jahr | CO₂-Emissionen in Millionen Tonnen — 1990:78,5  2005:92,5  2017:82,0  2018:79,0."
+    }
+  ]
+}

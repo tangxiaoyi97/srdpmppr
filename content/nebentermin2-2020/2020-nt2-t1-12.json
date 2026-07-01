@@ -1,0 +1,126 @@
+{
+  "id": "2020-nt2-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2020n2]t1-12-fa.pdf"
+  },
+  "title": "Sinusfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-12-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_745a",
+          "baseId": "1_745",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/521/Sinusfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "a auf der f(x)-Achse (Amplitude), b auf der x-Achse (an der Nullstelle nach dem ersten Bogen)."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-12-sol.png",
+              "alt": "Lösung: a auf der f(x)-Achse, b auf der x-Achse eingetragen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Ergänzung von a und b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie in der nachstehenden Abbildung a und b auf der jeweils entsprechenden Achse so, dass der abgebildete Graph dem Graphen der Funktion f entspricht."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-12-q.png",
+          "alt": "Koordinatensystem mit dem Graphen einer Sinusfunktion f; auf der f(x)-Achse und der x-Achse sind die Werte a und b einzutragen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "a wird auf der f(x)-Achse als Amplitude (Höhe des Maximums) eingetragen, b wird auf der x-Achse an jener Stelle eingetragen, an der der Graph nach dem ersten Bogen wieder eine Nullstelle besitzt (halbe Periodenlänge)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_745",
+      "baseId": "1_745",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/521/Sinusfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Funktion f: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin\\!\\left(\\tfrac{\\pi}{b}\\cdot x\\right)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

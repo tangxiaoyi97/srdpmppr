@@ -1,0 +1,109 @@
+{
+  "id": "2025-het-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2025h2]t1-22-ws.pdf"
+  },
+  "title": "Wahlpflichtgegenstände",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1564a",
+          "baseId": "1_1564",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1071/1_1564_srdp_ma_Wahlpflichtgegenst%C3%A4nde_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{a}{a+112}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen des Terms."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von a einen Term zur Berechnung von p auf."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{a}{a+112}",
+        "vars": [
+          "a"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1564",
+      "baseId": "1_1564",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1071/1_1564_srdp_ma_Wahlpflichtgegenst%C3%A4nde_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer bestimmten Mädchenschule müssen die Schülerinnen der 10. Schulstufe genau einen von fünf Wahlpflichtgegenständen wählen.\n\nDie jeweilige Anzahl der Schülerinnen, die einen bestimmten Wahlpflichtgegenstand gewählt haben, ist in der nachstehenden Tabelle angeführt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-22-q.png",
+      "alt": "Tabelle Wahlpflichtgegenstand | Anzahl Schülerinnen: Sportkunde 29, Geografie 18, Biologie 41, Physik a, Englisch 24."
+    },
+    {
+      "t": "text",
+      "v": "Die Wahrscheinlichkeit, dass eine nach dem Zufallsprinzip ausgewählte Schülerin der 10. Schulstufe Physik als Wahlpflichtgegenstand gewählt hat, wird mit p bezeichnet."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "2020-nt2-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2020n2]t1-17-fa.pdf"
+  },
+  "title": "Eigenschaften einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-17-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-17-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-17-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_750a",
+          "baseId": "1_750",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/526/Eigenschaften%20einer%20Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)<0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② streng monoton fallend"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen des jeweils richtigen Satzteils so, dass jedenfalls eine korrekte Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Wenn für alle x ∈ (a; b) ① gilt, dann ist die Funktion f im Intervall (a; b) ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "f(x)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(x)<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(x)>0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "streng monoton fallend"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "rechtsgekrümmt (negativ gekrümmt)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "streng monoton steigend"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_750",
+      "baseId": "1_750",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/526/Eigenschaften%20einer%20Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sei f: ℝ → ℝ eine Polynomfunktion und a, b ∈ ℝ mit a < b."
+    }
+  ]
+}

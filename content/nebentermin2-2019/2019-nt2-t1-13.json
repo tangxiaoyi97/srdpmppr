@@ -1,0 +1,127 @@
+{
+  "id": "2019-nt2-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2019n2]t1-13-ag.pdf"
+  },
+  "title": "Nächtigungen in österreichischen Jugendherbergen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-13-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-13-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_674a",
+          "baseId": "1_674",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/403/N%C3%A4chtigungen%20in%20%C3%B6sterreichischen%20Jugendherbergen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Deutung: Im Jahr 2013 gab es um 1,2 % mehr Nächtigungen in österreichischen Jugendherbergen als im Jahr 2012."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Deutung. Andere korrekte Deutungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{N_{13}}{N_{12}}=1{,}012"
+        },
+        {
+          "t": "text",
+          "v": " für die Veränderung der Anzahl der Nächtigungen in österreichischen Jugendherbergen an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Deutung: Im Jahr 2013 gab es um 1,2 % mehr Nächtigungen in österreichischen Jugendherbergen als im Jahr 2012."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Deutung. Andere korrekte Deutungen sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_674",
+      "baseId": "1_674",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/403/N%C3%A4chtigungen%20in%20%C3%B6sterreichischen%20Jugendherbergen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Wert "
+    },
+    {
+      "t": "math",
+      "v": "N_{12}"
+    },
+    {
+      "t": "text",
+      "v": " gibt die Anzahl der Nächtigungen in österreichischen Jugendherbergen im Jahr 2012 an, der Wert "
+    },
+    {
+      "t": "math",
+      "v": "N_{13}"
+    },
+    {
+      "t": "text",
+      "v": " jene im Jahr 2013."
+    }
+  ]
+}

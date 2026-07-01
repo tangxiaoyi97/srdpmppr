@@ -1,0 +1,114 @@
+{
+  "id": "2022-wt-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2022w1]t1-20-ws.pdf"
+  },
+  "title": "Ergänzung von Werten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-20-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_897a",
+          "baseId": "1_897",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/699/Ergaenzung_von_Werten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a = 16"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b = 34"
+            }
+          ],
+          "note": "Ein Punkt für das Ergänzen der richtigen Werte von a und b, wobei auch zwei andere ganzzahlige Werte, deren Summe 50 ergibt und die sich vom arithmetischen Mittel x = 25 um mindestens 2 unterscheiden, als richtig zu werten sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Datenliste um zwei ganzzahlige Werte a und b so, dass der Median m = 26 und das arithmetische Mittel x̄ = 25 gleich bleiben."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zwei ganzzahlige Werte a und b, deren Summe 50 ergibt und die sich vom arithmetischen Mittel "
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x} = 25"
+          },
+          {
+            "t": "text",
+            "v": " um mindestens 2 unterscheiden, z. B. a = 16 und b = 34."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_897",
+      "baseId": "1_897",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/699/Ergaenzung_von_Werten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Datenliste enthält folgende Werte:\n17, 20, 22, 25, 27, 28, 30, 31"
+    }
+  ]
+}

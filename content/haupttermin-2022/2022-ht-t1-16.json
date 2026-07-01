@@ -1,0 +1,119 @@
+{
+  "id": "2022-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2022h1]t1-16-fa.pdf"
+  },
+  "title": "Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-16-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-16-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-16-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1194a",
+          "baseId": "1_1194",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/735/Stammfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "F verläuft im Intervall [0; 4] linear von (0 | 0) bis (4 | 4) und im Intervall [4; 8] rechtsgekrümmt von (4 | 4) bis (8 | 6)."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-16-sol.png",
+              "alt": "Lösung: Graph von F von (0|0) linear bis (4|4), dann rechtsgekrümmt bis (8|6)."
+            }
+          ],
+          "note": "Ein halber Punkt für das richtige Skizzieren des Funktionsgraphen von F im Intervall [0; 4] (linearer Verlauf von (0 | 0) bis (4 | 4)).\nEin halber Punkt für das richtige Skizzieren des Funktionsgraphen von F im Intervall [4; 8] (rechtsgekrümmter Verlauf von (4 | 4) bis (8 | 6), wobei nicht erkennbar sein muss, dass die Steigung des Funktionsgraphen von F an der Stelle 8 den Wert 0 hat)."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der obigen Abbildung den Graphen von F im Intervall [0; 8] unter Verwendung der Funktionswerte F(0), F(4) und F(8)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Graph von F im Intervall [0; 4]: linearer Verlauf von (0 | 0) bis (4 | 4). Graph von F im Intervall [4; 8]: rechtsgekrümmter Verlauf von (4 | 4) bis (8 | 6), wobei nicht erkennbar sein muss, dass die Steigung des Funktionsgraphen von F an der Stelle 8 den Wert 0 hat."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein halber Punkt für das richtige Skizzieren des Funktionsgraphen von F im Intervall [0; 4] (linearer Verlauf von (0 | 0) bis (4 | 4)).",
+            "points": 0.5
+          },
+          {
+            "desc": "Ein halber Punkt für das richtige Skizzieren des Funktionsgraphen von F im Intervall [4; 8] (rechtsgekrümmter Verlauf von (4 | 4) bis (8 | 6), wobei nicht erkennbar sein muss, dass die Steigung des Funktionsgraphen von F an der Stelle 8 den Wert 0 hat).",
+            "points": 0.5
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1194",
+      "baseId": "1_1194",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/735/Stammfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der reellen Funktion f: [0; 8] → ℝ, x ↦ f(x). Die Funktion F mit F(0) = 0 ist eine Stammfunktion von f. Die gekennzeichneten Punkte haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-16-q.png",
+      "alt": "Koordinatensystem mit dem Graphen von f auf [0; 8]; f ist im Intervall [0; 4] konstant gleich 1 und fällt danach; eingezeichnetes Achsenkreuz von -8 bis 8."
+    }
+  ]
+}

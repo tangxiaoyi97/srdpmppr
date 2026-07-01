@@ -1,0 +1,100 @@
+{
+  "id": "2026-wt-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2026w1]t1-2-ag.pdf"
+  },
+  "title": "Küchenaktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-2-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-2-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1568a",
+          "baseId": "1_1568",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1081/1_1568_srdp_ma_K%C3%BCchenaktion_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N=\\frac{P}{0{,}75\\cdot 1{,}2}=\\frac{P}{0{,}9}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von P eine Formel zur Berechnung von N auf."
+        },
+        {
+          "t": "math",
+          "v": "N="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{P}{0.75\\cdot 1.2}",
+        "vars": [
+          "P"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1568",
+      "baseId": "1_1568",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1081/1_1568_srdp_ma_K%C3%BCchenaktion_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Rahmen einer Küchenaktion verringert ein Möbelhaus den Nettopreis N einer bestimmten Einbauküche um 25 %.\nDer Verkaufspreis P setzt sich aus dem verringerten Nettopreis und einer Mehrwertsteuer von 20 % auf diesen verringerten Nettopreis zusammen."
+    }
+  ]
+}

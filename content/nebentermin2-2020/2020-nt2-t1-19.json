@@ -1,0 +1,119 @@
+{
+  "id": "2020-nt2-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2020n2]t1-19-an.pdf"
+  },
+  "title": "Histogramm",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-19-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-19-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-19-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_752a",
+          "baseId": "1_752",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/528/Histogramm.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die fehlende Säule über [20; 30] stellt den relativen Anteil 20 % dar (Höhe 2 %)."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-19-sol.png",
+              "alt": "Lösung: Histogramm mit ergänzter Säule 20 % über [20; 30]."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Ergänzung der fehlenden Säule, wobei die Beschriftung „20 %“ nicht angegeben sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie im nachstehenden Histogramm die fehlende Säule so, dass die obigen Daten dargestellt sind."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-19-q.png",
+          "alt": "Histogramm (Flächeninhalt = relativer Anteil) mit den Säulen 10 % über [6;10), 40 % über [10;15), 30 % über [15;20); die Säule über [20;30] fehlt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Über der Klasse 20 ≤ x ≤ 30 (Breite 10) ist die fehlende Säule so einzutragen, dass ihr Flächeninhalt dem relativen Anteil 40/200 = 20 % entspricht (Höhe 2 %)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_752",
+      "baseId": "1_752",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/528/Histogramm.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Betrieb hat insgesamt 200 Beschäftigte. In der nachstehenden Tabelle sind die Stundenlöhne dieser Beschäftigten in Klassen zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-19-tab.png",
+      "alt": "Tabelle: Stundenlohn x in Euro | Anzahl der Beschäftigten — 6 ≤ x < 10: 20; 10 ≤ x < 15: 80; 15 ≤ x < 20: 60; 20 ≤ x ≤ 30: 40."
+    },
+    {
+      "t": "text",
+      "v": "Der Flächeninhalt eines Rechtecks im unten stehenden Histogramm ist der relative Anteil der Beschäftigten in der jeweiligen Klasse."
+    }
+  ]
+}

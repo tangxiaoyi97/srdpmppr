@@ -1,0 +1,148 @@
+{
+  "id": "2025-ht-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2025h1]t1-1-ag.pdf"
+  },
+  "title": "Terme",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1449a",
+          "baseId": "1_1449",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1017/1_1449_srdp_ma_Terme_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{a}{b}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "(-a-b)^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Terme an, die in jedem Fall eine natürliche Zahl ergeben."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "a-b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{a}{b}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a+b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(-a-b)^2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot b"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1449",
+      "baseId": "1_1449",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1017/1_1449_srdp_ma_Terme_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die von null verschiedenen ganzen Zahlen a und b gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a=-4\\cdot b"
+    }
+  ]
+}

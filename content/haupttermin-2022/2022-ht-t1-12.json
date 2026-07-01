@@ -1,0 +1,172 @@
+{
+  "id": "2022-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2022h1]t1-12-fa.pdf"
+  },
+  "title": "Töne",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-12-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1190a",
+          "baseId": "1_1190",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/731/Toene.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Schwingung, die den Ton mit der höchsten Lautstärke erzeugt, wird durch die Funktion ① beschrieben; die Schwingung, die den tiefsten Ton erzeugt, wird durch die Funktion ② beschrieben."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "f"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1190",
+      "baseId": "1_1190",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/731/Toene.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktionen f, g und h beschreiben jeweils in Abhängigkeit von der Zeit t (in Sekunden) Schwingungen, die Töne erzeugen.\n\nDabei gilt:"
+    },
+    {
+      "t": "math",
+      "v": "f(t)=\\sin(600\\cdot t)"
+    },
+    {
+      "t": "math",
+      "v": "g(t)=\\tfrac{5}{4}\\cdot\\sin(800\\cdot t)"
+    },
+    {
+      "t": "math",
+      "v": "h(t)=\\tfrac{6}{5}\\cdot\\sin(500\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": "Die Lautstärke eines Tons ist umso höher, je größer die Amplitude (maximale Auslenkung) der zugehörigen Schwingung ist.\nEin Ton ist umso höher, je höher die Frequenz (Anzahl der Schwingungen pro Sekunde) der zugehörigen Schwingung ist."
+    }
+  ]
+}

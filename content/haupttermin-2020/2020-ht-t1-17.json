@@ -1,0 +1,210 @@
+{
+  "id": "2020-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2020h1]t1-17-an.pdf"
+  },
+  "title": "Kurvenverlauf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-17-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_774a",
+          "baseId": "1_774",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/558/Kurvenverlauf.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Abbildung 1 → E;  Abbildung 2 → D;  Abbildung 3 → B;  Abbildung 4 → F"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Abbildungen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Abbildungen jeweils die zutreffende Aussage (aus A bis F) zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-17-abb1.png",
+              "alt": "Abbildung 1: Graph von f mit Tangente t in P; der Graph steigt durch P, P ist einziger gemeinsamer Punkt (steigende Tangente, lokaler Verlauf nach oben gekrümmt)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-17-abb2.png",
+              "alt": "Abbildung 2: Graph von f mit Tangente t in P; der Graph fällt durch P."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-17-abb3.png",
+              "alt": "Abbildung 3: Graph von f mit Tangente t in P; steigende Tangente, der Graph ist rechtsgekrümmt."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-17-abb4.png",
+              "alt": "Abbildung 4: Graph von f mit Tangente t in P; fallende Tangente."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)>0\\ \\text{und}\\ f''(x_P)>0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)>0\\ \\text{und}\\ f''(x_P)<0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)<0\\ \\text{und}\\ f''(x_P)>0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)<0\\ \\text{und}\\ f''(x_P)<0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)>0\\ \\text{und}\\ f''(x_P)=0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_P)<0\\ \\text{und}\\ f''(x_P)=0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_774",
+      "baseId": "1_774",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/558/Kurvenverlauf.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten links stehenden Abbildungen zeigen jeweils die Tangente t in einem Punkt P = (xₚ | f(xₚ)) des Graphen einer Polynomfunktion f. Dabei ist P der einzige gemeinsame Punkt des Graphen von f und der Tangente t. In der unten rechts stehenden Tabelle sind Aussagen über f′(xₚ) und f″(xₚ) gegeben."
+    }
+  ]
+}

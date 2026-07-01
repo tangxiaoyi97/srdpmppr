@@ -1,0 +1,92 @@
+{
+  "id": "2021-het-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2021h2]t1-22-ws.pdf"
+  },
+  "title": "Auswahlmöglichkeiten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_875a",
+          "baseId": "1_875",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/684/Auswahlmoeglichkeiten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\binom{1\\,000}{2}=499\\,500"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Anzahl, wobei auch die Angabe des Binomialkoeffizienten als richtig zu werten ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem bestimmten Preisausschreiben kann man Jahrestickets für den Zoo gewinnen.\nBei diesem Preisausschreiben haben 1 000 Personen jeweils 1-mal teilgenommen.\nAls Gewinner/innen werden 2 Personen nach dem Zufallsprinzip ausgewählt.\n\nGeben Sie die Anzahl der Möglichkeiten an, diese 2 Personen aus den 1 000 Teilnehmerinnen und Teilnehmern nach dem Zufallsprinzip auszuwählen.\n\nDie Anzahl der Auswahlmöglichkeiten beträgt:"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 499500,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_875",
+      "baseId": "1_875",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/684/Auswahlmoeglichkeiten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

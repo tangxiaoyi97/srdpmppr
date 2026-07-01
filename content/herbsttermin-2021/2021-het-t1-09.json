@@ -1,0 +1,108 @@
+{
+  "id": "2021-het-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2021h2]t1-9-fa.pdf"
+  },
+  "title": "Längenausdehnung einer Brücke",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-09-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_862a",
+          "baseId": "1_862",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/671/Laengenausdehnung_Bruecke.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "l(T)=k\\cdot T+d"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "l(-14)=300,\\ l(11)=300{,}1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "l(T)=0{,}004\\cdot T+300{,}056"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von l."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Länge einer bestimmten Brücke ist abhängig von ihrer Temperatur.\nBei einer Temperatur der Brücke von –14 °C ist diese 300 m lang.\nBei einer Erwärmung um 25 °C dehnt sie sich um 0,1 m aus.\n\nDie lineare Funktion l beschreibt modellhaft die Länge dieser Brücke in Abhängigkeit von ihrer Temperatur T. Dabei wird jeder Temperatur T ∈ [–20 °C; 40 °C] die Länge der Brücke l(T) zugeordnet (T in °C, l(T) in m).\n\nStellen Sie eine Funktionsgleichung von l auf."
+        },
+        {
+          "t": "math",
+          "v": "l(T)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.004\\cdot T+300.056",
+        "vars": [
+          "T"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_862",
+      "baseId": "1_862",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/671/Laengenausdehnung_Bruecke.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

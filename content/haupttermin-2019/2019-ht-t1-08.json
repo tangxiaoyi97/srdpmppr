@@ -1,0 +1,139 @@
+{
+  "id": "2019-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2019h1]t1-8-fa.pdf"
+  },
+  "title": "Arbeitslosenrate",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-08-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_693a",
+          "baseId": "1_693",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/426/Arbeitslosenrate.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend ist der Graph, der die Arbeitslosenrate über das gesamte Jahr streng monoton steigend, aber mit abnehmender Zunahme (konkav) darstellt."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn ausschließlich der laut Lösungserwartung richtige Graph angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Entwicklung der Arbeitslosenrate während dieses Jahres kann durch eine Funktion f in Abhängigkeit von der Zeit modelliert werden.\n\nWelcher der nachstehenden Graphen stellt die Entwicklung der Arbeitslosenrate während dieses Jahres dar, wenn die Aussagen beider Politiker zutreffen?\n\nKreuzen Sie den zutreffenden Graphen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt1.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit (Auswahlmöglichkeit 1)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt2.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit (Auswahlmöglichkeit 2)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt3.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit (Auswahlmöglichkeit 3)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt4.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit (Auswahlmöglichkeit 4)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt5.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit: über das gesamte Jahr streng monoton steigend, jedoch mit abnehmender Zunahme (rechtsgekrümmt/konkav)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-08-opt6.png",
+              "alt": "Graph der Arbeitslosenrate in Abhängigkeit von der Zeit (Auswahlmöglichkeit 6)."
+            }
+          ]
+        ],
+        "correct": [
+          4
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_693",
+      "baseId": "1_693",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/426/Arbeitslosenrate.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Politiker, der die erfolgreiche Arbeitsmarktpolitik einer Regierungspartei hervorheben möchte, sagt: „Die Zunahme der Arbeitslosenrate verringerte sich während des ganzen Jahres.“ Ein Politiker der Opposition sagt darauf: „Die Arbeitslosenrate ist während des ganzen Jahres gestiegen.“"
+    }
+  ]
+}

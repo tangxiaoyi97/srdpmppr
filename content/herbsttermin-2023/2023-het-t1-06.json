@@ -1,0 +1,142 @@
+{
+  "id": "2023-het-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2023h2]t1-6-ag.pdf"
+  },
+  "title": "Dreieck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-06-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1297a",
+          "baseId": "1_1297",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/841/1_1297_srdp_ma_Dreieck_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "h=\\frac{w}{\\tan(\\alpha)}\\cdot\\sin(\\alpha)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die Gleichung an, die jedenfalls zutrifft. [1 aus 6]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{w}{\\sin(\\alpha)}\\cdot\\cos(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{w}{\\cos(\\alpha)}\\cdot\\sin(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{w}{\\sin(\\alpha)}\\cdot\\tan(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{w}{\\tan(\\alpha)}\\cdot\\sin(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{\\sin(\\alpha)}{w}\\cdot\\tan(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\frac{\\sin(\\alpha)}{w}\\cdot\\cos(\\alpha)"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1297",
+      "baseId": "1_1297",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/841/1_1297_srdp_ma_Dreieck_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist ein rechtwinkeliges Dreieck ABC dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t1-06-q.png",
+      "alt": "Rechtwinkeliges Dreieck ABC. Bei A der rechte Winkel; Seite w von A nach C, Höhe h auf die Hypotenuse, Seite z von A nach B, Winkel α bei B."
+    }
+  ]
+}

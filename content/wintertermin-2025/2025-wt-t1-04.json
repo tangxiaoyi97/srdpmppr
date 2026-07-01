@@ -1,0 +1,153 @@
+{
+  "id": "2025-wt-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2025w1]t1-4-ag.pdf"
+  },
+  "title": "Koordinaten zweier Punkte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1428a",
+          "baseId": "1_1428",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/990/1_1428_srdp_ma_Koordinaten%20zweier%20Punkte_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x=-7"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "y=9"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von x und y."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie x und y."
+        },
+        {
+          "t": "math",
+          "v": "x="
+        },
+        {
+          "t": "math",
+          "v": "y="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x",
+            "value": -7,
+            "tol": 1e-9
+          },
+          {
+            "id": "y",
+            "label": "y",
+            "value": 9,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1428",
+      "baseId": "1_1428",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/990/1_1428_srdp_ma_Koordinaten%20zweier%20Punkte_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die zwei Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(x\\mid 3)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(-2\\mid y)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "x,y\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " sowie der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\overrightarrow{AB}=\\begin{pmatrix}5\\\\6\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

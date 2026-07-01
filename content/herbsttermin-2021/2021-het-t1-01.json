@@ -1,0 +1,108 @@
+{
+  "id": "2021-het-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2021h2]t1-1-ag.pdf"
+  },
+  "title": "Differenz zwischen zwei natürlichen Zahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-01-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_854a",
+          "baseId": "1_854",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/663/Differenz_zweier_natuerlicher_Zahlen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n>m"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen mathematischen Beziehung, wobei auch n ≥ m als richtig zu werten ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für zwei natürliche Zahlen n und m gilt: n ≠ m.\nDamit die Differenz n – m eine natürliche Zahl ist, muss eine bestimmte mathematische Beziehung zwischen n und m gelten.\n\nGeben Sie diese mathematische Beziehung an."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Anzugeben ist die Beziehung "
+          },
+          {
+            "t": "math",
+            "v": "n>m"
+          },
+          {
+            "t": "text",
+            "v": " (auch "
+          },
+          {
+            "t": "math",
+            "v": "n\\geq m"
+          },
+          {
+            "t": "text",
+            "v": " ist als richtig zu werten)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_854",
+      "baseId": "1_854",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/663/Differenz_zweier_natuerlicher_Zahlen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

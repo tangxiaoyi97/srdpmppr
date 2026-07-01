@@ -1,0 +1,125 @@
+{
+  "id": "2024-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2024h1]t1-24-ws.pdf"
+  },
+  "title": "Computerspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-24-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1363a",
+          "baseId": "1_1363",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/915/1_1363_srdp_ma_Computerspiel_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Binomialverteilung mit "
+            },
+            {
+              "t": "math",
+              "v": "n=5"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}25"
+            },
+            {
+              "t": "text",
+              "v": "; X ... Anzahl der richtigen Antworten"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\geq 3)=0{,}10351\\ldots"
+            },
+            {
+              "t": "text",
+              "v": " — die Wahrscheinlichkeit, dass Gerhard diese Spielrunde gewinnt, beträgt rund 10,35 %."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass Gerhard diese Spielrunde gewinnt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P(X ≥ 3)",
+            "value": 0.10351,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1363",
+      "baseId": "1_1363",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/915/1_1363_srdp_ma_Computerspiel_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmtes Computerspiel besteht aus mehreren Spielrunden.\nBei einer Spielrunde gibt es jeweils 5 Fragen mit jeweils 4 Antwortmöglichkeiten, von denen immer nur 1 Antwortmöglichkeit richtig ist.\nEine Spielrunde gilt als gewonnen, wenn mehr als die Hälfte der Fragen richtig beantwortet wird.\nDie 4 Antwortmöglichkeiten sind bei jeder Frage nach dem Zufallsprinzip angeordnet.\n\nGerhard wählt, ohne die Fragen zu lesen, bei einer bestimmten Spielrunde jedes Mal die erste Antwortmöglichkeit aus."
+    }
+  ]
+}

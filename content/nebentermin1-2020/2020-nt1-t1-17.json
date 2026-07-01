@@ -1,0 +1,246 @@
+{
+  "id": "2020-nt1-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2020n1]t1-17-fa.pdf"
+  },
+  "title": "Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-17-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-17-fa.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-17-q.png",
+      "alt": "Graph einer Polynomfunktion 4. Grades f; die x-Achse ist nicht eingezeichnet (eine nach oben geöffnete Kurve mit einem Tiefpunkt)."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_798a",
+          "baseId": "1_798",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/582/Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Es gibt genau eine Stelle x₁ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_1)>0"
+            },
+            {
+              "t": "text",
+              "v": ".“ und „Es gibt genau eine Stelle x₁ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_1)>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": ".“."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die für die dargestellte Polynomfunktion f bei jeder Lage der x-Achse zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau zwei Stellen x₁ und x₂ mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f(x_2)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau zwei Stellen x₁ und x₂ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_2)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau eine Stelle x₁ mit "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau eine Stelle x₁ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_1)>0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt genau eine Stelle x₁ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_1)>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_1)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_798",
+      "baseId": "1_798",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/582/Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Polynomfunktion 4. Grades "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon x\\mapsto f(x)"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Die x-Achse ist nicht eingezeichnet."
+    }
+  ]
+}

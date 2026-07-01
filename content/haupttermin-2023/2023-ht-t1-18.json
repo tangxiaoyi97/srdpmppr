@@ -1,0 +1,161 @@
+{
+  "id": "2023-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2023h1]t1-18-an.pdf"
+  },
+  "title": "Flächeninhalt",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-18-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1285a",
+          "baseId": "1_1285",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/824/1_1285_srdp_ma_Fl%C3%A4cheninhalt_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\int_{0}^{4} f(x)\\,dx"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{4} f(x)\\,dx-\\int_{-4}^{0} f(x)\\,dx"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Ausdrücke an, mit denen der Flächeninhalt des gesamten grau markierten Bereichs berechnet werden kann. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\int_{0}^{4} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{4} f(x)\\,dx-\\int_{-4}^{0} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\int_{-4}^{0} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-4}^{0} f(x)\\,dx-\\int_{0}^{4} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\left|\\int_{-4}^{4} f(x)\\,dx\\right|"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1285",
+      "baseId": "1_1285",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/824/1_1285_srdp_ma_Fl%C3%A4cheninhalt_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f:\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit ganzzahligen Nullstellen dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-18-q.png",
+      "alt": "Graph der Funktion f mit ganzzahligen Nullstellen; zwei grau markierte Bereiche zwischen dem Graphen und der x-Achse (im Bereich x von −4 bis 4)"
+    },
+    {
+      "t": "text",
+      "v": "Die Flächeninhalte der beiden grau markierten Bereiche sind gleich groß."
+    }
+  ]
+}

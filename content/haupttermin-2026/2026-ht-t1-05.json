@@ -1,0 +1,119 @@
+{
+  "id": "2026-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2026h1]t1-5-ag.pdf"
+  },
+  "title": "Parallele Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1595a",
+          "baseId": "1_1595",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1115/1_1595_Parallele%20Geraden_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=8"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie b."
+        },
+        {
+          "t": "math",
+          "v": "b="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": 8,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1595",
+      "baseId": "1_1595",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1115/1_1595_Parallele%20Geraden_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g\\colon y=2\\cdot x-6"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h\\colon X=\\begin{pmatrix}1\\\\1\\end{pmatrix}+t\\cdot\\begin{pmatrix}4\\\\b\\end{pmatrix}\\ \\text{mit}\\ t,\\,b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ".\nDie Geraden g und h sind parallel zueinander."
+    }
+  ]
+}

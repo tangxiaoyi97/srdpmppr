@@ -1,0 +1,100 @@
+{
+  "id": "2023-het-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2023h2]t1-24-ws.pdf"
+  },
+  "title": "Qualitätssicherung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-24-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1315a",
+          "baseId": "1_1315",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/859/1_1315_srdp_ma_Qualit%C3%A4tssicherung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(E) = 1 - 0{,}98^{n}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von n eine Formel zur Berechnung der Wahrscheinlichkeit P(E) auf."
+        },
+        {
+          "t": "math",
+          "v": "P(E) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1-0.98^n",
+        "vars": [
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1315",
+      "baseId": "1_1315",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/859/1_1315_srdp_ma_Qualit%C3%A4tssicherung_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Zuge der Qualitätssicherung bei der Produktion von Porzellanfiguren werden diese nach ihrer Fertigstellung auf Fehler hin überprüft. Erfahrungsgemäß weiß man, dass 2 % der Porzellanfiguren fehlerhaft sind.\n\nEs wird eine Zufallsstichprobe von n Porzellanfiguren entnommen (n ∈ ℕ mit n ≥ 2). Die Anzahl an fehlerhaften Porzellanfiguren wird als binomialverteilt angenommen.\nDas Ereignis, dass mindestens 1 der n Porzellanfiguren fehlerhaft ist, wird mit E bezeichnet."
+    }
+  ]
+}

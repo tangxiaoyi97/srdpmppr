@@ -1,0 +1,112 @@
+{
+  "id": "2026-wt-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2026w1]t1-9-ag.pdf"
+  },
+  "title": "Erdgas",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-9-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-9-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-09-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1575a",
+          "baseId": "1_1575",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1088/1_1575_srdp_ma_Erdgas_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Grundgebühr: 48 Euro; Geldbetrag pro verbrauchter kWh: 4,4 Cent"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Grundgebühr (in Euro) und den Geldbetrag pro verbrauchter kWh (in Cent) an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "grundgebuehr",
+            "label": "Grundgebühr",
+            "value": 48,
+            "tol": 1e-9,
+            "unit": "Euro"
+          },
+          {
+            "id": "betrag",
+            "label": "Geldbetrag pro verbrauchter kWh",
+            "value": 4.4,
+            "tol": 1e-9,
+            "unit": "Cent"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1575",
+      "baseId": "1_1575",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1088/1_1575_srdp_ma_Erdgas_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Kosten eines Haushalts für den Verbrauch von Erdgas setzen sich aus einer Grundgebühr und einem Geldbetrag für die Anzahl der verbrauchten Kilowattstunden (kWh) zusammen. Pro verbrauchter kWh ist jeweils der gleiche Geldbetrag zu zahlen.\n\nIn der nachstehenden Tabelle sind die jährlichen Kosten für zwei verschiedene Verbrauchswerte angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-09-q.png",
+      "alt": "Tabelle: Verbrauch (in kWh) | jährliche Kosten (in Euro) — 12 500 | 598; 15 000 | 708."
+    }
+  ]
+}

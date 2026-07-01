@@ -1,0 +1,133 @@
+{
+  "id": "2019-nt1-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2019n1]t1-6-ag.pdf"
+  },
+  "title": "Winkel mit gleichem Sinuswert",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-06-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 4.2",
+          "description": "Definitionen von Sinus und Cosinus für Winkel größer als 90° kennen und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_715a",
+          "baseId": "1_715",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/454/Winkel%20mit%20gleichem%20Sinuswert.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha+\\beta=180^\\circ"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Beziehung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche Beziehung besteht zwischen den Winkeln α und β?\nKreuzen Sie die zutreffende Beziehung an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\alpha+\\beta=90^\\circ"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\alpha+\\beta=180^\\circ"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\alpha+\\beta=270^\\circ"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\alpha+\\beta=360^\\circ"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\beta-\\alpha=270^\\circ"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\beta-\\alpha=180^\\circ"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_715",
+      "baseId": "1_715",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/454/Winkel%20mit%20gleichem%20Sinuswert.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sei eine reelle Zahl c mit 0 < c < 1. Für die zwei unterschiedlichen Winkel α und β soll gelten: sin(α) = sin(β) = c.\nDabei soll α ein spitzer Winkel und β ein Winkel aus dem Intervall (0°; 360°) sein."
+    }
+  ]
+}

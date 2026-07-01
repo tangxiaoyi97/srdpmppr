@@ -1,0 +1,137 @@
+{
+  "id": "2023-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2023h1]t1-11-fa.pdf"
+  },
+  "title": "Jahreszinssatz",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1278a",
+          "baseId": "1_1278",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/817/1_1278_srdp_ma_Jahreszinssatz_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1{,}0862=(1+i)^6"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "i=\\sqrt[6]{1{,}0862}-1\\approx 0{,}0139\\ (\\approx 1{,}39\\,\\%)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von i."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Jahreszinssatz i."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "i",
+            "label": "i",
+            "value": 0.013879,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1278",
+      "baseId": "1_1278",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/817/1_1278_srdp_ma_Jahreszinssatz_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Kapital "
+    },
+    {
+      "t": "math",
+      "v": "K_0"
+    },
+    {
+      "t": "text",
+      "v": " wächst exponentiell mit dem gleichbleibenden Jahreszinssatz i. Nach n Jahren erreicht das Kapital den Wert "
+    },
+    {
+      "t": "math",
+      "v": "K_n"
+    },
+    {
+      "t": "text",
+      "v": ", der mit der nachstehenden Formel berechnet werden kann.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "K_n = K_0 \\cdot (1+i)^n \\quad \\text{mit} \\quad n\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nNach 6 Jahren hat das Kapital "
+    },
+    {
+      "t": "math",
+      "v": "K_0"
+    },
+    {
+      "t": "text",
+      "v": " um insgesamt 8,62 % zugenommen."
+    }
+  ]
+}

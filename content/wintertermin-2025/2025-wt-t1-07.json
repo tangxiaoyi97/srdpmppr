@@ -1,0 +1,132 @@
+{
+  "id": "2025-wt-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2025w1]t1-7-an.pdf"
+  },
+  "title": "Leistung von Windkraftanlagen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-07-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.8",
+          "description": "durch Gleichungen (Formeln) gegebene Funktionen mit mehreren Veränderlichen im Kontext deuten können, Funktionswerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1431a",
+          "baseId": "1_1431",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/993/1_1431_srdp_ma_Leistung%20von%20Windkraftanlagen_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Bei einer Zunahme der Windgeschwindigkeit von 6 m/s auf 18 m/s wird die Leistung bei gleichem Radius und gleicher Dichte 27-mal so hoch.“ und „Bei einer um 25 % geringeren Dichte und doppelt so hoher Windgeschwindigkeit ist die Leistung bei gleichem Radius 6-mal so hoch.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Bei einer Zunahme der Windgeschwindigkeit von 6 m/s auf 18 m/s wird die Leistung bei gleichem Radius und gleicher Dichte 27-mal so hoch."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei einer Zunahme der Dichte nimmt die Leistung bei gleichem Radius und gleicher Windgeschwindigkeit ab."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei doppeltem Radius und doppelter Windgeschwindigkeit ist die Leistung bei gleicher Dichte 6-mal so hoch."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei einer um 25 % geringeren Dichte und doppelt so hoher Windgeschwindigkeit ist die Leistung bei gleichem Radius 6-mal so hoch."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei halb so hoher Windgeschwindigkeit und 3-fachem Radius ist die Leistung bei gleicher Dichte gleich hoch."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1431",
+      "baseId": "1_1431",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/993/1_1431_srdp_ma_Leistung%20von%20Windkraftanlagen_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Leistung P von Windkraftanlagen hängt von der Dichte ϱ der Luft, vom Radius r der Rotorblätter und von der Windgeschwindigkeit v ab. Es gilt:"
+    },
+    {
+      "t": "math",
+      "v": "P=\\frac{\\varrho}{2}\\cdot r^{2}\\cdot\\pi\\cdot v^{3}\\quad\\text{mit}\\ \\varrho,\\,r,\\,v\\in\\mathbb{R}^{+}"
+    }
+  ]
+}

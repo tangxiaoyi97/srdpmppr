@@ -1,0 +1,396 @@
+{
+  "id": "2020-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2020h1]t2-4.pdf"
+  },
+  "title": "Ozonmessungen",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t2-04-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Auf der Hohen Warte in Wien befindet sich in 220 m Seehöhe eine Wetterstation. Hier wird für eine Messreihe ein Wetterballon mit einem Ozonmessgerät gestartet. Das Ozonmessgerät beginnt mit seinen Aufzeichnungen, wenn der Wetterballon eine Seehöhe von 2 km erreicht hat.\n\nNehmen Sie an, dass der Wetterballon (mit der Anfangsgeschwindigkeit 0 m/s) lotrecht in die Höhe steigt und dabei gleichmäßig mit 0,125 m/s² beschleunigt, bis er zu einem Zeitpunkt t₁ eine Geschwindigkeit von 6 m/s erreicht. Die Zeit wird dabei in Sekunden und die Seehöhe in Metern gemessen.\n\nErmitteln Sie die Höhe des Wetterballons über der Wetterstation zum Zeitpunkt t₁."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "hoehe",
+            "value": 144,
+            "tol": 1e-9,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "v(t)=0{,}125\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "v(t_1)=6\\ \\Rightarrow\\ t_1=\\frac{6}{0{,}125}=48"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{48} v(t)\\,\\mathrm{d}t=144"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Höhe des Wetterballons über der Wetterstation zum Zeitpunkt t₁ beträgt 144 m."
+            }
+          ],
+          "note": "a1) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-04-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ab dem Zeitpunkt t₁ steigt der Wetterballon mit der konstanten Geschwindigkeit von 6 m/s lotrecht weiter.\n\nErmitteln Sie, wie viele Sekunden nach dem Start das Messgerät mit seinen Aufzeichnungen beginnt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "zeit",
+            "value": 321,
+            "tol": 1,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nverbleibende senkrechte Strecke bis zum Start der Messung:\n"
+            },
+            {
+              "t": "math",
+              "v": "2\\,000-220-144=1\\,636"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1\\,636}{6}+48=320{,}6\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Messgerät beginnt seine Aufzeichnungen ca. 321 s nach dem Start."
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-04-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Wetterballon hat bei einem Luftdruck von 1 013,25 hPa ein Volumen von 6,3 m³. Durch die Abnahme des Luftdrucks während des Aufstiegs dehnt sich der Wetterballon immer weiter aus und wird näherungsweise kugelförmig. Bei einem Durchmesser von d Metern zerplatzt er.\n\nDer Luftdruck kann in Abhängigkeit von der Seehöhe h durch eine Funktion p modelliert werden. Dabei ordnet die Funktion p der Seehöhe h den Luftdruck p(h) zu.\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "p(h)=1\\,013{,}25\\cdot\\left(1-\\frac{0{,}0065\\cdot h}{288{,}15}\\right)^{5{,}255}\\ \\text{mit}\\ h\\ \\text{in m},\\ p(h)\\ \\text{in hPa}"
+        },
+        {
+          "t": "text",
+          "v": "Gehen Sie davon aus, dass der Luftdruck p(h) und das Volumen V(h) des Wetterballons indirekt proportional zueinander sind. Dabei ist V(h) das Volumen des Wetterballons in der Seehöhe h.\n\nDrücken Sie das Volumen V(h) durch die Seehöhe h aus."
+        },
+        {
+          "t": "math",
+          "v": "V(h)=\\qquad\\text{mit}\\ h\\ \\text{in m},\\ V(h)\\ \\text{in m}^3"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "6.3 / (1 - 0.0065*h/288.15)^5.255",
+        "vars": [
+          "h"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V(h)=\\frac{6{,}3}{\\left(1-\\frac{0{,}0065\\cdot h}{288{,}15}\\right)^{5{,}255}}\\ \\text{mit}\\ h\\ \\text{in m},\\ V(h)\\ \\text{in m}^3"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-04-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Wetterballon zerplatzt in einer Seehöhe von h = 27 873,6 m.\n\nBerechnen Sie den Durchmesser d des Wetterballons in Metern, bei dem dieser zerplatzt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d",
+            "label": "d",
+            "value": 13,
+            "tol": 1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "V(27\\,873{,}6)=1\\,150{,}351\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{4}{3}\\cdot\\left(\\frac{d}{2}\\right)^{3}\\cdot\\pi=1\\,150{,}351\\ldots\\ \\Rightarrow\\ d=13{,}0\\ldots\\approx 13"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Durchmesser des Wetterballons, bei dem dieser zerplatzt, beträgt ca. 13 m."
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-04-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das sogenannte Gesamtozon ist ein Maß für die Dicke der Ozonschicht und wird in sogenannten Dobson-Einheiten (DU) angegeben.\n\nDie von einem Wetterballon aufgezeichneten Messdaten können modellhaft durch eine quadratische Funktion f beschrieben werden. Dabei ordnet f der Höhe h die Gesamtozondichte f(h) zu (h in km, f(h) in DU/km).\n\nDer höchste Wert von 36 DU/km wird in einer Seehöhe von 22 km gemessen. In einer Seehöhe von 37 km beträgt der gemessene Wert 1 DU/km.\n\nErmitteln Sie f(h)."
+        },
+        {
+          "t": "math",
+          "v": "f(h)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-\\frac{7}{45}\\cdot h^{2}+\\frac{308}{45}\\cdot h-\\frac{1768}{45}",
+        "vars": [
+          "h"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(h)=a\\cdot h^{2}+b\\cdot h+c"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f(37)=1,\\quad f(22)=36,\\quad f'(22)=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(h)=-\\frac{7}{45}\\cdot h^{2}+\\frac{308}{45}\\cdot h-\\frac{1768}{45}"
+            }
+          ],
+          "note": "c1) Ein Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-04-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der Erdatmosphäre entspricht 1 DU einer 0,01 mm dicken Schicht reinen Ozons an der Erdoberfläche. Die Dicke derjenigen Schicht reinen Ozons an der Erdoberfläche, die dem Gesamtozon zwischen 7 km und 37 km Seehöhe entspricht, ist "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{7}^{37} f(h)\\,\\mathrm{d}h"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBerechnen Sie die Dicke dieser Schicht."
+        },
+        {
+          "t": "text",
+          "v": "Dicke dieser Schicht: ___ mm"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dicke",
+            "label": "Dicke dieser Schicht",
+            "value": 7.3,
+            "tol": 0.01,
+            "unit": "mm"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{7}^{37} f(h)\\,\\mathrm{d}h=730"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "730\\cdot 0{,}01=7{,}3"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Dicke dieser Schicht: 7,3 mm"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Gas Ozon hat Auswirkungen auf unsere Gesundheit. Aus diesem Grund werden in Messstationen und mithilfe von Wetterballons die jeweiligen Ozonkonzentrationen in unterschiedlichen Atmosphärenschichten gemessen."
+    }
+  ]
+}

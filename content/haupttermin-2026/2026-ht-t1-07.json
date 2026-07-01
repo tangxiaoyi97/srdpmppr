@@ -1,0 +1,121 @@
+{
+  "id": "2026-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2026h1]t1-7-fa.pdf"
+  },
+  "title": "Orangensaft",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-07-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1597a",
+          "baseId": "1_1597",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1117/1_1597_Orangensaft_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "G(x)\\ge 16\\,000"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "1\\,050{,}8\\ldots\\le x\\le 1162{,}0\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "größtmögliches Intervall: "
+            },
+            {
+              "t": "math",
+              "v": "[\\,1\\,050{,}8\\ldots;\\ 1\\,100\\,]"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln des größtmöglichen Intervalls."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie das größtmögliche Intervall für die verkaufte Orangensaftmenge, für das der wöchentliche Gewinn mindestens € 16.000 beträgt."
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": 1050.8,
+        "upper": 1100,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1597",
+      "baseId": "1_1597",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1117/1_1597_Orangensaft_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Betrieb verkauft Orangensaft. Der wöchentliche Gewinn aus dem Verkauf von Orangensaft kann durch die Funktion G modelliert werden.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "G(x)=-0{,}0001\\cdot x^{3}+0{,}2\\cdot x^{2}-75\\cdot x-10\\,000"
+    },
+    {
+      "t": "text",
+      "v": "x ... verkaufte Orangensaftmenge in Hektolitern (hl)\nG(x) ... Gewinn bei x in €\n\nEs können höchstens 1 100 hl Orangensaft pro Woche verkauft werden."
+    }
+  ]
+}

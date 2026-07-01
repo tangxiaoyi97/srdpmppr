@@ -1,0 +1,110 @@
+{
+  "id": "2020-nt1-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2020n1]t1-18-an.pdf"
+  },
+  "title": "Geschwindigkeitsfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_799a",
+          "baseId": "1_799",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/583/Geschwindigkeitsfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Fragestellung:\nWelche Wegstrecke legt der Körper im Zeitintervall von t₁ = 1 s bis t₂ = 5 s zurück?"
+            }
+          ],
+          "note": "Ein Punkt für eine entsprechende Fragestellung, wobei der Bezug auf die Bewegung des Körpers gegeben sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Formulieren Sie mit Bezug auf die Bewegung des Körpers eine Fragestellung, die mit der durchgeführten Berechnung beantwortet werden kann."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Fragestellung:\nWelche Wegstrecke legt der Körper im Zeitintervall von t₁ = 1 s bis t₂ = 5 s zurück?"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_799",
+      "baseId": "1_799",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/583/Geschwindigkeitsfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion v mit "
+    },
+    {
+      "t": "math",
+      "v": "v(t)=0{,}5\\cdot t+2"
+    },
+    {
+      "t": "text",
+      "v": " ordnet für einen Körper jedem Zeitpunkt t die Geschwindigkeit v(t) zu (t in s, v(t) in m/s).\n\nFolgende Berechnung wird durchgeführt:"
+    },
+    {
+      "t": "math",
+      "v": "\\int_{1}^{5}(0{,}5\\cdot t+2)\\,dt=14"
+    }
+  ]
+}

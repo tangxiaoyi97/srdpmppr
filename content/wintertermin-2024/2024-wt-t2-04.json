@@ -1,0 +1,372 @@
+{
+  "id": "2024-wt-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2024w1]t2-4.pdf"
+  },
+  "title": "Wachstum von Tierpopulationen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_136a",
+          "baseId": "2_136",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Populationsgröße (Anzahl der Individuen) einer bestimmten Tierart kann modellhaft durch die Funktion N: ℝ₀⁺ → ℝ⁺ in Abhängigkeit von der Zeit t beschrieben werden.\n\nDabei gilt:"
+        },
+        {
+          "t": "math",
+          "v": "N(t)=\\dfrac{500}{1+4\\cdot e^{-0{,}2\\cdot t}}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Wochen\nN(t) ... Populationsgröße zum Zeitpunkt t\n\nZum Zeitpunkt t_v ist die Population auf das Doppelte ihrer Größe zum Zeitpunkt t = 0 angewachsen.\n\nBerechnen Sie t_v."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "tv",
+            "label": "t_v",
+            "value": 4.9,
+            "tol": 0.1,
+            "unit": "Wochen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "N(0)=100"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "N(t_v)=2\\cdot N(0)"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_v=4{,}9\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von t_v."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-04-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_136b",
+          "baseId": "2_136",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Wachstumsgeschwindigkeit einer anderen Tierpopulation lässt sich durch die Polynomfunktion f mit f(t) = a ∙ t² + b ∙ t + c mit a, b, c ∈ ℝ und a ≠ 0 modellieren. Dabei gibt f(t) die momentane Änderungsrate der Anzahl der Individuen in Abhängigkeit von der Zeit t an (t in Wochen, f(t) in Individuen pro Woche).\n\nDie Wachstumsgeschwindigkeit zum Zeitpunkt t = 0 beträgt 15 Individuen pro Woche und erreicht nach 7 Wochen ihr Maximum. Nach 35 Wochen beträgt die Wachstumsgeschwindigkeit 0 Individuen pro Woche.\n\nStellen Sie eine Funktionsgleichung von f auf."
+        },
+        {
+          "t": "math",
+          "v": "f(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-1/49*t^2 + 2/7*t + 15",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(t)=a\\cdot t^{2}+b\\cdot t+c"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "f(0)=15,\\ f(35)=0,\\ f'(7)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(t)=-\\dfrac{1}{49}\\cdot t^{2}+\\dfrac{2}{7}\\cdot t+15"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_136b",
+          "baseId": "2_136",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird angenommen, dass die Tierpopulation zu Beginn der Beobachtungen aus 50 Individuen besteht.\n\nInterpretieren Sie"
+        },
+        {
+          "t": "math",
+          "v": "50+\\int_{0}^{7} f(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": "im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck gibt die Größe der Tierpopulation (Anzahl der Individuen) nach 7 Wochen an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck gibt die Größe der Tierpopulation (Anzahl der Individuen) nach 7 Wochen an."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-04-b3",
+      "label": "b3",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_136b",
+          "baseId": "2_136",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Einer der nachstehenden Ausdrücke beschreibt die mittlere Änderungsrate der Größe der Tierpopulation im Zeitintervall [t₁; t₂] mit t₁ < t₂.\n\nKreuzen Sie den jedenfalls zutreffenden Ausdruck an. [1 aus 6]"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{f(t_2)-f(t_1)}{t_2-t_1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{\\int_{t_1}^{t_2} f(t)\\,dt}{t_2-t_1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{t_1} f(t)\\,dt-\\int_{0}^{t_2} f(t)\\,dt"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{f(t_2)-f(t_1)}{t_2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(t_2)-f(t_1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{f(t_2)-f(t_1)}{f(t_1)}"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{\\int_{t_1}^{t_2} f(t)\\,dt}{t_2-t_1}"
+            }
+          ],
+          "note": "b3) Ein Punkt für das richtige Ankreuzen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_136",
+      "baseId": "2_136",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Wachstum von Tierpopulationen"
+    }
+  ]
+}

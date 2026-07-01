@@ -1,0 +1,152 @@
+{
+  "id": "2020-nt1-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2020n1]t1-13-an.pdf"
+  },
+  "title": "Differenzenquotient und Differenzialquotient",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-13-an.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-13-q.png",
+      "alt": "Graph einer Polynomfunktion 3. Grades f über dem Intervall von etwa –1 bis 10; f-Werte von 3 bis –6."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-13-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Für alle a ∈ (0; 1) gilt: Je kleiner a ist, desto weniger unterscheidet sich "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}"
+            },
+            {
+              "t": "text",
+              "v": " von f′(0).“ und „Für alle a ∈ (2; 3) gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}>f'(0)"
+            },
+            {
+              "t": "text",
+              "v": "“."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall (0; 2) gibt es eine Stelle a, sodass gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}=f'(0)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall (4; 6) gibt es eine Stelle a, sodass gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}=f'(0)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle a ∈ (0; 1) gilt: Je kleiner a ist, desto weniger unterscheidet sich "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}"
+            },
+            {
+              "t": "text",
+              "v": " von f′(0)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle a ∈ (2; 5) gilt: Je größer a ist, desto weniger unterscheidet sich "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}"
+            },
+            {
+              "t": "text",
+              "v": " von f′(0)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle a ∈ (2; 3) gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(a)-f(0)}{a-0}>f'(0)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Polynomfunktion 3. Grades f dargestellt."
+    }
+  ]
+}

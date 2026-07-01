@@ -1,0 +1,137 @@
+{
+  "id": "2025-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2025h1]t1-17-an.pdf"
+  },
+  "title": "Bestimmtes Integral",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-17-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1465a",
+          "baseId": "1_1465",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1035/1_1465_srdp_ma_Bestimmtes%20Integral_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} b\\cdot f(x)\\,dx = b\\cdot F(b)-b\\cdot F(a)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die auf jeden Fall zutreffende Gleichung an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} \\bigl(f(x)+x\\bigr)\\,dx = F(b)+b-\\bigl(F(a)+a\\bigr)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} f(b\\cdot x)\\,dx = F(b\\cdot b)-F(b\\cdot a)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} \\bigl(f(x)+b-a\\bigr)\\,dx = F(b)-F(a)+\\dfrac{b^{2}}{2}-\\dfrac{a^{2}}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} b\\cdot f(x)\\,dx = b\\cdot F(b)-b\\cdot F(a)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} x\\cdot f(x)\\,dx = b\\cdot F(b)-a\\cdot F(a)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{b}^{a} f(x)\\,dx = \\dfrac{1}{F(b)}-\\dfrac{1}{F(a)}"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1465",
+      "baseId": "1_1465",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1035/1_1465_srdp_ma_Bestimmtes%20Integral_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind eine Polynomfunktion f und eine Stammfunktion F von f."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "2019-ht-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2019h1]t1-19-ws.pdf"
+  },
+  "title": "Freizeitverhalten von Jugendlichen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_704a",
+          "baseId": "1_704",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/437/Freizeitverhalten%20von%20Jugendlichen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Es haben 22 Jugendliche angegeben, dass sie weder Mitglied in einem Sportverein sind noch ein Instrument spielen."
+            },
+            {
+              "t": "math",
+              "v": "h=\\frac{22}{400}=0{,}055"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "h=0{,}055"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Die angeführte Tabelle muss nicht ausgefüllt sein. Toleranzintervall: [0,05; 0,06] bzw. [5 %; 6 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die relative Häufigkeit h der befragten Jugendlichen an, die weder Mitglied in einem Sportverein sind noch ein Instrument spielen!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h",
+            "label": "h",
+            "value": 0.055,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_704",
+      "baseId": "1_704",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/437/Freizeitverhalten%20von%20Jugendlichen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es wurden 400 Jugendliche zu ihrem Freizeitverhalten befragt. Von allen Befragten gaben 330 an, Mitglied in einem Sportverein zu sein, 146 gaben an, ein Instrument zu spielen, und 98 gaben an, sowohl Mitglied in einem Sportverein zu sein als auch ein Instrument zu spielen.\n\nDas Ergebnis dieser Befragung ist in der nachstehenden Tabelle eingetragen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-19-q.png",
+      "alt": "Vierfeldertabelle (spielt Instrument | spielt kein Instrument | gesamt): Mitglied in Sportverein 98 / — / 330; kein Mitglied in Sportverein — / — / —; gesamt 146 / — / 400."
+    }
+  ]
+}

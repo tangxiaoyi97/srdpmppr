@@ -1,0 +1,169 @@
+{
+  "id": "2024-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2024h1]t1-11-fa.pdf"
+  },
+  "title": "Halbwertszeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-11-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1350a",
+          "baseId": "1_1350",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/902/1_1350_srdp_ma_Halbwertszeit_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{2}\\cdot N(t^{*})"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie den zu "
+        },
+        {
+          "t": "math",
+          "v": "N(t^{*}+\\tau)"
+        },
+        {
+          "t": "text",
+          "v": " äquivalenten Ausdruck an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot N_0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(\\tau)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N\\!\\left(\\tfrac{1}{2}\\cdot t^{*}\\right)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot N(\\tau)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(2\\cdot t^{*})"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{2}\\cdot N(t^{*})"
+            }
+          ]
+        ],
+        "correct": [
+          5
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1350",
+      "baseId": "1_1350",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/902/1_1350_srdp_ma_Halbwertszeit_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Masse einer radioaktiven Substanz in Abhängigkeit von der Zeit t kann durch eine Exponentialfunktion beschrieben werden. Dabei gilt:"
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot e^{-k\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": "N(t) ... vorhandene Masse der radioaktiven Substanz zum Zeitpunkt t\nN₀ ... vorhandene Masse der radioaktiven Substanz zum Zeitpunkt t = 0\n"
+    },
+    {
+      "t": "math",
+      "v": "k\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " ... Zerfallskonstante\n\nMit τ wird die Halbwertszeit der radioaktiven Substanz bezeichnet.\nMit t* wird ein beliebiger Zeitpunkt bezeichnet.\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "t^{*}\\neq\\tau\\ \\text{und}\\ t^{*}>0"
+    }
+  ]
+}

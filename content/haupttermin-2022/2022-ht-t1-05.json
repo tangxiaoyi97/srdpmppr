@@ -1,0 +1,187 @@
+{
+  "id": "2022-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2022h1]t1-5-ag.pdf"
+  },
+  "title": "Berechnungen am Dreieck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-05-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1183a",
+          "baseId": "1_1183",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/748/Berechnungen%20am%20Dreieck.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "a → B, b → F, c → E, h → D."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Längen jeweils den zutreffenden Ausdruck zur Berechnung aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "b\\cdot\\cos(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{p}{\\cos(\\beta)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{h}{\\tan(\\beta)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "q\\cdot\\tan(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "q+\\dfrac{h}{\\tan(\\beta)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{q}{\\cos(\\alpha)}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1183",
+      "baseId": "1_1183",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/748/Berechnungen%20am%20Dreieck.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt ein Dreieck, das durch die Höhe h in zwei rechtwinkelige Dreiecke unterteilt wird."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-05-q.png",
+      "alt": "Dreieck mit Seiten a, b, c und Höhe h; h unterteilt c in die Abschnitte q (links, bei α) und p (rechts, bei β); Winkel α unten links, β unten rechts."
+    }
+  ]
+}

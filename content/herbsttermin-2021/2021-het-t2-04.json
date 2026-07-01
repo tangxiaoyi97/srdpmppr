@@ -1,0 +1,335 @@
+{
+  "id": "2021-het-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2021h2]t2-4.pdf"
+  },
+  "title": "Speichermedien",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_108a",
+          "baseId": "2_108",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/690/Speichermedien.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Speicherkapazität eines Speichermediums kann unter anderem in Kilobyte, Megabyte bzw. Gigabyte angegeben werden. Die Vorsilben Kilo-, Mega-, Giga- werden dabei wie folgt verwendet:\n1 Megabyte = 1 024 Kilobyte\n1 Gigabyte = 1 024 Megabyte\n\nEine bestimmte Speicherkarte mit einer Speicherkapazität von 16 Gigabyte wird zum Speichern von Fotos verwendet. Modellhaft wird angenommen, dass alle gespeicherten Fotos den gleichen Bedarf an Speicherplatz haben.\nDie Funktion N: ℝ⁺ → ℝ⁺ ordnet dem Bedarf an Speicherplatz F für ein Foto die größtmögliche Anzahl N(F) der auf dieser Speicherkarte speicherbaren Fotos zu (F in Kilobyte).\n\nStellen Sie eine Funktionsgleichung von N auf."
+        },
+        {
+          "t": "math",
+          "v": "N(F)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{16777216}{F}",
+        "vars": [
+          "F"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N(F)=\\dfrac{16\\cdot 1\\,024\\cdot 1\\,024}{F}=\\dfrac{16\\,777\\,216}{F}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von N, wobei auch jeder Hinweis auf das Abrunden von N(F) auf die nächstkleinere ganze Zahl als richtig zu werten ist."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_108b",
+          "baseId": "2_108",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/690/Speichermedien.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Michael hat 4 USB-Sticks mit den Bezeichnungen A, B, C und D.\n- Auf USB-Stick A speichert er alle seine Fotos ab.\n- Auf den 3 anderen USB-Sticks, B, C und D, speichert er zur Sicherung jeweils genau ein Drittel seiner Fotos so ab, dass jedes Foto zusätzlich auf genau 1 dieser 3 USB-Sticks gespeichert ist.\n\nFür jeden der 4 USB-Sticks ist (jeweils unabhängig voneinander) die Wahrscheinlichkeit 75 %, dass er 5 Jahre lang funktionstüchtig bleibt.\n\nEs wird vereinfacht angenommen, dass ein USB-Stick entweder vollständig funktionstüchtig ist oder gar nicht funktioniert.\n\nBerechnen Sie die Wahrscheinlichkeit, dass nach 5 Jahren noch jedes von Michaels Fotos auf mindestens 1 USB-Stick verfügbar ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.85546875,
+            "tol": 0.000001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}75+0{,}25\\cdot 0{,}75^{3}=0{,}855\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}855\\ldots"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_108b",
+          "baseId": "2_108",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/690/Speichermedien.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Michael stellt nach 5 Jahren fest, dass USB-Stick A nicht mehr funktionstüchtig ist.\n\nBerechnen Sie die Wahrscheinlichkeit, dass zumindest 2 der 3 USB-Sticks B, C und D funktionstüchtig sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.84375,
+            "tol": 0.000001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}75^{3}+3\\cdot 0{,}25\\cdot 0{,}75^{2}=0{,}843\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}843\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_108c",
+          "baseId": "2_108",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/690/Speichermedien.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein beliebtes Speichermedium für Filme ist die DVD.\n\nSeit Anfang des 21. Jahrhunderts hat der durchschnittliche Preis für Film-DVDs abgenommen, wie das nachstehende Diagramm zeigt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t2-04-c.png",
+          "alt": "Säulendiagramm: durchschnittlicher Preis für eine Film-DVD in Euro für die Jahre 2002 bis 2011 (20,1; 16,4; 14,7; 13,4; 12,9; 12,7; 12,2; 11,7; 11,5; 11,1)."
+        },
+        {
+          "t": "text",
+          "v": "Datenquelle: https://www.mkdiscpress.de/ratgeber/chronik-der-speichermedien/ [20.11.2019].\n\nDer durchschnittliche Preis für eine Film-DVD wird durch die Funktion P in Abhängigkeit von der Zeit t modelliert."
+        },
+        {
+          "t": "math",
+          "v": "P(t)=a\\cdot b^{t}+11\\ \\text{mit}\\ a,b\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 2002\nP(t) ... durchschnittlicher Preis für eine Film-DVD zur Zeit t in Euro\n\nErmitteln Sie a und b so, dass P für die Jahre 2002 und 2011 den durchschnittlichen Preis für eine Film-DVD im jeweiligen Jahr laut obigem Diagramm ergibt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 9.1,
+            "tol": 0.000001
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 0.60579,
+            "tol": 0.0001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "perBlank",
+        "pointsPerCorrect": 0.5,
+        "max": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "P(0)=20{,}1\\Rightarrow a+11=20{,}1"
+            },
+            {
+              "t": "math",
+              "v": "P(9)=11{,}1\\Rightarrow a\\cdot b^{9}+11=11{,}1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=9{,}1"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=\\sqrt[9]{\\tfrac{0{,}1}{9{,}1}}=0{,}60579\\ldots"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_108",
+      "baseId": "2_108",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/690/Speichermedien.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den letzten Jahrzehnten wurden verschiedene Speichermedien, wie zum Beispiel Speicherkarten, USB-Sticks oder DVDs, für die Sicherung von Daten verwendet."
+    }
+  ]
+}

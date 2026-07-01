@@ -1,0 +1,123 @@
+{
+  "id": "2024-wt-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2024w1]t1-6-ag.pdf"
+  },
+  "title": "Segelboot",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1321a",
+          "baseId": "1_1321",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/869/1_1321_srdp_ma_Segelboot_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=\\arctan\\!\\left(\\dfrac{h-d}{b}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "  oder  "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=\\arcsin\\!\\left(\\dfrac{h-d}{\\sqrt{b^{2}+(h-d)^{2}}}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "  oder  "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=\\arccos\\!\\left(\\dfrac{b}{\\sqrt{b^{2}+(h-d)^{2}}}\\right)"
+            }
+          ],
+          "note": "Auch die Schreibweisen mit „tan–1“ oder „sin–1“ oder „cos–1“ sind als richtig zu werten. Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung des Winkels α auf. Verwenden Sie dabei h, d und b."
+        },
+        {
+          "t": "math",
+          "v": "\\alpha="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "arctan((h-d)/b)",
+        "vars": [
+          "h",
+          "d",
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1321",
+      "baseId": "1_1321",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/869/1_1321_srdp_ma_Segelboot_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist ein Modell eines Segelboots dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-06-q.png",
+      "alt": "Modell eines Segelboots: rechtwinkeliges Dreieck mit waagrechter Kathete b, senkrechter Strecke d am oberen Mast und Höhe h; Winkel α an der Spitze zwischen den Strecken d und der Hypotenuse."
+    }
+  ]
+}

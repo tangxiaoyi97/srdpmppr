@@ -1,0 +1,363 @@
+{
+  "id": "2022-het-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2022h2]t2-4.pdf"
+  },
+  "title": "Würfelspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_120a",
+          "baseId": "2_120",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/777/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Wahrscheinlichkeit für ein Grande, wenn die fünf Würfel einmal geworfen werden."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "pGrande",
+            "value": 0.000771,
+            "tol": 0.00001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1\\cdot\\left(\\tfrac{1}{6}\\right)^{4}=\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "  oder:  "
+            },
+            {
+              "t": "math",
+              "v": "6\\cdot\\left(\\tfrac{1}{6}\\right)^{5}=\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln der Wahrscheinlichkeit für ein Grande."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_120a",
+          "baseId": "2_120",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/777/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wurden die Augenzahlen 2, 2, 2, 4 und 5 geworfen. Bei einem zweiten Wurf werden nur die beiden Würfel mit den Augenzahlen 4 und 5 erneut geworfen, die anderen drei Würfel bleiben liegen.\nDie Wahrscheinlichkeit, mit diesem zweiten Wurf ein Grande zu erhalten, beträgt p₁.\nDie Wahrscheinlichkeit, mit diesem zweiten Wurf ein Full House zu erhalten, beträgt p₂.\n\nErmitteln Sie die zwei Wahrscheinlichkeiten p₁ und p₂."
+        },
+        {
+          "t": "math",
+          "v": "p_1=\\qquad\\qquad p_2="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p1",
+            "label": "p₁",
+            "value": 0.027777777777777776,
+            "tol": 0.0001
+          },
+          {
+            "id": "p2",
+            "label": "p₂",
+            "value": 0.1388888888888889,
+            "tol": 0.0001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "p_1=\\tfrac{1}{6}\\cdot\\tfrac{1}{6}=\\tfrac{1}{36}=0{,}0277\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "p_2=5\\cdot\\tfrac{1}{6}\\cdot\\tfrac{1}{6}=\\tfrac{5}{36}=0{,}1388\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p_1=\\tfrac{1}{36}=0{,}0277\\ldots"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "p_2=\\tfrac{5}{36}=0{,}1388\\ldots"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln der zwei Wahrscheinlichkeiten p₁ und p₂, ein halber Punkt für nur eine richtige Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_120b",
+          "baseId": "2_120",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/777/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Wahrscheinlichkeit für ein Ereignis E bei einem Wurf mit fünf Würfeln gilt:"
+        },
+        {
+          "t": "math",
+          "v": "P(E)=6\\cdot\\left[\\binom{5}{4}\\cdot\\left(\\tfrac{1}{6}\\right)^{4}\\cdot\\tfrac{5}{6}\\right]"
+        },
+        {
+          "t": "text",
+          "v": "Beschreiben Sie ein mögliches Ereignis E im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "E ... „beim Wurf der fünf Würfel tritt eine (beliebige) Augenzahl genau viermal auf“."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Beschreiben des Ereignisses im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "E ... „beim Wurf der fünf Würfel tritt eine (beliebige) Augenzahl genau viermal auf“"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Beschreiben des Ereignisses im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.1",
+          "description": "Grundraum und Ereignisse in angemessenen Situationen verbal bzw. formal angeben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_120c",
+          "baseId": "2_120",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/777/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Wahrscheinlichkeit für eine Straße liegt bei einem Wurf mit den fünf Würfeln bei rund 3,09 %. Die Wahrscheinlichkeit für ein Full House liegt bei einem Wurf mit den fünf Würfeln bei rund 3,86 %.\n\nFranz würfelt einmal mit allen fünf Würfeln. Anna gibt Franz 40 Euro, wenn er eine Straße oder ein Full House erhält. In allen anderen Fällen bekommt Anna von Franz x Euro.\n\nErmitteln Sie x so, dass die zu erwartenden Beträge, die Anna und Franz einander auszahlen, annähernd gleich sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x",
+            "value": 2.987,
+            "tol": 0.01,
+            "unit": "Euro"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "P(\\text{Franz bekommt 40 Euro})=0{,}0309+0{,}0386=0{,}0695"
+            },
+            {
+              "t": "math",
+              "v": "P(\\text{Anna bekommt }x\\text{ Euro})=1-0{,}0695=0{,}9305"
+            },
+            {
+              "t": "math",
+              "v": "40\\cdot 0{,}0695=x\\cdot 0{,}9305"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x=2{,}987\\ldots\\ \\text{Euro}"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln von x."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_120",
+      "baseId": "2_120",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/777/Wuerfelspiel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Würfelspiel werden fünf sechsflächige Würfel gleichzeitig geworfen. Bei jedem der Würfel treten die Augenzahlen 1, 2, 3, 4, 5 und 6 mit gleicher Wahrscheinlichkeit auf. Die fünf Würfel werden unabhängig voneinander geworfen. Die Ergebnisse der Würfe sind voneinander unabhängig.\n\nNachstehend sind drei mögliche Ereignisse beschrieben.\n\nGrande: Eine beliebige Augenzahl tritt fünfmal auf, z. B. 4, 4, 4, 4, 4.\nFull House: Eine beliebige Augenzahl tritt genau dreimal auf. Eine andere beliebige Augenzahl tritt genau zweimal auf, z. B. 1, 1, 1, 4, 4.\nStraße: Die Augenzahlen 1, 2, 3, 4, 5 oder 2, 3, 4, 5, 6 treten jeweils genau einmal auf."
+    }
+  ]
+}

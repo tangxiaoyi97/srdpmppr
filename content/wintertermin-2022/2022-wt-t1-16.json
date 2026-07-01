@@ -1,0 +1,148 @@
+{
+  "id": "2022-wt-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2022w1]t1-16-an.pdf"
+  },
+  "title": "Monotonie- und Krümmungsverhalten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_893a",
+          "baseId": "1_893",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/695/Monotonie-%20und%20Kruemmungsverhalten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Im Intervall (x₁; x₂) gibt es mindestens eine Stelle x₀, für die "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0) = 0"
+            },
+            {
+              "t": "text",
+              "v": " gilt.“ und „Im Intervall (x₁; x₂) ändert sich das Monotonieverhalten von f.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall (x₁; x₂) gibt es mindestens eine Stelle x₀, für die "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0) = 0"
+            },
+            {
+              "t": "text",
+              "v": " gilt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat im Intervall (x₁; x₂) eine lokale Maximumstelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat im Intervall (x₁; x₂) eine Wendestelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall (x₁; x₂) schneidet der Graph von f mindestens einmal die x-Achse."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall (x₁; x₂) ändert sich das Monotonieverhalten von f."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_893",
+      "baseId": "1_893",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/695/Monotonie-%20und%20Kruemmungsverhalten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind eine Polynomfunktion f und zwei Stellen x₁ und x₂ mit x₁ < x₂.\nFür die 1. Ableitung f′ von f gilt:"
+    },
+    {
+      "t": "math",
+      "v": "f'(x_1) < 0 \\ \\text{und}\\ f'(x_2) > 0"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2022-het-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2022h2]t1-15-an.pdf"
+  },
+  "title": "Erste Ableitung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-15-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1234a",
+          "baseId": "1_1234",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/764/Erste%20Ableitung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g'(0)=2\\cdot a\\cdot k=f'(0)\\cdot a\\cdot k"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von a und k eine Formel zur Berechnung von g′(0) auf."
+        },
+        {
+          "t": "math",
+          "v": "g'(0)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2\\cdot a\\cdot k",
+        "vars": [
+          "a",
+          "k"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1234",
+      "baseId": "1_1234",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/764/Erste%20Ableitung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die differenzierbare Funktion f: ℝ → ℝ, x ↦ f(x).\nEs gilt: f′(0) = 2\n\nFür die zwei Zahlen a, k ∈ ℝ ist die Funktion g: ℝ → ℝ mit g(x) = a · f(k · x) gegeben."
+    }
+  ]
+}

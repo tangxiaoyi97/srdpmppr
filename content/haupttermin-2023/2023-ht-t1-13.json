@@ -1,0 +1,152 @@
+{
+  "id": "2023-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2023h1]t1-13-an.pdf"
+  },
+  "title": "Tangentensteigung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-13-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1280a",
+          "baseId": "1_1280",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/819/1_1280_srdp_ma_Tangentensteigung_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\lim_{x_1\\to 5}\\dfrac{f(x_1)-f(5)}{x_1-5}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\lim_{h\\to 0}\\dfrac{f(5+h)-f(5)}{h}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Grenzwerte an, die jedenfalls gleich der Steigung der Tangente an den Graphen der Funktion f an der Stelle x = 5 sind. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\lim_{x_1\\to 5}\\dfrac{f(x_1)-f(5)}{5-x_1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lim_{h\\to 0}\\dfrac{f(5+h)-f(5)}{5+h}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lim_{h\\to 5}\\dfrac{f(5+h)-f(5)}{h}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lim_{x_1\\to 5}\\dfrac{f(x_1)-f(5)}{x_1-5}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lim_{h\\to 0}\\dfrac{f(5+h)-f(5)}{h}"
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1280",
+      "baseId": "1_1280",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/819/1_1280_srdp_ma_Tangentensteigung_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f:\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Polynomfunktion vom Grad n mit n ≥ 2."
+    }
+  ]
+}

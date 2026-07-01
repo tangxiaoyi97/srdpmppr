@@ -1,0 +1,122 @@
+{
+  "id": "2024-wt-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2024w1]t1-3-ag.pdf"
+  },
+  "title": "Kraft und Beschleunigung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1318a",
+          "baseId": "1_1318",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/866/1_1318_srdp_ma_Kraft%20und%20Beschleunigung_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "F_1=m\\cdot a_1"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "F_2=m\\cdot a_2"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "F_2=\\dfrac{a_2}{a_1}\\cdot F_1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "F_2=4\\ \\text{N}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von F₂."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie F₂ in N."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "F2",
+            "label": "F_2",
+            "value": 4,
+            "tol": 1e-9,
+            "unit": "N"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1318",
+      "baseId": "1_1318",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/866/1_1318_srdp_ma_Kraft%20und%20Beschleunigung_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Wirkt eine Kraft auf einen ruhenden Körper, so wird dieser Körper in Richtung der Kraft beschleunigt. Für den Betrag der Kraft gilt F = m ∙ a, wobei mit m die Masse und mit a die Beschleunigung des Körpers bezeichnet wird (F in Newton (N), m in kg, a in m/s²).\n\nAuf eine bestimmte ruhende Kugel wirkt eine Kraft von F₁ = 5 N. Dadurch wird diese Kugel mit a₁ = 0,625 m/s² beschleunigt. Auf eine zweite ruhende Kugel gleicher Masse soll eine Kraft F₂ so wirken, dass diese Kugel mit a₂ = 0,5 m/s² beschleunigt wird."
+    }
+  ]
+}

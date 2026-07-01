@@ -1,0 +1,186 @@
+{
+  "id": "2025-wt-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2025w1]t1-20-ws.pdf"
+  },
+  "title": "Statistische Kennzahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-20-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1444a",
+          "baseId": "1_1444",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1006/1_1444_srdp_ma_Statistische%20Kennzahlen_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Median → B;  Modus → C;  Spannweite → E;  arithmetisches Mittel → D."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Kennzahlen jeweils den in jedem Fall zugehörigen Term aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Median"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Modus"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Spannweite"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a+3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{5\\cdot a+6\\cdot b+20}{11}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b+6-a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{a+b+6}{2}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1444",
+      "baseId": "1_1444",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1006/1_1444_srdp_ma_Statistische%20Kennzahlen_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine geordnete Datenliste mit 11 Werten mit a, b ∈ ℝ⁺ und b > a + 3."
+    },
+    {
+      "t": "math",
+      "v": "a\\quad a\\quad a+3\\quad a+3\\quad a+3\\quad b\\quad b\\quad b+1\\quad b+2\\quad b+2\\quad b+6"
+    }
+  ]
+}

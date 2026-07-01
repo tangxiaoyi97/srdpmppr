@@ -1,0 +1,431 @@
+{
+  "id": "2026-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2026h1]t2-2.pdf"
+  },
+  "title": "Blobbing",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_162a",
+          "baseId": "2_162",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1136/2_162_Blobbing_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nebenstehenden (nicht maßstabgetreuen) Abbildung wird eine Situation beim Blobbing modelliert."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-02-a.png",
+          "alt": "Nicht maßstabgetreue Skizze: Jumper im Punkt J auf dem Sprungturm, Blobber im Punkt B auf dem Luftkissen über der Wasseroberfläche; der Jumper sieht den Blobber unter dem Tiefenwinkel α, h ist die Höhe."
+        },
+        {
+          "t": "text",
+          "v": "Unmittelbar vor dem Absprung befindet sich der Jumper im Punkt J = (0,5 | 8) und der Blobber im Punkt B = (8 | 2,4). Der Jumper sieht den Blobber unter dem Tiefenwinkel α.\n\nBerechnen Sie α."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "alpha",
+            "label": "α",
+            "value": 36.74,
+            "tol": 0.5,
+            "unit": "°"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\dfrac{8-2{,}4}{8-0{,}5}=\\dfrac{5{,}6}{7{,}5}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=36{,}74\\ldots^\\circ"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von α ."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_162a",
+          "baseId": "2_162",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1136/2_162_Blobbing_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion h mit "
+        },
+        {
+          "t": "math",
+          "v": "h(x)=a\\cdot x^{2}+b\\cdot x+c\\ \\text{mit}\\ a,\\,b,\\,c\\in\\mathbb{R}\\ \\text{und}\\ a\\neq 0"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die Flugbahn des Blobbers vom Wegschleudern bis zum Auftreffen auf die Wasseroberfläche.\nx ... waagrechte Entfernung des Blobbers vom Sprungturm in m\nh(x) ... Höhe des Blobbers über der Wasseroberfläche an der Stelle x in m\n\nDie maximale Höhe des Blobbers entspricht 65 % der Absprunghöhe des Jumpers und wird in einer waagrechten Entfernung von 10,5 m vom Sprungturm erreicht.\n\nErstellen Sie ein Gleichungssystem, mit dem die Koeffizienten a, b und c der Funktion h berechnet werden können."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Gleichungssystem (mit "
+          },
+          {
+            "t": "math",
+            "v": "h'(x)=2\\cdot a\\cdot x+b"
+          },
+          {
+            "t": "text",
+            "v": "):\nI: "
+          },
+          {
+            "t": "math",
+            "v": "h(8)=2{,}4"
+          },
+          {
+            "t": "text",
+            "v": "\nII: "
+          },
+          {
+            "t": "math",
+            "v": "h(10{,}5)=8\\cdot 0{,}65\\ (=5{,}2)"
+          },
+          {
+            "t": "text",
+            "v": "\nIII: "
+          },
+          {
+            "t": "math",
+            "v": "h'(10{,}5)=0"
+          },
+          {
+            "t": "text",
+            "v": "\noder:\nI: "
+          },
+          {
+            "t": "math",
+            "v": "a\\cdot 8^{2}+b\\cdot 8+c=2{,}4"
+          },
+          {
+            "t": "text",
+            "v": "\nII: "
+          },
+          {
+            "t": "math",
+            "v": "a\\cdot 10{,}5^{2}+b\\cdot 10{,}5+c=5{,}2"
+          },
+          {
+            "t": "text",
+            "v": "\nIII: "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot a\\cdot 10{,}5+b=0"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein halber Punkt für das richtige Aufstellen der Gleichungen I und II.",
+            "points": 0.5
+          },
+          {
+            "desc": "Ein halber Punkt für das richtige Aufstellen der Gleichung III.",
+            "points": 0.5
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h'(x)=2\\cdot a\\cdot x+b"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "I: "
+            },
+            {
+              "t": "math",
+              "v": "h(8)=2{,}4"
+            },
+            {
+              "t": "text",
+              "v": ";  II: "
+            },
+            {
+              "t": "math",
+              "v": "h(10{,}5)=5{,}2"
+            },
+            {
+              "t": "text",
+              "v": ";  III: "
+            },
+            {
+              "t": "math",
+              "v": "h'(10{,}5)=0"
+            }
+          ],
+          "note": "a2) Ein halber Punkt für das richtige Aufstellen der Gleichungen I und II, ein halber Punkt für das richtige Aufstellen der Gleichung III."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-02-a3",
+      "label": "a3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_162a",
+          "baseId": "2_162",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1136/2_162_Blobbing_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gemäß diesem Modell trifft der Blobber in einer bestimmten waagrechten Entfernung vom Sprungturm auf die Wasseroberfläche.\n\nBerechnen Sie diese Entfernung."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 13.9,
+            "tol": 0.1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h(x)=-0{,}448\\cdot x^{2}+9{,}408\\cdot x-44{,}192"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "h(x)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "x_1=13{,}90\\ldots\\quad(x_2=7{,}09\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Blobber trifft in einer waagrechten Entfernung von rund 13,9 m vom Sprungturm auf die Wasseroberfläche."
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Berechnen der Entfernung."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-02-b1",
+      "label": "b1",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_162b",
+          "baseId": "2_162",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1136/2_162_Blobbing_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem bestimmten Blobbing-Wettbewerb werden die erreichten Höhen von 20 am Wettbewerb teilnehmenden Blobbern auf Dezimeter genau gemessen.\n\nFolgende Ergebnisse werden veröffentlicht:\n- Die geringste erreichte Höhe beträgt 1,2 m und die größte erreichte Höhe beträgt 7,9 m.\n- Genau 7 Blobber erreichten eine Höhe von höchstens 3 m.\n- Genau 10 Blobber überschritten eine Höhe von 3 m und erreichten eine Höhe von höchstens 4,5 m.\n\nKreuzen Sie die beiden auf jeden Fall zutreffenden Aussagen an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Median der erreichten Höhen ist mindestens 4,5 m."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das arithmetische Mittel der erreichten Höhen ist kleiner als 4,5 m."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite der erreichten Höhen ist mindestens 8,4 m."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Modus der erreichten Höhen ist höchstens 3 m."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die relative Häufigkeit der erreichten Höhen von mehr als 4,5 m beträgt 0,15."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Das arithmetische Mittel der erreichten Höhen ist kleiner als 4,5 m.“ und „Die relative Häufigkeit der erreichten Höhen von mehr als 4,5 m beträgt 0,15.“"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ankreuzen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_162",
+      "baseId": "2_162",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1136/2_162_Blobbing_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Blobbing ist eine Wassersportart.\n\nEine Person (der Blobber) sitzt dabei auf einem im Wasser treibenden Luftkissen. Eine weitere Person (der Jumper) springt von einem Sprungturm aus auf das Luftkissen und schleudert dadurch den Blobber in die Luft, bevor dieser im Wasser landet."
+    }
+  ]
+}

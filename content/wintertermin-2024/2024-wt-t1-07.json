@@ -1,0 +1,179 @@
+{
+  "id": "2024-wt-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2024w1]t1-7-an.pdf"
+  },
+  "title": "Monotonie- und Krümmungsverhalten einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-07-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1322a",
+          "baseId": "1_1322",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/870/1_1322_srdp_ma_Monotonie-%20und%20Kr%C3%BCmmungsverhalten%20einer%20Polynomfunktion_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "(-\\infty;\\,-2)"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "x=-1"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Funktion f ist im Intervall ① streng monoton steigend und ändert ihr Krümmungsverhalten an der Stelle ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "(-\\infty;\\,-2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(-1;\\,1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(-2;\\,0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x=-2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x=-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x=0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1322",
+      "baseId": "1_1322",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/870/1_1322_srdp_ma_Monotonie-%20und%20Kr%C3%BCmmungsverhalten%20einer%20Polynomfunktion_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph der Polynomfunktion 3. Grades f dargestellt. Alle charakteristischen Punkte dieses Graphen (Schnittpunkte mit den Achsen, Extrempunkte, Wendepunkte) haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-07-q.png",
+      "alt": "Graph einer Polynomfunktion 3. Grades f im Bereich x von etwa –3 bis 2; charakteristische Punkte mit ganzzahligen Koordinaten."
+    }
+  ]
+}

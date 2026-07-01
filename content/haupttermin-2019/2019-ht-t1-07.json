@@ -1,0 +1,168 @@
+{
+  "id": "2019-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2019h1]t1-7-fa.pdf"
+  },
+  "title": "Funktionen zuordnen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-07-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_692a",
+          "baseId": "1_692",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/425/Funktionen%20zuordnen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "b\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "d\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Zuordnungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der unten angegebenen Zuordnungen beschreiben (mit geeignetem Definitions- und Wertebereich) eine lineare Funktion?\n\nKreuzen Sie die beiden zutreffenden Zuordnungen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "a\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "n\\mapsto\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_692",
+      "baseId": "1_692",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/425/Funktionen%20zuordnen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Formel "
+    },
+    {
+      "t": "math",
+      "v": "F=\\frac{a^{2}\\cdot b}{c\\cdot n}+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a, b, c, d\\in\\mathbb{R},\\ n\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c\\neq 0,\\ n\\neq 0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nNimmt man an, dass eine der Größen a, b, c, d oder n variabel ist und die anderen Größen konstant sind, so kann F als Funktion in Abhängigkeit von der variablen Größe interpretiert werden."
+    }
+  ]
+}

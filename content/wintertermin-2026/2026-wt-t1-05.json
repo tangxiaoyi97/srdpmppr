@@ -1,0 +1,141 @@
+{
+  "id": "2026-wt-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2026w1]t1-5-ag.pdf"
+  },
+  "title": "Lagebeziehung von Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-05-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1571a",
+          "baseId": "1_1571",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1084/1_1571_srdp_ma_Lagebeziehung%20von%20Geraden_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}-2\\\\6\\end{pmatrix}=-2\\cdot\\begin{pmatrix}1\\\\-3\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": "\nDie Richtungsvektoren sind Vielfache voneinander.\n\nÜberprüfen, ob (0 | 2) auf h liegt:\n"
+            },
+            {
+              "t": "math",
+              "v": "0=0+s\\cdot(-2)\\Rightarrow s=0"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "2=-2+s\\cdot 6\\Rightarrow s=\\tfrac{2}{3}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Punkt (0 | 2) liegt auf der Geraden g, aber nicht auf der Geraden h (daher sind g und h parallel, aber nicht identisch)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Begründen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie mathematisch, warum g und h parallel, aber nicht identisch sind."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Richtungsvektoren sind Vielfache voneinander: "
+          },
+          {
+            "t": "math",
+            "v": "\\begin{pmatrix}-2\\\\6\\end{pmatrix}=-2\\cdot\\begin{pmatrix}1\\\\-3\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ". Der Punkt (0 | 2) liegt auf der Geraden g, aber nicht auf der Geraden h; daher sind g und h parallel, aber nicht identisch."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1571",
+      "baseId": "1_1571",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1084/1_1571_srdp_ma_Lagebeziehung%20von%20Geraden_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind Parameterdarstellungen der Geraden g und h."
+    },
+    {
+      "t": "math",
+      "v": "g:\\ X=\\begin{pmatrix}0\\\\2\\end{pmatrix}+r\\cdot\\begin{pmatrix}1\\\\-3\\end{pmatrix}\\ \\text{mit}\\ r\\in\\mathbb{R}"
+    },
+    {
+      "t": "math",
+      "v": "h:\\ X=\\begin{pmatrix}0\\\\-2\\end{pmatrix}+s\\cdot\\begin{pmatrix}-2\\\\6\\end{pmatrix}\\ \\text{mit}\\ s\\in\\mathbb{R}"
+    }
+  ]
+}

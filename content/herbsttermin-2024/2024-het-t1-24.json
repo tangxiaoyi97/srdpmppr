@@ -1,0 +1,110 @@
+{
+  "id": "2024-het-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2024h2]t1-24-ws.pdf"
+  },
+  "title": "Experiment",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-24-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1387a",
+          "baseId": "1_1387",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/943/1_1387_srdp_ma_Experiment_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P_1 = b^n + \\binom{n}{1} \\cdot a \\cdot b^{\\,n-1} + \\binom{n}{2} \\cdot a^2 \\cdot b^{\\,n-2}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Terms."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Term zur Berechnung von P₁ an."
+        },
+        {
+          "t": "math",
+          "v": "P_1 ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "b^n + combinations(n,1)*a*b^(n-1) + combinations(n,2)*a^2*b^(n-2)",
+        "vars": [
+          "a",
+          "b",
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1387",
+      "baseId": "1_1387",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/943/1_1387_srdp_ma_Experiment_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Experiment besteht aus n unabhängigen Durchführungen eines bestimmten Versuchs "
+    },
+    {
+      "t": "math",
+      "v": "(n \\in \\mathbb{N},\\ n \\geq 2)"
+    },
+    {
+      "t": "text",
+      "v": ". Jede Durchführung dieses Versuchs läuft unter den gleichen Bedingungen ab und hat ausschließlich die zwei möglichen Versuchsausgänge A und B mit den Wahrscheinlichkeiten P(A) = a und P(B) = b.\n\nDie Wahrscheinlichkeit P₁ gibt an, dass der Versuchsausgang A dabei höchstens 2-mal eintritt."
+    }
+  ]
+}

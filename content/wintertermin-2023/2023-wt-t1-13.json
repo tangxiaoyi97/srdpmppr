@@ -1,0 +1,111 @@
+{
+  "id": "2023-wt-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2023w1]t1-13-an.pdf"
+  },
+  "title": "Bevölkerungsentwicklung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1256a",
+          "baseId": "1_1256",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/788/1_1256_srdp_ma_Bevoelkerungsentwicklung_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl dieses Landes hat im Zeitraum von 1960 bis 2017 um 323 % zugenommen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{B(2017) - B(1960)}{B(1960)} = 3{,}23"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Bevölkerungszahl dieses Landes hat im Zeitraum von 1960 bis 2017 um 323 % zugenommen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1256",
+      "baseId": "1_1256",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/788/1_1256_srdp_ma_Bevoelkerungsentwicklung_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem bestimmten Land hat die Bevölkerungszahl seit 1960 stark zugenommen.\nMit B(t) wird die Bevölkerungszahl dieses Landes im Jahr t bezeichnet."
+    }
+  ]
+}

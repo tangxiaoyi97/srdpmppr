@@ -1,0 +1,90 @@
+{
+  "id": "2021-nt2-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2021n2]t1-23-ws.pdf"
+  },
+  "title": "Schokoladefiguren",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-23-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen und anwenden können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nX ... Anzahl der fehlerhaften Schokoladefiguren\n\nDie Zufallsvariable X ist binomialverteilt mit den Parametern n = 500 und p = 0,01:\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le 2)=P(X=0)+P(X=1)+P(X=2)=0{,}1233\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\le 2)=0{,}1233\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit dafür, dass bei dieser Qualitätskontrolle höchstens 2 Schokoladefiguren fehlerhaft sind."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P(X ≤ 2)",
+            "value": 0.1233,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Erfahrungsgemäß ist 1 % der in einer bestimmten Schokoladefabrik produzierten Schokoladefiguren fehlerhaft.\n\nBei einer bestimmten Qualitätskontrolle werden 500 Schokoladefiguren zufällig ausgewählt, wobei jede Schokoladefigur – unabhängig von den anderen Schokoladefiguren – mit der gleichen Wahrscheinlichkeit (von 1 %) fehlerhaft ist."
+    }
+  ]
+}

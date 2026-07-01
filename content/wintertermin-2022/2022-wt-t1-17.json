@@ -1,0 +1,106 @@
+{
+  "id": "2022-wt-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2022w1]t1-17-an.pdf"
+  },
+  "title": "Bestimmtes Integral",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-17-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_894a",
+          "baseId": "1_894",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/696/Bestimmtes_Integral.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{1}^{4} g(x)\\,\\mathrm{d}x = \\int_{1}^{4} \\big(f(x)+2\\big)\\,\\mathrm{d}x = \\big(F(x)+2\\cdot x\\big)\\Big|_{1}^{4} = F(4)+8 - \\big(F(1)+2\\big) = 15"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Integrals."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{1}^{4} g(x)\\,\\mathrm{d}x"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "I",
+            "value": 15,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_894",
+      "baseId": "1_894",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/696/Bestimmtes_Integral.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Polynomfunktion f: ℝ → ℝ hat eine bestimmte Stammfunktion F. Von dieser Stammfunktion F sind nachstehend einige Wertepaare gegeben.\n\nx | F(x)\n0 | 0\n1 | 1\n2 | 3\n3 | 6\n4 | 10\n5 | 15\n\nWeiters ist die Funktion g: ℝ → ℝ mit g(x) = f(x) + 2 gegeben."
+    }
+  ]
+}

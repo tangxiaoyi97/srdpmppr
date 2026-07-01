@@ -1,0 +1,105 @@
+{
+  "id": "2020-nt1-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2020n1]t1-20-ws.pdf"
+  },
+  "title": "Schätzwert für eine Wahrscheinlichkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-20-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_801a",
+          "baseId": "1_801",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/585/Schaetzwert%20fuer%20eine%20Wahrscheinlichkeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=19\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie anhand der Ergebnisse der beiden Wurfserien einen Schätzwert für die Wahrscheinlichkeit p (in %) an, mit diesem Würfel die Augenzahl 6 zu werfen.\n\np = ___ %"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 19,
+            "tol": 1e-9,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_801",
+      "baseId": "1_801",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/585/Schaetzwert%20fuer%20eine%20Wahrscheinlichkeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Würfel mit den Augenzahlen 1, 2, 3, 4, 5 und 6 ist eine Ecke beschädigt. Deswegen wird angenommen, dass die Wahrscheinlichkeit, eine bestimmte Augenzahl zu werfen, nicht für alle Augenzahlen gleich hoch ist.\nJemand hat mit dem Würfel zwei Wurfserien mit jeweils 50 Würfen durchgeführt und die absoluten Häufigkeiten der auftretenden Augenzahlen aufgezeichnet. In der nachstehenden Tabelle sind diese Aufzeichnungen zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-20-q.png",
+      "alt": "Tabelle: Augenzahl 1–6; Häufigkeit in Wurfserie 1: 7, 8, 7, 10, 8, 10; Häufigkeit in Wurfserie 2: 6, 9, 7, 9, 10, 9."
+    }
+  ]
+}

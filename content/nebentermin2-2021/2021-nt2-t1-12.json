@@ -1,0 +1,153 @@
+{
+  "id": "2021-nt2-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2021n2]t1-12-fa.pdf"
+  },
+  "title": "Winkelfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.5",
+          "description": "wissen, dass cos(x) = sin(x + pi/2 )",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_817a",
+          "baseId": "1_817",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/605/Winkelfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=3,\\quad b=\\tfrac{\\pi}{2}"
+            },
+            {
+              "t": "text",
+              "v": "\noder: "
+            },
+            {
+              "t": "math",
+              "v": "a=-3,\\quad b=-\\tfrac{\\pi}{2}"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen (zusammengehörigen) Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben. Bei der Angabe a = 3 sind für die Angabe von b alle Werte π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 90° + k·360° mit k ∈ ℤ als richtig zu werten. Bei der Angabe a = –3 sind für die Angabe von b alle Werte 3·π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 270° + k·360° mit k ∈ ℤ als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für a und b jeweils einen passenden Wert an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 3
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1.5707963267948966,
+            "tol": 0.000001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_817",
+      "baseId": "1_817",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/605/Winkelfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=3\\cdot\\cos(x)"
+    },
+    {
+      "t": "text",
+      "v": ". Diese Funktion soll in der Form "
+    },
+    {
+      "t": "math",
+      "v": "x\\mapsto a\\cdot\\sin(x+b)"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt werden ("
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ")."
+    }
+  ]
+}

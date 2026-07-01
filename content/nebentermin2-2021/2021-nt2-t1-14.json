@@ -1,0 +1,110 @@
+{
+  "id": "2021-nt2-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2021n2]t1-14-an.pdf"
+  },
+  "title": "Experiment",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-14-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_819a",
+          "baseId": "1_819",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/607/Experiment.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{73-62}{30-20}=\\dfrac{11}{10}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "mittlere Änderungsrate: 1,1 °C/min"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die mittlere Änderungsrate der Temperatur der Flüssigkeit im Zeitintervall [20 min; 30 min]."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rate",
+            "label": "mittlere Änderungsrate",
+            "value": 1.1,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_819",
+      "baseId": "1_819",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/607/Experiment.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Experiment wurde die Temperatur einer bestimmten Flüssigkeit (in °C) zu verschiedenen Zeitpunkten gemessen.\n\nDie nachstehende Abbildung zeigt das jeweilige Messergebnis 20 min bzw. 30 min nach Beobachtungsbeginn."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-14-q.png",
+      "alt": "Koordinatensystem: waagrechte Achse Zeit nach Beobachtungsbeginn in min (0 bis 45), senkrechte Achse Temperatur der Flüssigkeit in °C (0 bis 80); eingezeichnet die Messpunkte (20 | 62) und (30 | 73)."
+    }
+  ]
+}

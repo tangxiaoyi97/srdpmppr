@@ -1,0 +1,141 @@
+{
+  "id": "2024-het-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2024h2]t1-22-ws.pdf"
+  },
+  "title": "Kugeln in einem Gefäß",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-22-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1385a",
+          "baseId": "1_1385",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/941/1_1385_srdp_ma_Kugeln%20in%20einem%20Gef%C3%A4%C3%9F_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Es wird mindestens 1 rote Kugel gezogen.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie das Ereignis E an, dessen Wahrscheinlichkeit durch "
+        },
+        {
+          "t": "math",
+          "v": "P(E) = 1 - \\tfrac{15}{27} \\cdot \\tfrac{14}{26} \\cdot \\tfrac{13}{25}"
+        },
+        {
+          "t": "text",
+          "v": " gegeben ist."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es wird höchstens 1 weiße Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird mindestens 1 rote Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird mindestens 1 weiße Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird keine weiße Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird höchstens 1 rote Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es werden mindestens 2 weiße Kugeln gezogen."
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1385",
+      "baseId": "1_1385",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/941/1_1385_srdp_ma_Kugeln%20in%20einem%20Gef%C3%A4%C3%9F_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Gefäß befinden sich 12 rote und 15 weiße Kugeln. Aus diesem Gefäß werden 3 Kugeln ohne Zurücklegen nach dem Zufallsprinzip gezogen."
+    }
+  ]
+}

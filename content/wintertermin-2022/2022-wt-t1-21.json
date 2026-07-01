@@ -1,0 +1,103 @@
+{
+  "id": "2022-wt-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2022w1]t1-21-ws.pdf"
+  },
+  "title": "Feuerwehreinsatz",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-21-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_898a",
+          "baseId": "1_898",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/700/Feuerwehreinsatz.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h = \\dfrac{4\\,026}{65\\,270} = \\dfrac{33}{535} = 0{,}0616\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes von h."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie anhand der angeführten Daten die relative Häufigkeit h dafür an, dass es sich bei einem Feuerwehreinsatz um einen Brandeinsatz handelt."
+        },
+        {
+          "t": "math",
+          "v": "h ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h",
+            "label": "h",
+            "value": 0.0616,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_898",
+      "baseId": "1_898",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/700/Feuerwehreinsatz.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Feuerwehren in Niederösterreich veröffentlichten im Jahr 2017 folgende Daten über die Anzahl der Einsätze:\n\nGesamtzahl: 65 270\nDavon werden besonders erwähnt:\nMenschenrettung: 2 395\nBrandeinsatz: 4 026\nBrandsicherheitswache: 12 708\nFehl- und Täuschungsalarm: 5 283\n\nDatenquelle: https://www.noen.at/niederoesterreich/chronik-gericht/bilanz-noe-feuerwehren-mussten-im-vorjahr-65-000-mal-ausruecken-bilanz-feuerwehr-noe-feuerwehreinsaetze-79417723 [23.09.2019]."
+    }
+  ]
+}

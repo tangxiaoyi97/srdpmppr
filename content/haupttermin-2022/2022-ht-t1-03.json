@@ -1,0 +1,119 @@
+{
+  "id": "2022-ht-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2022h1]t1-3-ag.pdf"
+  },
+  "title": "Punkt einer Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1181a",
+          "baseId": "1_1181",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/724/Punkt%20einer%20Geraden.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-11"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von a."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie a."
+        },
+        {
+          "t": "math",
+          "v": "a="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -11,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1181",
+      "baseId": "1_1181",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/724/Punkt%20einer%20Geraden.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Gerade g in ℝ³ mit"
+    },
+    {
+      "t": "math",
+      "v": "g:\\ X=\\begin{pmatrix}1\\\\2\\\\-5\\end{pmatrix}+s\\cdot\\begin{pmatrix}-3\\\\7\\\\2\\end{pmatrix},\\ s\\in\\mathbb{R},"
+    },
+    {
+      "t": "text",
+      "v": "und der Punkt"
+    },
+    {
+      "t": "math",
+      "v": "A=\\begin{pmatrix}10\\\\-19\\\\a\\end{pmatrix},\\ a\\in\\mathbb{R}."
+    },
+    {
+      "t": "text",
+      "v": "Der Punkt A liegt auf der Geraden g."
+    }
+  ]
+}

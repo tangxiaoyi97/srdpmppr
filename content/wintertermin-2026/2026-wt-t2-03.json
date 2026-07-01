@@ -1,0 +1,401 @@
+{
+  "id": "2026-wt-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2026w1]t2-3.pdf"
+  },
+  "title": "Siebenkampf der Frauen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t2-03-a1",
+      "label": "a1",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_159a",
+          "baseId": "2_159",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1107/2_159_srdp_ma_Siebenkampf%20der%20Frauen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Verteilung der Gesamtpunktzahlen der Sportlerinnen im Finale des Siebenkampfs der Frauen bei den Leichtathletik-Weltmeisterschaften 2022 ist im nachstehenden Boxplot dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-03-a-q.png",
+          "alt": "Boxplot der Gesamtpunktzahl (Skala 5 900 bis 7 000): Minimum 5 959, unteres Quartil 6 143,5, Median 6 452, oberes Quartil 6 713,5, Maximum 6 947."
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Gesamtpunktzahl der Sportlerin mit den wenigsten Punkten ist um 20 % niedriger als die Gesamtpunktzahl der Sportlerin mit den meisten Punkten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite der Gesamtpunktzahlen beträgt mehr als 1 000."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt zumindest eine Sportlerin, die eine Gesamtpunktzahl von 6 947 erreicht hat."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mehr als 50 % der Sportlerinnen haben eine Gesamtpunktzahl von mehr als 6 713,5 erreicht."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 75 % der Sportlerinnen haben eine Gesamtpunktzahl von mindestens 6 143,5 erreicht."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Es gibt zumindest eine Sportlerin, die eine Gesamtpunktzahl von 6 947 erreicht hat.“ und „Mindestens 75 % der Sportlerinnen haben eine Gesamtpunktzahl von mindestens 6 143,5 erreicht.“"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ankreuzen."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_159b",
+          "baseId": "2_159",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1107/2_159_srdp_ma_Siebenkampf%20der%20Frauen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Punkte, die eine Sportlerin beim Speerwurf erhält, hängen von der Wurfweite x (in m) ab. Um die Punkte zu ermitteln, wird die Wurfweite x in die nachstehende Funktion S eingesetzt und der Funktionswert S(x) auf eine ganze Zahl abgerundet."
+        },
+        {
+          "t": "math",
+          "v": "S(x)=15{,}9803\\cdot(x-3{,}8)^{b}\\ \\text{mit}\\ x\\ge 3{,}8\\ \\text{und}\\ b\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "Für die Wurfweite 58,29 m ergibt sich der Funktionswert S(58,29) = 1 021,77.\n\nBerechnen Sie mithilfe des obigen Verfahrens die Punkte für die Wurfweite 43,80 m."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "punkte",
+            "value": 740,
+            "tol": 1e-9,
+            "unit": "Punkte"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1\\,021{,}77=15{,}9803\\cdot(58{,}29-3{,}8)^{b}"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz: "
+            },
+            {
+              "t": "math",
+              "v": "b=1{,}0399\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "S(43{,}8)=15{,}9803\\cdot(43{,}8-3{,}8)^{1{,}0399\\ldots}=740{,}8\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Für die Wurfweite 43,80 m erhält die Sportlerin 740 Punkte. Die Angabe von 741 Punkten ist als falsch zu werten."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_159b",
+          "baseId": "2_159",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1107/2_159_srdp_ma_Siebenkampf%20der%20Frauen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Geschwindigkeit eines Speers beim Abwurf kann durch den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}=\\begin{pmatrix}v_x\\\\v_y\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "v_x,\\,v_y>0"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (siehe nebenstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-03-b-q.png",
+          "alt": "Vektordiagramm: der Geschwindigkeitsvektor v mit der waagrechten Komponente vx und der senkrechten Komponente vy; der Vektor schließt mit der Waagrechten den Winkel α ein."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von vx und vy eine Formel zur Berechnung von α auf."
+        },
+        {
+          "t": "math",
+          "v": "\\alpha="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\arctan\\left(\\frac{vy}{vx}\\right)",
+        "vars": [
+          "vx",
+          "vy"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=\\arctan\\!\\left(\\frac{v_y}{v_x}\\right)"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Aufstellen der Formel zur Berechnung von α."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_159c",
+          "baseId": "2_159",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1107/2_159_srdp_ma_Siebenkampf%20der%20Frauen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Laufbewerbe werden auf einer sogenannten 400-m-Bahn ausgetragen, die aus mehreren nebeneinander liegenden und unterschiedlich langen Laufbahnen besteht (siehe nachstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-03-c-q.png",
+          "alt": "Abbildung der Laufbahnen mit zwei benachbarten Halbkreisen und Geraden: innerer Halbkreis und Gerade 84,39 m bzw. 73,60 m; Bahnabstand 1,12 m; Start- und Wechselpunkte A1, A2, B1, B2, C sowie der gesuchte Kreisbogen z bei A2."
+        },
+        {
+          "t": "text",
+          "v": "Um die unterschiedlichen Längen der Laufbahnen auszugleichen, starten die Sportlerinnen an verschiedenen Stellen.\n\nSportlerin 1 startet im Punkt A1 und läuft entlang des inneren Halbkreises nach B1 und weiter zu C.\nSportlerin 2 startet im Punkt A2 und läuft entlang des benachbarten Halbkreises nach B2 und weiter zu C.\n\nDie dabei von den beiden Sportlerinnen zurückgelegten Wege sind gleich lang.\n\nBerechnen Sie mithilfe der obigen Abbildung die Länge des Kreisbogens z."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "z",
+            "label": "z",
+            "value": 3.52,
+            "tol": 0.1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "zurückgelegte Strecke der Sportlerin 1:\n"
+            },
+            {
+              "t": "math",
+              "v": "36{,}80\\cdot\\pi+84{,}39=200{,}00\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\nzurückgelegte Strecke der Sportlerin 2:\n"
+            },
+            {
+              "t": "math",
+              "v": "(36{,}80+1{,}12)\\cdot\\pi+\\sqrt{1{,}12^{2}+84{,}39^{2}}=203{,}52\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "z=3{,}52\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Länge des Kreisbogens z beträgt rund 3,5 m."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen der Länge von z."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_159",
+      "baseId": "2_159",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1107/2_159_srdp_ma_Siebenkampf%20der%20Frauen_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Siebenkampf der Frauen müssen Sportlerinnen die sieben Disziplinen Kugelstoßen, Speerwurf, Hochsprung, Weitsprung, 100-m-Hürdenlauf, 200-m-Lauf und 800-m-Lauf absolvieren.\n\nDie Leistung einer Sportlerin wird in jeder Disziplin mit Punkten bewertet. Diese Punkte werden mit einer für die jeweilige Disziplin entwickelten Formel berechnet und auf ganze Zahlen abgerundet.\n\nDie Gesamtpunktzahl für eine Sportlerin ergibt sich als Summe der auf ganze Zahlen abgerundeten erhaltenen Punkte aus allen sieben Disziplinen."
+    }
+  ]
+}

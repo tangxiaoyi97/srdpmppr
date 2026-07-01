@@ -1,0 +1,136 @@
+{
+  "id": "2020-nt2-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2020n2]t1-3-ag.pdf"
+  },
+  "title": "Löwenrudel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-03-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_736a",
+          "baseId": "1_736",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/512/L%C3%B6wenrudel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Anzahl der Weibchen ist mehr als viermal so groß wie die Anzahl der Männchen.“ und „Insgesamt sind mehr als 20 Löwen (Männchen und Weibchen) in diesem Rudel.“"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf dieses Rudel zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "In diesem Rudel sind mehr Männchen als Weibchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Weibchen ist mehr als viermal so groß wie die Anzahl der Männchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Männchen ist um 1 kleiner als die Anzahl der Weibchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Insgesamt sind mehr als 20 Löwen (Männchen und Weibchen) in diesem Rudel."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Vierfache der Anzahl der Männchen ist um 1 größer als die Anzahl der Weibchen."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_736",
+      "baseId": "1_736",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/512/L%C3%B6wenrudel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Rudel von Löwen besteht aus Männchen und Weibchen. Die Anzahl der Männchen in diesem Rudel wird mit m bezeichnet, jene der Weibchen mit w.\n\nDie beiden nachstehenden Gleichungen enthalten Informationen über dieses Rudel."
+    },
+    {
+      "t": "math",
+      "v": "m+w=21"
+    },
+    {
+      "t": "math",
+      "v": "4\\cdot m+1=w"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "2022-het-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2022h2]t1-22-ws.pdf"
+  },
+  "title": "Weihnachtsgeschenke",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1241a",
+          "baseId": "1_1241",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/771/Weihnachtsgeschenke.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}87\\cdot 0{,}03=0{,}0261"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p=2{,}61\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Anteils p."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie mithilfe der Daten aus dieser Umfrage den Anteil p der „Last-Minute-Shopper“ an der österreichischen Bevölkerung in Prozent."
+        },
+        {
+          "t": "math",
+          "v": "p=\\quad\\%"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 2.61,
+            "tol": 0.01,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1241",
+      "baseId": "1_1241",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/771/Weihnachtsgeschenke.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Laut einer Umfrage kaufen 87 % der österreichischen Bevölkerung Weihnachtsgeschenke.\nIn dieser Bevölkerungsgruppe sind 3 % „Last-Minute-Shopper“, die erst wenige Tage vor Weihnachten mit dem Kauf beginnen.\nDatenquelle: https://ooe.orf.at/stories/3020487/ [07.11.2019]."
+    }
+  ]
+}

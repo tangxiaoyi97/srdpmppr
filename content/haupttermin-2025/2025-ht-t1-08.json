@@ -1,0 +1,120 @@
+{
+  "id": "2025-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2025h1]t1-8-fa.pdf"
+  },
+  "title": "Lineare Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-08-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1456a",
+          "baseId": "1_1456",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1026/1_1456_srdp_ma_Lineare%20Funktion_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=-3\\cdot x-12"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von f auf.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-3\\cdot x-12",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1456",
+      "baseId": "1_1456",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1026/1_1456_srdp_ma_Lineare%20Funktion_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von der linearen Funktion f sind folgende Eigenschaften bekannt:\n\n- Die Funktion f hat an der Stelle "
+    },
+    {
+      "t": "math",
+      "v": "-4"
+    },
+    {
+      "t": "text",
+      "v": " eine Nullstelle.\n- Für alle "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f(x+2)=f(x)-6"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "2024-het-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2024h2]t1-15-fa.pdf"
+  },
+  "title": "Funktionswerte einer Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-15-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-15-fa.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-15-q.png",
+      "alt": "Graph der Polynomfunktion f; A1 ist die Fläche zwischen Graph und x-Achse im Intervall [0; 4], A2 die Fläche im Intervall [4; 6]."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2024-het-t1-15-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1378a",
+          "baseId": "1_1378",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/934/1_1378_srdp_ma_Funktionswerte%20einer%20Stammfunktion_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F(4) = \\tfrac{16}{3}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "F(6) = 0"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "A₁ ... Inhalt der Fläche zwischen dem Graphen von f und der x-Achse im Intervall [0; 4]\nA₂ ... Inhalt der Fläche zwischen dem Graphen von f und der x-Achse im Intervall [4; 6]\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "A_1 = A_2 = \\tfrac{16}{3}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nFür eine Stammfunktion F von f gilt: F(0) = 0\n\nGeben Sie die Werte von F(4) und F(6) an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "F4",
+            "label": "F(4)",
+            "value": 5.333333333333333,
+            "tol": 0.000001
+          },
+          {
+            "id": "F6",
+            "label": "F(6)",
+            "value": 0,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1378",
+      "baseId": "1_1378",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/934/1_1378_srdp_ma_Funktionswerte%20einer%20Stammfunktion_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph der Polynomfunktion f dargestellt."
+    }
+  ]
+}

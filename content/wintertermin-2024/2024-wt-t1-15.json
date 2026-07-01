@@ -1,0 +1,111 @@
+{
+  "id": "2024-wt-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2024w1]t1-15-an.pdf"
+  },
+  "title": "Luftdruck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-15-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1330a",
+          "baseId": "1_1330",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/878/1_1330_srdp_ma_Luftdruck_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die durchschnittliche Änderung des Luftdrucks in hPa/m bei einer Änderung der Seehöhe von 300 m auf 500 m."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Ausdruck"
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{p(h_2)-p(h_1)}{h_2-h_1}"
+        },
+        {
+          "t": "text",
+          "v": "im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt die durchschnittliche Änderung des Luftdrucks in hPa/m bei einer Änderung der Seehöhe von 300 m auf 500 m."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1330",
+      "baseId": "1_1330",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/878/1_1330_srdp_ma_Luftdruck_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Luftdruck nimmt mit zunehmender Seehöhe ab.\n\nDie Funktion p: ℝ₀⁺ → ℝ⁺ beschreibt modellhaft den Luftdruck p in Abhängigkeit von der Seehöhe h (h in m, p(h) in Hektopascal (hPa)).\nEs gilt: h₁ = 300 m und h₂ = 500 m"
+    }
+  ]
+}

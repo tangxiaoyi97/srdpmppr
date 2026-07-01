@@ -1,0 +1,148 @@
+{
+  "id": "2019-nt2-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2019n2]t1-15-fa.pdf"
+  },
+  "title": "Zusammenhang zwischen Funktion und Stammfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-15-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-15-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-15-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_676a",
+          "baseId": "1_676",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/405/Zusammenhang%20zwischen%20Funktion%20und%20Stammfunktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "g'(x)=h'(x)"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx=h(2)-h(0)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=h'(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g(x)+h(x)=c,\\ c\\in\\mathbb{R}\\setminus\\{0\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} g(x)\\,dx=f(2)-f(0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx=h(2)-h(0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g(x)=c\\cdot h(x),\\ c\\in\\mathbb{R}\\setminus\\{1\\}"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_676",
+      "baseId": "1_676",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/405/Zusammenhang%20zwischen%20Funktion%20und%20Stammfunktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktionen g und h sind unterschiedliche Stammfunktionen einer Polynomfunktion f vom Grad "
+    },
+    {
+      "t": "math",
+      "v": "n\\geq 1"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

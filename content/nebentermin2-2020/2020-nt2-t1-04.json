@@ -1,0 +1,302 @@
+{
+  "id": "2020-nt2-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2020n2]t1-4-fa.pdf"
+  },
+  "title": "Quadratische Gleichung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-4-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-4-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-04-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_737a",
+          "baseId": "1_737",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/513/Quadratische%20Gleichung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "keine reelle Lösung → F;  nur eine reelle Lösung "
+            },
+            {
+              "t": "math",
+              "v": "x=-\\tfrac{r}{2}"
+            },
+            {
+              "t": "text",
+              "v": " → A;  "
+            },
+            {
+              "t": "math",
+              "v": "x_1=0,\\ x_2=-r"
+            },
+            {
+              "t": "text",
+              "v": " → E;  "
+            },
+            {
+              "t": "math",
+              "v": "x_1=-\\sqrt{-s},\\ x_2=\\sqrt{-s}"
+            },
+            {
+              "t": "text",
+              "v": " → D."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Lösungsfälle ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Lösungsfällen jeweils diejenige Aussage über die Parameter r und s (aus A bis F) zu, bei der stets der jeweilige Lösungsfall vorliegt."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die quadratische Gleichung hat keine reelle Lösung."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die quadratische Gleichung hat nur eine reelle Lösung "
+            },
+            {
+              "t": "math",
+              "v": "x=-\\tfrac{r}{2}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die quadratische Gleichung hat die reellen Lösungen "
+            },
+            {
+              "t": "math",
+              "v": "x_1=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x_2=-r"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die quadratische Gleichung hat die reellen Lösungen "
+            },
+            {
+              "t": "math",
+              "v": "x_1=-\\sqrt{-s}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x_2=\\sqrt{-s}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{r^{2}}{4}=s"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{r^{2}}{4}-s>0"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "r,s\\neq 0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C "
+            },
+            {
+              "t": "math",
+              "v": "r\\in\\mathbb{R},\\ s>0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D "
+            },
+            {
+              "t": "math",
+              "v": "r=0,\\ s<0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E "
+            },
+            {
+              "t": "math",
+              "v": "r\\neq 0,\\ s=0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F "
+            },
+            {
+              "t": "math",
+              "v": "r=0,\\ s>0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_737",
+      "baseId": "1_737",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/513/Quadratische%20Gleichung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "x^{2}+r\\cdot x+s=0"
+    },
+    {
+      "t": "text",
+      "v": " in "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "r,s\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

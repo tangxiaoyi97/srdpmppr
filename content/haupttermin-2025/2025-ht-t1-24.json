@@ -1,0 +1,96 @@
+{
+  "id": "2025-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2025h1]t1-24-ws.pdf"
+  },
+  "title": "Versuchsreihe",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-24-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1472a",
+          "baseId": "1_1472",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1042/1_1472_srdp_ma_Versuchsreihe_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "20\\cdot p\\cdot(1-p)^{19}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen des Ausdrucks."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung von p einen Ausdruck auf, mit dem diese Wahrscheinlichkeit berechnet werden kann."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "20\\cdot p\\cdot(1-p)^{19}",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1472",
+      "baseId": "1_1472",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1042/1_1472_srdp_ma_Versuchsreihe_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Versuchsreihe wird ein bestimmter Versuch 20-mal durchgeführt. Jeder einzelne Versuch führt dabei, unabhängig von allen anderen Versuchen, mit der gleichen Wahrscheinlichkeit p zum Erfolg.\n\nGesucht ist ein Ausdruck, mit dem die Wahrscheinlichkeit, dass genau ein Versuch in einer solchen Versuchsreihe zum Erfolg führt, berechnet werden kann."
+    }
+  ]
+}

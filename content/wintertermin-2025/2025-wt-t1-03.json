@@ -1,0 +1,125 @@
+{
+  "id": "2025-wt-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2025w1]t1-3-ag.pdf"
+  },
+  "title": "Vektoren im Drehzylinder",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1427a",
+          "baseId": "1_1427",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/989/1_1427_srdp_ma_Vektoren%20im%20Drehzylinder_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}=\\begin{pmatrix}2\\\\-2\\\\6\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Eintragen der 3 richtigen Zahlen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Tragen Sie die fehlenden Zahlen in die dafür vorgesehenen Kästchen ein."
+        },
+        {
+          "t": "math",
+          "v": "\\overrightarrow{AB}="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 2,
+            "tol": 1e-9
+          },
+          {
+            "id": "y",
+            "value": -2,
+            "tol": 1e-9
+          },
+          {
+            "id": "z",
+            "value": 6,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1427",
+      "baseId": "1_1427",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/989/1_1427_srdp_ma_Vektoren%20im%20Drehzylinder_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist ein 6 cm hoher Drehzylinder. Der Durchmesser der Grundfläche dieses Drehzylinders beträgt 4 cm, der Mittelpunkt dieser Grundfläche liegt im Koordinatenursprung. Die Grundfläche liegt in der xy-Ebene.\n\nDie nachstehende Abbildung zeigt diesen Drehzylinder und den Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\overrightarrow{AB}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-03-q.png",
+      "alt": "Abbildung: 6 cm hoher Drehzylinder mit Grundflächenmittelpunkt im Ursprung in der xy-Ebene; eingezeichnet der Vektor AB von Punkt A auf dem Grundkreisrand zu Punkt B auf dem oberen Deckkreisrand."
+    }
+  ]
+}

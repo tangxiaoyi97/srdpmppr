@@ -1,0 +1,113 @@
+{
+  "id": "2026-wt-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2026w1]t1-18-an.pdf"
+  },
+  "title": "Zurückgelegter Weg",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1584a",
+          "baseId": "1_1584",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1097/1_1584_srdp_ma_Zur%C3%BCckgelegter%20Weg_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{15} v(t)\\,\\mathrm{d}t=192{,}375"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Fahrzeug hat rund 192 m zurückgelegt."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Länge des Weges, den das Fahrzeug bis zum Erreichen der Höchstgeschwindigkeit zurückgelegt hat, in Metern."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "s",
+            "value": 192.375,
+            "tol": 0.5,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1584",
+      "baseId": "1_1584",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1097/1_1584_srdp_ma_Zur%C3%BCckgelegter%20Weg_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeit eines bestimmten Fahrzeugs wird durch die Funktion v modelliert.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "v(t)=0{,}0008\\cdot t^{3}-0{,}108\\cdot t^{2}+2{,}7\\cdot t\\ \\text{mit}\\ 0\\le t\\le 33"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in s\nv(t) ... Geschwindigkeit zum Zeitpunkt t in m/s\n\nNach 15 s erreicht das Fahrzeug seine Höchstgeschwindigkeit."
+    }
+  ]
+}

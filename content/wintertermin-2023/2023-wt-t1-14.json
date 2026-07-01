@@ -1,0 +1,94 @@
+{
+  "id": "2023-wt-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2023w1]t1-14-an.pdf"
+  },
+  "title": "Treibstoffverbrauch",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-14-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1257a",
+          "baseId": "1_1257",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/789/1_1257_srdp_ma_Treibstoffverbrauch_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{V(0) - V(180)}{180}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen des Terms."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung der Funktion V einen Term zur Berechnung des mittleren Treibstoffverbrauchs (in Litern pro Kilometer) für diese Wegstrecke auf."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{V(0)-V(180)}{180}",
+        "vars": [],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1257",
+      "baseId": "1_1257",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/789/1_1257_srdp_ma_Treibstoffverbrauch_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion V beschreibt die Treibstoffmenge im Tank eines Autos in Abhängigkeit von der zurückgelegten Wegstrecke x. Nach x Kilometern Fahrt befinden sich V(x) Liter Treibstoff im Tank.\n\nDas Auto hat eine Wegstrecke von 180 km ohne Tanken zurückgelegt."
+    }
+  ]
+}

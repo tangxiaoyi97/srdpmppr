@@ -1,0 +1,108 @@
+{
+  "id": "2023-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2023h1]t1-15-an.pdf"
+  },
+  "title": "Produktionskosten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-15-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1282a",
+          "baseId": "1_1282",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/821/1_1282_srdp_ma_Produktionskosten_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(x)=0{,}001\\cdot x^3-3\\cdot x^2+3\\,500\\cdot x+200\\,000"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von K."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von K auf."
+        },
+        {
+          "t": "math",
+          "v": "K(x)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.001*x^3-3*x^2+3500*x+200000",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1282",
+      "baseId": "1_1282",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/821/1_1282_srdp_ma_Produktionskosten_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die monatlichen Fixkosten eines Betriebs für die Produktion von Erfrischungsgetränken betragen € 200.000.\nDie Funktion K beschreibt modellhaft die monatlichen Gesamtkosten für diese Produktion (in Euro) in Abhängigkeit von der Produktionsmenge x.\nDie Grenzkosten für diese Produktion werden durch die Funktion K′ beschrieben."
+    },
+    {
+      "t": "math",
+      "v": "K'(x)=0{,}003\\cdot x^2-6\\cdot x+3\\,500"
+    },
+    {
+      "t": "text",
+      "v": "x ... Produktionsmenge in Mengeneinheiten\nK′(x) ... Grenzkosten bei der Produktionsmenge x in Euro pro Mengeneinheit"
+    }
+  ]
+}

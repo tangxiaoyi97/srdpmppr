@@ -1,0 +1,315 @@
+{
+  "id": "2022-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2022h1]t2-4.pdf"
+  },
+  "title": "Vitamin C",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_116a",
+          "baseId": "2_116",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/747/Vitamin%20C.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Brokkoli enthält durchschnittlich 100 mg Vitamin C pro 100 g.\n\nBei einem Gemüsegroßhändler wird eine Zufallsstichprobe von 50 Portionen frischem Brokkoli entnommen und für jede Portion der Vitamin-C-Gehalt pro 100 g gemessen.\nDer Flächeninhalt eines Rechtecks im nachstehenden Histogramm entspricht der absoluten Häufigkeit der Portionen dieser Stichprobe im jeweiligen Bereich."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t2-04-a.png",
+          "alt": "Histogramm: Vitamin-C-Gehalt pro 100 g auf der x-Achse mit den Klassen „80 bis unter 90“, „90 bis unter 100“ und „100 bis 120“; die Rechteckhöhe der Klasse „100 bis 120“ beträgt 1,5."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Anzahl der Portionen in der Zufallsstichprobe, die 100 mg bis 120 mg Vitamin C pro 100 g aufweisen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 30,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "20\\cdot 1{,}5=30"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "30 Portionen weisen 100 mg bis 120 mg Vitamin C pro 100 g auf."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln der Anzahl."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_116a",
+          "baseId": "2_116",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/747/Vitamin%20C.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Von der Zufallsstichprobe werden 3 Portionen ohne Zurücklegen entnommen.\n\nBerechnen Sie die Wahrscheinlichkeit, dass höchstens 2 dieser Portionen 100 mg bis 120 mg Vitamin C pro 100 g aufweisen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.7928,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1-\\dfrac{30}{50}\\cdot\\dfrac{29}{49}\\cdot\\dfrac{28}{48}=0{,}7928\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit beträgt rund 79,3 %."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.4",
+          "description": "lineare Ungleichungen aufstellen, interpretieren, umformen/lösen, Lösungen (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_116b",
+          "baseId": "2_116",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/747/Vitamin%20C.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Getränkehersteller möchte Fruchtsaft so in Flaschen abfüllen, dass jede Flasche 100 mg Vitamin C enthält.\n\nEs stehen zur Verfügung:\n- Birnensaft mit 20 mg Vitamin C pro 100 ml\n- Orangensaft mit 35 mg Vitamin C pro 100 ml\n- Mischungen aus diesen beiden Säften\n\nEmine behauptet, dass der Vitamin-C-Gehalt von 100 mg bei Flaschen mit einem Fassungsvermögen von 250 ml nicht erreicht werden kann.\n\nBegründen Sie, warum Emines Behauptung richtig ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "250 ml Orangensaft (der vitaminreichere Saft) enthalten nur 87,5 mg Vitamin C und somit weniger als 100 mg. Daher kann mit keiner Mischung aus Birnen- und Orangensaft in einer 250-ml-Flasche ein Vitamin-C-Gehalt von 100 mg erreicht werden."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "250 ml Orangensaft enthalten nur 87,5 mg Vitamin C und somit weniger als 100 mg."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Begründen."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_116b",
+          "baseId": "2_116",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/747/Vitamin%20C.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die zur Verfügung stehenden Fruchtsäfte werden so gemischt, dass 350 ml Saft genau 100 mg Vitamin C enthalten.\n\nErmitteln Sie, wie viele Milliliter Birnensaft mit wie vielen Millilitern Orangensaft dafür gemischt werden müssen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "Birnensaft",
+            "value": 150,
+            "tol": 1e-9,
+            "unit": "ml"
+          },
+          {
+            "id": "y",
+            "label": "Orangensaft",
+            "value": 200,
+            "tol": 1e-9,
+            "unit": "ml"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "x ... Menge an Birnensaft in einer Flasche in ml; y ... Menge an Orangensaft in einer Flasche in ml\n"
+            },
+            {
+              "t": "math",
+              "v": "\\text{I}:\\ 0{,}2\\cdot x+0{,}35\\cdot y=100"
+            },
+            {
+              "t": "math",
+              "v": "\\text{II}:\\ x+y=350"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "x = 150, y = 200. Es müssen 150 ml Birnensaft mit 200 ml Orangensaft gemischt werden."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ermitteln der beiden Werte."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_116",
+      "baseId": "2_116",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/747/Vitamin%20C.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Vitamin C erfüllt viele wichtige Aufgaben im menschlichen Körper."
+    }
+  ]
+}

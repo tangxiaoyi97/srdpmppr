@@ -1,0 +1,122 @@
+{
+  "id": "2021-het-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2021h2]t1-15-an.pdf"
+  },
+  "title": "Ableitungsfunktion und Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-15-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_868a",
+          "baseId": "1_868",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/677/Ableitungsfunktion_Stammfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Ableitungsfunktion f′ ist eindeutig bestimmt. Es gibt somit keine weitere Ableitungsfunktion von f.“ und „Es gilt: F′(a) = f(a) für alle a ∈ ℝ.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Polynomfunktion f hat die Ableitungsfunktion f′ und die Stammfunktion F.\n\nKreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Ausdruck F(a) gibt die Steigung von f an der Stelle a für alle a ∈ ℝ an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Stammfunktion F ist eindeutig bestimmt. Es gibt somit keine weitere Stammfunktion von f."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Ableitungsfunktion f′ ist eindeutig bestimmt. Es gibt somit keine weitere Ableitungsfunktion von f."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Ausdruck F′(0) gibt die Steigung der Funktion f an der Stelle 0 an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gilt: F′(a) = f(a) für alle a ∈ ℝ."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_868",
+      "baseId": "1_868",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/677/Ableitungsfunktion_Stammfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

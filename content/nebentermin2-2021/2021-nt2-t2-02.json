@@ -1,0 +1,452 @@
+{
+  "id": "2021-nt2-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2021n2]t2-2.pdf"
+  },
+  "title": "Erderwärmung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098a",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem bestimmten Klimamodell wird a = 2,7 angenommen.\nDie Funktion T hat an der Stelle t = t₀ eine lokale Extremstelle.\n\nErmitteln Sie t₀."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t0",
+            "label": "t₀",
+            "value": 41.06,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "T'(t_0)=0\\ \\Rightarrow\\ t_0=41{,}06\\ldots\\quad(T''(t_0)>0)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_0=41{,}06\\ldots"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die richtige Lösung, wobei ein Nachweis, dass t0 eine lokale Minimumstelle ist, nicht erbracht werden muss. Grundkompetenz: AN 3.3"
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098a",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie mathematisch, warum gemäß diesem Modell die globale Mitteltemperatur ab der Stelle t₀ immer schneller ansteigt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die globale Mitteltemperatur steigt ab t₀ immer schneller an, weil für alle t > t₀ der Graph von T linksgekrümmt ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für eine richtige Begründung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Begründung: Die globale Mitteltemperatur steigt ab t₀ immer schneller an, weil für alle t > t₀ der Graph von T linksgekrümmt ist."
+            }
+          ],
+          "note": "a2) Ein Punkt für eine richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098b",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Verschiedene Studien nehmen an, dass die globale Mitteltemperatur im Jahr 2100 im Vergleich zur globalen Mitteltemperatur im Jahr 2000 (also 14,31 °C) um mindestens 1,5 °C, aber um höchstens 4,5 °C höher sein wird.\n\nWeisen Sie nach, dass die Funktion T mit a = 2,7 diese Studien mit der Annahme für das Jahr 2100 bestätigt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nachweis über T(200) = 18,47…: Da 14,31 + 1,5 ≤ 18,47 ≤ 14,31 + 4,5 gilt, bestätigt die Funktion T mit a = 2,7 diese Studien."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für einen richtigen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "T(200)=18{,}473\\ldots\\approx 18{,}47"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "14{,}31+1{,}5\\le 18{,}47\\le 14{,}31+4{,}5"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion T mit a = 2,7 bestätigt diese Studien."
+            }
+          ],
+          "note": "b1) Ein Punkt für einen richtigen Nachweis."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098b",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den kleinstmöglichen Wert a_min und den größtmöglichen Wert a_max so an, dass die Funktion T diese Studien bestätigt."
+        },
+        {
+          "t": "math",
+          "v": "a_{\\min}=\\quad a_{\\max}="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "amin",
+            "label": "a_min",
+            "value": 2.162,
+            "tol": 0.005
+          },
+          {
+            "id": "amax",
+            "label": "a_max",
+            "value": 2.768,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\text{Zunahme um }1{,}5\\,^\\circ\\mathrm{C}:\\ T(200)=15{,}81"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\text{Zunahme um }4{,}5\\,^\\circ\\mathrm{C}:\\ T(200)=18{,}81"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a_{\\min}=2{,}162\\ldots,\\quad a_{\\max}=2{,}768\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für die Angabe der beiden richtigen Werte."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-02-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098c",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der UN-Klimakonferenz in Paris im Jahr 2015 wurde eine neue internationale Klimaschutz-Vereinbarung getroffen, die die Begrenzung der Zunahme der globalen Mitteltemperatur vorsieht. Demnach dürfte die globale Mitteltemperatur im Jahr 2100 höchstens 15,3 °C betragen.\n\nUm diese Klimaschutz-Vereinbarung zu erfüllen, darf ab dem Jahr 2015 die mittlere Änderungsrate der globalen Mitteltemperatur pro Jahr höchstens einen bestimmten Wert k betragen (k in °C pro Jahr).\n\nErmitteln Sie k."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": 0.0068,
+            "tol": 0.0001,
+            "unit": "°C/Jahr"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "k=\\dfrac{15{,}3-14{,}72}{2100-2015}=0{,}00682\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "k\\approx 0{,}0068\\ ^\\circ\\mathrm{C}/\\text{Jahr}"
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „°C/Jahr“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-02-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_098c",
+          "baseId": "2_098",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird angenommen, dass die globale Mitteltemperatur ab dem Jahr 2015 linear zunimmt und die mittlere Änderungsrate der globalen Mitteltemperatur pro Jahr tatsächlich k entspricht.\n\nGeben Sie unter dieser Annahme eine Gleichung derjenigen linearen Funktion M an, die die jährliche globale Mitteltemperatur (in °C) t Jahre nach 2015 modellhaft beschreibt."
+        },
+        {
+          "t": "math",
+          "v": "M(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.0068\\cdot t+14.72",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "M(t)=0{,}0068\\cdot t+14{,}72"
+            }
+          ],
+          "note": "c2) Ein Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_098",
+      "baseId": "2_098",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/619/Erderwaermung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Unter globaler Mitteltemperatur versteht man die über die gesamte Erdoberfläche gemittelte Temperatur in einem bestimmten Zeitraum unter bestimmten Bedingungen.\n\nDie Entwicklung der globalen Mitteltemperatur kann mithilfe von Klimamodellen prognostiziert werden.\n\nNachstehend sind für einzelne Jahre die globalen Mitteltemperaturen angeführt.\n\nJahr | 1900 | 1950 | 1955 | 1960 | 1965 | 1970 | 1975 | 1980\nglobale Mitteltemperatur (in °C) | 13,80 | 13,87 | 13,89 | 14,01 | 13,90 | 14,02 | 13,94 | 14,16\n\nJahr | 1985 | 1990 | 1995 | 2000 | 2005 | 2010 | 2015\nglobale Mitteltemperatur (in °C) | 14,03 | 14,37 | 14,37 | 14,31 | 14,51 | 14,55 | 14,72\n\nDie Funktion T beschreibt modellhaft die globale Mitteltemperatur in Abhängigkeit von der Zeit t (t in Jahren ab dem Jahr 1900, T(t) in °C). Es gilt:"
+    },
+    {
+      "t": "math",
+      "v": "T(t)=a\\cdot e^{0{,}008\\cdot t}-0{,}03\\cdot t+11{,}1\\ \\text{mit}\\ a\\in\\mathbb{R}^{+}"
+    }
+  ]
+}

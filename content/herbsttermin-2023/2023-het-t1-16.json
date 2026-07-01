@@ -1,0 +1,106 @@
+{
+  "id": "2023-het-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2023h2]t1-16-an.pdf"
+  },
+  "title": "Wert eines bestimmten Integrals",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-16-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1307a",
+          "baseId": "1_1307",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/851/1_1307_srdp_ma_Wert%20eines%20bestimmten%20Integrals_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{3} f(x)\\,dx = 9"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des nachstehenden Integrals an."
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{3} f(x)\\,dx ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "I",
+            "value": 9,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1307",
+      "baseId": "1_1307",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/851/1_1307_srdp_ma_Wert%20eines%20bestimmten%20Integrals_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion g ist eine Stammfunktion der Polynomfunktion f. Von der Funktion g sind einige Wertepaare gegeben:"
+    },
+    {
+      "t": "text",
+      "v": "x | g(x)\n−2 | 3\n−1 | 0\n0 | −1\n1 | 0\n2 | 3\n3 | 8\n4 | 15"
+    }
+  ]
+}

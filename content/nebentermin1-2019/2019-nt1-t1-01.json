@@ -1,0 +1,140 @@
+{
+  "id": "2019-nt1-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2019n1]t1-1-ag.pdf"
+  },
+  "title": "Zahlenmengen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_710a",
+          "baseId": "1_710",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/449/Zahlenmengen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wahr: "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}\\subseteq\\mathbb{N}^{+}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{Q}\\subseteq\\mathbb{C}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden wahren Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}\\subseteq\\mathbb{N}^{+}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{C}\\subseteq\\mathbb{Z}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{N}\\subseteq\\mathbb{R}^{-}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{R}^{+}\\subseteq\\mathbb{Q}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{Q}\\subseteq\\mathbb{C}"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_710",
+      "baseId": "1_710",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/449/Zahlenmengen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zwischen Zahlenmengen bestehen bestimmte Beziehungen."
+    }
+  ]
+}

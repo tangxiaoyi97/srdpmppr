@@ -1,0 +1,204 @@
+{
+  "id": "2024-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2024h1]t1-17-fa.pdf"
+  },
+  "title": "Eigenschaften von quadratischen Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-17-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-17-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1356a",
+          "baseId": "1_1356",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/908/1_1356_srdp_ma_Eigenschaften%20von%20quadratischen%20Funktionen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Es gibt eine Zahl "
+            },
+            {
+              "t": "math",
+              "v": "c\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " so, dass für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)-h(x)=c"
+            },
+            {
+              "t": "text",
+              "v": "“ und „f′ hat eine Nullstelle.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden auf jeden Fall zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "h''(x)<0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "h′ ist streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine Zahl "
+            },
+            {
+              "t": "math",
+              "v": "c\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " so, dass für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)-h(x)=c"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "h′ ist eine lineare Funktion, deren Graph durch den Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(0\\mid 0)"
+            },
+            {
+              "t": "text",
+              "v": " verläuft."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f′ hat eine Nullstelle."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1356",
+      "baseId": "1_1356",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/908/1_1356_srdp_ma_Eigenschaften%20von%20quadratischen%20Funktionen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind zwei quadratische Funktionen f und h.\nFür alle "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f'(x)=h'(x)\\ \\text{und}\\ f(x), h(x)>0"
+    }
+  ]
+}

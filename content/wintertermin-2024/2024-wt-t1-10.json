@@ -1,0 +1,128 @@
+{
+  "id": "2024-wt-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2024w1]t1-10-an.pdf"
+  },
+  "title": "Anzahl von Nullstellen, Extremstellen und Wendestellen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-10-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-10-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-10-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 4.4",
+          "description": "den Zusammenhang zwischen dem Grad der Polynomfunktion und der Anzahl der Null-, Extrem- und Wendestellen wissen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1325a",
+          "baseId": "1_1325",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/873/1_1325_srdp_ma_Anzahl%20von%20Nullstellen,%20Extremstellen%20und%20Wendestellen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Funktion f kann 0 reelle Nullstellen, 1 lokale Extremstelle und 0 Wendestellen haben.“ und „Die Funktion f kann 1 reelle Nullstelle, 3 lokale Extremstellen und 2 Wendestellen haben.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf f zutreffen können. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f kann 0 reelle Nullstellen, 1 lokale Extremstelle und 0 Wendestellen haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f kann 1 reelle Nullstelle, 3 lokale Extremstellen und 2 Wendestellen haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f kann 2 verschiedene reelle Nullstellen, 2 lokale Extremstellen und 2 Wendestellen haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f kann 3 verschiedene reelle Nullstellen, 2 lokale Extremstellen und 0 Wendestellen haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f kann 4 verschiedene reelle Nullstellen, 3 lokale Extremstellen und 1 Wendestelle haben."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1325",
+      "baseId": "1_1325",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/873/1_1325_srdp_ma_Anzahl%20von%20Nullstellen,%20Extremstellen%20und%20Wendestellen_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion 4. Grades f.\n\nIm Folgenden sind Aussagen über die genaue Anzahl von verschiedenen reellen Nullstellen, lokalen Extremstellen und Wendestellen angeführt."
+    }
+  ]
+}

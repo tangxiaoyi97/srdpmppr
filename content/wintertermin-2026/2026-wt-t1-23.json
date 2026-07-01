@@ -1,0 +1,190 @@
+{
+  "id": "2026-wt-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2026w1]t1-23-ws.pdf"
+  },
+  "title": "Glücksrad",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-23-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1589a",
+          "baseId": "1_1589",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1103/1_1589_srdp_ma_Gl%C3%BCcksrad_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "\\{-10;\\,-4;\\,2\\}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "E(X)=0"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Menge ① besteht ausschließlich aus allen möglichen Werten, die die Zufallsvariable X annehmen kann; für den Erwartungswert E(X) gilt: ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\{-10;\\,-4;\\,2\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\{-10;\\,-5;\\,-4;\\,1;\\,2\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\{-10;\\,2\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "E(X)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "E(X)<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "E(X)>0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1589",
+      "baseId": "1_1589",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1103/1_1589_srdp_ma_Gl%C3%BCcksrad_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der Mitte des unten abgebildeten Glücksrads ist ein drehbarer Zeiger montiert. Für jede Drehung des Zeigers gilt:"
+    },
+    {
+      "t": "text",
+      "v": "- Der Zeiger bleibt in jedem Sektor mit der Wahrscheinlichkeit "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{1}{6}"
+    },
+    {
+      "t": "text",
+      "v": " stehen.\n- Man gewinnt € 1, wenn der Zeiger nach dem Drehen in einem weißen Sektor stehen bleibt.\n- Man verliert € 5, wenn der Zeiger nach dem Drehen im grauen Sektor stehen bleibt."
+    },
+    {
+      "t": "text",
+      "v": "Die möglichen Gewinne bei 1-maligem Drehen sind im nachstehend abgebildeten Glücksrad dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-23-q.png",
+      "alt": "Glücksrad mit sechs gleich großen Sektoren: fünf weiße Sektoren mit € 1 und ein grauer Sektor mit € −5."
+    },
+    {
+      "t": "text",
+      "v": "Der Zeiger wird 2-mal gedreht. Die beiden Drehungen sind unabhängig voneinander. Die Zufallsvariable X gibt den gesamten Gewinn bei diesen beiden Drehungen an."
+    }
+  ]
+}

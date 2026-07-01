@@ -1,0 +1,198 @@
+{
+  "id": "2026-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2026h1]t1-17-an.pdf"
+  },
+  "title": "Näherung eines bestimmten Integrals",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-17-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1607a",
+          "baseId": "1_1607",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1127/1_1607_N%C3%A4herung%20eines%20bestimmten%20Integrals_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "A_2<A_4"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "A>A_4"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Es ist ① und ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "A_2<A_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A_2=A_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A_2>A_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A<A_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=A_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A>A_4"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1607",
+      "baseId": "1_1607",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1127/1_1607_N%C3%A4herung%20eines%20bestimmten%20Integrals_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon\\mathbb{R}\\to\\mathbb{R}_0^{+}"
+    },
+    {
+      "t": "text",
+      "v": " ist auf dem Intervall [0; 4] streng monoton steigend.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "A=\\int_{0}^{4} f(x)\\,dx"
+    },
+    {
+      "t": "math",
+      "v": "A_2=2\\cdot\\bigl(f(0)+f(2)\\bigr)"
+    },
+    {
+      "t": "math",
+      "v": "A_4=f(0)+f(1)+f(2)+f(3)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "2020-nt1-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2020n1]t1-15-ag.pdf"
+  },
+  "title": "Bakterienkultur",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-15-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-15-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-15-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=k\\cdot N(t)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "N(t+1)=N(t)\\cdot(1+k)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Gleichungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Gleichungen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=-k\\cdot N(t)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=k"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=k\\cdot N(t)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)=k\\cdot N(t)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)=N(t)\\cdot(1+k)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es wird die Anzahl der Bakterien in einer Bakterienkultur in Abhängigkeit von der Zeit t untersucht. Die Anzahl der Bakterien in dieser Bakterienkultur nimmt jede Minute um den gleichen Prozentsatz zu.\nIn den unten stehenden Gleichungen ist N(t) die Anzahl der Bakterien in dieser Bakterienkultur zum Zeitpunkt t (in Minuten) und "
+    },
+    {
+      "t": "math",
+      "v": "k\\in(0;\\,1)"
+    },
+    {
+      "t": "text",
+      "v": " eine reelle Zahl."
+    }
+  ]
+}

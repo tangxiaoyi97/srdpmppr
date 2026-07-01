@@ -1,0 +1,96 @@
+{
+  "id": "2021-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2021h1]t1-23-ws.pdf"
+  },
+  "title": "Rauchverhalten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_852a",
+          "baseId": "1_852",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/645/Rauchverhalten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck gibt die Wahrscheinlichkeit dafür an, dass unter 200 zufällig ausgewählten Personen, die rauchen, 57 Personen mit dem Rauchen aufhören wollen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Laut einer Studie wollen 34 % aller Raucher/innen mit dem Rauchen aufhören.\n\nInterpretieren Sie den nachstehenden Ausdruck im gegebenen Sachzusammenhang."
+        },
+        {
+          "t": "math",
+          "v": "\\binom{200}{57}\\cdot 0{,}34^{57}\\cdot 0{,}66^{143}"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck gibt die Wahrscheinlichkeit dafür an, dass unter 200 zufällig ausgewählten Personen, die rauchen, 57 Personen mit dem Rauchen aufhören wollen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_852",
+      "baseId": "1_852",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/645/Rauchverhalten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

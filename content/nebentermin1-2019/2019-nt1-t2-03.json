@@ -1,0 +1,335 @@
+{
+  "id": "2019-nt1-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2019n1]t2-3.pdf"
+  },
+  "title": "Fibonacci-Zahlen und der Goldene Schnitt",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t2-03-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AN 1.4",
+          "description": "Differenzialquotient (Ableitung, momentane Änderungsrate) als Grenzwert des Differenzenquotienten deuten/interpretieren können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie dasjenige n an, für das das Verhältnis f(n) : f(n − 1) erstmals auf zwei Nachkommastellen mit dem Goldenen Schnitt ϕ übereinstimmt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 8,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\varphi=\\dfrac{1+\\sqrt{5}}{2}\\approx 1{,}618"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c|c} n & f(n) & f(n):f(n-1)\\\\\\hline 1 & 1 & -\\\\ 2 & 1 & 1\\\\ 3 & 2 & 2\\\\ 4 & 3 & 1{,}5\\\\ 5 & 5 & 1{,}666\\ldots\\\\ 6 & 8 & 1{,}6\\\\ 7 & 13 & 1{,}625\\\\ 8 & 21 & 1{,}615\\ldots\\end{array}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Für n = 8 stimmt das Verhältnis f(n) : f(n − 1) erstmals auf zwei Nachkommastellen mit ϕ überein."
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die richtige Lösung. Grundkompetenz: AN 1.4"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-03-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für Fibonacci-Zahlen gilt für k ∈ ℕ und k > 2 folgende Gleichung:"
+        },
+        {
+          "t": "math",
+          "v": "f(n+k)=f(n-1)\\cdot f(k)+f(n)\\cdot f(k+1)"
+        },
+        {
+          "t": "text",
+          "v": "Zeigen Sie die Gültigkeit dieser Gleichung für n = 3 und k = 5."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für n = 3 und k = 5 gilt: "
+          },
+          {
+            "t": "math",
+            "v": "f(8)=f(2)\\cdot f(5)+f(3)\\cdot f(6)"
+          },
+          {
+            "t": "text",
+            "v": ", also "
+          },
+          {
+            "t": "math",
+            "v": "21=1\\cdot 5+2\\cdot 8=21"
+          },
+          {
+            "t": "text",
+            "v": " (wahre Aussage)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen richtigen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "n=3,\\ k=5\\ \\Rightarrow\\ f(8)=f(2)\\cdot f(5)+f(3)\\cdot f(6)"
+            },
+            {
+              "t": "math",
+              "v": "21=1\\cdot 5+2\\cdot 8"
+            },
+            {
+              "t": "math",
+              "v": "21=21\\ \\text{w. A.}"
+            }
+          ],
+          "note": "a2) Ein Punkt für einen richtigen Nachweis."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-03-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Möglichkeit zur näherungsweisen Bestimmung von Fibonacci-Zahlen durch einen einfachen expliziten Ausdruck ist die Approximation "
+        },
+        {
+          "t": "math",
+          "v": "f(n)\\approx g(n)=\\dfrac{1}{\\sqrt{5}}\\cdot\\left(\\dfrac{1+\\sqrt{5}}{2}\\right)^{n}\\ \\text{mit}\\ n\\in\\mathbb{N}\\setminus\\{0\\}"
+        },
+        {
+          "t": "text",
+          "v": "Die Zahl 832 040 ist eine Fibonacci-Zahl, das heißt, es gibt ein n ∈ ℕ mit f(n) = 832 040 bzw. g(n) ≈ 832 040."
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie dieses n."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 30,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "g(n)=\\dfrac{1}{\\sqrt{5}}\\cdot\\left(\\dfrac{1+\\sqrt{5}}{2}\\right)^{n}\\approx 832\\,040\\ \\Rightarrow\\ n=30"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n=30"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-03-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine exakte explizite Möglichkeit zur Berechnung der Fibonacci-Zahlen f(n) ist die Formel von Moivre/Binet:"
+        },
+        {
+          "t": "math",
+          "v": "f(n)=\\dfrac{1}{\\sqrt{5}}\\cdot\\left(x_1^{n}-x_2^{n}\\right)"
+        },
+        {
+          "t": "text",
+          "v": "Dabei sind x₁ = ϕ und x₂ die Lösungen der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "x^{2}+a\\cdot x-1=0"
+        },
+        {
+          "t": "text",
+          "v": " mit a ∈ ℝ."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie a und x₂."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -1,
+            "tol": 1e-09
+          },
+          {
+            "id": "x2",
+            "label": "x₂",
+            "value": -0.618,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\left(\\dfrac{1+\\sqrt{5}}{2}\\right)^{2}+a\\cdot\\dfrac{1+\\sqrt{5}}{2}-1=0\\ \\Rightarrow\\ a=-1"
+            },
+            {
+              "t": "math",
+              "v": "x^{2}-x-1=0:\\quad x_1=\\dfrac{1+\\sqrt{5}}{2}=\\varphi,\\quad x_2=\\dfrac{1-\\sqrt{5}}{2}\\approx -0{,}618"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-1,\\quad x_2=\\dfrac{1-\\sqrt{5}}{2}\\approx -0{,}618"
+            }
+          ],
+          "note": "b2) Ein Punkt für die Angabe der beiden richtigen Werte. Toleranzintervall für x₂: [–0,62; –0,60] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die sogenannten Fibonacci-Zahlen werden für n ∈ ℕ und n > 2 durch die Differenzengleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(n)=f(n-1)+f(n-2)"
+    },
+    {
+      "t": "text",
+      "v": " mit den Startwerten f(1) = 1 und f(2) = 1 definiert.\n\nDas Verhältnis f(n) : f(n − 1) nähert sich für große Werte von n dem Goldenen Schnitt "
+    },
+    {
+      "t": "math",
+      "v": "\\varphi=\\dfrac{1+\\sqrt{5}}{2}"
+    },
+    {
+      "t": "text",
+      "v": " an."
+    }
+  ]
+}

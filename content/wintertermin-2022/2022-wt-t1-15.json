@@ -1,0 +1,149 @@
+{
+  "id": "2022-wt-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2022w1]t1-15-an.pdf"
+  },
+  "title": "Zeit-Geschwindigkeit-Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-15-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_892a",
+          "baseId": "1_892",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/694/Zeit-Geschwindigkeit-Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\text{Es gibt einen Zeitpunkt } t_0 \\in [0;\\,30] \\text{ mit } a(t_0) = 0."
+            },
+            {
+              "t": "text",
+              "v": "  und  "
+            },
+            {
+              "t": "math",
+              "v": "\\text{Für alle } t_1, t_2 \\in [0;\\,30] \\text{ mit } t_2 > t_1 \\text{ gilt: } s(t_2) > s(t_1)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "s(10) < 10"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Es gibt einen Zeitpunkt } t_0 \\in [0;\\,30] \\text{ mit } a(t_0) = 0."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 15 ist die Beschleunigung maximal."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s(30) - s(0) > 300"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für alle } t_1, t_2 \\in [0;\\,30] \\text{ mit } t_2 > t_1 \\text{ gilt: } s(t_2) > s(t_1)."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_892",
+      "baseId": "1_892",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/694/Zeit-Geschwindigkeit-Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die Bewegung eines bestimmten Körpers gibt v(t) die Geschwindigkeit zum Zeitpunkt t an (t in s, v(t) in m/s). Der Graph von v ist im Zeitintervall [0; 30] in der nachstehenden Abbildung dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-15-q.png",
+      "alt": "Graph der Geschwindigkeit v(t) in m/s über der Zeit t in s im Intervall [0; 30]; v steigt zunächst an und verläuft anschließend annähernd konstant."
+    },
+    {
+      "t": "text",
+      "v": "Unten stehend sind Aussagen über die Zeit-Weg-Funktion s und die Zeit-Beschleunigung-Funktion a für diese Bewegung angeführt (t in s, s(t) in m, a(t) in m/s²)."
+    }
+  ]
+}

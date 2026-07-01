@@ -1,0 +1,472 @@
+{
+  "id": "2020-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2020h1]t2-1.pdf"
+  },
+  "title": "Fallschirmsprung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061a",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie "
+        },
+        {
+          "t": "math",
+          "v": "w=\\frac{v_1(10)-v_1(5)}{10-5}"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Deutungen:\nIm Zeitintervall [5; 10] nimmt die Fallgeschwindigkeit (in m/s) des Fallschirmspringers pro Sekunde durchschnittlich um w zu.\noder:\nDie mittlere Beschleunigung des Fallschirmspringers im Zeitintervall [5; 10] beträgt w (in m/s²)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für eine richtige Deutung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall [5; 10] nimmt die Fallgeschwindigkeit (in m/s) des Fallschirmspringers pro Sekunde durchschnittlich um w zu. Oder: Die mittlere Beschleunigung des Fallschirmspringers im Zeitintervall [5; 10] beträgt w (in m/s²)."
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für eine richtige Deutung. Grundkompetenz: AN 1.3"
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061a",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein t₁ ∈ [0; 30] gilt: v₁′(t₁) = w.\n\nDeuten Sie t₁ im gegebenen Kontext."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Deutung:\nZum Zeitpunkt t₁ ist die Momentanbeschleunigung genauso hoch wie die mittlere Beschleunigung im Zeitintervall [5; 10]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Deutung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t₁ ist die Momentanbeschleunigung genauso hoch wie die mittlere Beschleunigung im Zeitintervall [5; 10]."
+            }
+          ],
+          "note": "a2) Ein Punkt für eine richtige Deutung."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061b",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie mithilfe der Funktion v₁, in welcher Höhe der Fallschirm geöffnet wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "hoehe",
+            "value": 2544,
+            "tol": 1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "4\\,000-\\int_{0}^{30} v_1(t)\\,\\mathrm{d}t=2\\,543{,}8\\ldots\\approx 2\\,544"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Fallschirm wird in einer Höhe von ca. 2 544 m geöffnet."
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061b",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Zeitdauer des gesamten Fallschirmsprungs vom Absprung bis zur Landung."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "zeitdauer",
+            "value": 532,
+            "tol": 1,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{30}^{x} v_2(t)\\,\\mathrm{d}t=2\\,543{,}8\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "x=531{,}7\\ldots\\approx 532"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Zeitdauer des gesamten Fallschirmsprungs beträgt ca. 532 s."
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061c",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ohne Berücksichtigung des Luftwiderstands hätte der Fallschirmspringer eine Anfangsgeschwindigkeit von 0 m/s und im Zeitintervall [0; 30] eine konstante Beschleunigung von 9,81 m/s². Die Fallgeschwindigkeit 9 s nach dem Absprung beträgt dann v*.\n\nBerechnen Sie, um wie viel v₁(9) kleiner ist als v*."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "diff",
+            "value": 38.19,
+            "tol": 0.01,
+            "unit": "m/s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "9{,}81\\cdot 9-v_1(9)=38{,}192\\ldots\\approx 38{,}19"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "v₁(9) ist um ca. 38,19 m/s kleiner als v*."
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_061c",
+          "baseId": "2_061",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent 9 s nach dem Absprung die Beschleunigung des Fallschirmspringers geringer ist als bei einem Sprung ohne Berücksichtigung des Luftwiderstands."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "prozent",
+            "value": 84.96,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{9{,}81-v_1'(9)}{9{,}81}=0{,}84958\\ldots\\approx 0{,}8496"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Beschleunigung unter Berücksichtigung des Luftwiderstands ist um ca. 84,96 % geringer als jene ohne Berücksichtigung des Luftwiderstands."
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_061",
+      "baseId": "2_061",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/538/Fallschirmsprung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Fallschirmsprung aus einer Höhe von 4 000 m über Grund wird 30 s nach dem Absprung der Fallschirm geöffnet."
+    },
+    {
+      "t": "text",
+      "v": "Für t ∈ [0; 30] gibt die Funktion v₁ mit"
+    },
+    {
+      "t": "math",
+      "v": "v_1(t)=56-56\\cdot e^{-\\frac{t}{4}}"
+    },
+    {
+      "t": "text",
+      "v": "(unter Berücksichtigung des Luftwiderstands) die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t an (t in s nach dem Absprung, v₁(t) in m/s).\n\nFür t ≥ 30 gibt die Funktion v₂ mit"
+    },
+    {
+      "t": "math",
+      "v": "v_2(t)=\\frac{51}{(t-29)^{2}}+5-56\\cdot e^{-7{,}5}"
+    },
+    {
+      "t": "text",
+      "v": "die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t bis zum Zeitpunkt der Landung an (t in s nach dem Absprung, v₂(t) in m/s).\n\nModellhaft wird angenommen, dass der Fallschirmsprung lotrecht ist."
+    }
+  ]
+}

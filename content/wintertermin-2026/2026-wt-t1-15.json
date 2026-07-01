@@ -1,0 +1,164 @@
+{
+  "id": "2026-wt-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2026w1]t1-15-an.pdf"
+  },
+  "title": "Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-15-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1581a",
+          "baseId": "1_1581",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1094/1_1581_srdp_ma_Stammfunktion_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x_{\\max}=-a"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "x_W=0"
+            }
+          ],
+          "note": "Ein halber Punkt für das Angeben des richtigen Wertes von x_max, ein halber Punkt für das Angeben des richtigen Wertes von x_W."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "x_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x_W"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "x_{\\max}=-a"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "x_W=0"
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1581",
+      "baseId": "1_1581",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1094/1_1581_srdp_ma_Stammfunktion_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer quadratischen Funktion f dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-15-q.png",
+      "alt": "Graph einer nach oben geöffneten quadratischen Funktion f mit Nullstellen bei x = −a und x = a (Scheitel auf der negativen f(x)-Achse zwischen −a und a)."
+    },
+    {
+      "t": "text",
+      "v": "Die Funktion F ist eine Stammfunktion von f.\n\nIm dargestellten Bereich liegen genau eine Maximumstelle "
+    },
+    {
+      "t": "math",
+      "v": "x_{\\max}"
+    },
+    {
+      "t": "text",
+      "v": " und genau eine Wendestelle "
+    },
+    {
+      "t": "math",
+      "v": "x_W"
+    },
+    {
+      "t": "text",
+      "v": " der Funktion F."
+    }
+  ]
+}

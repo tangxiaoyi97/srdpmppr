@@ -1,0 +1,141 @@
+{
+  "id": "2024-ht-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2024h1]t1-3-ag.pdf"
+  },
+  "title": "Gleichungssystem",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1342a",
+          "baseId": "1_1342",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/894/1_1342_srdp_ma_Gleichungssystem_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-4"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "c=0"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte."
+        },
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für c ist jeder Wert außer −6 zulässig. Auch die Angabe c ≠ −6 ist als richtig zu werten."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie jeweils einen Wert von a und c an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -4,
+            "tol": 1e-9
+          },
+          {
+            "id": "c",
+            "label": "c",
+            "value": 0,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1342",
+      "baseId": "1_1342",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/894/1_1342_srdp_ma_Gleichungssystem_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist ein Gleichungssystem in x und y mit "
+    },
+    {
+      "t": "math",
+      "v": "a, c\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{I}\\!: 2\\cdot x-y=3"
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{II}\\!: a\\cdot x+2\\cdot y=c"
+    },
+    {
+      "t": "text",
+      "v": "Dieses Gleichungssystem hat keine Lösung."
+    }
+  ]
+}

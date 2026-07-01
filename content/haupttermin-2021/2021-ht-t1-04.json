@@ -1,0 +1,203 @@
+{
+  "id": "2021-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2021h1]t1-4-ag.pdf"
+  },
+  "title": "Parameterdarstellung von Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-04-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_833a",
+          "baseId": "1_833",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/626/ParameterdarstellungvonGeraden.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "A=C+s\\cdot v+t\\cdot w"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "B=Q+t\\cdot w"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt die beiden Geraden "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": ". Auf jeder der Geraden sind drei Punkte gekennzeichnet: "
+        },
+        {
+          "t": "math",
+          "v": "A,\\,B,\\,P\\in g"
+        },
+        {
+          "t": "text",
+          "v": " bzw. "
+        },
+        {
+          "t": "math",
+          "v": "B,\\,C,\\,Q\\in h"
+        },
+        {
+          "t": "text",
+          "v": ".\nZusätzlich ist von jeder Geraden ein Richtungsvektor dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-04-q.png",
+          "alt": "Zwei Geraden g und h. Auf g die Punkte A, B, P und der Richtungsvektor v; auf h die Punkte B, C, Q und der Richtungsvektor w. A oben, darunter B (Schnittpunkt-nahe), C und Q links unten, P rechts unten."
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, bei denen "
+        },
+        {
+          "t": "math",
+          "v": "s,\\,t\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "s\\ne 0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t\\ne 0"
+        },
+        {
+          "t": "text",
+          "v": " so gewählt werden können, dass die jeweilige Aussage wahr ist."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "A=C+s\\cdot v+t\\cdot w"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=C+s\\cdot v"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=Q+t\\cdot w"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=P+s\\cdot v+t\\cdot w"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "C=P+t\\cdot w"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_833",
+      "baseId": "1_833",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/626/ParameterdarstellungvonGeraden.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

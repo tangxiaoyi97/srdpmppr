@@ -1,0 +1,122 @@
+{
+  "id": "2020-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2020h1]t1-11-ag.pdf"
+  },
+  "title": "Anzahl von Tieren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-11-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-11-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_768a",
+          "baseId": "1_768",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/552/Anzahl_von_Tieren.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "1{,}018^{n}=2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "n=38{,}8\\ldots\\approx 39"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Zeitdauer: ca. 39 Jahre"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie diejenige Zeitdauer in Jahren, innerhalb der sich die Anzahl der Tiere dieser Tierart auf der Erde verdoppelt."
+        },
+        {
+          "t": "text",
+          "v": "Zeitdauer: ca. ___ Jahre"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "Zeitdauer",
+            "value": 39,
+            "tol": 1,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_768",
+      "baseId": "1_768",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/552/Anzahl_von_Tieren.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Man nimmt an, dass sich die Anzahl der Tiere einer bestimmten Tierart auf der Erde um 1,8 % pro Jahr erhöht."
+    }
+  ]
+}

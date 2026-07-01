@@ -1,0 +1,134 @@
+{
+  "id": "2026-wt-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2026w1]t1-4-ag.pdf"
+  },
+  "title": "Vektoren in der Ebene",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-4-ag.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-04-q.png",
+      "alt": "Koordinatensystem (x von 0 bis 15, y von 0 bis 11) mit den Vektoren u und v sowie dem Punkt A bei (10 | 2)."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2026-wt-t1-04-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1570a",
+          "baseId": "1_1570",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1083/1_1570_srdp_ma_Vektoren%20in%20der%20Ebene_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "note": "Ein Punkt für das richtige Einzeichnen des Vektors w ausgehend vom Punkt A."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{w}"
+        },
+        {
+          "t": "text",
+          "v": " ausgehend vom Punkt A ein."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor w = 3·u − 2·v wird ausgehend vom Punkt A korrekt eingezeichnet."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1570",
+      "baseId": "1_1570",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1083/1_1570_srdp_ma_Vektoren%20in%20der%20Ebene_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{u}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{u},\\,\\vec{v}\\in\\mathbb{R}^2"
+    },
+    {
+      "t": "text",
+      "v": " sowie der Punkt A dargestellt.\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{w}=3\\cdot\\vec{u}-2\\cdot\\vec{v}"
+    }
+  ]
+}

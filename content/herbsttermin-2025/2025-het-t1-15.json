@@ -1,0 +1,222 @@
+{
+  "id": "2025-het-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2025h2]t1-15-an.pdf"
+  },
+  "title": "Ableitungsfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-15-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1557a",
+          "baseId": "1_1557",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1064/1_1557_srdp_ma_Ableitungsfunktionen_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)\\to A"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "(3\\cdot g(x))'\\to F"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "(f(x)+g(x))'\\to D"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "(g(x)-f(x))'\\to B"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier nachstehenden Ableitungen jeweils den passenden Term aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "f'(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(3\\cdot g(x))'"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(f(x)+g(x))'"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(g(x)-f(x))'"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "3\\cdot h(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "6\\cdot h(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "9\\cdot h(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "12\\cdot h(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "18\\cdot h(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "27\\cdot h(x)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1557",
+      "baseId": "1_1557",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1064/1_1557_srdp_ma_Ableitungsfunktionen_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die reellen Funktionen f, g, h mit a ∈ ℝ\\{0}.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{3}"
+    },
+    {
+      "t": "math",
+      "v": "g(x)=3\\cdot a\\cdot x^{3}"
+    },
+    {
+      "t": "math",
+      "v": "h(x)=a\\cdot x^{2}"
+    }
+  ]
+}

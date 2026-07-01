@@ -1,0 +1,113 @@
+{
+  "id": "2020-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2020h1]t1-14-an.pdf"
+  },
+  "title": "Ölpreis",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-14-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_771a",
+          "baseId": "1_771",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/555/Oelpreis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mittlere Änderungsrate: 7 Euro pro Barrel Rohöl pro Monat"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [6; 8]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die mittlere Änderungsrate für den Preis pro Barrel Rohöl pro Monat im Zeitraum vom 1.7.2012 bis 1.9.2012."
+        },
+        {
+          "t": "text",
+          "v": "mittlere Änderungsrate: ___ Euro pro Barrel Rohöl pro Monat"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rate",
+            "label": "mittlere Änderungsrate",
+            "value": 7,
+            "tol": 1,
+            "unit": "Euro pro Barrel Rohöl pro Monat"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_771",
+      "baseId": "1_771",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/555/Oelpreis.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Grafik zeigt die Preisentwicklung für Rohöl im Zeitraum vom 8.6.2012 bis 8.9.2012."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-14-q.png",
+      "alt": "Liniendiagramm: Preis in Euro pro Barrel Rohöl (von 70 bis 100) im Zeitraum 8.6.2012 – 8.9.2012; markiert sind die Zeitpunkte 8.6., 1.7., 1.9. und 8.9."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: http://www.heizoel24.at/charts/rohoel [14.12.2012] (adaptiert)."
+    }
+  ]
+}

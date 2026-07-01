@@ -1,0 +1,144 @@
+{
+  "id": "2024-ht-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2024h1]t1-1-ag.pdf"
+  },
+  "title": "Vergleich zweier Mengen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1340a",
+          "baseId": "1_1340",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/892/1_1340_srdp_ma_Vergleich%20zweier%20Mengen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Beide Mengen A und B enthalten rationale Zahlen.“ und „Die Menge A enthält genau 6 Zahlen, die auch in der Menge B enthalten sind.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Beide Mengen A und B enthalten rationale Zahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Menge B ist eine Teilmenge der Menge A."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die zwei Mengen A und B enthalten gleich viele Zahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Menge A enthält genau 6 Zahlen, die auch in der Menge B enthalten sind."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Beide Mengen A und B enthalten Zahlen, die größer als 7 sind."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1340",
+      "baseId": "1_1340",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/892/1_1340_srdp_ma_Vergleich%20zweier%20Mengen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Menge "
+    },
+    {
+      "t": "math",
+      "v": "A=\\{x\\in\\mathbb{N}\\mid 1<x<8\\}"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Teilmenge der natürlichen Zahlen und die Menge "
+    },
+    {
+      "t": "math",
+      "v": "B=\\{x\\in\\mathbb{Q}\\mid 1<x<8\\}"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Teilmenge der rationalen Zahlen."
+    }
+  ]
+}

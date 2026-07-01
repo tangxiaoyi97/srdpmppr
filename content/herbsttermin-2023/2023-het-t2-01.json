@@ -1,0 +1,325 @@
+{
+  "id": "2023-het-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2023h2]t2-1.pdf"
+  },
+  "title": "Triathlon",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_129a",
+          "baseId": "2_129",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/860/2_129_srdp_ma_Triathlon_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Verlauf der Schwimmstrecke eines bestimmten Triathlons ist in der nachstehenden Abbildung modellhaft dargestellt. Der Schwimmbewerb startet im Punkt S und endet im Punkt Z, dazwischen müssen die Kontrollpunkte B1, B2, B3, S, B1 und B2 in genau dieser Reihenfolge erreicht werden."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t2-01-a-q.png",
+          "alt": "Koordinatensystem (x in m, y in m) mit dem Verlauf der Schwimmstrecke. Punkte B1 (links), B2 (oben), B3 (rechts oben), S = (600 | 0) auf der x-Achse und Z (rechts auf der x-Achse)."
+        },
+        {
+          "t": "text",
+          "v": "Die Entfernung vom Punkt S = (600 | 0) zum Punkt B1 beträgt 700 m."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die y-Koordinate von B1."
+        },
+        {
+          "t": "math",
+          "v": "B_1 = (0\\ |\\ \\underline{\\phantom{000}}\\,)"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "y",
+            "value": 360.5,
+            "tol": 1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "B_1 = (0\\ |\\ 360{,}5\\ldots)"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der y-Koordinate von B1."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_129b",
+          "baseId": "2_129",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/860/2_129_srdp_ma_Triathlon_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beim Radbewerb eines bestimmten Triathlons startet Stefanie 1,45 min vor Tanja.\nt ... Zeit in min\nt = 0 ... Zeitpunkt, zu dem Stefanie startet\nv_Stefanie(t) ... Geschwindigkeit von Stefanie zum Zeitpunkt t in km/min\nv_Tanja(t) ... Geschwindigkeit von Tanja zum Zeitpunkt t in km/min\n\nStefanie erreicht das Ziel des Radbewerbs nach einer Fahrzeit von 291 min. Zu dieser Zeit ist Tanja noch auf der Radstrecke."
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie, was mit dem nachstehenden Ausdruck im gegebenen Sachzusammenhang berechnet werden kann."
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{291} v_{\\text{Stefanie}}(t)\\,dt - \\int_{1,45}^{291} v_{\\text{Tanja}}(t)\\,dt"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mit dem Ausdruck wird die verbliebene Wegstrecke von Tanja bis zum Ziel des Radbewerbs (in km) berechnet."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es wird die verbliebene Wegstrecke von Tanja bis zum Ziel (des Radbewerbs) in km berechnet."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_129c",
+          "baseId": "2_129",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/860/2_129_srdp_ma_Triathlon_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Michael nimmt an einem bestimmten Triathlon teil.\n\nMichael startet in den abschließenden 42,195 km langen Laufbewerb mit einer bisherigen Gesamtzeit von 5 h 12 min 38 s.\n\nMichael beendet den Triathlon mit einer Gesamtzeit von 7 h 36 min 56 s."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie Michaels Durchschnittsgeschwindigkeit im Laufbewerb in km/h."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "value": 17.5,
+            "tol": 0.1,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Zeitdifferenz: 2 h 24 min 18 s = 2,405 h"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{42{,}195}{2{,}405} = 17{,}54\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Michaels Durchschnittsgeschwindigkeit im Laufbewerb beträgt rund 17,5 km/h."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen der Durchschnittsgeschwindigkeit."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-01-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_129d",
+          "baseId": "2_129",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/860/2_129_srdp_ma_Triathlon_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der wohl bekannteste Triathlon-Bewerb ist die Ironman World Championship in Hawaii.\n\nDie Funktion f: ℕ → ℝ mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t) = 0{,}1275 \\cdot t^{3} - 8{,}525 \\cdot t^{2} + 198{,}425 \\cdot t + 15"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt in Abhängigkeit von der Zeit t für den Zeitraum von 1978 bis 2018 modellhaft die Anzahl der Personen, die an diesem Bewerb teilnehmen (t in Jahren mit t = 0 für das Jahr 1978).\n\nDie Anzahl der Personen, die an diesem Bewerb teilnehmen, ist im Zeitraum von 1978 bis 2018 im Mittel um n Personen pro Jahr gestiegen."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie n."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 61.425,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "n = \\frac{f(40) - f(0)}{40}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n = 61{,}425"
+            }
+          ],
+          "note": "d1) Ein Punkt für das richtige Berechnen von n."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_129",
+      "baseId": "2_129",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/860/2_129_srdp_ma_Triathlon_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Triathlon ist ein Bewerb, bei dem die Sportlerinnen und Sportler einen Schwimmbewerb, einen Radbewerb und einen Laufbewerb in genau dieser Reihenfolge absolvieren."
+    }
+  ]
+}

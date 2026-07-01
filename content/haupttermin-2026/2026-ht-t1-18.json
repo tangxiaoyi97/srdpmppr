@@ -1,0 +1,115 @@
+{
+  "id": "2026-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2026h1]t1-18-an.pdf"
+  },
+  "title": "Bestimmtes Integral",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-18-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1608a",
+          "baseId": "1_1608",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1128/1_1608_Bestimmtes%20Integral_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{-3}^{2} f(x)\\,dx=-3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln des Wertes."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Wert des bestimmten Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-3}^{2} f(x)\\,dx"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-3}^{2} f(x)\\,dx="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "I",
+            "value": -3,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1608",
+      "baseId": "1_1608",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1128/1_1608_Bestimmtes%20Integral_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph der Funktion f dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-18-q.png",
+      "alt": "Koordinatensystem mit dem Graphen der Funktion f; x-Achse von -5 bis 5, y-Achse (f(x)) von -4 bis 4."
+    }
+  ]
+}

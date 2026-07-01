@@ -1,0 +1,125 @@
+{
+  "id": "2022-wt-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2022w1]t1-8-ag.pdf"
+  },
+  "title": "Schnittpunkte einer Geraden mit der x-Achse",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-8-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-8-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-08-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bedingung für k: "
+            },
+            {
+              "t": "math",
+              "v": "k = 0"
+            },
+            {
+              "t": "text",
+              "v": ";  Bedingung für d: "
+            },
+            {
+              "t": "math",
+              "v": "d \\neq 0"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Bedingungen, ein halber Punkt für nur eine richtige Bedingung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie diejenigen Bedingungen an, die die Parameter k und d einer solchen Geraden auf jeden Fall erfüllen müssen, damit diese keinen Schnittpunkt mit der x-Achse hat.\n\nBedingung für k:\n\nBedingung für d:"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bedingung für k: "
+          },
+          {
+            "t": "math",
+            "v": "k = 0"
+          },
+          {
+            "t": "text",
+            "v": ";  Bedingung für d: "
+          },
+          {
+            "t": "math",
+            "v": "d \\neq 0"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Jede Gleichung der Form "
+    },
+    {
+      "t": "math",
+      "v": "y = k \\cdot x + d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "k, d \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt eine Gerade in der Ebene."
+    }
+  ]
+}

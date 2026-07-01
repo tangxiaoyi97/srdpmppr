@@ -1,0 +1,181 @@
+{
+  "id": "2023-wt-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2023w1]t1-5-ag.pdf"
+  },
+  "title": "Zwei Geraden im Raum",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-05-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1248a",
+          "baseId": "1_1248",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/780/1_1248_srdp_ma_Zwei%20Geraden%20im%20Raum_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "B \\in g \\text{ und } \\vec{a} \\cdot \\vec{b} = 0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② schneidend"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Falls ① gilt, sind die Geraden g und h auf jeden Fall ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "A \\notin h \\text{ und } \\vec{a} = \\vec{b}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B \\in g \\text{ und } \\vec{a} \\cdot \\vec{b} = 0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\vec{a} = r \\cdot \\vec{b} \\text{ mit } r \\in \\mathbb{R} \\setminus \\{0\\} \\text{ und } B \\notin g"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "schneidend"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "identisch"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "windschief"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1248",
+      "baseId": "1_1248",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/780/1_1248_srdp_ma_Zwei%20Geraden%20im%20Raum_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind zwei Geraden g und h in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}^{3}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "math",
+      "v": "g\\colon X = A + t \\cdot \\vec{a} \\quad \\text{mit } t \\in \\mathbb{R}"
+    },
+    {
+      "t": "math",
+      "v": "h\\colon X = B + s \\cdot \\vec{b} \\quad \\text{mit } s \\in \\mathbb{R}"
+    }
+  ]
+}

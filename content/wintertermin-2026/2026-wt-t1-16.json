@@ -1,0 +1,173 @@
+{
+  "id": "2026-wt-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2026w1]t1-16-an.pdf"
+  },
+  "title": "Ableitungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1582a",
+          "baseId": "1_1582",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1095/1_1582_srdp_ma_Ableitungen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Für alle x aus dem Intervall [–5; –3] ist f″(x) negativ.“ und „Es gibt ein x aus dem Intervall [–1; 1], für das f′(x) = 0 gilt.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Für alle x aus dem Intervall [–5; –3] ist "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)"
+            },
+            {
+              "t": "text",
+              "v": " negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle x aus dem Intervall [–5; –3] ist "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)"
+            },
+            {
+              "t": "text",
+              "v": " negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt ein x aus dem Intervall [–1; 1], für das "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=0"
+            },
+            {
+              "t": "text",
+              "v": " gilt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt ein x aus dem Intervall [–1; 1], für das "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)=0"
+            },
+            {
+              "t": "text",
+              "v": " gilt."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(1)"
+            },
+            {
+              "t": "text",
+              "v": " ist negativ."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1582",
+      "baseId": "1_1582",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1095/1_1582_srdp_ma_Ableitungen_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist ein Ausschnitt des Graphen der Polynomfunktion f dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-16-q.png",
+      "alt": "Ausschnitt des Graphen der Polynomfunktion f im Bereich x von etwa −5 bis 3, f(x) von etwa −3 bis 2."
+    },
+    {
+      "t": "text",
+      "v": "Die unten angeführten Aussagen betreffen Werte der 1. und 2. Ableitung von f."
+    }
+  ]
+}

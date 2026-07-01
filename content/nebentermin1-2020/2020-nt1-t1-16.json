@@ -1,0 +1,142 @@
+{
+  "id": "2020-nt1-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2020n1]t1-16-an.pdf"
+  },
+  "title": "Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-16-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_797a",
+          "baseId": "1_797",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/581/Stammfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ja, h ist ebenfalls eine Stammfunktion von f.\n\nmögliche Begründungen:\nZwei differenzierbare Funktionen, die sich nur um eine additive Konstante unterscheiden, haben die gleiche Ableitung.\noder:\nFür alle x ∈ ℝ gilt: "
+            },
+            {
+              "t": "math",
+              "v": "h'(x)=g'(x)=f(x)"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Entscheidung und eine richtige Begründung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob h ebenfalls eine Stammfunktion von f ist, und begründen Sie Ihre Entscheidung."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ja, h ist ebenfalls eine Stammfunktion von f.\n\nmögliche Begründungen:\nZwei differenzierbare Funktionen, die sich nur um eine additive Konstante unterscheiden, haben die gleiche Ableitung.\noder:\nFür alle x ∈ ℝ gilt: h′(x) = g′(x) = f(x)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_797",
+      "baseId": "1_797",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/581/Stammfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon\\mathbb{R}\\to\\mathbb{R},\\ x\\mapsto f(x)"
+    },
+    {
+      "t": "text",
+      "v": ".\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "g\\colon\\mathbb{R}\\to\\mathbb{R},\\ x\\mapsto g(x)"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Stammfunktion von f.\nFür eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h\\colon\\mathbb{R}\\to\\mathbb{R},\\ x\\mapsto h(x)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c\\in\\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "h(x)=g(x)+c"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

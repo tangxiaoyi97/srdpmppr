@@ -1,0 +1,451 @@
+{
+  "id": "2025-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2025h1]t2-4.pdf"
+  },
+  "title": "Schokolade",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_152a",
+          "baseId": "2_152",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1046/2_152_srdp_ma_Schokolade_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine neue Schokoladesorte besteht aus Vollmilchschokolade und weißer Schokolade.\n\nDie Zutaten von je 100 g Vollmilchschokolade und weißer Schokolade sind in der nachstehenden Tabelle angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-04-a-tab.png",
+          "alt": "Tabelle der Zutaten je 100 g: Spalten Zucker, Kakao, Milchpulver, Sonstiges. Vollmilchschokolade: 35 g, 42 g, 21 g, 2 g. Weiße Schokolade: 38 g, 30 g, 30 g, 2 g."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDer Anteil an Kakao in der neuen Schokoladesorte beträgt 35 %.\n\nFür die Herstellung einer 300-g-Tafel der neuen Schokoladesorte benötigt man v Gramm Vollmilchschokolade und w Gramm weiße Schokolade.\n\nBerechnen Sie v und w."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "label": "v",
+            "value": 125,
+            "tol": 1e-9,
+            "unit": "g"
+          },
+          {
+            "id": "w",
+            "label": "w",
+            "value": 175,
+            "tol": 1e-9,
+            "unit": "g"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v+w=300"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "0{,}42\\cdot v+0{,}3\\cdot w=0{,}35\\cdot 300"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v=125,\\quad w=175"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von v und w."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_152a",
+          "baseId": "2_152",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1046/2_152_srdp_ma_Schokolade_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Herstellung von 1 kg Milchpulver werden 7 Liter Milch benötigt.\n\nBerechnen Sie, wie viele Liter Milch für die Herstellung des Milchpulvers für eine 300-g-Tafel der neuen Schokoladesorte benötigt werden."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "milch",
+            "label": "Liter Milch",
+            "value": 0.55125,
+            "tol": 0.01,
+            "unit": "L"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{0{,}21\\cdot 125+0{,}3\\cdot 175}{1\\,000}\\cdot 7=0{,}55125"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Für die Herstellung des Milchpulvers für eine 300-g-Tafel der neuen Schokoladesorte werden rund 0,55 Liter Milch benötigt."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_152b",
+          "baseId": "2_152",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1046/2_152_srdp_ma_Schokolade_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geschmolzene Schokolade wird in einer Maschine für die Weiterverarbeitung auf die richtige Temperatur gebracht.\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "T\\colon[0;\\,1{,}5]\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt dabei modellhaft die Temperatur der Schokolade in Abhängigkeit von der Zeit.\n\nEs gilt:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "T(t)=-\\dfrac{304}{27}\\cdot t^{5}+\\dfrac{392}{27}\\cdot t^{4}+\\dfrac{1\\,100}{27}\\cdot t^{3}-62\\cdot t^{2}+45"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit in h\n"
+        },
+        {
+          "t": "math",
+          "v": "T(t)"
+        },
+        {
+          "t": "text",
+          "v": " ... Temperatur der Schokolade zum Zeitpunkt t in °C\n\nBis zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " nimmt die Temperatur der Schokolade in der Maschine ab. Ab diesem Zeitpunkt nimmt die Temperatur wieder zu.\n\nBerechnen Sie die mittlere Änderungsrate der Temperatur der Schokolade im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;\\,t_1]"
+        },
+        {
+          "t": "text",
+          "v": ". Geben Sie das Ergebnis in °C/min an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rate",
+            "label": "mittlere Änderungsrate",
+            "value": -0.3,
+            "tol": 1e-9,
+            "unit": "°C/min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "T'(t)=0 \\Rightarrow t_1=1\\ (t_2=0,\\ t_3=1{,}5,\\ t_4=-1{,}468\\ldots)"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{T(t_1)-T(0)}{t_1-0}=-18\\ \\mathrm{^\\circ C/h}=-0{,}3\\ \\mathrm{^\\circ C/min}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die mittlere Änderungsrate der Temperatur der Schokolade im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "[0;\\,t_1]"
+            },
+            {
+              "t": "text",
+              "v": " beträgt "
+            },
+            {
+              "t": "math",
+              "v": "-0{,}3\\ \\mathrm{^\\circ C/min}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_152c",
+          "baseId": "2_152",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1046/2_152_srdp_ma_Schokolade_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Vor der Markteinführung wird die neue Schokoladesorte von Testpersonen verkostet. Die Testpersonen werden in die zwei unterschiedlich großen Gruppen A und B eingeteilt. Jede Testperson bewertet die neue Schokoladesorte mit 0 bis 4 Punkten.\n\nDie absoluten Häufigkeiten der Ergebnisse sind in den nachstehenden Abbildungen dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-04-c-q.png",
+          "alt": "Zwei Säulendiagramme der absoluten Häufigkeiten der Bewertungen (0 bis 4 Punkte): Gruppe A und Gruppe B, jeweils mit vertikaler Achse 0 bis 18."
+        },
+        {
+          "t": "text",
+          "v": "\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie relative Häufigkeit der Bewertung mit 4 Punkten ist in der Gruppe A ① in der Gruppe B; der Median der Ergebnisse ist in der Gruppe A ② in der Gruppe B."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "größer als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "kleiner als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich groß wie"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "größer als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "kleiner als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich groß wie"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① größer als;  ② kleiner als"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_152",
+      "baseId": "2_152",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1046/2_152_srdp_ma_Schokolade_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Betrieb stellt verschiedene Schokoladesorten her."
+    }
+  ]
+}

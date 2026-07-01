@@ -1,0 +1,115 @@
+{
+  "id": "2023-wt-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2023w1]t1-1-ag.pdf"
+  },
+  "title": "Summe und Produkt zweier Zahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-01-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1244a",
+          "baseId": "1_1244",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/778/1_1244_srdp_ma_Summe%20und%20Produkt%20zweier%20Zahlen_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Summe zweier negativer Zahlen ist negativ, das Produkt zweier negativer Zahlen ist positiv. Daher können die Summe und das Produkt der beiden Zahlen nicht übereinstimmen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Begründen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie allgemein, warum es unter dieser Voraussetzung nicht möglich ist, dass sowohl a als auch b negativ sind."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Summe zweier negativer Zahlen ist negativ, das Produkt zweier negativer Zahlen ist positiv. Daher können die Summe und das Produkt der beiden Zahlen nicht übereinstimmen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1244",
+      "baseId": "1_1244",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/778/1_1244_srdp_ma_Summe%20und%20Produkt%20zweier%20Zahlen_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für zwei Zahlen a und b mit "
+    },
+    {
+      "t": "math",
+      "v": "a, b \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a + b = a \\cdot b"
+    }
+  ]
+}

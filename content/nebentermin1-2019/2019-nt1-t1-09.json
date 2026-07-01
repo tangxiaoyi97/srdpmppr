@@ -1,0 +1,135 @@
+{
+  "id": "2019-nt1-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2019n1]t1-9-fa.pdf"
+  },
+  "title": "Kerzenhöhe",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-09-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_718a",
+          "baseId": "1_718",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/457/Kerzenh%C3%B6he.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Bedingungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für jeden der Koeffizienten a und b an, ob er positiv, negativ oder genau null sein muss."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Koeffizient a muss negativ sein ("
+          },
+          {
+            "t": "math",
+            "v": "a<0"
+          },
+          {
+            "t": "text",
+            "v": "), der Koeffizient b muss positiv sein ("
+          },
+          {
+            "t": "math",
+            "v": "b>0"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die Angabe der beiden richtigen Bedingungen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_718",
+      "baseId": "1_718",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/457/Kerzenh%C3%B6he.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine brennende Kerze, die vor t Stunden angezündet wurde, hat die Höhe h(t). Für die Höhe der Kerze gilt dabei näherungsweise "
+    },
+    {
+      "t": "math",
+      "v": "h(t)=a\\cdot t+b"
+    },
+    {
+      "t": "text",
+      "v": " mit a, b ∈ ℝ."
+    }
+  ]
+}

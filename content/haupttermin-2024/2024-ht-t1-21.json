@@ -1,0 +1,119 @@
+{
+  "id": "2024-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2024h1]t1-21-ws.pdf"
+  },
+  "title": "Lösungszeiten für Sudoku",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-21-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1360a",
+          "baseId": "1_1360",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/912/1_1360_srdp_ma_Loesungszeiten%20f%C3%BCr%20Sudoku_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{356+t}{2}=350"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t=344\\ \\text{s}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes von t."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie t an."
+        },
+        {
+          "t": "math",
+          "v": "t=\\underline{\\qquad}\\ \\text{s}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 344,
+            "tol": 1e-9,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1360",
+      "baseId": "1_1360",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/912/1_1360_srdp_ma_Loesungszeiten%20f%C3%BCr%20Sudoku_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Online-Sudoku werden 6 Spiele durchgeführt. In der nachstehenden Tabelle sind die Lösungszeiten der ersten 5 Spiele gegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-21-q.png",
+      "alt": "Tabelle: Spiel | Lösungszeit in s — 1:356, 2:321, 3:378, 4:450, 5:298, 6:t."
+    },
+    {
+      "t": "text",
+      "v": "Der Median aller 6 Lösungszeiten beträgt 350 s."
+    }
+  ]
+}

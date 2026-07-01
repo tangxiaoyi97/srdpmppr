@@ -1,0 +1,352 @@
+{
+  "id": "2026-wt-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2026w1]t2-4.pdf"
+  },
+  "title": "Bevölkerungsentwicklung der USA",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_160a",
+          "baseId": "2_160",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1108/2_160_srdp_ma_Bev%C3%B6lkerungsentwicklung%20der%20USA_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für den Zeitraum von 1900 bis 2000 soll die Bevölkerungsentwicklung der USA durch eine Exponentialfunktion f mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot b^{t}"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit t modelliert werden.\nt ... Zeit in Jahren mit t = 0 für das Jahr 1900\nf(t) ... Einwohnerzahl der USA zur Zeit t in Mio.\n"
+        },
+        {
+          "t": "math",
+          "v": "a,b\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von f auf. Verwenden Sie dafür die in der obigen Tabelle angegebenen Werte für 1900 und 1940."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "76\\cdot\\left(\\frac{132}{76}\\right)^{\\frac{t}{40}}",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "a=f(0)=76"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "b=\\sqrt[40]{\\tfrac{132}{76}}=1{,}0138\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(t)=76\\cdot 1{,}0138\\ldots^{\\,t}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_160a",
+          "baseId": "2_160",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1108/2_160_srdp_ma_Bev%C3%B6lkerungsentwicklung%20der%20USA_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent f(100) von dem zugehörigen Wert in der Tabelle abweicht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abw",
+            "value": 7.5,
+            "tol": 0.2,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(100)=302{,}144\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{302{,}144\\ldots-281}{281}=0{,}0752\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert f(100) weicht um rund 7,5 % von dem zugehörigen Wert in der Tabelle ab."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_160b",
+          "baseId": "2_160",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1108/2_160_srdp_ma_Bev%C3%B6lkerungsentwicklung%20der%20USA_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der belgische Mathematiker Pierre-François Verhulst hat im Jahr 1845 ein Modell zur Berechnung der Bevölkerungsentwicklung der USA erstellt.\nNach diesem Modell gilt:"
+        },
+        {
+          "t": "math",
+          "v": "B(t)=\\frac{3{,}9}{0{,}01977+0{,}98023\\cdot \\mathrm{e}^{-0{,}03134\\cdot t}}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 1790\nB(t) ... Einwohnerzahl der USA zur Zeit t in Mio.\n\nErmitteln Sie, wie viele Jahre nach 1790 die momentane Änderungsrate der Einwohnerzahl in diesem Modell am größten war."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "value": 124.5,
+            "tol": 0.5,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "B''(t)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz: "
+            },
+            {
+              "t": "math",
+              "v": "t=124{,}5\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die momentane Änderungsrate war rund 124,5 Jahre nach 1790 am größten."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ermitteln."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_160b",
+          "baseId": "2_160",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1108/2_160_srdp_ma_Bev%C3%B6lkerungsentwicklung%20der%20USA_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie, wie viele Jahre nach 1790 erstmals die momentane Änderungsrate der Einwohnerzahl in diesem Modell halb so groß wie jene im Jahr 1910 war."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "value": 68,
+            "tol": 0.5,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "B'(t)=\\frac{B'(120)}{2}=\\frac{1{,}537\\ldots}{2}"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz: "
+            },
+            {
+              "t": "math",
+              "v": "t_1=68{,}0\\ldots\\quad(t_2=181{,}0\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Rund 68,0 Jahre nach 1790 war die momentane Änderungsrate erstmals halb so groß wie jene im Jahr 1910."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ermitteln."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_160",
+      "baseId": "2_160",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1108/2_160_srdp_ma_Bev%C3%B6lkerungsentwicklung%20der%20USA_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle beschreibt die Bevölkerungsentwicklung der USA im Zeitraum von 1900 bis 2000."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-04-q.png",
+      "alt": "Tabelle Jahr | Einwohnerzahl der USA in Mio.: 1900|76, 1920|106, 1940|132, 1960|179, 1980|227, 2000|281."
+    }
+  ]
+}

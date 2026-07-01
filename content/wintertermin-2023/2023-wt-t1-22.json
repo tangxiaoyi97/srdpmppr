@@ -1,0 +1,144 @@
+{
+  "id": "2023-wt-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2023w1]t1-22-ws.pdf"
+  },
+  "title": "Binomialkoeffizient",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-22-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1265a",
+          "baseId": "1_1265",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/798/1_1265_srdp_ma_Binomialkoeffizient_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „die Anzahl der zweielementigen Teilmengen einer zehnelementigen Menge“ und „die Anzahl der Möglichkeiten, zwei Personen aus einer Gruppe von zehn Personen auszuwählen“."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Anzahlen an, die mit dem Binomialkoeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "\\binom{10}{2}"
+        },
+        {
+          "t": "text",
+          "v": " übereinstimmen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "die Anzahl der zweielementigen Teilmengen einer zehnelementigen Menge"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Anzahl derjenigen Zahlen, die mit zwei Ziffern gebildet werden können"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Anzahl der Möglichkeiten, zwei Personen aus einer Gruppe von zehn Personen auszuwählen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Anzahl der möglichen Versuchsausgänge beim zehnmaligen Werfen einer Münze"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Anzahl der möglichen Versuchsausgänge beim Werfen zweier Würfel, die jeweils zehn mit den Ziffern 1 bis 10 beschriftete Seitenflächen haben"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1265",
+      "baseId": "1_1265",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/798/1_1265_srdp_ma_Binomialkoeffizient_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Binomialkoeffizient "
+    },
+    {
+      "t": "math",
+      "v": "\\binom{10}{2}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

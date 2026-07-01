@@ -1,0 +1,154 @@
+{
+  "id": "2022-wt-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2022w1]t1-3-fa.pdf"
+  },
+  "title": "Parameter einer quadratischen Gleichung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-3-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-3-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_880a",
+          "baseId": "1_880",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/707/Parameter_quadratischen_Gleichung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k_1 = 0"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "k_2 = 16"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die zwei unterschiedlichen Werte "
+        },
+        {
+          "t": "math",
+          "v": "k_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "k_2"
+        },
+        {
+          "t": "text",
+          "v": " von k, für die die gegebene Gleichung genau eine Lösung hat."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k1",
+            "label": "k_1",
+            "value": 0,
+            "tol": 1e-9
+          },
+          {
+            "id": "k2",
+            "label": "k_2",
+            "value": 16,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_880",
+      "baseId": "1_880",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/707/Parameter_quadratischen_Gleichung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "x^{2} + k \\cdot x + 4 \\cdot k = 0"
+    },
+    {
+      "t": "text",
+      "v": " mit dem Parameter "
+    },
+    {
+      "t": "math",
+      "v": "k \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

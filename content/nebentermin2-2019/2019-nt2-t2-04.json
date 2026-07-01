@@ -1,0 +1,362 @@
+{
+  "id": "2019-nt2-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2019n2]t2-4.pdf"
+  },
+  "title": "Wahlhochrechnung",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t2-04-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie viele Stimmen für Kandidat A im 5. Wahlbezirk zu erwarten sind, wenn man h als Schätzwert für den relativen Stimmenanteil für diesen Kandidaten in diesem Wahlbezirk verwendet!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "stimmen",
+            "value": 509,
+            "tol": 5,
+            "unit": "Stimmen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [500; 510]",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h=\\dfrac{1\\,648}{3\\,172}\\approx 0{,}52"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Für Kandidat A sind ca. 52 % von 978 Stimmen, also ca. 509 Stimmen, zu erwarten."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [500; 510]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-04-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im 4. Wahlbezirk weicht das Ergebnis für Kandidat A am stärksten von h ab.\nGeben Sie diese Abweichung in Prozentpunkten an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abweichung",
+            "value": 8.5,
+            "tol": 0.5,
+            "unit": "Prozentpunkte"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [8; 9]",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\text{relativer Stimmenanteil im 4. Wahlbezirk: } \\dfrac{343}{570}\\approx 0{,}6"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der relative Stimmenanteil weicht im 4. Wahlbezirk um ca. 8 Prozentpunkte von h ab."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [8; 9]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-04-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Tabelle zeigt das Ergebnis einer Vergleichswahl."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-04-tab2.png",
+          "alt": "Tabelle 2: Vergleichswahl. Kandidat A: 390, 416, 409, 383, 478, gesamt 2 076. Kandidat B: 385, 483, 519, 187, 500, gesamt 2 074. Wahlberechtigte: 775, 899, 928, 570, 978, gesamt 4 150 (1.–5. Wahlbezirk)."
+        },
+        {
+          "t": "text",
+          "v": "Die Variable x sei die Anzahl der Stimmen für Kandidat A bei der Vergleichswahl, die Variable y die Anzahl der Stimmen für Kandidat A bei der Bürgermeisterwahl. Damit erhält man für den Kandidaten A für die Ergebnisse aus dem 1., 2., 3. und 4. Wahlbezirk vier Punkte in einem kartesischen Koordinatensystem.\nDie Regressionsgerade "
+        },
+        {
+          "t": "math",
+          "v": "g: y=1{,}5462\\cdot x-205{,}71"
+        },
+        {
+          "t": "text",
+          "v": " verläuft nun durch diese „Punktwolke“ so, dass ein linearer Zusammenhang zwischen den beiden Variablen x und y gut beschrieben wird.\nBerechnen Sie mithilfe der Regressionsgeraden g die erwartete Anzahl an Stimmen bei der Bürgermeisterwahl für den Kandidaten A im 5. Wahlbezirk!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "stimmen5",
+            "value": 533,
+            "tol": 5,
+            "unit": "Stimmen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [530 Stimmen; 540 Stimmen]",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1{,}5462\\cdot 478-205{,}71\\approx 533"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei der Hochrechnung mithilfe der Regressionsgeraden g erhält Kandidat A im 5. Wahlbezirk ca. 533 Stimmen bei der Bürgermeisterwahl."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [530 Stimmen; 540 Stimmen]"
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-04-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Wert der Steigung der Regressionsgeraden g im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation: Der Wert der Steigung von g gibt an, dass Kandidat A pro zusätzlicher Stimme bei der Vergleichswahl ca. 1,55 Stimmen mehr bei der Bürgermeisterwahl erwarten kann."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Interpretation.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert der Steigung von g gibt an, dass Kandidat A pro zusätzlicher Stimme bei der Vergleichswahl ca. 1,55 Stimmen mehr bei der Bürgermeisterwahl erwarten kann."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-04-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer österreichweiten Wahl kann ein Kandidat C gewählt werden. Aus einer vorhergehenden Wahl ist bekannt, dass der Stimmenanteil h für Kandidat A bei der Bürgermeisterwahl in den Wahlbezirken 1 bis 4 repräsentativ für den Stimmenanteil für Kandidat C bei der österreichweiten Wahl ist.\nErmitteln Sie anhand des Stimmenanteils h ein symmetrisches 95-%-Konfidenzintervall für den unbekannten Stimmenanteil für Kandidat C!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "unten",
+            "label": "untere Grenze",
+            "value": 0.5015,
+            "tol": 0.0015
+          },
+          {
+            "id": "oben",
+            "label": "obere Grenze",
+            "value": 0.538,
+            "tol": 0.002
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für ein richtiges Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,500; 0,503]. Toleranzintervall für den oberen Wert: [0,536; 0,540]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}52 \\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}52\\cdot 0{,}48}{3\\,172}}\\approx 0{,}52 \\pm 0{,}017"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}503;\\ 0{,}537]"
+            }
+          ],
+          "note": "Ein Punkt für ein richtiges Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,500; 0,503]. Toleranzintervall für den oberen Wert: [0,536; 0,540]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-04-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nach Auszählung aller Stimmen bei der österreichweiten Wahl hat der Kandidat C 61 % der Stimmen erhalten. Damit liegt dieser Stimmenanteil außerhalb des davor ermittelten symmetrischen 95-%-Konfidenzintervalls.\nHätte man als Konfidenzniveau 90 % gewählt, so hätte man ein Konfidenzintervall mit einer anderen Breite erhalten.\nGeben Sie an, ob der tatsächliche Stimmenanteil für Kandidat C in diesem Konfidenzintervall enthalten wäre, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nein. Ein symmetrisches 90-%-Konfidenzintervall hat bei gleicher Stichprobengröße sowie gleichem Stichprobenanteil und der Verwendung derselben Berechnungsmethode eine geringere Breite als das symmetrische 95-%-Konfidenzintervall, daher wäre das Ergebnis auch nicht im symmetrischen 90-%-Konfidenzintervall enthalten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Entscheidung und eine (sinngemäß) korrekte Begründung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ein symmetrisches 90-%-Konfidenzintervall hat bei gleicher Stichprobengröße sowie gleichem Stichprobenanteil und der Verwendung derselben Berechnungsmethode eine geringere Breite als das symmetrische 95-%-Konfidenzintervall, daher wäre das Ergebnis auch nicht im symmetrischen 90-%-Konfidenzintervall enthalten."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Entscheidung und eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es gibt unterschiedliche mathematische Methoden, um auf das Wahlverhalten von Wählerinnen und Wählern bei bevorstehenden Wahlen zu schließen. Eine gängige Methode ist die Erhebung und Auswertung der Daten einer Stichprobe. In einem anderen Verfahren werden sogenannte Regressionsgeraden ermittelt, mit deren Hilfe eine relativ genaue Hochrechnung möglich ist. Zur Bestimmung dieser Regressionsgeraden benötigt man die Ergebnisse einer sogenannten Vergleichswahl, die idealerweise zeitnah erfolgte.\nDie 4 150 Wahlberechtigten eines bestimmten Ortes mit fünf Wahlbezirken konnten sich bei einer Bürgermeisterwahl zwischen den Kandidaten A und B entscheiden. Alle Wahlberechtigten gaben ihre Stimme ab und es gab keine ungültigen Stimmen. Nach der Auszählung der Stimmen von vier der fünf Wahlbezirke liegt folgendes Zwischenergebnis vor:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-04-tab1.png",
+      "alt": "Tabelle 1: Bürgermeisterwahl. Kandidat A: 443, 400, 462, 343, nicht gezählt. Kandidat B: 332, 499, 466, 227, nicht gezählt. Wahlberechtigte: 775, 899, 928, 570, 978 (1.–5. Wahlbezirk)."
+    },
+    {
+      "t": "text",
+      "v": "Der relative Stimmenanteil für Kandidat A für die ersten vier Wahlbezirke bei dieser Bürgermeisterwahl wird mit h bezeichnet."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "2021-het-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2021h2]t1-10-fa.pdf"
+  },
+  "title": "Zwei quadratische Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-10-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_863a",
+          "baseId": "1_863",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/672/Zwei_quadratische_Funktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "(1)\\ a<c"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "(2)\\ b>d"
+            }
+          ],
+          "note": "Ein Punkt für das Einsetzen der beiden richtigen Ungleichheitszeichen, ein halber Punkt für nur ein richtiges Ungleichheitszeichen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte Querschnittsfläche wird von den Graphen der quadratischen Funktionen f₁ und f₂ sowie den Geraden x = –4 und x = 4 begrenzt.\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f_1\\colon[-4;4]\\to\\mathbb{R},\\ x\\mapsto a\\cdot x^{2}+b\\ \\text{mit}\\ a,b\\in\\mathbb{R}"
+        },
+        {
+          "t": "math",
+          "v": "f_2\\colon[-4;4]\\to\\mathbb{R},\\ x\\mapsto c\\cdot x^{2}+d\\ \\text{mit}\\ c,d\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "Der Sachverhalt wird durch die nachstehende Abbildung veranschaulicht."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-10-q.png",
+          "alt": "Graphen der quadratischen Funktionen f₁ (nach oben geöffnet, Scheitel oben) und f₂ (nach unten geöffnet, Scheitel unten) im Intervall [-4;4]."
+        },
+        {
+          "t": "text",
+          "v": "Ergänzen Sie „<“, „=“ oder „>“ in (1) und (2) jeweils so, dass eine richtige Aussage entsteht.\n\n(1) a ⃞ c\n\n(2) b ⃞ d"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "(1)\\ a\\ \\square\\ c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(2)\\ b\\ \\square\\ d"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "<"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "="
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": ">"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_863",
+      "baseId": "1_863",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/672/Zwei_quadratische_Funktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "2021-het-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2021h2]t1-17-an.pdf"
+  },
+  "title": "Benzinverbrauch bei der Fahrt auf einer Landstraße",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-17-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_870a",
+          "baseId": "1_870",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/679/Benzinverbrauch_Landstra%C3%9Fe.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck V gibt den durchschnittlichen Benzinverbrauch (in L/km) während der (10 km langen) Fahrt auf dieser Landstraße an."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Maria fährt mit ihrem Auto auf einer Landstraße eine Strecke von 10 km.\nDie Funktion b gibt den momentanen Benzinverbrauch b(s) (in L/km) in Abhängigkeit von der zurückgelegten Strecke s (in km) seit Beginn der Fahrt an (siehe nachstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-17-q.png",
+          "alt": "Graph der Funktion b (momentaner Benzinverbrauch b(s) in L/km über s in km, 0 bis 10)."
+        },
+        {
+          "t": "text",
+          "v": "Der Ausdruck V hat die Einheit L/km und wird mithilfe der nachstehenden Formel berechnet."
+        },
+        {
+          "t": "math",
+          "v": "V=\\tfrac{1}{10}\\cdot\\int_{0}^{10} b(s)\\,ds"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie V im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck V gibt den durchschnittlichen Benzinverbrauch (in L/km) während der (10 km langen) Fahrt auf dieser Landstraße an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_870",
+      "baseId": "1_870",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/679/Benzinverbrauch_Landstra%C3%9Fe.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

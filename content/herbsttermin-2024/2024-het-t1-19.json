@@ -1,0 +1,122 @@
+{
+  "id": "2024-het-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2024h2]t1-19-ws.pdf"
+  },
+  "title": "Mailadressen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1382a",
+          "baseId": "1_1382",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/938/1_1382_srdp_ma_Mailadressen_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p = 0{,}43\\ (= 43\\,\\%)"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "q = 0{,}59\\ (= 59\\,\\%)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von p und q, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie p und q."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.43,
+            "tol": 0.005
+          },
+          {
+            "id": "q",
+            "label": "q",
+            "value": 0.59,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1382",
+      "baseId": "1_1382",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/938/1_1382_srdp_ma_Mailadressen_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer Umfrage wurden Jugendliche und Erwachsene dazu befragt, wie viele Mailadressen sie verwenden. Die Antworten sind in der nachstehenden Tabelle zusammengefasst.\n\n | höchstens 2 Mailadressen | mehr als 2 Mailadressen\nJugendliche | 205 | 295\nErwachsene | 935 | 565\n\nDer relative Anteil aller befragten Personen (Jugendliche und Erwachsene), die mehr als 2 Mailadressen verwenden, wird mit p bezeichnet.\n\nDer relative Anteil der befragten Jugendlichen, die mehr als 2 Mailadressen verwenden, wird mit q bezeichnet."
+    }
+  ]
+}

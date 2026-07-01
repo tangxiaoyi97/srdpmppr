@@ -1,0 +1,168 @@
+{
+  "id": "2020-nt1-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2020n1]t1-9-fa.pdf"
+  },
+  "title": "Potenzfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-09-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_790a",
+          "baseId": "1_790",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/574/Potenzfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f(2\\cdot x)=\\tfrac{a}{4\\cdot x^{2}}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f(-x)=f(x)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf die Funktion f auf jeden Fall zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f\\!\\left(\\tfrac{1}{a}\\right)=1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+1)=\\tfrac{a}{x^{2}-2\\cdot x+1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(2\\cdot x)=\\tfrac{a}{4\\cdot x^{2}}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(2\\cdot a)=\\tfrac{1}{2\\cdot a}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(-x)=f(x)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_790",
+      "baseId": "1_790",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/574/Potenzfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Potenzfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon\\mathbb{R}\\setminus\\{0\\}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\tfrac{a}{x^{2}}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

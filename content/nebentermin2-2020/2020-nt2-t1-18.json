@@ -1,0 +1,149 @@
+{
+  "id": "2020-nt2-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2020n2]t1-18-an.pdf"
+  },
+  "title": "Bestimmte Integrale",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-18-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_751a",
+          "baseId": "1_751",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/527/Bestimmte%20Integrale.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{4} f(x)\\,dx=1{,}7"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{2}^{4} f(x)\\,dx=3{,}2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Gleichungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Gleichungen an, die wahre Aussagen sind."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-1}^{2} f(x)\\,dx=1{,}9"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{4} f(x)\\,dx=1{,}7"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-1}^{4} f(x)\\,dx=5{,}1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{2} f(x)\\,dx=1{,}5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{2}^{4} f(x)\\,dx=3{,}2"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_751",
+      "baseId": "1_751",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/527/Bestimmte%20Integrale.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph einer Polynomfunktion f mit den Nullstellen x₁ = –1, x₂ = 0, x₃ = 2 und x₄ = 4 dargestellt.\nFür die mit A₁, A₂ und A₃ gekennzeichneten Flächeninhalte gilt:\nA₁ = 0,4, A₂ = 1,5 und A₃ = 3,2."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-18-q.png",
+      "alt": "Graph einer Polynomfunktion f mit Nullstellen bei –1, 0, 2, 4; Fläche A₁ über [–1; 0] oberhalb der x-Achse, A₂ über [0; 2] unterhalb, A₃ über [2; 4] oberhalb."
+    }
+  ]
+}

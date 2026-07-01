@@ -1,0 +1,410 @@
+{
+  "id": "2021-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2021h1]t2-4.pdf"
+  },
+  "title": "Würfelspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_104a",
+          "baseId": "2_104",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/650/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Spieler würfelt 1-mal gleichzeitig mit einem Würfel vom Typ B und einem Würfel vom Typ C.\n\nBerechnen Sie die Wahrscheinlichkeit, dass die Summe der gewürfelten Augenzahlen 8 beträgt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.2777777777777778,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Kombinationen der Augenzahlen: „2 und 6“ oder „3 und 5“ oder „4 und 4“"
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{6}\\cdot\\tfrac{1}{3}+\\tfrac{1}{3}\\cdot\\tfrac{1}{3}+\\tfrac{1}{3}\\cdot\\tfrac{1}{3}=\\tfrac{5}{18}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tfrac{5}{18}=0{,}27\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_104b",
+          "baseId": "2_104",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/650/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X_A"
+        },
+        {
+          "t": "text",
+          "v": " bzw. "
+        },
+        {
+          "t": "math",
+          "v": "X_B"
+        },
+        {
+          "t": "text",
+          "v": " bzw. "
+        },
+        {
+          "t": "math",
+          "v": "X_C"
+        },
+        {
+          "t": "text",
+          "v": " gibt die Augenzahl beim Wurf eines Würfels vom Typ A bzw. B bzw. C an. Eine dieser drei Zufallsvariablen hat einen ganzzahligen Erwartungswert.\n\nGeben Sie diesen ganzzahligen Erwartungswert an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "E",
+            "value": 5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X_C)=5"
+            }
+          ],
+          "note": "b1) Ein Punkt für das Angeben des richtigen Erwartungswerts."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_104b",
+          "baseId": "2_104",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/650/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die beiden anderen Zufallsvariablen haben die gleiche Standardabweichung.\n\nBerechnen Sie diese Standardabweichung."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "sigma",
+            "value": 1.067,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sigma(X_A)=\\sigma(X_B)=1{,}067\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Standardabweichung."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_104c",
+          "baseId": "2_104",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/650/Wuerfelspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mit einem Würfel vom Typ C wird "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": "-mal gewürfelt. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Y_n"
+        },
+        {
+          "t": "text",
+          "v": " gibt an, bei wie vielen von diesen "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " Würfen mit einem Würfel vom Typ C eine ungerade Augenzahl auftritt ("
+        },
+        {
+          "t": "math",
+          "v": "n\\in\\mathbb{N}"
+        },
+        {
+          "t": "text",
+          "v": "). Mit "
+        },
+        {
+          "t": "math",
+          "v": "\\mu_n"
+        },
+        {
+          "t": "text",
+          "v": " wird der Erwartungswert und mit "
+        },
+        {
+          "t": "math",
+          "v": "\\sigma_n"
+        },
+        {
+          "t": "text",
+          "v": " die Standardabweichung von "
+        },
+        {
+          "t": "math",
+          "v": "Y_n"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\mu_n"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\sigma_n"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\mu_n=n\\cdot\\tfrac{1}{3}"
+          },
+          {
+            "t": "text",
+            "v": "  und  "
+          },
+          {
+            "t": "math",
+            "v": "\\sigma_n=\\sqrt{n\\cdot\\tfrac{1}{3}\\cdot\\tfrac{2}{3}}"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\mu_n=n\\cdot\\tfrac{1}{3}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma_n=\\sqrt{n\\cdot\\tfrac{1}{3}\\cdot\\tfrac{2}{3}}"
+            }
+          ],
+          "note": "c1) Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_104",
+      "baseId": "2_104",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/650/Wuerfelspiel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Würfelspiel werden verschiedene Würfel mit jeweils 6 Seitenflächen verwendet. Bei allen verwendeten Würfeln tritt bei jedem Wurf jede Seitenfläche mit der gleichen Wahrscheinlichkeit wie jede der anderen Seitenflächen auf. Die Ergebnisse verschiedener Würfe sind voneinander unabhängig.\n\nEs werden die 3 Würfeltypen A, B und C verwendet. In der nachstehenden Abbildung sind deren Seitenflächen dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-04-q.png",
+      "alt": "Abbildung der Seitenflächen der drei Würfeltypen A, B und C (je 6 Seitenflächen mit Augenzahlen)."
+    }
+  ]
+}

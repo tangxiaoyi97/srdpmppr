@@ -1,0 +1,126 @@
+{
+  "id": "2023-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2023h1]t1-8-fa.pdf"
+  },
+  "title": "Länge einer Kerze",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-08-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1275a",
+          "baseId": "1_1275",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/814/1_1275_srdp_ma_L%C3%A4nge%20einer%20Kerze_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Steigung "
+            },
+            {
+              "t": "math",
+              "v": "k=\\dfrac{4-10}{120-0}=-\\dfrac{1}{20}"
+            },
+            {
+              "t": "text",
+              "v": ", Anfangswert 10."
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "L(t)=10-\\dfrac{1}{20}\\cdot t"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von L."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von L auf."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "10 - 1/20*t",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1275",
+      "baseId": "1_1275",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/814/1_1275_srdp_ma_L%C3%A4nge%20einer%20Kerze_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine zylinderförmige Kerze hat zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " eine Länge von 10 cm. Nach einer Brenndauer von 120 min hat die Kerze eine Länge von 4 cm.\n\nDie lineare Funktion L beschreibt modellhaft die Länge der Kerze in Abhängigkeit von der Brenndauer t mit "
+    },
+    {
+      "t": "math",
+      "v": "0\\le t\\le 200"
+    },
+    {
+      "t": "text",
+      "v": " (t in min, L(t) in cm)."
+    }
+  ]
+}

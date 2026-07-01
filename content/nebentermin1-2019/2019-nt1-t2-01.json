@@ -1,0 +1,668 @@
+{
+  "id": "2019-nt1-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2019n1]t2-1.pdf"
+  },
+  "title": "Bremsvorgang",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051a",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung der Fahrgeschwindigkeit v₀ in Abhängigkeit vom Bremsweg s_B und von der Bremsverzögerung b auf."
+        },
+        {
+          "t": "math",
+          "v": "v_0="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\sqrt{2\\cdot b\\cdot s_B}",
+        "vars": [
+          "b",
+          "s_B"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_0=\\sqrt{2\\cdot b\\cdot s_B}"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für eine richtige Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051a",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Reaktionsweg s_R ist direkt proportional zur Fahrgeschwindigkeit v₀."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Bremsweg s_B ist direkt proportional zur Fahrgeschwindigkeit v₀."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Bremsweg s_B ist indirekt proportional zur Bremsverzögerung b."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Anhalteweg s_A ist direkt proportional zur Fahrgeschwindigkeit v₀."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Anhalteweg s_A ist direkt proportional zur Reaktionszeit t_R."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Der Reaktionsweg s_R ist direkt proportional zur Fahrgeschwindigkeit v₀.“ und „Der Bremsweg s_B ist indirekt proportional zur Bremsverzögerung b.“"
+            }
+          ],
+          "note": "a2) Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051b",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die oft in Fahrschulen verwendeten Formeln für die näherungsweise Berechnung des Reaktions- und des Bremswegs (jeweils in m) lauten:"
+        },
+        {
+          "t": "math",
+          "v": "s_R=\\dfrac{v_0}{10}\\cdot 3\\quad\\text{und}\\quad s_B=\\left(\\dfrac{v_0}{10}\\right)^{2}\\ \\text{mit }v_0\\text{ in km/h und }s_R\\text{ bzw. }s_B\\text{ in m}"
+        },
+        {
+          "t": "text",
+          "v": "Zeigen Sie anhand geeigneter Umformungen, dass die für die näherungsweise Berechnung des Reaktionswegs verwendete Formel für eine Reaktionszeit von etwa einer Sekunde annähernd die gleichen Ergebnisse wie die Formel für s_R aus der Einleitung liefert."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Umformungen: Aus "
+          },
+          {
+            "t": "math",
+            "v": "s_R=v_0\\cdot t_R"
+          },
+          {
+            "t": "text",
+            "v": " folgt für t_R = 1 s und v₀ in m/s: "
+          },
+          {
+            "t": "math",
+            "v": "s_R=v_0"
+          },
+          {
+            "t": "text",
+            "v": ". Für v₀ in km/h gilt: "
+          },
+          {
+            "t": "math",
+            "v": "s_R=\\dfrac{v_0}{3{,}6}=v_0\\cdot 0{,}278\\ldots\\approx v_0\\cdot 0{,}3=\\dfrac{v_0}{10}\\cdot 3"
+          },
+          {
+            "t": "text",
+            "v": ". Daher liefern diese beiden Formeln annähernd die gleichen Ergebnisse."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die Angabe geeigneter Umformungen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s_R=\\dfrac{v_0}{3{,}6}=v_0\\cdot 0{,}278\\ldots\\approx v_0\\cdot 0{,}3=\\dfrac{v_0}{10}\\cdot 3"
+            }
+          ],
+          "note": "b1) Ein Punkt für die Angabe geeigneter Umformungen."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051b",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, welcher Wert für die Bremsverzögerung bei der Näherungsformel für den Bremsweg angenommen wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": 3.9,
+            "tol": 0.1,
+            "unit": "m/s²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "s_B=\\dfrac{v_0^{2}}{2\\cdot b}\\ \\text{mit }v_0\\text{ in m/s}\\ \\Rightarrow\\ s_B=\\dfrac{v_0^{2}}{2\\cdot b}\\cdot\\dfrac{1}{3{,}6^{2}}=\\dfrac{v_0^{2}}{25{,}92\\cdot b}\\ \\text{mit }v_0\\text{ in km/h}"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{v_0^{2}}{25{,}92\\cdot b}=\\dfrac{v_0^{2}}{100}\\ \\Rightarrow\\ b\\approx 3{,}9\\ \\text{m/s}^2"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei der Näherungsformel wird eine Bremsverzögerung von ca. 3,9 m/s² angenommen."
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s²“ nicht angeführt sein muss. Toleranzintervall: [3,8 m/s²; 4 m/s²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051c",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es kann eine Bremsverzögerung b von 8 m/s² bei trockener Fahrbahn, von 6 m/s² bei nasser Fahrbahn und von höchstens 4 m/s² bei Schneefahrbahn angenommen werden."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie denjenigen Bruchteil an, um den bei gleicher Fahrgeschwindigkeit der Bremsweg bei nasser Fahrbahn länger als bei trockener Fahrbahn ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "frac",
+            "value": 0.3333333333333333,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{\\frac{v_0^{2}}{2\\cdot 6}}{\\frac{v_0^{2}}{2\\cdot 8}}=\\dfrac{8}{6}=\\dfrac{4}{3}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei nasser Fahrbahn ist der Bremsweg um "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{3}"
+            },
+            {
+              "t": "text",
+              "v": " länger als der Bremsweg bei trockener Fahrbahn."
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051c",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Fahrzeug fährt mit einer Geschwindigkeit von v₀ = 20 m/s. Der Anhalteweg ist bei Schneefahrbahn länger als bei trockener Fahrbahn."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie unter der Annahme t_R = 1 s für diese beiden Fahrbahnzustände den Mindestwert für die absolute Zunahme des Anhaltewegs."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dsA",
+            "value": 25,
+            "tol": 1e-9,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\text{trocken: } s_A=20\\cdot 1+\\dfrac{20^{2}}{2\\cdot 8}=45\\ \\text{m}"
+            },
+            {
+              "t": "math",
+              "v": "\\text{Schnee (Mindestwert): } s_A=20\\cdot 1+\\dfrac{20^{2}}{2\\cdot 4}=70\\ \\text{m}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Anhalteweg nimmt (bei v₀ = 20 m/s und t_R = 1 s) bei Schneefahrbahn um mindestens 25 m zu."
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051d",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Wirksamwerden der Bremsen eines Fahrzeugs beginnt zum Zeitpunkt t = 0. Die Geschwindigkeit v(t) des Fahrzeugs kann für das Zeitintervall [0; 3] durch die Funktion v modelliert werden, die Beschleunigung a(t) durch die Funktion a und der in diesem Zeitintervall zurückgelegte Weg s(t) durch die Funktion s (v(t) in m/s, a(t) in m/s², s(t) in m, t in s)."
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Bedeutung des bestimmten Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{3}v(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das bestimmte Integral "
+          },
+          {
+            "t": "math",
+            "v": "\\int_{0}^{3}v(t)\\,dt"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt den zurückgelegten Weg (in Metern) im Zeitintervall [0; 3]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine (sinngemäß) richtige Interpretation.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das bestimmte Integral beschreibt den zurückgelegten Weg (in Metern) im Zeitintervall [0; 3]."
+            }
+          ],
+          "note": "d1) Ein Punkt für eine (sinngemäß) richtige Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-01-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_051d",
+          "baseId": "2_051",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jede der sechs nachstehenden Abbildungen zeigt – jeweils im Zeitintervall [0; 3] – den Graphen einer Beschleunigungsfunktion a, den Graphen einer Geschwindigkeitsfunktion v und den Graphen einer Wegfunktion s."
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Abbildung an, die drei zusammengehörige Graphen eines drei Sekunden dauernden Bremsvorgangs zeigt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t2-01-d2-q.png",
+          "alt": "Sechs Abbildungen (A bis F, jeweils im Zeitintervall [0; 3]) mit je einem Graphen einer Wegfunktion s, einer Geschwindigkeitsfunktion v und einer Beschleunigungsfunktion a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Anzukreuzen ist diejenige Abbildung, in der – passend zu einem 3 Sekunden dauernden Bremsvorgang – die Wegfunktion s monoton steigend ist und immer flacher wird, die Geschwindigkeitsfunktion v von einem positiven Anfangswert auf 0 fällt und die Beschleunigungsfunktion a negativ (bzw. konstant) verläuft (laut Lösung die rechte untere Abbildung)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Abbildung angekreuzt ist.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Anzukreuzen ist die laut Lösungserwartung richtige Abbildung (s steigend und immer flacher, v fällt auf 0, a verläuft negativ)."
+            }
+          ],
+          "note": "d2) Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Abbildung angekreuzt ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_051",
+      "baseId": "2_051",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/473/Bremsvorgang.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Bremsweg s_B ist die Länge derjenigen Strecke, die ein Fahrzeug ab dem Wirksamwerden der Bremsen bis zum Stillstand zurücklegt. Entscheidend für den Bremsweg sind die Fahrgeschwindigkeit v₀ des Fahrzeugs zu Beginn des Bremsvorgangs und die Bremsverzögerung b. Der Bremsweg s_B kann mit der Formel "
+    },
+    {
+      "t": "math",
+      "v": "s_B=\\dfrac{v_0^{2}}{2\\cdot b}"
+    },
+    {
+      "t": "text",
+      "v": " berechnet werden (v₀ in m/s, b in m/s², s_B in m).\n\nDer Anhalteweg s_A berücksichtigt zusätzlich zum Bremsweg den während der Reaktionszeit t_R zurückgelegten Weg. Dieser sogenannte Reaktionsweg s_R kann mit der Formel "
+    },
+    {
+      "t": "math",
+      "v": "s_R=v_0\\cdot t_R"
+    },
+    {
+      "t": "text",
+      "v": " berechnet werden (v₀ in m/s, t_R in s, s_R in m).\n\nDer Anhalteweg s_A ist gleich der Summe aus Reaktionsweg s_R und Bremsweg s_B."
+    }
+  ]
+}

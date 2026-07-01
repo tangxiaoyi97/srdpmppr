@@ -1,0 +1,170 @@
+{
+  "id": "2023-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2023h1]t1-5-ag.pdf"
+  },
+  "title": "Geradengleichungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1272a",
+          "baseId": "1_1272",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/811/1_1272_srdp_ma_Geradengleichungen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Richtungsvektoren parallel: "
+            },
+            {
+              "t": "math",
+              "v": "\\binom{a}{2}\\parallel\\binom{1}{1}\\Rightarrow a=2"
+            },
+            {
+              "t": "text",
+              "v": "; Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(2\\,|\\,b)"
+            },
+            {
+              "t": "text",
+              "v": " auf g: "
+            },
+            {
+              "t": "math",
+              "v": "(1+t\\,|\\,t)=(2\\,|\\,b)\\Rightarrow t=1,\\ b=1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=2,\\ b=1"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von a und b, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die reellen Zahlen a und b."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 2
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1272",
+      "baseId": "1_1272",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/811/1_1272_srdp_ma_Geradengleichungen_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Geraden g und h mit den Gleichungen "
+    },
+    {
+      "t": "math",
+      "v": "g\\colon X=\\binom{1}{0}+t\\cdot\\binom{1}{1}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h\\colon X=\\binom{2}{b}+s\\cdot\\binom{a}{2}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "s\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ".\nDie Geraden g und h sind identisch."
+    }
+  ]
+}

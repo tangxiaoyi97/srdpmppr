@@ -1,0 +1,355 @@
+{
+  "id": "2022-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2022h1]t2-2.pdf"
+  },
+  "title": "Biathlon",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_114a",
+          "baseId": "2_114",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/745/Biathlon.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lisa absolviert die drei Runden mit folgenden durchschnittlichen Geschwindigkeiten (v₁, v₂, v₃ in m/s):\n- v₁ für die erste Runde\n- v₂ für die zweite Runde\n- v₃ für die dritte Runde\n\nFür das Schießen benötigt Lisa jeweils die Zeitdauer t* (t* in s).\nNach der ersten absolvierten Runde macht sie beim Schießen keinen Fehler.\nNach der zweiten absolvierten Runde macht sie beim Schießen genau 2 Fehler.\nDie 2 Strafrunden absolviert sie mit einer durchschnittlichen Geschwindigkeit von vS (vS in m/s).\n\nUnter der Laufzeit b (b in s) versteht man diejenige Zeit, die Lisa insgesamt für die absolvierten Runden inklusive Strafrunden und für das Schießen benötigt.\n\nStellen Sie mithilfe von v₁, v₂, v₃, t* und vS eine Formel zur Berechnung von b auf."
+        },
+        {
+          "t": "math",
+          "v": "b="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2500/v1 + 2500/v2 + 2500/v3 + 2*ts + 300/vs",
+        "vars": [
+          "v1",
+          "v2",
+          "v3",
+          "ts",
+          "vs"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=\\dfrac{2\\,500}{v_1}+\\dfrac{2\\,500}{v_2}+\\dfrac{2\\,500}{v_3}+2\\cdot t^{*}+\\dfrac{300}{v_S}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_114b",
+          "baseId": "2_114",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/745/Biathlon.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Geschwindigkeit von Hanna in der ersten Runde kann modellhaft durch die Funktion v: [0; 440] → ℝ, t ↦ v(t) beschrieben werden (t in s, v(t) in m/s)."
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{1}{T}\\cdot\\int_{0}^{T} v(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " mit T ∈ (0 s; 440 s] im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt die durchschnittliche Geschwindigkeit im Zeitintervall [0; T]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die durchschnittliche Geschwindigkeit im Zeitintervall [0; T]."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_114b",
+          "baseId": "2_114",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/745/Biathlon.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es gibt genau zwei Zeitpunkte t₁, t₂ ∈ (0 s; 440 s) mit t₁ < t₂, für die gilt:"
+        },
+        {
+          "t": "math",
+          "v": "v'(t_1)=0\\ \\text{und}\\ v''(t_1)<0"
+        },
+        {
+          "t": "math",
+          "v": "v'(t_2)=0\\ \\text{und}\\ v''(t_2)<0"
+        },
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Zeitpunkte t₁ und t₂ sind ① der Funktion v und der Wert von "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{v(t_2)-v(t_1)}{t_2-t_1}"
+        },
+        {
+          "t": "text",
+          "v": " entspricht dabei der ② im Zeitintervall [t₁; t₂]."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "lokale Minimumstellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "lokale Maximumstellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wendestellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "durchschnittlichen Geschwindigkeit"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Länge der zurückgelegten Strecke"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "durchschnittlichen Beschleunigung"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① lokale Maximumstellen;  ② durchschnittlichen Beschleunigung"
+            }
+          ],
+          "note": "b2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-02-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable X gibt die Anzahl der Treffer von Daria beim Schießen an und wird als binomialverteilt angenommen. Bei jedem der 5 Schüsse ist p die Trefferwahrscheinlichkeit.\n\nStellen Sie unter Verwendung von p eine Formel zur Berechnung der nachstehenden Wahrscheinlichkeit auf.\n\nP(X ≥ 4) ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "5*p^4*(1-p)+p^5",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\ge 4)=5\\cdot p^{4}\\cdot(1-p)+p^{5}"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_114",
+      "baseId": "2_114",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/745/Biathlon.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Biathlon ist eine Wintersportart, die Skilanglauf und Schießen kombiniert.\n\nBei einem bestimmten Wettbewerb müssen drei Runden zu je 2 500 m absolviert werden.\nDabei gilt:\n- Nach der ersten und nach der zweiten absolvierten Runde findet jeweils ein Schießen statt. Bei jedem Schießen werden fünf Schüsse abgegeben.\n- Für jeden Fehlschuss muss eine 150 m lange Strafrunde absolviert werden, wodurch es zu einem Zeitverlust kommt.\n\nQuelle: https://www.sport1.de/wintersport/biathlon/2018/11/biathlon-im-ueberblick-regeln-disziplinen-wissenswertes [15.04.2021]."
+    }
+  ]
+}

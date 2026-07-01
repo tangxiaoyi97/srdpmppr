@@ -1,0 +1,118 @@
+{
+  "id": "2025-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2025h1]t1-23-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilung einer Zufallsvariablen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-23-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1471a",
+          "baseId": "1_1471",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1041/1_1471_srdp_ma_Wahrscheinlichkeitsverteilung%20einer%20Zufallsvariablen_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Die Summe aller Wahrscheinlichkeiten ist 1: "
+            },
+            {
+              "t": "math",
+              "v": "P(X=2)=1-\\left(\\tfrac{1}{16}+\\tfrac{4}{16}+\\tfrac{4}{16}+\\tfrac{1}{16}\\right)=\\tfrac{6}{16}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=2)=\\dfrac{6}{16}"
+            }
+          ],
+          "note": "Ein Punkt für das Eintragen des richtigen Wertes."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Tragen Sie in der obigen Tabelle den fehlenden Wert ein."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p2",
+            "label": "P(X = 2)",
+            "value": 0.375,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1471",
+      "baseId": "1_1471",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1041/1_1471_srdp_ma_Wahrscheinlichkeitsverteilung%20einer%20Zufallsvariablen_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Tabelle ist die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X angegeben, die nur 0, 1, 2, 3 oder 4 als Wert annehmen kann."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-23-tab.png",
+      "alt": "Tabelle: k = 0,1,2,3,4; P(X = k) = 1/16, 4/16, (fehlt), 4/16, 1/16."
+    }
+  ]
+}

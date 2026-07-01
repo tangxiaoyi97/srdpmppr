@@ -1,0 +1,369 @@
+{
+  "id": "2022-het-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2022h2]t2-1.pdf"
+  },
+  "title": "Firmenlogos",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_117a",
+          "baseId": "2_117",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/774/Firmenlogos.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung ist ein Firmenlogo grau markiert dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-01-a.png",
+          "alt": "Koordinatensystem (f(x), g(x) in cm) mit einem grau markierten Firmenlogo; die untere Begrenzungslinie ist ein Teil des Graphen von f, die obere ein Teil des Graphen von g."
+        },
+        {
+          "t": "text",
+          "v": "Die untere Begrenzungslinie wird durch einen Teil des Graphen der Funktion f beschrieben:"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=\\tfrac{1}{8}\\cdot x^{2}-2"
+        },
+        {
+          "t": "text",
+          "v": "Die obere Begrenzungslinie wird durch einen Teil des Graphen der Funktion g beschrieben:"
+        },
+        {
+          "t": "math",
+          "v": "g(x)=a\\cdot(x^{3}-16\\cdot x)\\quad\\text{mit}\\ a\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "An der Stelle x = 4 haben f und g die gleiche Steigung.\n\nBerechnen Sie den Parameter a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.03125,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f'(x)=\\tfrac{x}{4}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f'(4)=1"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "g'(x)=a\\cdot(3\\cdot x^{2}-16)"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "g'(4)=32\\cdot a"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "32\\cdot a=1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\tfrac{1}{32}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von a."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_117a",
+          "baseId": "2_117",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/774/Firmenlogos.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Punkt (0 | 0) ist ein Wendepunkt des Graphen von g.\n\nBegründen Sie, warum der Graph der Funktion g keinen weiteren Wendepunkt haben kann."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Funktion g ist eine Polynomfunktion 3. Grades. Ihre zweite Ableitung g″ ist linear und hat daher nur 1 Nullstelle, also kann g nur 1 Wendepunkt haben."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion g ist eine Polynomfunktion 3. Grades. Oder: Die Funktion g″ ist linear und hat nur 1 Nullstelle. (Die Funktion g kann also nur 1 Wendepunkt haben.)"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Begründen."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.4",
+          "description": "den Zusammenhang zwischen dem Grad der Polynomfunktion und der Anzahl der Null-, Extrem- und Wendestellen wissen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_117b",
+          "baseId": "2_117",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/774/Firmenlogos.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Logo eines Autoherstellers hat die Form eines regelmäßigen Fünfecks (siehe nachstehende nicht maßstabgetreue Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-01-b.png",
+          "alt": "Nicht maßstabgetreue Abbildung eines regelmäßigen Fünfecks mit Seitenlänge s; vom Mittelpunkt aus zwei Radien r, die einen Mittelpunktswinkel von 72° einschließen."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie für r = 3 cm den Umfang u dieses regelmäßigen Fünfecks."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "u",
+            "label": "u",
+            "value": 17.63,
+            "tol": 0.05,
+            "unit": "cm"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "u=5\\cdot 2\\cdot 3\\cdot\\sin(36^\\circ)=17{,}63\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "u=17{,}6\\ \\text{cm}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen des Umfangs u."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_117c",
+          "baseId": "2_117",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/774/Firmenlogos.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im nachstehenden Koordinatensystem ist das Logo eines Fischrestaurants grau markiert dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-01-c.png",
+          "alt": "Koordinatensystem mit dem grau markierten Logo eines Fischrestaurants; die Begrenzungslinien sind Teile der Graphen von f und g, symmetrisch bezüglich des Graphen der konstanten Funktion h mit h(x) = b."
+        },
+        {
+          "t": "text",
+          "v": "Das Logo ist symmetrisch bezüglich des Graphen der konstanten Funktion h mit h(x) = b mit b ∈ ℝ⁺. Die Begrenzungslinien des Logos sind Teile der Graphen der Funktionen f und g (siehe obige Abbildung).\n\nFür die Funktion f gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^{2}\\quad\\text{mit}\\ a\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung von a und b eine Funktionsgleichung von g auf."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-a\\cdot x^{2}+2\\cdot b",
+        "vars": [
+          "a",
+          "b",
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g(x)=-a\\cdot x^{2}+2\\cdot b"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von g."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_117",
+      "baseId": "2_117",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/774/Firmenlogos.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Firmenlogos"
+    }
+  ]
+}

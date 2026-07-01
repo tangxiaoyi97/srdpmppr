@@ -1,0 +1,425 @@
+{
+  "id": "2024-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2024h1]t2-2.pdf"
+  },
+  "title": "Bungee-Jumping",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_138a",
+          "baseId": "2_138",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/917/2_138_srdp_ma_Bungee-Jumping_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Sabine unternimmt einen Bungeesprung. Dabei schwingt sie am Seil mehrmals auf und ab.\n\nIhre Höhe über dem Boden in Abhängigkeit von der Zeit t wird modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h\\!:\\mathbb{R}_0^{+}\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben."
+        },
+        {
+          "t": "math",
+          "v": "h(t)=a\\cdot e^{-0{,}03\\cdot t}\\cdot\\left(\\cos\\!\\left(\\tfrac{\\pi}{6}\\cdot t\\right)+1\\right)"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit nach dem Absprung in s\nh(t) ... Höhe über dem Boden zum Zeitpunkt t in m\na ... positiver Parameter\n\nZum Zeitpunkt t = 0 springt Sabine von der Absprungplattform in 90 m Höhe über dem Boden in die Tiefe.\n\nBerechnen Sie den Parameter a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 45,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h(0)=a\\cdot e^{-0{,}03\\cdot 0}\\cdot\\left(\\cos\\!\\left(\\tfrac{\\pi}{6}\\cdot 0\\right)+1\\right)=90"
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot a=90"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=45"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von a."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_138a",
+          "baseId": "2_138",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/917/2_138_srdp_ma_Bungee-Jumping_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die gesamte Zeitdauer, in der sich Sabine während des Bungeesprungs in einer Höhe von mehr als 70 m über dem Boden befindet, wird mit d bezeichnet.\n\nErmitteln Sie d in Sekunden."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d",
+            "label": "d",
+            "value": 4.289,
+            "tol": 0.05,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h(t)=70"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t_1=1{,}803\\ldots\\quad t_2=10{,}663\\ldots\\quad t_3=13{,}149\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "d=t_1+(t_3-t_2)=4{,}289\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "d=4{,}289\\ldots\\ \\text{s}"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln von d."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-02-a3",
+      "label": "a3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_138a",
+          "baseId": "2_138",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/917/2_138_srdp_ma_Bungee-Jumping_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nach Erreichen des tiefsten Punktes wird Sabine vom Seil wieder nach oben gezogen, bevor sie erneut fällt.\n\nBerechnen Sie, wie viele Meter Sabine dabei nach oben gezogen wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dh",
+            "label": "Höhendifferenz",
+            "value": 69.1,
+            "tol": 0.5,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h'(t)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "text",
+              "v": "lokales Minimum: "
+            },
+            {
+              "t": "math",
+              "v": "T_1=(5{,}890\\ldots\\mid 7{,}351\\ldots)"
+            },
+            {
+              "t": "text",
+              "v": "; lokales Maximum: "
+            },
+            {
+              "t": "math",
+              "v": "H_1=(11{,}890\\ldots\\mid 76{,}446\\ldots)"
+            },
+            {
+              "t": "math",
+              "v": "76{,}446\\ldots-7{,}351\\ldots=69{,}095\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Sabine wird rund 69,1 m nach oben gezogen, bevor sie erneut fällt."
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-02-a4",
+      "label": "a4",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_138a",
+          "baseId": "2_138",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/917/2_138_srdp_ma_Bungee-Jumping_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zum Zeitpunkt t₁ ist Sabines (vertikale) Fallgeschwindigkeit maximal.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Für den Zeitpunkt t₁ gilt ①; die Fallgeschwindigkeit kann mit ② berechnet werden."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "h''(t_1)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h''(t_1)<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h''(t_1)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h(t_1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lvert h'(t_1)\\rvert"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\displaystyle\\int_{0}^{t_1} h(t)\\,dt"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "h''(t_1)=0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "\\lvert h'(t_1)\\rvert"
+            }
+          ],
+          "note": "a4) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_138",
+      "baseId": "2_138",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/917/2_138_srdp_ma_Bungee-Jumping_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bungee-Jumping ist eine Extremsportart, bei der man von einer Absprungplattform in großer Höhe an einem elastischen Seil befestigt in die Tiefe springt."
+    }
+  ]
+}

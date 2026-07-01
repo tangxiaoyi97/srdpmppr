@@ -1,0 +1,189 @@
+{
+  "id": "2025-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2025h1]t1-13-an.pdf"
+  },
+  "title": "Regeln des Differenzierens",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-13-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1461a",
+          "baseId": "1_1461",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1031/1_1461_srdp_ma_Regeln%20des%20Differenzierens_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot b=c"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die auf jeden Fall zutreffende Gleichung an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "b=c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot b=c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot(b-1)=c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c-1=d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d-1=b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d-1=c"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1461",
+      "baseId": "1_1461",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1031/1_1461_srdp_ma_Regeln%20des%20Differenzierens_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Potenzfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{b}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,\\,b\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a>1"
+    },
+    {
+      "t": "text",
+      "v": " sowie "
+    },
+    {
+      "t": "math",
+      "v": "b>1"
+    },
+    {
+      "t": "text",
+      "v": ".\nFür "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f'(x)=c\\cdot x^{d}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "c,\\,d\\in\\mathbb{N}"
+    }
+  ]
+}

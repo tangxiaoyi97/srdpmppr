@@ -1,0 +1,108 @@
+{
+  "id": "2024-wt-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2024w1]t1-23-ws.pdf"
+  },
+  "title": "Elfmetertraining",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-23-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1338a",
+          "baseId": "1_1338",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/886/1_1338_srdp_ma_Elfmetertraining_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X>3)=1-(0{,}001+0{,}008+0{,}131+0{,}31)=0{,}55"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass Johanna bei 5 Versuchen mehr als 3 Tore erzielt."
+        },
+        {
+          "t": "math",
+          "v": "P(X>3)="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P(X>3)",
+            "value": 0.55,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1338",
+      "baseId": "1_1338",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/886/1_1338_srdp_ma_Elfmetertraining_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Johanna trainiert regelmäßig mit ihrer Fußballmannschaft Elfmeterschießen.\nSie hat 5 Versuche. Die Zufallsvariable X gibt die Anzahl der dabei erzielten Tore k an.\n\nIn der nachstehenden Tabelle ist die auf Erfahrungswerten basierende Wahrscheinlichkeitsverteilung von X dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-23-q.png",
+      "alt": "Tabelle Wahrscheinlichkeitsverteilung: k = 0,1,2,3,4,5; P(X=k) = 0,001; 0,008; 0,131; 0,310; 0,372; P(X=5)."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "2024-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2024h1]t1-23-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-23-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1362a",
+          "baseId": "1_1362",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/914/1_1362_srdp_ma_Wahrscheinlichkeitsverteilung_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend ist die Abbildung mit "
+            },
+            {
+              "t": "math",
+              "v": "P(X=0)=\\tfrac{25}{36},\\ P(X=1)=\\tfrac{10}{36},\\ P(X=2)=\\tfrac{1}{36}"
+            },
+            {
+              "t": "text",
+              "v": " (links oben)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Abbildung an, die die Wahrscheinlichkeitsverteilung von X richtig darstellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-q.png",
+          "alt": "Sechs Abbildungen mit Stabdiagrammen P(X = k) für k = 0, 1, 2 als mögliche Wahrscheinlichkeitsverteilungen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 1: Stäbe bei k = 0, 1, 2 mit P(0) ≈ 0,69, P(1) ≈ 0,28, P(2) ≈ 0,03 (streng fallend)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 3"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 4"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 5"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 6"
+            }
+          ]
+        ],
+        "correct": [
+          0
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1362",
+      "baseId": "1_1362",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/914/1_1362_srdp_ma_Wahrscheinlichkeitsverteilung_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein fairer 6-seitiger Würfel mit den Augenzahlen 1, 2, 3, 4, 5 und 6 wird 2-mal geworfen.\nDie Zufallsvariable X gibt an, wie oft bei diesen 2 Würfen die Augenzahl 6 auftritt."
+    }
+  ]
+}

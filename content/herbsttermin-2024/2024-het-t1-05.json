@@ -1,0 +1,129 @@
+{
+  "id": "2024-het-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2024h2]t1-5-ag.pdf"
+  },
+  "title": "Wegbeschreibung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-5-ag.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-05-q.png",
+      "alt": "Koordinatensystem (x von -5 bis 9, y von -2 bis 6): Der Weg AB ist als Pfeil von A ≈ (1 | 2) zu B ≈ (4 | 5) dargestellt."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2024-het-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.5",
+          "description": "Normalvektoren in R² aufstellen, verständig einsetzen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1368a",
+          "baseId": "1_1368",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/924/1_1368_srdp_ma_Wegbeschreibung_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec{a}=\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Vektors. (Alle positiven Vielfachen des Vektors a sind als richtig zu werten.)"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{a}"
+        },
+        {
+          "t": "text",
+          "v": " an, der die Richtung des Weges BC beschreibt."
+        },
+        {
+          "t": "math",
+          "v": "\\vec{a}="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Angeben eines Richtungsvektors des Weges BC, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{a}=\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ". Alle positiven Vielfachen dieses Vektors sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben des richtigen Vektors.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1368",
+      "baseId": "1_1368",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/924/1_1368_srdp_ma_Wegbeschreibung_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Weg geht von einem Punkt A über einen Punkt B zu einem Punkt C. Im Punkt B zweigt der Weg im rechten Winkel nach rechts ab. Zwischen den Punkten B und C verläuft der Weg geradlinig.\n\nDer Weg AB ist im nachstehenden Koordinatensystem modellhaft dargestellt."
+    }
+  ]
+}

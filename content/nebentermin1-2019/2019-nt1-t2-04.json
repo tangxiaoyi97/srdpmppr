@@ -1,0 +1,264 @@
+{
+  "id": "2019-nt1-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2019n1]t2-4.pdf"
+  },
+  "title": "Kino",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es sei X eine binomialverteilte Zufallsvariable mit den Parametern n = 355 und p = 0,95."
+        },
+        {
+          "t": "text",
+          "v": "Beschreiben Sie die Bedeutung des Terms "
+        },
+        {
+          "t": "math",
+          "v": "1-P(X<350)"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Term beschreibt die Wahrscheinlichkeit, dass bei einer Vorstellung eines neuen Films (in allen drei Sälen zusammen) mindestens 350 Sitzplätze belegt sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Beschreibung des Terms im gegebenen Kontext.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Term beschreibt die Wahrscheinlichkeit, dass bei einer Vorstellung eines neuen Films (in allen drei Sälen zusammen) mindestens 350 Sitzplätze belegt sind."
+            }
+          ],
+          "note": "a1) Ein Punkt für eine korrekte Beschreibung des Terms im gegebenen Kontext."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-04-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zum Schulschluss mietet eine Schule alle drei Säle für denselben Film zur selben Beginnzeit. Alle Sitzplätze werden vergeben, jede Besucherin / jeder Besucher bekommt ein Ticket für einen bestimmten Sitzplatz in einem der drei Säle. Alle Tickets haben zusätzlich zur Platznummer noch eine fortlaufende, jeweils unterschiedliche Losnummer. Unmittelbar vor der Vorstellung werden zwei Losnummern ausgelost. Die beiden Personen, die die entsprechenden Tickets besitzen, erhalten jeweils eine große Portion Popcorn."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie die Wahrscheinlichkeit an, dass diese beiden Personen Tickets für denselben Saal haben."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.3858,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Anzahl der Sitzplätze insgesamt: 355\n"
+            },
+            {
+              "t": "math",
+              "v": "P=\\dfrac{185}{355}\\cdot\\dfrac{184}{354}+\\dfrac{94}{355}\\cdot\\dfrac{93}{354}+\\dfrac{76}{355}\\cdot\\dfrac{75}{354}\\approx 0{,}3858=38{,}58\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P\\approx 0{,}3858=38{,}58\\,\\%"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Betreiber des Kinos möchte wissen, wie zufrieden seine Kundschaft mit dem gebotenen Service (Buffet, Sauberkeit etc.) ist. Bei einer Umfrage geben von 628 Besucherinnen und Besuchern 515 Besucher/innen an, dass sie mit dem gebotenen Service im Kino insgesamt zufrieden sind."
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie auf Basis dieser Befragung ein symmetrisches 95-%-Konfidenzintervall für den relativen Anteil aller Besucher/innen dieses Kinos, die mit dem gebotenen Service insgesamt zufrieden sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "lower",
+            "label": "untere Grenze",
+            "value": 0.79,
+            "tol": 0.02
+          },
+          {
+            "id": "upper",
+            "label": "obere Grenze",
+            "value": 0.85,
+            "tol": 0.015
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "n=628,\\quad h=\\dfrac{515}{628}\\approx 0{,}82"
+            },
+            {
+              "t": "math",
+              "v": "0{,}82\\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}82\\cdot 0{,}18}{628}}\\approx 0{,}82\\pm 0{,}03\\ \\Rightarrow\\ [0{,}79;\\ 0{,}85]"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}79;\\ 0{,}85]"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für ein richtiges Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,76; 0,80] Toleranzintervall für den oberen Wert: [0,83; 0,86] Grundkompetenz: WS 4.1 Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt1-t2-04-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer zweiten Befragung werden viermal so viele Personen befragt, wobei der relative Anteil der mit dem gebotenen Service insgesamt zufriedenen Besucher/innen wieder genauso groß wie bei der ersten Befragung ist."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie sich diese Vergrößerung der Stichprobe konkret auf die Breite des aus der ersten Befragung ermittelten symmetrischen 95-%-Konfidenzintervalls auswirkt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine Erhöhung der Anzahl der Befragten auf das Vierfache führt (bei gleichem relativem Anteil h) zu einer Halbierung der Breite des Konfidenzintervalls."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die Angabe der richtigen Auswirkung auf die Breite.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine Erhöhung der Anzahl der Befragten auf das Vierfache führt (bei gleichem relativem Anteil h) zu einer Halbierung der Breite des Konfidenzintervalls."
+            }
+          ],
+          "note": "b2) Ein Punkt für die Angabe der richtigen Auswirkung auf die Breite."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Kino hat drei Säle. Im ersten Saal sind 185 Sitzplätze, im zweiten Saal 94 und im dritten Saal 76.\n\nNeue Filme starten üblicherweise an einem Donnerstag. Der Kinobetreiber nimmt modellhaft an, dass an so einem Donnerstag bei einer Vorstellung eines neuen Films in allen drei Sälen jeder einzelne Sitzplatz mit einer Wahrscheinlichkeit von 95 % belegt ist."
+    }
+  ]
+}

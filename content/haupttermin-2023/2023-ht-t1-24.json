@@ -1,0 +1,149 @@
+{
+  "id": "2023-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2023h1]t1-24-ws.pdf"
+  },
+  "title": "Binomialverteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-24-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1291a",
+          "baseId": "1_1291",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/830/1_1291_srdp_ma_Binomialverteilung_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: die Abbildungen zu "
+            },
+            {
+              "t": "math",
+              "v": "P(X_3=k)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "P(X_5=k)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Abbildungen an, die einer Binomialverteilung entsprechen können. [2 aus 5]"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-24-q.png",
+          "alt": "Fünf Stabdiagramme der Wahrscheinlichkeitsverteilungen von X1 bis X5 über k = 0 bis 8"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "P(X_1=k)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X_2=k)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X_3=k)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X_4=k)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X_5=k)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1291",
+      "baseId": "1_1291",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/830/1_1291_srdp_ma_Binomialverteilung_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die fünf Zufallsvariablen X1, X2, X3, X4 und X5, die nur ganzzahlige Werte von 0 bis 8 annehmen. Deren Wahrscheinlichkeitsverteilungen sind in den unten stehenden Abbildungen dargestellt."
+    }
+  ]
+}

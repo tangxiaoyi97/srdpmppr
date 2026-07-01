@@ -1,0 +1,222 @@
+{
+  "id": "2021-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2021h1]t1-14-an.pdf"
+  },
+  "title": "Änderungsraten einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-14-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_843a",
+          "baseId": "1_843",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/636/AenderungsratenPolynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "P"
+            },
+            {
+              "t": "text",
+              "v": " liegt rechts von "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " auf gleicher Höhe (gleicher Funktionswert), in einem fallenden Ast des Graphen."
+            }
+          ],
+          "note": "Ein Punkt für das Kennzeichnen des richtigen Punktes P. Das Kennzeichnen der Stelle x_2 ist ebenso als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung sind der Graph der Polynomfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "A=(x_1\\mid f(x_1))"
+        },
+        {
+          "t": "text",
+          "v": " des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-14-q.png",
+          "alt": "Koordinatensystem mit dem Graphen einer Polynomfunktion f und dem markierten Punkt A = (x1 | f(x1)) links unten auf dem Graphen."
+        },
+        {
+          "t": "text",
+          "v": "Für eine Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_2"
+        },
+        {
+          "t": "text",
+          "v": " in der obigen Abbildung mit "
+        },
+        {
+          "t": "math",
+          "v": "x_2>x_1"
+        },
+        {
+          "t": "text",
+          "v": " gelten folgende Bedingungen:\n- Der Differenzialquotient von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_2"
+        },
+        {
+          "t": "text",
+          "v": " ist negativ.\n- Der Differenzenquotient von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_1;\\,x_2]"
+        },
+        {
+          "t": "text",
+          "v": " ist null.\n\nKennzeichnen Sie in der obigen Abbildung denjenigen Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(x_2\\mid f(x_2))"
+        },
+        {
+          "t": "text",
+          "v": ", bei dem beide oben genannten Bedingungen erfüllt sind."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zu kennzeichnen ist derjenige Punkt "
+          },
+          {
+            "t": "math",
+            "v": "P=(x_2\\mid f(x_2))"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "x_2>x_1"
+          },
+          {
+            "t": "text",
+            "v": ", an dem der Graph denselben Funktionswert wie an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x_1"
+          },
+          {
+            "t": "text",
+            "v": " hat (Differenzenquotient null) und zugleich fällt (Differenzialquotient negativ)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_843",
+      "baseId": "1_843",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/636/AenderungsratenPolynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

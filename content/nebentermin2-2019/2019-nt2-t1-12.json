@@ -1,0 +1,144 @@
+{
+  "id": "2019-nt2-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2019n2]t1-12-fa.pdf"
+  },
+  "title": "Winkelfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-12-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.5",
+          "description": "wissen, dass cos(x) = sin(x + pi/2 )",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_673a",
+          "baseId": "1_673",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/402/Winkelfunktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k=\\tfrac{1}{2}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie "
+        },
+        {
+          "t": "math",
+          "v": "k\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " so, dass "
+        },
+        {
+          "t": "math",
+          "v": "b-a=k\\cdot\\pi"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": 0.5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_673",
+      "baseId": "1_673",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/402/Winkelfunktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die Graphen der Funktionen f und g mit den Funktionsgleichungen "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\sin(x)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g(x)=\\cos(x)"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt.\nFür die in der Abbildung eingezeichneten Stellen a und b gilt: "
+    },
+    {
+      "t": "math",
+      "v": "\\cos(a)=\\sin(b)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-12-q.png",
+      "alt": "Graphen von f(x)=sin(x) und g(x)=cos(x) im Intervall [0; 2π]; eingezeichnet sind zwei Stellen a und b auf der x-Achse mit a < b."
+    }
+  ]
+}

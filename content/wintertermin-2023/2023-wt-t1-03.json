@@ -1,0 +1,112 @@
+{
+  "id": "2023-wt-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2023w1]t1-3-ag.pdf"
+  },
+  "title": "Vermietung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.1",
+          "description": "Vektoren als Zahlentupel verständig einsetzen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1246a",
+          "baseId": "1_1246",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/779/1_1246_srdp_ma_Vermietung_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "G = 0{,}6 \\cdot (B - K) = \\begin{pmatrix} 2\\,160 \\\\ 2\\,460 \\\\ 2\\,520 \\\\ 3\\,060 \\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von G, wobei auch 0,6 ∙ (B – K) als richtig zu werten ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Vektor G, dessen Komponenten Alexanders Gewinne aus der Vermietung der vier Wohnungen sind."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "G = 0{,}6 \\cdot (B - K) = \\begin{pmatrix} 2\\,160 \\\\ 2\\,460 \\\\ 2\\,520 \\\\ 3\\,060 \\end{pmatrix}"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Berechnen von G, wobei auch 0,6 ∙ (B – K) als richtig zu werten ist.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1246",
+      "baseId": "1_1246",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/779/1_1246_srdp_ma_Vermietung_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Alexander vermietet vier Wohnungen.\nIn der nachstehenden Tabelle sind die Bruttomieten und die Betriebskosten für ein bestimmtes Jahr angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-03-q.png",
+      "alt": "Tabelle: Bruttomiete (in €) | Betriebskosten (in €) — Wohnung 1: 4 800 | 1 200; Wohnung 2: 5 500 | 1 400; Wohnung 3: 6 000 | 1 800; Wohnung 4: 7 000 | 1 900"
+    },
+    {
+      "t": "text",
+      "v": "Die Spalten der Tabelle können als Vektoren angeschrieben werden. Dabei gibt der Vektor B die jeweiligen Bruttomieten und der Vektor K die jeweiligen Betriebskosten an.\n\nDie Bruttomieten sind die Summe aus Nettomieten und Betriebskosten. Der Gewinn (nach Abzug der Steuern) beträgt 60 % der Nettomieten."
+    }
+  ]
+}

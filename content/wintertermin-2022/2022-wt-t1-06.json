@@ -1,0 +1,145 @@
+{
+  "id": "2022-wt-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2022w1]t1-6-fa.pdf"
+  },
+  "title": "Treppe",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-6-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-6-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_883a",
+          "baseId": "1_883",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/710/Treppe.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "kleinstmöglicher Steigungswinkel φ: "
+            },
+            {
+              "t": "math",
+              "v": "19{,}95\\ldots^\\circ"
+            },
+            {
+              "t": "text",
+              "v": ";  größtmöglicher Steigungswinkel φ: "
+            },
+            {
+              "t": "math",
+              "v": "45^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der beiden Steigungswinkel, ein halber Punkt für nur einen richtigen Steigungswinkel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den kleinstmöglichen und den größtmöglichen Steigungswinkel φ (in °), bei dem die oben genannten Bedingungen erfüllt sind."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "phi_min",
+            "label": "kleinstmöglicher Steigungswinkel φ",
+            "value": 19.95,
+            "tol": 0.5,
+            "unit": "°"
+          },
+          {
+            "id": "phi_max",
+            "label": "größtmöglicher Steigungswinkel φ",
+            "value": 45,
+            "tol": 0.5,
+            "unit": "°"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_883",
+      "baseId": "1_883",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/710/Treppe.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist eine Treppe mit der Stufenhöhe h (in cm), der Stufenlänge l (in cm) und dem Steigungswinkel φ dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-06-q.png",
+      "alt": "Seitenansicht einer Treppe mit mehreren Stufen; eingezeichnet sind die Stufenhöhe h, die Stufenlänge l und der Steigungswinkel φ an der Basis."
+    },
+    {
+      "t": "text",
+      "v": "Es sollen folgende Bedingungen erfüllt sein:\n- "
+    },
+    {
+      "t": "math",
+      "v": "2 \\cdot h + l = 63"
+    },
+    {
+      "t": "text",
+      "v": "\n- Die Stufenlänge l liegt im Intervall [21 cm; 36,5 cm]."
+    }
+  ]
+}

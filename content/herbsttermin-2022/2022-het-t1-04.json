@@ -1,0 +1,157 @@
+{
+  "id": "2022-het-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2022h2]t1-4-ag.pdf"
+  },
+  "title": "Punkte und Vektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-04-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1223a",
+          "baseId": "1_1223",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/753/Punkte%20und%20Vektoren.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "C=B+t\\cdot w"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "C=A+t\\cdot v"
+            },
+            {
+              "t": "text",
+              "v": " (jeweils für ein "
+            },
+            {
+              "t": "math",
+              "v": "t\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": ")."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "A=B+t\\cdot r\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=C+t\\cdot v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "C=B+t\\cdot w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=A+t\\cdot w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "C=A+t\\cdot v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1223",
+      "baseId": "1_1223",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/753/Punkte%20und%20Vektoren.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachstehenden Koordinatensystem sind die drei Punkte A, B und C sowie die drei Vektoren r, v und w eingezeichnet.\nDie Koordinaten der Punkte und die Komponenten der Vektoren sind ganzzahlig."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t1-04-q.png",
+      "alt": "Koordinatensystem mit den Punkten A(1|5), B(7|6), C(8|2) sowie den eingezeichneten Vektoren r, v und w; alle Koordinaten und Komponenten ganzzahlig."
+    }
+  ]
+}

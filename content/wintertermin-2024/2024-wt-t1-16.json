@@ -1,0 +1,133 @@
+{
+  "id": "2024-wt-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2024w1]t1-16-an.pdf"
+  },
+  "title": "Graph einer Ableitungsfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1331a",
+          "baseId": "1_1331",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/879/1_1331_srdp_ma_Graph%20einer%20Ableitungsfunktion_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „f ist im Intervall [2; 3] linksgekrümmt (positiv gekrümmt).“ und „f hat genau 2 Wendestellen.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf die Polynomfunktion f jedenfalls zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "f ist im Intervall [2; 3] streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f ist im Intervall [2; 3] linksgekrümmt (positiv gekrümmt)."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Es gilt: } f(-3)\\le f(3)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f hat genau 2 Wendestellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f hat genau 2 lokale Maximumstellen."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1331",
+      "baseId": "1_1331",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/879/1_1331_srdp_ma_Graph%20einer%20Ableitungsfunktion_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph der Ableitungsfunktion f′ einer Polynomfunktion f dargestellt. Die Ableitungsfunktion f′ ist eine Polynomfunktion 3. Grades und hat 3 ganzzahlige Nullstellen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-16-q.png",
+      "alt": "Graph der Ableitungsfunktion f′ (Polynomfunktion 3. Grades) mit 3 ganzzahligen Nullstellen im Bereich x von etwa –3 bis 3."
+    }
+  ]
+}

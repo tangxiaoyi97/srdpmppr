@@ -1,0 +1,98 @@
+{
+  "id": "2026-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2026h1]t1-23-ws.pdf"
+  },
+  "title": "Spielwürfel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1613a",
+          "baseId": "1_1613",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1133/1_1613_Spielwuerfel_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "3\\cdot\\left(\\tfrac{1}{2}\\right)\\cdot\\left(\\tfrac{1}{2}\\right)^{2}=\\tfrac{3}{8}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass bei diesen 3 Würfen genau 1-mal eine gerade Augenzahl geworfen wird."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.375,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1613",
+      "baseId": "1_1613",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1133/1_1613_Spielwuerfel_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein fairer Spielwürfel, dessen Seitenflächen mit den Augenzahlen 1 bis 6 beschriftet sind, wird 3-mal geworfen."
+    }
+  ]
+}

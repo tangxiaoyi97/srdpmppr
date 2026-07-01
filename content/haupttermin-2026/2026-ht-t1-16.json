@@ -1,0 +1,108 @@
+{
+  "id": "2026-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2026h1]t1-16-an.pdf"
+  },
+  "title": "Rennwagen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-16-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1606a",
+          "baseId": "1_1606",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1126/1_1606_Rennwagen_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s(t)=t^{3}+35\\cdot t"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Gleichung der Funktion s."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung der Funktion s auf."
+        },
+        {
+          "t": "math",
+          "v": "s(t)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "t^{3}+35\\cdot t",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1606",
+      "baseId": "1_1606",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1126/1_1606_Rennwagen_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion a beschreibt modellhaft die Beschleunigung eines Rennwagens bei einer bestimmten Fahrt.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "a(t)=6\\cdot t\\ \\text{mit}\\ 0\\le t\\le 3"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in s mit t = 0 für den Beginn der Beobachtung\na(t) ... Beschleunigung des Rennwagens zum Zeitpunkt t in m/s²\n\nZu Beginn der Beobachtung beträgt die Geschwindigkeit des Rennwagens 35 m/s.\n\nDie Funktion s mit s(0) = 0 beschreibt den bei dieser Fahrt zurückgelegten Weg des Rennwagens in Abhängigkeit von der Zeit t (t in s mit 0 ≤ t ≤ 3, s(t) in m)."
+    }
+  ]
+}

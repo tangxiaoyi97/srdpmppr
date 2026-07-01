@@ -1,0 +1,98 @@
+{
+  "id": "2021-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2021h1]t1-21-ws.pdf"
+  },
+  "title": "Münzwurf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_850a",
+          "baseId": "1_850",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/643/Muenzwurf.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\binom{4}{3}\\cdot\\left(\\tfrac{1}{2}\\right)^{3}\\cdot\\left(\\tfrac{1}{2}\\right)^{1}+\\binom{4}{4}\\cdot\\left(\\tfrac{1}{2}\\right)^{4}=\\tfrac{5}{16}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tfrac{5}{16}=0{,}3125"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Münze zeigt nach einem Wurf entweder „Kopf“ oder „Zahl“. Die Wahrscheinlichkeit, dass die Münze „Kopf“ zeigt, ist bei jedem Wurf genauso hoch wie die Wahrscheinlichkeit, dass sie „Zahl“ zeigt. Die Ergebnisse der Würfe sind voneinander unabhängig.\n\nBei einem Zufallsversuch wird die Münze 4-mal geworfen.\n\nBerechnen Sie die Wahrscheinlichkeit, dass bei diesem Zufallsversuch „Kopf“ häufiger als „Zahl“ auftritt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.3125,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_850",
+      "baseId": "1_850",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/643/Muenzwurf.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

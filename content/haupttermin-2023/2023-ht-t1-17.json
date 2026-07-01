@@ -1,0 +1,187 @@
+{
+  "id": "2023-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2023h1]t1-17-an.pdf"
+  },
+  "title": "Punkte auf einem Graphen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-17-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1284a",
+          "baseId": "1_1284",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/823/1_1284_srdp_ma_Punkte%20auf%20einem%20Graphen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "0 → C, x1 → F, x2 → A, x3 → B."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Stellen 0, x1, x2 und x3 jeweils die zutreffende Aussage aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_3"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A  An dieser Stelle ist die erste Ableitung gleich null und die zweite Ableitung negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B  An dieser Stelle sind die erste und die zweite Ableitung negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C  An dieser Stelle ist die erste Ableitung gleich null und die zweite Ableitung positiv."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D  An dieser Stelle sind die erste und die zweite Ableitung positiv."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E  An dieser Stelle sind die erste und die zweite Ableitung gleich null."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F  An dieser Stelle ist die erste Ableitung positiv und die zweite Ableitung gleich null."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1284",
+      "baseId": "1_1284",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/823/1_1284_srdp_ma_Punkte%20auf%20einem%20Graphen_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph der Polynomfunktion 3. Grades f dargestellt. Zusätzlich sind vier Punkte mit den x-Koordinaten 0, x1, x2 und x3 eingezeichnet. Diese vier Punkte sind charakteristische Punkte des Graphen (Schnittpunkte mit den Achsen, Extrempunkte, Wendepunkt)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-17-q.png",
+      "alt": "Graph der Polynomfunktion 3. Grades f mit vier markierten charakteristischen Punkten an den Stellen 0, x1, x2 und x3"
+    }
+  ]
+}

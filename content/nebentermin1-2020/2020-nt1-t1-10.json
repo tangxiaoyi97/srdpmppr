@@ -1,0 +1,108 @@
+{
+  "id": "2020-nt1-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2020n1]t1-10-fa.pdf"
+  },
+  "title": "Druck und Volumen eines idealen Gases",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-10-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_791a",
+          "baseId": "1_791",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/575/Druck%20und%20Volumen%20eines%20idealen%20Gases.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p(V)=\\tfrac{200\\,000}{V}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie p(V) mit "
+        },
+        {
+          "t": "math",
+          "v": "V\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " an, wenn bei einem Volumen von 4 m³ der Druck 50 000 Pascal beträgt.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "p(V)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{200000}{V}",
+        "vars": [
+          "V"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_791",
+      "baseId": "1_791",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/575/Druck%20und%20Volumen%20eines%20idealen%20Gases.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei gleichbleibender Temperatur sind der Druck und das Volumen eines idealen Gases zueinander indirekt proportional. Die Funktion p ordnet dem Volumen V den Druck p(V) zu (V in m³, p(V) in Pascal)."
+    }
+  ]
+}

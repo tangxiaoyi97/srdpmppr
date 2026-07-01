@@ -1,0 +1,210 @@
+{
+  "id": "2025-het-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2025h2]t1-1-ag.pdf"
+  },
+  "title": "Definitionsmengen von Termen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-01-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 1.2",
+          "description": "Wissen über algebraische Begriffe angemessen einsetzen können: Variable, Terme, Formeln,(Un-)Gleichungen, Gleichungssysteme, Äquivalenz, Umformungen, Lösbarkeit",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1543a",
+          "baseId": "1_1543",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1050/1_1543_srdp_ma_Definitionsmengen%20von%20Termen_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sqrt{x}-1\\to D"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{x-1}\\to F"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{x}{x-1}\\to E"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{x}{-x-1}\\to A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie diesen vier Termen jeweils die größtmögliche Definitionsmenge aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{x}-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{x-1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{x}{x-1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{x}{-x-1}"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{R}\\setminus\\{-1\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "[-1;\\infty)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{R}\\setminus\\{0\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "[0;\\infty)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{R}\\setminus\\{1\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "[1;\\infty)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1543",
+      "baseId": "1_1543",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1050/1_1543_srdp_ma_Definitionsmengen%20von%20Termen_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind vier Terme über der Grundmenge ℝ."
+    }
+  ]
+}

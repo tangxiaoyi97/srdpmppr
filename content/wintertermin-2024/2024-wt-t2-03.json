@@ -1,0 +1,372 @@
+{
+  "id": "2024-wt-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2024w1]t2-3.pdf"
+  },
+  "title": "Hunde in Österreich",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t2-03-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_135a",
+          "baseId": "2_135",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt die Verteilung der Anzahl der Hunde in Österreich im Jahr 2018 nach Bundesländern."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-a-q.png",
+          "alt": "Abbildung (Bildquelle kurier.at): Verteilung der Anzahl der Hunde in Österreich 2018 nach Bundesländern, u. a. Anzahl der Hunde pro tausend Einwohner/innen."
+        },
+        {
+          "t": "text",
+          "v": "Der Median der Anzahl der Hunde pro tausend Einwohner/innen in den 9 Bundesländern ist gleich der Anzahl der Hunde pro tausend Einwohner/innen in einem bestimmten Bundesland.\n\nErmitteln Sie dieses Bundesland."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das gesuchte Bundesland ist Oberösterreich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Ermitteln des Bundeslands.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Oberösterreich"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln des Bundeslands."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-03-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_135b",
+          "baseId": "2_135",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt die Entwicklung der Masse von Hunden verschiedener Größe in den ersten 17 Lebensmonaten."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-b-q.png",
+          "alt": "Diagramm Masse in kg über Alter in Monaten (0 bis 17) für kleine, mittelgroße, große und sehr große Hunde."
+        },
+        {
+          "t": "text",
+          "v": "Vervollständigen Sie die zwei nachstehenden Sätze mithilfe der Daten aus der obigen Abbildung so, dass richtige Aussagen entstehen.\n\n„Große Hunde“ haben im Alter von 4 Monaten eine Masse von rund               kg.\n\n„Sehr große Hunde“ haben im Alter von rund               Monaten eine Masse von 80 kg."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "masse",
+            "label": "Masse",
+            "value": 30,
+            "tol": 1.5,
+            "unit": "kg"
+          },
+          {
+            "id": "alter",
+            "label": "Alter",
+            "value": 9.5,
+            "tol": 0.5,
+            "unit": "Monate"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "„Große Hunde“ haben im Alter von 4 Monaten eine Masse von rund 30 kg. Toleranzintervall: [28 kg; 31 kg]. „Sehr große Hunde“ haben im Alter von rund 9,5 Monaten eine Masse von 80 kg. Toleranzintervall: [9 Monate; 10 Monate]."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Vervollständigen der beiden Sätze, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_135c",
+          "baseId": "2_135",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Labrador ist eine Hunderasse.\n\nAls minimale Masse wird die Masse bezeichnet, die eine gesunde Labradorhündin abhängig von ihrem Alter mindestens haben soll.\n\nDie nachstehende Tabelle zeigt die minimale Masse von Labradorhündinnen in Abhängigkeit vom Alter."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-c-tab.png",
+          "alt": "Tabelle minimale Masse von Labradorhündinnen: Alter in Monaten 3 4 5 6 7 8 9 10 11 12; minimale Masse in kg 10 13 16 18 20 22 22 23 24 24."
+        },
+        {
+          "t": "text",
+          "v": "Es wird angenommen, dass sich die minimale Masse von Labradorhündinnen im Alter von 1 bis 5 Monaten linear entwickelt.\n\nBerechnen Sie, um wie viel Prozent die minimale Masse von Labradorhündinnen im Alter von 2 bis 3 Monaten zunimmt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 43,
+            "tol": 0.5,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "minimale Masse im Alter von 2 Monaten: 7 kg"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{3}{7}=0{,}428\\ldots=42{,}8\\ldots\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die minimale Masse von Labradorhündinnen im Alter von 2 bis 3 Monaten nimmt um rund 43 % zu."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen des Prozentsatzes."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_135c",
+          "baseId": "2_135",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die minimale Masse von Labradorhündinnen kann für das Alter von 7 bis 15 Monaten durch die Funktion m: [7; 15] → ℝ⁺ modelliert werden."
+        },
+        {
+          "t": "math",
+          "v": "m(t)=25-24{,}7\\cdot e^{-k\\cdot t}\\ \\text{mit}\\ k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Alter in Monaten\nm(t) ... minimale Masse im Alter t in kg\n\nFür das Alter von 7 Monaten stimmt der Wert der Funktion m mit dem entsprechenden Wert in der Tabelle überein.\n\nFür das Alter von 12 Monaten weicht der Wert der Funktion m vom entsprechenden Wert in der Tabelle ab.\n\nBerechnen Sie diese Abweichung in kg."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abw",
+            "value": 0.6,
+            "tol": 0.1,
+            "unit": "kg"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "m(7)=20"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "k=0{,}228\\ldots"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "m(12)=23{,}40\\ldots"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "24-m(12)=0{,}59\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Abweichung beträgt rund 0,6 kg."
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Berechnen der Abweichung, wobei –0,6 ebenfalls richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_135",
+      "baseId": "2_135",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Hunde sind in Österreich als Haustiere sehr beliebt."
+    }
+  ]
+}

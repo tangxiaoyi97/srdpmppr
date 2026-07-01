@@ -1,0 +1,119 @@
+{
+  "id": "2019-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2019h1]t1-6-ag.pdf"
+  },
+  "title": "Dreieck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-06-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_691a",
+          "baseId": "1_691",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/424/Dreieck.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{r}{t}=\\cos(70^\\circ)"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{r}{t}\\approx 0{,}34"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,3; 0,4] Grundkompetenz: AG 4.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie das Verhältnis "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{r}{t}"
+        },
+        {
+          "t": "text",
+          "v": " für dieses Dreieck!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rt",
+            "value": 0.35,
+            "tol": 0.05
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_691",
+      "baseId": "1_691",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/424/Dreieck.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist nachstehendes Dreieck mit den Seitenlängen r, s und t."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-06-q.png",
+      "alt": "Dreieck mit Seite t oben, dem Winkel 70° an der oberen linken Ecke und den Seiten r (links) und s (rechts)."
+    }
+  ]
+}

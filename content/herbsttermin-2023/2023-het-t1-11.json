@@ -1,0 +1,190 @@
+{
+  "id": "2023-het-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2023h2]t1-11-fa.pdf"
+  },
+  "title": "Verdoppelungszeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-11-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1302a",
+          "baseId": "1_1302",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/846/1_1302_srdp_ma_Verdoppelungszeit_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "1-mal → C;  2-mal → B;  3-mal → F;  4-mal → D"
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Aussagen über die Verdoppelungszeiten jeweils die zugehörige Funktionsgleichung aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Bakterien verdoppelt sich 1-mal pro Stunde."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Bakterien verdoppelt sich 2-mal pro Stunde."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Bakterien verdoppelt sich 3-mal pro Stunde."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Bakterien verdoppelt sich 4-mal pro Stunde."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "N_1(t) = N_1(0) \\cdot 1{,}5^{t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_2(t) = N_2(0) \\cdot 4^{t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_3(t) = N_3(0) \\cdot 2^{t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_4(t) = N_4(0) \\cdot 16^{t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_5(t) = N_5(0) \\cdot 3^{t}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_6(t) = N_6(0) \\cdot 8^{t}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1302",
+      "baseId": "1_1302",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/846/1_1302_srdp_ma_Verdoppelungszeit_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die jeweilige Anzahl der Bakterien von sechs Bakterienkulturen wächst exponentiell. Dabei ist die jeweilige Verdoppelungszeit unterschiedlich.\n\nDie Anzahl der Bakterien der jeweiligen Bakterienkultur wird in Abhängigkeit von der Zeit t durch "
+    },
+    {
+      "t": "math",
+      "v": "N_i: \\mathbb{R}_0^+ \\to \\mathbb{R}^+,\\ t \\mapsto N_i(t)"
+    },
+    {
+      "t": "text",
+      "v": " mit i ∈ {1, 2, ... , 6} modelliert (t in Stunden)."
+    }
+  ]
+}

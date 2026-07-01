@@ -1,0 +1,109 @@
+{
+  "id": "2022-het-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2022h2]t1-19-ws.pdf"
+  },
+  "title": "Geschwindigkeitskontrolle",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-19-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1238a",
+          "baseId": "1_1238",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/768/Geschwindigkeitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "50+80+60=190"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "190"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der Anzahl der Fahrzeuge.\nGrundkompetenz: WS 1.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Anzahl derjenigen Fahrzeuge, die für die Erstellung des Histogramms herangezogen wurden."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "anzahl",
+            "value": 190,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1238",
+      "baseId": "1_1238",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/768/Geschwindigkeitskontrolle.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf einem Autobahnabschnitt wurden die Geschwindigkeiten von Fahrzeugen gemessen und anschließend wurde das nachstehende Histogramm erstellt. Der Flächeninhalt eines Rechtecks entspricht dabei der absoluten Häufigkeit der Geschwindigkeiten in der jeweiligen Klasse."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t1-19-q.png",
+      "alt": "Histogramm der Geschwindigkeiten in km/h (Klassen 90–100, 100–110, 110–130). Der Flächeninhalt jedes Rechtecks entspricht der absoluten Häufigkeit: 50 (90–100), 80 (100–110), 60 (110–130)."
+    }
+  ]
+}

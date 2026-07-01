@@ -1,0 +1,151 @@
+{
+  "id": "2023-het-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2023h2]t1-5-ag.pdf"
+  },
+  "title": "Vektor und Gerade",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-05-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.5",
+          "description": "Normalvektoren in R² aufstellen, verständig einsetzen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1296a",
+          "baseId": "1_1296",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/840/1_1296_srdp_ma_Vektor%20und%20Gerade_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\vec{g}=\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}"
+            },
+            {
+              "t": "math",
+              "v": "\\vec{AB}=\\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix}-\\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ -6 \\end{pmatrix}"
+            },
+            {
+              "t": "math",
+              "v": "\\vec{g}\\cdot\\vec{AB}=\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}\\cdot\\begin{pmatrix} 6 \\\\ -6 \\end{pmatrix}=6-6=0"
+            }
+          ],
+          "note": "Ein Punkt für das richtige rechnerische Nachweisen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Weisen Sie rechnerisch nach, dass der Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{AB}"
+        },
+        {
+          "t": "text",
+          "v": " normal auf die Gerade g steht."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Richtungsvektor von g: "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{g}=\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ". Mit "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{AB}=\\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix}-\\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ -6 \\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": " gilt "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{g}\\cdot\\vec{AB}=6-6=0"
+          },
+          {
+            "t": "text",
+            "v": ", also steht "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{AB}"
+          },
+          {
+            "t": "text",
+            "v": " normal auf g."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1296",
+      "baseId": "1_1296",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/840/1_1296_srdp_ma_Vektor%20und%20Gerade_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die Punkte A und B sowie die Gerade g: y = x dargestellt.\n\nDie Punkte A und B haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t1-05-q.png",
+      "alt": "Koordinatensystem mit der Geraden g: y = x. Punkt A = (-1 | 5), Punkt B = (5 | -1)."
+    }
+  ]
+}

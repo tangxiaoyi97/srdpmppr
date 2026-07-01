@@ -1,0 +1,134 @@
+{
+  "id": "2025-wt-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2025w1]t1-15-an.pdf"
+  },
+  "title": "Differenzieren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-15-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1439a",
+          "baseId": "1_1439",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1001/1_1439_srdp_ma_Differenzieren_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h'(x)=f'(x)+2\\cdot g'(x)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h'(2)=3+2\\cdot(-2)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h'(2)=-1"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie "
+        },
+        {
+          "t": "math",
+          "v": "h'(2)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h2",
+            "value": -1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1439",
+      "baseId": "1_1439",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1001/1_1439_srdp_ma_Differenzieren_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Polynomfunktionen f, g und h.\n\nEs gilt für alle x ∈ ℝ:"
+    },
+    {
+      "t": "math",
+      "v": "h(x)=f(x)+2\\cdot g(x)"
+    },
+    {
+      "t": "math",
+      "v": "f(2)=1,\\ f'(2)=3"
+    },
+    {
+      "t": "math",
+      "v": "g(2)=1,\\ g'(2)=-2"
+    }
+  ]
+}

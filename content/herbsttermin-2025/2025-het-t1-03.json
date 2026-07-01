@@ -1,0 +1,144 @@
+{
+  "id": "2025-het-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2025h2]t1-3-fa.pdf"
+  },
+  "title": "Quadratische Gleichungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-3-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-3-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-03-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1545a",
+          "baseId": "1_1545",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1052/1_1545_srdp_ma_Quadratische%20Gleichungen_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot x^{2}+b=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x^{2}+a=-b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Gleichungen an, die keine reelle Lösung haben."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "(x+a)^{2}=b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot x^{2}=b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot x^{2}+b=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x^{2}+a\\cdot x=b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x^{2}+a=-b"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1545",
+      "baseId": "1_1545",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1052/1_1545_srdp_ma_Quadratische%20Gleichungen_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Unten stehend sind fünf quadratische Gleichungen in der Variablen x mit a, b ∈ ℝ⁺ gegeben."
+    }
+  ]
+}

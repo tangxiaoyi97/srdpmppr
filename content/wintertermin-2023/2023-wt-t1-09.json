@@ -1,0 +1,122 @@
+{
+  "id": "2023-wt-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2023w1]t1-9-fa.pdf"
+  },
+  "title": "Fallender Ball",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-09-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1252a",
+          "baseId": "1_1252",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/784/1_1252_srdp_ma_Fallender%20Ball_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "30 - 4{,}9 \\cdot t^{2} = 4"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "t = 2{,}30\\ldots\\ \\text{s}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Nach rund 2,3 s befindet sich der Ball 4 m über dem Boden."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Zeitpunkts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie denjenigen Zeitpunkt, zu dem sich der Ball 4 m über dem Boden befindet."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 2.3,
+            "tol": 0.05,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1252",
+      "baseId": "1_1252",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/784/1_1252_srdp_ma_Fallender%20Ball_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Ball fällt von einer Aussichtsplattform. Die Funktion h beschreibt modellhaft die Höhe des fallenden Balles über dem Boden in Abhängigkeit von der Zeit t.\n\nDabei gilt: "
+    },
+    {
+      "t": "math",
+      "v": "h\\colon \\mathbb{R}_0^{+} \\to \\mathbb{R},\\ h(t) = 30 - 4{,}9 \\cdot t^{2}"
+    },
+    {
+      "t": "text",
+      "v": " (t in s, h(t) in m)."
+    }
+  ]
+}

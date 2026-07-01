@@ -1,0 +1,122 @@
+{
+  "id": "2023-wt-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2023w1]t1-11-fa.pdf"
+  },
+  "title": "Baumhöhe",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1254a",
+          "baseId": "1_1254",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/786/1_1254_srdp_ma_Baumhoehe_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(t) = a \\cdot b^{t}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f(10) = 2{,}2 \\text{ und } f(15) = 2{,}7"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "a = 1{,}46\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Baum war zum Zeitpunkt des Einpflanzens rund 1,5 m hoch."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Höhe."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Höhe dieses Baumes zum Zeitpunkt des Einpflanzens."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h",
+            "label": "Höhe",
+            "value": 1.46,
+            "tol": 0.05,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1254",
+      "baseId": "1_1254",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/786/1_1254_srdp_ma_Baumhoehe_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Höhe eines bestimmten Baumes kann in den ersten 15 Jahren nach dem Einpflanzen durch eine Exponentialfunktion modelliert werden.\n\nDieser Baum hat 10 Jahre nach dem Einpflanzen eine Höhe von 2,2 m und 15 Jahre nach dem Einpflanzen eine Höhe von 2,7 m."
+    }
+  ]
+}

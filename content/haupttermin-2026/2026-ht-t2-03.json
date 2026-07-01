@@ -1,0 +1,359 @@
+{
+  "id": "2026-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2026h1]t2-3.pdf"
+  },
+  "title": "Freizeitpark",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_163a",
+          "baseId": "2_163",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1137/2_163_Freizeitpark_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird ein neues Riesenrad errichtet. Die Gondeln dieses Riesenrads bewegen sich im Testbetrieb modellhaft mit der konstanten Geschwindigkeit v (in km/h) entlang einer Kreisbahn mit einem Durchmesser von 96 m. Eine Gondel wird modellhaft als Punkt auf dieser Kreisbahn angenommen.\n\nFür eine volle Umdrehung benötigt eine Gondel 20 min.\n\nBerechnen Sie v in km/h."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "label": "v",
+            "value": 0.904,
+            "tol": 0.01,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v=\\dfrac{96\\cdot\\pi}{20}\\cdot\\dfrac{60}{1\\,000}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v=0{,}904\\ldots\\ \\text{km/h}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von v."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_163a",
+          "baseId": "2_163",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1137/2_163_Freizeitpark_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte Gondel befindet sich zum Zeitpunkt t = 0 auf der Höhe des Mittelpunkts ihrer Kreisbahn in der Aufwärtsbewegung.\n\nDie Höhe dieser Gondel relativ zum Mittelpunkt ihrer Kreisbahn in Abhängigkeit von der Zeit t kann durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f\\colon\\mathbb{R}_0^{+}\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " modelliert werden.\n\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot\\sin(b\\cdot t)"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in min\nf(t) ... Höhe der Gondel relativ zum Mittelpunkt ihrer Kreisbahn zum Zeitpunkt t in m\na, b ... positive reelle Parameter\n\nErmitteln Sie a und b."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 48,
+            "tol": 1e-9,
+            "unit": "m"
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 0.3141592653589793,
+            "tol": 0.001,
+            "unit": "rad/min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "perBlank",
+        "pointsPerCorrect": 0.5,
+        "max": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=48\\ \\text{m}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=\\tfrac{\\pi}{10}\\ \\text{rad/min}"
+            }
+          ],
+          "note": "a2) Ein halber Punkt für das richtige Ermitteln von a, ein halber Punkt für das richtige Ermitteln von b."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_163b",
+          "baseId": "2_163",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1137/2_163_Freizeitpark_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Grundfläche des neuen Autodroms hat annähernd die Form eines regelmäßigen 8-Ecks (siehe nachstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-03-b.png",
+          "alt": "Regelmäßiges 8-Eck mit Seitenlänge a; im Inneren ist der Umkreisradius r zweimal vom Mittelpunkt aus eingezeichnet."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "\\cos\\!\\left(\\tfrac{\\psi}{2}\\right)=\\dfrac{\\tfrac{a}{2}}{r}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nZeichnen Sie in der obigen Abbildung den Winkel ψ ein."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Winkel ψ wird als der von zwei benachbarten Umkreisradien (zu einer Seite a) eingeschlossene Mittelpunktswinkel eingezeichnet. Auch ein Einzeichnen von ψ an einer anderen passenden Stelle in der Abbildung ist als richtig zu werten. Das Einzeichnen von "
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{\\psi}{2}"
+          },
+          {
+            "t": "text",
+            "v": " ist nicht als richtig zu werten. Im Hinblick auf die Punktevergabe ist die Beschriftung des Winkels mit ψ nicht erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-03-b-sol.png",
+              "alt": "Lösung: Winkel ψ als Mittelpunktswinkel zwischen zwei benachbarten Radien r zur Seite a eingezeichnet."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Einzeichnen von ψ ."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_163c",
+          "baseId": "2_163",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1137/2_163_Freizeitpark_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei jedem Fahrgeschäft erhält der Fahrgast ein Ticket, das nach dem Zufallsprinzip in 1 von n Farben unabhängig von den anderen Tickets ausgedruckt wird (n ≥ 3).\n\nHat der Fahrgast 3 Tickets unterschiedlicher Farbe gesammelt, so gewinnt er einen Preis.\n\nDie Anzahl n der Farben wird dabei so gewählt, dass die Wahrscheinlichkeit für den Gewinn eines Preises beim Kauf von 3 Tickets mindestens 70 % beträgt.\n\nBerechnen Sie, wie groß n dafür mindestens sein muss."
+        },
+        {
+          "t": "math",
+          "v": "n="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 10,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{n}{n}\\cdot\\dfrac{n-1}{n}\\cdot\\dfrac{n-2}{n}\\ge 0{,}7"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "n\\ge 9{,}2\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n=10"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen von n = 10."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_163",
+      "baseId": "2_163",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1137/2_163_Freizeitpark_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Freizeitpark werden neue Attraktionen und Fahrgeschäfte errichtet."
+    }
+  ]
+}

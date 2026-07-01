@@ -1,0 +1,124 @@
+{
+  "id": "2024-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2024h1]t1-15-an.pdf"
+  },
+  "title": "Fallschirmsprung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-15-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1354a",
+          "baseId": "1_1354",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/906/1_1354_srdp_ma_Fallschirmsprung_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Toleranzbereich: "
+            },
+            {
+              "t": "math",
+              "v": "[3{,}0;4{,}5]"
+            }
+          ],
+          "note": "Ein Punkt für das Kennzeichnen des richtigen Zeitpunkts t₁, wobei auch das Kennzeichnen des richtigen Punktes auf dem Graphen von v als richtig zu werten ist.",
+          "figures": []
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kennzeichnen Sie in der Abbildung den Zeitpunkt t₁, zu dem die Beschleunigung der Fallschirmspringerin 5 m/s² beträgt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-15-q.png",
+          "alt": "Graph der Geschwindigkeit v(t) in m/s über der Zeit t in s (0 bis 14)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Im Graphen ist der Zeitpunkt t₁ zu kennzeichnen, an dem die Steigung (Beschleunigung) 5 m/s² beträgt. Toleranzbereich: "
+          },
+          {
+            "t": "math",
+            "v": "[3{,}0;4{,}5]"
+          },
+          {
+            "t": "text",
+            "v": ". Auch das Kennzeichnen des richtigen Punktes auf dem Graphen von v ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1354",
+      "baseId": "1_1354",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/906/1_1354_srdp_ma_Fallschirmsprung_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeit einer Fallschirmspringerin bei einem bestimmten Fallschirmsprung in Abhängigkeit von der Zeit t lässt sich für das Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;14]"
+    },
+    {
+      "t": "text",
+      "v": " durch die differenzierbare Funktion v modellieren (t in s, v(t) in m/s). Die unten stehende Abbildung zeigt den Graphen von v."
+    }
+  ]
+}

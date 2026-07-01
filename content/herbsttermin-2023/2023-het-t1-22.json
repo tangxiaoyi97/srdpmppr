@@ -1,0 +1,104 @@
+{
+  "id": "2023-het-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2023h2]t1-22-ws.pdf"
+  },
+  "title": "Eissalon",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-22-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1313a",
+          "baseId": "1_1313",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/857/1_1313_srdp_ma_Eissalon_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\binom{24}{3} = 2\\,024"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gibt 2 024 verschiedene Möglichkeiten."
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Anzahl."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Anzahl der Möglichkeiten an, aus den 24 angebotenen Eissorten 3 verschiedene Eissorten auszuwählen. (Dabei spielt die Reihenfolge der Auswahl keine Rolle.)"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 2024,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1313",
+      "baseId": "1_1313",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/857/1_1313_srdp_ma_Eissalon_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Eissalon werden 24 verschiedene Eissorten angeboten."
+    }
+  ]
+}

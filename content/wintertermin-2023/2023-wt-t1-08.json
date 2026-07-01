@@ -1,0 +1,270 @@
+{
+  "id": "2023-wt-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2023w1]t1-8-fa.pdf"
+  },
+  "title": "Funktionseigenschaften",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-08-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 1.9",
+          "description": "einen Überblick über die wichtigsten (unten angeführten) Typen mathematischer Funktionen geben, ihre Eigenschaften vergleichen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1251a",
+          "baseId": "1_1251",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/783/1_1251_srdp_ma_Funktionseigenschaften_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot x + b \\rightarrow F"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot x^2 + b \\rightarrow A"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot b^{x} \\rightarrow C"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot \\sin(b \\cdot x) \\rightarrow B"
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier angegebenen Funktionsgleichungen jeweils die zutreffende Funktionseigenschaft aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot x + b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot x^2 + b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot b^{x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x) = a \\cdot \\sin(b \\cdot x)"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: Es gilt "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = f(-x)"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x \\in \\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: Es gilt "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = -f(-x)"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x \\in \\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: f ist streng monoton fallend in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: f hat genau zwei Nullstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: f ist für alle "
+            },
+            {
+              "t": "math",
+              "v": "x \\in \\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " rechtsgekrümmt (negativ gekrümmt)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: f hat genau eine Nullstelle."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1251",
+      "baseId": "1_1251",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/783/1_1251_srdp_ma_Funktionseigenschaften_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind reelle Funktionen sowie die Parameter "
+    },
+    {
+      "t": "math",
+      "v": "a \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b \\in (0;\\,1)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

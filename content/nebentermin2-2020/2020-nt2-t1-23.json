@@ -1,0 +1,110 @@
+{
+  "id": "2020-nt2-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2020n2]t1-23-ws.pdf"
+  },
+  "title": "Drei Würfe mit einem Kegel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-23-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_756a",
+          "baseId": "1_756",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/532/Drei%20W%C3%BCrfe%20mit%20einem%20Kegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "X = 2: 0,189;  X = 3: 0,027"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte. Toleranzintervall für den ersten Wert: [0,18; 0,19] Toleranzintervall für den zweiten Wert: [0,02; 0,03]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die fehlenden Werte."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x2",
+            "label": "X = 2",
+            "value": 0.185,
+            "tol": 0.005
+          },
+          {
+            "id": "x3",
+            "label": "X = 3",
+            "value": 0.025,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_756",
+      "baseId": "1_756",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/532/Drei%20W%C3%BCrfe%20mit%20einem%20Kegel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Wirft man einen Kegel, kann dieser entweder auf der Mantelfläche oder auf der Grundfläche zu liegen kommen.\n\nDie Wahrscheinlichkeit dafür, dass dieser Kegel auf der Grundfläche zu liegen kommt, beträgt bei jedem Wurf unabhängig von den anderen Würfen 30 %.\n\nDer Kegel wird im Zuge eines Zufallsexperiments dreimal geworfen. Die Zufallsvariable X beschreibt, wie oft der Kegel dabei auf der Grundfläche zu liegen kommt.\n\nDie unten stehende Tabelle soll die Wahrscheinlichkeitsverteilung der Zufallsvariablen X angeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-23-q.png",
+      "alt": "Tabelle: X | Wahrscheinlichkeit (gerundet) — 0: 0,343; 1: 0,441; 2: (leer); 3: (leer)."
+    }
+  ]
+}

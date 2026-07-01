@@ -1,0 +1,159 @@
+{
+  "id": "2023-wt-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2023w1]t1-12-fa.pdf"
+  },
+  "title": "Graph einer Sinusfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.1",
+          "description": "grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge der Art f(x) = a * sin(b * x) als allgemeine Sinusfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1255a",
+          "baseId": "1_1255",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/787/1_1255_srdp_ma_Graph%20einer%20Sinusfunktion_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a = 3"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b = 1{,}5"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie a und b an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 3,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1.5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1255",
+      "baseId": "1_1255",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/787/1_1255_srdp_ma_Graph%20einer%20Sinusfunktion_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Sinusfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = a \\cdot \\sin(b \\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a, b \\in \\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDer Graph von f verläuft durch die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P_1 = (3\\pi \\mid 3)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P_2 = (4\\pi \\mid 0)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-12-q.png",
+      "alt": "Graph der Sinusfunktion f mit Amplitude 3 über der x-Achse (von −π bis 4π); der Graph verläuft durch P1 = (3π | 3) und P2 = (4π | 0)."
+    }
+  ]
+}

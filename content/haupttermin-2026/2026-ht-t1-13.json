@@ -1,0 +1,118 @@
+{
+  "id": "2026-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2026h1]t1-13-fa.pdf"
+  },
+  "title": "Radfahren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1603a",
+          "baseId": "1_1603",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1123/1_1603_Radfahren_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{R_{2021}}{R_{2013}}-1=1"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des nachstehenden Terms an."
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{R_{2021}}{R_{2013}}-1="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "w",
+            "value": 1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1603",
+      "baseId": "1_1603",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1123/1_1603_Radfahren_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die jeweilige Anzahl der Radfahrerinnen und Radfahrer, die in den Jahren 2013 und 2021 an einer bestimmten Messstelle vorbeigefahren sind, wird mit "
+    },
+    {
+      "t": "math",
+      "v": "R_{2013}"
+    },
+    {
+      "t": "text",
+      "v": " bzw. "
+    },
+    {
+      "t": "math",
+      "v": "R_{2021}"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet.\n\nIm Jahr 2021 sind an dieser Messstelle um 100 % mehr Radfahrerinnen und Radfahrer als im Jahr 2013 vorbeigefahren."
+    }
+  ]
+}

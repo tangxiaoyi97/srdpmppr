@@ -1,0 +1,117 @@
+{
+  "id": "2025-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2025h1]t1-21-ws.pdf"
+  },
+  "title": "Arithmetisches Mittel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1469a",
+          "baseId": "1_1469",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1039/1_1469_srdp_ma_Arithmetische%20Mittel_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x_7+x_8+x_9+x_{10}=10\\cdot b-6\\cdot a"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie mithilfe von a und b eine in jedem Fall gültige Formel zur Berechnung der nachstehenden Summe an.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "x_7+x_8+x_9+x_{10}="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "10\\cdot b-6\\cdot a",
+        "vars": [
+          "a",
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1469",
+      "baseId": "1_1469",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1039/1_1469_srdp_ma_Arithmetische%20Mittel_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Datenliste "
+    },
+    {
+      "t": "math",
+      "v": "x_1, x_2, \\ldots, x_6"
+    },
+    {
+      "t": "text",
+      "v": " mit dem arithmetischen Mittel a.\n\nDiese Datenliste wird um 4 Werte erweitert, sodass eine neue Datenliste "
+    },
+    {
+      "t": "math",
+      "v": "x_1, x_2, \\ldots, x_6, x_7, x_8, x_9, x_{10}"
+    },
+    {
+      "t": "text",
+      "v": " mit dem arithmetischen Mittel b entsteht."
+    }
+  ]
+}

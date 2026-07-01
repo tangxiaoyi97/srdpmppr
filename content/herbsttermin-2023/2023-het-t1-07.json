@@ -1,0 +1,136 @@
+{
+  "id": "2023-het-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2023h2]t1-7-an.pdf"
+  },
+  "title": "Exponentialfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-07-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1298a",
+          "baseId": "1_1298",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/842/1_1298_srdp_ma_Exponentialfunktionen_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „f hat keine Nullstellen.“ und „Der Graph von f ist positiv gekrümmt (linksgekrümmt).“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jede Exponentialfunktion der oben angeführten Form zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "f hat keine Nullstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f ist streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f hat mindestens eine lokale Extremstelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von f ist positiv gekrümmt (linksgekrümmt)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von f nähert sich für x → ∞ der positiven x-Achse."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1298",
+      "baseId": "1_1298",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/842/1_1298_srdp_ma_Exponentialfunktionen_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Exponentialfunktion f: ℝ → ℝ der Form "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = a \\cdot b^{x}"
+    },
+    {
+      "t": "text",
+      "v": " mit a, b ∈ ℝ mit a, b > 0 und b ≠ 1."
+    }
+  ]
+}

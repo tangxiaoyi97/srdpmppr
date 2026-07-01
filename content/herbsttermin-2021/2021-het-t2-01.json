@@ -1,0 +1,304 @@
+{
+  "id": "2021-het-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2021h2]t2-1.pdf"
+  },
+  "title": "Maturaball",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_105a",
+          "baseId": "2_105",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/687/Maturaball.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für einen Maturaball werden Karten im Vorverkauf und an der Abendkassa angeboten. Im Vorverkauf kostet jede Karte € 20. An der Abendkassa kostet jede Karte um 10 % mehr.\n\nInsgesamt wurden 640 Karten um einen Gesamtpreis von € 13.240 verkauft.\n\nEs werden folgende Bezeichnungen gewählt:\nx ... Anzahl der im Vorverkauf verkauften Karten\ny ... Anzahl der an der Abendkassa verkauften Karten\n\nErstellen Sie ein Gleichungssystem zur Berechnung von x und y."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Gleichungssystem mit zwei Gleichungen, z. B.:"
+          },
+          {
+            "t": "math",
+            "v": "\\text{I}\\colon\\ 20\\cdot x+22\\cdot y=13\\,240"
+          },
+          {
+            "t": "math",
+            "v": "\\text{II}\\colon\\ x+y=640"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\text{I}\\colon\\ 20\\cdot x+22\\cdot y=13\\,240"
+            },
+            {
+              "t": "math",
+              "v": "\\text{II}\\colon\\ x+y=640"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Erstellen des Gleichungssystems mit zwei Gleichungen, ein halber Punkt für nur eine richtige Gleichung."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_105b",
+          "baseId": "2_105",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/687/Maturaball.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zur Unterhaltung wird das Spiel Glücksrad angeboten. Die Wahrscheinlichkeit, zu gewinnen, beträgt bei jedem Spiel konstant und unabhängig voneinander 25 %.\n\nKatja spielt dieses Spiel 3-mal.\n\nBerechnen Sie die Wahrscheinlichkeit, dass Katja dabei genau 2-mal gewinnt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.140625,
+            "tol": 0.000001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "X ... Anzahl der Gewinne; X ist binomialverteilt mit n = 3, p = 0,25."
+            },
+            {
+              "t": "math",
+              "v": "P(X=2)=3\\cdot 0{,}25^{2}\\cdot 0{,}75=0{,}140625"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=2)=0{,}140625"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-01-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_105c",
+          "baseId": "2_105",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/687/Maturaball.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Weiters wird das Spiel Entenspiel angeboten.\nVon insgesamt 50 Badeenten sind 5 an ihrer Unterseite markiert.\n\nBei diesem Spiel wählt eine teilnehmende Person 2 der 50 Badeenten zufällig und ohne Zurücklegen aus. Jede markierte Badeente, die dabei ausgewählt wird, führt zu einem Gewinn.\n\nDie Zufallsvariable X gibt dabei an, wie viele der beiden ausgewählten Badeenten markiert sind. Die Wahrscheinlichkeit für ein in diesem Sachzusammenhang mögliches Ereignis wird mit dem nachstehenden Ausdruck berechnet."
+        },
+        {
+          "t": "math",
+          "v": "P\\!\\left(X=\\boxed{\\phantom{0}}\\right)=\\tfrac{5}{50}\\cdot\\tfrac{45}{49}+\\tfrac{45}{50}\\cdot\\tfrac{5}{49}"
+        },
+        {
+          "t": "text",
+          "v": "Tragen Sie die fehlende Zahl im dafür vorgesehenen Kästchen ein."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P\\!\\left(X=1\\right)=\\tfrac{5}{50}\\cdot\\tfrac{45}{49}+\\tfrac{45}{50}\\cdot\\tfrac{5}{49}"
+            }
+          ],
+          "note": "c1) Ein Punkt für das Eintragen der richtigen Zahl."
+        }
+      ]
+    },
+    {
+      "id": "2021-het-t2-01-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_105c",
+          "baseId": "2_105",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/687/Maturaball.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Martin behauptet: „Die Zufallsvariable X ist binomialverteilt.“\n\nBegründen Sie, warum Martins Behauptung falsch ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Martins Behauptung ist falsch, weil die Wahrscheinlichkeit, dass eine markierte Badeente ausgewählt wird, nicht konstant bleibt. (Oder: weil es sich beim gegebenen Sachzusammenhang um ein Ziehen ohne Zurücklegen handelt.)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Martins Behauptung ist falsch, weil die Wahrscheinlichkeit, dass eine markierte Badeente ausgewählt wird, nicht konstant bleibt.\noder:\nMartins Behauptung ist falsch, weil es sich beim gegebenen Sachzusammenhang um ein Ziehen ohne Zurücklegen handelt."
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Begründen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_105",
+      "baseId": "2_105",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/687/Maturaball.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "2024-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2024h1]t1-16-fa.pdf"
+  },
+  "title": "Funktion und Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-16-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-16-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-16-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1355a",
+          "baseId": "1_1355",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/907/1_1355_srdp_ma_Funktion%20und%20Stammfunktion_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "s=\\displaystyle\\int_{x_1}^{x_2} f(x)\\,dx"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Gleichung an, die den Zusammenhang zwischen s und dem Inhalt des grau gekennzeichneten Flächenstücks richtig beschreibt."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "s=F(x_1)-F(x_2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s=f(x_2)-f(x_1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s=\\dfrac{F(x_1)+F(x_2)}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s=\\displaystyle\\int_{x_1}^{x_2} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s=\\displaystyle\\int_{x_2}^{x_1} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s=\\displaystyle\\int_{x_1}^{x_2} F(x)\\,dx"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1355",
+      "baseId": "1_1355",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/907/1_1355_srdp_ma_Funktion%20und%20Stammfunktion_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind der Graph der Funktion f und der Graph einer ihrer Stammfunktionen F dargestellt.\n\nIm Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[x_1;x_2]"
+    },
+    {
+      "t": "text",
+      "v": " ist unter dem Graphen der Funktion f ein Flächenstück grau gekennzeichnet.\n\nUnter dem Graphen von F ist die Strecke mit der Länge s gekennzeichnet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-16-q.png",
+      "alt": "Graphen von f und F; graues Flächenstück unter f im Intervall [x1; x2]; unter F die Strecke der Länge s."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "2022-het-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2022h2]t1-23-ws.pdf"
+  },
+  "title": "Binomialkoeffizienten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-23-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1242a",
+          "baseId": "1_1242",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/772/Binomialkoeffizienten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=9-b"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Angeben von a in Abhängigkeit von b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie a in Abhängigkeit von b an."
+        },
+        {
+          "t": "math",
+          "v": "a="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "9-b",
+        "vars": [
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1242",
+      "baseId": "1_1242",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/772/Binomialkoeffizienten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die zwei natürlichen Zahlen a und b mit 0 ≤ a < b ≤ 9.\n\nFür zwei Binomialkoeffizienten gilt:"
+    },
+    {
+      "t": "math",
+      "v": "\\binom{9}{a}=\\binom{9}{b}"
+    }
+  ]
+}

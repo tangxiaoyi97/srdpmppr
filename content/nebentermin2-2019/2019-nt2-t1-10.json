@@ -1,0 +1,124 @@
+{
+  "id": "2019-nt2-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2019n2]t1-10-fa.pdf"
+  },
+  "title": "Polynomfunktionen dritten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-10-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 4.4",
+          "description": "den Zusammenhang zwischen dem Grad der Polynomfunktion und der Anzahl der Null-, Extrem- und Wendestellen wissen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_671a",
+          "baseId": "1_671",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/400/Polynomfunktionen%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Graphen: Graph einer Polynomfunktion dritten Grades mit lokalen Extremstellen bei x = -3 und x = 1 (zwei mögliche Verläufe je nach Vorzeichen des Leitkoeffizienten)."
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Graphen, wobei die Extremstellen bei x = –3 und x = 1 klar als solche erkennbar sein müssen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem den Graphen einer Polynomfunktion dritten Grades f, die an den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x=-3"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x=1"
+        },
+        {
+          "t": "text",
+          "v": " ihr Monotonieverhalten ändert!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-10-q.png",
+          "alt": "Leeres Koordinatensystem mit x-Achse von -5 bis 5 und f(x)-Achse von -5 bis 5."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Skizze des Graphen einer Polynomfunktion dritten Grades, deren Extremstellen bei x = -3 und x = 1 klar als solche erkennbar sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen richtigen Graphen, wobei die Extremstellen bei x = –3 und x = 1 klar als solche erkennbar sein müssen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_671",
+      "baseId": "1_671",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/400/Polynomfunktionen%20dritten%20Grades.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion dritten Grades ändert an höchstens zwei Stellen ihr Monotonieverhalten."
+    }
+  ]
+}

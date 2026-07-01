@@ -1,0 +1,104 @@
+{
+  "id": "2020-nt2-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2020n2]t1-24-ws.pdf"
+  },
+  "title": "Frühstück",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "h=\\dfrac{252}{450}=0{,}56"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}56\\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}56\\cdot(1-0{,}56)}{450}}=0{,}56\\pm 0{,}0458\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}514;\\ 0{,}606]"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall für die Untergrenze: [0,51; 0,52] Toleranzintervall für die Obergrenze: [0,60; 0,61]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie auf Basis dieser Studie für p ein um h symmetrisches 95-%-Konfidenzintervall an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "lower",
+            "label": "Untergrenze",
+            "value": 0.515,
+            "tol": 0.005
+          },
+          {
+            "id": "upper",
+            "label": "Obergrenze",
+            "value": 0.605,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Rahmen einer Studie gaben 252 von 450 Jugendlichen eines Bundeslandes an, dass sie immer frühstücken, bevor sie in die Schule gehen. Der Anteil dieser Jugendlichen wird mit h bezeichnet.\n\nDer Anteil aller Jugendlichen dieses Bundeslandes, die immer frühstücken, bevor sie in die Schule gehen, wird mit p bezeichnet."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "2019-nt1-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2019n1]t1-23-ws.pdf"
+  },
+  "title": "Pasch",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_732a",
+          "baseId": "1_732",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/471/Pasch.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\mu=n\\cdot p=8\\cdot\\tfrac{1}{6}=\\tfrac{4}{3}"
+            },
+            {
+              "t": "math",
+              "v": "P\\!\\left(X\\le\\tfrac{4}{3}\\right)=P(X\\le 1)=\\left(\\tfrac{5}{6}\\right)^{8}+8\\cdot\\tfrac{1}{6}\\cdot\\left(\\tfrac{5}{6}\\right)^{7}\\approx 0{,}6047"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X<E(X))\\approx 0{,}6047"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,6; 0,61] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es werden acht Runden (unabhängig voneinander) gespielt. Die Zufallsvariable X bezeichnet dabei die Anzahl der geworfenen Pasche.\nBerechnen Sie die Wahrscheinlichkeit für den Fall, dass die Anzahl X der geworfenen Pasche unter dem Erwartungswert E(X) liegt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.605,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_732",
+      "baseId": "1_732",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/471/Pasch.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Spiel werden in jeder Spielrunde zwei Würfel geworfen. Zeigen nach einem Wurf beide Würfel die gleiche Augenzahl, spricht man von einem Pasch. Die Wahrscheinlichkeit, einen Pasch zu werfen, beträgt "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{1}{6}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t1-23-q.png",
+      "alt": "Abbildung zweier Würfel, die einen Pasch zeigen. Bildquelle: BMBWF"
+    }
+  ]
+}

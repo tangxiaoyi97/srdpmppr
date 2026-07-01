@@ -1,0 +1,104 @@
+{
+  "id": "2023-wt-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2023w1]t1-16-an.pdf"
+  },
+  "title": "Überholvorgang",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-16-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1259a",
+          "baseId": "1_1259",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/792/1_1259_srdp_ma_Ueberholvorgang_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v(t) = -\\tfrac{1}{4} \\cdot t^{4} + t^{3} + 20"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von v."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von v auf."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-\\frac{1}{4}\\cdot t^{4} + t^{3} + 20",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1259",
+      "baseId": "1_1259",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/792/1_1259_srdp_ma_Ueberholvorgang_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Beschleunigung eines bestimmten Fahrzeugs während eines Überholvorgangs wird durch die Funktion a beschrieben.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "a(t) = -t^{3} + 3 \\cdot t^{2} \\quad \\text{mit } 0 \\le t \\le 3"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit ab Beginn des Überholvorgangs in s\na(t) ... Beschleunigung des Fahrzeugs zur Zeit t in m/s²\n\nDie Funktion v ordnet dabei jeder Zeit t die Geschwindigkeit des Fahrzeugs v(t) (in m/s) zu.\n\nZu Beginn des Überholvorgangs hat das Fahrzeug die Geschwindigkeit v(0) = 20 m/s."
+    }
+  ]
+}

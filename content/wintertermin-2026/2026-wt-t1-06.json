@@ -1,0 +1,105 @@
+{
+  "id": "2026-wt-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2026w1]t1-6-ag.pdf"
+  },
+  "title": "Sendemast",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-06-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1572a",
+          "baseId": "1_1572",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1085/1_1572_srdp_ma_Sendemast_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "note": "Ein Punkt für das Markieren der richtigen Strecke."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Markieren Sie die Strecke x in der obigen Abbildung."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Strecke x (das Seil von B zur Spitze S, also die Strecke BS) wird in der Abbildung richtig markiert."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1572",
+      "baseId": "1_1572",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1085/1_1572_srdp_ma_Sendemast_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Punkte A, B und T liegen in einer horizontalen Ebene auf einer Geraden. Im Punkt T steht ein Sendemast mit der Spitze S. Die Spitze S ist unter anderem durch straff gespannte Seile mit den Punkten A und B verbunden. Die Seile werden durch die Strecken AS und BS modelliert. (Siehe nachstehende nicht maßstabgetreue Abbildung.)"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-06-q.png",
+      "alt": "Nicht maßstabgetreue Abbildung: Sendemast TS, am Fußpunkt T die Strecke mit den Punkten A und B; Winkel 55° bei A und Winkel 23° an der Spitze S."
+    },
+    {
+      "t": "text",
+      "v": "Die Strecke mit der Länge x kann mithilfe der nachstehenden Formel berechnet werden."
+    },
+    {
+      "t": "math",
+      "v": "\\overline{AT}\\cdot\\tan(55^\\circ)=x\\cdot\\cos(23^\\circ)"
+    }
+  ]
+}

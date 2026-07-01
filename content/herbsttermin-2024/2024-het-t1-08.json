@@ -1,0 +1,213 @@
+{
+  "id": "2024-het-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2024h2]t1-8-fa.pdf"
+  },
+  "title": "Parameter einer linearen Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-08-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1371a",
+          "baseId": "1_1371",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/927/1_1371_srdp_ma_Parameter%20einer%20linearen%20Funktion_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "k=\\tfrac{1}{2}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "d=\\tfrac{a}{2}"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass in jedem Fall eine richtige Aussage entsteht.\n\nFür den Parameter k gilt ① und für den Parameter d gilt ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "k=\\tfrac{a}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=\\tfrac{1}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=2 \\cdot a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=\\tfrac{a}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=\\tfrac{1}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=2 \\cdot a"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1371",
+      "baseId": "1_1371",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/927/1_1371_srdp_ma_Parameter%20einer%20linearen%20Funktion_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine lineare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f: \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k \\cdot x + d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "k, d \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ". Der Graph dieser linearen Funktion verläuft durch die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(a\\,|\\,a)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(3 \\cdot a\\,|\\,2 \\cdot a)"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "a \\in \\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

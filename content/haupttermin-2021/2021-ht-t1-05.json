@@ -1,0 +1,192 @@
+{
+  "id": "2021-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2021h1]t1-5-ag.pdf"
+  },
+  "title": "Quadrat",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.5",
+          "description": "Normalvektoren in R² aufstellen, verständig einsetzen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_834a",
+          "baseId": "1_834",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/627/Quadrat.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A=(1\\mid 5)"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "B=(-1\\mid-1)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der Koordinaten beider Eckpunkte, ein halber Punkt für die richtigen Koordinaten nur eines Eckpunkts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Von einem Quadrat mit den Eckpunkten "
+        },
+        {
+          "t": "math",
+          "v": "A,\\,B,\\,C"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " sind der Eckpunkt "
+        },
+        {
+          "t": "math",
+          "v": "C=(5\\mid-3)"
+        },
+        {
+          "t": "text",
+          "v": " und der Schnittpunkt der Diagonalen "
+        },
+        {
+          "t": "math",
+          "v": "M=(3\\mid 1)"
+        },
+        {
+          "t": "text",
+          "v": " gegeben. Die Eckpunkte "
+        },
+        {
+          "t": "math",
+          "v": "A,\\,B,\\,C"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " des Quadrats sind dabei gegen den Uhrzeigersinn angeordnet.\n\nErmitteln Sie die Koordinaten der Eckpunkte "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Ax",
+            "label": "A_x",
+            "value": 1,
+            "tol": 1e-9
+          },
+          {
+            "id": "Ay",
+            "label": "A_y",
+            "value": 5,
+            "tol": 1e-9
+          },
+          {
+            "id": "Bx",
+            "label": "B_x",
+            "value": -1,
+            "tol": 1e-9
+          },
+          {
+            "id": "By",
+            "label": "B_y",
+            "value": -1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_834",
+      "baseId": "1_834",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/627/Quadrat.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

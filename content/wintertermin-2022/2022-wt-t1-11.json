@@ -1,0 +1,134 @@
+{
+  "id": "2022-wt-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2022w1]t1-11-fa.pdf"
+  },
+  "title": "Körperliche Leistungsfähigkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_888a",
+          "baseId": "1_888",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/715/Koerperliche_Leistungsfaehigkeitn.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "t … Jahre ab dem Alter von 55 Jahren\n"
+            },
+            {
+              "t": "math",
+              "v": "1\\,650 = 1\\,800 \\cdot a^{5}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "a = 0{,}9827\\ldots"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "1\\,200 = 1\\,800 \\cdot 0{,}9827\\ldots^{\\,t}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "t = 23{,}29\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Ab einem Alter von rund 78,3 Jahren wird Lena voraussichtlich höchstens 1 200 Punkte erreichen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln des Alters, wobei auch „78 Jahre“ bzw. „79 Jahre“ als richtig zu werten ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie unter Verwendung eines exponentiellen Modells, ab welchem Alter Lena voraussichtlich höchstens 1 200 Punkte erreichen wird."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "alter",
+            "label": "Alter",
+            "value": 78.3,
+            "tol": 1,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_888",
+      "baseId": "1_888",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/715/Koerperliche_Leistungsfaehigkeitn.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Rahmen einer Studie wird jährlich die körperliche Leistungsfähigkeit bestimmter Personen untersucht. Das Ergebnis wird in Punkten angegeben. Modellhaft wird angenommen, dass diese Punktzahl mit zunehmendem Alter exponentiell abnimmt.\n\nLena ist eine dieser Personen. Von ihr sind folgende Daten bekannt:\n\nAlter in Jahren: 55 | 60\nPunktzahl: 1 800 | 1 650"
+    }
+  ]
+}

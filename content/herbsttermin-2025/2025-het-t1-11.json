@@ -1,0 +1,132 @@
+{
+  "id": "2025-het-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2025h2]t1-11-fa.pdf"
+  },
+  "title": "Potenzfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1553a",
+          "baseId": "1_1553",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1060/1_1553_srdp_ma_Potenzfunktion_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=8"
+            },
+            {
+              "t": "text",
+              "v": ",  "
+            },
+            {
+              "t": "math",
+              "v": "z=-2"
+            }
+          ],
+          "note": "Ein halber Punkt für das Angeben des richtigen Wertes von a, ein halber Punkt für das Angeben des richtigen Wertes von z."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie a und z an."
+        },
+        {
+          "t": "math",
+          "v": "a="
+        },
+        {
+          "t": "math",
+          "v": "z="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 8
+          },
+          {
+            "id": "z",
+            "label": "z",
+            "value": -2
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1553",
+      "baseId": "1_1553",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1060/1_1553_srdp_ma_Potenzfunktion_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Potenzfunktion f mit f(x) = a · xᶻ mit a ∈ ℝ\\{0} und z ∈ ℤ.\n\nFür f gelten die zwei nachstehenden Bedingungen.\n- f(1) = 8\n- "
+    },
+    {
+      "t": "math",
+      "v": "f(2\\cdot x)=\\tfrac{1}{4}\\cdot f(x)\\ \\text{für alle}\\ x\\neq 0"
+    }
+  ]
+}

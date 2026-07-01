@@ -1,0 +1,129 @@
+{
+  "id": "2025-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2025h1]t1-22-ws.pdf"
+  },
+  "title": "Würfel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1470a",
+          "baseId": "1_1470",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1040/1_1470_srdp_ma_W%C3%BCrfel_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "kleinstmöglicher Wert von n: "
+            },
+            {
+              "t": "math",
+              "v": "36"
+            },
+            {
+              "t": "text",
+              "v": ";  größtmöglicher Wert von n: "
+            },
+            {
+              "t": "math",
+              "v": "60"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der zwei gesuchten Werte von n."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den kleinstmöglichen und den größtmöglichen Wert von n, sodass "
+        },
+        {
+          "t": "math",
+          "v": "0{,}12\\le p\\le 0{,}2"
+        },
+        {
+          "t": "text",
+          "v": " gilt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "nmin",
+            "label": "kleinstmöglicher Wert von n",
+            "value": 36,
+            "tol": 1e-9
+          },
+          {
+            "id": "nmax",
+            "label": "größtmöglicher Wert von n",
+            "value": 60,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1470",
+      "baseId": "1_1470",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1040/1_1470_srdp_ma_W%C3%BCrfel_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Stefanie stellt einen 6-seitigen Würfel aus Holz her, dessen Seitenflächen mit den Augenzahlen 1, 2, 3, 4, 5 und 6 beschriftet sind. Nach der Fertigstellung möchte sie überprüfen, ob der Würfel fair sein kann.\n\nSie würfelt 300-mal und erhält dabei n-mal die Augenzahl 6. Anhand dieser Daten ermittelt sie einen Schätzwert p für die Wahrscheinlichkeit, dass man nach einem Wurf mit diesem Würfel die Augenzahl 6 erhält.\n\nSie ist mit ihrem Würfel zufrieden, wenn für den Schätzwert gilt: "
+    },
+    {
+      "t": "math",
+      "v": "0{,}12\\le p\\le 0{,}2"
+    }
+  ]
+}

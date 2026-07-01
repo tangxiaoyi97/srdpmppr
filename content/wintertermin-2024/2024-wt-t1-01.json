@@ -1,0 +1,123 @@
+{
+  "id": "2024-wt-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2024w1]t1-1-ag.pdf"
+  },
+  "title": "Lineare Gleichung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-01-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AG 1.2",
+          "description": "Wissen über algebraische Begriffe angemessen einsetzen können: Variable, Terme, Formeln,(Un-)Gleichungen, Gleichungssysteme, Äquivalenz, Umformungen, Lösbarkeit",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1316a",
+          "baseId": "1_1316",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/864/1_1316_srdp_ma_Lineare%20Gleichung_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "..., –4, –2, 0, 2, 4, ... (alle geraden ganzen Zahlen)"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Zahlen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie alle reellen Zahlen c an, für die diese Gleichung eine Lösung in ℤ hat."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Alle geraden ganzen Zahlen: "
+          },
+          {
+            "t": "math",
+            "v": "c\\in\\{\\ldots,-4,-2,0,2,4,\\ldots\\}"
+          },
+          {
+            "t": "text",
+            "v": ", d. h. "
+          },
+          {
+            "t": "math",
+            "v": "c=2k\\ \\text{mit}\\ k\\in\\mathbb{Z}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben der richtigen Zahlen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1316",
+      "baseId": "1_1316",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/864/1_1316_srdp_ma_Lineare%20Gleichung_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die folgende Gleichung in der Variablen x ∈ ℤ:"
+    },
+    {
+      "t": "math",
+      "v": "2\\cdot x-c=0\\ \\text{mit}\\ c\\in\\mathbb{R}"
+    }
+  ]
+}

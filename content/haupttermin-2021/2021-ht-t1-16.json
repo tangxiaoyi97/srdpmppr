@@ -1,0 +1,159 @@
+{
+  "id": "2021-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2021h1]t1-16-an.pdf"
+  },
+  "title": "Bestimmtes Integral",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-16-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_845a",
+          "baseId": "1_845",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/638/BestimmtesIntegral.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "F(5)-F(2)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " ist eine Stammfunktion der Polynomfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nKreuzen Sie denjenigen Ausdruck an, der in jedem Fall mit "
+        },
+        {
+          "t": "math",
+          "v": "\\displaystyle\\int_{2}^{5} f(x)\\,dx"
+        },
+        {
+          "t": "text",
+          "v": " übereinstimmt."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{F(5)-F(2)}{5-2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{F(5)-F(2)}{F(2)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(5)-F(2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(5)+F(2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{F(2)+F(5)}{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{F(5)}{F(2)}"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_845",
+      "baseId": "1_845",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/638/BestimmtesIntegral.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

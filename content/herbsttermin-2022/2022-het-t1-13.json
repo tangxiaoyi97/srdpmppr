@@ -1,0 +1,109 @@
+{
+  "id": "2022-het-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2022h2]t1-13-an.pdf"
+  },
+  "title": "Relative Änderung einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1232a",
+          "baseId": "1_1232",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/762/Relative%20Aenderung%20einer%20Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{-3}{3}=-1"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "-1"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der relativen Änderung.\nToleranzintervall: [–1,1; –0,9]\nGrundkompetenz: AN 1.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die relative Änderung von f im Intervall [2; 4]."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rel",
+            "value": -1,
+            "tol": 0.1
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1232",
+      "baseId": "1_1232",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/762/Relative%20Aenderung%20einer%20Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph der Polynomfunktion f."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t1-13-q.png",
+      "alt": "Koordinatensystem mit dem Graphen der Polynomfunktion f; f(2) = 3 und f(4) = 0 (im Intervall [2; 4] fällt der Graph von 3 auf 0)."
+    }
+  ]
+}

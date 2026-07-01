@@ -1,0 +1,432 @@
+{
+  "id": "2024-het-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2024h2]t2-4.pdf"
+  },
+  "title": "Hausdach",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_144a",
+          "baseId": "2_144",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/947/2_144_srdp_ma_Hausdach_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Regenwassertonne fängt das von einem Hausdach herabfließende Regenwasser auf. Ab Beginn eines mehrstündigen Regens kann die momentane Änderungsrate der Wassermenge in der Regenwassertonne modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f: [0; 6] \\to \\mathbb{R}_0^{+},\\ t \\mapsto f(t)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (t seit Beginn des Regens in h, f(t) in L/h). Zu Beginn des Regens sind bereits 400 L Wasser in der Regenwassertonne.\n\nInterpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "400 + \\int_{0}^{6} f(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mit dem Ausdruck kann man die gesamte Wassermenge in L berechnen, die sich 6 Stunden nach Beginn des Regens in der Regenwassertonne befindet."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mit dem Ausdruck kann man die gesamte Wassermenge in L berechnen, die sich 6 Stunden nach Beginn des Regens in der Regenwassertonne befindet."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_144a",
+          "baseId": "2_144",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/947/2_144_srdp_ma_Hausdach_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph der Funktion f ist in der nachstehenden Abbildung dargestellt. Die Funktion f hat bei t₁ = 1,4 eine lokale Maximumstelle und bei t₂ = 2,9 eine Wendestelle."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-04-a2-q.png",
+          "alt": "Graph der Funktion f auf [0; 6] (f(t) in L/h, 0 bis 450); f hat bei t1 = 1,4 eine lokale Maximumstelle und bei t2 = 2,9 eine Wendestelle."
+        },
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F: [0; 6] \\to \\mathbb{R}_0^{+},\\ t \\mapsto F(t)"
+        },
+        {
+          "t": "text",
+          "v": " mit F(0) = 400 ist eine Stammfunktion von f (t in h, F(t) in L).\n\nKreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "F ist streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F hat bei t₁ = 1,4 den Funktionswert 370."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von F ändert bei t₁ = 1,4 das Krümmungsverhalten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von F hat bei t₁ = 1,4 eine horizontale Tangente."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F hat bei t₂ = 2,9 eine lokale Maximumstelle."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „F ist streng monoton steigend.“ und „Der Graph von F ändert bei t₁ = 1,4 das Krümmungsverhalten.“"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ankreuzen."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_144b",
+          "baseId": "2_144",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/947/2_144_srdp_ma_Hausdach_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung ist ein Hausdach modellhaft in einem kartesischen Koordinatensystem dargestellt. Das Dach wird durch Dachkanten begrenzt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-04-b1-q.png",
+          "alt": "Hausdach in einem kartesischen Koordinatensystem (x, y, z in m): Punkt A liegt in der xy-Ebene, Punkt B in der yz-Ebene; angegebene Maße 12 m, 5 m und 3 m; die Dachkante AB liegt auf der Geraden e."
+        },
+        {
+          "t": "text",
+          "v": "Die Dachkante AB liegt auf der Geraden e.\nDer Punkt A liegt in der xy-Ebene, der Punkt B liegt in der yz-Ebene.\n\nGeben Sie eine Parameterdarstellung von e an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Angeben einer korrekten Parameterdarstellung von e, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "e: X = \\begin{pmatrix} 0 \\\\ 12 \\\\ 3 \\end{pmatrix} + r \\cdot \\begin{pmatrix} 5 \\\\ 0 \\\\ -3 \\end{pmatrix},\\ r \\in \\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": ". Die Angabe von „r ∈ ℝ“ ist für die Punktevergabe nicht erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben der richtigen Parameterdarstellung von e.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "e: X = \\begin{pmatrix} 0 \\\\ 12 \\\\ 3 \\end{pmatrix} + r \\cdot \\begin{pmatrix} 5 \\\\ 0 \\\\ -3 \\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": " mit r ∈ ℝ"
+            }
+          ],
+          "note": "Die Angabe von „r ∈ ℝ“ ist für die Punktevergabe nicht erforderlich. b1) Ein Punkt für das Angeben der richtigen Parameterdarstellung von e."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_144b",
+          "baseId": "2_144",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/947/2_144_srdp_ma_Hausdach_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei andere Dachkanten liegen auf den Geraden g und h. Es gilt:"
+        },
+        {
+          "t": "math",
+          "v": "g: X = \\begin{pmatrix} 5 \\\\ 0 \\\\ 0 \\end{pmatrix} + s \\cdot \\begin{pmatrix} -5 \\\\ 0 \\\\ 3 \\end{pmatrix} \\quad\\text{und}\\quad h: X = \\begin{pmatrix} -5 \\\\ 12 \\\\ 0 \\end{pmatrix} + t \\cdot \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix} \\quad\\text{mit}\\ s, t \\in \\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie beiden Geraden sind ① und ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "zueinander parallel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "schneidend"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "zueinander windschief"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "g verläuft parallel zur x-Achse"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "h verläuft parallel zur y-Achse"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "h verläuft durch den Punkt (0 | 0 | 3)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① zueinander windschief;  ② h verläuft parallel zur y-Achse"
+            }
+          ],
+          "note": "b2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_144",
+      "baseId": "2_144",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/947/2_144_srdp_ma_Hausdach_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Hausdach"
+    }
+  ]
+}

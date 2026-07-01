@@ -1,0 +1,112 @@
+{
+  "id": "2022-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2022h1]t1-21-ws.pdf"
+  },
+  "title": "Neugeborene",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1199a",
+          "baseId": "1_1199",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/740/Neugeborene.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{5\\,282}{5\\,282+47\\,152+32\\,370}=0{,}06228\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}06228\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des relativen Anteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie für das Jahr 2018 den relativen Anteil der Neugeborenen in Österreich, die als „untergewichtig“ eingestuft worden sind."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.062284,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1199",
+      "baseId": "1_1199",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/740/Neugeborene.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Tabelle ist die Anzahl der Neugeborenen in Österreich hinsichtlich ihres Geburtsgewichts (Masse unmittelbar nach der Geburt) für das Jahr 2018 angegeben."
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{l|r} \\text{Geburtsgewicht} & \\text{Anzahl der Neugeborenen}\\\\\\hline \\text{weniger als 2 500 g} & 5\\,282\\\\ \\text{mindestens 2 500 g und weniger als 3 500 g} & 47\\,152\\\\ \\text{mindestens 3 500 g} & 32\\,370 \\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: https://www.statistik.at/wcm/idc/idcplg?IdcService=GET_PDF_FILE&RevisionSelectionMethod=LatestReleased&dDocName=110630 [10.04.2020].\n\nBei einem Geburtsgewicht von weniger als 2 500 g wird ein Neugeborenes als „untergewichtig“ eingestuft."
+    }
+  ]
+}

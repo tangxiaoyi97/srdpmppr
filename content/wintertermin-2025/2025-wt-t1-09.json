@@ -1,0 +1,108 @@
+{
+  "id": "2025-wt-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2025w1]t1-9-fa.pdf"
+  },
+  "title": "Eigenschaften linearer Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-09-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 2.4",
+          "description": "charakteristische Eigenschaften kennen und im Kontext deuten können: f(x + 1) = f(x) + k ; (f(x2) - f(x1))/(x2 -x1) = k = [f'(x)]",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1433a",
+          "baseId": "1_1433",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/995/1_1433_srdp_ma_Eigenschaften%20linearer%20Funktionen_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jede Gerade, deren Steigung größer als 1 ist, ist als richtig zu werten."
+            }
+          ],
+          "figures": [],
+          "note": "Ein Punkt für das richtige Einzeichnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im obigen Koordinatensystem den Graphen einer solchen Funktion g ein."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Jede Gerade, deren Steigung größer als 1 ist, ist als richtig zu werten."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1433",
+      "baseId": "1_1433",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/995/1_1433_srdp_ma_Eigenschaften%20linearer%20Funktionen_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachstehenden Koordinatensystem ist der Graph der linearen Funktion f dargestellt.\nFür eine lineare Funktion g soll folgender Zusammenhang mit f gelten:"
+    },
+    {
+      "t": "math",
+      "v": "g(x+1)-g(x)>2\\cdot[f(x+1)-f(x)]\\ \\text{für alle}\\ x\\in\\mathbb{R}"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-09-q.png",
+      "alt": "Koordinatensystem mit dem Graphen der linearen Funktion f; x von -7 bis 7, f(x), g(x) von -5 bis 5."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "2026-wt-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2026w1]t1-14-an.pdf"
+  },
+  "title": "Temperaturverlauf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-14-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1580a",
+          "baseId": "1_1580",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1093/1_1580_srdp_ma_Temperaturverlauf_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "-0{,}55\\ \\text{°C/h}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Differenzenquotienten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Differenzenquotienten von T für das Zeitintervall [12 h; 24 h]."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dq",
+            "value": -0.55,
+            "tol": 1e-9,
+            "unit": "°C/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1580",
+      "baseId": "1_1580",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1093/1_1580_srdp_ma_Temperaturverlauf_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem bestimmten Tag wurde bei einer Messstation von 0 Uhr bis 24 Uhr die Temperatur der Luft gemessen.\n\nDer Temperaturverlauf im Zeitraum von 0 Uhr bis 24 Uhr kann durch die Funktion T modelliert werden.\nt ... Zeit in h mit t = 0 für 0 Uhr\nT(t) ... Temperatur zum Zeitpunkt t in °C\n\nUm 12 Uhr war die Temperatur um 9 °C höher als um 0 Uhr.\nDer Differenzenquotient von T im gesamten Zeitintervall [0 h; 24 h] betrug 0,1 °C/h."
+    }
+  ]
+}

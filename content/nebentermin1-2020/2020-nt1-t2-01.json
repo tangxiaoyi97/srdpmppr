@@ -1,0 +1,333 @@
+{
+  "id": "2020-nt1-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2020n1]t2-1.pdf"
+  },
+  "title": "Solarthermie-Anlagen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_074a",
+          "baseId": "2_074",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/590/Solarthermieanlagen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Solarmodul einer Solarthermie-Anlage mit der Länge l schließt mit dem waagrechten Erdboden den Winkel φ ein. Dieser Winkel φ wird durch eine Stütze mit variabler Länge s so verändert, dass das Solarmodul mit den Sonnenstrahlen einen rechten Winkel einschließt.\n\nDie Sonnenstrahlen treffen unter dem Winkel ε auf den Erdboden auf.\n\nDie Situation ist in der nachstehenden Abbildung modellhaft dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t2-01-a.png",
+          "alt": "Modellhafte Abbildung: Solarmodul der Länge l, das mit dem waagrechten Erdboden den Winkel φ einschließt; Stütze der Länge s; Sonnenstrahlen treffen unter dem Winkel ε auf den Erdboden auf."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel an, mit der s unter Verwendung von l und ε berechnet werden kann.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "s="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "s=2\\cdot l\\cdot\\sin\\!\\left(90^\\circ-\\tfrac{\\varepsilon}{2}\\right)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s=2\\cdot l\\cdot\\sin\\!\\left(90^\\circ-\\tfrac{\\varepsilon}{2}\\right)"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für eine richtige Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_074a",
+          "baseId": "2_074",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/590/Solarthermieanlagen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das oben abgebildete Solarmodul hat die Länge l = 1 666 mm. Bei diesem Solarmodul nimmt der Winkel ε im Laufe eines bestimmten Tages Werte von 14° bis 65° an.\n\nGeben Sie den maximalen Wert von s an.\n\nmaximaler Wert von s: ___ mm"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "s",
+            "label": "maximaler Wert von s",
+            "value": 2051,
+            "tol": 1,
+            "unit": "mm"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "2\\cdot 1\\,666\\cdot\\sin\\!\\left(90^\\circ-\\tfrac{14^\\circ}{2}\\right)=2\\,051{,}3\\ldots\\approx 2\\,051"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "maximaler Wert von s: ca. 2 051 mm"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_074b",
+          "baseId": "2_074",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/590/Solarthermieanlagen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Leistung einer bestimmten Solarthermie-Anlage an einem wolkenfreien Tag wird durch die Funktion P modelliert. Dabei gilt:"
+        },
+        {
+          "t": "math",
+          "v": "P(t)=0{,}0136\\cdot a^{3}\\cdot t^{4}-0{,}272\\cdot a^{2}\\cdot t^{3}+1{,}36\\cdot a\\cdot t^{2}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in h, die seit dem Sonnenaufgang (t = 0) vergangen ist\nP(t) ... Leistung in kW zur Zeit t\na ... Parameter\n\nBeim Sonnenaufgang und beim Sonnenuntergang beträgt die Leistung der Solarthermie-Anlage 0 kW. Zwischen Sonnenaufgang und Sonnenuntergang nimmt die Funktion P positive Werte an.\n\nErmitteln Sie für diese Solarthermie-Anlage den Wert des Parameters a für einen bestimmten wolkenfreien Tag, an dem die Sonne um 7:08 Uhr aufgeht und um 18:38 Uhr untergeht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.8695652173913043,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mit "
+            },
+            {
+              "t": "math",
+              "v": "P(11{,}5)=0"
+            },
+            {
+              "t": "text",
+              "v": " erhält man den Parameter "
+            },
+            {
+              "t": "math",
+              "v": "a=\\tfrac{20}{23}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\tfrac{20}{23}"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_074b",
+          "baseId": "2_074",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/590/Solarthermieanlagen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Arbeit, die von der Solarthermie-Anlage zwischen den zwei Zeitpunkten t₁ und t₂ verrichtet wird, ist "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{t_1}^{t_2}P(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBerechnen Sie die an diesem Tag von der Solarthermie-Anlage verrichtete Arbeit (in kWh)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "W",
+            "value": 60,
+            "tol": 1,
+            "unit": "kWh"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{11{,}5}P(t)\\,dt=59{,}9\\ldots\\approx 60"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die an diesem Tag von der Solarthermie-Anlage verrichtete Arbeit beträgt ca. 60 kWh."
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „kWh“ nicht angegeben sein muss."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_074",
+      "baseId": "2_074",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/590/Solarthermieanlagen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei Solarthermie-Anlagen wird die Sonnenstrahlung von sogenannten Solarmodulen in Wärme umgewandelt. Diese Wärme kann beispielsweise zur Warmwassererzeugung oder zur Heizung von Gebäuden verwendet werden."
+    }
+  ]
+}

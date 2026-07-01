@@ -1,0 +1,141 @@
+{
+  "id": "2022-wt-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2022w1]t1-18-an.pdf"
+  },
+  "title": "Zufluss und Abfluss",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-18-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_895a",
+          "baseId": "1_895",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/697/Zufluss%20und%20Abfluss.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Zum Zeitpunkt t = 2 ist die Flüssigkeitsmenge im Gefäß am größten.“ und „Zum Zeitpunkt t = 6 befindet sich um 6 L weniger Flüssigkeit im Gefäß als zum Zeitpunkt t = 0.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es ist möglich, dass sich zum Zeitpunkt t = 0 genau 5 L Flüssigkeit im Gefäß befinden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 2 befinden sich genau 2 L Flüssigkeit im Gefäß."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 2 ist die Flüssigkeitsmenge im Gefäß am größten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 4 befindet sich weniger Flüssigkeit im Gefäß als zum Zeitpunkt t = 6."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t = 6 befindet sich um 6 L weniger Flüssigkeit im Gefäß als zum Zeitpunkt t = 0."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_895",
+      "baseId": "1_895",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/697/Zufluss%20und%20Abfluss.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Flüssigkeitsmenge in einem bestimmten Gefäß ändert sich durch Zufluss und Abfluss.\nDie reelle Funktion r ordnet jedem Zeitpunkt t ∈ [0; 6] die momentane Änderungsrate r(t) der Flüssigkeitsmenge in diesem Gefäß zu (t in h, r(t) in L/h)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-18-q.png",
+      "alt": "Graph der momentanen Änderungsrate r(t) in L/h über der Zeit t in h im Intervall [0; 6]; r ist zunächst positiv und für größere t negativ."
+    },
+    {
+      "t": "text",
+      "v": "Dabei gilt:"
+    },
+    {
+      "t": "math",
+      "v": "\\int_{0}^{2} r(t)\\,\\mathrm{d}t = 2 \\quad \\text{und} \\quad \\int_{2}^{6} r(t)\\,\\mathrm{d}t = -8"
+    }
+  ]
+}

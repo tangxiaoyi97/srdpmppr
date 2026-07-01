@@ -1,0 +1,119 @@
+{
+  "id": "2026-ht-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2026h1]t1-19-ws.pdf"
+  },
+  "title": "Gartenprodukte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-19-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1609a",
+          "baseId": "1_1609",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1129/1_1609_Gartenprodukte_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-19-sol.png",
+              "alt": "Lösung: Säulendiagramm mit ergänzter Säule für sonstige Gartenprodukte in Höhe von 20 Millionen Euro."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Säule für „sonstige Gartenprodukte“: 20 Millionen Euro."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Vervollständigen des Säulendiagramms."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Vervollständigen Sie das nachstehende Säulendiagramm durch Einzeichnen der fehlenden Säule für „sonstige Gartenprodukte“."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-19-q2.png",
+          "alt": "Säulendiagramm „Ausgaben für Gartenprodukte in Millionen Euro“: Gartenpflanzen 48, Gartengeräte 12, Säule für sonstige Gartenprodukte fehlt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die fehlende Säule für „sonstige Gartenprodukte“ wird mit der Höhe 20 (Millionen Euro) eingezeichnet. Im Hinblick auf die Punktevergabe ist die Beschriftung der Säule mit dem Wert 20 nicht erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1609",
+      "baseId": "1_1609",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1129/1_1609_Gartenprodukte_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine Studie wurden in einer bestimmten Region die Ausgaben von privaten Haushalten für Gartenprodukte erhoben.\n\nIm nachstehenden Prozentstreifen sind die prozentuellen Anteile der erhobenen Ausgaben für „Gartenpflanzen“, „Gartengeräte“ und „sonstige Gartenprodukte“ dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-19-q1.png",
+      "alt": "Prozentstreifen: Gartenpflanzen 60 %, Gartengeräte 15 %, sonstige Gartenprodukte 25 %."
+    },
+    {
+      "t": "text",
+      "v": "Die Ergebnisse dieser Erhebung sollen auch als Säulendiagramm dargestellt werden."
+    }
+  ]
+}

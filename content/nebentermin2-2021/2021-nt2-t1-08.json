@@ -1,0 +1,198 @@
+{
+  "id": "2021-nt2-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2021n2]t1-8-an.pdf"
+  },
+  "title": "Eigenschaften von Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-08-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 1.9",
+          "description": "einen Überblick über die wichtigsten (unten angeführten) Typen mathematischer Funktionen geben, ihre Eigenschaften vergleichen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_813a",
+          "baseId": "1_813",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/601/Eigenschaften%20von%20Funktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "f₁ → F;  f₂ → A;  f₃ → C;  f₄ → E"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Funktionsgleichungen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Funktionsgleichungen jeweils die zugehörige Liste (aus A bis F) zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "f_1(x)=a\\cdot b^{x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f_2(x)=a\\cdot x+b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f_3(x)=a\\cdot\\sin(b\\cdot x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f_4(x)=a\\cdot x^{3}+b"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: kein Monotoniewechsel; konstante Steigung; kein Krümmungswechsel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: genau eine lokale Extremstelle x₀; symmetrisch zur Geraden x = x₀; maximal zwei Nullstellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: unendlich viele lokale Extremstellen; unendlich viele Wendestellen; keine Asymptote"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: nur für x ∈ [0; ∞) definierbar; überall rechtsgekrümmt (negativ gekrümmt); keine lokalen Extrem- oder Wendestellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: keine lokale Extremstelle; genau eine Nullstelle; genau eine Wendestelle"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: kein Monotoniewechsel; die x-Achse ist Asymptote; kein Krümmungswechsel"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_813",
+      "baseId": "1_813",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/601/Eigenschaften%20von%20Funktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind vier Funktionsgleichungen der reellen Funktionen f₁ bis f₄ (mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b<1"
+    },
+    {
+      "t": "text",
+      "v": ") und sechs Listen mit Eigenschaften von Funktionen."
+    }
+  ]
+}

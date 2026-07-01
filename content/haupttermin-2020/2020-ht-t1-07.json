@@ -1,0 +1,104 @@
+{
+  "id": "2020-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2020h1]t1-7-fa.pdf"
+  },
+  "title": "Kostenfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_764a",
+          "baseId": "1_764",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/548/Kostenfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-07-sol.png",
+              "alt": "Lösung: Graph von K, beginnend bei (0 | 10), streng monoton steigend, mit Wendestelle bei x₁ (zuerst rechtsgekrümmt, dann linksgekrümmt)."
+            }
+          ],
+          "note": "Ein Punkt für die Darstellung des Graphen einer solchen Funktion K, der folgende Bedingungen erfüllt: Er muss im Punkt (0 | 10) beginnen. Er muss im Intervall [0; x₂] streng monoton steigend sein. Er muss an der Stelle x₁ eine Wendestelle aufweisen. Er muss im Intervall (0; x₁) rechtsgekrümmt und im Intervall (x₁; x₂) linksgekrümmt sein."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem den Verlauf des Graphen einer solchen Kostenfunktion K."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-07-q.png",
+          "alt": "Leeres Koordinatensystem; x-Achse 'x in ME' mit den markierten Stellen x₁ und x₂, K(x)-Achse 'K(x) in GE' von 0 bis 30 (Skalenstriche 5, 10, 15, 20, 25, 30)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Graph einer Funktion K, der folgende Bedingungen erfüllt:\n- Er muss im Punkt (0 | 10) beginnen.\n- Er muss im Intervall [0; x₂] streng monoton steigend sein.\n- Er muss an der Stelle x₁ eine Wendestelle aufweisen.\n- Er muss im Intervall (0; x₁) rechtsgekrümmt und im Intervall (x₁; x₂) linksgekrümmt sein."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_764",
+      "baseId": "1_764",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/548/Kostenfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Gesamtkosten, die bei der Herstellung eines Produkts anfallen, können mithilfe einer differenzierbaren Kostenfunktion K modelliert werden. Dabei ordnet K der Produktionsmenge x die Kosten K(x) zu (x in Mengeneinheiten (ME), K(x) in Geldeinheiten (GE)).\n\nFür eine Kostenfunktion K: [0; x₂] → ℝ und x₁ mit 0 < x₁ < x₂ gelten nachstehende Bedingungen:\n- K ist im Intervall [0; x₂] streng monoton steigend.\n- Die Fixkosten betragen 10 GE.\n- Die Kostenfunktion hat im Intervall [0; x₁) einen degressiven Verlauf, d. h., die Kosten steigen bei zunehmender Produktionsmenge immer schwächer.\n- Bei der Produktionsmenge x₁ liegt die Kostenkehre. Die Kostenkehre von K ist diejenige Stelle, ab der die Kosten immer stärker steigen."
+    }
+  ]
+}

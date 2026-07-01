@@ -1,0 +1,94 @@
+{
+  "id": "2021-ht-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2021h1]t1-20-ws.pdf"
+  },
+  "title": "Gehälter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-20-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_849a",
+          "baseId": "1_849",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/642/Gehaelter.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "höchstmögliches Gehalt: € 1.500"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Gehalts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem kleinen Betrieb arbeiten sieben Personen. Nachstehend sind deren monatliche Gehälter angegeben: € 1.500, € 2.300, € 1.500, € 1.400, € 4.500, € 2.200, € 1.300.\n\nEs wird eine weitere Person eingestellt, wodurch sich der Median der Gehälter nicht verändert.\n\nGeben Sie unter dieser Voraussetzung das höchstmögliche Gehalt dieser weiteren Person an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "gehalt",
+            "label": "höchstmögliches Gehalt",
+            "value": 1500,
+            "tol": 1e-9,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_849",
+      "baseId": "1_849",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/642/Gehaelter.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

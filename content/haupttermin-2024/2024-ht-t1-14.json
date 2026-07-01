@@ -1,0 +1,182 @@
+{
+  "id": "2024-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2024h1]t1-14-an.pdf"
+  },
+  "title": "Bewegung eines Radfahrers",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-14-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1353a",
+          "baseId": "1_1353",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/905/1_1353_srdp_ma_Bewegung%20eines%20Radfahrers_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① die momentane Beschleunigung zum Zeitpunkt t = 2;  ② die durchschnittliche Geschwindigkeit im Zeitintervall [t₁; t₂]."
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Der Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\lim_{t\\to 2}\\dfrac{s'(t)-s'(2)}{t-2}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt ① und der Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{s(t_2)-s(t_1)}{t_2-t_1}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "die momentane Beschleunigung zum Zeitpunkt t = 2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die momentane Geschwindigkeit zum Zeitpunkt t = 2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "den bis zum Zeitpunkt t = 2 zurückgelegten Weg"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die durchschnittliche Beschleunigung im Zeitintervall [t₁; t₂]"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die durchschnittliche Geschwindigkeit im Zeitintervall [t₁; t₂]"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "den im Zeitintervall [t₁; t₂] zurückgelegten Weg"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1353",
+      "baseId": "1_1353",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/905/1_1353_srdp_ma_Bewegung%20eines%20Radfahrers_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Polynomfunktion s beschreibt näherungsweise den zurückgelegten Weg eines Radfahrers in Abhängigkeit von der Zeit t (t in h, s(t) in km)."
+    }
+  ]
+}

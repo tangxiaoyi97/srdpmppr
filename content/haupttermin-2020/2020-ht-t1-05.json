@@ -1,0 +1,133 @@
+{
+  "id": "2020-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2020h1]t1-5-ag.pdf"
+  },
+  "title": "Skalierung der Koordinatenachsen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_762a",
+          "baseId": "1_762",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/546/Skalierung%20der%20Koordinatenachsen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a = 1"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b = 2"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte. Ist nur einer der angegebenen Werte richtig, ist ein halber Punkt zu geben."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 1,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 2,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_762",
+      "baseId": "1_762",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/546/Skalierung%20der%20Koordinatenachsen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachstehenden Koordinatensystem, dessen Achsen unterschiedlich skaliert sind, ist eine Gerade g dargestellt. Auf der x-Achse ist a und auf der y-Achse ist b markiert. Dabei sind a und b ganzzahlig.\nDie Gerade g wird durch "
+    },
+    {
+      "t": "math",
+      "v": "y = -2\\cdot x + 4"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-05-q.png",
+      "alt": "Koordinatensystem mit unterschiedlich skalierten Achsen; eine fallende Gerade g; auf der x-Achse ist der Wert a, auf der y-Achse der Wert b markiert."
+    },
+    {
+      "t": "text",
+      "v": "Geben Sie a und b an."
+    }
+  ]
+}

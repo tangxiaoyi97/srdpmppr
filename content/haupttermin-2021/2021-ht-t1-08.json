@@ -1,0 +1,208 @@
+{
+  "id": "2021-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2021h1]t1-8-fa.pdf"
+  },
+  "title": "Funktionstypen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-08-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 1.9",
+          "description": "einen Überblick über die wichtigsten (unten angeführten) Typen mathematischer Funktionen geben, ihre Eigenschaften vergleichen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_837a",
+          "baseId": "1_837",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/630/Funktionstypen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "lineare Funktion → E, quadratische Funktion → B, Exponentialfunktion → D, Sinusfunktion → A."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind vier Funktionstypen sowie sechs Wertetabellen der Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "f_1"
+        },
+        {
+          "t": "text",
+          "v": " bis "
+        },
+        {
+          "t": "math",
+          "v": "f_6"
+        },
+        {
+          "t": "text",
+          "v": ", die jeweils einem bestimmten Funktionstyp angehören. Die Funktionswerte von "
+        },
+        {
+          "t": "math",
+          "v": "f_1"
+        },
+        {
+          "t": "text",
+          "v": " sind auf zwei Dezimalstellen gerundet.\n\nWertetabellen (Spalten: "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " von −2 bis 2):\nA: −0,91; −0,84; 0; 0,84; 0,91\nB: 8; 2; 0; 2; 8\nC: −7; −1; 0; 1; 9\nD: 0,25; 0,5; 1; 2; 4\nE: −3; −1; 1; 3; 5\nF: −0,5; −1; nicht definiert; 1; 0,5\n\nOrdnen Sie jedem der vier angegebenen Funktionstypen jeweils die entsprechende Wertetabelle (aus A bis F) zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "quadratische Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Sinusfunktion"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_837",
+      "baseId": "1_837",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/630/Funktionstypen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

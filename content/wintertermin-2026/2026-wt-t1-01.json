@@ -1,0 +1,182 @@
+{
+  "id": "2026-wt-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2026w1]t1-1-fa.pdf"
+  },
+  "title": "Zahlenmengen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-1-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-1-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-01-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1567a",
+          "baseId": "1_1567",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1080/1_1567_srdp_ma_Zahlenmengen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\mathbb{N}\\to C,\\quad \\mathbb{Z}\\setminus\\mathbb{N}\\to D,\\quad \\mathbb{Q}\\setminus\\mathbb{Z}\\to F,\\quad \\mathbb{C}\\setminus\\mathbb{R}\\to E"
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Zahlenmengen jeweils diejenige Zahl aus A bis F zu, die in dieser Zahlenmenge enthalten ist."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{N}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{Z}\\setminus\\mathbb{N}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{Q}\\setminus\\mathbb{Z}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\mathbb{C}\\setminus\\mathbb{R}"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{\\pi}{4}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{20}{5}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-\\sqrt{169}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot i"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1{,}\\dot{4}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1567",
+      "baseId": "1_1567",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1080/1_1567_srdp_ma_Zahlenmengen_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Folgenden sind vier Zahlenmengen und sechs Zahlen angegeben."
+    }
+  ]
+}

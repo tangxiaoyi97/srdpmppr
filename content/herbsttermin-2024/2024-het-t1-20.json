@@ -1,0 +1,128 @@
+{
+  "id": "2024-het-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2024h2]t1-20-ws.pdf"
+  },
+  "title": "Statistische Kennzahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-20-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1383a",
+          "baseId": "1_1383",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/939/1_1383_srdp_ma_Statistische%20Kennzahlen_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Zahl x₃ ist das 1. Quartil q₁ der Datenliste.“ und „Die Summe der Zahlen x₁, ... , x₁₀ ist 10-mal so groß wie das arithmetische Mittel der Datenliste.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl x₇ ist das 3. Quartil q₃ der Datenliste."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl x₃ ist das 1. Quartil q₁ der Datenliste."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Summe der Zahlen x₁, ... , x₁₀ ist 10-mal so groß wie das arithmetische Mittel der Datenliste."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das arithmetische Mittel der Datenliste ist in jedem Fall kleiner als x₉."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl x₅ ist der Median der Datenliste."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1383",
+      "baseId": "1_1383",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/939/1_1383_srdp_ma_Statistische%20Kennzahlen_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Datenliste x₁, x₂, ... , x₁₀ besteht aus 10 verschiedenen Zahlen und ist aufsteigend geordnet."
+    }
+  ]
+}

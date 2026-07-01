@@ -1,0 +1,671 @@
+{
+  "id": "2021-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2021h1]t2-3.pdf"
+  },
+  "title": "Zeit-Geschwindigkeit-Diagramm",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_103a",
+          "baseId": "2_103",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/649/Zeit-Geschwindigkeit-Diagramm.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;\\,6]"
+        },
+        {
+          "t": "text",
+          "v": " legt PKW A eine Strecke von 36 m zurück.\nIm Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;\\,t_1]"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "6\\le t_1\\le 10"
+        },
+        {
+          "t": "text",
+          "v": " legt PKW A eine Strecke mit der Länge "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " zurück ("
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " in m).\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        },
+        {
+          "t": "math",
+          "v": "d="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "36+12\\cdot(t1-6)",
+        "vars": [
+          "t1"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "d=36+\\int_{6}^{t_1} v_2(t)\\,dt"
+            },
+            {
+              "t": "text",
+              "v": "  oder:  "
+            },
+            {
+              "t": "math",
+              "v": "d=36+12\\cdot(t_1-6)"
+            }
+          ],
+          "note": "a1) Ein Punkt für das Angeben der richtigen Formel."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_103a",
+          "baseId": "2_103",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/649/Zeit-Geschwindigkeit-Diagramm.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;\\,10]"
+        },
+        {
+          "t": "text",
+          "v": " legt PKW A eine längere Strecke als PKW B zurück.\n\nBerechnen Sie, um wie viele Meter diese Strecke länger ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "diff",
+            "value": 44,
+            "tol": 1e-9,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "36+12\\cdot 4-\\int_{0}^{10} 0{,}12\\cdot t^2\\,dt=44"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Strecke ist um 44 m länger."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_103b",
+          "baseId": "2_103",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/649/Zeit-Geschwindigkeit-Diagramm.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für PKW A gilt:\n- Zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=6"
+        },
+        {
+          "t": "text",
+          "v": " beträgt die Geschwindigkeit 12 m/s.\n- Zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " beträgt die Beschleunigung 0 m/s².\n- Zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=3"
+        },
+        {
+          "t": "text",
+          "v": " hat die Beschleunigung ihren maximalen Wert.\n\nFür die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "v_1\\colon[0;\\,6]\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " gilt:"
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)=p\\cdot t^3+q\\cdot t^2+r\\cdot t\\ \\text{für alle}\\ t\\in[0;\\,6]\\ \\text{mit}\\ p,\\,q,\\,r\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie ein Gleichungssystem mit 3 Gleichungen auf, mit dem die Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "q"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden können."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Aufzustellen ist ein Gleichungssystem mit drei Gleichungen, z. B.:  "
+          },
+          {
+            "t": "math",
+            "v": "\\text{I: } v_1(6)=12"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "\\text{II: } v_1'(0)=0"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "\\text{III: } v_1''(3)=0"
+          },
+          {
+            "t": "text",
+            "v": ".  Konkret:  "
+          },
+          {
+            "t": "math",
+            "v": "216p+36q+6r=12"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "r=0"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "18p+2q=0"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 3,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\text{I: } v_1(6)=12"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\text{II: } v_1'(0)=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\text{III: } v_1''(3)=0"
+            },
+            {
+              "t": "text",
+              "v": "  bzw.  "
+            },
+            {
+              "t": "math",
+              "v": "216p+36q+6r=12"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "r=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "18p+2q=0"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen des Gleichungssystems mit drei Gleichungen, ein halber Punkt für nur zwei richtige Gleichungen."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_103c",
+          "baseId": "2_103",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/649/Zeit-Geschwindigkeit-Diagramm.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Beschleunigung von PKW B wird im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;\\,10]"
+        },
+        {
+          "t": "text",
+          "v": " durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "a_3"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben ("
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in s, "
+        },
+        {
+          "t": "math",
+          "v": "a_3(t)"
+        },
+        {
+          "t": "text",
+          "v": " in m/s²).\n\nZeichnen Sie im nachstehenden Koordinatensystem den Graphen der Beschleunigungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "a_3"
+        },
+        {
+          "t": "text",
+          "v": " ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-03-c1-q.png",
+          "alt": "Leeres Koordinatensystem mit a3(t) in m/s² (−1 bis 6) über t in s (0 bis 10)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Einzuzeichnen ist der Graph der Beschleunigungsfunktion "
+          },
+          {
+            "t": "math",
+            "v": "a_3(t)=v_3'(t)=0{,}24\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": ", also eine durch den Ursprung verlaufende Gerade mit Steigung 0,24 (von "
+          },
+          {
+            "t": "math",
+            "v": "(0\\mid 0)"
+          },
+          {
+            "t": "text",
+            "v": " bis "
+          },
+          {
+            "t": "math",
+            "v": "(10\\mid 2{,}4)"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [],
+          "result": [
+            {
+              "t": "text",
+              "v": "Graph der linearen Funktion "
+            },
+            {
+              "t": "math",
+              "v": "a_3(t)=0{,}24\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": " (durch den Ursprung, Steigung 0,24)."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Einzeichnen des Graphen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_103",
+      "baseId": "2_103",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/649/Zeit-Geschwindigkeit-Diagramm.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeiten von 2 PKWs (PKW A und PKW B) werden als Funktionen in Abhängigkeit von der Zeit modelliert. Im unten stehenden Zeit-Geschwindigkeit-Diagramm sind die zugehörigen Graphen dargestellt. Die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " wird in Sekunden angegeben, die Geschwindigkeiten werden in m/s angegeben.\n\nPKW A und PKW B starten zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " aus dem Stillstand. Sie haben beide zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=10"
+    },
+    {
+      "t": "text",
+      "v": " eine Geschwindigkeit von 12 m/s.\n\nPKW A bewegt sich für "
+    },
+    {
+      "t": "math",
+      "v": "t\\in[0;\\,6]"
+    },
+    {
+      "t": "text",
+      "v": " mit der Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v_1(t)"
+    },
+    {
+      "t": "text",
+      "v": " und für "
+    },
+    {
+      "t": "math",
+      "v": "t\\in[6;\\,10]"
+    },
+    {
+      "t": "text",
+      "v": " mit der konstanten Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v_2(t)"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nPKW B bewegt sich für "
+    },
+    {
+      "t": "math",
+      "v": "t\\in[0;\\,10]"
+    },
+    {
+      "t": "text",
+      "v": " mit der Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v_3(t)=0{,}12\\cdot t^2"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-03-q.png",
+      "alt": "Zeit-Geschwindigkeit-Diagramm mit v1(t), v2(t), v3(t) in m/s (0 bis 14) über t in s (0 bis 10); v1 steigt von (0|0) bis (6|12), v2 konstant 12 für t in [6;10], v3 = 0,12·t² steigt von (0|0) bis (10|12)."
+    }
+  ]
+}

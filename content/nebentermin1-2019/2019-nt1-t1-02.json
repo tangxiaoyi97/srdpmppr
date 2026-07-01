@@ -1,0 +1,121 @@
+{
+  "id": "2019-nt1-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2019n1]t1-2-fa.pdf"
+  },
+  "title": "Lineares Gleichungssystem",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-2-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-2-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_711a",
+          "baseId": "1_711",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/450/Lineares%20Gleichungssystem.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=14"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=8"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Werte der Parameter a und b so, dass für die Lösungsmenge des Gleichungssystems L = {(2; –2)} ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 14,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 8,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_711",
+      "baseId": "1_711",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/450/Lineares%20Gleichungssystem.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist ein lineares Gleichungssystem in den Variablen x₁ und x₂. Es gilt: a, b ∈ ℝ."
+    },
+    {
+      "t": "math",
+      "v": "\\text{I: } 3\\cdot x_1-4\\cdot x_2=a"
+    },
+    {
+      "t": "math",
+      "v": "\\text{II: } b\\cdot x_1+x_2=a"
+    }
+  ]
+}

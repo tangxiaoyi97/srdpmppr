@@ -1,0 +1,120 @@
+{
+  "id": "2021-nt2-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2021n2]t1-22-ws.pdf"
+  },
+  "title": "Defekte Geräte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_827a",
+          "baseId": "1_827",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/615/defekte%20Geraete.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "20=n\\cdot 0{,}025"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n=800"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Umfang n der Zufallsstichprobe."
+        },
+        {
+          "t": "math",
+          "v": "n="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 800
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_827",
+      "baseId": "1_827",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/615/defekte%20Geraete.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Erfahrungsgemäß sind 2,5 % der Geräte, die von einem bestimmten Unternehmen geliefert werden, defekt. Die binomialverteilte Zufallsvariable X gibt die Anzahl der defekten Geräte in einer Zufallsstichprobe vom Umfang n an. Für den Erwartungswert gilt: "
+    },
+    {
+      "t": "math",
+      "v": "E(X)=20"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

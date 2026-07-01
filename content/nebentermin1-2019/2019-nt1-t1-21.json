@@ -1,0 +1,103 @@
+{
+  "id": "2019-nt1-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2019n1]t1-21-ws.pdf"
+  },
+  "title": "Ziehungswahrscheinlichkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-21-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_730a",
+          "baseId": "1_730",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/469/Ziehungswahrscheinlichkeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\tfrac{2}{5}\\cdot\\tfrac{1}{4}+\\tfrac{3}{5}\\cdot\\tfrac{1}{2}=\\tfrac{2}{5}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Wahrscheinlichkeit p an."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_730",
+      "baseId": "1_730",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/469/Ziehungswahrscheinlichkeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Behälter befinden sich fünf Kugeln. Zwei Kugeln werden nacheinander ohne Zurücklegen gezogen (dabei wird angenommen, dass jede Ziehung von zwei Kugeln die gleiche Wahrscheinlichkeit hat). Zwei der fünf Kugeln im Behälter sind blau, die anderen Kugeln sind rot. Mit p wird die Wahrscheinlichkeit bezeichnet, beim zweiten Zug eine blaue Kugel zu ziehen."
+    }
+  ]
+}

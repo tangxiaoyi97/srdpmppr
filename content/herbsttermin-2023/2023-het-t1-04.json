@@ -1,0 +1,125 @@
+{
+  "id": "2023-het-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2023h2]t1-4-ag.pdf"
+  },
+  "title": "Quader",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1295a",
+          "baseId": "1_1295",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/839/1_1295_srdp_ma_Quader_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec{DF}=\\begin{pmatrix} 2 \\\\ -3 \\\\ 4 \\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Koordinaten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Koordinaten des Vektors "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{DF}"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        },
+        {
+          "t": "math",
+          "v": "\\vec{DF}=\\begin{pmatrix} \\phantom{0} \\\\ \\phantom{0} \\\\ \\phantom{0} \\end{pmatrix}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 2,
+            "tol": 1e-9
+          },
+          {
+            "id": "y",
+            "value": -3,
+            "tol": 1e-9
+          },
+          {
+            "id": "z",
+            "value": 4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1295",
+      "baseId": "1_1295",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/839/1_1295_srdp_ma_Quader_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist ein Quader ABCDEFGH in einem dreidimensionalen Koordinatensystem dargestellt. Die Längen der Kanten des Quaders können aus der Abbildung entnommen werden (Angaben in Zentimetern)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t1-04-q.png",
+      "alt": "Quader ABCDEFGH in einem dreidimensionalen Koordinatensystem (x, y, z). Kantenlängen laut Abbildung: 3 cm in x-Richtung, 2 cm in y-Richtung, 4 cm in z-Richtung."
+    }
+  ]
+}

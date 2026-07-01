@@ -1,0 +1,124 @@
+{
+  "id": "2019-nt2-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2019n2]t1-6-ag.pdf"
+  },
+  "title": "Viereck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-06-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_667a",
+          "baseId": "1_667",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/396/Viereck.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Winkel φ wird bei C zwischen der Seite c (DC) und der Diagonale eingezeichnet (so dass im rechtwinkeligen Teildreieck die Gegenkathete d − b und die Hypotenuse c ist)."
+            }
+          ],
+          "note": "Ein Punkt für das Einzeichnen eines richtigen Winkels φ."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der obigen Abbildung einen Winkel φ ein, für den "
+        },
+        {
+          "t": "math",
+          "v": "\\sin(\\varphi)=\\dfrac{d-b}{c}"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es ist ein Winkel φ einzuzeichnen, für den "
+          },
+          {
+            "t": "math",
+            "v": "\\sin(\\varphi)=\\dfrac{d-b}{c}"
+          },
+          {
+            "t": "text",
+            "v": " gilt. Ein Punkt für das Einzeichnen eines richtigen Winkels φ."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Einzeichnen eines richtigen Winkels φ.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_667",
+      "baseId": "1_667",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/396/Viereck.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist das nachstehende Viereck ABCD mit den Seitenlängen a, b, c und d."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-06-q.png",
+      "alt": "Viereck ABCD mit Eckpunkt D oben links, C rechts, A unten links, B unten rechts; Seite a = AB unten, b von B nach C, c von D nach C, d von D nach A."
+    }
+  ]
+}

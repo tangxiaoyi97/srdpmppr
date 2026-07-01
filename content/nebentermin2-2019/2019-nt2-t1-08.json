@@ -1,0 +1,127 @@
+{
+  "id": "2019-nt2-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2019n2]t1-8-an.pdf"
+  },
+  "title": "Kosten und Erlös",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-08-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.6",
+          "description": "Schnittpunkte zweier Funktionsgraphen grafisch und rechnerisch ermitteln und im Kontext interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_669a",
+          "baseId": "1_669",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/398/Kosten%20und%20Erl%C3%B6s.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation: Bei einer Produktionsmenge von 500 Mengeneinheiten sind die Kosten und der Erlös jeweils € 5.000."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Interpretation beider Koordinaten des Schnittpunkts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Koordinaten 500 und 5 000 des Schnittpunkts S im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation: Bei einer Produktionsmenge von 500 Mengeneinheiten sind die Kosten und der Erlös jeweils € 5.000."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Interpretation beider Koordinaten des Schnittpunkts.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_669",
+      "baseId": "1_669",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/398/Kosten%20und%20Erl%C3%B6s.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für ein Produkt sind die Kostenfunktion K mit "
+    },
+    {
+      "t": "math",
+      "v": "K(x)=2\\cdot x+4\\,000"
+    },
+    {
+      "t": "text",
+      "v": " und die Erlösfunktion E mit "
+    },
+    {
+      "t": "math",
+      "v": "E(x)=10\\cdot x"
+    },
+    {
+      "t": "text",
+      "v": " bekannt, wobei x die Anzahl der produzierten Mengeneinheiten ist und alle produzierten Mengeneinheiten verkauft werden. Kosten und Erlös werden jeweils in Euro angegeben.\nDer Schnittpunkt der beiden Funktionsgraphen ist "
+    },
+    {
+      "t": "math",
+      "v": "S=(500\\,|\\,5\\,000)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

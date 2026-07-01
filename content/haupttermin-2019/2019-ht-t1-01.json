@@ -1,0 +1,152 @@
+{
+  "id": "2019-ht-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2019h1]t1-1-ag.pdf"
+  },
+  "title": "Rechenoperationen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_686a",
+          "baseId": "1_686",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/419/Rechenoperationen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "b:a"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Berechnungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Berechnungen haben stets eine natürliche Zahl als Ergebnis?\n\nKreuzen Sie die beiden zutreffenden Berechnungen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "a+b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b:a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a:b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b-a"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_686",
+      "baseId": "1_686",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/419/Rechenoperationen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für zwei ganze Zahlen a, b mit a < 0 und b < 0 gilt: "
+    },
+    {
+      "t": "math",
+      "v": "b=2\\cdot a"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

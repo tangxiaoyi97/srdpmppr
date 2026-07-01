@@ -1,0 +1,144 @@
+{
+  "id": "2022-het-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2022h2]t1-3-ag.pdf"
+  },
+  "title": "Schulwechsel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-03-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1222a",
+          "baseId": "1_1222",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/752/Schulwechsel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "k+m=3\\cdot m"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "m=k-47"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Gleichungen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "k+m=3\\cdot m"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=2\\cdot m-47"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "m=k-47"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=3\\cdot m"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3\\cdot k-m=47"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1222",
+      "baseId": "1_1222",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/752/Schulwechsel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einer bestimmten allgemeinbildenden höheren Schule (AHS) beschließen gegen Ende der 8. Schulstufe k Schüler/innen, an dieser Schule die Oberstufe zu besuchen. Alle übrigen m Schüler/innen beschließen, an eine berufsbildende höhere Schule (BHS) zu wechseln.\nDabei gilt:\n- Ein Drittel der Schüler/innen dieser 8. Schulstufe wechselt an eine BHS.\n- Die Anzahl derjenigen Schüler/innen, die an dieser Schule die Oberstufe besuchen, ist um 47 größer als die Anzahl derer, die an eine BHS wechseln."
+    }
+  ]
+}

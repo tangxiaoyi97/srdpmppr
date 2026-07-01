@@ -1,0 +1,106 @@
+{
+  "id": "2020-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2020h1]t1-13-an.pdf"
+  },
+  "title": "Absolute und relative Änderung einer Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_770a",
+          "baseId": "1_770",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/554/Absolute%20und%20relative%20%C3%84nderung%20einer%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A = R\\cdot f(a)"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung an, die den Zusammenhang zwischen A und R beschreibt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine richtige Gleichung, z. B.: "
+          },
+          {
+            "t": "math",
+            "v": "A = R\\cdot f(a)"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_770",
+      "baseId": "1_770",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/554/Absolute%20und%20relative%20%C3%84nderung%20einer%20Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die absolute Änderung einer Funktion f: ℝ → ℝ in einem Intervall [a; b] wird mit A bezeichnet, die relative Änderung von f im Intervall [a; b] wird mit R bezeichnet. Dabei gilt: f(a) ≠ 0 und a < b."
+    }
+  ]
+}

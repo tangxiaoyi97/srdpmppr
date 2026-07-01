@@ -1,0 +1,457 @@
+{
+  "id": "2020-nt2-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2020n2]t2-4.pdf"
+  },
+  "title": "E-Book",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060a",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie für den geschätzten Umsatz pro Nutzer in Deutschland die absolute und die relative Änderung für den Zeitraum von 2015 bis 2020.\n\nabsolute Änderung: €\n\nrelative Änderung:"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abs",
+            "label": "absolute Änderung",
+            "value": 45.5,
+            "tol": 1.5,
+            "unit": "€"
+          },
+          {
+            "id": "rel",
+            "label": "relative Änderung",
+            "value": 0.915,
+            "tol": 0.035
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Umsatz pro Nutzer 2015: rund € 49,86; Umsatz pro Nutzer 2020: rund € 95,49.\nabsolute Änderung: € 45,63\nrelative Änderung: 0,9155"
+            }
+          ],
+          "note": "a1) Ein Punkt für die Angabe der beiden richtigen Werte. Andere Schreibweisen der Lösungen sind ebenfalls als richtig zu werten. Toleranzintervall für die absolute Änderung: [44; 47] Toleranzintervall für die relative Änderung: [0,88; 0,95]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-04-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060a",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Differenzenquotienten des geschätzten Umsatzes pro Nutzer in Deutschland für den Zeitraum von 2015 bis 2020."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dq",
+            "value": 9.15,
+            "tol": 0.25,
+            "unit": "€/Jahr"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Differenzenquotient für das Intervall [2015; 2020]: rund € 9,13 pro Jahr"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung. Toleranzintervall: [8,90; 9,40]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-04-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060b",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die geschätzte Steigerung des Umsatzes im Markt für E-Books von 349 Millionen Euro im Jahr 2015 auf 869 Millionen Euro im Jahr 2020 wird in der oben angeführten Quelle wie folgt beschrieben:\n\n„20 Prozent Wachstum pro Jahr“\n\nGeben Sie an, wie die Umsatzschätzung U(2017) für das Jahr 2017 hätte lauten müssen, wenn der Umsatz ausgehend vom Schätzwert von 2015 tatsächlich jährlich um 20 % zugenommen hätte.\n\nU(2017) ="
+        },
+        {
+          "t": "text",
+          "v": "Millionen Euro"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "U2017",
+            "label": "U(2017)",
+            "value": 502.5,
+            "tol": 0.5,
+            "unit": "Millionen Euro"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "U(2017)=U(2015)\\cdot 1{,}2^{2}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "U(2017)=502{,}56\\ \\text{Millionen Euro}"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [502 Millionen Euro; 503 Millionen Euro]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060b",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand beschreibt die geschätzte Steigerung des Umsatzes im Markt für E-Books von 349 Millionen Euro im Jahr 2015 auf 869 Millionen Euro im Jahr 2020 wie folgt:\n\n„a Millionen Euro Wachstum pro Jahr“\n\nBerechnen Sie a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 104,
+            "tol": 1e-9,
+            "unit": "Millionen Euro"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\dfrac{869-349}{5}=104"
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060c",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 2015 betrug die Einwohnerzahl von Deutschland ungefähr 82,18 Millionen, jene von Österreich ungefähr 8,58 Millionen. Jemand stellt sich die folgende Frage: „Wie groß ist die Anzahl der Personen aus Österreich, die im Jahr 2015 schon E-Book-Nutzer waren?“\n\nBeantworten Sie diese Frage unter der Annahme, dass Österreich im Jahr 2015 den gleichen (geschätzten) Anteil an E-Book-Nutzern wie Deutschland hatte.\n\nAnzahl: Personen"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "anzahl",
+            "label": "Anzahl",
+            "value": 750000,
+            "tol": 30000,
+            "unit": "Personen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "8{,}58\\cdot\\dfrac{7}{82{,}18}=0{,}7308347\\ldots\\approx 0{,}730835"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Anzahl: 730 835 Personen"
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung. Toleranzintervall: [720 000; 780 000]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-04-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_060c",
+          "baseId": "2_060",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 2020 werden 500 Personen aus Österreich zufällig ausgewählt.\nDie als binomialverteilt angenommene Zufallsvariable X gibt die Anzahl der Personen aus dieser Auswahl an, die E-Book-Nutzer sind. Dabei wird die Wahrscheinlichkeit, dass eine Person E-Book-Nutzer ist, mit 12 % angenommen.\n\nBerechnen Sie die Wahrscheinlichkeit dafür, dass mindestens 50 E-Book-Nutzer in dieser Auswahl sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.925,
+            "tol": 0.025
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "n=500;\\ p=0{,}12"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\ge 50)=0{,}9287\\ldots\\approx 0{,}929"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\ge 50)\\approx 0{,}929"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,90; 0,95]"
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_060",
+      "baseId": "2_060",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/537/E-Book.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Buch in digitaler Form wird als E-Book (von engl. electronic book) bezeichnet.\n\nDie beiden folgenden auf Deutschland bezogenen Grafiken stellen Schätzwerte für die Entwicklung des Markts für E-Books dar:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-04-q1.png",
+      "alt": "Säulendiagramm „Umsatz im Markt für E-Books“ in Millionen Euro: 2015: 349; 2016: 446; 2017: 550; 2018: 659; 2019: 773; 2020: 869."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-04-q2.png",
+      "alt": "Säulendiagramm „Nutzer im Markt für E-Books“ in Millionen: 2015: 7; 2016: 7,8; 2017: 8,2; 2018: 8,5; 2019: 8,8; 2020: 9,1."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://www.e-book-news.de/20-prozent-wachstum-pro-jahr-statista-sieht-deutschen-e-book-markt-im-aufwind/ [19.06.2019] (adaptiert)."
+    }
+  ]
+}

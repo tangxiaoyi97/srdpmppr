@@ -1,0 +1,116 @@
+{
+  "id": "2021-het-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2021h2]t1-3-ag.pdf"
+  },
+  "title": "Körpergröße",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.1",
+          "description": "Vektoren als Zahlentupel verständig einsetzen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_856a",
+          "baseId": "1_856",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/665/Koerpergroesse.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Vektor "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{n}\\cdot(K_2-K_1)"
+            },
+            {
+              "t": "text",
+              "v": " gibt (komponentenweise) für jedes Kind in der Schulklasse die mittlere Zunahme der Körpergröße in cm pro Monat an."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Komponenten des Vektors K₁ geben die Körpergrößen der Kinder einer bestimmten Schulklasse (in cm) zu Beginn eines Schuljahres an.\nDie Komponenten des Vektors K₂ geben die Körpergröße dieser Kinder (in cm) n Monate später an (n ∈ ℕ\\{0}). (Die Körpergrößen sind sowohl in K₁ als auch in K₂ in alphabetischer Reihenfolge der Namen der Kinder geordnet.)\n\nInterpretieren Sie den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\tfrac{1}{n}\\cdot(K_2-K_1)"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{1}{n}\\cdot(K_2-K_1)"
+          },
+          {
+            "t": "text",
+            "v": " gibt (komponentenweise) für jedes Kind in der Schulklasse die mittlere Zunahme der Körpergröße in cm pro Monat an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_856",
+      "baseId": "1_856",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/665/Koerpergroesse.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "2023-wt-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2023w1]t1-10-fa.pdf"
+  },
+  "title": "Kosten eines Betriebs",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-10-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1253a",
+          "baseId": "1_1253",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/785/1_1253_srdp_ma_Kosten%20eines%20Betriebs_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "K(x) = 68\\,000"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "x = 12"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei einer Produktionsmenge von 12 Tonnen sind die Gesamtkosten um € 48.000 höher als die Fixkosten."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Produktionsmenge."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie diejenige Produktionsmenge (in Tonnen), bei der die Gesamtkosten um € 48.000 höher als die Fixkosten sind."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x",
+            "value": 12,
+            "tol": 1e-9,
+            "unit": "t"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1253",
+      "baseId": "1_1253",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/785/1_1253_srdp_ma_Kosten%20eines%20Betriebs_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion K mit "
+    },
+    {
+      "t": "math",
+      "v": "K(x) = 100 \\cdot x^{3} - 1\\,800 \\cdot x^{2} + 11\\,200 \\cdot x + 20\\,000"
+    },
+    {
+      "t": "text",
+      "v": " gibt die Gesamtkosten in Euro an, die für einen Betrieb bei der Erzeugung von x (in Tonnen) eines bestimmten Produkts entstehen."
+    }
+  ]
+}

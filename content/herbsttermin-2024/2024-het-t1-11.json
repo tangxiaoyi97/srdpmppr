@@ -1,0 +1,135 @@
+{
+  "id": "2024-het-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2024h2]t1-11-fa.pdf"
+  },
+  "title": "Gammastrahlung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.6",
+          "description": "die Angemessenheit einer Beschreibung mittels Exponentialfunktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1374a",
+          "baseId": "1_1374",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/930/1_1374_srdp_ma_Gammastrahlung_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Im Intervall [2; 5] wird pro cm mit dem Faktor "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt[3]{\\tfrac{9{,}46}{38{,}94}}=0{,}62397\\ldots"
+            },
+            {
+              "t": "text",
+              "v": " multipliziert. Im Intervall [5; 7] wird pro cm mit dem Faktor "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt[2]{\\tfrac{3{,}69}{9{,}46}}=0{,}62455\\ldots"
+            },
+            {
+              "t": "text",
+              "v": " multipliziert. Damit nimmt in beiden Intervallen die Intensität um rund 38 % pro cm ab."
+            }
+          ],
+          "note": "Andere richtige Berechnungen (z. B. mithilfe der entsprechenden Exponentialfunktion) sind ebenfalls als richtig zu werten. Ein Punkt für das richtige rechnerische Nachweisen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Weisen Sie rechnerisch nach, dass Julians Behauptung richtig ist."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Rechnerischer Nachweis, dass die Intensität annähernd exponentiell abnimmt, z. B. über die Multiplikationsfaktoren pro cm: Im Intervall [2; 5] "
+          },
+          {
+            "t": "math",
+            "v": "\\sqrt[3]{\\tfrac{9{,}46}{38{,}94}}=0{,}62397\\ldots"
+          },
+          {
+            "t": "text",
+            "v": " und im Intervall [5; 7] "
+          },
+          {
+            "t": "math",
+            "v": "\\sqrt[2]{\\tfrac{3{,}69}{9{,}46}}=0{,}62455\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "; in beiden Intervallen nimmt die Intensität um rund 38 % pro cm ab. Andere richtige Berechnungen (z. B. mithilfe der entsprechenden Exponentialfunktion) sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige rechnerische Nachweisen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1374",
+      "baseId": "1_1374",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/930/1_1374_srdp_ma_Gammastrahlung_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Experiment mit einem radioaktiven Präparat wurde die Intensität der Gammastrahlung nach der Durchdringung durch drei Bleiplatten unterschiedlicher Dicke (2 cm, 5 cm bzw. 7 cm) gemessen. Die Ergebnisse sind in der nachstehenden Tabelle ersichtlich.\n\nPlattendicke (in cm) | 2 | 5 | 7\nIntensität (in %) | 38,94 | 9,46 | 3,69\n\nJulian behauptet: „Die Daten lassen darauf schließen, dass die Intensität in Abhängigkeit von der Plattendicke annähernd exponentiell abnimmt.“"
+    }
+  ]
+}

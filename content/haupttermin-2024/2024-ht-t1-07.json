@@ -1,0 +1,157 @@
+{
+  "id": "2024-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2024h1]t1-7-an.pdf"
+  },
+  "title": "Beschleunigung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-07-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1346a",
+          "baseId": "1_1346",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/898/1_1346_srdp_ma_Beschleunigung_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend sind der v(t)-Graph mit linearem Abfall von 2 m/s auf 0 (Abbildung links oben) und der a(t)-Graph mit konstantem Wert −0,4 m/s² (Abbildung links unten)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Abbildungen an."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-q.png",
+          "alt": "Fünf Abbildungen: v(t), a(t), s(t), v(t) und a(t) als mögliche Darstellungen der Bewegung."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "v(t)-Graph: Gerade, die von v(0) = 2 m/s linear auf v(5) = 0 fällt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "a(t)-Graph: Gerade durch den Ursprung (steigend)."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "s(t)-Graph: steigende Gerade."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "v(t)-Graph: von v(0) = 0 linear steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "a(t)-Graph: konstante Gerade bei a = −0,4 m/s²."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1346",
+      "baseId": "1_1346",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/898/1_1346_srdp_ma_Beschleunigung_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Körper bewegt sich im Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;5]"
+    },
+    {
+      "t": "text",
+      "v": " geradlinig mit einer konstanten Beschleunigung und kommt zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=5"
+    },
+    {
+      "t": "text",
+      "v": " zum Stillstand.\n\nFür die Beschleunigung gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a(t)=-0{,}4"
+    },
+    {
+      "t": "text",
+      "v": "\nt ... Zeit in s\na(t) ... Beschleunigung zum Zeitpunkt t in m/s²\nv(t) ... Geschwindigkeit zum Zeitpunkt t in m/s\ns(t) ... zurückgelegter Weg zum Zeitpunkt t in m\n\nIn zwei der unten stehenden Abbildungen wird die Bewegung des Körpers richtig dargestellt."
+    }
+  ]
+}

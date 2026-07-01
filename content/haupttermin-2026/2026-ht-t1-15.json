@@ -1,0 +1,202 @@
+{
+  "id": "2026-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2026h1]t1-15-an.pdf"
+  },
+  "title": "Autofahrt",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-15-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1605a",
+          "baseId": "1_1605",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1125/1_1605_Autofahrt_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "s''(t_1)"
+            },
+            {
+              "t": "text",
+              "v": ";  ② die mittlere Beschleunigung"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine in jedem Fall richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Mit ① wird die Momentanbeschleunigung zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " ermittelt; mit "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{s'(t_1)-s'(0)}{t_1-0}"
+        },
+        {
+          "t": "text",
+          "v": " wird ② im Zeitintervall [0; "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": "] ermittelt."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "s'(t_1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s''(t_1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "s'''(t_1)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die mittlere Beschleunigung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die mittlere Geschwindigkeit"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "der zurückgelegte Weg"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1605",
+      "baseId": "1_1605",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1125/1_1605_Autofahrt_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Mara fährt mit dem Auto. Der dabei von ihr im Zeitintervall [0; 4] zurückgelegte Weg in Abhängigkeit von der Zeit kann näherungsweise durch eine Polynomfunktion s beschrieben werden.\nt ... Zeit in h mit t = 0 für den Beginn der Autofahrt\ns(t) ... bis zum Zeitpunkt t zurückgelegter Weg in km\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "0<t_1<4"
+    }
+  ]
+}

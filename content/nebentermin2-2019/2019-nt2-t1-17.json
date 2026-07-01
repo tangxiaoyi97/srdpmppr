@@ -1,0 +1,185 @@
+{
+  "id": "2019-nt2-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2019n2]t1-17-an.pdf"
+  },
+  "title": "Untersumme und Obersumme",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_678a",
+          "baseId": "1_678",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/407/Untersumme%20und%20Obersumme.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend sind die beiden Abbildungen, bei denen die Beziehung "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{-a}^{a} f(x)\\,dx=\\dfrac{O+U}{2}"
+            },
+            {
+              "t": "text",
+              "v": " erfüllt ist (vgl. Lösungserwartung)."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Funktionsgraphen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für zwei Funktionen, deren Graph nachstehend abgebildet ist, gilt bei konstanter Rechteckbreite im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[-a; a]"
+        },
+        {
+          "t": "text",
+          "v": " die Beziehung "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-a}^{a} f(x)\\,dx=\\dfrac{O+U}{2}"
+        },
+        {
+          "t": "text",
+          "v": ".\nKreuzen Sie die beiden Abbildungen an, bei denen die gegebene Beziehung erfüllt ist!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 1"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-1.png",
+              "alt": "Abbildung 1: Graph einer Funktion f mit Unter- und Obersumme im Intervall [-a; a]."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 2"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-2.png",
+              "alt": "Abbildung 2: Graph einer Funktion f mit Unter- und Obersumme im Intervall [-a; a]."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 3"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-3.png",
+              "alt": "Abbildung 3: Graph einer Funktion f mit Unter- und Obersumme im Intervall [-a; a]."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 4"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-4.png",
+              "alt": "Abbildung 4: Graph einer Funktion f mit Unter- und Obersumme im Intervall [-a; a]."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Abbildung 5"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-5.png",
+              "alt": "Abbildung 5: Graph einer Funktion f mit Unter- und Obersumme im Intervall [-a; a]."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_678",
+      "baseId": "1_678",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/407/Untersumme%20und%20Obersumme.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den nachstehenden Abbildungen sind jeweils der Graph einer Funktion f sowie eine Untersumme U (= Summe der Flächeninhalte der dunkel markierten, gleich breiten Rechtecke) und eine Obersumme O (= Summe der Flächeninhalte der dunkel und hell markierten, gleich breiten Rechtecke) im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[-a; a]"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    }
+  ]
+}

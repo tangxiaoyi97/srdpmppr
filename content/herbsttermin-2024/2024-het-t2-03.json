@@ -1,0 +1,337 @@
+{
+  "id": "2024-het-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2024h2]t2-3.pdf"
+  },
+  "title": "Tauchen im Grundlsee",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_143a",
+          "baseId": "2_143",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/946/2_143_srdp_ma_Tauchen%20im%20Grundlsee_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der auf eine Taucherin bzw. einen Taucher einwirkende Gesamtdruck ist die Summe des Luftdrucks an der Wasseroberfläche und des Wasserdrucks.\n\nMia macht einen Tauchgang. Der dabei auf Mia einwirkende Gesamtdruck in Abhängigkeit von der Tauchtiefe d wird modellhaft durch die lineare Funktion p beschrieben.\nd ... Tauchtiefe in m\np(d) ... Gesamtdruck bei der Tauchtiefe d in Millibar (mbar)\n\nEs gilt:\n- Der auf Mia einwirkende Gesamtdruck nimmt pro Meter Tauchtiefe um 98 mbar zu.\n- Der Luftdruck an der Wasseroberfläche des Grundlsees beträgt 930 mbar.\n\nStellen Sie eine Funktionsgleichung von p auf."
+        },
+        {
+          "t": "math",
+          "v": "p(d) ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "98*d + 930",
+        "vars": [
+          "d"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p(d) = 98 \\cdot d + 930"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von p."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_143b",
+          "baseId": "2_143",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/946/2_143_srdp_ma_Tauchen%20im%20Grundlsee_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Laurin macht einen Tauchgang und taucht dabei schräg nach unten. Seine Geschwindigkeit in vertikaler Richtung beim Abtauchen wird dabei modellhaft durch die quadratische Funktion "
+        },
+        {
+          "t": "math",
+          "v": "v: [0; 2] \\to \\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben.\n\nDabei gilt: "
+        },
+        {
+          "t": "math",
+          "v": "v(t) = c \\cdot t \\cdot (t-2)"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c \\in \\mathbb{R}\\setminus\\{0\\}"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit ab Beginn des Abtauchens in min\nv(t) ... Geschwindigkeit in vertikaler Richtung zum Zeitpunkt t in m/min\n\nDer Graph von v ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-03-b1-q.png",
+          "alt": "Graph der quadratischen Funktion v auf [0; 2] (nach unten geöffnete Parabel unterhalb der t-Achse); der Bereich zwischen Graph und t-Achse von t = 0 bis t = 1,5 ist grau markiert."
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Flächeninhalt des in der obigen Abbildung grau markierten Bereichs im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Flächeninhalt des grau markierten Bereichs entspricht der Tauchtiefe (bzw. dem in vertikaler Richtung zurückgelegten Weg), die 1,5 Minuten ab Beginn des Abtauchens erreicht wurde. Eine Interpretation als „Länge des zurückgelegten Weges“ ist nicht als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Flächeninhalt des grau markierten Bereichs entspricht der Tauchtiefe, die 1,5 Minuten ab Beginn des Abtauchens erreicht wurde. Oder: Der Flächeninhalt des grau markierten Bereichs entspricht dem 1,5 Minuten ab Beginn des Abtauchens in vertikaler Richtung zurückgelegten Weg."
+            }
+          ],
+          "note": "Eine Interpretation als „Länge des zurückgelegten Weges“ ist nicht als richtig zu werten. b1) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_143b",
+          "baseId": "2_143",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/946/2_143_srdp_ma_Tauchen%20im%20Grundlsee_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Laurin erreicht 2 min nach Beginn des Abtauchens eine Tauchtiefe von 16 m.\n\nErmitteln Sie c."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "c",
+            "label": "c",
+            "value": -12
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "16 = \\int_{0}^{2} v(t)\\,dt = \\int_{0}^{2} c \\cdot t \\cdot (t-2)\\,dt = c \\cdot \\left(-\\tfrac{4}{3}\\right)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "c = -12"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ermitteln von c."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-03-b3",
+      "label": "b3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_143b",
+          "baseId": "2_143",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/946/2_143_srdp_ma_Tauchen%20im%20Grundlsee_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie dasjenige Zeitintervall, in dem Laurins Geschwindigkeit in vertikaler Richtung mindestens 9 m/min beträgt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "interval",
+        "lower": 0.5,
+        "upper": 1.5,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v(t) = 9"
+            },
+            {
+              "t": "text",
+              "v": ". Berechnung mittels Technologieeinsatz: "
+            },
+            {
+              "t": "math",
+              "v": "t_1 = 0{,}5"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "t_2 = 1{,}5"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall [0,5; 1,5] beträgt Laurins Geschwindigkeit in vertikaler Richtung mindestens 9 m/min."
+            }
+          ],
+          "note": "b3) Ein Punkt für das richtige Ermitteln des Zeitintervalls."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_143",
+      "baseId": "2_143",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/946/2_143_srdp_ma_Tauchen%20im%20Grundlsee_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Mia und Laurin machen Urlaub am Grundlsee, um im See zu tauchen."
+    }
+  ]
+}

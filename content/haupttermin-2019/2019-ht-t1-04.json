@@ -1,0 +1,119 @@
+{
+  "id": "2019-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2019h1]t1-4-ag.pdf"
+  },
+  "title": "Eckpunkte eines Quaders",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-04-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_689a",
+          "baseId": "1_689",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/422/Eckpunkte%20eines%20Quaders.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Richtige Zuordnung der Eckpunkte R, S und T im Quader (siehe Lösungsabbildung)."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Zuordnung der drei Eckpunkte R, S und T."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für weitere Eckpunkte R, S und T des Quaders gilt:"
+        },
+        {
+          "t": "math",
+          "v": "R=E+\\overrightarrow{AB}"
+        },
+        {
+          "t": "math",
+          "v": "S=A+\\overrightarrow{AE}+\\overrightarrow{BC}"
+        },
+        {
+          "t": "math",
+          "v": "T=E+\\overrightarrow{BC}-\\overrightarrow{AE}"
+        },
+        {
+          "t": "text",
+          "v": "Beschriften Sie in der oben stehenden Abbildung klar erkennbar die Eckpunkte R, S und T!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "In der Abbildung sind die drei Eckpunkte R, S und T des Quaders richtig zu beschriften: R liegt schräg oberhalb von B (R = E + AB), S liegt schräg oberhalb von C (S = A + AE + BC) und T ist der dem Punkt B gegenüberliegende obere Eckpunkt (T = E + BC − AE)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_689",
+      "baseId": "1_689",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/422/Eckpunkte%20eines%20Quaders.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist ein Quader dargestellt. Die Eckpunkte A, B, C und E sind beschriftet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-04-q.png",
+      "alt": "Quader mit beschrifteten Eckpunkten A (vorne links unten), B (vorne rechts unten), C (hinten rechts unten) und E (vorne links oben)."
+    }
+  ]
+}

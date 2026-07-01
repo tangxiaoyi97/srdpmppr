@@ -1,0 +1,142 @@
+{
+  "id": "2021-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2021h1]t1-18-an.pdf"
+  },
+  "title": "Wasserzufluss",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-18-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_847a",
+          "baseId": "1_847",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/640/Wasserzufluss.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "120 Liter"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Behälter wird innerhalb von 6 Minuten mit Wasser befüllt.\nDie Zuflussrate gibt an, wie viel Liter Wasser pro Minute in den Behälter zufließen. Dabei nimmt die Zuflussrate "
+        },
+        {
+          "t": "math",
+          "v": "Z(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " linear ab.\n\nIn der nachstehenden Abbildung ist der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "Z"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt ("
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Minuten, "
+        },
+        {
+          "t": "math",
+          "v": "Z(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Litern pro Minute). Die gekennzeichneten Punkte haben ganzzahlige Koordinaten."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-18-q.png",
+          "alt": "Koordinatensystem mit Z(t) in Litern pro Minute (0 bis 25) über t in Minuten (0 bis 7); fallende Gerade Z von (0|30) bzw. (1|25)-Bereich linear abnehmend bis (6|10)."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie, wie viele Liter Wasser in diesen 6 Minuten in den Behälter zufließen."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "liter",
+            "value": 120,
+            "tol": 1e-9,
+            "unit": "Liter"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_847",
+      "baseId": "1_847",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/640/Wasserzufluss.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

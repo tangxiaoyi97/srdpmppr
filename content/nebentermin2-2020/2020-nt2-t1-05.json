@@ -1,0 +1,115 @@
+{
+  "id": "2020-nt2-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2020n2]t1-5-ag.pdf"
+  },
+  "title": "Parallele Gerade durch einen Punkt",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_738a",
+          "baseId": "1_738",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/514/Parallele%20Gerade%20durch%20einen%20Punkt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h:\\ X=\\begin{pmatrix}3\\\\-1\\end{pmatrix}+t\\cdot\\begin{pmatrix}3\\\\2\\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Parameterdarstellung der Geraden h, wobei „t ∈ ℝ“ nicht angegeben sein muss. Äquivalente Parameterdarstellungen der Geraden h sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Parameterdarstellung einer zu g parallelen Geraden h durch den Punkt (3 | –1) an."
+        },
+        {
+          "t": "math",
+          "v": "h:\\ X="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine Parameterdarstellung von h durch (3 | –1) mit Richtungsvektor parallel zu g, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "h:\\ X=\\begin{pmatrix}3\\\\-1\\end{pmatrix}+t\\cdot\\begin{pmatrix}3\\\\2\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ". „t ∈ ℝ“ muss nicht angegeben sein. Äquivalente Parameterdarstellungen der Geraden h sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_738",
+      "baseId": "1_738",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/514/Parallele%20Gerade%20durch%20einen%20Punkt.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachstehenden Koordinatensystem ist eine Gerade g abgebildet. Die gekennzeichneten Punkte der Geraden g haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-05-q.png",
+      "alt": "Koordinatensystem mit einer Geraden g, deren gekennzeichnete Punkte ganzzahlige Koordinaten haben; g verläuft mit Richtungsvektor (3 | 2)."
+    }
+  ]
+}

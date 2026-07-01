@@ -1,0 +1,345 @@
+{
+  "id": "2024-wt-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2024w1]t2-2.pdf"
+  },
+  "title": "Passwörter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_134a",
+          "baseId": "2_134",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein bestimmter Computer kann 1 Milliarde Passwörter pro Sekunde überprüfen.\nFür die Überprüfung von nᵏ Passwörtern benötigt der Computer t Stunden.\n\nStellen Sie mithilfe von k und n eine Formel zur Berechnung von t auf."
+        },
+        {
+          "t": "math",
+          "v": "t="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "n^k / (60*60*10^9)",
+        "vars": [
+          "n",
+          "k"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t=\\dfrac{n^{k}}{60\\cdot 60\\cdot 10^{9}}\\quad\\left(=\\dfrac{n^{k}}{3{,}6\\cdot 10^{12}}\\right)"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.8",
+          "description": "durch Gleichungen (Formeln) gegebene Funktionen mit mehreren Veränderlichen im Kontext deuten können, Funktionswerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_134a",
+          "baseId": "2_134",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Diese Formel zur Berechnung von t kann als Funktion in Abhängigkeit von k und n aufgefasst werden.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nIst k konstant, so ist t in Abhängigkeit von n eine ① ; ist n konstant, so ist t in Abhängigkeit von k eine ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Potenzfunktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① Potenzfunktion;  ② Exponentialfunktion"
+            }
+          ],
+          "note": "a2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_134b",
+          "baseId": "2_134",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Passwort für den Zugang auf eine bestimmte Website wird automatisch von einem Zufallsgenerator erzeugt. Der Zufallsgenerator wählt jedes Zeichen unabhängig von den anderen Zeichen und mit gleicher Wahrscheinlichkeit aus 26 Buchstaben und 10 Ziffern aus (n = 36). Die Passwortlänge beträgt 8 Zeichen (k = 8).\n\nBerechnen Sie die Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.074,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\left(\\dfrac{26}{36}\\right)^{8}=0{,}0740\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht, beträgt rund 7,4 %."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht."
+        }
+      ]
+    },
+    {
+      "id": "2024-wt-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_134b",
+          "baseId": "2_134",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.3017,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\left(\\dfrac{26}{36}\\right)^{8}+8\\cdot\\left(\\dfrac{26}{36}\\right)^{7}\\cdot\\dfrac{10}{36}=0{,}3017\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält, beträgt rund 30,2 %."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_134",
+      "baseId": "2_134",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Passwörter bestehen aus Zeichen, die in einer festgelegten Reihenfolge angeordnet sind. Es ist erlaubt, dass in einem Passwort Zeichen mehrfach vorkommen.\n\nDie Anzahl der Stellen eines Passworts wird als Passwortlänge k bezeichnet (k ∈ ℕ, k ≥ 2). Für jede dieser Stellen wird ein Zeichen aus jeweils n verschiedenen Zeichen gewählt (n ∈ ℕ, n ≥ 2).\n\nDie Anzahl A aller möglichen Passwörter kann mithilfe der Formel A = nᵏ berechnet werden."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "2022-wt-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2022w1]t2-1.pdf"
+  },
+  "title": "Krankenstände",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_109a",
+          "baseId": "2_109",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/720/Krankenstaende.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Tabelle ist für das Jahr 2000 und für das Jahr 2015 jeweils die durchschnittliche Dauer der Krankenstände in Tagen angegeben.\n\nJahr | durchschnittliche Dauer der Krankenstände in Tagen\n2000 | 12,6\n2015 | 9,9\n\nMithilfe dieser Daten soll eine lineare Funktion K erstellt werden, die die durchschnittliche Dauer der Krankenstände in Abhängigkeit von der Zeit t ab dem Jahr 2000 beschreibt.\n\nStellen Sie eine Gleichung der linearen Funktion K auf."
+        },
+        {
+          "t": "math",
+          "v": "K(t) ="
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 2000\nK(t) ... durchschnittliche Dauer der Krankenstände zur Zeit t in Tagen"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-0.18\\cdot t+12.6",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(t) = -0{,}18 \\cdot t + 12{,}6"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Gleichung der Funktion K."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_109a",
+          "baseId": "2_109",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/720/Krankenstaende.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird folgende Berechnung durchgeführt:"
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{9{,}9 - 12{,}6}{12{,}6} \\approx -0{,}214"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das Ergebnis dieser Berechnung im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die durchschnittliche Dauer der Krankenstände hat im Zeitraum von 2000 bis 2015 um rund 21,4 % abgenommen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche Dauer der Krankenstände hat im Zeitraum von 2000 bis 2015 um rund 21,4 % abgenommen."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_109b",
+          "baseId": "2_109",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/720/Krankenstaende.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Aus langjähriger Erfahrung ist bekannt, dass im Winter der Angestellte A mit einer Wahrscheinlichkeit von 20 % und der Angestellte B mit einer Wahrscheinlichkeit von 30 % erkrankt.\n\nDabei wird modellhaft angenommen, dass alle Erkrankungen unabhängig voneinander erfolgen.\n\nBeschreiben Sie ein im gegebenen Sachzusammenhang mögliches Ereignis E, dessen Wahrscheinlichkeit mit dem nachstehenden Ausdruck berechnet wird."
+        },
+        {
+          "t": "math",
+          "v": "P(E) = 1 - 0{,}8 \\cdot 0{,}7"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "E ... „mindestens 1 der beiden Angestellten erkrankt in einem Winter“"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "E ... „mindestens 1 der beiden Angestellten erkrankt in einem Winter“"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Beschreiben von E im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_109b",
+          "baseId": "2_109",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/720/Krankenstaende.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass der Angestellte A in höchstens 1 von 5 Wintern erkrankt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "label": "P(X ≤ 1)",
+            "value": 0.73728,
+            "tol": 0.00001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "X ... Anzahl der Winter mit Erkrankungen des Angestellten A; X ist binomialverteilt mit n = 5, p = 0,2.\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X \\le 1) = P(X = 0) + P(X = 1) = 0{,}8^{5} + 5 \\cdot 0{,}8^{4} \\cdot 0{,}2 = 0{,}73728"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X \\le 1) = 0{,}73728"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_109",
+      "baseId": "2_109",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/720/Krankenstaende.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die durchschnittliche Dauer der Krankenstände von Angestellten in einem bestimmten Betrieb ist in den letzten Jahren gesunken."
+    }
+  ]
+}

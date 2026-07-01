@@ -1,0 +1,146 @@
+{
+  "id": "2025-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2025h1]t1-15-fa.pdf"
+  },
+  "title": "Polynomfunktion dritten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-15-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-15-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-15-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1463a",
+          "baseId": "1_1463",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1033/1_1463_srdp_ma_Polynomfunktion%20dritten%20Grades_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Hinblick auf die Punktevergabe ist es erforderlich, dass der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(1\\mid 2)"
+            },
+            {
+              "t": "text",
+              "v": " als Sattelpunkt von f und dass die Form einer Polynomfunktion 3. Grades erkennbar ist."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-15-sol.png",
+              "alt": "Lösung: Graph einer Polynomfunktion 3. Grades mit Sattelpunkt (1 | 2) (zwei mögliche Verläufe: steigend oder fallend)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Skizzieren des Funktionsgraphen von f."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem den Funktionsgraphen einer solchen Polynomfunktion 3. Grades."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-15-q.png",
+          "alt": "Leeres Koordinatensystem, x von -5 bis 5, f(x) von -5 bis 5, zum Skizzieren des Funktionsgraphen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zu skizzieren ist der Graph einer Polynomfunktion 3. Grades. Im Hinblick auf die Punktevergabe ist es erforderlich, dass der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "(1\\mid 2)"
+          },
+          {
+            "t": "text",
+            "v": " als Sattelpunkt von f und dass die Form einer Polynomfunktion 3. Grades erkennbar ist."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1463",
+      "baseId": "1_1463",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1033/1_1463_srdp_ma_Polynomfunktion%20dritten%20Grades_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion 3. Grades f, für die gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "f(1)=2"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "f'(1)=0"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "f''(1)=0"
+    }
+  ]
+}

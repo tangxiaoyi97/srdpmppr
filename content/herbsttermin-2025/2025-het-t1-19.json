@@ -1,0 +1,167 @@
+{
+  "id": "2025-het-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2025h2]t1-19-ag.pdf"
+  },
+  "title": "Studium",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-19-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-19-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-19-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1561a",
+          "baseId": "1_1561",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1068/1_1561_srdp_ma_Studium_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① von 2016 bis 2017;  ② gesunken"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie prozentuelle Zunahme der Anzahl der Personen, die das Studium begonnen haben, war im Zeitraum ① am größten; der relative Anteil der Personen, die dieses Studium im ersten Semester abgebrochen haben, ist im Zeitraum von 2016 bis 2019 ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "von 2016 bis 2017"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "von 2017 bis 2018"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "von 2018 bis 2019"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich geblieben"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gesunken"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gestiegen"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1561",
+      "baseId": "1_1561",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1068/1_1561_srdp_ma_Studium_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Anzahl der Personen, die ein bestimmtes Studium begonnen haben, und die Anzahl der Personen, die dieses Studium im ersten Semester abgebrochen haben, sind in der nachstehenden Grafik dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-19-q.png",
+      "alt": "Säulendiagramm für die Jahre 2016 bis 2019 mit je zwei Säulen: Anzahl der Personen, die das Studium begonnen haben, und Anzahl der Personen, die das Studium im ersten Semester abgebrochen haben (Skala 0 bis 750)."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "2026-wt-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2026w1]t1-11-fa.pdf"
+  },
+  "title": "Wirkstoff",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-11-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 5.3",
+          "description": "die Wirkung der Parameter a und b (bzw. e^lambda ) kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1577a",
+          "baseId": "1_1577",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1090/1_1577_srdp_ma_Wirkstoff_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "\\lambda<0"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nEs gilt ① und ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lambda<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lambda\\in(0;1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\lambda>1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1577",
+      "baseId": "1_1577",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1090/1_1577_srdp_ma_Wirkstoff_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Lisa nimmt eine Tablette mit einem bestimmten Wirkstoff ein. Es wird angenommen, dass der Wirkstoff in Lisas Körper ab Beobachtungsbeginn exponentiell abgebaut wird.\n\nDie Menge dieses Wirkstoffs in Lisas Körper in Abhängigkeit von der Zeit t kann modellhaft durch die Funktion d beschrieben werden.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "d(t)=a\\cdot \\mathrm{e}^{\\lambda\\cdot t}\\ \\text{mit}\\ a\\in\\mathbb{R}\\ \\text{und}\\ \\lambda\\in\\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in h mit t = 0 für den Beobachtungsbeginn\nd(t) ... Menge des Wirkstoffs in Lisas Körper zum Zeitpunkt t in Mikrogramm"
+    }
+  ]
+}

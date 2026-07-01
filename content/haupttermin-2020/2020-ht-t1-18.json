@@ -1,0 +1,137 @@
+{
+  "id": "2020-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2020h1]t1-18-an.pdf"
+  },
+  "title": "Vergleich bestimmter Integrale",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-18-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_775a",
+          "baseId": "1_775",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/559/Vergleich%20bestimmter%20Integrale.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend sind Abbildung 1 und Abbildung 4."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Abbildungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Abbildungen an, für die gilt:"
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-5}^{-1} f(x)\\,\\mathrm{d}x > \\int_{-5}^{+1} f(x)\\,\\mathrm{d}x"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-18-abb1.png",
+              "alt": "Abbildung 1: Graph einer Polynomfunktion f; lokales Maximum ca. (−4 | 3), fällt zu einem Minimum nahe (0 | −1) und steigt danach wieder."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-18-abb2.png",
+              "alt": "Abbildung 2: Graph einer Polynomfunktion f mit lokalem Maximum ca. (0 | 1) und fallendem Ast nach rechts."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-18-abb3.png",
+              "alt": "Abbildung 3: Graph einer Polynomfunktion f mit zwei Hochpunkten (W-Form) bei ca. x = −4 und x = 0."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-18-abb4.png",
+              "alt": "Abbildung 4: Graph einer Polynomfunktion f, der bei ca. x = −3 ein Minimum von etwa −3 erreicht und nach x = 0 steil ansteigt."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-18-abb5.png",
+              "alt": "Abbildung 5: nach unten geöffnete Parabel mit Scheitel ca. (−5 | 2)."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_775",
+      "baseId": "1_775",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/559/Vergleich%20bestimmter%20Integrale.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind fünf Abbildungen mit Graphen von Polynomfunktionen."
+    }
+  ]
+}

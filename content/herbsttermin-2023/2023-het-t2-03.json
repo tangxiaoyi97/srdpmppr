@@ -1,0 +1,326 @@
+{
+  "id": "2023-het-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2023h2]t2-3.pdf"
+  },
+  "title": "Bienenhaltung in Österreich",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_131a",
+          "baseId": "2_131",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/862/2_131_srdp_ma_Bienenhaltung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Maja führt mit Werten aus der obigen Tabelle die folgende Berechnung durch:"
+        },
+        {
+          "t": "math",
+          "v": "\\frac{353\\,267}{27\\,580} \\approx 13"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das Ergebnis dieser Berechnung im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Im Jahr 2017 betrug die durchschnittliche Anzahl der Bienenvölker pro Imker/in (in Österreich) rund 13."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Jahr 2017 betrug die durchschnittliche Anzahl der Bienenvölker pro Imker/in (in Österreich) rund 13."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_131b",
+          "baseId": "2_131",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/862/2_131_srdp_ma_Bienenhaltung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Anzahl der Imker/innen in Österreich wird in Abhängigkeit von der Zeit t durch die quadratische Funktion f der Form "
+        },
+        {
+          "t": "math",
+          "v": "f(t) = c \\cdot t^{2} + d"
+        },
+        {
+          "t": "text",
+          "v": " mit c, d ∈ ℝ modelliert (t in Jahren mit t = 0 für das Jahr 2015).\nDie entsprechenden Funktionswerte von f stimmen für die Jahre 2015 und 2019 mit den Werten aus der obigen Tabelle überein."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie c und d."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "c",
+            "value": 260.875,
+            "tol": 0.01
+          },
+          {
+            "id": "d",
+            "value": 26063,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\text{I: } f(0) = 26\\,063 = d"
+            },
+            {
+              "t": "math",
+              "v": "\\text{II: } f(4) = 30\\,237"
+            },
+            {
+              "t": "math",
+              "v": "16 \\cdot c + 26\\,063 = 30\\,237"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "c = 260{,}875,\\quad d = 26\\,063"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen von c und d."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-03-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_131c",
+          "baseId": "2_131",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/862/2_131_srdp_ma_Bienenhaltung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Niedrige Temperaturen führen zu einer Wintersterblichkeit von Bienenvölkern. Die Anzahl der Bienenvölker würde ohne eine erneute Aufzucht durch die Imker/innen jährlich um durchschnittlich 16 % abnehmen.\n\nDie Anzahl der Bienenvölker in Österreich, die es ohne eine erneute Aufzucht geben würde, wird durch die Exponentialfunktion g beschrieben.\n\nEs gilt:\nt ... Zeit in Jahren mit t = 0 für das Jahr 2015\ng(t) ... Anzahl der Bienenvölker in Österreich zur Zeit t"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von g auf."
+        },
+        {
+          "t": "math",
+          "v": "g(t) ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "347128*0.84^t",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g(t) = 347\\,128 \\cdot 0{,}84^{t}"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von g."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-03-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_131c",
+          "baseId": "2_131",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/862/2_131_srdp_ma_Bienenhaltung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, nach welcher Zeitdauer sich die Anzahl der Bienenvölker in Österreich gemäß der Exponentialfunktion g halbiert."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "value": 3.9,
+            "tol": 0.1,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}5 = 0{,}84^{t}"
+            },
+            {
+              "t": "math",
+              "v": "t = 3{,}9\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Zeitdauer beträgt rund 4 Jahre."
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Berechnen der Zeitdauer."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_131",
+      "baseId": "2_131",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/862/2_131_srdp_ma_Bienenhaltung_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle gibt Auskunft über die Anzahl der Imker/innen und ihrer Bienenvölker in Österreich im Zeitraum von 2015 bis 2019."
+    },
+    {
+      "t": "text",
+      "v": "Jahr | Anzahl der Imker/innen | Anzahl der Bienenvölker\n2015 | 26 063 | 347 128\n2016 | 26 609 | 354 080\n2017 | 27 580 | 353 267\n2018 | 28 432 | 373 412\n2019 | 30 237 | 390 607"
+    }
+  ]
+}

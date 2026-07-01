@@ -1,0 +1,108 @@
+{
+  "id": "2019-nt1-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2019n1]t1-19-an.pdf"
+  },
+  "title": "PKW-Dichte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-19-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-19-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_728a",
+          "baseId": "1_728",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/467/PKW-Dichte.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Anzahl der Länder = 6"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, in wie vielen Ländern die Anzahl der PKWs pro 1 000 Einwohner/innen zwischen 500 und 700 PKWs liegt."
+        },
+        {
+          "t": "text",
+          "v": "Anzahl der Länder ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "Anzahl der Länder",
+            "value": 6,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_728",
+      "baseId": "1_728",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/467/PKW-Dichte.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In 32 europäischen Ländern wurde die Anzahl der Personenkraftwagen (PKWs) pro 1 000 Einwohner/innen erhoben. Aus diesen Daten ist das nachstehende Histogramm erstellt worden. Dabei sind die absoluten Häufigkeiten der Länder als Flächeninhalte von Rechtecken dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t1-19-q.png",
+      "alt": "Histogramm: Anzahl der PKWs pro 1 000 Einwohner/innen (x-Achse von 0 bis 600) gegen die Häufigkeitsdichte (y-Achse von 0 bis 0,10); die absoluten Häufigkeiten der Länder sind als Rechteckflächen dargestellt."
+    }
+  ]
+}

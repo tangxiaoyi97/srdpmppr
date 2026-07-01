@@ -1,0 +1,407 @@
+{
+  "id": "2026-wt-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2026w1]t2-1.pdf"
+  },
+  "title": "Hallenbad",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_157a",
+          "baseId": "2_157",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1105/2_157_srdp_ma_Hallenbad_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In diesem Hallenbad werden nur Tageskarten und Abendkarten für Erwachsene sowie Kinder verkauft.\n\nDie Tageskarte für Erwachsene kostet p Euro.\nDie Abendkarte für Erwachsene kostet um 30 % weniger als die Tageskarte für Erwachsene.\n\nDie Tages- bzw. Abendkarte für Kinder kostet jeweils nur 60 % der Tages- bzw. Abendkarte für Erwachsene.\n\nIn der nachstehenden Tabelle sind die Anzahlen der an einem bestimmten Tag verkauften Tageskarten und Abendkarten angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-a-tab.png",
+          "alt": "Tabelle: Spalten Anzahl der Tageskarten / Anzahl der Abendkarten; Zeile Erwachsene: e1, e2; Zeile Kinder: k1, k2."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung der Einnahmen E des Hallenbads an diesem Tag auf. Verwenden Sie dabei e1, e2, k1, k2 und p."
+        },
+        {
+          "t": "math",
+          "v": "E="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "p\\cdot e1+p\\cdot 0{,}7\\cdot e2+p\\cdot 0{,}6\\cdot k1+p\\cdot 0{,}7\\cdot 0{,}6\\cdot k2",
+        "vars": [
+          "p",
+          "e1",
+          "e2",
+          "k1",
+          "k2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E=p\\cdot e_1+p\\cdot 0{,}7\\cdot e_2+p\\cdot 0{,}6\\cdot k_1+p\\cdot 0{,}7\\cdot 0{,}6\\cdot k_2"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_157b",
+          "baseId": "2_157",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1105/2_157_srdp_ma_Hallenbad_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung ist der Querschnitt des Schwimmbeckens im neuen Hallenbad modellhaft dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-b-q.png",
+          "alt": "Modellhafter Querschnitt des Schwimmbeckens: oben die waagrechte Strecke a; links die Tiefe h1, rechts die Tiefe h2; links ein waagrechter Boden der Länge x, dann ein unter dem Winkel α abfallender Beckenboden zu einem rechten Bodenstück der Länge x."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung des Winkels α auf. Verwenden Sie dabei a, x, h1 und h2."
+        },
+        {
+          "t": "math",
+          "v": "\\alpha="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\arctan\\left(\\frac{h2-h1}{a-2\\cdot x}\\right)",
+        "vars": [
+          "a",
+          "x",
+          "h1",
+          "h2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=\\arctan\\!\\left(\\frac{h_2-h_1}{a-2\\cdot x}\\right)"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Formel für α."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-01-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_157b",
+          "baseId": "2_157",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1105/2_157_srdp_ma_Hallenbad_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das leere Schwimmbecken wird mit Wasser befüllt. Der Wasserstand nach 3 Stunden beträgt W3, der Wasserstand nach 7 Stunden beträgt W7 (W3, W7 in cm).\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass in jedem Fall eine richtige Aussage entsteht.\n\nDer Term ① gibt die relative Änderung des Wasserstands im Zeitintervall [3 h; 7 h] an; der Term ② gibt die absolute Änderung des Wasserstands im Zeitintervall [3 h; 7 h] an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{W_7}{W_3}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{W_7}{W_3}-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-\\dfrac{W_3}{W_7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{W_3}{W_7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{W_7-W_3}{4}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "W_7-W_3"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{W_7}{W_3}-1"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "W_7-W_3"
+            }
+          ],
+          "note": "b2) Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_157c",
+          "baseId": "2_157",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1105/2_157_srdp_ma_Hallenbad_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In diesem Hallenbad gibt es auch einen Whirlpool. In der nachstehenden Abbildung ist die Grundfläche dieses Whirlpools als grau markierte Fläche modellhaft dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-c-q.png",
+          "alt": "Koordinatensystem (x in m von 0 bis 6, f(x) in m bis 4): die grau markierte Fläche wird oben durch die waagrechte Gerade auf Höhe 4, an den Seiten durch zwei achsenparallele Strecken und unten durch den Graphen der Funktion f begrenzt."
+        },
+        {
+          "t": "text",
+          "v": "Die grau markierte Fläche wird durch zwei achsenparallele Seiten und durch den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f:[0;6]\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-4\\cdot(x-1)\\cdot \\mathrm{e}^{-x}"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt (x in m, f(x) in m)."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Flächeninhalt der grau markierten Fläche."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "A",
+            "value": 23.94,
+            "tol": 0.1,
+            "unit": "m^2"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{6}\\bigl(4-f(x)\\bigr)\\,\\mathrm{d}x=23{,}94\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\text{Der Flächeninhalt beträgt rund } 23{,}9\\ \\text{m}^2."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen des Flächeninhalts."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_157",
+      "baseId": "2_157",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1105/2_157_srdp_ma_Hallenbad_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein neues Hallenbad wurde eröffnet."
+    }
+  ]
+}

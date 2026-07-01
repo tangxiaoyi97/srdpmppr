@@ -1,0 +1,113 @@
+{
+  "id": "2024-wt-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2024w1]t1-18-an.pdf"
+  },
+  "title": "Grenzkosten und Gesamtkosten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1333a",
+          "baseId": "1_1333",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/881/1_1333_srdp_ma_Grenzkosten%20und%20Gesamtkosten_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "K(110)-K(100)=\\int_{100}^{110} K'(x)\\,dx=115\\,505{,}233\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Gesamtkosten steigen um € 115.505,23."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie denjenigen Betrag, um den die Gesamtkosten steigen, wenn man von diesem Produkt 110 Stück statt 100 Stück produziert."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dK",
+            "value": 115505.23,
+            "tol": 0.01,
+            "unit": "Euro"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1333",
+      "baseId": "1_1333",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/881/1_1333_srdp_ma_Grenzkosten%20und%20Gesamtkosten_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Grenzkosten für die Produktion eines bestimmten Produkts werden durch die Funktion K′ modelliert. Es gilt:"
+    },
+    {
+      "t": "math",
+      "v": "K'(x)=\\dfrac{1}{100}\\cdot\\left(x^{3}-\\dfrac{x^{2}}{2}+3\\right)\\cdot x+4"
+    },
+    {
+      "t": "text",
+      "v": "x ... Produktionsmenge in Stück\nK′(x) ... Grenzkosten bei der Produktionsmenge x in Euro pro Stück\n\nDie Gesamtkosten werden in Euro angegeben."
+    }
+  ]
+}

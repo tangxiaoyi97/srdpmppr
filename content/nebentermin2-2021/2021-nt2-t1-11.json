@@ -1,0 +1,84 @@
+{
+  "id": "2021-nt2-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2021n2]t1-11-fa.pdf"
+  },
+  "title": "Halbwertszeit",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-11-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "Exponentialfunktionen zur Beschreibung von Wachstums- und Abnahmeprozessen einsetzen können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Graph von f stellt eine Exponentialfunktion dar und verläuft durch die Punkte (0 | 100), (30 | 50) und (60 | 25)."
+            }
+          ],
+          "note": "Ein Punkt für den richtigen Graphen von f, wobei der Graph eine Exponentialfunktion darstellen und durch die Punkte (0 | 100), (30 | 50) und (60 | 25) verlaufen muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im nachstehenden Koordinatensystem im Zeitintervall [0; 60] den Graphen von f ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-11-q.png",
+          "alt": "Leeres Koordinatensystem: waagrechte Achse t in Jahren (0 bis 60), senkrechte Achse f(t) in % der Ausgangsmenge (0 bis 100)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Graph muss eine Exponentialfunktion darstellen und durch die Punkte (0 | 100), (30 | 50) und (60 | 25) verlaufen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das radioaktive Isotop ¹³⁷Cs (Cäsium) hat eine Halbwertszeit von etwa 30 Jahren.\n\nDie Funktion f gibt in Abhängigkeit von der Zeit t an, wie viel Prozent der Ausgangsmenge an ¹³⁷Cs noch vorhanden sind (t in Jahren, f(t) in % der Ausgangsmenge).\n\nDie zum Zeitpunkt t = 0 vorhandene Menge an ¹³⁷Cs wird als Ausgangsmenge bezeichnet."
+    }
+  ]
+}

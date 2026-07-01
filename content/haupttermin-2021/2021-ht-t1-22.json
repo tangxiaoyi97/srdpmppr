@@ -1,0 +1,188 @@
+{
+  "id": "2021-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2021h1]t1-22-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeiten einer Zufallsvariablen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_851a",
+          "baseId": "1_851",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/644/WahrscheinlichkeitenZufallsvariablen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=0{,}1"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=0{,}6"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " kann nur den Wert −4, den Wert 0 oder den Wert 2 annehmen.\n\nFür die Wahrscheinlichkeiten gilt:"
+        },
+        {
+          "t": "math",
+          "v": "P(X=-4)=0{,}3"
+        },
+        {
+          "t": "math",
+          "v": "P(X=0)=a"
+        },
+        {
+          "t": "math",
+          "v": "P(X=2)=b"
+        },
+        {
+          "t": "text",
+          "v": "Dabei sind "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " positive reelle Zahlen.\n\nDer Erwartungswert von "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " ist null, also "
+        },
+        {
+          "t": "math",
+          "v": "E(X)=0"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.1,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 0.6,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_851",
+      "baseId": "1_851",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/644/WahrscheinlichkeitenZufallsvariablen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

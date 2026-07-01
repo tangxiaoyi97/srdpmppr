@@ -1,0 +1,113 @@
+{
+  "id": "2020-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2020h1]t1-21-ws.pdf"
+  },
+  "title": "Lieblingsfach",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_778a",
+          "baseId": "1_778",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/562/Lieblingsfach.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{47}{47+241}=\\frac{47}{288}=0{,}1631\\ldots\\approx 0{,}163"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass dieses Schulkind Mathematik als Lieblingsfach angegeben hat, beträgt ca. 16,3 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass dieses Schulkind Mathematik als Lieblingsfach angegeben hat."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.163,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_778",
+      "baseId": "1_778",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/562/Lieblingsfach.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Alle Schulkinder der 1. und der 2. Klassen einer Schule wurden nach ihrem Lieblingsfach befragt. Bei dieser Befragung war genau ein Lieblingsfach anzugeben. Die nachstehende Tabelle fasst die erhobenen Daten zusammen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-21-tab.png",
+      "alt": "Tabelle: Spalten 'Lieblingsfach Mathematik' und 'anderes Lieblingsfach'. Schulkinder der 1. Klassen: 47 | 241; Schulkinder der 2. Klassen: 33 | 287; gesamt: 80 | 528."
+    },
+    {
+      "t": "text",
+      "v": "Ein Schulkind der 1. Klassen wird zufällig ausgewählt. (Dabei haben alle Schulkinder der 1. Klassen die gleiche Wahrscheinlichkeit, ausgewählt zu werden.)"
+    }
+  ]
+}

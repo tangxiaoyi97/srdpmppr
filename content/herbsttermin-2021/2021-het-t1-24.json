@@ -1,0 +1,108 @@
+{
+  "id": "2021-het-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2021h2]t1-24-ws.pdf"
+  },
+  "title": "Binomialverteilte Zufallsvariable",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-24-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_877a",
+          "baseId": "1_877",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/686/Binomialverteilte_Zufallsvariable.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\tfrac{80}{400}=0{,}2"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma=\\sqrt{80\\cdot 0{,}8}=8"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein bestimmter Zufallsversuch mit der unbekannten Erfolgswahrscheinlichkeit p wird 400-mal durchgeführt. Die binomialverteilte Zufallsvariable X beschreibt dabei die Anzahl der Erfolge. Für den Erwartungswert gilt: μ = 80.\n\nBerechnen Sie die Erfolgswahrscheinlichkeit p sowie die Standardabweichung σ der Zufallsvariablen X."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.2,
+            "tol": 1e-9
+          },
+          {
+            "id": "sigma",
+            "label": "σ",
+            "value": 8,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "perBlank",
+        "pointsPerCorrect": 0.5,
+        "max": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_877",
+      "baseId": "1_877",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/686/Binomialverteilte_Zufallsvariable.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "2026-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2026h1]t1-12-fa.pdf"
+  },
+  "title": "Bakterienpopulation",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-12-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.3",
+          "description": "die Wirkung der Parameter a und b (bzw. e^lambda ) kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1602a",
+          "baseId": "1_1602",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1122/1_1602_Bakterienpopulation_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1{,}8^{\\frac{1}{60}}-1=\\sqrt[60]{1{,}8}-1=0{,}0098\\ldots=0{,}98\\ldots\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Bakterien erhöht sich pro Minute um rund 1 %."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Prozentsatzes."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent sich die Anzahl der Bakterien pro Minute erhöht."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.98,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1602",
+      "baseId": "1_1602",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1122/1_1602_Bakterienpopulation_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die zeitliche Entwicklung der Anzahl der Bakterien einer Bakterienpopulation kann modellhaft durch eine Exponentialfunktion N beschrieben werden."
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot 1{,}8^{\\,t}\\ \\text{mit}\\ N_0>0"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in h\nN(t) ... Anzahl der Bakterien zum Zeitpunkt t\nN₀ ... Anzahl der Bakterien zum Zeitpunkt t = 0"
+    }
+  ]
+}

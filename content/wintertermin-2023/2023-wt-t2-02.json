@@ -1,0 +1,334 @@
+{
+  "id": "2023-wt-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2023w1]t2-2.pdf"
+  },
+  "title": "Schwimmkurs",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t2-02-a1",
+      "label": "a1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_122a",
+          "baseId": "2_122",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/804/2_122_srdp_ma_Schwimmkurs_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Schwimmlehrerin notiert bei einem ihrer Kinder-Schwimmkurse die Distanzen, die jedes Kind beim ersten freien Schwimmen zurücklegt. Sie ermittelt daraus die folgenden Werte:\nMinimum: 1,5 m\nMedian: 3 m\n3. Quartil: 4 m\nSpannweite: 5,5 m\nInterquartilsabstand (Differenz von 3. und 1. Quartil): 2 m\n\nErstellen Sie in der nachstehenden Abbildung den dadurch festgelegten Boxplot."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-q.png",
+          "alt": "Leere Skala von 0 bis 10 mit Achsenbeschriftung „Distanz in m“ zum Einzeichnen des Boxplots."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Boxplot mit: Minimum 1,5 m; 1. Quartil 2 m (= 3. Quartil − Interquartilsabstand = 4 − 2); Median 3 m; 3. Quartil 4 m; Maximum 7 m (= Minimum + Spannweite = 1,5 + 5,5)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-sol.png",
+              "alt": "Lösung: Boxplot mit Minimum 1,5; 1. Quartil 2; Median 3; 3. Quartil 4; Maximum 7."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Erstellen des Boxplots."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-02-a2",
+      "label": "a2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_122a",
+          "baseId": "2_122",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/804/2_122_srdp_ma_Schwimmkurs_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem anderen Kinder-Schwimmkurs wurden die geschwommenen Distanzen für 17 Kinder notiert.\nDer Median dieser geschwommenen Distanzen beträgt 12 m.\n\nJemand behauptet, dass 10 Kinder eine Distanz von weniger als 12 m geschwommen sind.\n\nBegründen Sie, warum diese Behauptung nicht richtig ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Da der Median der geschwommenen Distanzen 12 m beträgt, müssen (bei 17 notierten Distanzen) mindestens 9 Kinder mindestens 12 m geschwommen sein. Daraus folgt, dass höchstens 8 Kinder weniger als 12 m geschwommen sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Da der Median der geschwommenen Distanzen 12 m beträgt, müssen (bei 17 notierten Distanzen) mindestens 9 Kinder mindestens 12 m geschwommen sein. Daraus folgt, dass höchstens 8 Kinder weniger als 12 m geschwommen sind."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Begründen."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_122b",
+          "baseId": "2_122",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/804/2_122_srdp_ma_Schwimmkurs_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Man kann die Kinder einer bestimmten Schwimmgruppe hinsichtlich ihres Verhaltens beim ersten Versuch eines Sprunges vom Beckenrand ins Wasser in 3 Kategorien einteilen:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-b1-q.png",
+          "alt": "Tabelle: Kategorie | absolute Häufigkeit | relative Häufigkeit — „Kinder, die sofort springen“: 20 | (fehlt); „Kinder, die zögerlich springen“: (fehlt) | 0,4; „Kinder, die das Springen verweigern“: 10 | (fehlt)."
+        },
+        {
+          "t": "text",
+          "v": "Ergänzen Sie in der obigen Tabelle die 3 fehlenden Werte."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rel_sofort",
+            "label": "relative Häufigkeit (sofort springen)",
+            "value": 0.4,
+            "tol": 1e-9
+          },
+          {
+            "id": "abs_zoegerlich",
+            "label": "absolute Häufigkeit (zögerlich springen)",
+            "value": 20,
+            "tol": 1e-9
+          },
+          {
+            "id": "rel_verweigern",
+            "label": "relative Häufigkeit (Springen verweigern)",
+            "value": 0.2,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Kinder, die sofort springen: 20 | 0,4;  Kinder, die zögerlich springen: 20 | 0,4;  Kinder, die das Springen verweigern: 10 | 0,2. (Gesamtanzahl: 50)"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ergänzen der 3 fehlenden Werte."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-02-c1",
+      "label": "c1",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_122c",
+          "baseId": "2_122",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/804/2_122_srdp_ma_Schwimmkurs_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einer Kiste befinden sich 12 rote, 10 gelbe und 8 blaue Schwimmscheiben. Ein Schwimmlehrer zieht zufällig und ohne Zurücklegen nacheinander 3 Schwimmscheiben aus dieser Kiste. (Bei jeder Ziehung hat jede Schwimmscheibe, die sich noch in der Kiste befindet, die gleiche Wahrscheinlichkeit, gezogen zu werden.)\n\nEs soll die Wahrscheinlichkeit berechnet werden, dass der Schwimmlehrer dabei Schwimmscheiben in 3 unterschiedlichen Farben zieht.\n\nKreuzen Sie denjenigen Ausdruck an, der gleich der Wahrscheinlichkeit ist, die berechnet werden soll. [1 aus 6]"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{30} \\cdot \\tfrac{8}{30}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{30} \\cdot \\tfrac{8}{30} \\cdot 3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{29} \\cdot \\tfrac{8}{28}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{29} \\cdot \\tfrac{8}{28} \\cdot 3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{29} \\cdot \\tfrac{8}{28} \\cdot 6"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\left( \\tfrac{12}{30} \\cdot \\tfrac{10}{29} \\cdot \\tfrac{8}{28} \\right)^{3}"
+            }
+          ]
+        ],
+        "correct": [
+          4
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{30} \\cdot \\tfrac{10}{29} \\cdot \\tfrac{8}{28} \\cdot 6"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ankreuzen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_122",
+      "baseId": "2_122",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/804/2_122_srdp_ma_Schwimmkurs_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

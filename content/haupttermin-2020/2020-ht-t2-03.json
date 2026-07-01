@@ -1,0 +1,392 @@
+{
+  "id": "2020-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2020h1]t2-3.pdf"
+  },
+  "title": "Quiz mit Spielbrett",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t2-03-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Spieldurchgang ist das Quiz zu Ende, wenn die Spielfigur auf dem Feld mit der Zahl 2 zu stehen kommt.\n\nMit A wird das Ereignis bezeichnet, dass die Spielfigur nach höchstens 4 Fragen auf dem Feld mit der Zahl 2 steht.\n\nMaria beantwortet jede Frage unabhängig von den anderen Fragen mit der gleichen Wahrscheinlichkeit p richtig.\n\nGeben Sie die Wahrscheinlichkeit P(A) in Abhängigkeit von p an."
+        },
+        {
+          "t": "math",
+          "v": "P(A)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "p^{2}+2\\cdot p^{3}\\cdot(1-p)",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(A)=p^{2}+2\\cdot p^{3}\\cdot(1-p)"
+            }
+          ],
+          "note": "a1) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-03-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wird p erhöht, so vergrößert sich die Wahrscheinlichkeit P(A).\n\nGeben Sie dasjenige p ∈ [0; 1] an, bei dem die Wahrscheinlichkeit P(A) am stärksten wächst (also die lokale Änderungsrate von P(A) am größten ist)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.632,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(p)=p^{2}+2\\cdot p^{3}\\cdot(1-p)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(p)=2\\cdot p+6\\cdot p^{2}-8\\cdot p^{3}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(p)=2+12\\cdot p-24\\cdot p^{2}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(p)=0\\ \\Rightarrow\\ p_1=0{,}6318\\ldots\\approx 0{,}632\\quad(p_2=-0{,}1318\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei p ≈ 0,632 wächst die Wahrscheinlichkeit P(A) am stärksten."
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-03-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem anderen Spieldurchgang werden Maria genau 100 Fragen gestellt. Sie beantwortet dabei jede Frage unabhängig von den anderen Fragen mit der Wahrscheinlichkeit 0,8 richtig. Die Zufallsvariable Y gibt die Zahl desjenigen Feldes an, auf dem die Spielfigur nach der Beantwortung der 100 Fragen steht.\n\nBerechnen Sie den Erwartungswert E(Y)."
+        },
+        {
+          "t": "math",
+          "v": "E(Y)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EY",
+            "label": "E(Y)",
+            "value": 60,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(Y)=100\\cdot 0{,}8-100\\cdot 0{,}2=60"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-03-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable Y wird durch eine normalverteilte Zufallsvariable Z angenähert. Dabei gilt: E(Y) = E(Z) und die Standardabweichung σ von Z ist 8.\n\nErmitteln Sie das um den Erwartungswert E(Z) symmetrische Intervall [z₁; z₂], für das P(z₁ ≤ Z ≤ z₂) = 95,4 % gilt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "z1",
+            "label": "z₁",
+            "value": 44.5,
+            "tol": 0.5
+          },
+          {
+            "id": "z2",
+            "label": "z₂",
+            "value": 75.5,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "E(Z)=60,\\quad \\sigma=8"
+            },
+            {
+              "t": "text",
+              "v": "\nEs gilt: "
+            },
+            {
+              "t": "math",
+              "v": "P\\bigl(E(Z)-2\\cdot\\sigma\\le Z\\le E(Z)+2\\cdot\\sigma\\bigr)\\approx 0{,}954\\ \\Rightarrow\\ z_1\\approx 44,\\ z_2\\approx 76"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "[44;\\,76]"
+            }
+          ],
+          "note": "b2) Ein Punkt für ein richtiges Intervall, wobei die Angabe der beiden richtigen Werte ohne Intervallschreibweise als richtig zu werten ist. Toleranzintervall für z1: [44; 45]. Toleranzintervall für z2: [75; 76]."
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-03-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "Wahrscheinlichkeit als Modellierung von relativer Häufigkeit verständig einsetzen können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem anderen Spieldurchgang beantwortet Maria alle Fragen durch Raten. Sie beantwortet somit jede Frage unabhängig von den anderen Fragen mit der Wahrscheinlichkeit 0,5 richtig.\nFür jede gerade Anzahl n an Fragen mit n ≥ 2 gilt:"
+        },
+        {
+          "t": "math",
+          "v": "M(n)=\\binom{n}{\\frac{n}{2}}\\cdot 0{,}5^{n}"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie M(n) im gegebenen Kontext."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Interpretation:\nM(n) gibt die Wahrscheinlichkeit an, dass Maria genau die Hälfte der Fragen richtig beantwortet.\noder:\nM(n) gibt die Wahrscheinlichkeit an, dass die Spielfigur nach n Fragen auf dem Feld mit der Zahl 0 steht."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für eine richtige Interpretation.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "M(n) gibt die Wahrscheinlichkeit an, dass Maria genau die Hälfte der Fragen richtig beantwortet. Oder: M(n) gibt die Wahrscheinlichkeit an, dass die Spielfigur nach n Fragen auf dem Feld mit der Zahl 0 steht."
+            }
+          ],
+          "note": "c1) Ein Ausgleichspunkt für eine richtige Interpretation. Grundkompetenz: WS 3.1"
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t2-03-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für jede gerade Anzahl n an Fragen mit n ≥ 10 kann M(n) durch"
+        },
+        {
+          "t": "math",
+          "v": "\\widetilde{M}(n)=\\sqrt{\\frac{2}{\\pi\\cdot n}}"
+        },
+        {
+          "t": "text",
+          "v": "näherungsweise berechnet werden.\nFür jedes gerade n ≥ 10 gibt es ein n*, sodass gilt: "
+        },
+        {
+          "t": "math",
+          "v": "\\widetilde{M}(n^{*})=\\frac{1}{2}\\cdot\\widetilde{M}(n)"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBestimmen Sie n* in Abhängigkeit von n."
+        },
+        {
+          "t": "math",
+          "v": "n^{*}="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "4\\cdot n",
+        "vars": [
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\sqrt{\\frac{2}{\\pi\\cdot n^{*}}}=\\frac{1}{2}\\cdot\\sqrt{\\frac{2}{\\pi\\cdot n}}\\ \\Rightarrow\\ n^{*}=4\\cdot n"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n^{*}=4\\cdot n"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Quiz werden hintereinander mehrere Fragen gestellt, die jeweils mit „ja“ oder „nein“ beantwortet werden. Auf einem Spielbrett steht eine Spielfigur zu Beginn eines jeden Spieldurchgangs auf dem Feld mit der Zahl 0. Bei jeder richtigen Antwort wird diese Spielfigur um ein Feld nach rechts, bei jeder falschen Antwort um ein Feld nach links gezogen. Die Felder des Spielbretts sind mit ganzen Zahlen in aufsteigender Reihenfolge beschriftet (siehe nachstehende Abbildung). Das Spielbrett kann auf beiden Seiten beliebig verlängert werden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t2-03-q.png",
+      "alt": "Spielbrett: eine Reihe von Feldern, beschriftet mit den ganzen Zahlen ... −6, −5, −4, −3, −2, −1, 0, 1, 2, 3, 4, 5, 6 ... (auf beiden Seiten beliebig verlängerbar)."
+    },
+    {
+      "t": "text",
+      "v": "Maria und Tom spielen dieses Quiz. Tom befragt Maria."
+    }
+  ]
+}

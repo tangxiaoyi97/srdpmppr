@@ -1,0 +1,406 @@
+{
+  "id": "2025-wt-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2025w1]t2-3.pdf"
+  },
+  "title": "Bauernhöfe in Österreich",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_147a",
+          "baseId": "2_147",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1013/2_147_srdp_ma_Bauernh%C3%B6fe%20in%20%C3%96sterreich%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Tabelle ist der durchschnittliche Geflügelbestand pro Bauernhof mit Geflügelhaltung für die Jahre 1999, 2010 und 2020 angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-03-a-tab.png",
+          "alt": "Tabelle des durchschnittlichen Geflügelbestands pro Bauernhof mit Geflügelhaltung: 1999 171; 2010 258; 2020 389."
+        },
+        {
+          "t": "text",
+          "v": "Der durchschnittliche Geflügelbestand pro Bauernhof mit Geflügelhaltung in Abhängigkeit von der Zeit t kann durch die Exponentialfunktion f modelliert werden.\n\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot e^{\\lambda\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 1999\nf(t) ... durchschnittlicher Geflügelbestand pro Bauernhof mit Geflügelhaltung zum Zeitpunkt t\na, λ ... positive Parameter\n\nStellen Sie eine Funktionsgleichung von f auf. Verwenden Sie dabei die Werte für die Jahre 1999 und 2020."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "171\\cdot e^{0{,}039\\cdot t}",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(0)=171"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "f(21)=389"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(t)=171\\cdot e^{0{,}039\\ldots\\cdot t}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_147a",
+          "baseId": "2_147",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1013/2_147_srdp_ma_Bauernh%C3%B6fe%20in%20%C3%96sterreich%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Sandra behauptet, dass der mithilfe von f errechnete Wert für das Jahr 2010 um weniger als 3 % vom in der obigen Tabelle angegebenen Wert abweicht.\n\nWeisen Sie rechnerisch nach, dass Sandras Behauptung richtig ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Berechnung des relativen Abweichungsbetrags: (f(11) − 258)/258 = (263,009… − 258)/258 = 0,019…, also rund 1,9 %. Da 1,9 % < 3 %, ist Sandras Behauptung richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für das richtige rechnerische Nachweisen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{f(11)-258}{258}=\\frac{263{,}009\\ldots-258}{258}=0{,}019\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "1,9 % < 3 %"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige rechnerische Nachweisen."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-03-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_147b",
+          "baseId": "2_147",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1013/2_147_srdp_ma_Bauernh%C3%B6fe%20in%20%C3%96sterreich%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Tabelle ist der durchschnittliche Rinderbestand pro Bauernhof mit Rinderhaltung für die Jahre 1999, 2010 und 2020 angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-03-b-tab.png",
+          "alt": "Tabelle des durchschnittlichen Rinderbestands pro Bauernhof mit Rinderhaltung: 1999 21; 2010 28; 2020 34."
+        },
+        {
+          "t": "text",
+          "v": "Für den Zeitraum von 2010 bis 2020 gilt:\n- Die Anzahl der Bauernhöfe mit Rinderhaltung hat sich in diesem Zeitraum um 17 331 vermindert.\n- Der gesamte Rinderbestand auf Bauernhöfen mit Rinderhaltung ist in diesem Zeitraum um 7,8 % zurückgegangen.\n\nMithilfe dieser Informationen und der Daten aus der obigen Tabelle soll ein Gleichungssystem mit 2 Gleichungen in den Variablen b und r erstellt werden.\nb ... Anzahl der Bauernhöfe mit Rinderhaltung im Jahr 2010\nr ... gesamter Rinderbestand auf Bauernhöfen mit Rinderhaltung im Jahr 2010\n\nVervollständigen Sie die nachstehenden Gleichungen durch Eintragen der fehlenden Werte in die dafür vorgesehenen Kästchen."
+        },
+        {
+          "t": "math",
+          "v": "\\text{I:}\\quad r=\\boxed{\\phantom{0}}\\cdot b"
+        },
+        {
+          "t": "math",
+          "v": "\\text{II:}\\quad r\\cdot\\boxed{\\phantom{0}}=34\\cdot\\left(b-\\boxed{\\phantom{0}}\\right)"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "I_k",
+            "value": 28,
+            "tol": 1e-9
+          },
+          {
+            "id": "II_f",
+            "value": 0.922,
+            "tol": 1e-9
+          },
+          {
+            "id": "II_d",
+            "value": 17331,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 3,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\text{I:}\\ r=28\\cdot b"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "\\text{II:}\\ r\\cdot 0{,}922=34\\cdot(b-17\\,331)"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Vervollständigen von beiden Gleichungen, ein halber Punkt für das richtige Vervollständigen von nur einer Gleichung."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_147c",
+          "baseId": "2_147",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1013/2_147_srdp_ma_Bauernh%C3%B6fe%20in%20%C3%96sterreich%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden nicht maßstabgetreuen Abbildung ist die trapezförmige Grundfläche des Stalles eines bestimmten Bio-Bauernhofs dargestellt (Abmessungen in m)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-03-c-q.png",
+          "alt": "Nicht maßstabgetreue Abbildung der trapezförmigen Grundfläche: obere Parallelseite c, untere Parallelseite 2·c, Höhe 15 m, Basiswinkel α."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "\\tan(\\alpha)=2{,}5"
+        },
+        {
+          "t": "text",
+          "v": "\n\nBerechnen Sie den Inhalt der Grundfläche dieses Stalles in m²."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "A",
+            "value": 135,
+            "tol": 1e-9,
+            "unit": "m²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "2{,}5=\\frac{15}{2\\cdot c-c}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "c=6"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{(6+12)\\cdot 15}{2}=135"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Inhalt der Grundfläche des Stalles beträgt 135 m²."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_147",
+      "baseId": "2_147",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1013/2_147_srdp_ma_Bauernh%C3%B6fe%20in%20%C3%96sterreich%20_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf österreichischen Bauernhöfen werden verschiedene Nutztiere gehalten."
+    }
+  ]
+}

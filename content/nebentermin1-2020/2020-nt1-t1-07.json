@@ -1,0 +1,112 @@
+{
+  "id": "2020-nt1-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2020n1]t1-7-fa.pdf"
+  },
+  "title": "Graph einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_788a",
+          "baseId": "1_788",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/572/Graph%20einer%20Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-07-sol.png",
+              "alt": "möglicher Graph: nach oben geöffnete symmetrische Kurve durch (0 | 3) mit lokalen Minima bei (±2 | 1)."
+            }
+          ],
+          "note": "Ein Punkt für die Darstellung des Graphen einer solchen Funktion f, wobei die in der Angabe angeführten Eigenschaften klar erkennbar sein müssen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im nachstehenden Koordinatensystem den Graphen einer solchen Funktion f im Intervall [–3; 3] ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-07-q.png",
+          "alt": "Leeres Koordinatensystem mit x-Achse von –3 bis 3 und f(x)-Achse von –5 bis 5."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Darstellung des Graphen einer solchen Funktion f, wobei die in der Angabe angeführten Eigenschaften klar erkennbar sein müssen (symmetrisch bezüglich der senkrechten Achse; lokales Minimum im Punkt (2 | 1); Schnittpunkt mit der senkrechten Achse im Punkt (0 | 3))."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_788",
+      "baseId": "1_788",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/572/Graph%20einer%20Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon[-3;\\,3]\\to\\mathbb{R},\\ x\\mapsto f(x)"
+    },
+    {
+      "t": "text",
+      "v": " hat folgende Eigenschaften:\n\n- Der Graph von f ist symmetrisch bezüglich der senkrechten Achse.\n- Die Funktion f hat im Punkt (2 | 1) ein lokales Minimum.\n- Der Graph von f schneidet die senkrechte Achse im Punkt (0 | 3)."
+    }
+  ]
+}

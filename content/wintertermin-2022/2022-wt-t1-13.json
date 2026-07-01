@@ -1,0 +1,111 @@
+{
+  "id": "2022-wt-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2022w1]t1-13-an.pdf"
+  },
+  "title": "Intervallgrenze",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_890a",
+          "baseId": "1_890",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/692/Intervallgrenze.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b = 3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Intervallgrenze b."
+        },
+        {
+          "t": "math",
+          "v": "b ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": 3,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_890",
+      "baseId": "1_890",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/692/Intervallgrenze.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion f mit der Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = -x^{2} + 3 \\cdot x + 2"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nIm Intervall [0; b] (mit b > 0) ist die mittlere Änderungsrate von f gleich null."
+    }
+  ]
+}

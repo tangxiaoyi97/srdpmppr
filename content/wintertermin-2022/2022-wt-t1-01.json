@@ -1,0 +1,144 @@
+{
+  "id": "2022-wt-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2022w1]t1-1-ag.pdf"
+  },
+  "title": "Zahlendarstellungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_878a",
+          "baseId": "1_878",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/691/Zahlendarstellungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Jede rationale Zahl lässt sich als endliche Dezimalzahl oder als periodische Dezimalzahl darstellen.“ und „Es gibt Quadratwurzeln natürlicher Zahlen, die nicht als Bruch zweier ganzer Zahlen dargestellt werden können.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Jede rationale Zahl lässt sich als endliche Dezimalzahl oder als periodische Dezimalzahl darstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl kann als Bruch zweier ganzer Zahlen dargestellt werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jeder Bruch zweier ganzer Zahlen kann als endliche Dezimalzahl dargestellt werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt rationale Zahlen, die man nicht als Bruch zweier ganzer Zahlen darstellen kann."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Quadratwurzeln natürlicher Zahlen, die nicht als Bruch zweier ganzer Zahlen dargestellt werden können."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_878",
+      "baseId": "1_878",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/691/Zahlendarstellungen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für Zahlen gibt es verschiedene Darstellungsmöglichkeiten. So ist etwa "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{1}{2}=0{,}5"
+    },
+    {
+      "t": "text",
+      "v": " als endliche Dezimalzahl oder "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{1}{6}=0{,}1\\overline{6}"
+    },
+    {
+      "t": "text",
+      "v": " als periodische Dezimalzahl darstellbar.\n\nUnten stehend sind Aussagen zu Darstellungsmöglichkeiten verschiedener Zahlen gegeben."
+    }
+  ]
+}

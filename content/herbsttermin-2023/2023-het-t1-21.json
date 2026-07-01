@@ -1,0 +1,140 @@
+{
+  "id": "2023-het-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2023h2]t1-21-ws.pdf"
+  },
+  "title": "Glücksspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-21-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1312a",
+          "baseId": "1_1312",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/856/1_1312_srdp_ma_Gl%C3%BCcksspiel_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "p_1 \\le p"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "p_1 = p^{2}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf das oben beschriebene Glücksspiel jedenfalls zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "p_1 = 2 \\cdot p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1 = (1 - p)^{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1 = p \\cdot (1 - p)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1 \\le p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1 = p^{2}"
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1312",
+      "baseId": "1_1312",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/856/1_1312_srdp_ma_Gl%C3%BCcksspiel_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Wahrscheinlichkeit, 1 Runde eines bestimmten Glücksspiels zu gewinnen, hat den Wert p.\nDie Wahrscheinlichkeit, 2 aufeinanderfolgende Runden dieses Glücksspiels zu gewinnen, hat den Wert p₁.\nAufeinanderfolgende Runden sind voneinander unabhängig."
+    }
+  ]
+}

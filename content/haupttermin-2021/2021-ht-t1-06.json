@@ -1,0 +1,178 @@
+{
+  "id": "2021-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2021h1]t1-6-ag.pdf"
+  },
+  "title": "Rampe",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-06-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_835a",
+          "baseId": "1_835",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/628/Rampe.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "d=\\dfrac{h}{\\sin(\\alpha)}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "d=\\dfrac{h}{\\cos(90^\\circ-\\alpha)}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Rampe mit einer (schrägen) Länge von "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " Metern überwindet einen Höhenunterschied von "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " Metern ("
+        },
+        {
+          "t": "math",
+          "v": "d>0"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "h>0"
+        },
+        {
+          "t": "text",
+          "v": "). Der Steigungswinkel der Rampe wird mit "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\n\nKreuzen Sie die beiden Gleichungen an, die den gegebenen Sachverhalt richtig beschreiben."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "d=\\dfrac{h}{\\sin(\\alpha)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=h\\cdot\\cos(\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=\\dfrac{h}{\\cos(90^\\circ-\\alpha)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=h\\cdot\\sin(90^\\circ-\\alpha)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d=h\\cdot\\tan(\\alpha)"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_835",
+      "baseId": "1_835",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/628/Rampe.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

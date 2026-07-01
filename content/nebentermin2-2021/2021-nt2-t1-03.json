@@ -1,0 +1,136 @@
+{
+  "id": "2021-nt2-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2021n2]t1-3-an.pdf"
+  },
+  "title": "Radfahrer",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-3-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-3-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-03-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_808a",
+          "baseId": "1_808",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/596/Radfahrer.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Alexander ist bis zur Begegnung mit Bernhard 30 Minuten unterwegs.“ und „Alexander legt bis zur Begegnung mit Bernhard 9 km zurück.“"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die im gegebenen Kontext unter Beachtung der obigen Gleichung und deren Lösung zutreffend sind."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Alexander fährt um 10 Minuten später ab als Bernhard."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Alexander ist bis zur Begegnung mit Bernhard 30 Minuten unterwegs."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bernhard ist bis zur Begegnung mit Alexander 20 Minuten unterwegs."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Alexander legt bis zur Begegnung mit Bernhard 9 km zurück."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei ihrer Begegnung sind die beiden von Bernhards Schule weiter entfernt als von Alexanders Schule."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_808",
+      "baseId": "1_808",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/596/Radfahrer.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Schule von Alexander und die Schule von Bernhard sind durch eine 13 km lange geradlinige Straße verbunden.\n\nAn einem bestimmten Tag fahren beide von ihrer jeweiligen Schule aus mit dem Fahrrad entlang dieser Straße einander entgegen. Sie starten zu unterschiedlichen Zeitpunkten und begegnen einander t Stunden nach der Abfahrt von Alexander.\n\nBis zu ihrer Begegnung gilt:\n- Alexander fährt mit einer durchschnittlichen Geschwindigkeit von 18 km/h.\n- Bernhard fährt mit einer durchschnittlichen Geschwindigkeit von 24 km/h.\n\nIm gegebenen Kontext wird die nachstehende Gleichung aufgestellt und gelöst."
+    },
+    {
+      "t": "math",
+      "v": "18\\cdot t+24\\cdot\\left(t-\\tfrac{1}{3}\\right)=13"
+    },
+    {
+      "t": "math",
+      "v": "t=\\tfrac{1}{2}"
+    }
+  ]
+}

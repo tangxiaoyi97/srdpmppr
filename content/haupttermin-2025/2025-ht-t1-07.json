@@ -1,0 +1,155 @@
+{
+  "id": "2025-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2025h1]t1-7-ag.pdf"
+  },
+  "title": "Lohnsteuer",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-7-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-7-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-07-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1455a",
+          "baseId": "1_1455",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1025/1_1455_srdp_ma_Lohnsteuer_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend ist der Graph, der von E = 0 bis 11 000 konstant L = 0 ist, dann linear auf 1 400 bei E = 18 000 und weiter auf 5 300 bei E = 31 000 steigt."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-sol.png",
+              "alt": "Lösung: Graph L(E) mit Knickstellen (0|0), (11 000|0), (18 000|1 400), (31 000|5 300)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die richtige Abbildung an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o1.png",
+              "alt": "Graph L(E): steigt ab E = 0 an, markiert sind 1 400 und 4 000, mit Knickstellen bei 11 000, 18 000 und 31 000."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o2.png",
+              "alt": "Graph L(E): steigt bis 5 300, markiert ist 4 000, mit Stellen 11 000, 18 000 und 31 000."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o3.png",
+              "alt": "Graph L(E): markiert sind 5 300 und 1 400, Knickstellen nur bei 18 000 und 31 000."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o4.png",
+              "alt": "Graph L(E): markiert sind 5 300 und 1 400, mit offenen Kreisen (unstetig), Stellen 11 000, 18 000 und 31 000."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o5.png",
+              "alt": "Graph L(E): konstant 0 von 0 bis 11 000, steigt auf 1 400 bei 18 000 und weiter auf 5 300 bei 31 000; stetig, markiert sind 1 400 und 5 300."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-o6.png",
+              "alt": "Graph L(E): markiert sind 5 300, 4 000 und 1 400, mit Punkten bei 11 000, 18 000 und 31 000."
+            }
+          ]
+        ],
+        "correct": [
+          4
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1455",
+      "baseId": "1_1455",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1025/1_1455_srdp_ma_Lohnsteuer_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Erwerbstätige Personen in Österreich müssen einen Teil ihres Jahreseinkommens E in Form einer Lohnsteuer L an den Staat zahlen (E, L in €).\nDie nachstehende Tabelle gibt für das Jahr 2022 an, wie für jedes Jahreseinkommen E von € 0 bis € 31.000 die zugehörige Lohnsteuer L ermittelt wird."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-07-tab.png",
+      "alt": "Tabelle: Jahreseinkommen E in € | Lohnsteuer L in €. E ≤ 11 000 → 0; 11 000 < E ≤ 18 000 → 20 % von (E – 11 000); 18 000 < E ≤ 31 000 → 1 400 + [30 % von (E – 18 000)]."
+    },
+    {
+      "t": "text",
+      "v": "In einer der nachstehenden Abbildungen wird jedem Jahreseinkommen E von € 0 bis € 31.000 die zugehörige Lohnsteuer L richtig zugeordnet."
+    }
+  ]
+}

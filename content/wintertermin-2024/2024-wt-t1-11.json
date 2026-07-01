@@ -1,0 +1,104 @@
+{
+  "id": "2024-wt-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2024w1]t1-11-fa.pdf"
+  },
+  "title": "Aufrufe eines Videos",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1326a",
+          "baseId": "1_1326",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/874/1_1326_srdp_ma_Aufrufe%20eines%20Videos_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t_1=8{,}99\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von t₁."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie t₁."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "label": "t_1",
+            "value": 8.99985,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1326",
+      "baseId": "1_1326",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/874/1_1326_srdp_ma_Aufrufe%20eines%20Videos_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Video wurde auf eine Internetplattform hochgeladen. Zu Beginn der Beobachtung waren 500 Aufrufe zu verzeichnen. Im Zeitintervall [0; t₁] wird die Anzahl der bisher erfolgten Aufrufe durch eine Exponentialfunktion beschrieben.\n\nIn der nachstehenden Tabelle sind Wertepaare dieser Exponentialfunktion angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-11-q.png",
+      "alt": "Tabelle: Zeit nach Beginn der Beobachtung in h | Anzahl der Aufrufe — 0:500, 1:700, 2:980, 3:1 372, t₁:10 330."
+    }
+  ]
+}

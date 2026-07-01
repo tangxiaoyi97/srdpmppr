@@ -1,0 +1,101 @@
+{
+  "id": "2021-het-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2021h2]t1-23-ws.pdf"
+  },
+  "title": "Kurzsichtigkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-23-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_876a",
+          "baseId": "1_876",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/685/Kurzsichtigkeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "P(„mindestens 2 060 kurzsichtige Personen“) = 0,04"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die annähernd normalverteilte Zufallsvariable X beschreibt die Anzahl der kurzsichtigen Personen in einer Stichprobe. Die Funktion f ist die Dichtefunktion der Zufallsvariablen X und hat an der Stelle x = 2 000 ihr Maximum. Der Graph von f ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-23-q.png",
+          "alt": "Glockenförmiger Graph der Dichtefunktion f mit Maximum bei x = 2 000; grau markiertes Flächenstück zwischen x = 2 000 und x = 2 060."
+        },
+        {
+          "t": "text",
+          "v": "Der Inhalt des grau markierten Flächenstücks beträgt 0,46.\n\nGeben Sie die Wahrscheinlichkeit dafür an, dass sich unter den Personen in dieser Stichprobe mindestens 2 060 kurzsichtige Personen befinden.\n\nP(„mindestens 2 060 kurzsichtige Personen“) ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.04,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_876",
+      "baseId": "1_876",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/685/Kurzsichtigkeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

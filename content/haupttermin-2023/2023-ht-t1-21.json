@@ -1,0 +1,105 @@
+{
+  "id": "2023-ht-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2023h1]t1-21-ws.pdf"
+  },
+  "title": "Kartenspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1288a",
+          "baseId": "1_1288",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/827/1_1288_srdp_ma_Kartenspiel_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1-\\dfrac{3}{8}\\cdot\\dfrac{2}{7}=\\dfrac{25}{28}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "1-\\dfrac{3}{8}\\cdot\\dfrac{2}{7}=\\dfrac{25}{28}=0{,}8928\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit dafür, dass mindestens 1 der 2 aufgedeckten Karten mit einer ungeraden Zahl beschriftet ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P",
+            "value": 0.8928571428571429,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1288",
+      "baseId": "1_1288",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/827/1_1288_srdp_ma_Kartenspiel_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die 8 Karten eines Kartenspiels gilt:\n- 3 Karten sind mit „1“ beschriftet.\n- 3 Karten sind mit „2“ beschriftet.\n- 2 Karten sind mit „3“ beschriftet.\n\nDiese 8 Karten werden gemischt. Anschließend werden 2 Karten aufgedeckt."
+    }
+  ]
+}

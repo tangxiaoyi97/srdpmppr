@@ -1,0 +1,112 @@
+{
+  "id": "2021-nt2-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2021n2]t1-7-ag.pdf"
+  },
+  "title": "Geografische Breite",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-7-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-7-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-07-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.1",
+          "description": "für gegebene Zusammenhänge entscheiden können, ob man sie als Funktionen betrachten kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_812a",
+          "baseId": "1_812",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/600/geografische%20Breite.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "W=[0;\\,6\\,370]"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Intervall."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das kleinstmögliche Intervall W an, das alle Werte von r enthält."
+        },
+        {
+          "t": "math",
+          "v": "W=[\\,\\rule{1.4em}{0.4pt}\\,;\\,\\rule{1.4em}{0.4pt}\\,]"
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": 0,
+        "upper": 6370,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_812",
+      "baseId": "1_812",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/600/geografische%20Breite.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Erde hat annähernd die Gestalt einer Kugel mit dem Radius 6 370 km.\n\nIn der unten stehenden Abbildung ist die Nordhalbkugel der Erde grau markiert. Auf der Nordhalbkugel wird die geografische Breite φ vom Äquator nach Norden gemessen, wobei 0° ≤ φ ≤ 90° gilt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-07-q.png",
+      "alt": "Abbildung der Erdkugel mit Nordpol, Südpol, Äquator und Breitenkreisen; die Nordhalbkugel ist grau markiert; die geografische Breite φ wird vom Äquator (0°) nach Norden gemessen."
+    },
+    {
+      "t": "text",
+      "v": "Für den Radius r (in km) eines Breitenkreises (zur geografischen Breite φ) gilt:"
+    },
+    {
+      "t": "math",
+      "v": "r=6\\,370\\cdot\\cos(\\varphi)"
+    }
+  ]
+}

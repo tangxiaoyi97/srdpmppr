@@ -1,0 +1,157 @@
+{
+  "id": "2019-ht-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2019h1]t1-17-an.pdf"
+  },
+  "title": "Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_702a",
+          "baseId": "1_702",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/435/Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f''(3)=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(1)>f''(4)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden auf die Funktion f zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f''(3)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(1)>f'(3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(1)=f''(5)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(1)>f''(4)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(3)=0"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_702",
+      "baseId": "1_702",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/435/Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\!: \\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " vom Grad 3 im Intervall [–1; 7] dargestellt. Alle lokalen Extremstellen sowie die Wendestelle von f im Intervall [–1; 7] sind ganzzahlig und können aus der Abbildung abgelesen werden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-17-q.png",
+      "alt": "Graph einer Polynomfunktion 3. Grades f im Intervall [−1; 7] mit ganzzahligen Extremstellen und Wendestelle."
+    }
+  ]
+}

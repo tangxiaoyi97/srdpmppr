@@ -1,0 +1,173 @@
+{
+  "id": "2019-nt1-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2019n1]t1-7-an.pdf"
+  },
+  "title": "Quadratische Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-07-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_716a",
+          "baseId": "1_716",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/455/Quadratische%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "b=0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② einen zur senkrechten Achse symmetrischen Graphen"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen des jeweils richtigen Satzteils so, dass eine korrekte Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Wenn ① gilt, so hat die Funktion f auf jeden Fall ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c>0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "einen zur senkrechten Achse symmetrischen Graphen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "zwei reelle Nullstellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "ein lokales Minimum"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_716",
+      "baseId": "1_716",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/455/Quadratische%20Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine quadratische Funktion f: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{2}+b\\cdot x+c"
+    },
+    {
+      "t": "text",
+      "v": " (a, b, c ∈ ℝ und a ≠ 0)."
+    }
+  ]
+}

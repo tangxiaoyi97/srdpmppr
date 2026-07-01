@@ -1,0 +1,433 @@
+{
+  "id": "2026-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2026h1]t2-4.pdf"
+  },
+  "title": "Pistazien",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_164a",
+          "baseId": "2_164",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1138/2_164_Pistazien_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Unternehmen Pistazienwunder füllt Pistazien in Packungen ab und verkauft sie.\n\nDie Kosten für die Produktion dieser Packungen werden durch die Polynomfunktion K modellhaft beschrieben. Der Erlös aus dem Verkauf dieser Packungen wird durch die lineare Funktion E modellhaft beschrieben.\n\nEs wird angenommen, dass alle produzierten Packungen auch verkauft werden.\n\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "K(x)=\\tfrac{x^{3}}{10^{6}}-\\tfrac{15\\cdot x^{2}}{10^{4}}+1{,}5\\cdot x+1\\,000"
+        },
+        {
+          "t": "math",
+          "v": "E(x)=p\\cdot x"
+        },
+        {
+          "t": "text",
+          "v": "x ... Anzahl der produzierten und verkauften Packungen\nK(x) ... Kosten für die Produktion von x Packungen in Euro\nE(x) ... Erlös aus dem Verkauf von x Packungen in Euro\np ... Verkaufspreis in Euro pro Packung\n\nDer maximale Gewinn wird beim Verkauf von 1 500 Packungen erzielt.\n\nBerechnen Sie p."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 3.75,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "G(x)=p\\cdot x-\\left(\\tfrac{x^{3}}{10^{6}}-\\tfrac{15\\cdot x^{2}}{10^{4}}+1{,}5\\cdot x+1\\,000\\right)"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "G'(1\\,500)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p=3{,}75"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von p."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_164a",
+          "baseId": "2_164",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1138/2_164_Pistazien_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Dem Unternehmen Pistazienwunder gelingt es, die Fixkosten für die Produktion der Packungen zu senken. Alle anderen Rahmenbedingungen bleiben unverändert.\n\nLisa behauptet: „Obwohl die Fixkosten geringer sind, wird weiterhin bei einem Verkauf von 1 500 Pistazien-Packungen der maximale Gewinn erzielt.“\n\nBegründen Sie, warum Lisas Behauptung richtig ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Funktionsgraph der Kostenfunktion und der Funktionsgraph der Gewinnfunktion werden durch die (Änderung der) Fixkosten nur in vertikaler Richtung verschoben. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.) oder: Beim Ableiten der Gewinnfunktion fällt derjenige Koeffizient weg, der sich aus den Fixkosten ergibt. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Funktionsgraph der Kostenfunktion und der Funktionsgraph der Gewinnfunktion werden durch die (Änderung der) Fixkosten nur in vertikaler Richtung verschoben. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.)"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Begründen."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_164b",
+          "baseId": "2_164",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1138/2_164_Pistazien_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Logo des Unternehmens Pistazienwunder hat die Form einer Pistazie in der Ansicht von der Seite (siehe nebenstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-04-b.png",
+          "alt": "Koordinatensystem mit dem Logo: Graph von f (nach unten geöffnete Parabel, grau markierter kleinerer Teil), die Geraden g₁ (links) und g₂ (rechts) sowie ein Halbkreis mit Mittelpunkt M = (0 | 0) und Radius r = 6 begrenzen den größeren Teil."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt:"
+        },
+        {
+          "t": "math",
+          "v": "g_1(x)=k_1\\cdot x+d_1\\ \\text{mit}\\ -6\\le x\\le -3"
+        },
+        {
+          "t": "math",
+          "v": "g_2(x)=k_2\\cdot x+d_2\\ \\text{mit}\\ 3\\le x\\le 6"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}5\\cdot x^{2}+10\\ \\text{mit}\\ -2\\le x\\le 2"
+        },
+        {
+          "t": "text",
+          "v": "x, f(x), g₁(x), g₂(x) ... Maße in Längeneinheiten (LE)\nk₁, k₂, d₁, d₂ ... reelle Parameter\n\nDer größere Teil des Logos wird von den Graphen der Funktionen g₁ und g₂ und zwei weiteren Strecken sowie von einem Halbkreis mit dem Mittelpunkt M = (0 | 0) und dem Radius r = 6 LE begrenzt.\n\nDer kleinere Teil des Logos wird vom Graphen der Funktion f und von zwei Strecken begrenzt und ist in der Abbildung grau markiert dargestellt.\n\nDie Eckpunkte des größeren Teils des Logos haben ganzzahlige Koordinaten.\n\nBerechnen Sie den Anteil pA des Flächeninhalts der grau markierten Fläche am gesamten Flächeninhalt des Logos in Prozent."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "pA",
+            "label": "pA",
+            "value": 9.39,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Flächeninhalt der grau markierten Fläche: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\int_{0}^{2} f(x)\\,dx-12=\\tfrac{40}{3}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "p_A=\\dfrac{\\tfrac{40}{3}}{\\tfrac{40}{3}+18\\cdot\\pi+72}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p_A=9{,}39\\ldots\\,\\%"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen von pA."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_164b",
+          "baseId": "2_164",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1138/2_164_Pistazien_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Für die Funktionen g₁ und g₂ gilt: ① und ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "k_1=-k_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k_1=k_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k_1=-\\tfrac{1}{k_2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d_1=-d_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d_1=d_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d_1=-\\tfrac{1}{d_2}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "k_1=-k_2"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "d_1=d_2"
+            }
+          ],
+          "note": "b2) Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_164",
+      "baseId": "2_164",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1138/2_164_Pistazien_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Pistazien werden meist mit ihrer Schale angeboten."
+    }
+  ]
+}

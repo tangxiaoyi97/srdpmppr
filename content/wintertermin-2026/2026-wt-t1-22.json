@@ -1,0 +1,182 @@
+{
+  "id": "2026-wt-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2026w1]t1-22-ws.pdf"
+  },
+  "title": "Brettspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-22-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1588a",
+          "baseId": "1_1588",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1102/1_1588_srdp_ma_Brettspiel_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "1-0{,}6^{n}\\to F,\\quad 1-0{,}4^{n}\\to C,\\quad n\\cdot 0{,}6^{n-1}\\cdot 0{,}4+0{,}6^{n}\\to D,\\quad 0{,}4^{n}\\to B"
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Wahrscheinlichkeiten jeweils das mit dieser Wahrscheinlichkeit eintretende Ereignis aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "1-0{,}6^{n}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-0{,}4^{n}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "n\\cdot 0{,}6^{n-1}\\cdot 0{,}4+0{,}6^{n}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "0{,}4^{n}"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "Lisa gewinnt alle Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Lisa verliert alle Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Lisa gewinnt mindestens 1 Partie."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Lisa verliert höchstens 1 Partie."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Lisa gewinnt höchstens 1 Partie."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Lisa verliert mindestens 1 Partie."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1588",
+      "baseId": "1_1588",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1102/1_1588_srdp_ma_Brettspiel_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Lisa spielt gegen Peter ein bestimmtes Brettspiel, bei dem man entweder gewinnt oder verliert. Erfahrungsgemäß gewinnt Lisa jede Partie unabhängig von den anderen Partien mit einer Wahrscheinlichkeit von 60 %.\n\nAn einem bestimmten Tag spielt Lisa n Partien dieses Brettspiels gegen Peter (n > 2)."
+    }
+  ]
+}

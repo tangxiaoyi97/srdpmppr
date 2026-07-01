@@ -1,0 +1,147 @@
+{
+  "id": "2021-het-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2021h2]t1-16-an.pdf"
+  },
+  "title": "Ableitungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_869a",
+          "baseId": "1_869",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/678/Ableitungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f''(0)>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f'(1)>0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist der Graph der Polynomfunktion 3. Grades f. Die Koordinaten der eingezeichneten Punkte (Tiefpunkt T, Wendepunkt W und Hochpunkt H) sind ganzzahlig."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-16-q.png",
+          "alt": "Graph einer Polynomfunktion 3. Grades f mit Tiefpunkt T, Wendepunkt W und Hochpunkt H."
+        },
+        {
+          "t": "text",
+          "v": "Unten stehend sind verschiedene Aussagen zur 1. bzw. 2. Ableitung von f gegeben.\n\nKreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f'(0)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(0)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(1)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(2)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(2)>0"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_869",
+      "baseId": "1_869",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/678/Ableitungen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

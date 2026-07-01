@@ -1,0 +1,495 @@
+{
+  "id": "2019-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2019h1]t2-4.pdf"
+  },
+  "title": "Wings for Life World Run",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048a",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Person läuft mit konstanter Geschwindigkeit, bis sie vom Catcher-Car überholt wird. Diese Person wird während der 15-km/h-Phase des Catcher-Cars überholt. Die Laufzeit t der Person hängt von der Geschwindigkeit v der Person ab.\n\nGeben Sie einen Term an, mit dem t bei Kenntnis von v berechnet werden kann (mit t in h und v in km/h)!"
+        },
+        {
+          "t": "math",
+          "v": "t="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{7.5}{15-v}",
+        "vars": [
+          "v"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v\\cdot t=15\\cdot(t-0{,}5)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t=\\frac{7{,}5}{15-v}"
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Term. Äquivalente Terme sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048a",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 2016 betrug die (konstante) Geschwindigkeit einer Person bei diesem Lauf 9 km/h. Ein Jahr später war ihre (konstante) Geschwindigkeit bei diesem Lauf um 10 % höher.\n\nGeben Sie an, um wie viel Prozent sich dadurch die Streckenlänge erhöhte, die diese Person zurücklegte, bis sie vom Catcher-Car überholt wurde!\n\nDie zurückgelegte Streckenlänge erhöhte sich dadurch um ca. "
+        },
+        {
+          "t": "math",
+          "v": "\\square"
+        },
+        {
+          "t": "text",
+          "v": " %."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 29.5,
+            "tol": 0.5,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "s=v\\cdot t=v\\cdot\\frac{7{,}5}{15-v}"
+            },
+            {
+              "t": "math",
+              "v": "v=9\\ \\text{km/h}: s=11{,}25\\ \\text{km};\\quad v=9{,}9\\ \\text{km/h}: s\\approx 14{,}559\\ \\text{km}"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{14{,}559}{11{,}25}\\approx 1{,}294"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die zurückgelegte Streckenlänge erhöhte sich dadurch um ca. 29,4 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [29 %; 30 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048b",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte gut trainierte Person läuft während der ersten Stunde mit einer konstanten Geschwindigkeit und benötigt dabei pro Kilometer 5 Minuten. Anschließend wird sie langsamer. Ab diesem Zeitpunkt (also für t ≥ 1) kann ihre Geschwindigkeit mithilfe der Funktion v in Abhängigkeit von der gelaufenen Zeit modelliert werden. Für die Geschwindigkeit v(t) gilt:"
+        },
+        {
+          "t": "math",
+          "v": "v(t)=12\\cdot 0{,}7^{\\,t-1}\\ \\text{mit}\\ t\\ \\text{in h und}\\ v(t)\\ \\text{in km/h}"
+        },
+        {
+          "t": "text",
+          "v": "Deuten Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "12+\\int_{1}^{b} v(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " mit b ≥ 1 im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt die Streckenlänge, die die Person bis zum Zeitpunkt t = b zurücklegt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Deutung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die Streckenlänge, die die Person bis zum Zeitpunkt t = b zurücklegt."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Deutung."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.3",
+          "description": "die Wirkung der Parameter a und b (bzw. e^lambda ) kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048b",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Uhrzeit, zu der das Catcher-Car diese Person überholt!\n\nUhrzeit: __ : __ UTC"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Aus "
+          },
+          {
+            "t": "math",
+            "v": "12+\\int_{1}^{b} v(t)\\,dt=15+16\\cdot(b-1{,}5)"
+          },
+          {
+            "t": "text",
+            "v": " folgt b ≈ 1,878, d. h. die Laufzeit der Person bis zum Zeitpunkt des Überholens beträgt ca. 1 h 53 min. Uhrzeit: 12:53 UTC (auch 12:52 UTC ist als richtig zu werten)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung, wobei auch 12:52 UTC als richtig zu werten ist.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "12+\\int_{1}^{b} v(t)\\,dt=15+16\\cdot(b-1{,}5)\\Rightarrow b\\approx 1{,}878"
+            },
+            {
+              "t": "text",
+              "v": "Die Laufzeit der Person bis zum Zeitpunkt des Überholens beträgt ca. 1 h 53 min."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Uhrzeit: 12:53 UTC"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei auch 12:52 UTC als richtig zu werten ist. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048c",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Gruppe von Läuferinnen und Läufern wird während der 20-km/h-Phase des Catcher-Cars überholt. Juri schließt aus dieser Information, dass diese Gruppe nicht weniger als 40 km und nicht mehr als 88 km zurückgelegt hat, bis sie vom Catcher-Car überholt wurde. Leo meint zu dieser Behauptung: „Deine Aussage ist wahr, aber ich könnte ein kleineres Intervall nennen, das ebenso zutrifft.“\n\nGeben Sie an, ob die Behauptung von Leo stimmt, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Behauptung von Leo stimmt. Mögliche Begründung: Das Catcher-Car legt bis zum Beginn der 20-km/h-Phase 48 km zurück, daher muss der Läufer zumindest 48 km zurückgelegt haben. Das Catcher-Car legt innerhalb der 20-km/h-Phase weitere 40 km zurück, bevor es die 35-km/h-Phase startet. Daher legt der Läufer höchstens 88 km zurück, wenn er in dieser Phase überholt wird. Somit ist es Leo möglich, ein kleineres Intervall anzugeben. (Das kleinstmögliche Intervall beträgt [48 km; 88 km].)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Die Begründung ist ausreichend, wenn aus ihr klar hervorgeht, dass die Breite des Intervalls durch Vergrößerung der linken Intervallgrenze verringert werden kann, die Angabe eines konkreten Intervalls ist dafür nicht erforderlich.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Behauptung von Leo stimmt. Das Catcher-Car legt bis zum Beginn der 20-km/h-Phase 48 km zurück, daher muss der Läufer zumindest 48 km zurückgelegt haben; innerhalb der 20-km/h-Phase legt es weitere 40 km zurück, daher höchstens 88 km. Das kleinstmögliche Intervall beträgt [48 km; 88 km]."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Grundkompetenz: FA 1.7"
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_048c",
+          "baseId": "2_048",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In Wien legte 2017 die schnellste Teilnehmerin eine Strecke von 51,72 km zurück, bis sie vom Catcher-Car überholt wurde.\n\nBerechnen Sie ihre durchschnittliche Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{v}"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "math",
+          "v": "\\bar{v}="
+        },
+        {
+          "t": "text",
+          "v": " km/h"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "label": "v",
+            "value": 14,
+            "tol": 0.5,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Die Teilnehmerin wurde während der 20-km/h-Phase des Catcher-Cars überholt."
+            },
+            {
+              "t": "math",
+              "v": "t=3{,}5+\\frac{3{,}72}{20}=3{,}686\\ \\text{h}"
+            },
+            {
+              "t": "math",
+              "v": "\\bar{v}=\\frac{51{,}72}{3{,}686}\\approx 14{,}03\\ \\text{km/h}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar{v}\\approx 14{,}03\\ \\text{km/h}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [13,5; 14,5] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_048",
+      "baseId": "2_048",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Wings for Life World Run ist ein in vielen Ländern zur gleichen Zeit stattfindender Volkslauf. Eine Besonderheit dieses Laufs ist, dass keine vorgegebene Distanz zurückgelegt werden muss.\n\nEs starten alle Läufer/innen weltweit gleichzeitig um 11:00 UTC (koordinierte Weltzeit). Vom jeweiligen Startpunkt startet 30 Minuten später ein Auto, das sogenannte Catcher-Car, und fährt die Strecke ab. Dabei erhöht sich die Geschwindigkeit des Autos nach einem vorgegebenen Zeitplan. Für jede teilnehmende Person endet der Lauf, wenn sie vom Catcher-Car überholt wird. Das Ergebnis für eine teilnehmende Person ist die Länge derjenigen Strecke, die diese Person bis zum Zeitpunkt des Überholens durch das Catcher-Car zurückgelegt hat.\n\nFür die Geschwindigkeiten des Catcher-Cars wurden bis zum Jahr 2018 folgende Werte vorgegeben (diese dienen modellhaft als Grundlage für die Bearbeitung der folgenden Aufgabenstellungen):"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-04-q.png",
+      "alt": "Tabelle Uhrzeit / Geschwindigkeit des Catcher-Cars: von 11:30 bis 12:30 → 15 km/h; 12:30–13:30 → 16 km/h; 13:30–14:30 → 17 km/h; 14:30–15:30 → 20 km/h; 15:30–16:30 → 20 km/h; ab 16:30 → 35 km/h."
+    }
+  ]
+}

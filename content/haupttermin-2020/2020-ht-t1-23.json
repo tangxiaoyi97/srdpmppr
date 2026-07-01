@@ -1,0 +1,108 @@
+{
+  "id": "2020-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2020h1]t1-23-ws.pdf"
+  },
+  "title": "Zimmerbuchung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_780a",
+          "baseId": "1_780",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/564/Zimmerbuchung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nX … Anzahl der Zimmerbuchungen (von den 40 Zimmerbuchungen), die storniert werden\nDie Zufallsvariable X ist binomialverteilt mit den Parametern n = 40 und p = 0,1.\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le 2)=0{,}2228\\ldots\\approx 22{,}3\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass an diesem Termin von den 40 Zimmerbuchungen höchstens 5 % storniert werden, beträgt ca. 22,3 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit dafür, dass an diesem Termin von den 40 Zimmerbuchungen höchstens 5 % storniert werden."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.223,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_780",
+      "baseId": "1_780",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/564/Zimmerbuchung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Hotelmanager geht aufgrund langjähriger Erfahrung davon aus, dass jede Zimmerbuchung, die unabhängig von anderen Zimmerbuchungen erfolgte, mit 10%iger Wahrscheinlichkeit storniert wird. Er nimmt für einen bestimmten Termin 40 voneinander unabhängige Zimmerbuchungen an."
+    }
+  ]
+}

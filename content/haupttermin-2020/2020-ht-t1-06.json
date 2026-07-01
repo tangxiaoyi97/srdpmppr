@@ -1,0 +1,106 @@
+{
+  "id": "2020-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2020h1]t1-6-ag.pdf"
+  },
+  "title": "Bahntrasse",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-06-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_763a",
+          "baseId": "1_763",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/547/Bahntrasse.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac{30}{1\\,000}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung an, mit der für eine geradlinige Bahntrasse mit der Steigung 30 ‰ der Steigungswinkel α exakt berechnet werden kann (α > 0)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine richtige Gleichung, z. B.: "
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac{30}{1\\,000}"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_763",
+      "baseId": "1_763",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/547/Bahntrasse.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Steigung einer geradlinigen Bahntrasse wird in Promille (‰) angegeben. Beispielsweise ist bei einem Höhenunterschied von 1 m pro 1 000 m zurückgelegter Distanz in horizontaler Richtung die Steigung 1 ‰."
+    }
+  ]
+}

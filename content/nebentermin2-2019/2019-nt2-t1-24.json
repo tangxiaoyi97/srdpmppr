@@ -1,0 +1,91 @@
+{
+  "id": "2019-nt2-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2019n2]t1-24-ws.pdf"
+  },
+  "title": "Telefonumfrage",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}2 \\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}2\\cdot 0{,}8}{400}}\\approx 0{,}2 \\pm 0{,}04 \\Rightarrow [16\\,\\%; 24\\,\\%]"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Intervall [16 %; 24 %] kann daher ein symmetrisches 95-%-Konfidenzintervall für den relativen Anteil p der Befürworter/innen in der gesamten Bevölkerung sein."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie durch eine Rechnung, dass das Intervall [16,0 %; 24,0 %] ein symmetrisches 95-%-Konfidenzintervall für den relativen Anteil p der Befürworter/innen in der gesamten Bevölkerung sein kann (wobei die Intervallgrenzen des Konfidenzintervalls gerundete Werte sind)!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Möglicher rechnerischer Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "0{,}2 \\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}2\\cdot 0{,}8}{400}}\\approx 0{,}2 \\pm 0{,}04 \\Rightarrow [16\\,\\%; 24\\,\\%]"
+          },
+          {
+            "t": "text",
+            "v": ". Das Intervall [16 %; 24 %] kann daher ein symmetrisches 95-%-Konfidenzintervall für den relativen Anteil p der Befürworter/innen in der gesamten Bevölkerung sein."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen korrekten rechnerischen Nachweis. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer repräsentativen Telefonumfrage mit 400 zufällig ausgewählten Personen erhält man für den relativen Anteil der Befürworter/innen von kürzeren Sommerferien den Wert 20 %."
+    }
+  ]
+}

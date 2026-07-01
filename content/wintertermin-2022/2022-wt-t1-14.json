@@ -1,0 +1,128 @@
+{
+  "id": "2022-wt-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2022w1]t1-14-an.pdf"
+  },
+  "title": "Traubensaft",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-14-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_891a",
+          "baseId": "1_891",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/693/Traubensaft.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die 1. Ableitung von f hat an der Stelle t₁ einen positiven Wert.“ und „Die 2. Ableitung von f hat an der Stelle t₂ einen negativen Wert.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die 1. Ableitung von f hat an der Stelle t₁ einen positiven Wert."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die 1. Ableitung von f hat an der Stelle t₂ einen negativen Wert."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die 1. Ableitung von f hat an der Stelle t₁ den gleichen Wert wie die 1. Ableitung von f an der Stelle t₂."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die 2. Ableitung von f hat an der Stelle t₁ einen positiven Wert."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die 2. Ableitung von f hat an der Stelle t₂ einen negativen Wert."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_891",
+      "baseId": "1_891",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/693/Traubensaft.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmter Behälter wird mit Traubensaft befüllt. Die Funktion f beschreibt den Füllstand des Traubensafts im Behälter in Abhängigkeit von der Zeit t. Dabei gilt:\n- Der Füllvorgang erfolgt ohne Unterbrechung.\n- Die Zunahme des Füllstands nimmt laufend (d. h. streng monoton) ab.\n\nt ... Zeit seit Beginn des Füllvorgangs in s\nf(t) ... Füllstand des Traubensafts im Behälter zur Zeit t in cm\nt₁, t₂ ... zwei bestimmte Zeitpunkte während des Füllvorgangs mit t₁ < t₂"
+    }
+  ]
+}

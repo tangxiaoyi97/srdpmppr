@@ -1,0 +1,134 @@
+{
+  "id": "2026-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2026h1]t1-8-fa.pdf"
+  },
+  "title": "Geschwindigkeit eines Körpers",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-08-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1598a",
+          "baseId": "1_1598",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1118/1_1598_Geschwindigkeit%20eines%20Koerpers_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-08-sol.png",
+              "alt": "Lösung: Punkt P = (3,5 | 17) im Koordinatensystem eingezeichnet."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Toleranzbereich für v(3,5): (16; 18)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen von P = (3,5 | 17)."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im nachstehenden Koordinatensystem den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(3{,}5\\mid v(3{,}5))"
+        },
+        {
+          "t": "text",
+          "v": " ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-08-q.png",
+          "alt": "Leeres Koordinatensystem: waagrechte Achse t in s von 0 bis 5, senkrechte Achse v(t) in m/s von 0 bis 25."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "P=(3{,}5\\mid 17)"
+          },
+          {
+            "t": "text",
+            "v": " wird eingezeichnet. Toleranzbereich für v(3,5): (16; 18). Im Hinblick auf die Punktevergabe ist die Beschriftung des Punktes mit P nicht erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1598",
+      "baseId": "1_1598",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1118/1_1598_Geschwindigkeit%20eines%20Koerpers_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeit eines bestimmten Körpers in Abhängigkeit von der Zeit t kann modellhaft durch die lineare Funktion v mit "
+    },
+    {
+      "t": "math",
+      "v": "v(t)=a\\cdot t+b\\ \\text{mit}\\ a,\\,b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden (t in s mit t = 0 für den Beginn der Bewegung, v(t) in m/s).\n\nNach 2 s hat der Körper eine Geschwindigkeit von 14 m/s.\nNach 4 s hat der Körper eine Geschwindigkeit von 18 m/s."
+    }
+  ]
+}

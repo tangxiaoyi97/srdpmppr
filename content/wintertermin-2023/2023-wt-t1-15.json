@@ -1,0 +1,228 @@
+{
+  "id": "2023-wt-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2023w1]t1-15-an.pdf"
+  },
+  "title": "Ableitungsregeln",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-15-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1258a",
+          "baseId": "1_1258",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/790/1_1258_srdp_ma_Ableitungsregeln_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = g(x) - h(x) \\Rightarrow f'(x) = g'(x) - h'(x)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = k \\cdot g(x) \\Rightarrow f'(x) = k \\cdot g'(x)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Für die reelle Funktion f mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = g(x) - h(x)"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x) = g'(x) - h'(x)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für die reelle Funktion f mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = h(k \\cdot x)"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x) = h'(k \\cdot x)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für die reelle Funktion f mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = k \\cdot g(x)"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x) = k \\cdot g'(x)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für die reelle Funktion f mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = g(x) + k"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x) = g'(x) + k \\cdot x"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für die reelle Funktion f mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x) = g(x) + h(x)"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x) = g'(x) \\cdot h'(x)"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1258",
+      "baseId": "1_1258",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/790/1_1258_srdp_ma_Ableitungsregeln_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die zwei differenzierbaren Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "g\\colon \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h\\colon \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " sowie "
+    },
+    {
+      "t": "math",
+      "v": "k \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

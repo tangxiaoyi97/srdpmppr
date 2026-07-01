@@ -1,0 +1,113 @@
+{
+  "id": "2019-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2019h1]t1-11-fa.pdf"
+  },
+  "title": "Wirkstoff",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_696a",
+          "baseId": "1_696",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/429/Wirkstoff.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}9^{4}=0{,}6561"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "65,61 % der Anfangsmenge"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Toleranzintervall: [65 %; 66 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, welcher Prozentsatz der Anfangsmenge des Wirkstoffs nach insgesamt vier Stunden noch im Blut vorhanden ist!"
+        },
+        {
+          "t": "math",
+          "v": "\\square"
+        },
+        {
+          "t": "text",
+          "v": " % der Anfangsmenge"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 65.5,
+            "tol": 0.5,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_696",
+      "baseId": "1_696",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/429/Wirkstoff.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Abnahme der Menge des Wirkstoffs eines Medikaments im Blut lässt sich durch eine Exponentialfunktion modellieren.\n\nNach einer Stunde sind 10 % der Anfangsmenge des Wirkstoffs abgebaut worden."
+    }
+  ]
+}

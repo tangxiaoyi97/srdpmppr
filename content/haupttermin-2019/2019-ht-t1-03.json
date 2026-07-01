@@ -1,0 +1,117 @@
+{
+  "id": "2019-ht-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2019h1]t1-3-ag.pdf"
+  },
+  "title": "Ungleichungen lösen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.4",
+          "description": "lineare Ungleichungen aufstellen, interpretieren, umformen/lösen, Lösungen (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_688a",
+          "baseId": "1_688",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/421/Ungleichungen%20l%C3%B6sen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\mathrm{I}\\!: 7\\cdot x+67>-17\\Rightarrow x>-12"
+            },
+            {
+              "t": "math",
+              "v": "\\mathrm{II}\\!: -25-4\\cdot x>7\\Rightarrow x<-8"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Menge aller reellen Zahlen x, die beide Ungleichungen erfüllen: "
+            },
+            {
+              "t": "math",
+              "v": "(-12;-8)"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für das richtige Intervall. Andere Schreibweisen der Lösungsmenge sind ebenfalls als richtig zu werten. Bei Angabe eines halboffenen oder geschlossenen Intervalls ist der Punkt nicht zu geben. Grundkompetenz: AG 2.4"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gesucht sind alle reellen Zahlen x, die beide Ungleichungen erfüllen.\n\nGeben Sie die Menge dieser Zahlen als Intervall an!"
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": -12,
+        "upper": -8,
+        "lowerClosed": false,
+        "upperClosed": false
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_688",
+      "baseId": "1_688",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/421/Ungleichungen%20l%C3%B6sen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind zwei lineare Ungleichungen."
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{I}\\!: 7\\cdot x+67>-17"
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{II}\\!: -25-4\\cdot x>7"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "2023-het-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2023h2]t1-14-an.pdf"
+  },
+  "title": "Mittlere Geschwindigkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-14-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1305a",
+          "baseId": "1_1305",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/849/1_1305_srdp_ma_Mittlere%20Geschwindigkeit_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{s(2) - s(0)}{2 - 0} = 10"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{d \\cdot 4}{2} = 10"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "d = 5"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von d."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie d."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d",
+            "value": 5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1305",
+      "baseId": "1_1305",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/849/1_1305_srdp_ma_Mittlere%20Geschwindigkeit_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Bewegung eines bestimmten Körpers wird durch die Zeit-Weg-Funktion s mit "
+    },
+    {
+      "t": "math",
+      "v": "s(t) = d \\cdot t^{2}"
+    },
+    {
+      "t": "text",
+      "v": " modelliert (t in s, s(t) in m).\nDie mittlere Geschwindigkeit dieses Körpers im Zeitintervall [0 s; 2 s] beträgt 10 m/s."
+    }
+  ]
+}

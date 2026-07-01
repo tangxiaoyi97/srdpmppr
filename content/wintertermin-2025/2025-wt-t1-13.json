@@ -1,0 +1,105 @@
+{
+  "id": "2025-wt-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2025w1]t1-13-an.pdf"
+  },
+  "title": "Kontostand",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-13-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1437a",
+          "baseId": "1_1437",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/999/1_1437_srdp_ma_Kontostand_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{150-187{,}5}{187{,}5}=-0{,}2"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Kontostand vermindert sich um 20 %."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent sich der Kontostand dieses Kontos durch Bezahlung der Rechnung vermindert."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 20,
+            "tol": 1e-9,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1437",
+      "baseId": "1_1437",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/999/1_1437_srdp_ma_Kontostand_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Kontostand eines bestimmten Kontos beträgt € 187,50.\n\nVon diesem Konto wird eine Rechnung in der Höhe von € 37,50 bezahlt."
+    }
+  ]
+}

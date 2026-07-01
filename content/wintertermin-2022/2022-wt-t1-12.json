@@ -1,0 +1,144 @@
+{
+  "id": "2022-wt-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2022w1]t1-12-fa.pdf"
+  },
+  "title": "Bevölkerungszahl",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-12-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 5.6",
+          "description": "die Angemessenheit einer Beschreibung mittels Exponentialfunktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_889a",
+          "baseId": "1_889",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/716/Bevoelkerungszahl.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Bevölkerungszahl nahm jedes Jahr um "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{10}"
+            },
+            {
+              "t": "text",
+              "v": " der Bevölkerungszahl des jeweiligen Vorjahres zu.“ und „Die Bevölkerungszahl war jedes Jahr um 5 % größer als im jeweiligen Vorjahr.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Situationen an, die jeweils mithilfe einer Exponentialfunktion angemessen beschrieben werden können. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl nahm jedes Jahr um "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{10}"
+            },
+            {
+              "t": "text",
+              "v": " der Bevölkerungszahl des jeweiligen Vorjahres zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl hat im ersten Jahr um 10 000, im zweiten um 20 000, im dritten um 30 000, im vierten um 40 000 und im letzten Jahr um 50 000 zugenommen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl war jedes Jahr um 5 % größer als im jeweiligen Vorjahr."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl war jedes Jahr um 20 000 größer als im jeweiligen Vorjahr."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Bevölkerungszahl war in den ersten zwei Jahren jedes Jahr um 5 % größer als im jeweiligen Vorjahr, dann jedes Jahr um 15 % größer als im jeweiligen Vorjahr."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_889",
+      "baseId": "1_889",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/716/Bevoelkerungszahl.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es wurde erhoben, wie sich die Bevölkerungszahl in verschiedenen Städten in den vergangenen fünf Jahren verändert hat.\nZwei der unten angeführten Situationen können als exponentielles Wachstum der jeweiligen Bevölkerungszahl beschrieben werden."
+    }
+  ]
+}

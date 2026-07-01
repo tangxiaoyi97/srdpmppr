@@ -1,0 +1,341 @@
+{
+  "id": "2022-het-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2022h2]t2-2.pdf"
+  },
+  "title": "Pelletsheizung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_118a",
+          "baseId": "2_118",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/775/Pelletsheizung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die mittlere Änderungsrate der Jahresdurchschnittspreise für Pellets (in Cent/kWh pro Jahr) für den Zeitraum von 2006 bis 2019."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rate",
+            "value": 0.0338,
+            "tol": 0.006,
+            "unit": "Cent/kWh pro Jahr"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{4{,}84-4{,}4}{13}=0{,}033\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die mittlere Änderungsrate der Jahresdurchschnittspreise für Pellets beträgt rund 0,03 Cent/kWh pro Jahr."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der mittleren Änderungsrate."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_118b",
+          "baseId": "2_118",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/775/Pelletsheizung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Familie Buchner lebt in einem Einfamilienhaus und heizt mit Heizöl. Die Familie überlegt, auf eine Pelletsheizung umzusteigen.\nFür die geschätzten Gesamtkosten für das Heizen mit Heizöl oder mit Pellets ab dem Jahr 2019 trifft Familie Buchner folgende Annahmen:\n- Familie Buchner verbraucht pro Jahr rund 15 000 kWh Energie für das Beheizen ihres Hauses.\n- Der Jahresdurchschnittspreis für das Heizen mit Heizöl (0,0795 €/kWh) und jener für das Heizen mit Pellets (0,0484 €/kWh) bleiben ab dem Jahr 2019 gleich.\n- Der Umstieg von der Ölheizung zu einer Pelletsheizung kostet einmalig 10.000 €.\n\nt ... Zeit seit Beginn des Jahres 2019 in Jahren\nKÖl(t) ... geschätzte Gesamtkosten für das Heizen mit Heizöl bis zur Zeit t in €\nKPellets(t) ... geschätzte Gesamtkosten für das Heizen mit Pellets bis zur Zeit t in €\n\nStellen Sie auf Basis dieser Annahmen jeweils eine Funktionsgleichung von KÖl bzw. von KPellets auf."
+        },
+        {
+          "t": "math",
+          "v": "K_{\\text{Öl}}(t)=\\qquad\\qquad K_{\\text{Pellets}}(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Beide Funktionsgleichungen:"
+          },
+          {
+            "t": "math",
+            "v": "K_{\\text{Öl}}(t)=15\\,000\\cdot 0{,}0795\\cdot t=1\\,192{,}5\\cdot t"
+          },
+          {
+            "t": "math",
+            "v": "K_{\\text{Pellets}}(t)=15\\,000\\cdot 0{,}0484\\cdot t+10\\,000=726\\cdot t+10\\,000"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K_{\\text{Öl}}(t)=1\\,192{,}5\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "K_{\\text{Pellets}}(t)=726\\cdot t+10\\,000"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der beiden Funktionsgleichungen KÖl und KPellets, ein halber Punkt für nur eine richtige Funktionsgleichung."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.6",
+          "description": "Schnittpunkte zweier Funktionsgraphen grafisch und rechnerisch ermitteln und im Kontext interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_118b",
+          "baseId": "2_118",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/775/Pelletsheizung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Zeitpunkt t₁, zu dem die geschätzten Gesamtkosten für Familie Buchner für das Heizen mit Pellets gleich groß sind wie die geschätzten Gesamtkosten für das Heizen mit Heizöl."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "label": "t₁",
+            "value": 21.4,
+            "tol": 0.1
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1\\,192{,}5\\cdot t_1=726\\cdot t_1+10\\,000"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_1=21{,}4\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ermitteln von t₁."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_118c",
+          "baseId": "2_118",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/775/Pelletsheizung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Anzahl der Pelletsheizungen in Österreich kann für den Zeitraum von 1997 bis 2019 modellhaft durch die nachstehende Gleichung beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "A(t)=\\dfrac{147\\,130}{1+31\\cdot e^{-0{,}28\\cdot t}}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit seit Beginn des Jahres 1997 in Jahren\nA(t) ... Anzahl der Pelletsheizungen in Österreich zur Zeit t\n\nErmitteln Sie für den Zeitraum von 1997 bis 2019 dasjenige Jahr, in dem gemäß diesem Modell die momentane Änderungsrate der Anzahl der Pelletsheizungen in Österreich am größten war."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "jahr",
+            "label": "Jahr",
+            "value": 2009,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "A''(t)=0"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "t=12{,}2\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Jahr 2009 war die momentane Änderungsrate der Anzahl der Pelletsheizungen in Österreich am größten."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln der Jahreszahl."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_118",
+      "baseId": "2_118",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/775/Pelletsheizung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In Österreichs Haushalten werden verschiedene Heizungsarten wie zum Beispiel die Ölheizung (mit Heizöl als Brennmaterial) oder die Pelletsheizung (mit Pellets – kleine gepresste Holzspäne – als Brennmaterial) eingesetzt.\n\nIn der nachstehenden Tabelle sind die Jahresdurchschnittspreise für das Heizen mit Heizöl bzw. mit Pellets für die Jahre 2006 und 2019 in Cent pro Kilowattstunde (Cent/kWh) angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-02-tab.png",
+      "alt": "Tabelle der Jahresdurchschnittspreise in Cent/kWh: Heizöl 2006: 6,80 und 2019: 7,95; Pellets 2006: 4,40 und 2019: 4,84."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: https://www.propellets.at/haeufige-fragen-und-antworten-zu-pellets [13.10.2021]."
+    }
+  ]
+}

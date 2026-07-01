@@ -1,0 +1,166 @@
+{
+  "id": "2021-nt2-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2021n2]t1-9-fa.pdf"
+  },
+  "title": "Verlauf des Graphen einer linearen Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-09-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "FA 2.3",
+          "description": "die Wirkung der Parameter k und d kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_814a",
+          "baseId": "1_814",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/602/Verlauf%20des%20Graphen%20einer%20lineraren%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k<0\\ \\text{und}\\ d<0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Aussage angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die Aussage mit den entsprechenden Bedingungen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "k<0\\ \\text{und}\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k<0\\ \\text{und}\\ d>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k>0\\ \\text{und}\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k>0\\ \\text{und}\\ d>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=0\\ \\text{und}\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=0\\ \\text{und}\\ d>0"
+            }
+          ]
+        ],
+        "correct": [
+          0
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_814",
+      "baseId": "1_814",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/602/Verlauf%20des%20Graphen%20einer%20lineraren%20Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine lineare Funktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "k,d\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "d\\neq 0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie Ebene wird von den beiden Koordinatenachsen in vier Quadranten unterteilt (siehe nachstehende Skizze)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-09-q.png",
+      "alt": "Skizze eines Koordinatensystems, in vier Quadranten unterteilt: 2. Quadrant oben links, 1. Quadrant oben rechts, 3. Quadrant unten links, 4. Quadrant unten rechts."
+    },
+    {
+      "t": "text",
+      "v": "Für den Graphen von f gilt:\n- Er verläuft nicht durch den 1. Quadranten.\n- Er verläuft durch den 2., 3. und 4. Quadranten.\n\nDafür müssen bestimmte Bedingungen für k und d gelten."
+    }
+  ]
+}

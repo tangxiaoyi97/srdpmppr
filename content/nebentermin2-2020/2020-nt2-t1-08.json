@@ -1,0 +1,200 @@
+{
+  "id": "2020-nt2-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2020n2]t1-8-fa.pdf"
+  },
+  "title": "Funktionale Zusammenhänge",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-08-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_741a",
+          "baseId": "1_741",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/517/Funktionale%20Zusammenh%C3%A4nge.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Betrachtet man w in Abhängigkeit von z, so ist "
+            },
+            {
+              "t": "math",
+              "v": "w\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ z\\mapsto w(z)"
+            },
+            {
+              "t": "text",
+              "v": " eine quadratische Funktion.“ und „Betrachtet man x in Abhängigkeit von y, so ist "
+            },
+            {
+              "t": "math",
+              "v": "x\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ y\\mapsto x(y)"
+            },
+            {
+              "t": "text",
+              "v": " eine lineare Funktion.“"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Betrachtet man z in Abhängigkeit von x, so ist "
+            },
+            {
+              "t": "math",
+              "v": "z\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ x\\mapsto z(x)"
+            },
+            {
+              "t": "text",
+              "v": " eine Exponentialfunktion."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Betrachtet man w in Abhängigkeit von z, so ist "
+            },
+            {
+              "t": "math",
+              "v": "w\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ z\\mapsto w(z)"
+            },
+            {
+              "t": "text",
+              "v": " eine quadratische Funktion."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Betrachtet man w in Abhängigkeit von x, so ist "
+            },
+            {
+              "t": "math",
+              "v": "w\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ x\\mapsto w(x)"
+            },
+            {
+              "t": "text",
+              "v": " eine lineare Funktion."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Betrachtet man y in Abhängigkeit von z, so ist "
+            },
+            {
+              "t": "math",
+              "v": "y\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ z\\mapsto y(z)"
+            },
+            {
+              "t": "text",
+              "v": " eine Polynomfunktion vom Grad 2."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Betrachtet man x in Abhängigkeit von y, so ist "
+            },
+            {
+              "t": "math",
+              "v": "x\\colon\\mathbb{R}^{+}\\to\\mathbb{R}^{+},\\ y\\mapsto x(y)"
+            },
+            {
+              "t": "text",
+              "v": " eine lineare Funktion."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_741",
+      "baseId": "1_741",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/517/Funktionale%20Zusammenh%C3%A4nge.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "w=\\dfrac{y\\cdot z^{2}}{2\\cdot x}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "w,x,y,z\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie gegebene Gleichung beschreibt funktionale Zusammenhänge zwischen zwei Variablen, wenn die beiden anderen Variablen als konstant angenommen werden."
+    }
+  ]
+}

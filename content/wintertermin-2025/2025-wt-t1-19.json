@@ -1,0 +1,119 @@
+{
+  "id": "2025-wt-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2025w1]t1-19-ws.pdf"
+  },
+  "title": "Produktbeurteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-19-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1443a",
+          "baseId": "1_1443",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1005/1_1443_srdp_ma_Produktbeurteilung_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}26\\cdot 0{,}15+0{,}27\\cdot 0{,}18+0{,}25\\cdot 0{,}12+0{,}22\\cdot 0{,}32=0{,}188"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "18,8 % aller befragten Personen haben das neue Produkt mit „Sehr gut“ beurteilt."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, wie viel Prozent aller befragten Personen das Produkt mit „Sehr gut“ beurteilt haben."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 18.8,
+            "tol": 1e-9,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1443",
+      "baseId": "1_1443",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1005/1_1443_srdp_ma_Produktbeurteilung_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Zuge der Einführung eines neuen Produkts wurden in Wien und Linz Personen im Alter von 20 bis 60 Jahren über ihre Meinung zu diesem Produkt befragt.\n\nDie Aufteilung der befragten Personen in Bezug auf Alter und Ort ist in Tabelle 1 angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-19-tab1.png",
+      "alt": "Tabelle 1 — Aufteilung der befragten Personen nach Alter und Ort: Wien 20- bis unter 40-Jährige 26 %, 40- bis 60-Jährige 25 %; Linz 20- bis unter 40-Jährige 27 %, 40- bis 60-Jährige 22 %."
+    },
+    {
+      "t": "text",
+      "v": "Die Anteile derjenigen Personen, die das Produkt mit „Sehr gut“ beurteilt haben, sind in Tabelle 2 angegeben. Beispiel: Der Wert 15 % in der Tabelle 2 bedeutet, dass 15 % aller befragten 20- bis unter 40-Jährigen aus Wien das Produkt mit „Sehr gut“ beurteilt haben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-19-tab2.png",
+      "alt": "Tabelle 2 — Anteile der Personen, die das Produkt mit „Sehr gut“ beurteilt haben: Wien 20- bis unter 40-Jährige 15 %, 40- bis 60-Jährige 12 %; Linz 20- bis unter 40-Jährige 18 %, 40- bis 60-Jährige 32 %."
+    }
+  ]
+}

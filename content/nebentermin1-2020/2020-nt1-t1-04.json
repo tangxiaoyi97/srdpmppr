@@ -1,0 +1,204 @@
+{
+  "id": "2020-nt1-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2020n1]t1-4-ag.pdf"
+  },
+  "title": "Vektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-4-ag.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-04-q.png",
+      "alt": "Vier Punkte P, Q, R, S; Vektor u von P nach S (waagrecht), Vektor v von P in Richtung R; Q rechts oben."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-04-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_785a",
+          "baseId": "1_785",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/569/Vektoren.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{PQ}\\to E,\\quad \\overrightarrow{PR}\\to A,\\quad \\overrightarrow{QR}\\to C,\\quad \\overrightarrow{PS}\\to D"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Vektoren ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Vektoren jeweils den entsprechenden Ausdruck (aus A bis F) zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{PQ}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{PR}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{QR}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{PS}"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\vec{u}-\\vec{v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\vec{v}-\\vec{u}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-\\vec{v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\vec{v}+\\vec{u}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\vec{u}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\vec{u}+2\\cdot\\vec{v}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_785",
+      "baseId": "1_785",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/569/Vektoren.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind die vier Punkte P, Q, R und S sowie die zwei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{u}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "2023-het-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2023h2]t2-4.pdf"
+  },
+  "title": "Teich",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_132a",
+          "baseId": "2_132",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/863/2_132_srdp_ma_Teich_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Teich kann über zwei Abflüsse vollständig entleert werden.\n\nWird nur der eine Abfluss geöffnet, so dauert die vollständige Entleerung 10 h.\nWird nur der andere Abfluss geöffnet, so dauert die vollständige Entleerung 6 h.\nDie jeweilige Abflussgeschwindigkeit ist dabei im gesamten Zeitraum konstant.\nDie Zeitdauer, die zur vollständigen Entleerung benötigt wird, wenn beide Abflüsse gleichzeitig geöffnet sind, wird mit T bezeichnet."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie T."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "T",
+            "value": 3.75,
+            "tol": 1e-9,
+            "unit": "h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\left(\\frac{129}{10} + \\frac{129}{6}\\right) \\cdot T = 129"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "T = 3{,}75\\ \\text{h}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von T."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-04-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_132b",
+          "baseId": "2_132",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/863/2_132_srdp_ma_Teich_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der vollständig entleerte Teich wird wieder mit 129 m³ Wasser befüllt.\n\nDie Funktion d: ℝ⁺ → ℝ⁺ gibt die Fülldauer d(z) in Abhängigkeit von der konstanten Zuflussgeschwindigkeit z an (z in m³/h, d(z) in h)."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von d auf."
+        },
+        {
+          "t": "math",
+          "v": "d(z) ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "129/z",
+        "vars": [
+          "z"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "d(z) = \\frac{129}{z}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von d."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_132b",
+          "baseId": "2_132",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/863/2_132_srdp_ma_Teich_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion h beschreibt in Abhängigkeit von der Zeit t die Höhe der Wasseroberfläche über dem tiefsten Punkt des Teiches bei der konstanten Zuflussgeschwindigkeit z = 6 m³/h (t in h, h(t) in m).\n\nFür die momentane Änderungsrate der Höhe der Wasseroberfläche gilt:"
+        },
+        {
+          "t": "math",
+          "v": "h'(t) = \\frac{15}{2\\,738 \\cdot \\pi \\cdot t}\\quad \\text{mit } t > 0"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie, um wie viele Meter die Höhe der Wasseroberfläche in den letzten 10 h der Befüllung ansteigt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dh",
+            "value": 0.4,
+            "tol": 0.05,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "d(6) = 21{,}5"
+            },
+            {
+              "t": "math",
+              "v": "\\int_{11,5}^{21,5} h'(t)\\,dt = 0{,}40\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Höhe der Wasseroberfläche steigt in den letzten 10 h der Befüllung um rund 0,4 m an."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ermitteln des Anstiegs der Höhe der Wasseroberfläche."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-04-c1",
+      "label": "c1",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_132c",
+          "baseId": "2_132",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/863/2_132_srdp_ma_Teich_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Durch Regen und Verdunstung ändert sich die Wassermenge im Teich.\n\nDie Funktion w: [0;12] → ℝ beschreibt näherungsweise die momentane Änderungsrate der Wassermenge im Teich in Abhängigkeit von der Zeit t (t in h, w(t) in L/h).\n\nIn der nachstehenden Abbildung ist der Graph von w dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t2-04-c-q.png",
+          "alt": "Graph der Funktion w (momentane Änderungsrate der Wassermenge in L/h) über t in h von 0 bis 12. Die y-Achse reicht von −50 bis 130 L/h."
+        },
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Aussagen jeweils das passende größtmögliche Zeitintervall aus A bis F zu."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Wassermenge im Teich nimmt ab."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wassermenge im Teich nimmt immer schneller zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die momentane Änderungsrate der Wassermenge im Teich nimmt ab."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wassermenge im Teich nimmt zu."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "(0;\\ 3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(3;\\ 10)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(8;\\ 12)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(3;\\ 12)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(8;\\ 10)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(0;\\ 8)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "„… nimmt ab.“ → C (8; 12);  „… nimmt immer schneller zu.“ → A (0; 3);  „… momentane Änderungsrate … nimmt ab.“ → B (3; 10);  „… nimmt zu.“ → F (0; 8)"
+            }
+          ],
+          "note": "c1) Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_132",
+      "baseId": "2_132",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/863/2_132_srdp_ma_Teich_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem künstlich angelegten Teich befinden sich 129 m³ Wasser."
+    }
+  ]
+}

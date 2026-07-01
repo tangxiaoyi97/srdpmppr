@@ -1,0 +1,527 @@
+{
+  "id": "2020-nt2-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2020n2]t2-1.pdf"
+  },
+  "title": "Einsatz von Antibiotika",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057a",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion B hat genau eine positive Extremstelle t₁.\n\nBestimmen Sie t₁ in Abhängigkeit von k und c."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "k/c",
+        "vars": [
+          "k",
+          "c"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "B'(t)=b\\cdot(k-c\\cdot t)\\cdot e^{\\,k\\cdot t-\\frac{c}{2}\\cdot t^{2}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "B'(t_1)=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "k-c\\cdot t_1=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_1=\\dfrac{k}{c}"
+            }
+          ],
+          "note": "a1) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057a",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, welche Auswirkungen eine Vergrößerung von c bei gegebenem k auf die Lage der Extremstelle t₁ der Funktion B hat."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Extremstelle t₁ wird zu einem früheren Zeitpunkt erreicht."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für eine richtige Beschreibung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Beschreibung: Die Extremstelle t₁ wird zu einem früheren Zeitpunkt erreicht."
+            }
+          ],
+          "note": "a2) Ein Punkt für eine richtige Beschreibung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057b",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion B₁: ℝ₀⁺ → ℝ⁺ mit "
+        },
+        {
+          "t": "math",
+          "v": "B_1(t)=20\\cdot e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der Bakterien einer bestimmten Bakterienpopulation in Millionen in Abhängigkeit von der Zeit t.\n\nZum Zeitpunkt t₂ ≠ 0 erreicht die Bakterienpopulation ihre ursprüngliche Anzahl von 20 Millionen.\n\nGeben Sie t₂ an."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t2",
+            "label": "t₂",
+            "value": 4.45,
+            "tol": 0.05,
+            "unit": "h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "20=20\\cdot e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "1=e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0=2\\cdot t-0{,}45\\cdot t^{2}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_2=4{,}4\\ \\text{h}"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Toleranzintervall: [4,4 h; 4,5 h] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057b",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie "
+        },
+        {
+          "t": "math",
+          "v": "B_1'(t_2)"
+        },
+        {
+          "t": "text",
+          "v": " im vorliegenden Kontext unter Verwendung der entsprechenden Einheit."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "B₁′(t₂) gibt die (momentane) Abnahmegeschwindigkeit in Bakterien pro Stunde zum Zeitpunkt t₂ an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für eine richtige Deutung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Deutung: B₁′(t₂) gibt die (momentane) Abnahmegeschwindigkeit in Bakterien pro Stunde zum Zeitpunkt t₂ an."
+            }
+          ],
+          "note": "b2) Ein Punkt für eine richtige Deutung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057c",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion B₂: ℝ₀⁺ → ℝ⁺ mit "
+        },
+        {
+          "t": "math",
+          "v": "B_2(t)=5\\cdot e^{\\,4\\cdot t-\\frac{t^{2}}{2}}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der Bakterien einer anderen Bakterienpopulation in Millionen, die zum Zeitpunkt t = 4 ihr Maximum aufweist.\n\nBestimmen Sie denjenigen Zeitpunkt t₃, zu dem die stärkste Abnahme der Bakterienpopulation stattfindet."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t3",
+            "label": "t₃",
+            "value": 5,
+            "tol": 1e-9,
+            "unit": "h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "B_2''(t)=5\\cdot(t^{2}-8\\cdot t+15)\\cdot e^{\\,4\\cdot t-\\frac{t^{2}}{2}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "t^{2}-8\\cdot t+15=0\\ \\Rightarrow\\ t_1=3;\\ t_2=5"
+            },
+            {
+              "t": "text",
+              "v": "\nEs gilt: "
+            },
+            {
+              "t": "math",
+              "v": "B_2'(3)>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "B_2'(5)<0"
+            },
+            {
+              "t": "text",
+              "v": " (und "
+            },
+            {
+              "t": "math",
+              "v": "B_2'''(5)\\neq 0"
+            },
+            {
+              "t": "text",
+              "v": ")."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t₃ = 5 findet die stärkste Abnahme der Bakterienpopulation statt."
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_057c",
+          "baseId": "2_057",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie viel Prozent der maximalen Anzahl an Bakterien zum Zeitpunkt t₃ noch vorhanden sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.605,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{B_2(5)}{B_2(4)}=0{,}60653\\ldots\\approx 0{,}6065"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt t₃ = 5 sind noch ca. 60,65 % der maximalen Anzahl an Bakterien vorhanden."
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,60; 0,61]"
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_057",
+      "baseId": "2_057",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/534/2_057_srdp_ma_Einsatz_von_Antibiotika_PT3_19%202020-08-19.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Entwicklung einer Bakterienpopulation kann durch die Zufuhr von Antibiotika beeinflusst werden, was letztlich durch die Giftwirkung von Antibiotika zum Aussterben der Bakterienpopulation führen soll.\n\nIn bestimmten Fällen kann diese Entwicklung näherungsweise durch eine Funktion B: ℝ₀⁺ → ℝ⁺ beschrieben werden:"
+    },
+    {
+      "t": "math",
+      "v": "B(t)=b\\cdot e^{\\,k\\cdot t-\\frac{c}{2}\\cdot t^{2}}\\ \\text{mit}\\ b,c,k\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in Stunden\nB(t) ... Anzahl der Bakterien in Millionen zum Zeitpunkt t\nb ... Anzahl der Bakterien in Millionen zum Zeitpunkt t = 0\nk ... Konstante\nc ... Parameter für die Giftwirkung"
+    }
+  ]
+}

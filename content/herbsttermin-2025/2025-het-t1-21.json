@@ -1,0 +1,145 @@
+{
+  "id": "2025-het-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2025h2]t1-21-ws.pdf"
+  },
+  "title": "Median",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-21-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1563a",
+          "baseId": "1_1563",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1070/1_1563_srdp_ma_Median_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "x_{4}=x_{7}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Gleichung an, die in jedem Fall erfüllt sein muss."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{x_{1}+x_{10}}{2}=x_{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{x_{3}+x_{8}}{2}=x_{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_{8}=x_{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_{4}=x_{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x_{10}-x_{1}=x_{7}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{x_{1}+x_{2}+x_{3}+x_{4}+x_{7}+x_{8}+x_{9}+x_{10}}{8}=x_{7}"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1563",
+      "baseId": "1_1563",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1070/1_1563_srdp_ma_Median_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine geordnete Datenliste mit 10 Werten: "
+    },
+    {
+      "t": "math",
+      "v": "x_{1}\\le x_{2}\\le x_{3}\\le x_{4}\\le x_{5}\\le x_{6}\\le x_{7}\\le x_{8}\\le x_{9}\\le x_{10}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDie Werte x₅ und x₆ werden aus dieser Datenliste entfernt. Dadurch entsteht eine Datenliste mit 8 Werten. Der Median der neuen Datenliste entspricht dem Wert x₇ der ursprünglichen Datenliste."
+    }
+  ]
+}

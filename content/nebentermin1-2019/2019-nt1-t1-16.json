@@ -1,0 +1,158 @@
+{
+  "id": "2019-nt1-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2019n1]t1-16-fa.pdf"
+  },
+  "title": "Eigenschaften einer Polynomfunktion dritten Grades",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-16-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-16-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f(x_1)>f(x_2)"
+            },
+            {
+              "t": "text",
+              "v": " und „Im Intervall [x₁; x₂] gibt es eine Stelle x₃ mit "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_3)=0"
+            },
+            {
+              "t": "text",
+              "v": ".“"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die für die Funktion f auf jeden Fall zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f(x_1)>f(x_2)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine weitere Stelle x₃ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_3)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall [x₁; x₂] gibt es eine Stelle x₃ mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x_3)>f(x_1)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall [x₁; x₂] gibt es eine Stelle x₃ mit "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_3)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall [x₁; x₂] gibt es eine Stelle x₃ mit "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_3)>0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion f dritten Grades. An den beiden Stellen x₁ und x₂ mit x₁ < x₂ gelten folgende Bedingungen:"
+    },
+    {
+      "t": "math",
+      "v": "f'(x_1)=0\\ \\text{und}\\ f''(x_1)<0"
+    },
+    {
+      "t": "math",
+      "v": "f'(x_2)=0\\ \\text{und}\\ f''(x_2)>0"
+    }
+  ]
+}

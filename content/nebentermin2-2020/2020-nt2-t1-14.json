@@ -1,0 +1,111 @@
+{
+  "id": "2020-nt2-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2020n2]t1-14-an.pdf"
+  },
+  "title": "Bewegung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-14-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_747a",
+          "baseId": "1_747",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/523/Bewegung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Interpretation: Zum Zeitpunkt t = 3 beträgt die Beschleunigung des Körpers 1 m/s²."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Interpretation unter Verwendung der richtigen Einheit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "v'(3)=1"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext unter Verwendung der entsprechenden Einheit."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zum Zeitpunkt t = 3 (s) beträgt die Beschleunigung des Körpers 1 m/s²."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Interpretation unter Verwendung der richtigen Einheit.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_747",
+      "baseId": "1_747",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/523/Bewegung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Körper startet seine geradlinige Bewegung zum Zeitpunkt t = 0.\nDie Funktion v ordnet jedem Zeitpunkt t die Geschwindigkeit v(t) des Körpers zum Zeitpunkt t zu (t in s, v(t) in m/s)."
+    }
+  ]
+}

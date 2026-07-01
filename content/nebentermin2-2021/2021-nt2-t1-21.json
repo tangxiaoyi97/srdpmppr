@@ -1,0 +1,156 @@
+{
+  "id": "2021-nt2-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2021n2]t1-21-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeiten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-21-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_826a",
+          "baseId": "1_826",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/614/Wahrscheinlichkeiten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "P(X<2)=0{,}4"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "P(X\\ge 1)=0{,}7"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le 2)=0{,}3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X<2)=0{,}4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X=0)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\ge 0)=0{,}9"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\ge 1)=0{,}7"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_826",
+      "baseId": "1_826",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/614/Wahrscheinlichkeiten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Zufallsvariable X kann ausschließlich die Werte 0, 1, 2 und 3 annehmen.\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "P(X=1)=0{,}1"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P(X>1)=0{,}6"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

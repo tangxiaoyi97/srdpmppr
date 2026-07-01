@@ -1,0 +1,150 @@
+{
+  "id": "2023-ht-t1-09",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2023h1]t1-9-an.pdf"
+  },
+  "title": "Parameter einer quadratischen Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-9-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-9-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-09-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Potenzfunktionen Werte(paare) sowie die Parameter a und b ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1276a",
+          "baseId": "1_1276",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/815/1_1276_srdp_ma_Parameter%20einer%20quadratischen%20Funktion_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(0)=b=-2"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f(1)=a+b=0\\Rightarrow a=2"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=2,\\ b=-2"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von a und b, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die reellen Parameter a und b."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 2
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": -2
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1276",
+      "baseId": "1_1276",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/815/1_1276_srdp_ma_Parameter%20einer%20quadratischen%20Funktion_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Graph der quadratischen Funktion f mit der Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^2+b"
+    },
+    {
+      "t": "text",
+      "v": " hat im Punkt "
+    },
+    {
+      "t": "math",
+      "v": "S=(0\\,|\\,-2)"
+    },
+    {
+      "t": "text",
+      "v": " ein lokales Minimum und verläuft durch den Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(1\\,|\\,0)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

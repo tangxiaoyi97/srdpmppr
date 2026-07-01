@@ -1,0 +1,160 @@
+{
+  "id": "2024-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2024h1]t1-6-ag.pdf"
+  },
+  "title": "Einheitskreis",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-06-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 4.2",
+          "description": "Definitionen von Sinus und Cosinus für Winkel größer als 90° kennen und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1345a",
+          "baseId": "1_1345",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/897/1_1345_srdp_ma_Einheitskreis_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "P=\\left(-\\tfrac{\\sqrt{3}}{2}\\mid -0{,}5\\right)"
+            },
+            {
+              "t": "text",
+              "v": " ist im dritten Quadranten auf dem Einheitskreis einzuzeichnen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Punktes P.",
+          "figures": []
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in diesem Koordinatensystem den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(\\cos(\\alpha)\\mid\\sin(\\alpha))"
+        },
+        {
+          "t": "text",
+          "v": " ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-06-q.png",
+          "alt": "Koordinatensystem mit Einheitskreis (Radius 1), x- und y-Achse von -1 bis 1."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Punkt P liegt im dritten Quadranten auf dem Einheitskreis bei "
+          },
+          {
+            "t": "math",
+            "v": "P=\\left(-\\tfrac{\\sqrt{3}}{2}\\mid -0{,}5\\right)\\approx(-0{,}87\\mid -0{,}5)"
+          },
+          {
+            "t": "text",
+            "v": " (da "
+          },
+          {
+            "t": "math",
+            "v": "\\sin(\\alpha)=-0{,}5"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "\\cos(\\alpha)<0"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1345",
+      "baseId": "1_1345",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/897/1_1345_srdp_ma_Einheitskreis_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für den Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha\\in[0^\\circ;360^\\circ)"
+    },
+    {
+      "t": "text",
+      "v": " gilt:"
+    },
+    {
+      "t": "math",
+      "v": "\\sin(\\alpha)=-0{,}5\\ \\text{und}\\ \\cos(\\alpha)<0"
+    },
+    {
+      "t": "text",
+      "v": "Im unten stehenden Koordinatensystem ist ein Einheitskreis dargestellt."
+    }
+  ]
+}

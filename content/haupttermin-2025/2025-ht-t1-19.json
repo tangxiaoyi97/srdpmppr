@@ -1,0 +1,167 @@
+{
+  "id": "2025-ht-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2025h1]t1-19-ag.pdf"
+  },
+  "title": "Geschwister",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-19-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-19-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-19-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1467a",
+          "baseId": "1_1467",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1037/1_1467_srdp_ma_Geschwister_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① größer als;  ② gleich groß wie"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDer Modus der Anzahl der Geschwister in der Gruppe A ist ① jener in der Gruppe B; das arithmetische Mittel der Anzahl der Geschwister in der Gruppe A ist ② jenes in der Gruppe B."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "größer als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "kleiner als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich groß wie"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "größer als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "kleiner als"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich groß wie"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1467",
+      "baseId": "1_1467",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1037/1_1467_srdp_ma_Geschwister_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine bestimmte Anzahl von Personen wird in die Gruppen A und B eingeteilt.\n\nJede Person in diesen zwei Gruppen hat jeweils 0, 1 oder 2 Geschwister.\n\nDie Anzahl der Geschwister ist nachstehend in Form von zwei Prozentstreifen dargestellt (siehe nachstehende Abbildung, wobei die markierten Grenzen der dargestellten Bereiche ganzzahligen Prozentwerten entsprechen)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-19-q.png",
+      "alt": "Zwei Prozentstreifen (Gruppe A und Gruppe B) für die Anzahl der Geschwister (0, 1, 2), Skala 0 % bis 100 %."
+    }
+  ]
+}

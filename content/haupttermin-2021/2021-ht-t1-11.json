@@ -1,0 +1,220 @@
+{
+  "id": "2021-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2021h1]t1-11-fa.pdf"
+  },
+  "title": "Halbwertszeiten von Zerfallsprozessen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_840a",
+          "baseId": "1_840",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/633/HalbwertszeitenvonZerfallsprozessen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tau_3<\\tau_1<\\tau_2"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ordnen der Halbwertszeiten.\nWerden statt der Bezeichnungen der Halbwertszeiten die Bezeichnungen der zugehörigen Exponentialfunktionen verwendet, ist dies ebenso als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die drei Exponentialfunktionen "
+        },
+        {
+          "t": "math",
+          "v": "N_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "N_2"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "N_3"
+        },
+        {
+          "t": "text",
+          "v": " beschreiben jeweils einen Zerfallsprozess mit den zugehörigen Halbwertszeiten "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_2"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_3"
+        },
+        {
+          "t": "text",
+          "v": ".\nNachstehend sind Ausschnitte der Graphen dieser drei Funktionen abgebildet."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-11-q.png",
+          "alt": "Koordinatensystem mit N1(t), N2(t), N3(t); drei fallende Exponentialkurven: N1 oben (am langsamsten fallend), darunter N3, darunter N2 (am schnellsten fallend)."
+        },
+        {
+          "t": "text",
+          "v": "Ordnen Sie die Halbwertszeiten "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_2"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\tau_3"
+        },
+        {
+          "t": "text",
+          "v": " der Größe nach. Beginnen Sie mit der kürzesten Halbwertszeit."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "kürzeste Halbwertszeit"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "mittlere Halbwertszeit"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "längste Halbwertszeit"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\tau_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tau_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tau_3"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_840",
+      "baseId": "1_840",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/633/HalbwertszeitenvonZerfallsprozessen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

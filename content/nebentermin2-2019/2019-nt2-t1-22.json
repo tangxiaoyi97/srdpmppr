@@ -1,0 +1,113 @@
+{
+  "id": "2019-nt2-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2019n2]t1-22-ws.pdf"
+  },
+  "title": "Computerchips",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_683a",
+          "baseId": "1_683",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/412/Computerchips.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\text{Erwartungswert: } 500\\cdot 0{,}97=485"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "\\text{Standardabweichung: } \\sqrt{500\\cdot 0{,}97\\cdot 0{,}03}\\approx 3{,}81"
+            }
+          ],
+          "note": "Ein Punkt für die beiden richtigen Werte. Toleranzintervall für die Standardabweichung: [3,8; 3,82]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Erwartungswert und die Standardabweichung für die Anzahl der funktionsfähigen Computerchips, die an diesem bestimmten Tag produziert werden!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EW",
+            "label": "Erwartungswert",
+            "value": 485,
+            "tol": 1e-9
+          },
+          {
+            "id": "SD",
+            "label": "Standardabweichung",
+            "value": 3.81,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_683",
+      "baseId": "1_683",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/412/Computerchips.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Unternehmen stellt Computerchips her. Jeder produzierte Computerchip ist unabhängig von den anderen mit einer Wahrscheinlichkeit von 97 % funktionsfähig.\nDas Unternehmen produziert an einem bestimmten Tag 500 Computerchips."
+    }
+  ]
+}

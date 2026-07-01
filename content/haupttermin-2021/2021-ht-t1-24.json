@@ -1,0 +1,96 @@
+{
+  "id": "2021-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2021h1]t1-24-ws.pdf"
+  },
+  "title": "Korkender Wein",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}06\\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}06\\cdot 0{,}94}{200}}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "95-%-Konfidenzintervall: "
+            },
+            {
+              "t": "math",
+              "v": "[0{,}027;\\,0{,}093]"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Konfidenzintervalls."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Geschmack von Wein kann durch einen bestimmten Stoff, der aus dem Korken einer Weinflasche in den Wein gelangen kann, beeinträchtigt werden. Man spricht dann davon, dass der Wein „korkt“.\n\nIn einem Weinbaubetrieb werden alle Weinflaschen eines bestimmten Jahrgangs mit Korken aus derselben Produktion verschlossen. Bei einer späteren Überprüfung von 200 Weinflaschen dieses Jahrgangs stellt sich heraus, dass der Wein von 12 Flaschen korkt.\n\nDer relative Anteil der Weinflaschen aus einer Stichprobe, bei denen der Wein korkt, wird mit "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\n\nGeben Sie für diesen Weinbaubetrieb und diesen Jahrgang ein um "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " symmetrisches 95-%-Konfidenzintervall für den unbekannten Anteil derjenigen Weinflaschen an, bei denen der Wein korkt."
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": 0.027,
+        "upper": 0.093,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": []
+}

@@ -1,0 +1,134 @@
+{
+  "id": "2020-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2020h1]t1-12-fa.pdf"
+  },
+  "title": "Bewegung auf einem Kreis",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.2",
+          "description": "aus Graphen und Gleichungen von allgemeinen Sinusfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_769a",
+          "baseId": "1_769",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/553/Bewegung%20auf%20einem%20Kreis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Radius des Kreises: 4 dm;  Umlaufzeit: 6 s"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte. Ist nur einer der angegebenen Werte richtig, ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Radius des Kreises und die Umlaufzeit des Punktes P (für eine Umrundung)."
+        },
+        {
+          "t": "text",
+          "v": "Radius des Kreises: ___ dm\nUmlaufzeit: ___ s"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "radius",
+            "label": "Radius des Kreises",
+            "value": 4,
+            "tol": 1e-9,
+            "unit": "dm"
+          },
+          {
+            "id": "umlaufzeit",
+            "label": "Umlaufzeit",
+            "value": 6,
+            "tol": 1e-9,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_769",
+      "baseId": "1_769",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/553/Bewegung%20auf%20einem%20Kreis.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Punkt P bewegt sich auf einem Kreis mit dem Mittelpunkt M = (0 | 0) mit konstanter Geschwindigkeit gegen den Uhrzeigersinn.\nZu Beginn der Bewegung (zum Zeitpunkt t = 0) liegt der Punkt P auf der positiven x-Achse wie in der nachstehenden Abbildung dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-12-q1.png",
+      "alt": "Kreis mit Mittelpunkt M = (0 | 0) in einem x-y-Koordinatensystem; der Punkt P liegt auf der positiven x-Achse."
+    },
+    {
+      "t": "text",
+      "v": "Die Funktion f ordnet der Zeit t die zweite Koordinate f(t) = a · sin(b · t) des Punktes P zur Zeit t zu (t in s, f(t) in dm, a, b ∈ ℝ⁺). Der in der nachstehenden Abbildung dargestellte Graph von f verläuft durch den Punkt H, wobei gilt: f′(1,5) = 0."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-12-q2.png",
+      "alt": "Graph der Funktion f im t-f(t)-Koordinatensystem, der durch den Hochpunkt H = (1,5 | 4) verläuft."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "2019-nt1-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2019n1]t1-11-fa.pdf"
+  },
+  "title": "Funktion mit einer besonderen Eigenschaft",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.4",
+          "description": "charakteristische Eigenschaften (f(x + 1) = b * f(x); [e^x ]' = e^x ) kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_720a",
+          "baseId": "1_720",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/459/Funktion%20mit%20einer%20besonderen%20Eigenschaft.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Funktionsgleichung:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=3^{x}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Gleichung. Jede Gleichung einer Funktion, die sich auf f(x) = a · 3ˣ mit a ∈ ℝ\\{0} zurückführen lässt, ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung einer solchen Funktion f an."
+        },
+        {
+          "t": "math",
+          "v": "f(x)="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine richtige Gleichung, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=3^{x}"
+          },
+          {
+            "t": "text",
+            "v": ". Jede Gleichung einer Funktion, die sich auf "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=a\\cdot 3^{x}"
+          },
+          {
+            "t": "text",
+            "v": " mit a ∈ ℝ\\{0} zurückführen lässt, ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Gleichung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_720",
+      "baseId": "1_720",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/459/Funktion%20mit%20einer%20besonderen%20Eigenschaft.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine nicht konstante Funktion f : ℝ → ℝ gilt für alle x ∈ ℝ die Beziehung "
+    },
+    {
+      "t": "math",
+      "v": "f(x+1)=3\\cdot f(x)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

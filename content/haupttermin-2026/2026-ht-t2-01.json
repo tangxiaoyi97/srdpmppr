@@ -1,0 +1,399 @@
+{
+  "id": "2026-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2026h1]t2-1.pdf"
+  },
+  "title": "Golf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_161a",
+          "baseId": "2_161",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1135/2_161_Golf_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Flugbahn eines bestimmten Golfballs nach dem Abschlag wird durch die quadratische Funktion h₁ modelliert.\nx ... waagrechte Entfernung vom Abschlagpunkt in m\nh₁(x) ... Flughöhe des Golfballs bei der Entfernung x in m\n\nDer Golfball erreicht an der Stelle x = 120 die größte Flughöhe.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "An der Stelle x = 60 gilt ① und an der Stelle x = 120 gilt ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "h_1'(60)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h_1'(60)>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h_1'(60)<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h_1(120)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h_1'(120)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h_1''(120)=0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "h_1'(60)>0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "h_1'(120)=0"
+            }
+          ],
+          "note": "a1) Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_161a",
+          "baseId": "2_161",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1135/2_161_Golf_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Flugbahn eines anderen Golfballs nach dem Abschlag wird durch die Funktion h₂ modelliert."
+        },
+        {
+          "t": "math",
+          "v": "h_2(x)=-\\tfrac{1}{140\\,000}\\cdot x^{3}+\\tfrac{5}{16}\\cdot x"
+        },
+        {
+          "t": "text",
+          "v": "x ... waagrechte Entfernung vom Abschlagpunkt in m\nh₂(x) ... Flughöhe des Golfballs bei der Entfernung x in m\n\nBerechnen Sie diejenige waagrechte Entfernung vom Abschlagpunkt, in der der Golfball auf dem Boden auftrifft."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 209.1,
+            "tol": 1,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "h_2(x)=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "x_1=209{,}1\\ldots\\quad(x_2=0,\\ x_3=-209{,}1\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Golfball trifft in einer waagrechten Entfernung von rund 209 m vom Abschlagpunkt auf dem Boden auf."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen der waagrechten Entfernung vom Abschlagpunkt."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.6",
+          "description": "direkte Proportionalität als lineare Funktion vom Typ f(x) = k * x beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_161b",
+          "baseId": "2_161",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1135/2_161_Golf_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beim Abschlag besteht ein Zusammenhang zwischen der Schlägerkopfgeschwindigkeit (Geschwindigkeit, mit der der Golfball vom Schläger getroffen wird) und der Ballgeschwindigkeit (Geschwindigkeit, mit der der Golfball den Abschlagpunkt verlässt).\n\nDieser Zusammenhang kann modellhaft als direkt proportional angenommen und durch die Funktion b beschrieben werden.\nv ... Schlägerkopfgeschwindigkeit in m/s\nb(v) ... Ballgeschwindigkeit bei der Schlägerkopfgeschwindigkeit v in m/s\n\nBei einem bestimmten Abschlag beträgt die Schlägerkopfgeschwindigkeit 45 m/s und die Ballgeschwindigkeit 65 m/s.\n\nStellen Sie eine Funktionsgleichung von b auf."
+        },
+        {
+          "t": "math",
+          "v": "b(v)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{65}{45}\\cdot v",
+        "vars": [
+          "v"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b(v)=\\tfrac{65}{45}\\cdot v=\\tfrac{13}{9}\\cdot v=1{,}4\\dot{4}\\cdot v"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von b."
+        }
+      ]
+    },
+    {
+      "id": "2026-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_161c",
+          "baseId": "2_161",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1135/2_161_Golf_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Schlagweite gibt die waagrechte Entfernung vom Abschlagpunkt bis zu demjenigen Punkt an, auf dem der Golfball zum Liegen kommt.\n\nBei 20 Abschlägen erzielt John die Schlagweiten L₁, L₂, ..., L₂₀.\n\nDas arithmetische Mittel dieser 20 Schlagweiten wird mit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{L}"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\nFür die beim 21. Abschlag erzielte Schlagweite L₂₁ gilt: "
+        },
+        {
+          "t": "math",
+          "v": "L_{21}=\\bar{L}+d\\ \\text{mit}\\ d>0"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDas arithmetische Mittel dieser 21 Schlagweiten wird mit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{L}_{\\text{neu}}"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\n\nTragen Sie die in der nachstehenden Gleichung fehlende Zahl ein."
+        },
+        {
+          "t": "math",
+          "v": "\\bar{L}_{\\text{neu}}=\\bar{L}+\\boxed{\\phantom{0}}\\cdot d"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "z",
+            "value": 0.047619047619047616,
+            "tol": 0.000001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar{L}_{\\text{neu}}=\\bar{L}+\\tfrac{1}{21}\\cdot d"
+            }
+          ],
+          "note": "c1) Ein Punkt für das Eintragen der richtigen Zahl."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_161",
+      "baseId": "2_161",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1135/2_161_Golf_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Golf ist der sogenannte Abschlag der erste Schlag, der auf einer Spielbahn gespielt wird.\n\nModellhaft wird angenommen, dass der Golfball den Boden im Abschlagpunkt verlässt und dass die betrachtete Spielbahn eben bzw. waagrecht ist."
+    }
+  ]
+}

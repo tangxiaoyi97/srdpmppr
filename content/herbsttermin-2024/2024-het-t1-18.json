@@ -1,0 +1,137 @@
+{
+  "id": "2024-het-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2024h2]t1-18-an.pdf"
+  },
+  "title": "Geometrische Deutung der Summenregel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-18-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1381a",
+          "baseId": "1_1381",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/937/1_1381_srdp_ma_Geometrische%20Deutung%20der%20Summenregel_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Teilfläche mit dem Flächeninhalt A ist die Fläche zwischen dem Graphen von f und der x-Achse im Intervall [a; b] (untere Teilfläche unter dem Graphen von g)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen einer Teilfläche mit dem Flächeninhalt A.",
+          "figures": []
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung die Teilfläche mit dem Flächeninhalt A ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-q.png",
+          "alt": "Koordinatensystem mit dem Graphen von g im Intervall [a; b]; die Teilfläche mit Flächeninhalt A ist einzuzeichnen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Einzeichnen der Teilfläche mit dem Flächeninhalt A, d. h. der Fläche zwischen dem Graphen von f und der x-Achse im Intervall [a; b] (die untere Teilfläche unterhalb des Graphen von g, die dem Integral "
+          },
+          {
+            "t": "math",
+            "v": "\\int_{a}^{b} f(x)\\,dx"
+          },
+          {
+            "t": "text",
+            "v": " entspricht)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Einzeichnen einer Teilfläche mit dem Flächeninhalt A.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1381",
+      "baseId": "1_1381",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/937/1_1381_srdp_ma_Geometrische%20Deutung%20der%20Summenregel_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Polynomfunktionen f und g mit "
+    },
+    {
+      "t": "math",
+      "v": "g(x)=f(x)+2"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "x \\in [a; b]"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie Fläche zwischen dem Graphen von g und der x-Achse im Intervall [a; b] teilt sich in eine Teilfläche mit dem Flächeninhalt A und eine Teilfläche mit dem Flächeninhalt B.\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "A = \\int_{a}^{b} f(x)\\,dx \\quad\\text{und}\\quad B = \\int_{a}^{b} 2\\,dx"
+    }
+  ]
+}

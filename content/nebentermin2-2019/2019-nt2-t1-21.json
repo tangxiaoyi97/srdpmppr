@@ -1,0 +1,104 @@
+{
+  "id": "2019-nt2-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2019n2]t1-21-ws.pdf"
+  },
+  "title": "Jetons",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_682a",
+          "baseId": "1_682",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/411/Jetons.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tfrac{2}{7}\\cdot\\tfrac{4}{9}\\approx 0{,}127"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass nach der Entnahme der beiden Jetons in beiden Schachteln der gleiche Geldbetrag (11 Euro) vorhanden ist, beträgt ca. 12,7 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,12; 0,13]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass nach der Entnahme der beiden Jetons in beiden Schachteln der gleiche Geldbetrag vorhanden ist!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.125,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_682",
+      "baseId": "1_682",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/411/Jetons.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In zwei Schachteln befindet sich Spielgeld.\nIn Schachtel I sind fünf 2-Euro-Jetons und zwei 1-Euro-Jetons.\nIn Schachtel II sind vier 2-Euro-Jetons und fünf 1-Euro-Jetons.\nAus jeder der beiden Schachteln wird unabhängig voneinander je ein Jeton entnommen. Dabei hat pro Schachtel jeder Jeton die gleiche Wahrscheinlichkeit, entnommen zu werden."
+    }
+  ]
+}

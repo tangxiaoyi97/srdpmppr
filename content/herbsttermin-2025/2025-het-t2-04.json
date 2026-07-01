@@ -1,0 +1,356 @@
+{
+  "id": "2025-het-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2025h2]t2-4.pdf"
+  },
+  "title": "Spielwürfel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_156a",
+          "baseId": "2_156",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1077/2_156_srdp_ma_Spielw%C3%BCrfel_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beim Spiel Monopoly werden zwei Würfel geworfen. Bei einem Pasch zeigen beide Würfel nach dem Werfen die gleiche Augenzahl (siehe nachstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-04-a1-q.png",
+          "alt": "Abbildung zweier Würfel, die einen Pasch zeigen (beide Würfel mit gleicher Augenzahl)."
+        },
+        {
+          "t": "text",
+          "v": "Wird ein Pasch geworfen, dann wird ein weiteres Mal gewürfelt. Erzielt man 3 Pasch-Würfe in Folge, dann muss man seine Spielfigur auf das sogenannte Gefängnisfeld setzen.\n\nLeo wirft die beiden Würfel.\n\nBerechnen Sie die Wahrscheinlichkeit, dass Leo 3 Pasch-Würfe in Folge erzielt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P",
+            "value": 0.00463,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Wahrscheinlichkeit für einen Pasch: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{1}{6}\\cdot\\tfrac{1}{6}\\cdot 6=\\tfrac{1}{6}"
+            },
+            {
+              "t": "text",
+              "v": "\nWahrscheinlichkeit für 3 Pasch-Würfe in Folge: "
+            },
+            {
+              "t": "math",
+              "v": "\\left(\\tfrac{1}{6}\\right)^{3}=0{,}0046\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\left(\\tfrac{1}{6}\\right)^{3}=0{,}0046\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_156b",
+          "baseId": "2_156",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1077/2_156_srdp_ma_Spielw%C3%BCrfel_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beim Spiel Die Legenden von Andor wird je nach Spielfigur nach unterschiedlichen Regeln gewürfelt.\n\nFür eine bestimmte Runde dieses Spieles gilt:\nPatrick spielt die Figur Bogenschütze und darf mit einem Würfel bis zu 2-mal würfeln.\nIst die geworfene Augenzahl beim ersten Wurf 5 oder 6, dann ist die jeweilige Augenzahl Patricks Würfelergebnis in dieser Runde.\nIst die geworfene Augenzahl beim ersten Wurf unter 5, dann würfelt er genau ein weiteres Mal, und die zweite geworfene Augenzahl ist Patricks Würfelergebnis in dieser Runde.\n\nDie Zufallsvariable X gibt Patricks Würfelergebnis in dieser Runde an.\n\nBerechnen Sie die Wahrscheinlichkeit P(X ≥ 5)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P(X ≥ 5)",
+            "value": 0.5,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "P(X\\ge 5)=P(X=5)+P(X=6)=\\left(\\tfrac{1}{6}+\\tfrac{4}{6}\\cdot\\tfrac{1}{6}\\right)\\cdot 2=\\tfrac{5}{9}\\cdot\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\ge 5)=0{,}5"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_156b",
+          "baseId": "2_156",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1077/2_156_srdp_ma_Spielw%C3%BCrfel_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Erwartungswert E(X)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "ex",
+            "label": "E(X)",
+            "value": 4.16,
+            "tol": 0.02
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "E(X)=1\\cdot\\tfrac{1}{9}+2\\cdot\\tfrac{1}{9}+3\\cdot\\tfrac{1}{9}+4\\cdot\\tfrac{1}{9}+5\\cdot\\tfrac{5}{18}+6\\cdot\\tfrac{5}{18}=\\tfrac{25}{6}=4{,}16\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=\\tfrac{25}{6}=4{,}1\\overline{6}"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen von E(X)."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_156c",
+          "baseId": "2_156",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1077/2_156_srdp_ma_Spielw%C3%BCrfel_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer Variante des Spieles Kniffel wird mit 5 verschiedenfärbigen Würfeln gewürfelt. Dabei werden die auftretenden Augenzahlen zu unterschiedlichen Kategorien zusammengefasst.\n\nWerden alle 5 Würfel auf einmal geworfen, können insgesamt 7 776 mögliche Ausgänge auftreten.\n\nPaul wirft alle 5 Würfel auf einmal. Für zwei ausgewählte Kategorien sind in der nachstehenden Tabelle jeweils die Anzahl der dafür günstigen Ausgänge sowie die gerundete Wahrscheinlichkeit des Eintretens angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-04-c1-q.png",
+          "alt": "Tabelle mit zwei Kategorien: 'Kniffel' (5 gleiche Augenzahlen), Anzahl der günstigen Ausgänge 6, Wahrscheinlichkeit a; 'Full House' (3 gleiche Augenzahlen und 2 gleiche andere Augenzahlen), Anzahl der günstigen Ausgänge b, Wahrscheinlichkeit 3,8580 %."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Wahrscheinlichkeit a und die Anzahl der günstigen Ausgänge b."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.0771,
+            "tol": 0.0005,
+            "unit": "%"
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 300,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tfrac{6}{7\\,776}=0{,}000771\\ldots\\Rightarrow a=0{,}0771\\ldots\\%"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}03858\\cdot 7\\,776=299{,}99\\ldots\\Rightarrow b=300"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=0{,}0771\\ldots\\%"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=300"
+            }
+          ],
+          "note": "c1) Ein halber Punkt für das richtige Ermitteln von a, ein halber Punkt für das richtige Ermitteln von b."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_156",
+      "baseId": "2_156",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1077/2_156_srdp_ma_Spielw%C3%BCrfel_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei den folgenden Spielen werden ein oder mehrere faire Würfel mit den Augenzahlen 1, 2, 3, 4, 5 und 6 geworfen.\n\nDas Würfelergebnis entscheidet über den weiteren Spielverlauf."
+    }
+  ]
+}

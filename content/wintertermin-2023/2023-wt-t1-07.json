@@ -1,0 +1,127 @@
+{
+  "id": "2023-wt-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2023w1]t1-7-fa.pdf"
+  },
+  "title": "Behälter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-07-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1250a",
+          "baseId": "1_1250",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/782/1_1250_srdp_ma_Behaelter_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "V_0 = G \\cdot h(G) = 25 \\cdot 20 = 500"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "V_0 = 500\\ \\text{cm}^3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von V0.\nToleranzintervall: [480 cm3; 520 cm3]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "V_0"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "V0",
+            "label": "V_0",
+            "value": 500,
+            "tol": 20,
+            "unit": "cm³"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1250",
+      "baseId": "1_1250",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/782/1_1250_srdp_ma_Behaelter_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es werden zylindrische Behälter, die alle das gleiche Volumen "
+    },
+    {
+      "t": "math",
+      "v": "V_0"
+    },
+    {
+      "t": "text",
+      "v": " haben, produziert.\n\nDie Funktion h beschreibt die Höhe eines solchen Behälters in Abhängigkeit vom Inhalt G seiner Grundfläche (G in cm², h(G) in cm). Der Graph der Funktion h ist in der nachstehenden Abbildung dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-07-q.png",
+      "alt": "Graph der Funktion h: h(G) in cm (senkrechte Achse, 0 bis 25) über G in cm² (waagrechte Achse, 0 bis 55). Die Kurve fällt; beispielsweise gilt h(25) = 20."
+    }
+  ]
+}

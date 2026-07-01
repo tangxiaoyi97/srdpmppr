@@ -1,0 +1,144 @@
+{
+  "id": "2022-ht-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2022h1]t1-1-ag.pdf"
+  },
+  "title": "Werte von Termen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1179a",
+          "baseId": "1_1179",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/722/Werte%20von%20Termen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{a-1}{a}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "-a"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Terme an, deren Wert auf jeden Fall positiv ist."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{a-1}{a}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{1-2\\cdot a}{a}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{a}{1-a}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a^{2}-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-a"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1179",
+      "baseId": "1_1179",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/722/Werte%20von%20Termen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind fünf Terme mit a ∈ ℝ und a < 0 gegeben."
+    }
+  ]
+}

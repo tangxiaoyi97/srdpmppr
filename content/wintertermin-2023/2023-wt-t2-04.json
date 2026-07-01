@@ -1,0 +1,320 @@
+{
+  "id": "2023-wt-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2023w1]t2-4.pdf"
+  },
+  "title": "Bremsvorgänge",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_124a",
+          "baseId": "2_124",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/806/2_124_srdp_ma_Bremsvorgaenge_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein bestimmtes Fahrzeug wird durch eine Vollbremsung bis zum Stillstand abgebremst. Der Weg, den ein Fahrzeug während der Vollbremsung zurücklegt, wird als Bremsweg bezeichnet.\n\nIn der nachstehenden Abbildung ist das Zeit-Geschwindigkeit-Diagramm für eine 5 s dauernde Vollbremsung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-04-a1-q.png",
+          "alt": "Zeit-Geschwindigkeit-Diagramm: v(t) in m/s über t in s (0 bis 5); eine fallende Gerade v von 20 m/s bei t = 0 auf 0 m/s bei t = 5."
+        },
+        {
+          "t": "text",
+          "v": "Für die Zeit-Geschwindigkeit-Funktion v gilt:"
+        },
+        {
+          "t": "math",
+          "v": "v(t) = -4 \\cdot t + 20 \\quad \\text{mit } t \\in [0;\\,5]"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in s\nv(t) ... Geschwindigkeit zum Zeitpunkt t in m/s\n\nInterpretieren Sie die Koeffizienten –4 und 20 aus der obigen Funktionsgleichung von v im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Koeffizient –4: Die Geschwindigkeit nimmt pro Sekunde um 4 m/s ab. Der Koeffizient 20: Die Anfangsgeschwindigkeit beträgt 20 m/s."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit nimmt pro Sekunde um 4 m/s ab.\n\nDie Anfangsgeschwindigkeit beträgt 20 m/s."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Interpretieren beider Koeffizienten im gegebenen Sachzusammenhang, ein halber Punkt für das richtige Interpretieren nur eines Koeffizienten."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_124a",
+          "baseId": "2_124",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/806/2_124_srdp_ma_Bremsvorgaenge_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Länge des Bremswegs des Fahrzeugs bei dieser Vollbremsung wird mit s_B bezeichnet. Wird die Anfangsgeschwindigkeit halbiert, so beträgt bei gleichbleibender negativer Beschleunigung die Länge des Bremswegs k · s_B mit k ∈ ℝ.\n\nErmitteln Sie k."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": 0.25,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Für eine Anfangsgeschwindigkeit von 20 m/s gilt: "
+            },
+            {
+              "t": "math",
+              "v": "s_B = \\tfrac{5 \\cdot 20}{2} = 50"
+            },
+            {
+              "t": "text",
+              "v": "\nBei einer Anfangsgeschwindigkeit von 10 m/s beträgt die Zeit bis zum Stillstand 2,5 s.\nEs gilt: "
+            },
+            {
+              "t": "math",
+              "v": "k \\cdot s_B = \\tfrac{2{,}5 \\cdot 10}{2} = 12{,}5"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "k = \\tfrac{1}{4}"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln von k."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-04-b1",
+      "label": "b1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_124b",
+          "baseId": "2_124",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/806/2_124_srdp_ma_Bremsvorgaenge_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Fahrzeug fährt mit einer konstanten Geschwindigkeit von 25 m/s. Zum Zeitpunkt t = 0 sieht der Fahrzeuglenker ein Hindernis auf der Straße.\n\nEs gilt:\n- Der Fahrzeuglenker benötigt eine bestimmte Zeit, um zu reagieren. Während dieser Zeit fährt das Fahrzeug mit der konstanten Geschwindigkeit von 25 m/s weiter.\n- Der Bremsvorgang beginnt zum Zeitpunkt t₁ mit einer konstanten Bremsverzögerung (negative Beschleunigung).\n- Zum Zeitpunkt t₂ kommt das Fahrzeug zum Stillstand.\n\nZeichnen Sie im nachstehenden Zeit-Geschwindigkeit-Diagramm den Geschwindigkeitsverlauf für den beschriebenen Vorgang ein (t in s, v₁(t) in m/s)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-04-b1-q.png",
+          "alt": "Leeres Zeit-Geschwindigkeit-Diagramm: v₁(t) in m/s (senkrechte Achse bis 25) über t in s mit markierten Stellen t₁ und t₂."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Geschwindigkeitsverlauf: von t = 0 bis t₁ eine konstante Gerade bei v₁ = 25 m/s, dann von t₁ bis t₂ eine fallende Gerade von 25 m/s auf 0 m/s. Der Übergang zwischen den beiden linearen Funktionen im Punkt (t₁ | 25) muss klar erkennbar sein."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-04-b1-sol.png",
+              "alt": "Lösung: konstante Gerade bei 25 m/s von 0 bis t₁, danach fallende Gerade von (t₁ | 25) bis (t₂ | 0)."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Einzeichnen des Geschwindigkeitsverlaufs, wobei der Übergang zwischen den beiden linearen Funktionen im Punkt (t1 | 25) klar erkennbar sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-04-b2",
+      "label": "b2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_124b",
+          "baseId": "2_124",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/806/2_124_srdp_ma_Bremsvorgaenge_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Weg, den das Fahrzeug im Zeitintervall [0; t₂] zurücklegt, wird Anhalteweg s_A genannt (s_A in m).\n\nStellen Sie unter Verwendung von t₁ und t₂ eine Formel zur Berechnung von s_A auf."
+        },
+        {
+          "t": "math",
+          "v": "s_A ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "25\\cdot t_1 + \\frac{25\\cdot(t_2 - t_1)}{2}",
+        "vars": [
+          "t_1",
+          "t_2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s_A = 25 \\cdot t_1 + \\tfrac{25 \\cdot (t_2 - t_1)}{2}"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_124",
+      "baseId": "2_124",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/806/2_124_srdp_ma_Bremsvorgaenge_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Durch das Einwirken einer Bremskraft und der damit verbundenen negativen Beschleunigung verringert sich die Geschwindigkeit eines fahrenden Fahrzeugs."
+    }
+  ]
+}

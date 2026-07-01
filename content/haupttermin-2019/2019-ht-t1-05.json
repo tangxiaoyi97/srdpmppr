@@ -1,0 +1,122 @@
+{
+  "id": "2019-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2019h1]t1-5-fa.pdf"
+  },
+  "title": "Parameterdarstellung einer Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-5-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-5-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_690a",
+          "baseId": "1_690",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/423/Parameterdarstellung%20einer%20Geraden.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-4"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=-2"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die Angabe der beiden richtigen Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Vervollständigen Sie folgende Parameterdarstellung der Geraden g durch Angabe der Werte für a und b mit a, b ∈ ℝ!"
+        },
+        {
+          "t": "math",
+          "v": "g\\!: X=\\begin{pmatrix} a\\\\ 3 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 3\\\\ b \\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -4,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": -2,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_690",
+      "baseId": "1_690",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/423/Parameterdarstellung%20einer%20Geraden.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist eine Gerade g dargestellt. Die gekennzeichneten Punkte der Geraden g haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-05-q.png",
+      "alt": "Koordinatensystem (x und y von −5 bis 5) mit einer eingezeichneten Geraden g durch Punkte mit ganzzahligen Koordinaten."
+    }
+  ]
+}

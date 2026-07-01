@@ -1,0 +1,110 @@
+{
+  "id": "2024-wt-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2024w1]t1-9-fa.pdf"
+  },
+  "title": "Graph einer quadratischen Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-09-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 3.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1324a",
+          "baseId": "1_1324",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/872/1_1324_srdp_ma_Graph%20einer%20quadratischen%20Funktion_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-sol.png",
+              "alt": "Lösung: nach unten geöffnete Parabel g, schmäler als f, Scheitel auf der senkrechten Achse oberhalb des Scheitels von f."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Graph von g ist eine nach unten geöffnete Parabel, deren Scheitel auf der senkrechten Achse oberhalb des Scheitels von f liegt und klar erkennbar schmäler als der Graph von f ist."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Skizzieren des Graphen von g. Für die Punktvergabe ist erforderlich, dass der Graph von g eine nach unten geöffnete Parabel ist, deren Scheitel auf der senkrechten Achse oberhalb des Scheitels von f liegt und klar erkennbar schmäler als der Graph von f ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der nachstehenden Abbildung den Graphen einer solchen Funktion g."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-q.png",
+          "alt": "Koordinatensystem mit dem Graphen der nach oben geöffneten Parabel f (Scheitel auf der senkrechten Achse); Achsen f(x), g(x) und x mit Ursprung O."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Graph von g ist eine nach unten geöffnete Parabel, deren Scheitel auf der senkrechten Achse oberhalb des Scheitels von f liegt und die klar erkennbar schmäler als der Graph von f ist."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1324",
+      "baseId": "1_1324",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/872/1_1324_srdp_ma_Graph%20einer%20quadratischen%20Funktion_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Funktion f: ℝ → ℝ der Form f(x) = a ∙ x² + b mit a, b ∈ ℝ.\n\nFür eine Funktion g: ℝ → ℝ der Form g(x) = c ∙ x² + d mit c, d ∈ ℝ gilt: c < –a und d > b"
+    }
+  ]
+}

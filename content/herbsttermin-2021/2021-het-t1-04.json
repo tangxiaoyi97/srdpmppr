@@ -1,0 +1,144 @@
+{
+  "id": "2021-het-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2021h2]t1-4-ag.pdf"
+  },
+  "title": "Würfel und Vektor",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-04-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_857a",
+          "baseId": "1_857",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/666/Wuerfel_und_Vektor.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{GA}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt einen Würfel, dessen Grundfläche ABCD in der xy-Ebene liegt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-04-q.png",
+          "alt": "Würfel mit Grundfläche ABCD in der xy-Ebene; obere Fläche EFGH; Koordinatenachsen x, y, z."
+        },
+        {
+          "t": "text",
+          "v": "Zwei Eckpunkte dieses Würfels legen einen bestimmten Vektor fest, der in Richtung des Vektors "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}=\\begin{pmatrix}1\\\\-1\\\\-1\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " verläuft.\n\nKreuzen Sie diesen Vektor an. [1 aus 6]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{EC}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{FD}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{GA}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{GD}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{HA}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{HB}"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_857",
+      "baseId": "1_857",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/666/Wuerfel_und_Vektor.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

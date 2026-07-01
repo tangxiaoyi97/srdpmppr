@@ -1,0 +1,108 @@
+{
+  "id": "2020-ht-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2020h1]t1-16-an.pdf"
+  },
+  "title": "Wachstum einer Pflanze",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-16-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-16-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_773a",
+          "baseId": "1_773",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/557/Wachstum%20einer%20Pflanze.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h(t)=-0{,}1\\cdot t^{3}+3\\cdot t+15"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie h(t) an."
+        },
+        {
+          "t": "math",
+          "v": "h(t)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-\\frac{1}{10}\\cdot t^{3}+3\\cdot t+15",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_773",
+      "baseId": "1_773",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/557/Wachstum%20einer%20Pflanze.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zu Beginn eines dreiwöchigen Beobachtungszeitraums ist eine bestimmte Pflanze 15 cm hoch. Die momentane Änderungsrate der Höhe dieser Pflanze wird durch die Funktion v in Abhängigkeit von der Zeit t beschrieben.\nDabei gilt:"
+    },
+    {
+      "t": "math",
+      "v": "v(t)=3-0{,}3\\cdot t^{2}\\ \\text{mit}\\ t\\in[0;\\,3]\\ \\text{in Wochen und}\\ v(t)\\ \\text{in cm/Woche}"
+    },
+    {
+      "t": "text",
+      "v": "Die Funktion h ordnet jedem Zeitpunkt t ∈ [0; 3] die Höhe h(t) der Pflanze zu (t in Wochen, h(t) in cm)."
+    }
+  ]
+}

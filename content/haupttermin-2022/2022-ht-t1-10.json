@@ -1,0 +1,104 @@
+{
+  "id": "2022-ht-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2022h1]t1-10-fa.pdf"
+  },
+  "title": "Ungerade Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-10-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.1",
+          "description": "typische Verläufe von Graphen in Abhängigkeit vom Grad der Polynomfunktion (er)kennen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1188a",
+          "baseId": "1_1188",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/729/Ungerade%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v=-w"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Gleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Zusammenhang zwischen v und w in Form einer Gleichung an."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-w",
+        "vars": [
+          "w"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1188",
+      "baseId": "1_1188",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/729/Ungerade%20Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die Funktion f: ℝ → ℝ mit f(x) = a · xⁿ (a ∈ ℝ, a ≠ 0) mit ungeradem n ∈ ℕ ist die nachstehende Wertetabelle gegeben."
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{c|ccc} x & -2 & 0 & 2\\\\\\hline f(x) & v & 0 & w \\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "Dabei sind v, w ∈ ℝ."
+    }
+  ]
+}

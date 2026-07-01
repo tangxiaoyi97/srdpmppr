@@ -1,0 +1,117 @@
+{
+  "id": "2024-ht-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2024h1]t1-10-an.pdf"
+  },
+  "title": "Befüllen eines Wasserbeckens",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-10-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-10-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-10-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1349a",
+          "baseId": "1_1349",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/901/1_1349_srdp_ma_Befuellen%20eines%20Wasserbeckens_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V=12\\ \\text{m}^3"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Volumens V."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das Volumen V des Wasserbeckens an."
+        },
+        {
+          "t": "math",
+          "v": "V=\\underline{\\qquad}\\ \\text{m}^3"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "V",
+            "label": "V",
+            "value": 12,
+            "tol": 0.5,
+            "unit": "m³"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1349",
+      "baseId": "1_1349",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/901/1_1349_srdp_ma_Befuellen%20eines%20Wasserbeckens_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein leeres Wasserbecken wird vollständig mit Wasser befüllt.\n\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "d\\!:\\mathbb{R}^{+}\\to\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Dauer des Befüllens in Abhängigkeit von der Zuflussrate z (z in m³/h, d(z) in h).\n\nDie nachstehende Abbildung zeigt den Graphen von d."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-10-q.png",
+      "alt": "Graph der Funktion d (Dauer des Befüllens in h) in Abhängigkeit von der Zuflussrate z in m³/h."
+    }
+  ]
+}

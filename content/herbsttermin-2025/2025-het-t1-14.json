@@ -1,0 +1,137 @@
+{
+  "id": "2025-het-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2025h2]t1-14-an.pdf"
+  },
+  "title": "Zurückgelegter Weg",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-14-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1556a",
+          "baseId": "1_1556",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1063/1_1556_srdp_ma_Zur%C3%BCckgelegter%20Weg_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Momentangeschwindigkeit des Fahrzeugs zum Zeitpunkt t₁ ist größer als die mittlere Geschwindigkeit des Fahrzeugs im Zeitintervall [t₁; t₂].“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Aussage an, die auf jeden Fall zutrifft."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Das Fahrzeug beginnt zum Zeitpunkt t₁ zu bremsen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Fahrzeug fährt im Zeitintervall [t₁; t₂] mit konstanter Geschwindigkeit."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Momentangeschwindigkeit des Fahrzeugs zum Zeitpunkt t₁ ist größer als die mittlere Geschwindigkeit des Fahrzeugs im Zeitintervall [t₁; t₂]."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Momentangeschwindigkeit des Fahrzeugs ist zum Zeitpunkt t₂ größer als zum Zeitpunkt t₁."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die mittlere Beschleunigung des Fahrzeugs im Zeitintervall [t₁; t₂] ist kleiner als die Momentanbeschleunigung zum Zeitpunkt t₁."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Momentangeschwindigkeit des Fahrzeugs ist zum Zeitpunkt t₂ kleiner als zum Zeitpunkt t₁."
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1556",
+      "baseId": "1_1556",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1063/1_1556_srdp_ma_Zur%C3%BCckgelegter%20Weg_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die differenzierbare Funktion s gibt den zurückgelegten Weg eines bestimmten Fahrzeugs in Abhängigkeit von der Zeit t an.\n\nFür die zwei Zeitpunkte t₁ und t₂ mit 0 < t₁ < t₂ gilt:"
+    },
+    {
+      "t": "math",
+      "v": "\\dfrac{s(t_{2})-s(t_{1})}{t_{2}-t_{1}}<s'(t_{1})"
+    }
+  ]
+}

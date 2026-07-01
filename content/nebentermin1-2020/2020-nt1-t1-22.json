@@ -1,0 +1,178 @@
+{
+  "id": "2020-nt1-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2020n1]t1-22-ws.pdf"
+  },
+  "title": "Binomialkoeffizient",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-22-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_803a",
+          "baseId": "1_803",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/587/Binomialkoeffizient.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "66"
+            },
+            {
+              "t": "text",
+              "v": ";  ② 2 Schülerinnen dieser Gruppe auszuwählen, die gemeinsam ein Referat halten sollen"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist. Ist nur für eine der beiden Lücken der richtige Satzteil angekreuzt, ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen des jeweils richtigen Satzteils so, dass eine korrekte Aussage entsteht.\n\nDer Binomialkoeffizient "
+        },
+        {
+          "t": "math",
+          "v": "\\binom{12}{2}"
+        },
+        {
+          "t": "text",
+          "v": " hat den Wert ①; er kann dazu verwendet werden, die Anzahl der verschiedenen Möglichkeiten, ②, zu berechnen."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "24"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "66"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "144"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "2 Schülerinnen dieser Gruppe auszuwählen, die gemeinsam ein Referat halten sollen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "2 Schülerinnen dieser Gruppe 2 unterschiedliche Preise zu verleihen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Schülerinnen in 2 Gruppen zu je 6 Schülerinnen einzuteilen"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_803",
+      "baseId": "1_803",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/587/Binomialkoeffizient.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Gruppe besteht aus 12 Schülerinnen."
+    }
+  ]
+}

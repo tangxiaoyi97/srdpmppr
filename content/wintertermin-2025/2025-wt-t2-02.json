@@ -1,0 +1,312 @@
+{
+  "id": "2025-wt-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2025w1]t2-2.pdf"
+  },
+  "title": "E-Bikes",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_146a",
+          "baseId": "2_146",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1012/2_146_srdp_ma_E-Bikes%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 2018 betrug der weltweite Umsatz aus dem Verkauf von E-Bikes 7,68 Milliarden US-Dollar (USD). Es wird prognostiziert, dass dieser weltweite Umsatz im Zeitraum von 2018 bis 2026 um jährlich 24,5 % steigen wird.\n\nDie Funktion u beschreibt modellhaft den jährlichen weltweiten Umsatz aus dem Verkauf von E-Bikes in Abhängigkeit von der Zeit t (t ab 2018 in Jahren, u(t) in Milliarden USD).\n\nStellen Sie eine Funktionsgleichung von u auf."
+        },
+        {
+          "t": "math",
+          "v": "u(t)=\\quad\\text{mit}\\ 0\\le t\\le 8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "7{,}68\\cdot 1{,}245^{t}",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "u(t)=7{,}68\\cdot 1{,}245^{t}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von u."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_146a",
+          "baseId": "2_146",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1012/2_146_srdp_ma_E-Bikes%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe von u, wie viele Jahre nach 2018 der Umsatz doppelt so hoch wie im Jahr 2018 ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 3.16,
+            "tol": 0.05,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "15{,}36=7{,}68\\cdot 1{,}245^{t}"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t=3{,}16\\ldots\\ \\text{Jahre}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Umsatz ist rund 3,16 Jahre nach 2018 doppelt so hoch wie im Jahr 2018."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_146b",
+          "baseId": "2_146",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1012/2_146_srdp_ma_E-Bikes%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Durch Fahrten auf einer Teststrecke werden 2 E-Bikes mit unterschiedlicher Leistung verglichen. Die Funktionen v₁ und v₂ ordnen der Zeit t modellhaft die jeweilige Geschwindigkeit v₁(t) bzw. v₂(t) des betreffenden E-Bikes zu (t nach dem Start in s, v₁(t) und v₂(t) in m/s).\nDie nachstehende Abbildung zeigt die Graphen von v₁ und v₂."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-02-b-q.png",
+          "alt": "Graphen der Geschwindigkeitsfunktionen v₁ und v₂ in m/s über t in s von 0 bis 20; v₁ verläuft oberhalb von v₂."
+        },
+        {
+          "t": "text",
+          "v": "Aufgrund der unterschiedlichen Geschwindigkeiten der beiden E-Bikes in den ersten 20 s werden Strecken unterschiedlicher Länge zurückgelegt. Die Differenz der Längen dieser beiden Strecken soll ermittelt werden.\n\nSchätzen Sie diese Differenz mithilfe der obigen Abbildung ab."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "diff",
+            "value": 87,
+            "tol": 9,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Der Flächeninhalt eines Kästchens in der Abbildung entspricht der Länge einer zurückgelegten Strecke von 4 m. Das Abschätzen des Flächeninhalts erfolgt durch Abzählen der Kästchen zwischen den Graphen der beiden Funktionen."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Differenz der Längen der beiden Strecken beträgt rund 87 m. Toleranzbereich: [72 m; 96 m]"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Abschätzen der Differenz."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_146b",
+          "baseId": "2_146",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1012/2_146_srdp_ma_E-Bikes%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Funktion v₁: ℝ₀⁺ → ℝ gilt: "
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)=r\\cdot\\left(1-e^{-k\\cdot t}\\right)"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit in s\nv₁(t) ... Geschwindigkeit zur Zeit t in m/s\nr, k ... positive reelle Parameter\n\nDie Funktion s₁ ist die zu v₁ zugehörige Zeit-Weg-Funktion (t in s, s₁(t) in m).\nEs gilt: s₁(0) = 0\n\nErgänzen Sie die fehlenden Ausdrücke in der nachstehenden Funktionsgleichung."
+        },
+        {
+          "t": "math",
+          "v": "s_1(t)=\\boxed{\\phantom{0}}\\cdot t+\\boxed{\\phantom{0}}\\cdot e^{-k\\cdot t}-\\boxed{\\phantom{0}}"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{r}{k}\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}",
+        "vars": [
+          "r",
+          "k",
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s_1(t)=\\frac{r}{k}\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Ergänzen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_146",
+      "baseId": "2_146",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1012/2_146_srdp_ma_E-Bikes%20_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein E-Bike ist ein Fahrrad, das mit einem elektrischen Antrieb ausgestattet ist."
+    }
+  ]
+}

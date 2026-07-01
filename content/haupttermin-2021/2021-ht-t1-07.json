@@ -1,0 +1,218 @@
+{
+  "id": "2021-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2021h1]t1-7-fa.pdf"
+  },
+  "title": "Ideales Gas",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_836a",
+          "baseId": "1_836",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/629/IdealesGas.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [],
+          "result": [
+            {
+              "t": "text",
+              "v": "Graph der linearen (durch den Ursprung verlaufenden) Funktion "
+            },
+            {
+              "t": "math",
+              "v": "p"
+            },
+            {
+              "t": "text",
+              "v": " mit positiver Steigung."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Skizzieren des Graphen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "p\\cdot V=n\\cdot R\\cdot T"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft den Zusammenhang zwischen dem Druck "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ", dem Volumen "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": ", der Stoffmenge "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " und der absoluten Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " eines idealen Gases, wobei "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": " eine Konstante ist ("
+        },
+        {
+          "t": "math",
+          "v": "V,\\,n,\\,R\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "p,\\,T\\in\\mathbb{R}_0^{+}"
+        },
+        {
+          "t": "text",
+          "v": ").\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " modelliert in Abhängigkeit von der Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " den Druck "
+        },
+        {
+          "t": "math",
+          "v": "p(T)"
+        },
+        {
+          "t": "text",
+          "v": ", wenn die anderen in der Gleichung vorkommenden Größen konstant bleiben.\n\nSkizzieren Sie im nachstehenden Koordinatensystem den Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-07-q.png",
+          "alt": "Leeres Koordinatensystem mit p(T) auf der senkrechten Achse und T auf der waagrechten Achse, Ursprung 0."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zu skizzieren ist der Graph einer durch den Ursprung verlaufenden Geraden mit positiver Steigung (direkt proportionaler Zusammenhang "
+          },
+          {
+            "t": "math",
+            "v": "p(T)=\\tfrac{n\\cdot R}{V}\\cdot T"
+          },
+          {
+            "t": "text",
+            "v": "), beginnend im Punkt "
+          },
+          {
+            "t": "math",
+            "v": "(0\\mid 0)"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_836",
+      "baseId": "1_836",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/629/IdealesGas.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "2021-het-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2021h2]t1-12-fa.pdf"
+  },
+  "title": "Halbwertszeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_865a",
+          "baseId": "1_865",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/674/Halbwertszeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T=30\\ \\text{Jahre}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Wertes von T.\nToleranzintervall: [29 Jahre; 31 Jahre]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt modellhaft die Entwicklung der Strahlungsintensität einer bestimmten radioaktiven Substanz in Abhängigkeit von der Zeit."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-12-q.png",
+          "alt": "Graph der Strahlungsintensität in % über der Zeit in Jahren (0 bis 120), exponentiell fallend."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie die Halbwertszeit T der Strahlungsintensität dieser radioaktiven Substanz an."
+        },
+        {
+          "t": "math",
+          "v": "T=\\underline{\\hphantom{xxxxx}}\\ \\text{Jahre}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "T",
+            "label": "T",
+            "value": 30,
+            "tol": 1,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_865",
+      "baseId": "1_865",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/674/Halbwertszeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

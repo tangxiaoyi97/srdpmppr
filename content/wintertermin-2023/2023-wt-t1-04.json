@@ -1,0 +1,135 @@
+{
+  "id": "2023-wt-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2023w1]t1-4-ag.pdf"
+  },
+  "title": "Teilungspunkt einer Rechteckseite",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1247a",
+          "baseId": "1_1247",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/802/1_1247_srdp_ma_Teilungspunkt%20einer%20Rechteckseite_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "r = \\tfrac{1}{4}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "s = -1"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von r und s, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie r und s."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "r",
+            "label": "r",
+            "value": 0.25,
+            "tol": 1e-9
+          },
+          {
+            "id": "s",
+            "label": "s",
+            "value": -1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1247",
+      "baseId": "1_1247",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/802/1_1247_srdp_ma_Teilungspunkt%20einer%20Rechteckseite_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist ein Rechteck mit den Eckpunkten A, B, C und D dargestellt. Der Punkt T teilt die Strecke CD im Verhältnis 3 : 1 (siehe nachstehende Abbildung)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-04-q.png",
+      "alt": "Rechteck mit Eckpunkten D (oben links), C (oben rechts), A (unten links), B (unten rechts); Punkt T liegt auf der oberen Seite DC und teilt die Strecke CD im Verhältnis 3 : 1."
+    },
+    {
+      "t": "text",
+      "v": "Für den Punkt T gilt:"
+    },
+    {
+      "t": "math",
+      "v": "T = A + r \\cdot \\overrightarrow{AB} + s \\cdot \\overrightarrow{DA} \\quad \\text{mit } r, s \\in \\mathbb{R}"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "2024-het-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2024h2]t1-16-an.pdf"
+  },
+  "title": "Ableitungen zweier Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-16-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-16-an.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-16-q.png",
+      "alt": "Graphen der zwei zweimal differenzierbaren reellen Funktionen f und g (x von 0 bis 7, Funktionswerte von -3 bis 3)."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2024-het-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1379a",
+          "baseId": "1_1379",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/935/1_1379_srdp_ma_Ableitungen%20zweier%20Funktionen_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f'(3) > g'(3)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f''(3) > g''(3)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "g'(1) > 1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(3) > g'(3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(5) > g'(5)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(1) > g''(1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(3) > g''(3)"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1379",
+      "baseId": "1_1379",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/935/1_1379_srdp_ma_Ableitungen%20zweier%20Funktionen_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind die Graphen der zwei zweimal differenzierbaren reellen Funktionen f und g dargestellt."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "2023-het-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2023h2]t1-12-fa.pdf"
+  },
+  "title": "Periodenlänge",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-12-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.4",
+          "description": "Periodizität als charakteristische Eigenschaft kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1303a",
+          "baseId": "1_1303",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/847/1_1303_srdp_ma_Periodenl%C3%A4nge_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{3}{2} = \\frac{2\\pi}{\\frac{\\pi}{c}}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "c = \\frac{3}{4}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von c."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie c."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "c",
+            "value": 0.75,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1303",
+      "baseId": "1_1303",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/847/1_1303_srdp_ma_Periodenl%C3%A4nge_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion f: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = \\sin\\!\\left(\\frac{\\pi}{c} \\cdot x\\right)"
+    },
+    {
+      "t": "text",
+      "v": " mit c ∈ ℝ⁺.\n\nDie (kleinste) Periodenlänge von f ist "
+    },
+    {
+      "t": "math",
+      "v": "\\frac{3}{2}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

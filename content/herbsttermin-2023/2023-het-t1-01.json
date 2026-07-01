@@ -1,0 +1,182 @@
+{
+  "id": "2023-het-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2023h2]t1-1-ag.pdf"
+  },
+  "title": "Ganze Zahlen und irrationale Zahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-01-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1292a",
+          "baseId": "1_1292",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/836/1_1292_srdp_ma_Ganze%20Zahlen%20und%20irrationale%20Zahlen_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "negative ganze Zahl → C;  negative irrationale Zahl → A;  positive ganze Zahl → F;  positive irrationale Zahl → E"
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Eigenschaften von Zahlen jeweils die Zahl mit dieser Eigenschaft aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "negative ganze Zahl"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "negative irrationale Zahl"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "positive ganze Zahl"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "positive irrationale Zahl"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "2-\\sqrt{10}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{10}-2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-10^{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2:(-10)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{10}:2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(-\\sqrt{10})^{2}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1292",
+      "baseId": "1_1292",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/836/1_1292_srdp_ma_Ganze%20Zahlen%20und%20irrationale%20Zahlen_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind vier Eigenschaften von Zahlen sowie sechs Zahlen."
+    }
+  ]
+}

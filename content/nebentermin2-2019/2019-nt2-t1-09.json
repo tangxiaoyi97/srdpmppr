@@ -1,0 +1,111 @@
+{
+  "id": "2019-nt2-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2019n2]t1-9-fa.pdf"
+  },
+  "title": "Deutung einer Gleichung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-09-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.4",
+          "description": "charakteristische Eigenschaften kennen und im Kontext deuten können: f(x + 1) = f(x) + k ; (f(x2) - f(x1))/(x2 -x1) = k = [f'(x)]",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_670a",
+          "baseId": "1_670",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/399/Deutung%20einer%20Gleichung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Deutungen: Pro Sekunde steigt der Ballon um 2 m. oder: Der Ballon steigt mit einer (konstanten) Geschwindigkeit von 2 m/s."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Deutung der Gleichung unter Angabe der richtigen Einheiten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "h(t+1)-h(t)=2"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext unter Angabe der richtigen Einheiten!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Deutungen: Pro Sekunde steigt der Ballon um 2 m. oder: Der Ballon steigt mit einer (konstanten) Geschwindigkeit von 2 m/s."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Deutung der Gleichung unter Angabe der richtigen Einheiten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_670",
+      "baseId": "1_670",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/399/Deutung%20einer%20Gleichung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein mit Helium gefüllter Ballon steigt lotrecht auf. Die jeweilige Höhe des Ballons über einer ebenen Fläche kann durch eine lineare Funktion h in Abhängigkeit von der Zeit t modelliert werden. Die Höhe h(t) wird in Metern, die Zeit t in Sekunden gemessen."
+    }
+  ]
+}

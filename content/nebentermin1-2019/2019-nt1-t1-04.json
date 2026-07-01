@@ -1,0 +1,129 @@
+{
+  "id": "2019-nt1-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2019n1]t1-4-ag.pdf"
+  },
+  "title": "Gleichung einer Geraden aufstellen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-04-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_713a",
+          "baseId": "1_713",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/452/Gleichung%20einer%20Geraden%20aufstellen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g:\\ 3\\cdot x-2\\cdot y=9"
+            }
+          ],
+          "steps": [
+            {
+              "t": "text",
+              "v": "oder:\n"
+            },
+            {
+              "t": "math",
+              "v": "g:\\ X=\\begin{pmatrix}7\\\\6\\end{pmatrix}+t\\cdot\\begin{pmatrix}6\\\\9\\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Gleichung bzw. eine korrekte Parameterdarstellung der Geraden g, wobei „t ∈ ℝ“ nicht angegeben sein muss. Äquivalente Gleichungen bzw. äquivalente Parameterdarstellungen der Geraden g sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung der Geraden g an."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine richtige Gleichung der Geraden g, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "g:\\ 3\\cdot x-2\\cdot y=9"
+          },
+          {
+            "t": "text",
+            "v": ", oder eine korrekte Parameterdarstellung, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "g:\\ X=\\begin{pmatrix}7\\\\6\\end{pmatrix}+t\\cdot\\begin{pmatrix}6\\\\9\\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Gleichungen bzw. äquivalente Parameterdarstellungen sind als richtig zu werten (wobei „t ∈ ℝ“ nicht angegeben sein muss)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Gleichung bzw. eine korrekte Parameterdarstellung der Geraden g, wobei „t ∈ ℝ“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_713",
+      "baseId": "1_713",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/452/Gleichung%20einer%20Geraden%20aufstellen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Punkte A = (7 | 6), M = (–1 | 7) und N = (8 | 1) sind gegeben.\nEine Gerade g verläuft durch den Punkt A und steht normal auf die Verbindungsgerade durch die Punkte M und N."
+    }
+  ]
+}

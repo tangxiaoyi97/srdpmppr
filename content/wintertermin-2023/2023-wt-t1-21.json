@@ -1,0 +1,107 @@
+{
+  "id": "2023-wt-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2023w1]t1-21-ws.pdf"
+  },
+  "title": "Münzwurf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1264a",
+          "baseId": "1_1264",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/797/1_1264_srdp_ma_Muenzwurf_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X = 3) = 0{,}5"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "P(X = 3)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "label": "P(X = 3)",
+            "value": 0.5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1264",
+      "baseId": "1_1264",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/797/1_1264_srdp_ma_Muenzwurf_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Zufallsexperiment besteht aus dem mehrmaligen Werfen einer Münze. Die Münze zeigt nach einem Wurf entweder „Kopf“ oder „Zahl“. Die Wahrscheinlichkeit, dass die Münze „Kopf“ zeigt, ist bei jedem Wurf genauso hoch wie die Wahrscheinlichkeit, dass sie „Zahl“ zeigt. Die Ergebnisse der Würfe sind voneinander unabhängig. Die Münze wird so oft geworfen, bis sie zum zweiten Mal „Kopf“ oder zum zweiten Mal „Zahl“ zeigt.\n\nDie Zufallsvariable X beschreibt die Anzahl der dafür benötigten Münzwürfe."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "2025-het-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2025h2]t1-4-ag.pdf"
+  },
+  "title": "Quader",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1546a",
+          "baseId": "1_1546",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1053/1_1546_srdp_ma_Quader_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AG}=\\begin{pmatrix}-3\\\\4\\\\6\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Eintragen der richtigen Komponenten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Tragen Sie die Komponenten des Vektors "
+        },
+        {
+          "t": "math",
+          "v": "\\overrightarrow{AG}"
+        },
+        {
+          "t": "text",
+          "v": " in die dafür vorgesehenen Kästchen ein."
+        },
+        {
+          "t": "math",
+          "v": "\\overrightarrow{AG}=\\begin{pmatrix}\\;\\;\\\\\\;\\;\\\\\\;\\;\\end{pmatrix}"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": -3
+          },
+          {
+            "id": "y",
+            "value": 4
+          },
+          {
+            "id": "z",
+            "value": 6
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1546",
+      "baseId": "1_1546",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1053/1_1546_srdp_ma_Quader_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung ist ein Quader ABCDEFGH dargestellt. Die Grundfläche dieses Quaders liegt in der xy-Ebene."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-04-q.png",
+      "alt": "Schrägbild eines Quaders ABCDEFGH in einem xyz-Koordinatensystem; Grundfläche ABCD in der xy-Ebene, Deckfläche EFGH darüber."
+    },
+    {
+      "t": "text",
+      "v": "Es gilt: "
+    },
+    {
+      "t": "math",
+      "v": "D=(0\\mid 0\\mid 0),\\ C=(0\\mid 4\\mid 0),\\ E=(3\\mid 0\\mid 6)"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2025-het-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2025h2]t1-23-ws.pdf"
+  },
+  "title": "Erwartungswert",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1565a",
+          "baseId": "1_1565",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1072/1_1565_srdp_ma_Erwartungswert_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}2+p+0{,}2+0{,}2+0{,}1=1\\ \\Rightarrow\\ p=0{,}3"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "E(X)=0{,}2\\cdot 1+0{,}3\\cdot 2+0{,}2\\cdot 3+0{,}2\\cdot 4+0{,}1\\cdot 5"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=2{,}7"
+            }
+          ],
+          "note": "Die Angabe von E(X) = 2,1 + 2 · p ist nicht als richtig zu werten.\n\nEin Punkt für das richtige Berechnen des Erwartungswerts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Erwartungswert E(X) der Zufallsvariablen X."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "E",
+            "label": "E(X)",
+            "value": 2.7
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1565",
+      "baseId": "1_1565",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1072/1_1565_srdp_ma_Erwartungswert_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen X. Diese Zufallsvariable kann nur die angegebenen Werte xᵢ annehmen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-23-q.png",
+      "alt": "Tabelle: xᵢ = 1, 2, 3, 4, 5;  P(X = xᵢ) = 0,2; p; 0,2; 0,2; 0,1."
+    }
+  ]
+}

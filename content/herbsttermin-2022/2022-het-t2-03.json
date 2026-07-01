@@ -1,0 +1,343 @@
+{
+  "id": "2022-het-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2022h2]t2-3.pdf"
+  },
+  "title": "Beschleunigungstest",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.6",
+          "description": "direkte Proportionalität als lineare Funktion vom Typ f(x) = k * x beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_119a",
+          "baseId": "2_119",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/776/Beschleunigungstest.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird angenommen, dass die Geschwindigkeit v₁ des Sportwagens im Zeitintervall [0; 2] direkt proportional zur Zeit t ist (t in s, v₁(t) in km/h).\n\nStellen Sie eine Funktionsgleichung von v₁ auf."
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "25\\cdot t",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_1(t)=25\\cdot t"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von v₁."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_119b",
+          "baseId": "2_119",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/776/Beschleunigungstest.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer anderen Modellierung kann die Geschwindigkeit des Sportwagens im Zeitintervall [0; 20] in Abhängigkeit von der Zeit t durch die Funktion v₂ beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "v_2(t)=-0{,}001\\cdot t^{4}+0{,}078\\cdot t^{3}-2{,}23\\cdot t^{2}+32\\cdot t"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in s\nv₂(t) ... Geschwindigkeit zur Zeit t in km/h\n\nBerechnen Sie mithilfe von v₂ den Zeitpunkt t₂ ∈ [0; 20], zu dem die Geschwindigkeit des Sportwagens 130 km/h beträgt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t2",
+            "label": "t₂",
+            "value": 6.21,
+            "tol": 0.05,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v_2(t_2)=130"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_2=6{,}21\\ldots\\ \\text{s}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen von t₂."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_119c",
+          "baseId": "2_119",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/776/Beschleunigungstest.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Geschwindigkeit-Beschleunigung-Funktion a ordnet jeder Geschwindigkeit v ∈ [80; 160] des Sportwagens näherungsweise die entsprechende Beschleunigung a(v) zu."
+        },
+        {
+          "t": "math",
+          "v": "a(v)=0{,}0003\\cdot v^{2}+b\\cdot v+c\\quad\\text{mit}\\ b,c\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "v ... Geschwindigkeit in km/h\na(v) ... Beschleunigung bei der Geschwindigkeit v in m/s²\n\nIn der nachstehenden Tabelle sind zwei Beschleunigungswerte angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-03-c-tab.png",
+          "alt": "Tabelle: v in km/h: 80 und 160; a(v) in m/s²: 6,7 und 1,4."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie b und c."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": -0.13825,
+            "tol": 0.00001
+          },
+          {
+            "id": "c",
+            "label": "c",
+            "value": 15.84,
+            "tol": 0.01
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "a(80)=6{,}7"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "a(160)=1{,}4"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "b=-0{,}13825\\ \\text{und}\\ c=15{,}84"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln der beiden Werte."
+        }
+      ]
+    },
+    {
+      "id": "2022-het-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_119c",
+          "baseId": "2_119",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/776/Beschleunigungstest.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe der Funktion a und der Abbildung im Einleitungstext den Zeitpunkt t₃, zu dem die Beschleunigung 3,7 m/s² beträgt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t3",
+            "label": "t₃",
+            "value": 5.5,
+            "tol": 1,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "a(v_3)=3{,}7"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "v_3=118{,}054\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Aus der Abbildung folgt: t₃ ≈ 5,5 s."
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Ermitteln von t₃.\nToleranzintervall für t₃: [4; 6]"
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_119",
+      "baseId": "2_119",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/776/Beschleunigungstest.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Beschleunigungstest wird ein Fahrzeug aus dem Stillstand (Anfangsgeschwindigkeit = 0 km/h) beschleunigt.\n\nIn der nachstehenden Abbildung ist der Graph der Zeit-Geschwindigkeit-Funktion v für einen Beschleunigungstest mit einem Sportwagen dargestellt. Dabei bewegt sich der Sportwagen t Sekunden nach Beginn des Beschleunigungsvorgangs mit der Geschwindigkeit v(t) in km/h."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-03-q.png",
+      "alt": "Koordinatensystem (t in s waagrecht, v(t) in km/h senkrecht) mit dem Graphen der Zeit-Geschwindigkeit-Funktion v eines Sportwagens; eingezeichnet ist der Punkt (2 | 50)."
+    }
+  ]
+}

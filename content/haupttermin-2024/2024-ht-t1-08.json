@@ -1,0 +1,131 @@
+{
+  "id": "2024-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2024h1]t1-8-an.pdf"
+  },
+  "title": "Rennrad",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-08-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1347a",
+          "baseId": "1_1347",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/899/1_1347_srdp_ma_Rennrad_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "v(x)=k\\cdot x+d"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "k=\\dfrac{40{,}8-28{,}8}{85-60}=0{,}48"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "d=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v(x)=0{,}48\\cdot x"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Gleichung von v."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung von v auf."
+        },
+        {
+          "t": "math",
+          "v": "v(x)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.48*x",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1347",
+      "baseId": "1_1347",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/899/1_1347_srdp_ma_Rennrad_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Handbuch zu einem Rennrad sind folgende Werte angegeben:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-08-q.png",
+      "alt": "Tabelle: Anzahl der Kurbelumdrehungen pro Minute | Geschwindigkeit in km/h — 60 | 28,8 und 85 | 40,8."
+    },
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeit in Abhängigkeit von der Anzahl der Kurbelumdrehungen kann durch die lineare Funktion v modelliert werden.\nx ... Anzahl der Kurbelumdrehungen pro Minute\nv(x) ... Geschwindigkeit bei x Kurbelumdrehungen pro Minute in km/h"
+    }
+  ]
+}

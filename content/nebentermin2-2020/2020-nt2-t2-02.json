@@ -1,0 +1,385 @@
+{
+  "id": "2020-nt2-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2020n2]t2-2.pdf"
+  },
+  "title": "Tennis",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t2-02-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion f: ℝ₀⁺ → ℝ mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}0007\\cdot x^{3}+0{,}005\\cdot x^{2}+0{,}2\\cdot x+0{,}4"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt eine Bahnkurve eines Tennisballs bis zu derjenigen Stelle, an der der Tennisball erstmals den Boden berührt. Dabei gibt x die waagrechte Entfernung des Tennisballs vom Abschlagpunkt und f(x) die Flughöhe des Tennisballs über dem Boden an (x und f(x) in m). Die Flugbahn des Tennisballs startet zwischen den Seitenlinien an der Grundlinie und die Ebene, in der die Flugbahn liegt, verläuft parallel zur Seitenlinie des Tennisfelds.\n\nGeben Sie an, in welcher waagrechten Entfernung vom Abschlagpunkt der Tennisball seine maximale Höhe erreicht.\n\nwaagrechte Entfernung vom Abschlagpunkt:"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "value": 12.45,
+            "tol": 0.05,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "-0{,}0021\\cdot x^{2}+0{,}01\\cdot x+0{,}2=0\\ \\Rightarrow\\ x_1=12{,}42\\ldots\\ (x_2=-7{,}66\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "waagrechte Entfernung vom Abschlagpunkt: ca. 12,4 m"
+            }
+          ],
+          "note": "a1) Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [12,4 m; 12,5 m] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-02-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Überprüfen Sie rechnerisch, ob der Tennisball im gegnerischen Spielfeld oder hinter der Grundlinie landet."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "f(x) = 0 ⇒ x₁ = 21,597… (x₂ = –2,15…, x₃ = –12,30…). Die einzige positive Nullstelle von f ist x₁ ≈ 21,6. Da das Spielfeld 23,77 m lang ist, landet der Tennisball im gegnerischen Spielfeld."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für einen richtigen rechnerischen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(x)=0\\ \\Rightarrow\\ x_1=21{,}597\\ldots\\ (x_2=-2{,}15\\ldots,\\ x_3=-12{,}30\\ldots)"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die einzige positive Nullstelle von f ist x₁ ≈ 21,6. Da das Spielfeld 23,77 m lang ist, landet der Tennisball im gegnerischen Spielfeld."
+            }
+          ],
+          "note": "a2) Ein Punkt für einen richtigen rechnerischen Nachweis."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-02-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Fällt ein Tennisball lotrecht (ohne Drehung) auf den Boden, so springt er wieder lotrecht zurück. Der Restitutionskoeffizient r ist ein Maß für die Sprungfähigkeit des Tennisballs.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "r=\\dfrac{v_2}{v_1}"
+        },
+        {
+          "t": "text",
+          "v": ", wobei v₁ der Betrag der Geschwindigkeit des Tennisballs vor und v₂ der Betrag der Geschwindigkeit des Tennisballs nach dem Aufprall ist.\n\nDie Differenz der vertikalen Geschwindigkeiten unmittelbar vor und nach dem Aufprall ist aufgrund der unterschiedlichen Bewegungsrichtungen des Tennisballs definiert durch: "
+        },
+        {
+          "t": "math",
+          "v": "\\Delta v=v_2-(-v_1)"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nGeben Sie Δv in Abhängigkeit von v₁ und r an."
+        },
+        {
+          "t": "math",
+          "v": "\\Delta v="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "r*v1 + v1",
+        "vars": [
+          "r",
+          "v1"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\Delta v=r\\cdot v_1+v_1"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-02-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Tennisball trifft mit der Geschwindigkeit v₁ = 4,4 m/s lotrecht auf dem Boden auf. Der Restitutionskoeffizient beträgt für diesen Tennisball r = 0,6. Die Kontaktzeit mit dem Boden beträgt 0,01 s.\n\nBerechnen Sie die durchschnittliche Beschleunigung a (in m/s²) des Tennisballs in vertikaler Richtung beim Aufprall (während der Kontaktzeit).\n\na ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 705,
+            "tol": 5,
+            "unit": "m/s²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\Delta v=v_1\\cdot(1+r)=4{,}4\\cdot(1+0{,}6)=7{,}04"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "a=7{,}04:0{,}01=704"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=704\\ \\text{m/s}^{2}"
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung. Toleranzintervall für a: [700 m/s²; 710 m/s²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-02-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Fünf-Satz-Tennismatch gewinnt ein Spieler, sobald er drei Sätze gewonnen hat. Für einen Satzgewinn müssen in der Regel sechs Games gewonnen werden, wobei es für jedes gewonnene Game einen Punkt gibt.\n\nFür unterschiedliche Wahrscheinlichkeiten p für ein gewonnenes Game wurden die daraus resultierenden Wahrscheinlichkeiten m für einen Matchgewinn bei einem Fünf-Satz-Match ermittelt. In der nachstehenden Tabelle sind diese Wahrscheinlichkeiten angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-c-tab.png",
+          "alt": "Tabelle: p | m — 0,5 | 0,5; 0,51 | 0,6302; 0,55 | 0,9512; 0,6 | 0,9995; 0,7 | 1,000."
+        },
+        {
+          "t": "text",
+          "v": "Die Wahrscheinlichkeit, dass Spieler A ein Game gewinnt, ist um 2 Prozentpunkte höher als die Wahrscheinlichkeit, dass sein Gegenspieler B ein Game gewinnt.\n\nGeben Sie an, um wie viel Prozentpunkte die Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gewinnt, höher ist als jene für seinen Gegenspieler B."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "pp",
+            "value": 26.05,
+            "tol": 0.05,
+            "unit": "Prozentpunkte"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}6302-0{,}3698=0{,}2604"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Diese Wahrscheinlichkeit ist um ca. 26 Prozentpunkte höher."
+            }
+          ],
+          "note": "c1) Ein Punkt für die richtige Lösung. Toleranzintervall: [26; 26,1]"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t2-02-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegenüber einem anderen, schwächeren Gegenspieler C hat Spieler A einen Vorteil von 10 Prozentpunkten, ein Game zu gewinnen.\n\nZeigen Sie, dass die Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Gegenspieler C gewinnt, um 50,94 Prozent höher ist als bei einem Fünf-Satz-Match gegen B."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler C gewinnt: 0,9512. Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler B gewinnt: 0,6302. 0,9512 / 0,6302 = 1,50936… ≈ 1,5094 ⇒ 0,9512 ist um ca. 50,94 Prozent höher als 0,6302."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Wahrscheinlichkeit gegen C: 0,9512; Wahrscheinlichkeit gegen B: 0,6302\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{0{,}9512}{0{,}6302}=1{,}50936\\ldots\\approx 1{,}5094"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "0,9512 ist um ca. 50,94 Prozent höher als 0,6302."
+            }
+          ],
+          "note": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Tennis ist ein Rückschlagspiel zwischen zwei oder vier Personen, bei dem ein Tennisball über ein Netz geschlagen werden muss. Das Spielfeld ist rechteckig und wird durch ein Netz in zwei Hälften geteilt (siehe Abbildung 1). Für ein Spiel zwischen zwei Personen ist der Platz 23,77 m lang und 8,23 m breit. Das Spielfeld wird durch die Grundlinien und die Seitenlinien begrenzt. Das Netz weist eine maximale Höhe von 1,07 m auf."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-q.png",
+      "alt": "Abbildung 1: Rechteckiges Tennisspielfeld, 23,77 m lang und 8,23 m breit, durch ein Netz in zwei Hälften geteilt; Grundlinie und Seitenlinie beschriftet."
+    }
+  ]
+}

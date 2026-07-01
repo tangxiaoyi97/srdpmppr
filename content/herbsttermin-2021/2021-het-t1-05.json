@@ -1,0 +1,138 @@
+{
+  "id": "2021-het-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2021h2]t1-5-ag.pdf"
+  },
+  "title": "Vektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-05-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_858a",
+          "baseId": "1_858",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/667/Vektoren.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-05-sol.png",
+              "alt": "Lösung: eingezeichneter Vektor b im Koordinatensystem."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Vektors b, wobei die Pfeilspitze eingezeichnet sein muss, die Lage des Pfeiles (mit den richtigen Komponenten) jedoch beliebig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im unten stehenden Koordinatensystem sind die Vektoren "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{a}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{c}"
+        },
+        {
+          "t": "text",
+          "v": " eingezeichnet.\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{c}=2\\cdot\\vec{a}+\\vec{b}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nZeichnen Sie den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{b}"
+        },
+        {
+          "t": "text",
+          "v": " ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-05-q.png",
+          "alt": "Koordinatensystem (x von -7 bis 7, y von -7 bis 7) mit eingezeichneten Vektoren a und c."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{b}=\\vec{c}-2\\cdot\\vec{a}"
+          },
+          {
+            "t": "text",
+            "v": " ist mit eingezeichneter Pfeilspitze einzuzeichnen; die Lage des Pfeiles (mit den richtigen Komponenten) ist beliebig."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_858",
+      "baseId": "1_858",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/667/Vektoren.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2026-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2026h1]t1-22-ws.pdf"
+  },
+  "title": "Wahlumfrage",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1612a",
+          "baseId": "1_1612",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1132/1_1612_Wahlumfrage_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{b}{a+b}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von a und b eine Formel zur Berechnung von p auf."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{b}{a+b}",
+        "vars": [
+          "a",
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1612",
+      "baseId": "1_1612",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1132/1_1612_Wahlumfrage_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer Wahlumfrage in einer bestimmten Region wird eine große Zahl an nach dem Zufallsprinzip ausgewählten Personen befragt.\n\nUnter allen befragten Personen haben dabei a Personen eine Antwort gegeben. Die restlichen b Personen verweigerten hingegen die Antwort.\n\nFür eine weitere Wahlumfrage in dieser Region unter denselben Rahmenbedingungen soll ein Schätzwert p für die Wahrscheinlichkeit, dass eine Person die Antwort verweigert, bestimmt werden."
+    }
+  ]
+}

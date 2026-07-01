@@ -1,0 +1,135 @@
+{
+  "id": "2026-wt-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2026w1]t1-13-an.pdf"
+  },
+  "title": "Differenzen- und Differenzialquotient",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-13-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1579a",
+          "baseId": "1_1579",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1092/1_1579_srdp_ma_Differenzen-%20und%20Differenzialquotient_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Einzeichnen der Sekante und der Tangente ist im Hinblick auf die Punktevergabe nicht erforderlich."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Markieren von P."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Markieren Sie in der obigen Abbildung den Punkt P."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Punkt P wird an derjenigen Stelle des Graphen markiert, an der die Steigung der Tangente (f′(xP)) gleich der Steigung der Sekante durch A und B ist (Tangente parallel zur Sekante AB)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1579",
+      "baseId": "1_1579",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1092/1_1579_srdp_ma_Differenzen-%20und%20Differenzialquotient_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind der Graph einer Polynomfunktion f sowie die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(x_A\\mid f(x_A))"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(x_B\\mid f(x_B))"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-13-q.png",
+      "alt": "Graph einer Polynomfunktion f mit den Punkten A = (xA | f(xA)) links unten und B = (xB | f(xB)) rechts oben auf dem Graphen."
+    },
+    {
+      "t": "text",
+      "v": "Für den Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(x_P\\mid f(x_P))"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f'(x_P)=\\dfrac{f(x_B)-f(x_A)}{x_B-x_A}"
+    }
+  ]
+}

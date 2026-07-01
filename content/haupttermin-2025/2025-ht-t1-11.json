@@ -1,0 +1,139 @@
+{
+  "id": "2025-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2025h1]t1-11-fa.pdf"
+  },
+  "title": "Exponentialfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1459a",
+          "baseId": "1_1459",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1029/1_1459_srdp_ma_Exponentialfunktion_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot\\left(\\sqrt[3]{\\dfrac{c}{a}}\\right)^{x}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Vervollständigen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Vervollständigen Sie unter Verwendung von a und c die nachstehende Gleichung der Funktion f.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot\\left(\\rule{2.5em}{0.4pt}\\right)^{x}"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "a*(c/a)^(x/3)",
+        "vars": [
+          "a",
+          "c",
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1459",
+      "baseId": "1_1459",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1029/1_1459_srdp_ma_Exponentialfunktion_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Exponentialfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot b^{x}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,\\,b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Der Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(3\\mid c)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "c\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " liegt auf dem Graphen von f."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-11-q.png",
+      "alt": "Graph einer steigenden Exponentialfunktion f; der Punkt P = (3 | c) liegt auf dem Graphen, c ist auf der vertikalen Achse markiert."
+    }
+  ]
+}

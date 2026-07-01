@@ -1,0 +1,110 @@
+{
+  "id": "2022-wt-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2022w1]t1-23-ws.pdf"
+  },
+  "title": "Gewinnspiel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_900a",
+          "baseId": "1_900",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/702/Gewinnspiel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}01 \\cdot 10 + 0{,}04 \\cdot 2 = 0{,}18"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X) = 0{,}18"
+            },
+            {
+              "t": "text",
+              "v": " €"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Erwartungswerts E(X)."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Erwartungswert E(X)."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EX",
+            "label": "E(X)",
+            "value": 0.18,
+            "tol": 1e-9,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_900",
+      "baseId": "1_900",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/702/Gewinnspiel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf dem Etikett einer Getränkeflasche ist ein Code für ein Gewinnspiel aufgedruckt.\n- Die Wahrscheinlichkeit, mit diesem Code einen Gewinn von € 10 zu erzielen, beträgt 1 %.\n- Die Wahrscheinlichkeit, mit diesem Code einen Gewinn von € 2 zu erzielen, beträgt 4 %.\n\nEs gibt keine weiteren Gewinne.\n\nDie Zufallsvariable X gibt den Gewinn (in €) für einen Code an."
+    }
+  ]
+}

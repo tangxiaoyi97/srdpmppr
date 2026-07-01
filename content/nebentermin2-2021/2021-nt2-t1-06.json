@@ -1,0 +1,96 @@
+{
+  "id": "2021-nt2-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2021n2]t1-6-ag.pdf"
+  },
+  "title": "Mauer",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-06-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und anwenden können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{6}{\\cos(20^\\circ)}=6{,}385\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Länge der Leiter beträgt ca. 6,39 m."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Länge der Leiter."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "l",
+            "label": "Länge der Leiter",
+            "value": 6.39,
+            "tol": 0.05,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Leiter lehnt an einer senkrechten Mauer.\n\nDie Leiter liegt in 6 m Höhe an der Mauer an und schließt mit der Mauer einen Winkel von 20° ein. Dieser Sachverhalt wird durch die nebenstehende (nicht maßstabgetreue) Abbildung veranschaulicht."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-06-q.png",
+      "alt": "Nicht maßstabgetreue Abbildung: eine Leiter lehnt an einer senkrechten Mauer; sie liegt in 6 m Höhe an der Mauer an und schließt mit der Mauer einen Winkel von 20° ein; Boden waagrecht."
+    }
+  ]
+}

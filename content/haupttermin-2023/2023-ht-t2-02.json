@@ -1,0 +1,387 @@
+{
+  "id": "2023-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2023h1]t2-2.pdf"
+  },
+  "title": "Fitnessuhren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t2-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_126a",
+          "baseId": "2_126",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/832/2_126_srdp_ma_Fitnessuhren_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine 3,1 km lange Bergtour führt vom Start auf 680 m Seehöhe zu einem Gipfelhaus auf 1 820 m Seehöhe. Der dabei zurückgelegte Weg wird modellhaft als geradlinig mit konstanter Steigung angenommen und ist in der nachstehenden Skizze (nicht maßstabgetreu) dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-02-a.png",
+          "alt": "Skizze (nicht maßstabgetreu): rechtwinkeliges Steigungsdreieck, Hypotenuse 3,1 km von Start zum Gipfelhaus"
+        },
+        {
+          "t": "text",
+          "v": "Der Weg der Bergtour weist eine Steigung von a % auf.\n\nErmitteln Sie a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 39.5,
+            "tol": 0.6,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\sqrt{3100^2-1140^2}=2882{,}7\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "a=\\dfrac{1140}{2882{,}7\\ldots}=0{,}395\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=39{,}5\\ldots\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von a."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-02-b",
+      "label": "b",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_126b",
+          "baseId": "2_126",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/832/2_126_srdp_ma_Fitnessuhren_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Fitnessuhr Sporty ist besonders beliebt.\n\nDie Wahrscheinlichkeit, dass eine zufällig ausgewählte Person in Österreich eine Fitnessuhr Sporty besitzt, beträgt p.\n\nIm Rahmen einer Studie werden 160 zufällig ausgewählte Personen in Österreich befragt. Die binomialverteilte Zufallsvariable X gibt die Anzahl derjenigen Personen unter den 160 Befragten an, die eine Fitnessuhr Sporty besitzen.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass jedenfalls eine richtige Aussage entsteht.\n\nDie Wahrscheinlichkeit, dass von den 160 Befragten niemand eine Fitnessuhr Sporty besitzt, beträgt ①; mit ② wird die Wahrscheinlichkeit berechnet, dass von den 160 Befragten mindestens 2 eine Fitnessuhr Sporty besitzen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "1-p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p^{160}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(1-p)^{160}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-\\left[\\binom{160}{0}\\cdot p^{0}\\cdot(1-p)^{160}+\\binom{160}{1}\\cdot p\\cdot(1-p)^{159}\\right]"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{160}{0}\\cdot p^{0}\\cdot(1-p)^{160}+\\binom{160}{1}\\cdot p\\cdot(1-p)^{159}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\binom{160}{2}\\cdot p^{2}\\cdot(1-p)^{158}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "(1-p)^{160}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "1-\\left[\\binom{160}{0}p^{0}(1-p)^{160}+\\binom{160}{1}p(1-p)^{159}\\right]"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-02-c1",
+      "label": "c1",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_126c",
+          "baseId": "2_126",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/832/2_126_srdp_ma_Fitnessuhren_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Fitnessuhren zeigen unter anderem den Kalorienverbrauch bei einer sportlichen Aktivität an.\n\nIm Rahmen einer Studie wird bei 60 Personen die prozentuelle Abweichung des tatsächlichen Kalorienverbrauchs bei einer sportlichen Aktivität vom jeweiligen Messergebnis ihrer Fitnessuhren untersucht.\n\nDiese Abweichungen mit den jeweils zugehörigen absoluten Häufigkeiten sind in der nachstehenden Tabelle nach Klassen zusammengefasst."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-02-c-tab.png",
+          "alt": "Tabelle: Abweichung in % | absolute Häufigkeit — [0;20):24, [20;30):30, [30;50]:6"
+        },
+        {
+          "t": "text",
+          "v": "Erstellen Sie ein Histogramm, in dem für die drei oben angegebenen Klassen die relativen Häufigkeiten als Flächeninhalte von Rechtecken dargestellt sind."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-02-c1-q.png",
+          "alt": "Leeres Koordinatensystem für das Histogramm (Abweichung in %, 0 bis 50)"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Histogramm mit relativen Häufigkeiten als Flächeninhalten: [0; 20) → Höhe 0,02; [20; 30) → Höhe 0,05; [30; 50] → Höhe 0,005."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-02-c1-sol.png",
+              "alt": "Lösung: Histogramm mit Rechteckhöhen 0,02 / 0,05 / 0,005"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Erstellen des Histogramms."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-02-c2",
+      "label": "c2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_126c",
+          "baseId": "2_126",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/832/2_126_srdp_ma_Fitnessuhren_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum der Median der Datenliste (die der obigen Tabelle zugrunde liegt) im Intervall [20; 30) liegen muss."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Sortiert man die zugrunde liegende Datenliste aufsteigend, dann ist der Median das arithmetische Mittel des 30. und 31. Wertes. Da beide im Intervall [20; 30) liegen, liegt auch das arithmetische Mittel dieser beiden Werte in diesem Intervall."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Sortiert man die zugrunde liegende Datenliste aufsteigend, dann ist der Median das arithmetische Mittel des 30. und 31. Wertes. Da beide im Intervall [20; 30) liegen, liegt auch das arithmetische Mittel dieser beiden Werte in diesem Intervall."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Begründen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_126",
+      "baseId": "2_126",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/832/2_126_srdp_ma_Fitnessuhren_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Fitnessuhren sind Armbanduhren, die bei sportlichen Aktivitäten verwendet werden können."
+    }
+  ]
+}

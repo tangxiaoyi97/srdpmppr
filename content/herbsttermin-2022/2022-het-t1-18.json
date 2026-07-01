@@ -1,0 +1,106 @@
+{
+  "id": "2022-het-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2022h2]t1-18-an.pdf"
+  },
+  "title": "Pilzsporen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-18-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1237a",
+          "baseId": "1_1237",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/767/Pilzsporen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt den Inhalt der Fläche, die von den Sporen dieses Pilzes 3 h nach Beginn der Beobachtung bedeckt wird (in µm²)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.\nGrundkompetenz: AN 4.3"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "5+\\int_{0}^{3} f(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt den Inhalt der Fläche, die von den Sporen dieses Pilzes 3 h nach Beginn der Beobachtung bedeckt wird (in μm²)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1237",
+      "baseId": "1_1237",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/767/Pilzsporen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Pilze vermehren sich mithilfe von Sporen.\n\nBei einem Experiment bedecken zum Zeitpunkt t = 0 die Sporen eines bestimmten Pilzes eine Fläche mit einem Inhalt von 5 μm².\n\nDie Funktion f modelliert die Geschwindigkeit, mit der sich die bedeckte Fläche vergrößert, in Abhängigkeit von der Zeit t.\nt ... Zeit in h\nf(t) ... Geschwindigkeit, mit der sich die bedeckte Fläche vergrößert, zum Zeitpunkt t in μm²/h"
+    }
+  ]
+}

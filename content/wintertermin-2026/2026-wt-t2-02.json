@@ -1,0 +1,440 @@
+{
+  "id": "2026-wt-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2026w1]t2-2.pdf"
+  },
+  "title": "Polynomfunktionen dritten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_158a",
+          "baseId": "2_158",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1106/2_158_srdp_ma_Polynomfunktionen%20dritten%20Grades_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Tangente tW schließt mit der x-Achse den Winkel α mit 0° < α < 90° ein.\n\nBerechnen Sie α."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "alpha",
+            "label": "α",
+            "value": 81.86,
+            "tol": 0.1,
+            "unit": "°"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "y=2-7\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\arctan(-7)=-81{,}86\\ldots^\\circ"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=81{,}86\\ldots^\\circ"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von α."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.5",
+          "description": "Normalvektoren in R² aufstellen, verständig einsetzen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_158a",
+          "baseId": "2_158",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1106/2_158_srdp_ma_Polynomfunktionen%20dritten%20Grades_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Tangente an den Graphen von f im Punkt P wird mit tP bezeichnet.\n\nDas Skalarprodukt eines Richtungsvektors der Tangente tP mit einem Richtungsvektor der Tangente tW ergibt 0.\n\nTragen Sie in der nachstehenden Parameterdarstellung die fehlenden Zahlen in die dafür vorgesehenen Kästchen ein."
+        },
+        {
+          "t": "math",
+          "v": "t_P:\\ X=P+\\lambda\\cdot\\begin{pmatrix}\\square\\\\\\square\\end{pmatrix}\\ \\text{mit}\\ \\lambda\\in\\mathbb{R}"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v1",
+            "value": 7,
+            "tol": 1e-9
+          },
+          {
+            "id": "v2",
+            "value": 1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t_P:\\ X=P+\\lambda\\cdot\\begin{pmatrix}7\\\\1\\end{pmatrix}\\ \\text{mit}\\ \\lambda\\in\\mathbb{R}"
+            }
+          ],
+          "note": "a2) Ein Punkt für das Eintragen der beiden richtigen Zahlen. Das k-Fache des hier angeführten Richtungsvektors (k ≠ 0) ist ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_158b",
+          "baseId": "2_158",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1106/2_158_srdp_ma_Polynomfunktionen%20dritten%20Grades_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die 2. Ableitungsfunktion f″ der Funktion f gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f''(x)=18\\cdot x-18"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Koordinaten des Wendepunkts W des Graphen von f."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "wx",
+            "label": "x_W",
+            "value": 1,
+            "tol": 1e-9
+          },
+          {
+            "id": "wy",
+            "label": "y_W",
+            "value": -5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f''(x)=0\\Rightarrow x=1"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "W\\in t_W:\\ 7\\cdot 1+y=2\\Rightarrow y=-5"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "W=(1\\mid -5)"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ermitteln der Koordinaten von W."
+        }
+      ]
+    },
+    {
+      "id": "2026-wt-t2-02-c1",
+      "label": "c1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_158c",
+          "baseId": "2_158",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1106/2_158_srdp_ma_Polynomfunktionen%20dritten%20Grades_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist eine Polynomfunktion 3. Grades g mit "
+        },
+        {
+          "t": "math",
+          "v": "g(x)=a_1\\cdot x^{3}+b_1\\cdot x^{2}+c_1\\cdot x+d_1"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a_1,b_1,c_1,d_1\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "a_1\\neq 0"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Polynomfunktion 3. Grades g hat ①; das Krümmungsverhalten des Graphen von g ist unabhängig von der Wahl der Parameter ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "entweder keine oder genau eine Extremstelle"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "entweder keine oder genau zwei Extremstellen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "in jedem Fall genau zwei Extremstellen"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a_1\\ \\text{und}\\ c_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b_1\\ \\text{und}\\ c_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c_1\\ \\text{und}\\ d_1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① entweder keine oder genau zwei Extremstellen;  ② "
+            },
+            {
+              "t": "math",
+              "v": "c_1\\ \\text{und}\\ d_1"
+            }
+          ],
+          "note": "c1) Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_158",
+      "baseId": "2_158",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1106/2_158_srdp_ma_Polynomfunktionen%20dritten%20Grades_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion 3. Grades f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{3}+b\\cdot x^{2}+c\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c,d\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\neq 0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDer Graph der Funktion f hat den Wendepunkt W. Die Tangente an den Graphen von f im Wendepunkt W wird mit tW bezeichnet.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "t_W:\\ 7\\cdot x+y=2"
+    }
+  ]
+}

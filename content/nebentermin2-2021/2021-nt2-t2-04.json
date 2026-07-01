@@ -1,0 +1,457 @@
+{
+  "id": "2021-nt2-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2021n2]t2-4.pdf"
+  },
+  "title": "Müsliriegel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t2-4.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100a",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Unter Berücksichtigung aller Produktionskosten kostet jeder der 100 000 Müsliriegel in der Produktion durchschnittlich € 1.\n\nDer Verkaufspreis eines Müsliriegels soll so festgelegt werden, dass für den Hersteller ein Gewinn von mindestens € 80.000 erzielt wird, wenn nach dem Verkauf aller Müsliriegel alle Sofortgewinne ausgezahlt werden müssen.\nAlle Müsliriegel haben den gleichen Verkaufspreis.\n\nErmitteln Sie den unter diesen Voraussetzungen kleinstmöglichen Verkaufspreis p des Müsliriegels."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "kleinstmöglicher Verkaufspreis p",
+            "value": 2.09,
+            "tol": 0.005,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nG(x) ... Gewinn bei einer Produktion von x Müsliriegeln\n"
+            },
+            {
+              "t": "math",
+              "v": "G(100\\,000)=p\\cdot 100\\,000-100\\,000-(9\\,000\\cdot 2+900\\cdot 5+100\\cdot 65)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "G(100\\,000)=80\\,000\\ \\Rightarrow\\ p=2{,}09"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p=2{,}09"
+            },
+            {
+              "t": "text",
+              "v": " €"
+            }
+          ],
+          "note": "a1) Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100a",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, um wie viel Prozent der kleinstmögliche Verkaufspreis p gesenkt werden kann, wenn man die Müsliriegel ohne Gewinnspiel verkauft und der Gewinn trotzdem mindestens € 80.000 ausmachen soll."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "prozent",
+            "label": "Senkung",
+            "value": 13.9,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "p_1\\cdot 100\\,000-100\\,000=80\\,000\\ \\Rightarrow\\ p_1=1{,}80\\ \\text{€}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{0{,}29}{2{,}09}=0{,}1387\\ldots\\approx 13{,}9\\,\\%"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\approx 13{,}9\\,\\%"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100b",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable X beschreibt die Höhe des ausgezahlten Sofortgewinns pro gekauften Müsliriegel.\n\nErmitteln Sie den Erwartungswert E(X)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EX",
+            "label": "E(X)",
+            "value": 0.29,
+            "tol": 0.005,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "E(X)=0{,}09\\cdot 2+0{,}009\\cdot 5+0{,}001\\cdot 65"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=0{,}29\\ \\text{€}"
+            }
+          ],
+          "note": "b1) Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100b",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Kunde kauft 4 Müsliriegel.\n\nBerechnen Sie die Wahrscheinlichkeit, mit der der Kunde mindestens einen Sofortgewinn erzielt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "Wahrscheinlichkeit (mindestens ein Sofortgewinn)",
+            "value": 0.3439,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "1-\\dfrac{90\\,000}{100\\,000}\\cdot\\dfrac{89\\,999}{99\\,999}\\cdot\\dfrac{89\\,998}{99\\,998}\\cdot\\dfrac{89\\,997}{99\\,997}=0{,}3439\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}3439\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung, wobei die näherungsweise Berechnung mit 1 – 0,9⁴ ebenfalls als richtig zu werten ist."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100c",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Aus Erfahrung weiß man, dass 95 % der Müsliriegel eine vorgegebene Mindestmasse haben.\n\nEine Zufallsstichprobe von 1 000 Müsliriegeln wird ausgewählt. Die binomialverteilte Zufallsvariable Y beschreibt dabei die Anzahl der Müsliriegel in dieser Zufallsstichprobe, die die vorgegebene Mindestmasse haben.\n\nErmitteln Sie die Standardabweichung σ(Y) der Zufallsvariablen Y."
+        },
+        {
+          "t": "math",
+          "v": "\\sigma(Y)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "sigma",
+            "label": "σ(Y)",
+            "value": 6.892,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\sigma(Y)=\\sqrt{1\\,000\\cdot 0{,}95\\cdot(1-0{,}95)}=6{,}892\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sigma(Y)=6{,}892\\ldots"
+            }
+          ],
+          "note": "c1) Ein Ausgleichspunkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-04-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_100c",
+          "baseId": "2_100",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das Ergebnis der nachstehenden Berechnung im gegebenen Kontext."
+        },
+        {
+          "t": "math",
+          "v": "P(Y\\ge 933)\\approx 0{,}99"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit, dass mindestens 933 Müsliriegel die vorgegebene Mindestmasse haben, beträgt ca. 99 %."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für eine richtige Interpretation.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Interpretation: Die Wahrscheinlichkeit, dass mindestens 933 Müsliriegel die vorgegebene Mindestmasse haben, beträgt ca. 99 %."
+            }
+          ],
+          "note": "c2) Ein Punkt für eine richtige Interpretation."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_100",
+      "baseId": "2_100",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/621/Muesliriegel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein neuer Müsliriegel steht vor der Markteinführung. Der Hersteller dieses Müsliriegels produziert 100 000 Stück davon.\n\nAuf allen Verpackungen der Müsliriegel wird die Möglichkeit von Sofortgewinnen angekündigt. Die jeweilige Höhe des Sofortgewinns kann man nach dem Öffnen der Verpackung auf deren Innenseite ablesen. Der Hersteller des Müsliriegels gibt an:\nEs werden\n- 9 000 Sofortgewinne zu je € 2\n- 900 Sofortgewinne zu je € 5\n- 100 Sofortgewinne zu je € 65\nausgezahlt.\n\nAlle produzierten Müsliriegel werden an Geschäfte geliefert. Die Verteilung der Müsliriegel erfolgt nach dem Zufallsprinzip."
+    }
+  ]
+}

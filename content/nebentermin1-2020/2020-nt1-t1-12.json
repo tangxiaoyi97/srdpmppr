@@ -1,0 +1,121 @@
+{
+  "id": "2020-nt1-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2020n1]t1-12-ag.pdf"
+  },
+  "title": "Wechselstrom",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-12-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-12-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.4",
+          "description": "Periodizität als charakteristische Eigenschaft kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_793a",
+          "baseId": "1_793",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/577/Wechselstrom.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Maximalwert: 2 A\n(kleinste) Periodenlänge: 0,02 s"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-12-q.png",
+          "alt": "Graph der Stromstärke I(t) in A über der Zeit t in s; sinusförmiger Verlauf zwischen –2 und 2, t-Achse mit Markierungen bei 0,01 / 0,02 / 0,03 / 0,04 / 0,05."
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie den Maximalwert der Stromstärke und die (kleinste) Periodenlänge dieses sinusförmigen Wechselstroms an.\n\nMaximalwert: ___ A\n\n(kleinste) Periodenlänge: ___ s"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "max",
+            "label": "Maximalwert",
+            "value": 2,
+            "tol": 1e-9,
+            "unit": "A"
+          },
+          {
+            "id": "T",
+            "label": "(kleinste) Periodenlänge",
+            "value": 0.02,
+            "tol": 1e-9,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_793",
+      "baseId": "1_793",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/577/Wechselstrom.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei sinusförmigem Wechselstrom ändert sich der Wert der Stromstärke periodisch.\nIn der nachstehenden Abbildung ist die Stromstärke I(t) in Abhängigkeit von der Zeit t für einen sinusförmigen Wechselstrom dargestellt (t in s, I(t) in A)."
+    }
+  ]
+}

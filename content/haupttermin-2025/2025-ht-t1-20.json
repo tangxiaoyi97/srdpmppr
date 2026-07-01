@@ -1,0 +1,215 @@
+{
+  "id": "2025-ht-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2025h1]t1-20-an.pdf"
+  },
+  "title": "Tageshöchsttemperaturen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-20-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-20-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-20-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1468a",
+          "baseId": "1_1468",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1038/1_1468_srdp_ma_Tagesh%C3%B6chsttemperaturen_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Rechteckhöhen: "
+            },
+            {
+              "t": "math",
+              "v": "[15;25)\\to 0{,}03"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "[25;30)\\to 0{,}08"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "[30;35)\\to 0{,}06"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-20-sol.png",
+              "alt": "Lösung: Histogramm mit Rechteckhöhen 0,03 / 0,08 / 0,06 für die drei Klassen."
+            }
+          ],
+          "note": "Ein Punkt für das Ergänzen der richtigen Rechtecke."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie im nachstehenden Histogramm die fehlenden Rechtecke so, dass die Daten der obigen Tabelle richtig dargestellt sind."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-20-q.png",
+          "alt": "Leeres Histogramm-Koordinatensystem, vertikale Achse 0 bis 0,09, horizontale Achse T in °C von 0 bzw. 15 bis 35."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Einzuzeichnen sind die Rechtecke, deren Flächeninhalte den relativen Häufigkeiten entsprechen: Klasse "
+          },
+          {
+            "t": "math",
+            "v": "[15;25)"
+          },
+          {
+            "t": "text",
+            "v": " mit Höhe "
+          },
+          {
+            "t": "math",
+            "v": "0{,}03"
+          },
+          {
+            "t": "text",
+            "v": " (Breite 10, "
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{9}{30}=0{,}3"
+          },
+          {
+            "t": "text",
+            "v": "), Klasse "
+          },
+          {
+            "t": "math",
+            "v": "[25;30)"
+          },
+          {
+            "t": "text",
+            "v": " mit Höhe "
+          },
+          {
+            "t": "math",
+            "v": "0{,}08"
+          },
+          {
+            "t": "text",
+            "v": " (Breite 5, "
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{12}{30}=0{,}4"
+          },
+          {
+            "t": "text",
+            "v": ") und Klasse "
+          },
+          {
+            "t": "math",
+            "v": "[30;35)"
+          },
+          {
+            "t": "text",
+            "v": " mit Höhe "
+          },
+          {
+            "t": "math",
+            "v": "0{,}06"
+          },
+          {
+            "t": "text",
+            "v": " (Breite 5, "
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{9}{30}=0{,}3"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1468",
+      "baseId": "1_1468",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1038/1_1468_srdp_ma_Tagesh%C3%B6chsttemperaturen_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem bestimmten Ort wurde an 30 aufeinanderfolgenden Tagen jeweils die Tageshöchsttemperatur gemessen. In der nachstehenden Tabelle sind die Ergebnisse dieser Messungen zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-20-tab.png",
+      "alt": "Tabelle: Tageshöchsttemperatur T in °C | Anzahl der Tage. 15 ≤ T < 25 → 9; 25 ≤ T < 30 → 12; 30 ≤ T < 35 → 9."
+    },
+    {
+      "t": "text",
+      "v": "Der Flächeninhalt eines Rechtecks im unten stehenden Histogramm entspricht der relativen Häufigkeit der Tageshöchsttemperaturen in der jeweiligen Klasse."
+    }
+  ]
+}

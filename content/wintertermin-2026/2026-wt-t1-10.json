@@ -1,0 +1,165 @@
+{
+  "id": "2026-wt-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2026w1]t1-10-fa.pdf"
+  },
+  "title": "Weintank",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-10-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1576a",
+          "baseId": "1_1576",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1089/1_1576_srdp_ma_Weintank_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① eine indirekte;  ② "
+            },
+            {
+              "t": "math",
+              "v": "D(v)=\\dfrac{2\\,000}{v}"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Funktion D beschreibt ① Proportionalität und es gilt: ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "eine direkte"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "keine"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "eine indirekte"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "D(v)=\\dfrac{2\\,000}{v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "D(v)=\\dfrac{1}{2\\,000+v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "D(v)=2\\,000\\cdot v"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1576",
+      "baseId": "1_1576",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1089/1_1576_srdp_ma_Weintank_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmter Weintank wird ausgepumpt.\n\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "D:\\mathbb{R}^{+}\\to\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " ordnet der konstanten Auspumprate v die Dauer D(v), die für das vollständige Auspumpen dieses Weintanks benötigt wird, zu (v in L/h, D(v) in h).\n\nBei der Auspumprate v = 200 L/h werden 10 h für das vollständige Auspumpen dieses Weintanks benötigt."
+    }
+  ]
+}

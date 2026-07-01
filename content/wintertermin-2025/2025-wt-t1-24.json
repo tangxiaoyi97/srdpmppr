@@ -1,0 +1,107 @@
+{
+  "id": "2025-wt-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2025w1]t1-24-ws.pdf"
+  },
+  "title": "Medikament",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-24-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1448a",
+          "baseId": "1_1448",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1010/1_1448_srdp_ma_Medikament_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei höchstens 8 dieser 10 Personen treten Nebenwirkungen auf.\noder:\nBei mindestens 2 dieser 10 Personen treten keine Nebenwirkungen auf."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Beschreiben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beschreiben Sie ein Ereignis E im gegebenen Sachzusammenhang, für dessen Wahrscheinlichkeit gilt:"
+        },
+        {
+          "t": "math",
+          "v": "P(E)=1-\\left(0{,}25\\cdot 0{,}75^{9}\\cdot 10+0{,}75^{10}\\right)"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "E: „Bei höchstens 8 dieser 10 Personen treten Nebenwirkungen auf.“ (gleichwertig: „Bei mindestens 2 dieser 10 Personen treten keine Nebenwirkungen auf.“)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Beschreiben.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1448",
+      "baseId": "1_1448",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1010/1_1448_srdp_ma_Medikament_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Erfahrungsgemäß treten bei 75 % aller Personen, die ein bestimmtes Medikament eingenommen haben, Nebenwirkungen auf.\n\n10 Personen, die dieses Medikament eingenommen haben, werden nach dem Zufallsprinzip ausgewählt."
+    }
+  ]
+}

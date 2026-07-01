@@ -1,0 +1,230 @@
+{
+  "id": "2024-het-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2024h2]t1-4-ag.pdf"
+  },
+  "title": "Vektoren in ℝ3",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-04-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "(\\vec{a}+\\vec{b})\\cdot\\vec{n}=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "a_1\\cdot n_1+a_2\\cdot n_2+a_3\\cdot n_3=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\vec{a}\\cdot\\vec{b}=\\vec{b}\\cdot\\vec{n}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(\\vec{a}+\\vec{b})\\cdot\\vec{n}=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a_1\\cdot n_1+a_2\\cdot n_2+a_3\\cdot n_3=0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine Zahl "
+            },
+            {
+              "t": "math",
+              "v": "k\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " so, dass gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}+\\vec{b}=k\\cdot\\vec{n}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine Zahl "
+            },
+            {
+              "t": "math",
+              "v": "k\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " so, dass gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{a}=k\\cdot\\vec{b}"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die drei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}=\\begin{pmatrix} a_1 \\\\ a_2 \\\\ a_3 \\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}=\\begin{pmatrix} b_1 \\\\ b_2 \\\\ b_3 \\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{n}=\\begin{pmatrix} n_1 \\\\ n_2 \\\\ n_3 \\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}^3"
+    },
+    {
+      "t": "text",
+      "v": ", die sich vom Nullvektor unterscheiden.\n\nEs gilt:\nDer Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{n}"
+    },
+    {
+      "t": "text",
+      "v": " steht sowohl auf den Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}"
+    },
+    {
+      "t": "text",
+      "v": " als auch auf den Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}"
+    },
+    {
+      "t": "text",
+      "v": " normal.\nDie Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}"
+    },
+    {
+      "t": "text",
+      "v": " stehen nicht aufeinander normal.\nDie Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}"
+    },
+    {
+      "t": "text",
+      "v": " sind nicht zueinander parallel."
+    }
+  ]
+}

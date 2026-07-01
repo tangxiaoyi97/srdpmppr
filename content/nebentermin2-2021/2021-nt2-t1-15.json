@@ -1,0 +1,140 @@
+{
+  "id": "2021-nt2-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2021n2]t1-15-an.pdf"
+  },
+  "title": "Wachstum einer Sonnenblume",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-15-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① ist annähernd konstant;  ② "
+            },
+            {
+              "t": "math",
+              "v": "H_{t+1}=H_t+k\\ \\text{mit}\\ k\\in\\mathbb{R}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist. Ist nur für eine der beiden Lücken der richtige Satzteil angekreuzt, ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie absolute wöchentliche Zunahme der Höhe der Sonnenblume ist ①; die Höhe der Sonnenblume Hₜ kann daher näherungsweise durch eine Differenzengleichung der Form ② beschrieben werden."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "immer geringer als jene in der jeweils vorangegangenen Woche"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "immer größer als jene in der jeweils vorangegangenen Woche"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "annähernd konstant"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "H_{t+1}=H_t\\cdot(1+k)\\ \\text{mit}\\ k\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "H_{t+1}=H_t+k\\ \\text{mit}\\ k\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "H_{t+1}=H_t+r\\cdot(k-H_t)\\ \\text{mit}\\ k,r\\in\\mathbb{R}\\ \\text{und}\\ 0<r<1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Höhe einer bestimmten Sonnenblume wurde über einige Wochen jeweils zu Wochenbeginn gemessen.\n\nZum Messbeginn t = 0 hatte die Sonnenblume die Höhe H₀ = 5 cm.\nFür jeden Zeitpunkt t (mit 0 ≤ t ≤ 5) gibt Hₜ die Höhe der Sonnenblume an.\n\nDie nachstehende Tabelle zeigt die (gerundeten) Messergebnisse für die Höhe der Sonnenblume für die ersten 5 Wochen.\n\nZeit t (in Wochen nach Messbeginn) | Höhe der Sonnenblume Hₜ (in cm)\n1 | 36\n2 | 68\n3 | 98\n4 | 128\n5 | 159"
+    }
+  ]
+}

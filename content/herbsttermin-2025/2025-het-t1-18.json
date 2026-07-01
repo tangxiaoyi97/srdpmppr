@@ -1,0 +1,153 @@
+{
+  "id": "2025-het-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2025h2]t1-18-an.pdf"
+  },
+  "title": "Bestimmtes Integral",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-18-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1560a",
+          "baseId": "1_1560",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1067/1_1560_srdp_ma_Bestimmtes%20Integral_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\text{Für } b=x_{3} \\text{ ist } I=0."
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\text{Für } b>x_{3} \\text{ ist } I>0."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für } b<x_{1} \\text{ ist } I<0."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für } b=0 \\text{ ist } I=0."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für } b=x_{2} \\text{ ist } I<0."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für } b=x_{3} \\text{ ist } I=0."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\text{Für } b>x_{3} \\text{ ist } I>0."
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1560",
+      "baseId": "1_1560",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1067/1_1560_srdp_ma_Bestimmtes%20Integral_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die Graphen der Polynomfunktion 3. Grades f und der linearen Funktion g dargestellt.\n\nDie Graphen von f und g sind symmetrisch zum Koordinatenursprung und schneiden einander in den Punkten (a | f(a)), (0 | 0) und (x₃ | f(x₃))."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-18-q.png",
+      "alt": "Koordinatensystem mit dem Graphen einer Polynomfunktion 3. Grades f und einer Geraden g, symmetrisch zum Ursprung; Schnittpunkte bei x = a, x = 0 und x = x₃; weiters sind die Stellen x₁ und x₂ markiert."
+    },
+    {
+      "t": "text",
+      "v": "Es gilt: "
+    },
+    {
+      "t": "math",
+      "v": "I=\\int_{a}^{b}\\left(f(x)-g(x)\\right)\\,dx\\quad\\text{für } b>a"
+    }
+  ]
+}

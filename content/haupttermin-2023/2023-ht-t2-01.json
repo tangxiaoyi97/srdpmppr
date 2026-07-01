@@ -1,0 +1,391 @@
+{
+  "id": "2023-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2023h1]t2-1.pdf"
+  },
+  "title": "Schwimmbecken",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t2-01-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_125a",
+          "baseId": "2_125",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/831/2_125_srdp_ma_Schwimmbecken_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Volumen eines bestimmten quaderförmigen Schwimmbeckens kann mithilfe der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "V=a^2\\cdot h"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden (a … Seitenlänge der quadratischen Grundfläche, h … Tiefe). Betrachtet werden die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "V:\\mathbb{R}^+\\to\\mathbb{R}^+,\\ a\\mapsto V(a)"
+        },
+        {
+          "t": "text",
+          "v": " bei konstantem h und die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h:\\mathbb{R}^+\\to\\mathbb{R}^+,\\ V\\mapsto h(V)"
+        },
+        {
+          "t": "text",
+          "v": " bei konstantem a. Ergänzen Sie die Textlücken durch Ankreuzen des jeweils zutreffenden Satzteils: „Die Funktion V ist eine ①, die Funktion h ist eine ②.“"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "V(a)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "② "
+            },
+            {
+              "t": "math",
+              "v": "h(V)"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "quadratische Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Quadratwurzelfunktion"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "V ist eine quadratische Funktion (V = a²·h ~ a²); h ist eine lineare Funktion (h = V/a²)."
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_125b",
+          "baseId": "2_125",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/831/2_125_srdp_ma_Schwimmbecken_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zum Füllen eines anderen Schwimmbeckens werden p Pumpen verwendet, die pro Stunde jeweils die gleiche Wassermenge pumpen. Für p = 2 beträgt die Fülldauer 19 h. Stellen Sie unter Verwendung der Anzahl p der Pumpen eine Formel zur Berechnung der Fülldauer T (in h) auf."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "38/p",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T=\\dfrac{38}{p}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_125b",
+          "baseId": "2_125",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/831/2_125_srdp_ma_Schwimmbecken_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Wassermenge in diesem Schwimmbecken nimmt durch Verdunstung und betriebsbedingte Ursachen ab. Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "W:[0;10]\\to\\mathbb{R},\\ W(t)=-\\tfrac{1}{96}t^3+\\tfrac{1}{4}t^2-\\tfrac{35}{24}t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die momentane Änderungsrate der Wassermenge (t in h, W(t) in m³/h). Ermitteln Sie die Abnahme der Wassermenge (in m³) im Zeitintervall [0; 6]."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "abnahme",
+            "label": "Abnahme der Wassermenge",
+            "value": 11.625,
+            "tol": 0.01,
+            "unit": "m³"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\left|\\int_0^6 W(t)\\,dt\\right|=11{,}625"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Abnahme der Wassermenge im Zeitintervall [0; 6] beträgt 11,625 m³."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der Abnahme der Wassermenge, wobei −11,625 m³ ebenso als richtig zu werten ist."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-01-c",
+      "label": "c",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_125c",
+          "baseId": "2_125",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/831/2_125_srdp_ma_Schwimmbecken_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung ist das seitliche Profil einer bestimmten Wasserrutsche modellhaft dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-01-c.png",
+          "alt": "Seitliches Profil der Wasserrutsche: Graph von f auf [0; 5]"
+        },
+        {
+          "t": "text",
+          "v": "Das seitliche Profil einer bestimmten Wasserrutsche ist durch den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f:[0;5]\\to\\mathbb{R},\\ f(x)=\\tfrac{8}{125}x^3-\\tfrac{12}{25}x^2+4"
+        },
+        {
+          "t": "text",
+          "v": " gegeben (x in m, f(x) in m). Ermitteln Sie die Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_1"
+        },
+        {
+          "t": "text",
+          "v": ", an der die Wasserrutsche am steilsten bergab verläuft."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x1",
+            "label": "x₁",
+            "value": 2.5,
+            "tol": 0.01,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f''(x)=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_1=2{,}5"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der Stelle x₁."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_125",
+      "baseId": "2_125",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/831/2_125_srdp_ma_Schwimmbecken_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Freibad gibt es verschiedene Schwimmbecken."
+    }
+  ]
+}

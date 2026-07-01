@@ -1,0 +1,131 @@
+{
+  "id": "2025-wt-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2025w1]t1-6-ag.pdf"
+  },
+  "title": "Hochstein",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-06-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1430a",
+          "baseId": "1_1430",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/992/1_1430_srdp_ma_Hochstein_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "α ... Steigungswinkel der Skipiste\n"
+            },
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=\\dfrac{FH}{4\\,000}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=\\arcsin\\!\\left(\\dfrac{2\\,023-673}{4\\,000}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=19{,}72\\ldots^\\circ"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Steigungswinkel beträgt rund 19,7°."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Steigungswinkels."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie denjenigen Steigungswinkel der Skipiste, der sich aus diesem Modell ergibt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "alpha",
+            "label": "α",
+            "value": 19.7,
+            "tol": 0.1,
+            "unit": "°"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1430",
+      "baseId": "1_1430",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/992/1_1430_srdp_ma_Hochstein_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Skipiste am Hochstein in Lienz führt von der Talstation T des Hochsteinlifts (Meereshöhe 673 m) bis zur Hochsteinhütte H (Meereshöhe 2 023 m).\n\nDie 4 000 m lange, geradlinige Skipiste ist in der nachstehenden (nicht maßstabgetreuen) Abbildung modellhaft als Strecke dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-06-q.png",
+      "alt": "Nicht maßstabgetreue Abbildung: rechtwinkeliges Steigungsdreieck mit Talstation T, Hochsteinhütte H und Hilfspunkt F; die geradlinige Skipiste TH als Hypotenuse."
+    }
+  ]
+}

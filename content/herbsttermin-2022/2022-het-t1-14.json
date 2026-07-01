@@ -1,0 +1,141 @@
+{
+  "id": "2022-het-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2022h2]t1-14-fa.pdf"
+  },
+  "title": "Rückgang einer Population",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-14-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-14-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-14-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1233a",
+          "baseId": "1_1233",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/763/Rueckgang%20einer%20Population.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Anzahl der Individuen ist im Beobachtungszeitraum pro Woche um durchschnittlich 35 gesunken.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Aussage an, die die Beziehung "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{f(100)-f(0)}{100}=-35"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang auf jeden Fall richtig beschreibt."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Individuen ist im Beobachtungszeitraum pro Woche um 35 gesunken."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zu Beginn des Beobachtungszeitraums waren um 35 % mehr Individuen als am Ende dieses Zeitraums vorhanden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Individuen ist im Beobachtungszeitraum pro Woche um durchschnittlich 35 gesunken."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Individuen ist im Beobachtungszeitraum auf 35 % des Anfangsbestands gesunken."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Individuen ist im Beobachtungszeitraum pro Woche um 35 % gesunken."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Individuen ist im Beobachtungszeitraum um insgesamt 35 gesunken."
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1233",
+      "baseId": "1_1233",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/763/Rueckgang%20einer%20Population.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Anzahl f(t) der Individuen einer Population wird während eines Beobachtungszeitraums von 100 Wochen durch eine Funktion f modelliert. Die Zeit t wird dabei in Wochen angegeben."
+    }
+  ]
+}

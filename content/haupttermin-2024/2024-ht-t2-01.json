@@ -1,0 +1,336 @@
+{
+  "id": "2024-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2024h1]t2-1.pdf"
+  },
+  "title": "Bogenschießen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_137a",
+          "baseId": "2_137",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/916/2_137_srdp_ma_Bogenschie%C3%9Fen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Paul schießt einen Pfeil auf eine Figur. Die Flugbahn der Pfeilspitze vom Start im Punkt S zum Ziel im Punkt Z kann durch die Gerade g modelliert werden.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "S=(0\\mid 0\\mid 1{,}8),\\ Z=(-5\\mid 7\\mid 8{,}5)"
+        },
+        {
+          "t": "text",
+          "v": "\n\nStellen Sie eine Gleichung von g in Parameterdarstellung auf."
+        },
+        {
+          "t": "math",
+          "v": "g\\!:\\ X="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "g\\!:\\ X=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1{,}8 \\end{pmatrix}+t\\cdot\\begin{pmatrix} -5 \\\\ 7 \\\\ 6{,}7 \\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": ". Die Angabe von „"
+          },
+          {
+            "t": "math",
+            "v": "t\\in\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": "“ ist für die Punktevergabe nicht erforderlich. Auch jede dazu äquivalente Parameterdarstellung ist richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für das richtige Aufstellen der Gleichung von g.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g\\!:\\ X=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1{,}8 \\end{pmatrix}+t\\cdot\\begin{pmatrix} -5 \\\\ 7 \\\\ 6{,}7 \\end{pmatrix}\\ \\text{mit}\\ t\\in\\mathbb{R}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Gleichung von g. Die Angabe von „t ∈ ℝ“ ist für die Punktevergabe nicht erforderlich."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_137b",
+          "baseId": "2_137",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/916/2_137_srdp_ma_Bogenschie%C3%9Fen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lara sieht eine bestimmte Figur unter dem Sehwinkel α. In der nachstehenden nicht maßstabgetreuen Abbildung ist der Zusammenhang zwischen dem Sehwinkel α, der Entfernung r und der Größe h dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-01-b.png",
+          "alt": "Nicht maßstabgetreue Abbildung: vom Auge ausgehender Sehwinkel α (halbiert in α/2), Entfernung r zur Figur, Größe h der Figur (rechtwinkeliges Dreieck)."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung von α und r eine Formel zur Berechnung von h auf."
+        },
+        {
+          "t": "math",
+          "v": "h="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2*r*tan(alpha/2)",
+        "vars": [
+          "r",
+          "alpha"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h=2\\cdot r\\cdot\\tan\\!\\left(\\tfrac{\\alpha}{2}\\right)"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Formel zur Berechnung von h."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_137c",
+          "baseId": "2_137",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/916/2_137_srdp_ma_Bogenschie%C3%9Fen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Paul schießt beim Training auf die 3 Ziele A, B und C. Er trifft diese bei jedem Schuss unabhängig von jedem anderen Schuss mit den in der nachstehenden Tabelle angeführten Wahrscheinlichkeiten."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-01-c-tab.png",
+          "alt": "Tabelle: Ziel | Wahrscheinlichkeit — A: 2/5, B: 7/10, C: 1/4."
+        },
+        {
+          "t": "text",
+          "v": "Paul schießt nacheinander jeweils 1-mal auf die 3 Ziele A, B und C.\n\nBerechnen Sie die Wahrscheinlichkeit, dass Paul mindestens 1 dieser 3 Ziele trifft."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "P",
+            "value": 0.865,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "P(„Paul trifft mindestens 1 dieser 3 Ziele“) = "
+            },
+            {
+              "t": "math",
+              "v": "1-\\tfrac{3}{5}\\cdot\\tfrac{3}{10}\\cdot\\tfrac{3}{4}=0{,}865"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass Paul mindestens 1 dieser 3 Ziele trifft, beträgt 86,5 %."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_137c",
+          "baseId": "2_137",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/916/2_137_srdp_ma_Bogenschie%C3%9Fen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Paul schießt 10-mal auf das Ziel A. Die binomialverteilte Zufallsvariable X gibt dabei die Anzahl der Treffer an.\n\nErmitteln Sie den Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "E(X)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EX",
+            "label": "E(X)",
+            "value": 4,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=10\\cdot\\tfrac{2}{5}=4"
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Ermitteln von E(X)."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_137",
+      "baseId": "2_137",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/916/2_137_srdp_ma_Bogenschie%C3%9Fen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf dem Gelände einer bestimmten 3-D-Bogenschießanlage wird mit Pfeil und Bogen auf Figuren geschossen."
+    }
+  ]
+}

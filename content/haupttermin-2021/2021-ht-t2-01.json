@@ -1,0 +1,456 @@
+{
+  "id": "2021-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2021h1]t2-1.pdf"
+  },
+  "title": "Koffein",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_101a",
+          "baseId": "2_101",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/647/Koffein.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lea trinkt eine Tasse Kaffee. In der nachstehenden Abbildung ist der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt, die modellhaft die Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " von Koffein in Leas Blut in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " nach dem Trinken des Kaffees beschreibt ("
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in h, "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " in mg/L)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-01-a-q.png",
+          "alt": "Koordinatensystem mit K(t) in mg/L (0 bis 5) über t in h (0 bis 3); der Graph K steigt zunächst an, erreicht bei rund t = 0,6 h ein Maximum von etwa 4 mg/L und fällt danach ab."
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe der obigen Abbildung, wie viele Minuten nach dem Trinken des Kaffees die maximale Konzentration von Koffein im Blut auftritt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "min",
+            "value": 36,
+            "tol": 3,
+            "unit": "min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "36 min"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln des Wertes.\nToleranzintervall: [33 min; 39 min]"
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_101a",
+          "baseId": "2_101",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/647/Koffein.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " hat im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "(0;\\,0{,}8)"
+        },
+        {
+          "t": "text",
+          "v": " ① und in diesem Intervall ändert sich das Vorzeichen der ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "eine Wendestelle"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "eine Extremstelle"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "eine Nullstelle"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Krümmung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Steigung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Funktionswerte"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① eine Extremstelle;  ② Steigung"
+            }
+          ],
+          "note": "a2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_101b",
+          "baseId": "2_101",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/647/Koffein.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Löslichkeit von Koffein in Wasser gibt an, wie viel Gramm Koffein pro Liter (g/L) maximal gelöst werden können. Die Löslichkeit ist temperaturabhängig. Sie lässt sich näherungsweise durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " beschreiben."
+        },
+        {
+          "t": "math",
+          "v": "f(T)=6{,}42\\cdot e^{0{,}05\\cdot T}\\ \\text{mit}\\ 0\\le T\\le 90"
+        },
+        {
+          "t": "text",
+          "v": "T … Temperatur in °C\n"
+        },
+        {
+          "t": "math",
+          "v": "f(T)"
+        },
+        {
+          "t": "text",
+          "v": " … Löslichkeit von Koffein in Wasser bei der Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " in g/L\n\nJemand behauptet:\n„Bei einem Anstieg der Temperatur um 10 °C nimmt die Löslichkeit von Koffein in Wasser etwa auf das 1,65-Fache zu.“\n\nÜberprüfen Sie rechnerisch, ob diese Behauptung richtig ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}5}=f(T)\\cdot 1{,}648\\ldots"
+          },
+          {
+            "t": "text",
+            "v": " Da der Faktor "
+          },
+          {
+            "t": "math",
+            "v": "e^{0{,}5}=1{,}648\\ldots\\approx 1{,}65"
+          },
+          {
+            "t": "text",
+            "v": " beträgt, ist die Behauptung richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}05\\cdot 10}=f(T)\\cdot 1{,}648\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "  ⇒ Die Behauptung ist richtig."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige rechnerische Überprüfen. Auch ein Nachweis mit konkreten Zahlen ist als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_101b",
+          "baseId": "2_101",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/647/Koffein.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Folgende Gleichung wird aufgestellt:"
+        },
+        {
+          "t": "math",
+          "v": "2\\cdot 6{,}42=6{,}42\\cdot e^{0{,}05\\cdot T}"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Lösung dieser Gleichung im gegebenen Sachzusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Lösung der Gleichung ist diejenige Temperatur, bei der die Löslichkeit von Koffein in Wasser doppelt so hoch ist wie bei einer Temperatur von 0 °C (bzw. die Temperaturerhöhung, bei der sich die Löslichkeit verdoppelt – „Verdoppelungstemperatur“)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Lösung der Gleichung ist die Temperaturerhöhung, bei der sich die Löslichkeit von Koffein in Wasser jeweils verdoppelt („Verdoppelungstemperatur“). Oder: Die Lösung der Gleichung ist diejenige Temperatur, bei der die Löslichkeit von Koffein in Wasser doppelt so hoch ist wie bei einer Temperatur von 0 °C."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_101",
+      "baseId": "2_101",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/647/Koffein.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Koffein"
+    }
+  ]
+}

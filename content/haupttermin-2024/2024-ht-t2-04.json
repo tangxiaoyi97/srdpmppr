@@ -1,0 +1,410 @@
+{
+  "id": "2024-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2024h1]t2-4.pdf"
+  },
+  "title": "Belastungstests",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_140a",
+          "baseId": "2_140",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/919/2_140_srdp_ma_Belastungstests_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Katharina unterzieht sich einem Belastungstest. Die Belastung wird bei diesem Test schrittweise erhöht, bis Katharina den Test nach 43 min abbricht.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P\\!:[0;43]\\to\\mathbb{R}^{+},\\ t\\mapsto P(t)"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die von Katharina erbrachte Leistung in Abhängigkeit von der Zeit t ab Beginn des Belastungstests (t in min, P(t) in Watt). Der Graph von P ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-04-a.png",
+          "alt": "Graph der Leistung P(t) in Watt über der Zeit t in min (0 bis 43)."
+        },
+        {
+          "t": "text",
+          "v": "Für die im Zeitintervall [tA; tB] (in min) verrichtete Arbeit W (in Joule) gilt:"
+        },
+        {
+          "t": "math",
+          "v": "W=60\\cdot\\displaystyle\\int_{t_A}^{t_B} P(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die von Katharina im Zeitintervall [30; 43] verrichtete Arbeit in Joule."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "W",
+            "label": "W",
+            "value": 260400,
+            "tol": 5000,
+            "unit": "J"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "60\\cdot\\big[3\\cdot(300+320+340+360)+380\\big]=260\\,400"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die von Katharina im Zeitintervall [30; 43] verrichtete Arbeit beträgt 260 400 J."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der verrichteten Arbeit."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 2.3",
+          "description": "die Wirkung der Parameter k und d kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_140a",
+          "baseId": "2_140",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/919/2_140_srdp_ma_Belastungstests_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Rahmen dieses Belastungstests wird die Laktatkonzentration in Katharinas Blut gemessen.\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "c_1\\!:[0;43]\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c_1(t)=1{,}13+4\\cdot 10^{-8}\\cdot t^{5}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die Laktatkonzentration in Abhängigkeit von der Zeit t ab Beginn des Belastungstests (t in min, c₁(t) in mmol/L).\n\nErmitteln Sie diejenige Leistung (in Watt) während dieses Belastungstests, bei der eine Laktatkonzentration von 1,95 mmol/L erreicht wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "label": "Leistung",
+            "value": 280,
+            "tol": 5,
+            "unit": "Watt"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "c_1(t)=1{,}95"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t=28{,}9\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "P(28{,}9\\ldots)=280"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Leistung bei einer Laktatkonzentration von 1,95 mmol/L beträgt 280 Watt."
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln der Leistung."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-04-a3",
+      "label": "a3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.3",
+          "description": "die Wirkung der Parameter k und d kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_140a",
+          "baseId": "2_140",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/919/2_140_srdp_ma_Belastungstests_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei diesem Belastungstest wird auch Katharinas Herzfrequenz gemessen.\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "H\\!:[0;43]\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "H(t)=2\\cdot t+85"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die Herzfrequenz in Abhängigkeit von der Zeit t ab Beginn des Belastungstests (t in min, H(t) in Schlägen/min).\n\nBeschreiben Sie die Bedeutung der Zahlen 2 und 85 im gegebenen Sachzusammenhang. Geben Sie dabei jeweils die zugehörigen Einheiten an.\n\nBedeutung der Zahl 2:\n\nBedeutung der Zahl 85:"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bedeutung der Zahl 2: Die Herzfrequenz nimmt pro Minute um 2 Schläge/min zu. Bedeutung der Zahl 85: Die Herzfrequenz zu Beginn des Belastungstests beträgt 85 Schläge/min. (Das Angeben der Zahlen 2 und 85 ist für die Punktevergabe nicht erforderlich.)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a3) Ein halber Punkt für das richtige Beschreiben der Bedeutung der Zahl 2 unter Angabe der zugehörigen Einheit.",
+            "points": 0.5
+          },
+          {
+            "desc": "a3) Ein halber Punkt für das richtige Beschreiben der Bedeutung der Zahl 85 unter Angabe der zugehörigen Einheit.",
+            "points": 0.5
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bedeutung der Zahl 2: Die Herzfrequenz nimmt pro Minute um 2 Schläge/min zu.\nBedeutung der Zahl 85: Die Herzfrequenz zu Beginn des Belastungstests beträgt 85 Schläge/min."
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Beschreiben der Bedeutung der beiden Zahlen, ein halber Punkt für das richtige Beschreiben der Bedeutung von nur einer Zahl, jeweils unter Angabe der zugehörigen Einheiten. Das Angeben der Zahlen 2 und 85 ist für die Punktevergabe nicht erforderlich."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_140b",
+          "baseId": "2_140",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/919/2_140_srdp_ma_Belastungstests_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Katharina unterzieht sich einem anderen Belastungstest. Dabei wird die Laktatkonzentration in ihrem Blut zu Beginn, während und nach einer intensiven Belastung gemessen.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "c_2\\!:[0;30]\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c_2(t)=31{,}2\\cdot\\left(e^{-0{,}066\\cdot t}-e^{-0{,}325\\cdot t}\\right)+1{,}13"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die Laktatkonzentration in Abhängigkeit von der Zeit t ab Beginn des Belastungstests (t in min, c₂(t) in mmol/L).\n\nZum Zeitpunkt t₁ ist die Laktatkonzentration wieder auf die Hälfte des maximal erreichten Wertes abgesunken.\n\nErmitteln Sie t₁."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t1",
+            "label": "t₁",
+            "value": 21.1,
+            "tol": 0.2,
+            "unit": "min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "tmax ... Zeitpunkt des maximal erreichten Wertes der Laktatkonzentration"
+            },
+            {
+              "t": "math",
+              "v": "c_2'(t_{\\max})=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t_{\\max}=6{,}155\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "c_2(6{,}155\\ldots)=17{,}69\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{17{,}69\\ldots}{2}=c_2(t_1)"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t_1=21{,}1\\ldots\\ \\text{min}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Ermitteln von t₁."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_140",
+      "baseId": "2_140",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/919/2_140_srdp_ma_Belastungstests_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Laktat ist ein Stoffwechselprodukt. Bei zunehmender körperlicher Belastung wird mehr Laktat im Körper produziert.\nBei Belastungstests werden unter anderem die Herzfrequenz und die Laktatkonzentration im Blut (in mmol/L) gemessen."
+    }
+  ]
+}

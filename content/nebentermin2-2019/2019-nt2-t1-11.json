@@ -1,0 +1,106 @@
+{
+  "id": "2019-nt2-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2019n2]t1-11-fa.pdf"
+  },
+  "title": "Dicke einer Bleiplatte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_672a",
+          "baseId": "1_672",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/401/Dicke%20einer%20Bleiplatte.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "0{,}1=0{,}95^{x}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x\\approx 44{,}9 \\ \\text{mm}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „mm“ nicht angeführt sein muss. Toleranzintervall: [40 mm; 46 mm]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die notwendige Dicke x (in mm) einer Bleiplatte, wenn die Strahlungsintensität auf 10 % der ursprünglichen Strahlungsintensität, mit der die Strahlen auf die Bleiplatte auftreffen, gesenkt werden soll!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x",
+            "value": 43,
+            "tol": 3,
+            "unit": "mm"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_672",
+      "baseId": "1_672",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/401/Dicke%20einer%20Bleiplatte.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der Medizintechnik werden Röntgenstrahlen eingesetzt. Durch den Einbau von Bleiplatten in Schutzwänden sollen Personen vor diesen Strahlen geschützt werden. Man geht davon aus, dass pro 1 mm Dicke der Bleiplatte die Strahlungsintensität um 5 % abnimmt."
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "id": "2023-wt-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2023w1]t2-1.pdf"
+  },
+  "title": "Sonnenblumen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_121a",
+          "baseId": "2_121",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/803/2_121_srdp_ma_Sonnenblumen_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Höhe einer bestimmten Sonnenblume lässt sich in Abhängigkeit von der Zeit t näherungsweise durch die zwei quadratischen Funktionen f und g beschreiben. Die Graphen dieser beiden Funktionen gehen im Punkt P mit gleicher Steigung ineinander über. (Siehe unten stehende Abbildung.)"
+        },
+        {
+          "t": "math",
+          "v": "f(t) = \\tfrac{1}{15} \\cdot t^{2} + 0{,}2 \\cdot t + 5 \\quad \\text{mit } 0 \\le t \\le 21"
+        },
+        {
+          "t": "math",
+          "v": "g(t) = a \\cdot t^{2} + b \\cdot t + c \\quad \\text{mit } 21 \\le t \\le 42"
+        },
+        {
+          "t": "text",
+          "v": "t ∈ [0; 42] ... Zeit ab dem Beobachtungsbeginn in Tagen\nf(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm\ng(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-01-a-q.png",
+          "alt": "Graph von f(t), g(t) in cm über t in Tagen (0 bis 42): f steigt von der senkrechten Achse bis zum Punkt P bei t = 21 (Höhe 38,6), g setzt mit gleicher Steigung fort bis 72,2 bei t = 42. Am linken Achsenende ist ein Kästchen für den fehlenden Achsenbeschriftungswert vorgesehen."
+        },
+        {
+          "t": "text",
+          "v": "Tragen Sie in der obigen Abbildung den fehlenden Wert der Achsenbeschriftung in das dafür vorgesehene Kästchen ein."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der fehlende Wert der Achsenbeschriftung ist 5 (es gilt f(0) = 5)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-01-a1-sol.png",
+              "alt": "Lösung: in der Abbildung ist der fehlende Achsenbeschriftungswert 5 eingetragen."
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der fehlende Wert der Achsenbeschriftung ist 5."
+            }
+          ],
+          "note": "a1) Ein Punkt für das Eintragen des richtigen Wertes."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_121a",
+          "baseId": "2_121",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/803/2_121_srdp_ma_Sonnenblumen_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erstellen Sie ein Gleichungssystem zur Berechnung der Koeffizienten a, b und c der Funktion g."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Gleichungssystem mit drei Gleichungen, z. B. I: g(21) = 38,6; II: g(42) = 72,2; III: f′(21) = g′(21). Ausführlich: 21²·a + 21·b + c = 38,6; 42²·a + 42·b + c = 72,2; 42·a + b = 3 (mit f′(t) = 2/15·t + 0,2 und g′(t) = 2·a·t + b)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 3,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f'(t) = \\tfrac{2}{15} \\cdot t + 0{,}2"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "g'(t) = 2 \\cdot a \\cdot t + b"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "I: "
+            },
+            {
+              "t": "math",
+              "v": "g(21) = 38{,}6"
+            },
+            {
+              "t": "text",
+              "v": ";  II: "
+            },
+            {
+              "t": "math",
+              "v": "g(42) = 72{,}2"
+            },
+            {
+              "t": "text",
+              "v": ";  III: "
+            },
+            {
+              "t": "math",
+              "v": "f'(21) = g'(21)"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\nI: "
+            },
+            {
+              "t": "math",
+              "v": "21^{2} \\cdot a + 21 \\cdot b + c = 38{,}6"
+            },
+            {
+              "t": "text",
+              "v": ";  II: "
+            },
+            {
+              "t": "math",
+              "v": "42^{2} \\cdot a + 42 \\cdot b + c = 72{,}2"
+            },
+            {
+              "t": "text",
+              "v": ";  III: "
+            },
+            {
+              "t": "math",
+              "v": "42 \\cdot a + b = 3"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Erstellen des Gleichungssystems mit drei Gleichungen, ein halber Punkt für nur zwei richtige Gleichungen."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-01-a3",
+      "label": "a3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_121a",
+          "baseId": "2_121",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/803/2_121_srdp_ma_Sonnenblumen_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den nachstehenden Term im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.\n\nEs gilt: t₁ = 2 Tage, t₂ = 42 Tage"
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{g(t_2) - f(t_1)}{t_2 - t_1}"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Term beschreibt die mittlere Änderungsrate der Höhe dieser Sonnenblume im Zeitintervall [2; 42] in cm/Tag (bzw. das durchschnittliche Wachstum dieser Sonnenblume im Zeitintervall [2; 42] in cm/Tag)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Term beschreibt die mittlere Änderungsrate der Höhe dieser Sonnenblume im Zeitintervall [2; 42] in cm/Tag.\noder:\nDer Term beschreibt das durchschnittliche Wachstum dieser Sonnenblume im Zeitintervall [2; 42] in cm/Tag."
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_121b",
+          "baseId": "2_121",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/803/2_121_srdp_ma_Sonnenblumen_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Höhe einer anderen Sonnenblume lässt sich in Abhängigkeit von der Zeit t in einem bestimmten Zeitintervall näherungsweise durch die Funktion h beschreiben."
+        },
+        {
+          "t": "math",
+          "v": "h(t) = 6{,}2 \\cdot a^{t}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit ab dem Beobachtungsbeginn in Tagen\nh(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm\n\nZum Zeitpunkt t = 17 beträgt die Höhe dieser Sonnenblume 38,6 cm.\n\nBerechnen Sie a."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 1.1135,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "38{,}6 = 6{,}2 \\cdot a^{17}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "a = \\sqrt[17]{\\tfrac{38{,}6}{6{,}2}} = 1{,}1135\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a = 1{,}1135\\ldots"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen von a."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_121",
+      "baseId": "2_121",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/803/2_121_srdp_ma_Sonnenblumen_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

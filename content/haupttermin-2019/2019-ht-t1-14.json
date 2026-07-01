@@ -1,0 +1,117 @@
+{
+  "id": "2019-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2019h1]t1-14-fa.pdf"
+  },
+  "title": "Kapitalwachstum",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-14-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-14-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-14-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{x_1}{x_0}=\\frac{103\\,000}{100\\,000}=1{,}03"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_{n+1}=x_n\\cdot 1{,}03"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung zur Bestimmung des Kapitals "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}"
+        },
+        {
+          "t": "text",
+          "v": " aus dem Kapital "
+        },
+        {
+          "t": "math",
+          "v": "x_n"
+        },
+        {
+          "t": "text",
+          "v": " auf!"
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "x_n\\cdot 1{,}03",
+        "vars": [
+          "x_n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Kapital von € 100.000 wird mit einem fixen jährlichen Zinssatz angelegt. Die nachstehende Tabelle gibt Auskunft über den Verlauf des Kapitals in den ersten drei Jahren. Dabei beschreibt "
+    },
+    {
+      "t": "math",
+      "v": "x_n"
+    },
+    {
+      "t": "text",
+      "v": " das Kapital nach n Jahren "
+    },
+    {
+      "t": "math",
+      "v": "(n\\in\\mathbb{N})"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-14-q.png",
+      "alt": "Tabelle (n in Jahren | xn in Euro): 0 | 100 000,0; 1 | 103 000,0; 2 | 106 090,0; 3 | 109 272,7."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "2020-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2020h1]t1-8-an.pdf"
+  },
+  "title": "Zug",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-08-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 2.3",
+          "description": "die Wirkung der Parameter k und d kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_765a",
+          "baseId": "1_765",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/549/Zug.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist. Ist nur für eine der beiden Lücken der richtige Satzteil angekreuzt, ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen des jeweils richtigen Satzteils so, dass eine korrekte Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Für den Parameter a gilt ① und für den Parameter b gilt ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_765",
+      "baseId": "1_765",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/549/Zug.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Zug bewegt sich bis zum Zeitpunkt t = 0 mit konstanter Geschwindigkeit vorwärts. Ab dem Zeitpunkt t = 0 erhöht der Zug seine Geschwindigkeit.\n\nDie Funktion v ordnet dem Zeitpunkt t mit 0 ≤ t ≤ 60 die Geschwindigkeit v(t) = a · t + b zu (t in s, v(t) in m/s, a, b ∈ ℝ)."
+    }
+  ]
+}

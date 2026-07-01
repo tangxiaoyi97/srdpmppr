@@ -1,0 +1,131 @@
+{
+  "id": "2021-het-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2021h2]t1-7-fa.pdf"
+  },
+  "title": "Trikots",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-07-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_860a",
+          "baseId": "1_860",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/669/Trikots.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Der Verkaufspreis eines Trikots beträgt € 60.“ und „Wenn das Unternehmen 400 Trikots produziert und verkauft, wird ein Gewinn von € 6.000 erzielt.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Unternehmen produziert und verkauft Trikots.\n\nDie lineare Funktion K beschreibt die Kosten K(x) in Euro in Abhängigkeit von der produzierten Stückzahl x.\nDie lineare Funktion E beschreibt den Erlös E(x) in Euro in Abhängigkeit von der verkauften Stückzahl x.\n\nIn der nachstehenden Abbildung sind der Graph der Funktion K und der Graph der Funktion E dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-07-q.png",
+          "alt": "Graphen der linearen Funktionen K und E (K(x), E(x) in € über x in Stück, 0 bis 500)."
+        },
+        {
+          "t": "text",
+          "v": "Der Schnittpunkt von K und E hat die Koordinaten (200 | 12 000) und es gilt: K(0) = 6 000.\n\nKreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Verkaufspreis eines Trikots beträgt € 60."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Produktion eines Trikots kostet € 25."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn das Unternehmen 400 Trikots produziert und verkauft, wird ein Gewinn von € 6.000 erzielt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei der Produktion fallen keine Fixkosten an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn das Unternehmen weniger als 200 Trikots produziert und verkauft, wird ein Gewinn erzielt."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_860",
+      "baseId": "1_860",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/669/Trikots.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "2026-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2026h1]t1-24-ws.pdf"
+  },
+  "title": "Binomialverteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-24-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1614a",
+          "baseId": "1_1614",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1134/1_1614_Binomialverteilung_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "p<0{,}5"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "P(X>40)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "E(X)=20"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-P(X\\le 17)<0{,}5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p<0{,}5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(9\\le X\\le 27)=1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X>40)=0"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1614",
+      "baseId": "1_1614",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1134/1_1614_Binomialverteilung_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Wahrscheinlichkeitsverteilung der Zufallsvariablen X. Die Zufallsvariable X ist binomialverteilt mit den Parametern n = 40 und p."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-24-q.png",
+      "alt": "Stabdiagramm der Wahrscheinlichkeitsverteilung P(X = k) einer binomialverteilten Zufallsvariablen X mit n = 40; k von 0 bis 40, mit einem Maximum unterhalb von k = 20."
+    }
+  ]
+}

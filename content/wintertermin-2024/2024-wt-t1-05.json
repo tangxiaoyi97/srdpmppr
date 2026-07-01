@@ -1,0 +1,135 @@
+{
+  "id": "2024-wt-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2024w1]t1-5-ag.pdf"
+  },
+  "title": "Paralleler Vektor",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-05-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1320a",
+          "baseId": "1_1320",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/868/1_1320_srdp_ma_Paralleler%20Vektor_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "möglicher Vektor: "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{b}=\\begin{pmatrix}4\\\\-2\\\\6\\end{pmatrix}"
+            }
+          ],
+          "note": "Der Vektor b muss ein Vielfaches des Vektors a sein, der Betrag des Proportionalitätsfaktors muss größer als 1 sein. Jeder Vektor b der Form b = k ∙ (2; –1; 3) mit | k | > 1 ist daher richtig. Ein Punkt für das Angeben der richtigen Komponenten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Komponenten eines möglichen Vektors b an."
+        },
+        {
+          "t": "math",
+          "v": "\\vec{b}=\\begin{pmatrix}\\ \\\\ \\ \\\\ \\ \\end{pmatrix}"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor b muss ein Vielfaches des Vektors a sein, der Betrag des Proportionalitätsfaktors muss größer als 1 sein. Jeder Vektor b der Form "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{b}=k\\cdot\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}\\ \\text{mit}\\ |k|>1"
+          },
+          {
+            "t": "text",
+            "v": " ist daher richtig (z. B. "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{b}=\\begin{pmatrix}4\\\\-2\\\\6\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben der richtigen Komponenten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1320",
+      "baseId": "1_1320",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/868/1_1320_srdp_ma_Paralleler%20Vektor_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Vektor"
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}."
+    },
+    {
+      "t": "text",
+      "v": "Ein Vektor b soll zum Vektor a parallel sein und eine größere Länge als a haben."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "2026-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2026h1]t1-4-ag.pdf"
+  },
+  "title": "Addition von Vektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-04-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1594a",
+          "baseId": "1_1594",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1114/1_1594_Addition%20von%20Vektoren_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-04-sol.png",
+              "alt": "Lösung: Vektor F_S ausgehend vom Punkt M als Summe von F_N und F_G eingezeichnet."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Vektors F_S ausgehend vom Punkt M."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der obigen Abbildung den Vektor der Kraft "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{F}_S"
+        },
+        {
+          "t": "text",
+          "v": " ausgehend vom Punkt M ein."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor der Kraft "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{F}_S"
+          },
+          {
+            "t": "text",
+            "v": " wird ausgehend vom Punkt M als Summe der Vektoren "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{F}_N"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{F}_G"
+          },
+          {
+            "t": "text",
+            "v": " eingezeichnet. Im Hinblick auf die Punktevergabe ist die Beschriftung des Vektors mit "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{F}_S"
+          },
+          {
+            "t": "text",
+            "v": " nicht erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1594",
+      "baseId": "1_1594",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1114/1_1594_Addition%20von%20Vektoren_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt einen Körper mit dem Massenmittelpunkt M, der auf einer schrägen Unterlage liegt. Auf den Körper wirken die Schwerkraft "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{F}_G"
+    },
+    {
+      "t": "text",
+      "v": " und die Normalkraft "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{F}_N"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-04-q.png",
+      "alt": "Ein Körper mit Massenmittelpunkt M liegt auf einer schrägen Unterlage; eingezeichnet sind der Vektor der Normalkraft F_N (von M nach oben senkrecht zur Unterlage) und der Vektor der Schwerkraft F_G (von M senkrecht nach unten)."
+    },
+    {
+      "t": "text",
+      "v": "Die Kraft "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{F}_S"
+    },
+    {
+      "t": "text",
+      "v": " ist die Summe der Schwerkraft und der Normalkraft."
+    }
+  ]
+}

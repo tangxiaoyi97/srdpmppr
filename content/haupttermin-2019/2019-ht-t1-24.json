@@ -1,0 +1,85 @@
+{
+  "id": "2019-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2019h1]t1-24-ws.pdf"
+  },
+  "title": "Konfidenzintervall",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "200\\cdot 0{,}95=190"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die erwartete Anzahl ist 190."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Grundkompetenz: WS 4.1"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die erwartete Anzahl derjenigen Intervalle, die den unbekannten Anteil p enthalten!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 190,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Jemand möchte den unbekannten Anteil p derjenigen Wählerinnen und Wähler ermitteln, die bei einer Wahl für den Kandidaten A stimmen werden, und beauftragt ein Meinungsforschungsinstitut damit, diesen Anteil p zu schätzen. Im Zuge dieser Schätzung werden 200 Stichproben mit jeweils gleichem Umfang ermittelt. Für jede dieser Stichproben wird das entsprechende 95-%-Konfidenzintervall berechnet."
+    }
+  ]
+}

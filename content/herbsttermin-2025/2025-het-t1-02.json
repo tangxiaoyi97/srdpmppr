@@ -1,0 +1,133 @@
+{
+  "id": "2025-het-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2025h2]t1-2-ag.pdf"
+  },
+  "title": "Preisreduktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-2-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-2-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-02-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1544a",
+          "baseId": "1_1544",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1051/1_1544_srdp_ma_Preisreduktion_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=a\\cdot\\left(1-\\tfrac{p}{100}\\right)^{2}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die auf jeden Fall zutreffende Formel zur Berechnung von b an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "b=a\\cdot\\left(1-\\tfrac{p}{100}\\right)^{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=a-2\\cdot a\\cdot\\tfrac{p}{100}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=a-a\\cdot\\left(1-\\tfrac{p}{100}\\right)^{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=a-2\\cdot a\\cdot p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=a\\cdot(1-p)^{2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=a-a\\cdot\\left(\\tfrac{p}{100}\\right)^{2}"
+            }
+          ]
+        ],
+        "correct": [
+          0
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1544",
+      "baseId": "1_1544",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1051/1_1544_srdp_ma_Preisreduktion_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Preis eines bestimmten Produkts beträgt a Euro. Dieser Preis wird 2-mal hintereinander jeweils um p % reduziert. Danach beträgt der Preis dieses Produkts b Euro."
+    }
+  ]
+}

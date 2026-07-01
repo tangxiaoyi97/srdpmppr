@@ -1,0 +1,152 @@
+{
+  "id": "2020-nt1-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2020n1]t1-1-ag.pdf"
+  },
+  "title": "Rechenoperationen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-01-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AG 1.1",
+          "description": "Wissen über die Zahlenmengen N, Z, Q, R, C verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_782a",
+          "baseId": "1_782",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/566/Rechenoperationen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "a+b"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Ausdrücke angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Ausdrücke an, die auf jeden Fall eine natürliche Zahl als Ergebnis liefern."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "a+b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a-b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{b}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a\\cdot b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt[b]{a}"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_782",
+      "baseId": "1_782",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/566/Rechenoperationen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind zwei natürliche Zahlen a und b, wobei gilt: "
+    },
+    {
+      "t": "math",
+      "v": "b\\neq 0"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

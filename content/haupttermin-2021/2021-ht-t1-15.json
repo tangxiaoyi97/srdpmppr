@@ -1,0 +1,133 @@
+{
+  "id": "2021-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2021h1]t1-15-an.pdf"
+  },
+  "title": "Karpfen",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-15-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "F(n+1)=F(n)+0{,}07\\cdot(800-F(n))"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Anzahl der Karpfen in einem Teich soll auf 800 Karpfen beschränkt sein. Modellhaft wird angenommen, dass der Karpfenbestand in jedem Jahr um 7 % der Differenz zum maximalen Karpfenbestand von 800 Karpfen zunimmt.\n\nDie Anzahl der Karpfen nach "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " Jahren wird mit "
+        },
+        {
+          "t": "math",
+          "v": "F(n)"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet. Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "F(0)=500"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nKreuzen Sie diejenige Differenzengleichung an, die die Entwicklung des Karpfenbestands zutreffend beschreibt."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "F(n+1)=F(n)+0{,}07\\cdot(800-F(n))"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(n)=F(n+1)+0{,}07\\cdot(800-F(n+1))"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(n+1)=F(n)+1{,}07\\cdot(800-F(n))"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(n+1)=F(n)+0{,}07\\cdot(F(n)-800)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(n+1)=800-0{,}07\\cdot F(n)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(n)=800-0{,}07\\cdot F(n+1)"
+            }
+          ]
+        ],
+        "correct": [
+          0
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "2019-nt2-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2019n2]t1-23-ws.pdf"
+  },
+  "title": "Pfandflaschen",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t1-23-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Deutungen: Die Wahrscheinlichkeit, dass mehr als 1 220 Pfandflaschen dieser Sorte Mineralwasser nicht zurückgegeben werden, beträgt ca. 0,27 (bzw. ca. 27 %). oder: Die Wahrscheinlichkeit, dass mindestens 1 220 Pfandflaschen dieser Sorte Mineralwasser nicht zurückgegeben werden, beträgt ca. 0,27 (bzw. ca. 27 %)."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Deutung. Andere korrekte Deutungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie den Wert 0,27 im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Deutungen: Die Wahrscheinlichkeit, dass mehr als 1 220 Pfandflaschen dieser Sorte Mineralwasser nicht zurückgegeben werden, beträgt ca. 0,27 (bzw. ca. 27 %). oder: Die Wahrscheinlichkeit, dass mindestens 1 220 Pfandflaschen dieser Sorte Mineralwasser nicht zurückgegeben werden, beträgt ca. 0,27 (bzw. ca. 27 %)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Deutung. Andere korrekte Deutungen sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Rücklaufquote von Pfandflaschen einer bestimmten Sorte Mineralwasser beträgt 92 %.\nIn einem Monat werden 15 000 Pfandflaschen dieser Sorte Mineralwasser verkauft. Die Zufallsvariable X gibt die Anzahl derjenigen Pfandflaschen an, die nicht mehr zurückgegeben werden. Die Zufallsvariable X kann durch eine Normalverteilung approximiert werden.\nDie nachstehende Abbildung stellt den Graphen der Dichtefunktion f dieser Normalverteilung dar. Der Flächeninhalt der markierten Fläche beträgt ca. 0,27."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-23-q.png",
+      "alt": "Graph der Dichtefunktion f einer Normalverteilung; die Fläche rechts von x = 1 220 (auf der x-Achse von etwa 1 040 bis 1 360) ist markiert und hat einen Inhalt von ca. 0,27."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2023-het-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2023h2]t1-20-fa.pdf"
+  },
+  "title": "Geburtenzahl",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-20-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-20-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-20-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1311a",
+          "baseId": "1_1311",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/855/1_1311_srdp_ma_Geburtenzahl_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Gesamtzahl der Geburten im Zeitraum von 2015 bis 2018 war niedriger als die vierfache Anzahl der Geburten im Jahr 2019.“ und „Die Anzahl der Geburten war in höchstens drei Jahren des Zeitraums von 2015 bis 2018 höher als im Jahr 2019.“"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die unter Verwendung des obigen Satzes jedenfalls getroffen werden können. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Geburten war im Jahr 2019 höher als in jedem Jahr des Zeitraums von 2015 bis 2018."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Gesamtzahl der Geburten im Zeitraum von 2015 bis 2018 war niedriger als die vierfache Anzahl der Geburten im Jahr 2019."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Geburten war in mindestens einem Jahr des Zeitraums von 2015 bis 2018 höher als im Jahr 2019."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Geburten war in höchstens drei Jahren des Zeitraums von 2015 bis 2018 höher als im Jahr 2019."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Geburten war in mindestens zwei Jahren des Zeitraums von 2015 bis 2018 niedriger als im Jahr 2019."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1311",
+      "baseId": "1_1311",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/855/1_1311_srdp_ma_Geburtenzahl_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Regionalzeitung ist folgender Satz über einen bestimmten Bezirk zu lesen:\n„Im Jahr 2019 lag die Anzahl der Geburten im Bezirk über dem durchschnittlichen Wert des 4-jährigen Zeitraums von 2015 bis 2018.“"
+    }
+  ]
+}

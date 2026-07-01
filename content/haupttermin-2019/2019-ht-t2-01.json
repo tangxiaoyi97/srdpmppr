@@ -1,0 +1,542 @@
+{
+  "id": "2019-ht-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2019h1]t2-1.pdf"
+  },
+  "title": "Zuverlässigkeit eines Systems",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t2-1.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045a",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist das System A:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-a.png",
+          "alt": "Seriensystem A: zwei hintereinandergeschaltete Bauteile T1 und T2."
+        },
+        {
+          "t": "text",
+          "v": "Das Bauteil T1 hat die Zuverlässigkeit p1 und das Bauteil T2 hat die Zuverlässigkeit p2.\n\nBetrachten Sie die Zuverlässigkeit des Systems A als Funktion zA von p1 und p2.\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "z_A(p_1, p_2)"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "math",
+          "v": "z_A(p_1, p_2)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "p_1\\cdot p_2",
+        "vars": [
+          "p_1",
+          "p_2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "z_A(p_1, p_2)=p_1\\cdot p_2"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für einen richtigen Term für zA. Äquivalente Terme sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045a",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem anderen System gleicher Bauart haben die Bauteile jeweils die gleiche Zuverlässigkeit "
+        },
+        {
+          "t": "math",
+          "v": "p_1=p_2=0{,}7"
+        },
+        {
+          "t": "text",
+          "v": ". Die Ausfallwahrscheinlichkeit dieses Systems soll auf ein Viertel der aktuellen Ausfallwahrscheinlichkeit gesenkt werden.\n\nGeben Sie an, welchen Wert die Zuverlässigkeit "
+        },
+        {
+          "t": "math",
+          "v": "p_{\\text{neu}}"
+        },
+        {
+          "t": "text",
+          "v": " (für jedes der beiden Bauteile) annehmen muss!"
+        },
+        {
+          "t": "math",
+          "v": "p_{\\text{neu}}="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "pneu",
+            "value": 0.935,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1-p_{\\text{neu}}^{2}=\\tfrac{1}{4}\\cdot\\left(1-0{,}7^{2}\\right)"
+            },
+            {
+              "t": "math",
+              "v": "p_{\\text{neu}}=\\sqrt{0{,}8725}\\approx 0{,}934"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p_{\\text{neu}}\\approx 0{,}934"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,93; 0,94] bzw. [93 %; 94 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045b",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist das System B:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-b.png",
+          "alt": "Parallelsystem B: zwei parallel geschaltete Bauteile T1 und T2."
+        },
+        {
+          "t": "text",
+          "v": "Die beiden Bauteile T1 und T2 haben jeweils die gleiche Zuverlässigkeit p.\n\nBetrachten Sie die Zuverlässigkeit des Systems B als Funktion zB von p.\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "z_B(p)"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "math",
+          "v": "z_B(p)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1-(1-p)^2",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "z_B(p)=1-(1-p)^{2}"
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Term. Äquivalente Terme sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045b",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie rechnerisch, dass die Funktion zB auf dem Intervall (0; 1) streng monoton steigend ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nachweis der strengen Monotonie von zB auf (0; 1), z. B. über die Ableitung: "
+          },
+          {
+            "t": "math",
+            "v": "z_B'(p)=2\\cdot(1-p)>0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "p\\in(0;1)"
+          },
+          {
+            "t": "text",
+            "v": ". Alternativ: "
+          },
+          {
+            "t": "math",
+            "v": "1-(1-p)^{2}=-(p-1)^{2}+1"
+          },
+          {
+            "t": "text",
+            "v": " hat den Scheitelpunkt (1 | 1), daher ist zB auf (0; 1) streng monoton steigend; oder: (1 − p) ist auf (0; 1) positiv und streng monoton fallend, daher auch (1 − p)², somit ist 1 − (1 − p)² streng monoton steigend."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen richtigen Nachweis. Andere richtige Nachweise (z. B. grafische Nachweise) sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "z_B'(p)=2\\cdot(1-p)>0\\ \\text{für alle}\\ p\\in(0;1)"
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Nachweis. Andere richtige Nachweise (z. B. grafische Nachweise) sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045c",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind die Systeme C und D:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-c.png",
+          "alt": "System C: zwei parallele Serienstränge (T1–T2 und T3–T4). System D: zwei serielle Parallelblöcke (T1∥T3 und T2∥T4)."
+        },
+        {
+          "t": "text",
+          "v": "Jedes der Bauteile T1, T2, T3 und T4 hat die gleiche Zuverlässigkeit p.\n\nDie Zuverlässigkeit zC des Systems C ist eine Funktion von p und wird durch die Funktionsgleichung "
+        },
+        {
+          "t": "math",
+          "v": "z_C(p)=p^{4}-4\\cdot p^{3}+4\\cdot p^{2}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben.\n\nErmitteln Sie den Quotienten "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{1-z_C(0{,}9)}{1-z_C(0{,}8)}"
+        },
+        {
+          "t": "text",
+          "v": " und interpretieren Sie diesen Wert für das System C!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "q",
+            "value": 0.255,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{1-z_C(0{,}9)}{1-z_C(0{,}8)}\\approx 0{,}254"
+            },
+            {
+              "t": "text",
+              "v": " Mögliche Interpretation: Bei Erhöhung der Zuverlässigkeit der Bauteile von 0,8 auf 0,9 sinkt die Ausfallwahrscheinlichkeit des Systems auf etwa ein Viertel des ursprünglichen Wertes."
+            }
+          ],
+          "note": "Ein Punkt für den richtigen Wert des Quotienten und eine richtige Interpretation. Toleranzintervall: [0,25; 0,26] bzw. [25 %; 26 %]"
+        }
+      ]
+    },
+    {
+      "id": "2019-ht-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_045c",
+          "baseId": "2_045",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zuverlässigkeit zD des Systems D ist eine Funktion von p.\n\nBegründen Sie, warum "
+        },
+        {
+          "t": "math",
+          "v": "z_C(p)>z_D(p)"
+        },
+        {
+          "t": "text",
+          "v": " für alle "
+        },
+        {
+          "t": "math",
+          "v": "p\\in(0;1)"
+        },
+        {
+          "t": "text",
+          "v": " gilt!\nVerwenden Sie dazu entweder eine Funktionsgleichung von zD oder begründen Sie anhand der Bauart der Systeme C und D."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründungen: "
+          },
+          {
+            "t": "math",
+            "v": "z_D(p)=2\\cdot p^{2}\\cdot(1-p^{2})+p^{4}=2\\cdot p^{2}-p^{4}"
+          },
+          {
+            "t": "text",
+            "v": ". Der Graph der Funktion zC verläuft für alle "
+          },
+          {
+            "t": "math",
+            "v": "p\\in(0;1)"
+          },
+          {
+            "t": "text",
+            "v": " oberhalb des Graphen der Funktion zD. Oder: Bei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C. Außerdem funktioniert System C auch dann, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Begründung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion zC verläuft für alle p ∈ (0; 1) oberhalb des Graphen der Funktion zD; bzw. bei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C, und System C funktioniert zusätzlich, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Begründung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_045",
+      "baseId": "2_045",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/443/Zuverl%C3%A4ssigkeit%20eines%20Systems.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein System ist im Folgenden eine Maschine, die aus mehreren Bauteilen besteht. Jedes Bauteil dieses Systems kann mit einer gewissen Wahrscheinlichkeit korrekt funktionieren oder ausfallen. Wenn einzelne Bauteile eines Systems ausfallen, hängt es von der Bauart des Systems ab, ob das gesamte System weiter funktioniert oder ob es ausfällt.\n\nUnter der Zuverlässigkeit eines Bauteils versteht man die Wahrscheinlichkeit dafür, dass das Bauteil korrekt funktioniert, also nicht ausfällt. Das gilt jeweils für eine bestimmte Zeitdauer und unter bestimmten Bedingungen.\n\nUnter der Zuverlässigkeit eines Systems versteht man die Wahrscheinlichkeit dafür, dass das System korrekt funktioniert, also nicht ausfällt. (Es wird modellhaft angenommen, dass Ausfälle von Bauteilen voneinander unabhängig sind.) Die entsprechende Gegenwahrscheinlichkeit heißt Ausfallwahrscheinlichkeit.\n\nMan unterscheidet zwei einfache Typen von Systemen:\n- Seriensysteme: Ein Seriensystem funktioniert genau dann, wenn alle Bauteile funktionieren.\n- Parallelsysteme: Ein Parallelsystem funktioniert genau dann, wenn mindestens ein Bauteil funktioniert."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "2022-wt-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2022w1]t1-5-ag.pdf"
+  },
+  "title": "Punkt auf einer Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-05-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_882a",
+          "baseId": "1_882",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/709/Punkt_auf_einer_Geraden.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-05-sol.png",
+              "alt": "Lösung: Punkt C auf der Geraden g eingezeichnet, auf der A abgewandten Seite von B, mit t = -1,5."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Punktes C."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung den Punkt C ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-05-q.png",
+          "alt": "Koordinatensystem mit der Geraden g sowie den darauf liegenden Punkten A und B (B oberhalb und rechts von A)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Punkt C ist auf der Geraden g so einzuzeichnen, dass "
+          },
+          {
+            "t": "math",
+            "v": "\\overrightarrow{AC} = -1{,}5 \\cdot \\overrightarrow{AB}"
+          },
+          {
+            "t": "text",
+            "v": " gilt, d. h. C liegt auf der von B abgewandten Seite von A im 1{,}5-fachen Abstand von A B."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_882",
+      "baseId": "1_882",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/709/Punkt_auf_einer_Geraden.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Gerade g verläuft durch die Punkte A und B und kann durch "
+    },
+    {
+      "t": "math",
+      "v": "g:\\ X = A + t \\cdot \\overrightarrow{AB}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden.\n\nFür den Punkt "
+    },
+    {
+      "t": "math",
+      "v": "C \\in g"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "t = -1{,}5"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

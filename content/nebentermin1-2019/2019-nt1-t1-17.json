@@ -1,0 +1,119 @@
+{
+  "id": "2019-nt1-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2019n1]t1-17-fa.pdf"
+  },
+  "title": "Bestimmen eines Koeffizienten",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-17-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-17-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-17-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_726a",
+          "baseId": "1_726",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/465/Bestimmen%20eines%20Koeffizienten.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des Koeffizienten a so an, dass die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{1}f(x)\\,dx=1"
+        },
+        {
+          "t": "text",
+          "v": " erfüllt ist."
+        },
+        {
+          "t": "math",
+          "v": "a="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -3,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_726",
+      "baseId": "1_726",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/465/Bestimmen%20eines%20Koeffizienten.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion f: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^{2}+2"
+    },
+    {
+      "t": "text",
+      "v": " mit a ∈ ℝ."
+    }
+  ]
+}

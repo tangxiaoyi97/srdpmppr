@@ -1,0 +1,107 @@
+{
+  "id": "2021-het-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2021h2]t1-21-ws.pdf"
+  },
+  "title": "Zweistufiges Zufallsexperiment",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-21-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_874a",
+          "baseId": "1_874",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/683/zweistufiges_Zufallsexperiment.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "P(X\\geq 1)=1-P(X=0)=1-(1-p)^{2}"
+            },
+            {
+              "t": "math",
+              "v": "1-(1-p)^{2}=0{,}36"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p=0{,}2"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von p."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Zufallsexperiment tritt entweder „Erfolg“ mit der Wahrscheinlichkeit p oder „Misserfolg“ mit der Wahrscheinlichkeit 1 – p ein.\n\nDieses Zufallsexperiment wird 2-mal unabhängig voneinander durchgeführt. Die Wahrscheinlichkeit, dass dabei mindestens 1-mal „Erfolg“ eintritt, beträgt 0,36.\n\nBerechnen Sie die Wahrscheinlichkeit p."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.2,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_874",
+      "baseId": "1_874",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/683/zweistufiges_Zufallsexperiment.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

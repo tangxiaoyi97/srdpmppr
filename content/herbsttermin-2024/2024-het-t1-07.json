@@ -1,0 +1,146 @@
+{
+  "id": "2024-het-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2024h2]t1-7-an.pdf"
+  },
+  "title": "Gewinn",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-7-an.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-07-q.png",
+      "alt": "Graph der Kostenfunktion K und der Erlösfunktion E (x in Mengeneinheiten von 0 bis 350, E(x)/K(x) in Geldeinheiten von 0 bis 150); die Geraden schneiden einander bei x ≈ 100 und x ≈ 300."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2024-het-t1-07-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1370a",
+          "baseId": "1_1370",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/926/1_1370_srdp_ma_Gewinn_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x_1 = 100\\ \\text{Mengeneinheiten}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x_2 = 250\\ \\text{Mengeneinheiten}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert. Toleranzbereich für x1: [90; 110]; Toleranzbereich für x2: [225; 275]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Folgenden wird angenommen, dass alle produzierten Mengeneinheiten dieses Produkts auch verkauft werden.\n\nEin positiver Gewinn wird erstmals bei mehr als x₁ produzierten und verkauften Mengeneinheiten dieses Produkts erzielt.\n\nDer Gewinn ist bei x₂ produzierten und verkauften Mengeneinheiten dieses Produkts maximal.\n\nErmitteln Sie mithilfe der obigen Abbildung x₁ und x₂."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x1",
+            "label": "x_1",
+            "value": 100,
+            "tol": 10,
+            "unit": "Mengeneinheiten"
+          },
+          {
+            "id": "x2",
+            "label": "x_2",
+            "value": 250,
+            "tol": 25,
+            "unit": "Mengeneinheiten"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1370",
+      "baseId": "1_1370",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/926/1_1370_srdp_ma_Gewinn_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Kostenfunktion "
+    },
+    {
+      "t": "math",
+      "v": "K: x \\mapsto K(x)"
+    },
+    {
+      "t": "text",
+      "v": " und den Graphen der Erlösfunktion "
+    },
+    {
+      "t": "math",
+      "v": "E: x \\mapsto E(x)"
+    },
+    {
+      "t": "text",
+      "v": " für ein bestimmtes Produkt (x in Mengeneinheiten, E(x), K(x) in Geldeinheiten)."
+    }
+  ]
+}

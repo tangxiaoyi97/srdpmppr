@@ -1,0 +1,117 @@
+{
+  "id": "2021-nt2-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2021n2]t1-20-ws.pdf"
+  },
+  "title": "Schätzwert",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-20-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_825a",
+          "baseId": "1_825",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/613/Schaetzwert.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{b}{a}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel an, mit der p unter Verwendung von a und b berechnet werden kann."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{b}{a}",
+        "vars": [
+          "a",
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_825",
+      "baseId": "1_825",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/613/Schaetzwert.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem bestimmten Zufallsversuch tritt das Ereignis E mit der Wahrscheinlichkeit P(E) auf. Im Rahmen einer Versuchsreihe wird dieser Zufallsversuch a-mal durchgeführt ("
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": " und a > 1). Dabei tritt das Ereignis E insgesamt b-mal auf ("
+    },
+    {
+      "t": "math",
+      "v": "b\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": ").\n\nFür die unbekannte Wahrscheinlichkeit P(E) soll ein Schätzwert p bestimmt werden."
+    }
+  ]
+}

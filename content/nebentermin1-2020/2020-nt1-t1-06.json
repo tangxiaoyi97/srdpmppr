@@ -1,0 +1,130 @@
+{
+  "id": "2020-nt1-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2020n1]t1-6-ag.pdf"
+  },
+  "title": "Leiter",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_787a",
+          "baseId": "1_787",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/571/Leiter.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\cos(\\alpha)=\\tfrac{d}{4}\\ \\Rightarrow\\ d=4\\cdot\\cos(\\alpha)"
+            },
+            {
+              "t": "text",
+              "v": "\nα ... Winkel zwischen der Leiter und dem Boden\nd ... Abstand des unteren Endes der Leiter von der Hauswand"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Mindestabstand von der Hauswand: ca. 1,04 m\nHöchstabstand von der Hauswand: ca. 1,69 m"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Mindestabstand und den Höchstabstand des unteren Endes der Leiter von der Hauswand.\n\nMindestabstand von der Hauswand: ___ m\n\nHöchstabstand von der Hauswand: ___ m"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "min",
+            "label": "Mindestabstand",
+            "value": 1.04,
+            "tol": 0.01,
+            "unit": "m"
+          },
+          {
+            "id": "max",
+            "label": "Höchstabstand",
+            "value": 1.69,
+            "tol": 0.01,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_787",
+      "baseId": "1_787",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/571/Leiter.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine 4 m lange Leiter wird auf einem waagrechten Boden aufgestellt und an eine senkrechte Hauswand angelegt.\n\nDie Leiter muss mit dem Boden einen Winkel zwischen 65° und 75° einschließen, um einerseits ein Wegkippen und andererseits ein Wegrutschen zu vermeiden."
+    }
+  ]
+}

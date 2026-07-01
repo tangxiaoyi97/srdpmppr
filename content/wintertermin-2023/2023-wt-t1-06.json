@@ -1,0 +1,115 @@
+{
+  "id": "2023-wt-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2023w1]t1-6-ag.pdf"
+  },
+  "title": "Viereck",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1249a",
+          "baseId": "1_1249",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/781/1_1249_srdp_ma_Viereck_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\beta) = \\dfrac{d}{a - c}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung der dafür erforderlichen Seitenlängen eine Formel zur Berechnung von "
+        },
+        {
+          "t": "math",
+          "v": "\\tan(\\beta)"
+        },
+        {
+          "t": "text",
+          "v": " auf."
+        },
+        {
+          "t": "math",
+          "v": "\\tan(\\beta) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{d}{a-c}",
+        "vars": [
+          "a",
+          "c",
+          "d"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1249",
+      "baseId": "1_1249",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/781/1_1249_srdp_ma_Viereck_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist ein Viereck dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-06-q.png",
+      "alt": "Viereck mit den Seiten a (unten), b (rechts), c (oben) und d (links); der Winkel β liegt an der unteren rechten Ecke zwischen der Seite a und der Seite b. Die Konstruktion bildet ein rechtwinkeliges Teildreieck mit Gegenkathete d und Ankathete a − c."
+    }
+  ]
+}

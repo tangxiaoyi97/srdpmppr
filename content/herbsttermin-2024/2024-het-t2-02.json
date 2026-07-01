@@ -1,0 +1,442 @@
+{
+  "id": "2024-het-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2024h2]t2-2.pdf"
+  },
+  "title": "Slackline",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t2-02-a1",
+      "label": "a1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_142a",
+          "baseId": "2_142",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/945/2_142_srdp_ma_Slackline_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beim Slacklinen wird ein elastisches Band horizontal über dem Boden befestigt.\n\nTheo steht exakt in der Mitte des Bandes, wodurch ein bestimmter Durchhang d entsteht.\n\nDie Situation ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-02-a1-q.png",
+          "alt": "Abbildung: Band zwischen Mast 1 (Punkt A) und Mast 2 (Punkt B); Theo steht in der Mitte, der Durchhang d ist eingezeichnet, der Winkel β liegt an der tiefsten Stelle."
+        },
+        {
+          "t": "text",
+          "v": "Für die Größe der auftretenden Kraft F (in N) in einem Aufhängungspunkt gilt:"
+        },
+        {
+          "t": "math",
+          "v": "F = \\tfrac{10 \\cdot e}{4 \\cdot d} \\cdot m"
+        },
+        {
+          "t": "text",
+          "v": "e ... horizontale Entfernung der Aufhängungspunkte A und B (in m)\nm ... Körpermasse (in kg)\nd ... Durchhang (in m)\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "d: \\mathbb{R}^{+} \\to \\mathbb{R}^{+},\\ m \\mapsto d(m)"
+        },
+        {
+          "t": "text",
+          "v": " bei konstantem F und e sowie die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F: \\mathbb{R}^{+} \\to \\mathbb{R}^{+},\\ d \\mapsto F(d)"
+        },
+        {
+          "t": "text",
+          "v": " bei konstantem m und konstantem e beschreiben jeweils einen bestimmten Zusammenhang.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Funktion d beschreibt einen ① Zusammenhang, die Funktion F beschreibt einen ② Zusammenhang."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "direkt proportionalen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "indirekt proportionalen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "nicht proportionalen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "direkt proportionalen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "indirekt proportionalen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "nicht proportionalen"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① direkt proportionalen;  ② indirekt proportionalen"
+            }
+          ],
+          "note": "a1) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-02-a2",
+      "label": "a2",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_142a",
+          "baseId": "2_142",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/945/2_142_srdp_ma_Slackline_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Theo hat eine Körpermasse m von m = 80 kg.\n\nErmitteln Sie für β = 160° die Größe der auftretenden Kraft F (in N) in einem Aufhängungspunkt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "F",
+            "label": "F",
+            "value": 2268.5,
+            "tol": 1,
+            "unit": "N"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "d = \\tfrac{6}{\\tan(80^\\circ)} = 1{,}057\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "F = \\tfrac{10 \\cdot 12}{4 \\cdot 1{,}057\\ldots} \\cdot 80"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "F = 2\\,268{,}5\\ldots\\ \\text{N}"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln der Größe der auftretenden Kraft F."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-02-a3",
+      "label": "a3",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 3.3",
+          "description": "Situationen erkennen und beschreiben können, in denen mit Binomialverteilung modelliert werden kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_142a",
+          "baseId": "2_142",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/945/2_142_srdp_ma_Slackline_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Theo versucht mehrfach, das Band zu überqueren. Er schafft die Überquerung jeweils mit der Wahrscheinlichkeit p.\nEs wird modellhaft angenommen, dass die Versuche voneinander unabhängig sind und die Erfolgswahrscheinlichkeit p bei jedem Versuch gleich hoch ist.\n\nDie Wahrscheinlichkeit, dass Theo bei 10 Versuchen mindestens 2-mal das Band erfolgreich überquert, beträgt 99 %.\n\nErmitteln Sie p."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.504,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "1 - (1-p)^{10} - 10 \\cdot p \\cdot (1-p)^{9} = 0{,}99"
+            },
+            {
+              "t": "text",
+              "v": ". Berechnung mittels Technologieeinsatz:"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p = 0{,}504\\ldots"
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Ermitteln von p."
+        }
+      ]
+    },
+    {
+      "id": "2024-het-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_142b",
+          "baseId": "2_142",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/945/2_142_srdp_ma_Slackline_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Variante des Slacklinens ist das Rodeolinen, bei dem das Band nicht gespannt ist.\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f: [-6; 6] \\to \\mathbb{R}^{+},\\ x \\mapsto f(x)"
+        },
+        {
+          "t": "text",
+          "v": " gibt modellhaft die Höhe des Bandes über dem Boden an der Stelle x an (x in m, f(x) in m).\n\nDer Graph von f ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-02-b1-q.png",
+          "alt": "Graph von f auf [-6; 6] (durchhängende Kurve) zwischen Mast 1 (A = (-6 | f(-6))) und Mast 2 (B = (6 | f(6))); im Punkt B ist die Tangente t eingezeichnet, die mit dem Mast 2 den Winkel φ einschließt."
+        },
+        {
+          "t": "text",
+          "v": "Der Mast 2 schließt mit der Tangente t an den Graphen von f im Aufhängungspunkt B den Winkel φ ein.\n\nStellen Sie eine Gleichung auf, die den Zusammenhang zwischen f′(6) und φ beschreibt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Aufstellen einer korrekten Gleichung, die den Zusammenhang zwischen f′(6) und φ beschreibt, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "\\tan(90^\\circ - \\varphi) = f'(6)"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\varphi) = \\tfrac{1}{f'(6)}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Aufstellen der Gleichung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(90^\\circ - \\varphi) = f'(6)"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "\\tan(\\varphi) = \\tfrac{1}{f'(6)}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_142",
+      "baseId": "2_142",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/945/2_142_srdp_ma_Slackline_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Slacklinen ist eine Sportart, bei der man auf einem Band balanciert.\n\nZwei für diese Sportart geeignete vertikale Masten stehen 12 m voneinander entfernt. Das Band wird an zwei Aufhängungspunkten dieser Masten, A und B, befestigt, die sich auf gleicher Höhe befinden (siehe unten stehende Abbildungen)."
+    }
+  ]
+}

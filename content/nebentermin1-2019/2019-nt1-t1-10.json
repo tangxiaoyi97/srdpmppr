@@ -1,0 +1,187 @@
+{
+  "id": "2019-nt1-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2019n1]t1-10-fa.pdf"
+  },
+  "title": "Parabeln",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-10-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 3.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_719a",
+          "baseId": "1_719",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/458/Parabeln.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "„flacher“ und „nach oben offen“ → D (0 < a < 1); weder flacher noch steiler, „nach unten offen“ → B (a = –1); „steiler“ und „nach unten offen“ → A (a < –1); „steiler“ und „nach oben offen“ → F (a > 1)."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Aussagen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nachstehend sind vier Parabeln beschrieben. Ordnen Sie den vier Beschreibungen jeweils diejenige Bedingung (aus A bis F) zu, die der Parameter a erfüllen muss."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Parabel ist im Vergleich zur Normalparabel „flacher“ und „nach oben offen“."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Parabel ist im Vergleich zur Normalparabel weder „flacher“ noch „steiler“, aber „nach unten offen“."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Parabel ist im Vergleich zur Normalparabel „steiler“ und „nach unten offen“."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Parabel ist im Vergleich zur Normalparabel „steiler“ und „nach oben offen“."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-1<a<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "0<a<1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_719",
+      "baseId": "1_719",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/458/Parabeln.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Graphen von Funktionen f : ℝ → ℝ mit f(x) = a · x² mit a ∈ ℝ\\{0} sind Parabeln. Für a = 1 erhält man den oft als Normalparabel bezeichneten Graphen. Je nach Wert des Parameters a erhält man Parabeln, die im Vergleich zur Normalparabel „steiler“ oder „flacher“ bzw. „nach unten offen“ oder „nach oben offen“ sind."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t1-10-q.png",
+      "alt": "Koordinatensystem mit der nach oben offenen Normalparabel und der nach unten offenen Normalparabel; Pfeile „steiler“ und „flacher“ deuten die Wirkung des Parameters a an."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "2019-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2019h1]t1-23-ws.pdf"
+  },
+  "title": "Trefferwahrscheinlichkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-23-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_708a",
+          "baseId": "1_708",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/441/Trefferwahrscheinlichkeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Spielerin trifft genau einmal. → E;  Die Spielerin trifft höchstens einmal. → B;  Die Spielerin trifft mindestens einmal. → C;  Die Spielerin trifft genau zweimal. → F."
+            }
+          ],
+          "note": "[0 / ½ / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn jedem der vier Ereignisse ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Ereignissen jeweils denjenigen Term (aus A bis F) zu, der die Wahrscheinlichkeit des Eintretens dieses Ereignisses beschreibt!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Spielerin trifft genau einmal."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spielerin trifft höchstens einmal."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spielerin trifft mindestens einmal."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spielerin trifft genau zweimal."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: "
+            },
+            {
+              "t": "math",
+              "v": "1-0{,}85^{6}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}15^{6}+\\binom{6}{1}\\cdot 0{,}85^{1}\\cdot 0{,}15^{5}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: "
+            },
+            {
+              "t": "math",
+              "v": "1-0{,}15^{6}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}85^{6}+\\binom{6}{1}\\cdot 0{,}85^{5}\\cdot 0{,}15^{1}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: "
+            },
+            {
+              "t": "math",
+              "v": "6\\cdot 0{,}85\\cdot 0{,}15^{5}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: "
+            },
+            {
+              "t": "math",
+              "v": "\\binom{6}{2}\\cdot 0{,}85^{2}\\cdot 0{,}15^{4}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_708",
+      "baseId": "1_708",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/441/Trefferwahrscheinlichkeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Training wirft eine Basketballspielerin einen Ball sechsmal hintereinander zum Korb. Fällt der Ball in den Korb, spricht man von einem Treffer. Die Trefferwahrscheinlichkeit dieser Spielerin beträgt bei jedem Wurf 0,85 (unabhängig von den anderen Würfen)."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "2022-het-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2022h2]t1-2-fa.pdf"
+  },
+  "title": "Museumsbesuche",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-2-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-2-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1221a",
+          "baseId": "1_1221",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/751/Museumsbesuche.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "G=E\\cdot x+S\\cdot x\\cdot\\left(1-\\tfrac{p}{100}\\right)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung von G auf."
+        },
+        {
+          "t": "math",
+          "v": "G="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "E\\cdot x+S\\cdot x\\cdot\\left(1-\\frac{p}{100}\\right)",
+        "vars": [
+          "E",
+          "x",
+          "S",
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1221",
+      "baseId": "1_1221",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/751/Museumsbesuche.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Eintrittspreise eines bestimmten Museums sind folgendermaßen festgelegt:\nDer Eintrittspreis für einen Erwachsenen beträgt x Euro. Für Studierende ist dieser Eintrittspreis um p % ermäßigt. Kinder und Jugendliche bezahlen nichts für den Eintritt.\n\nAn einem bestimmten Wochenende bezahlen E Personen den Eintrittspreis für Erwachsene und S Personen den Eintrittspreis für Studierende. Außerdem besuchen K Kinder und J Jugendliche an diesem Wochenende das Museum.\nDie Gesamteinnahmen des Museums aus Eintritten an diesem Wochenende werden mit G bezeichnet."
+    }
+  ]
+}

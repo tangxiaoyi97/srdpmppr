@@ -1,0 +1,105 @@
+{
+  "id": "2022-ht-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2022h1]t1-13-fa.pdf"
+  },
+  "title": "Körpermasse eines Babys",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1191a",
+          "baseId": "1_1191",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/732/K%C3%B6rpermasse%20eines%20Babys.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{G(6)-G(0)}{G(0)}=\\dfrac{190\\cdot 6}{3200}=\\dfrac{1140}{3200}=0{,}35625"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "35{,}625\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der relativen Änderung in %."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie mithilfe der Funktion G die relative Änderung der Körpermasse von Nora von der Geburt bis 6 Wochen nach der Geburt in Prozent."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 35.625,
+            "tol": 1e-9,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1191",
+      "baseId": "1_1191",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/732/K%C3%B6rpermasse%20eines%20Babys.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Körpermasse von Babys in den ersten 6 Lebenswochen kann näherungsweise mithilfe der Funktion G: [0; 6] → ℝ mit G(t) = G₀ + 190 · t modelliert werden.\nt ... Zeit nach der Geburt in Wochen\nG(t) ... Körpermasse eines Babys zur Zeit t in g\nG₀ ... Körpermasse eines Babys bei der Geburt in g\n\nNora hat bei ihrer Geburt eine Körpermasse von 3 200 g."
+    }
+  ]
+}

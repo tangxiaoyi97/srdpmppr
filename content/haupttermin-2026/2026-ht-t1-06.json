@@ -1,0 +1,121 @@
+{
+  "id": "2026-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2026h1]t1-6-ag.pdf"
+  },
+  "title": "Sinuswert eines Winkels",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.2",
+          "description": "Definitionen von Sinus und Cosinus für Winkel größer als 90° kennen und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1596a",
+          "baseId": "1_1596",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1116/1_1596_Sinuswert%20eines%20Winkels_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=-\\sin(\\beta)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Angeben von sin(α )."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\sin(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe von "
+        },
+        {
+          "t": "math",
+          "v": "\\sin(\\beta)"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        },
+        {
+          "t": "math",
+          "v": "\\sin(\\alpha)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-sin(beta)",
+        "vars": [
+          "beta"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1596",
+      "baseId": "1_1596",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1116/1_1596_Sinuswert%20eines%20Winkels_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind die Winkel α und β sowie die zugehörigen Punkte P und Q in einem Einheitskreis dargestellt. Die Punkte P und Q liegen zueinander symmetrisch bezüglich der x-Achse."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-06-q.png",
+      "alt": "Einheitskreis im Koordinatensystem: Punkt P im zweiten Quadranten zum Winkel α (von der positiven x-Achse aus gemessen) und Punkt Q im dritten Quadranten; P und Q liegen symmetrisch bezüglich der x-Achse, β ist der zugehörige Winkel zu Q."
+    }
+  ]
+}

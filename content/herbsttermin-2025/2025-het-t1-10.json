@@ -1,0 +1,118 @@
+{
+  "id": "2025-het-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2025h2]t1-10-fa.pdf"
+  },
+  "title": "Höhe eines Körpers über dem Boden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-10-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 3.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge dieser Art als entsprechende Potenzfunktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1552a",
+          "baseId": "1_1552",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1059/1_1552_srdp_ma_H%C3%B6he%20eines%20K%C3%B6rpers%20%C3%BCber%20dem%20Boden_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gilt h₀ = 45 (da h(1) = −5 + h₀ = 40). Der Graph von h(t) = −5·t² + 45 wird im Intervall [0; 3] eingezeichnet."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-10-sol.png",
+              "alt": "Lösung: rechtsgekrümmter Graph durch (0 | 45), (1 | 40) und (3 | 0)."
+            }
+          ],
+          "note": "Im Hinblick auf die Punktevergabe ist es erforderlich, dass der Graph rechtsgekrümmt ist und die Punkte (0 | 45), (1 | 40) und (3 | 0) enthält.\n\nEin Punkt für das richtige Einzeichnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im nachstehenden Koordinatensystem den Graphen von h im Intervall [0; 3] ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-10-q.png",
+          "alt": "Leeres Koordinatensystem mit h(t) in m (0 bis 60) über t in s (0 bis 3) zum Einzeichnen des Graphen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Im Hinblick auf die Punktevergabe ist es erforderlich, dass der Graph rechtsgekrümmt ist und die Punkte (0 | 45), (1 | 40) und (3 | 0) enthält."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1552",
+      "baseId": "1_1552",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1059/1_1552_srdp_ma_H%C3%B6he%20eines%20K%C3%B6rpers%20%C3%BCber%20dem%20Boden_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion h: ℝ₀⁺ → ℝ₀⁺ beschreibt modellhaft die Höhe eines Körpers über dem Boden in Abhängigkeit von der Zeit t."
+    },
+    {
+      "t": "math",
+      "v": "h(t)=-5\\cdot t^{2}+h_{0}"
+    },
+    {
+      "t": "text",
+      "v": "t ... Zeit in s\nh(t) ... Höhe des Körpers über dem Boden zum Zeitpunkt t in m\nh₀ ... Höhe des Körpers über dem Boden zum Zeitpunkt t = 0 in m\n\nZum Zeitpunkt t = 1 s befindet sich der Körper in einer Höhe von 40 m."
+    }
+  ]
+}

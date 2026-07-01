@@ -1,0 +1,110 @@
+{
+  "id": "2023-het-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2023h2]t1-13-fa.pdf"
+  },
+  "title": "Bitcoin",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1304a",
+          "baseId": "1_1304",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/848/1_1304_srdp_ma_Bitcoin_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "relative Änderung: "
+            },
+            {
+              "t": "math",
+              "v": "-0{,}6034\\ldots \\approx -60{,}3\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der relativen Änderung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die relative Änderung des Wechselkurses von Bitcoin in diesem Zeitintervall."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rel",
+            "value": -0.6034,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1304",
+      "baseId": "1_1304",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/848/1_1304_srdp_ma_Bitcoin_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bitcoin ist eine digitale Kunstwährung. Am 17.12.2017 betrug der Wechselkurs € 16.198,60 pro Bitcoin.\nDie nachstehende Tabelle zeigt den Wechselkurs pro Bitcoin im Laufe eines Jahres."
+    },
+    {
+      "t": "text",
+      "v": "Datum | Wechselkurs pro Bitcoin\n17.12.2017 | € 16.198,60\n17.03.2018 | € 6.422,98\n17.06.2018 | € 5.571,62\n17.09.2018 | € 5.362,46\n17.12.2018 | € 3.145,20"
+    },
+    {
+      "t": "text",
+      "v": "In einem der dreimonatigen Zeitintervalle ist der Betrag der absoluten Änderung des Wechselkurses am größten."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "2021-nt2-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2021n2]t1-13-an.pdf"
+  },
+  "title": "Messung der Geschwindigkeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-13-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-13-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-13-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_818a",
+          "baseId": "1_818",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/606/Messung%20der%20Geschwindigkeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Der Grenzwert gibt die momentane Änderungsrate der Geschwindigkeit des Körpers 3 Sekunden nach Beginn der Messung an.“ und „Der Grenzwert gibt die momentane Beschleunigung des Körpers 3 Sekunden nach Beginn der Messung an.“"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die den betrachteten Grenzwert richtig beschreiben."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Grenzwert gibt die momentane Änderungsrate der Geschwindigkeit des Körpers 3 Sekunden nach Beginn der Messung an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Grenzwert gibt die durchschnittliche Geschwindigkeit des Körpers im Zeitintervall [0; 3] an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Grenzwert gibt die momentane Beschleunigung des Körpers 3 Sekunden nach Beginn der Messung an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Grenzwert gibt die relative Änderung der Geschwindigkeit des Körpers im Zeitintervall [0; 3] an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Grenzwert gibt den vom Körper in den ersten 3 Sekunden zurückgelegten Weg an."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_818",
+      "baseId": "1_818",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/606/Messung%20der%20Geschwindigkeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Geschwindigkeit eines bewegten Körpers in Abhängigkeit von der Zeit t wird durch eine differenzierbare Funktion v modelliert (t in s, v(t) in m/s). Die Messung der Geschwindigkeit v(t) beginnt zum Zeitpunkt t = 0.\n\nBetrachtet wird der Grenzwert "
+    },
+    {
+      "t": "math",
+      "v": "\\lim_{t\\to 3}\\dfrac{v(t)-v(3)}{t-3}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

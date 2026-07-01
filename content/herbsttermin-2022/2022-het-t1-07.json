@@ -1,0 +1,107 @@
+{
+  "id": "2022-het-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2022h2]t1-7-fa.pdf"
+  },
+  "title": "Zentripetalkraft",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.2",
+          "description": "Formeln als Darstellung von Funktionen interpretieren und dem Funktionstyp zuordnen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1226a",
+          "baseId": "1_1226",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/756/Zentripetalkraft.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Graph von F ist eine vom Ursprung ausgehende Gerade (direkte Proportionalität) durch den Punkt A."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Skizzieren des Graphen. Der Punkt ist auch dann zu geben, wenn nur eine Strecke vom Ursprung bis zum Punkt A eingezeichnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der nachstehenden Abbildung den Graphen von F so, dass er durch den Punkt A verläuft."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t1-07-q.png",
+          "alt": "Leeres Koordinatensystem mit der Achse F(m) (senkrecht) und m (waagrecht); im ersten Quadranten ist ein Punkt A eingezeichnet."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Da F(m) = m · v²/r direkt proportional zu m ist, ist der Graph von F eine vom Ursprung ausgehende Halbgerade (Strecke) durch den Punkt A."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1226",
+      "baseId": "1_1226",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/756/Zentripetalkraft.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei der Bewegung eines Körpers auf einer Kreisbahn mit dem Radius r mit konstanter Geschwindigkeit v ist der Betrag der Zentripetalkraft F eine Funktion in Abhängigkeit von der Masse m dieses Körpers.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "F(m)=m\\cdot\\dfrac{v^{2}}{r}"
+    }
+  ]
+}

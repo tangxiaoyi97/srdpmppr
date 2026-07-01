@@ -1,0 +1,418 @@
+{
+  "id": "2023-wt-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2023w1]t2-3.pdf"
+  },
+  "title": "Spezielle Polynomfunktionen vierten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_123a",
+          "baseId": "2_123",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/805/2_123_srdp_ma_Spezielle%20Polynomfunktionen%204.%20Grades_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung von a und b eine Gleichung zur Berechnung der Wendestellen von f auf."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mit f″(x) = 12·a·x² + 2·b lautet die Gleichung zur Berechnung der Wendestellen: 12·a·x² + 2·b = 0."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Aufstellen der Gleichung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f'(x) = 4 \\cdot a \\cdot x^{3} + 2 \\cdot b \\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f''(x) = 12 \\cdot a \\cdot x^{2} + 2 \\cdot b"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "12 \\cdot a \\cdot x^{2} + 2 \\cdot b = 0"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_123b",
+          "baseId": "2_123",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/805/2_123_srdp_ma_Spezielle%20Polynomfunktionen%204.%20Grades_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Weisen Sie rechnerisch mithilfe der 1. und 2. Ableitung von f nach, dass auf der senkrechten Achse ein Extrempunkt P des Graphen von f liegt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mit f′(x) = 4·a·x³ + 2·b·x gilt f′(0) = 0, und mit f″(x) = 12·a·x² + 2·b gilt f″(0) = 2·b ≠ 0 (da b ≠ 0). Daher ist P = (0 | y_P) ein Extrempunkt von f, der auf der senkrechten Achse liegt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige rechnerische Nachweisen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f'(x) = 4 \\cdot a \\cdot x^{3} + 2 \\cdot b \\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f'(0) = 0"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f''(x) = 12 \\cdot a \\cdot x^{2} + 2 \\cdot b"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f''(0) = 2 \\cdot b \\neq 0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P = (0 \\mid y_P)"
+            },
+            {
+              "t": "text",
+              "v": " ist ein Extrempunkt von f."
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige rechnerische Nachweisen."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_123b",
+          "baseId": "2_123",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/805/2_123_srdp_ma_Spezielle%20Polynomfunktionen%204.%20Grades_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Genau einer der Koeffizienten a, b und c ist ausschlaggebend dafür, ob es sich beim ermittelten Extrempunkt P um einen Hochpunkt handelt.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Damit dieser Extrempunkt P ein Hochpunkt ist, muss für den Koeffizienten ① gelten, dass dieser ② ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "kleiner als 0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich 1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "größer als 0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": ";  ② kleiner als 0"
+            }
+          ],
+          "note": "b2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_123c",
+          "baseId": "2_123",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/805/2_123_srdp_ma_Spezielle%20Polynomfunktionen%204.%20Grades_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist eine Polynomfunktion g mit "
+        },
+        {
+          "t": "math",
+          "v": "g(x) = d \\cdot (x + e)^{2} \\cdot (x - e)^{2} \\quad \\text{mit } d \\neq 0 \\text{ und } e \\in \\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": ".\nDer Graph von g verläuft durch den Punkt N = (2 | 0).\n\nErmitteln Sie unter diesen Voraussetzungen alle möglichen Werte von e."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Da g(2) = 0 und d ≠ 0, muss (2 + e)²·(2 − e)² = 0 gelten, also e = −2 bzw. e = 2."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Ermitteln aller möglichen Werte von e.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "e = -2 \\ \\text{bzw.} \\ e = 2"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln aller möglichen Werte von e."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_123",
+      "baseId": "2_123",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/805/2_123_srdp_ma_Spezielle%20Polynomfunktionen%204.%20Grades_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = a \\cdot x^{4} + b \\cdot x^{2} + c \\quad \\text{mit } a, b, c \\in \\mathbb{R} \\setminus \\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

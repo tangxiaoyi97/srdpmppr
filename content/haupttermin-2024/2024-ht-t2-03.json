@@ -1,0 +1,509 @@
+{
+  "id": "2024-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2024h1]t2-3.pdf"
+  },
+  "title": "Taschenlampen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_139a",
+          "baseId": "2_139",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/918/2_139_srdp_ma_Taschenlampen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der vordere Teil einer bestimmten Taschenlampe besteht aus der punktförmigen Lichtquelle L und einem Reflektor, der die Lichtquelle umgibt.\n\nDer Querschnitt des vorderen Teiles dieser Taschenlampe ist in der nachstehenden nicht maßstabgetreuen Abbildung in einem Koordinatensystem modellhaft dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-03-a.png",
+          "alt": "Nicht maßstabgetreues Koordinatensystem: Lichtquelle L, Reflektor, Punkte P, Q am Reflektor; zwei parallel zur x-Achse umgelenkte Lichtstrahlen treffen die Wand bei A und B; Strecken m und n; Wand bei x = 20."
+        },
+        {
+          "t": "text",
+          "v": "Zwei geradlinige Lichtstrahlen gehen von der Lichtquelle L aus und werden in den Punkten P und Q vom Reflektor parallel zur x-Achse auf eine Wand umgelenkt. Dort treffen sie in den Punkten A und B auf."
+        },
+        {
+          "t": "math",
+          "v": "L=(2{,}5\\mid 0)"
+        },
+        {
+          "t": "math",
+          "v": "\\overline{LP}=3\\ \\text{cm}\\ \\text{und}\\ \\overline{LQ}=4{,}1\\ \\text{cm}"
+        },
+        {
+          "t": "math",
+          "v": "A=(20\\mid y_A)\\ \\text{und}\\ B=(20\\mid y_B)"
+        },
+        {
+          "t": "math",
+          "v": "m=19{,}5\\ \\text{cm}"
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "\\overline{LP}+m=\\overline{LQ}+n"
+        },
+        {
+          "t": "text",
+          "v": "\n\nBerechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "y_B"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "yB",
+            "label": "yB",
+            "value": 4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "3+19{,}5=4{,}1+n"
+            },
+            {
+              "t": "math",
+              "v": "n=18{,}4"
+            },
+            {
+              "t": "math",
+              "v": "y_B=\\sqrt{4{,}1^2-(18{,}4-17{,}5)^2}=4"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "y_B=4"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen von yB."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_139b",
+          "baseId": "2_139",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/918/2_139_srdp_ma_Taschenlampen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der Kontrolle einer Lieferung werden Taschenlampen auf die Fehler F₁, F₂ und F₃ hin überprüft. Diese 3 Fehler treten unabhängig voneinander auf.\n\nIn der nachstehenden Tabelle sind diese Fehler und die zugehörigen Wahrscheinlichkeiten angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-03-b-tab.png",
+          "alt": "Tabelle: Fehler | Beschreibung | Wahrscheinlichkeit — F1: Die Taschenlampe ist defekt. p1; F2: Die Taschenlampe hat die falsche Farbe. 0,02; F3: Die Taschenlampe hat keine Aufbewahrungstasche. 0,01."
+        },
+        {
+          "t": "text",
+          "v": "Eine Taschenlampe wird nach dem Zufallsprinzip ausgewählt und überprüft.\n\nOrdnen Sie den vier Ereignissen jeweils die auf jeden Fall zutreffende Wahrscheinlichkeit aus A bis F zu."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Taschenlampe ist defekt und hat die falsche Farbe."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Taschenlampe hat die richtige Farbe."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Taschenlampe ist nicht defekt, sie hat die richtige Farbe und sie hat keine Aufbewahrungstasche."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Taschenlampe weist mindestens 1 dieser 3 Fehler auf."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "0{,}98"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-(1-p_1)\\cdot 0{,}98\\cdot 0{,}99"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1\\cdot 0{,}02"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-p_1\\cdot 0{,}02\\cdot 0{,}01"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_1\\cdot 0{,}02\\cdot 0{,}01"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(1-p_1)\\cdot 0{,}98\\cdot 0{,}01"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "„… defekt und hat die falsche Farbe.“ → C "
+            },
+            {
+              "t": "math",
+              "v": "(p_1\\cdot 0{,}02)"
+            },
+            {
+              "t": "text",
+              "v": "; „… hat die richtige Farbe.“ → A "
+            },
+            {
+              "t": "math",
+              "v": "(0{,}98)"
+            },
+            {
+              "t": "text",
+              "v": "; „… nicht defekt, richtige Farbe und keine Aufbewahrungstasche.“ → F "
+            },
+            {
+              "t": "math",
+              "v": "((1-p_1)\\cdot 0{,}98\\cdot 0{,}01)"
+            },
+            {
+              "t": "text",
+              "v": "; „… weist mindestens 1 dieser 3 Fehler auf.“ → B "
+            },
+            {
+              "t": "math",
+              "v": "(1-(1-p_1)\\cdot 0{,}98\\cdot 0{,}99)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "b1) Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_139c",
+          "baseId": "2_139",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/918/2_139_srdp_ma_Taschenlampen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Gesamtkosten für die Herstellung der Taschenlampen in Abhängigkeit von der Produktionsmenge x können durch die differenzierbare Kostenfunktion K modelliert werden.\nx ... Produktionsmenge in Mengeneinheiten (ME)\nK(x) ... Gesamtkosten bei der Produktionsmenge x in Geldeinheiten (GE)\n\nDie zugehörige Grenzkostenfunktion K′ hat die Funktionsgleichung"
+        },
+        {
+          "t": "math",
+          "v": "K'(x)=0{,}33\\cdot x^{2}-1{,}8\\cdot x+3"
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "K(1)=44{,}21"
+        },
+        {
+          "t": "text",
+          "v": "\n\nStellen Sie eine Funktionsgleichung von K auf."
+        },
+        {
+          "t": "math",
+          "v": "K(x)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.11*x^3-0.9*x^2+3*x+42",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(x)=0{,}11\\cdot x^{3}-0{,}9\\cdot x^{2}+3\\cdot x+42"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von K."
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t2-03-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_139c",
+          "baseId": "2_139",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/918/2_139_srdp_ma_Taschenlampen_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Folgenden wird angenommen, dass jede produzierte Taschenlampe auch verkauft wird.\n\nDer Erlös aus dem Verkauf dieser Taschenlampen in Abhängigkeit von der Produktionsmenge x kann durch die Funktion E modelliert werden."
+        },
+        {
+          "t": "math",
+          "v": "E(x)=a\\cdot x"
+        },
+        {
+          "t": "text",
+          "v": "x ... Produktionsmenge in ME\nE(x) ... Erlös bei der Produktionsmenge x in GE\na ... Preis in GE/ME\n\nDer Gewinn wird durch die Gewinnfunktion G modelliert (x in ME, G(x) in GE).\n\nDas Betriebsziel ist, bei einer Produktion und einem Verkauf von 5 ME Taschenlampen einen Gewinn von mindestens 100 GE zu erzielen.\n\nBerechnen Sie den kleinstmöglichen Preis, mit dem dieses Betriebsziel erreicht wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 29.65,
+            "tol": 0.05,
+            "unit": "GE/ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "G(x)=a\\cdot x-\\left(0{,}11\\cdot x^{3}-0{,}9\\cdot x^{2}+3\\cdot x+42\\right)"
+            },
+            {
+              "t": "math",
+              "v": "G(5)\\geq 100"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "a\\geq 29{,}65"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der kleinstmögliche Preis beträgt 29,65 GE/ME."
+            }
+          ],
+          "note": "c2) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_139",
+      "baseId": "2_139",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/918/2_139_srdp_ma_Taschenlampen_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Betrieb produziert und verkauft Taschenlampen."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "2022-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2022h1]t1-18-an.pdf"
+  },
+  "title": "Gartenteich",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-18-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1196a",
+          "baseId": "1_1196",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/737/Gartenteich.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "-2"
+            },
+            {
+              "t": "text",
+              "v": ";  ② absolute Änderung"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDas Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{0}^{7} f(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " hat den Wert ① und beschreibt die ② des Wasserstands im Zeitintervall [0; 7]."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "0"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "mittlere Änderungsrate"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "relative Änderung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "absolute Änderung"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1196",
+      "baseId": "1_1196",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/737/Gartenteich.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion f beschreibt modellhaft die momentane Änderungsrate des Wasserstands eines bestimmten Gartenteichs in Abhängigkeit von der Zeit t.\nt ... Zeit in Tagen\nf(t) ... momentane Änderungsrate des Wasserstands zum Zeitpunkt t in mm/Tag\n\nDie Funktion F ist eine Stammfunktion von f."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-18-q.png",
+      "alt": "Koordinatensystem mit den Graphen von f und F; t-Achse von 0 bis 7 Tage; F verläuft oberhalb, f unterhalb mit Nulldurchgängen."
+    }
+  ]
+}

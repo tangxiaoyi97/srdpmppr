@@ -1,0 +1,88 @@
+{
+  "id": "2020-nt2-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2020n2]t1-15-an.pdf"
+  },
+  "title": "Konzentration eines Arzneistoffs",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-15-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AN 1.4",
+          "description": "Differenzialquotient (Ableitung, momentane Änderungsrate) als Grenzwert des Differenzenquotienten deuten/interpretieren können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Interpretation: Durch die Verabreichung des Arzneistoffs erhöht sich dessen Konzentration im Blut der Patientin um 4 mg/L."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Interpretation unter Verwendung der richtigen Einheit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den in der Gleichung auftretenden Zahlenwert 4 im gegebenen Kontext unter Verwendung der entsprechenden Einheit."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Durch die Verabreichung des Arzneistoffs erhöht sich dessen Konzentration im Blut der Patientin um 4 mg/L."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine richtige Interpretation unter Verwendung der richtigen Einheit.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Einer Patientin wird täglich um 8:00 Uhr ein Arzneistoff intravenös verabreicht.\nDie Konzentration des Arzneistoffs im Blut der Patientin am Tag t unmittelbar vor der Verabreichung des Arzneistoffs wird mit cₜ bezeichnet (cₜ in Milligramm/Liter).\n\nFür t ∈ ℕ gilt: "
+    },
+    {
+      "t": "math",
+      "v": "c_{t+1}=0{,}3\\cdot(c_t+4)"
+    }
+  ]
+}

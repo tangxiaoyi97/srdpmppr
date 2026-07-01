@@ -1,0 +1,112 @@
+{
+  "id": "2024-wt-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2024w1]t1-13-fa.pdf"
+  },
+  "title": "Staffelmarathon",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-13-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-13-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1328a",
+          "baseId": "1_1328",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/876/1_1328_srdp_ma_Staffelmarathon_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Person: B;  prozentuelle Änderung: –9,375 %"
+            }
+          ],
+          "note": "Ein halber Punkt für das Angeben der richtigen Person und ein halber Punkt für das richtige Berechnen der prozentuellen Änderung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie diejenige Person an, deren Laufzeit sich prozentuell am meisten verändert hat, und berechnen Sie diese prozentuelle Änderung.\n\nPerson:\n\nprozentuelle Änderung:               %"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Person: B\n\nprozentuelle Änderung: –9,375 %"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein halber Punkt für das Angeben der richtigen Person.",
+            "points": 0.5
+          },
+          {
+            "desc": "Ein halber Punkt für das richtige Berechnen der prozentuellen Änderung.",
+            "points": 0.5
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1328",
+      "baseId": "1_1328",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/876/1_1328_srdp_ma_Staffelmarathon_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Alljährlich treten Teams zu je vier Personen beim Staffelmarathon in Linz an. Dabei wird in auf vier aufeinanderfolgenden Streckenabschnitten insgesamt ein Marathon (ca. 42,2 km) absolviert.\n\nEin bestimmtes Team besteht aus den Personen A, B, C und D. Die nachstehende Tabelle zeigt die erreichten Laufzeiten in den Jahren 2017 und 2018 für die jeweiligen Streckenabschnitte."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-13-q.png",
+      "alt": "Tabelle Laufzeiten: 1. Streckenabschnitt Person A, 2. Person B, 3. Person C, 4. Person D — 2017: 43 min, 1 h 4 min, 41 min, 1 h 8 min; 2018: 41 min, 58 min, 42 min, 1 h 2 min."
+    }
+  ]
+}

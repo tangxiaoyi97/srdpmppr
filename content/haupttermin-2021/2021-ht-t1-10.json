@@ -1,0 +1,171 @@
+{
+  "id": "2021-ht-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2021h1]t1-10-fa.pdf"
+  },
+  "title": "Quadratische Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t1-10-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 3.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_839a",
+          "baseId": "1_839",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/632/QuadratischeFunktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "a=-c"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "-f(x)=g(x)\\ \\text{für alle}\\ x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung sind die Graphen der beiden reellen Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt. Es gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^2+b\\ \\text{mit}\\ a,\\,b\\in\\mathbb{R}"
+        },
+        {
+          "t": "math",
+          "v": "g(x)=c\\cdot x^2+d\\ \\text{mit}\\ c,\\,d\\in\\mathbb{R}"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-10-q.png",
+          "alt": "Koordinatensystem mit zwei nach oben bzw. unten geöffneten Parabeln f und g; f nach oben geöffnet (Scheitel bei (0|1)), g nach unten geöffnet (Scheitel bei (0|-1)). Achse f(x), g(x) von -4 bis 4."
+        },
+        {
+          "t": "text",
+          "v": "Die Koordinaten der gekennzeichneten Punkte sind ganzzahlig.\n\nKreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "d=f(0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=-c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-f(x)=g(x)\\ \\text{für alle}\\ x\\in\\mathbb{R}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(2)=g(2)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_839",
+      "baseId": "1_839",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/632/QuadratischeFunktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

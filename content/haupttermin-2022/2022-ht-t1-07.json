@@ -1,0 +1,214 @@
+{
+  "id": "2022-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2022h1]t1-7-fa.pdf"
+  },
+  "title": "Eigenschaften reeller Funktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-07-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1185a",
+          "baseId": "1_1185",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/727/Eigenschaften%20reeller%20Funktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "f(x)=f(–x) → B, f(x+m)=f(x) → E, f(x₁)>f(x₂) → D, f(x)≠0 → F."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Eigenschaften jeweils die zutreffende Aussage aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Für alle x ∈ ℝ gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=f(-x)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für ein bestimmtes m ∈ ℝ⁺ gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x+m)=f(x)"
+            },
+            {
+              "t": "text",
+              "v": " für alle x ∈ ℝ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle x₁, x₂ ∈ ℝ mit x₁ < x₂ gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x_1)>f(x_2)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle x ∈ ℝ gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)\\neq 0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "f ist streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von f ist symmetrisch zur senkrechten Achse."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von f hat eine Asymptote."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f ist streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "f ist periodisch."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph von f hat keinen Schnittpunkt mit der x-Achse."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1185",
+      "baseId": "1_1185",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/727/Eigenschaften%20reeller%20Funktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind Eigenschaften einer reellen Funktion f angegeben."
+    }
+  ]
+}

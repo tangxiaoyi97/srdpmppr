@@ -1,0 +1,112 @@
+{
+  "id": "2026-wt-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2026w1]t1-21-ag.pdf"
+  },
+  "title": "Vogelzählung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-21-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-21-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-21-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.2",
+          "description": "relative Häufigkeit als Schätzwert von Wahrscheinlichkeit verwenden und anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1587a",
+          "baseId": "1_1587",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1101/1_1587_srdp_ma_Vogelz%C3%A4hlung_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\frac{17\\,427}{110\\,965}=0{,}157\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von p."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie p."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.157,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1587",
+      "baseId": "1_1587",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1101/1_1587_srdp_ma_Vogelz%C3%A4hlung_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem bestimmten Gebiet wird von einer Tierschutzorganisation eine Vogelzählung durchgeführt.\n\nDie bis zu einem bestimmten Zeitpunkt erhobenen Ergebnisse dieser Vogelzählung sind in der nachstehenden Tabelle angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-21-q.png",
+      "alt": "Tabelle Vogelart | Anzahl: Kohlmeise | 17 427; Amsel | 9 958; sonstige Vögel | 83 580."
+    },
+    {
+      "t": "text",
+      "v": "Mithilfe der in der obigen Tabelle angegebenen Werte wird der Schätzwert p für die Wahrscheinlichkeit ermittelt, dass der nächste gesichtete Vogel eine Kohlmeise ist."
+    }
+  ]
+}

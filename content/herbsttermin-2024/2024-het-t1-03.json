@@ -1,0 +1,111 @@
+{
+  "id": "2024-het-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2024h2]t1-3-ag.pdf"
+  },
+  "title": "Sprachreise",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.4",
+          "description": "lineare Ungleichungen aufstellen, interpretieren, umformen/lösen, Lösungen (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1366a",
+          "baseId": "1_1366",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/922/1_1366_srdp_ma_Sprachreise_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "U+O \\geq 5 \\cdot B"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Ungleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Ungleichung auf, die den oben angegebenen Zusammenhang zwischen U, O und B beschreibt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Aufstellen einer korrekten Ungleichung für den beschriebenen Zusammenhang, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "U+O \\geq 5 \\cdot B"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Aufstellen der Ungleichung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1366",
+      "baseId": "1_1366",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/922/1_1366_srdp_ma_Sprachreise_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einer Sprachreise nehmen U Schüler/innen der Unterstufe, O Schüler/innen der Oberstufe und B Begleitpersonen teil. Die Gesamtanzahl der Schüler/innen (Unterstufe und Oberstufe) ist mindestens so groß wie das 5-Fache der Anzahl der Begleitpersonen."
+    }
+  ]
+}

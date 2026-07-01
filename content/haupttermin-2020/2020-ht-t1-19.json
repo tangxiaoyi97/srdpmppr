@@ -1,0 +1,119 @@
+{
+  "id": "2020-ht-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2020h1]t1-19-ws.pdf"
+  },
+  "title": "BIP 2018",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-19-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-19-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_776a",
+          "baseId": "1_776",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/560/BIP%202018.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "385{,}71\\cdot 0{,}025=9{,}642\\ldots\\approx 9{,}64"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Leistungsbilanzüberschuss: 9,64 Milliarden Euro"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Leistungsbilanzüberschuss (in Milliarden Euro) von Österreich im Jahr 2018."
+        },
+        {
+          "t": "text",
+          "v": "Leistungsbilanzüberschuss: ___ Milliarden Euro"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "ueberschuss",
+            "label": "Leistungsbilanzüberschuss",
+            "value": 9.64,
+            "tol": 0.01,
+            "unit": "Milliarden Euro"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_776",
+      "baseId": "1_776",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/560/BIP%202018.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Jahr 2018 betrug das Bruttoinlandsprodukt (BIP) von Österreich rund 385,71 Milliarden Euro.\nDatenquelle: https://de.statista.com/statistik/daten/studie/14390/umfrage/bruttoinlandsprodukt-in-oesterreich/ [21.11.2019].\n\nÜbersteigen die Einnahmen aus Exporten die Ausgaben aus Importen, so spricht man von einem Leistungsbilanzüberschuss, andernfalls von einem Leistungsbilanzdefizit. In der nachstehenden Abbildung sind für einige Länder diese Überschüsse bzw. Defizite als Leistungsbilanzsalden in Prozent des jeweiligen BIP für das Jahr 2018 angeführt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-19-q.png",
+      "alt": "Balkendiagramm 'Leistungsbilanzsalden 2018 in % des BIP' mit Defiziten und Überschüssen: Niederlande 11,2; Deutschland 7,7; Italien 2,6; Österreich 2,5; Tschechien −0,2; Ungarn −0,3; Polen −0,4; Frankreich −0,6; Slowakei −1,6."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: https://www.oenb.at/isaweb/report.do?report=10.18 [21.11.2019]."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "id": "2025-het-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2025h2]t2-1.pdf"
+  },
+  "title": "Autokauf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_153a",
+          "baseId": "2_153",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1074/2_153_srdp_ma_Autokauf_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Gesamtkosten in Abhängigkeit von der Zeit lassen sich näherungsweise für das Elektroauto durch die lineare Funktion e: [0; 60] → ℝ⁺ und für das Auto mit Verbrennungsmotor durch die lineare Funktion m: [0; 60] → ℝ⁺ beschreiben (t in Monaten mit t = 0 für den Zeitpunkt des Kaufes, e(t), m(t) in €).\nDer Graph von m ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-01-a-q.png",
+          "alt": "Koordinatensystem mit e(t), m(t) in € (14 000 bis 32 000) über t in Monaten (0 bis 60); der Graph der Geraden m verläuft vom Wert 16 000 bei t = 0 ansteigend."
+        },
+        {
+          "t": "text",
+          "v": "Die Kosten für den Erwerb des Elektroautos betragen € 18.000, die Ausgaben pro Monat betragen € 160.\n\nErmitteln Sie, nach wie vielen Monaten die Gesamtkosten für beide Autos gleich hoch sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 25,
+            "tol": 2,
+            "unit": "Monate"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "m(t)=16\\,000+\\tfrac{12\\,000}{50}\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "e(t)=18\\,000+160\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "m(t)=e(t)\\ \\Rightarrow\\ t=25"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Nach 25 Monaten sind die Gesamtkosten für beide Autos gleich hoch. Toleranzbereich: [23; 27]."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln der Anzahl der Monate."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_153a",
+          "baseId": "2_153",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1074/2_153_srdp_ma_Autokauf_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nFür das Auto mit Verbrennungsmotor betragen die Gesamtkosten nach 12 Monaten rund ①; die Ausgaben pro Monat betragen ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "€ 19.000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "€ 21.000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "€ 17.000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "€ 240"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "€ 480"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "€ 120"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① € 19.000;  ② € 240"
+            }
+          ],
+          "note": "a2) Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-01-a3",
+      "label": "a3",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_153a",
+          "baseId": "2_153",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1074/2_153_srdp_ma_Autokauf_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Frau Klinger entscheidet sich für das Elektroauto und plant, pro Monat 1 600 km mit diesem Elektroauto zu fahren.\n\nBerechnen Sie die zu erwartenden Kosten pro gefahrenem Kilometer nach den ersten 60 Monaten unter Berücksichtigung der Kosten für den Erwerb."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "value": 0.2875,
+            "unit": "€/km"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{18\\,000+160\\cdot 60}{1\\,600\\cdot 60}=\\dfrac{27\\,600}{96\\,000}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}2875\\ \\text{€/km}"
+            }
+          ],
+          "note": "a3) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_153b",
+          "baseId": "2_153",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1074/2_153_srdp_ma_Autokauf_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Energieverbrauch eines bestimmten Elektroautos kann in Abhängigkeit von der Geschwindigkeit modellhaft durch die Funktion f: [8; 130] → ℝ⁺ beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "f(v)=0{,}01\\cdot v^{2}+\\dfrac{545}{v}+56"
+        },
+        {
+          "t": "text",
+          "v": "v ... Geschwindigkeit in km/h\nf(v) ... Energieverbrauch bei der Geschwindigkeit v in Wattstunden pro km\n\nBerechnen Sie die Geschwindigkeit v₁, bei der der Energieverbrauch minimal ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v1",
+            "label": "v₁",
+            "value": 30.09,
+            "tol": 0.5,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f'(v_{1})=0"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "v_{1}=30{,}09\\ldots\\ \\text{km/h}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v_{1}=30{,}09\\ldots\\ \\text{km/h}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen von v₁."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_153",
+      "baseId": "2_153",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1074/2_153_srdp_ma_Autokauf_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Frau Klinger vergleicht die Gesamtkosten für ein bestimmtes Elektroauto mit jenen für ein bestimmtes Auto mit Verbrennungsmotor."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2026-ht-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2026h1]t1-20-ws.pdf"
+  },
+  "title": "Falsche Alarme",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-20-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1610a",
+          "baseId": "1_1610",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1130/1_1610_Falsche%20Alarme_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "(735-165)-360-\\tfrac{1}{19}\\cdot(735-165)=180"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{180}{735}=\\tfrac{12}{49}=0{,}2448\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der relative Anteil beträgt "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{12}{49}"
+            },
+            {
+              "t": "text",
+              "v": ". Die Angabe von 24,48… % ist ebenfalls als richtig zu werten."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des relativen Anteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den relativen Anteil der falschen Alarme der Kategorie C an allen im Jahr 2024 erfassten Alarmen."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "anteil",
+            "value": 0.24489795918367346,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1610",
+      "baseId": "1_1610",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1130/1_1610_Falsche%20Alarme_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine bestimmte Region wurden die im Jahr 2024 bei der Feuerwehr gemeldeten Alarme erfasst.\n\nDie erfassten Alarme wurden in echte und in falsche Alarme eingeteilt.\nDie falschen Alarme wurden weiters in die drei Kategorien A, B und C unterteilt.\n\nEs gilt:\n- Von den 735 erfassten Alarmen waren 165 echte Alarme.\n- Es wurden 360 falsche Alarme der Kategorie A erfasst."
+    },
+    {
+      "t": "text",
+      "v": "- Der Anteil der falschen Alarme der Kategorie B an allen falschen Alarmen betrug "
+    },
+    {
+      "t": "math",
+      "v": "\\tfrac{1}{19}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

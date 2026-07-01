@@ -1,0 +1,133 @@
+{
+  "id": "2020-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2020h1]t1-22-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-22-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_779a",
+          "baseId": "1_779",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/563/Wahrscheinlichkeitsverteilung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: 'Die Wahrscheinlichkeit, höchstens zwei weiße Kugeln zu ziehen, ist 0,9.' und 'Die Wahrscheinlichkeit, mindestens eine schwarze Kugel zu ziehen, ist 0,9.'"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, höchstens zwei weiße Kugeln zu ziehen, ist 0,9."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, mindestens eine weiße Kugel zu ziehen, ist 0,3."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, mehr als eine weiße Kugel zu ziehen, ist 0,6."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, genau zwei schwarze Kugeln und eine weiße Kugel zu ziehen, ist 0,1."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, mindestens eine schwarze Kugel zu ziehen, ist 0,9."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_779",
+      "baseId": "1_779",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/563/Wahrscheinlichkeitsverteilung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Urne befinden sich ausschließlich weiße und schwarze Kugeln. Drei Kugeln werden ohne Zurücklegen gezogen. Die Zufallsvariable X gibt die Anzahl der gezogenen weißen Kugeln an.\n\nDurch die nachstehende Tabelle ist die Wahrscheinlichkeitsverteilung der Zufallsvariablen X gegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-22-tab.png",
+      "alt": "Tabelle der Wahrscheinlichkeitsverteilung: x = 1, 2, 3 mit P(X = x) = 0,3; 0,6; 0,1."
+    }
+  ]
+}

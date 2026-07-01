@@ -1,0 +1,206 @@
+{
+  "id": "2023-ht-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2023h1]t1-20-ws.pdf"
+  },
+  "title": "Zufallsversuch",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-20-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 2.1",
+          "description": "Grundraum und Ereignisse in angemessenen Situationen verbal bzw. formal angeben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1287a",
+          "baseId": "1_1287",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/826/1_1287_srdp_ma_Zufallsversuch_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "P(X<3) → C, P(X≤3) → F, P(X≥3) → A, P(X>3) → E."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Wahrscheinlichkeiten jeweils die jedenfalls gleich große Wahrscheinlichkeit aus A bis F zu."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "P(X<3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le 3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\ge 3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X>3)"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A  "
+            },
+            {
+              "t": "math",
+              "v": "P(X>2)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B  "
+            },
+            {
+              "t": "math",
+              "v": "1-P(X\\le 4)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C  "
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le 2)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D  "
+            },
+            {
+              "t": "math",
+              "v": "P(X=3)+P(X>4)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E  "
+            },
+            {
+              "t": "math",
+              "v": "P(X=4)+P(X\\ge 5)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F  "
+            },
+            {
+              "t": "math",
+              "v": "1-P(X>3)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1287",
+      "baseId": "1_1287",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/826/1_1287_srdp_ma_Zufallsversuch_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem bestimmten Zufallsversuch tritt als Ergebnis entweder „Erfolg“ oder „Misserfolg“ ein. Die Zufallsvariable X gibt an, wie oft „Erfolg“ eintritt, wenn dieser Zufallsversuch 7-mal durchgeführt wird."
+    }
+  ]
+}

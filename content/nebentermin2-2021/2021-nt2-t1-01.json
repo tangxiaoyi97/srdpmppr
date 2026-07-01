@@ -1,0 +1,133 @@
+{
+  "id": "2021-nt2-t1-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 1,
+    "file": "[2021n2]t1-1-ag.pdf"
+  },
+  "title": "Dreieck verschieben",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-1-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-1-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-01-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.2",
+          "description": "Vektoren geometrisch (als Punkte bzw. Pfeile) deuten und verständig einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_806a",
+          "baseId": "1_806",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/594/Dreieck%20verschieben.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "C_1=(5\\mid 6)"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Koordinaten des Punktes C1. Bei nur einer richtigen Koordinate ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Koordinaten des Punktes C₁."
+        },
+        {
+          "t": "math",
+          "v": "C_1=(\\,\\rule{1.2em}{0.4pt}\\,|\\,\\rule{1.2em}{0.4pt}\\,)"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x-Koordinate von C₁",
+            "value": 5
+          },
+          {
+            "id": "y",
+            "label": "y-Koordinate von C₁",
+            "value": 6
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_806",
+      "baseId": "1_806",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/594/Dreieck%20verschieben.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind ein Dreieck mit den Eckpunkten A, B und C sowie der Punkt A₁ dargestellt. Die gekennzeichneten Punkte haben ganzzahlige Koordinaten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-01-q.png",
+      "alt": "Koordinatensystem: Dreieck mit Eckpunkten A, B, C sowie Punkt A₁; A bei (2|1), B bei (7|3), C bei (5|5), A₁ bei (5|3)."
+    },
+    {
+      "t": "text",
+      "v": "Das Dreieck soll so um den Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\overrightarrow{AA_1}"
+    },
+    {
+      "t": "text",
+      "v": " verschoben werden, dass die Punkte A, B und C in die Punkte A₁, B₁ und C₁ übergehen."
+    }
+  ]
+}

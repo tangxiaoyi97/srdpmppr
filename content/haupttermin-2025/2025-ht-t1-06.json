@@ -1,0 +1,129 @@
+{
+  "id": "2025-ht-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2025h1]t1-6-ag.pdf"
+  },
+  "title": "Gang",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1454a",
+          "baseId": "1_1454",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1024/1_1454_srdp_ma_Gang_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overline{AB}=\\frac{3}{\\sin(\\alpha)}+\\frac{2}{\\cos(\\alpha)}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung des Winkels "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " eine Formel zur Berechnung der Länge der Strecke "
+        },
+        {
+          "t": "math",
+          "v": "\\overline{AB}"
+        },
+        {
+          "t": "text",
+          "v": " auf.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\overline{AB}="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "3/sin(alpha)+2/cos(alpha)",
+        "vars": [
+          "alpha"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1454",
+      "baseId": "1_1454",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1024/1_1454_srdp_ma_Gang_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende (nicht maßstabgetreue) Abbildung zeigt einen Gang in einem Gebäude. Der Gang hat eine Breite von 3 m bzw. 2 m.\n\nDie Strecke "
+    },
+    {
+      "t": "math",
+      "v": "\\overline{AB}"
+    },
+    {
+      "t": "text",
+      "v": " verläuft durch den Eckpunkt E."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-06-q.png",
+      "alt": "Nicht maßstabgetreue Abbildung eines abgewinkelten Gangs der Breite 3 m bzw. 2 m; die Strecke AB verläuft schräg durch den inneren Eckpunkt E, der Winkel α liegt bei E."
+    }
+  ]
+}

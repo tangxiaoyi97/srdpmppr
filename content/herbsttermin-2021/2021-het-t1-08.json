@@ -1,0 +1,103 @@
+{
+  "id": "2021-het-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2021h2]t1-8-fa.pdf"
+  },
+  "title": "Erlösfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-08-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_861a",
+          "baseId": "1_861",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/670/Erloesfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(x)=(3\\,000-250\\cdot x)\\cdot x=3\\,000\\cdot x-250\\cdot x^{2}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von E."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein bestimmtes Produkt kann der Zusammenhang zwischen der nachgefragten Menge x und dem Nachfragepreis p(x) durch die nachstehend dargestellte lineare Funktion p modelliert werden.\nx ... nachgefragte Menge in Mengeneinheiten (ME), 0 ≤ x ≤ 12\np(x) ... Nachfragepreis bei der Menge x in Geldeinheiten pro Mengeneinheit (GE/ME)"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t1-08-q.png",
+          "alt": "Graph der linearen Funktion p (p(x) in GE/ME über x in ME); p(0)=3000, fallend."
+        },
+        {
+          "t": "text",
+          "v": "Für die Erlösfunktion E gilt: E(x) = p(x) ∙ x.\n\nStellen Sie eine Funktionsgleichung von E auf."
+        },
+        {
+          "t": "math",
+          "v": "E(x)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "(3000-250\\cdot x)\\cdot x",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_861",
+      "baseId": "1_861",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/670/Erloesfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "2025-wt-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2025w1]t1-22-ws.pdf"
+  },
+  "title": "Lieblingslied",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-22-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1446a",
+          "baseId": "1_1446",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1008/1_1446_srdp_ma_Lieblingslied_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\left(\\tfrac{19}{20}\\right)^{4}\\cdot\\tfrac{1}{20}=0{,}0407\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass Taylors Lieblingslied genau als 5. Lied erstmals abgespielt wird, beträgt rund 4,1 %."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass Taylors Lieblingslied genau als 5. Lied erstmals abgespielt wird."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 4.1,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1446",
+      "baseId": "1_1446",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1008/1_1446_srdp_ma_Lieblingslied_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Taylor hat 20 verschiedene Lieder auf ihrem Smartphone gespeichert. Eines dieser Lieder ist ihr Lieblingslied.\n\nAus allen 20 Liedern wird 1 Lied nach dem Zufallsprinzip ausgewählt und abgespielt. Wenn ein Lied endet, wird mit jeweils gleicher Wahrscheinlichkeit von diesen 20 Liedern wieder 1 Lied nach dem Zufallsprinzip ausgewählt und abgespielt."
+    }
+  ]
+}

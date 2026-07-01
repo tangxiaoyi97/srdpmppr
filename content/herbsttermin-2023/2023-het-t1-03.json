@@ -1,0 +1,143 @@
+{
+  "id": "2023-het-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2023h2]t1-3-ag.pdf"
+  },
+  "title": "Apfelsaft und Orangensaft",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1294a",
+          "baseId": "1_1294",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/838/1_1294_srdp_ma_Apfelsaft%20und%20Orangensaft_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "I: "
+            },
+            {
+              "t": "math",
+              "v": "a + b = 375"
+            },
+            {
+              "t": "text",
+              "v": ";  II: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}80 \\cdot a + 1 \\cdot b = 339"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Erstellen des Gleichungssystems mit zwei Gleichungen, ein halber Punkt für nur eine richtige Gleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erstellen Sie ein Gleichungssystem zur Berechnung von a und b."
+        },
+        {
+          "t": "math",
+          "v": "\\text{I}:"
+        },
+        {
+          "t": "math",
+          "v": "\\text{II}:"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das Gleichungssystem besteht aus den beiden Gleichungen\nI: "
+          },
+          {
+            "t": "math",
+            "v": "a + b = 375"
+          },
+          {
+            "t": "text",
+            "v": "\nII: "
+          },
+          {
+            "t": "math",
+            "v": "0{,}80 \\cdot a + 1 \\cdot b = 339"
+          },
+          {
+            "t": "text",
+            "v": "\n(eine richtige Gleichung = ein halber Punkt; beide richtigen Gleichungen = ein Punkt)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1294",
+      "baseId": "1_1294",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/838/1_1294_srdp_ma_Apfelsaft%20und%20Orangensaft_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer Veranstaltung werden als Getränke ausschließlich Apfelsaft und Orangensaft in Bechern zum Verkauf angeboten.\nInsgesamt werden bei dieser Veranstaltung 375 Becher verkauft, davon a Becher Apfelsaft zu je € 0,80 und b Becher Orangensaft zu je € 1,00.\nDer dabei erzielte Verkaufserlös beträgt € 339,00."
+    }
+  ]
+}

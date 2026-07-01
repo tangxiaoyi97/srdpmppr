@@ -1,0 +1,178 @@
+{
+  "id": "2024-ht-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2024h1]t1-5-ag.pdf"
+  },
+  "title": "Parameterdarstellung einer Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-05-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1344a",
+          "baseId": "1_1344",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/896/1_1344_srdp_ma_Parameterdarstellung%20einer%20Geraden_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend ist die Gerade "
+            },
+            {
+              "t": "math",
+              "v": "g_2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die Darstellung derjenigen Geraden an, die eine Parameterdarstellung der Form"
+        },
+        {
+          "t": "math",
+          "v": "X=\\begin{pmatrix} a_1 \\\\ a_2 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": "mit "
+        },
+        {
+          "t": "math",
+          "v": "t\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "a_1, a_2\\in\\mathbb{Z}"
+        },
+        {
+          "t": "text",
+          "v": " hat."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-05-q.png",
+          "alt": "Sechs Koordinatensysteme mit den Geraden g1 bis g6; die gekennzeichneten Punkte haben ganzzahlige Koordinaten."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "g_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g_3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g_4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g_5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g_6"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1344",
+      "baseId": "1_1344",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/896/1_1344_srdp_ma_Parameterdarstellung%20einer%20Geraden_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Unten stehend sind die sechs Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g_1, g_2, \\ldots, g_6"
+    },
+    {
+      "t": "text",
+      "v": " grafisch dargestellt. Die gekennzeichneten Punkte der Geraden haben ganzzahlige Koordinaten."
+    }
+  ]
+}

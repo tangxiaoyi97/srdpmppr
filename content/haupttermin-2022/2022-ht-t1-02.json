@@ -1,0 +1,161 @@
+{
+  "id": "2022-ht-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2022h1]t1-2-ag.pdf"
+  },
+  "title": "Quadratische Gleichung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-2-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-2-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-02-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1180a",
+          "baseId": "1_1180",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/723/Quadratische%20Gleichung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "x^{2}-6\\cdot x+a+4=0"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "3^{2}-(a+4)>0"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "a+4<9"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a<5"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln aller Werte von a."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie alle Werte von a, für die die gegebene Gleichung zwei verschiedene Lösungen in ℝ hat."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Umformen auf "
+          },
+          {
+            "t": "math",
+            "v": "x^{2}-6\\cdot x+a+4=0"
+          },
+          {
+            "t": "text",
+            "v": ". Zwei verschiedene reelle Lösungen genau dann, wenn die Diskriminante positiv ist: "
+          },
+          {
+            "t": "math",
+            "v": "3^{2}-(a+4)>0"
+          },
+          {
+            "t": "text",
+            "v": ", also "
+          },
+          {
+            "t": "math",
+            "v": "a+4<9"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "a<5"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Ermitteln aller Werte von a.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1180",
+      "baseId": "1_1180",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/723/Quadratische%20Gleichung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die folgende quadratische Gleichung in der Variablen x:"
+    },
+    {
+      "t": "math",
+      "v": "3\\cdot x^{2}+a=2\\cdot x^{2}+6\\cdot x-4\\quad\\text{mit}\\ a\\in\\mathbb{R}"
+    }
+  ]
+}

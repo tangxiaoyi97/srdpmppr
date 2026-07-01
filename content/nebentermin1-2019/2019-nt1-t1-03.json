@@ -1,0 +1,104 @@
+{
+  "id": "2019-nt1-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2019n1]t1-3-ag.pdf"
+  },
+  "title": "Darstellung im Koordinatensystem",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019/[2019n1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019/lo/[2019n1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt1-t1-03-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_712a",
+          "baseId": "1_712",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/451/Darstellung%20im%20Koordinatensystem.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t=-5"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie den Wert des Parameters t so, dass die Gleichung B = A + t · v erfüllt ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": -5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_712",
+      "baseId": "1_712",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/451/Darstellung%20im%20Koordinatensystem.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachstehenden Koordinatensystem sind der Vektor v sowie die Punkte A und B dargestellt. Die Komponenten des dargestellten Vektors v und die Koordinaten der beiden Punkte A und B sind ganzzahlig."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2019/fig/2019-nt1-t1-03-q.png",
+      "alt": "Koordinatensystem mit dem Vektor v (Pfeil), dem Punkt B (oben links, bei etwa (–1 | 8)) und dem Punkt A (rechts, bei etwa (9 | 4)); alle Koordinaten ganzzahlig."
+    }
+  ]
+}

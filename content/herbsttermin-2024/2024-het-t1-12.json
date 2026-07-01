@@ -1,0 +1,237 @@
+{
+  "id": "2024-het-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2024h2]t1-12-fa.pdf"
+  },
+  "title": "Periodenlängen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-12-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 6.4",
+          "description": "Periodizität als charakteristische Eigenschaft kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1375a",
+          "baseId": "1_1375",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/931/1_1375_srdp_ma_Periodenl%C3%A4ngen%20_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "p_g = 2 \\cdot \\pi \\cdot a"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{p_f}{p_g} = \\tfrac{1}{a^2}"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nFür p_g gilt: ① ; für "
+        },
+        {
+          "t": "math",
+          "v": "\\tfrac{p_f}{p_g}"
+        },
+        {
+          "t": "text",
+          "v": " gilt: ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "p_g = 2 \\cdot \\pi"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_g = \\tfrac{2 \\cdot \\pi}{a}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p_g = 2 \\cdot \\pi \\cdot a"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{p_f}{p_g} = a^2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{p_f}{p_g} = \\tfrac{1}{a^2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{p_f}{p_g} = 2 \\cdot \\pi \\cdot a^2"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1375",
+      "baseId": "1_1375",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/931/1_1375_srdp_ma_Periodenl%C3%A4ngen%20_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f: \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\sin(a \\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g: \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "g(x)=\\sin\\!\\left(\\tfrac{1}{a} \\cdot x\\right)"
+    },
+    {
+      "t": "text",
+      "v": ".\nDabei gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a > 1"
+    },
+    {
+      "t": "text",
+      "v": "\nDie (kleinste) Periodenlänge von f wird mit "
+    },
+    {
+      "t": "math",
+      "v": "p_f"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet, die (kleinste) Periodenlänge von g wird mit "
+    },
+    {
+      "t": "math",
+      "v": "p_g"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet."
+    }
+  ]
+}

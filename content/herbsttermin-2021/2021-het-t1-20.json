@@ -1,0 +1,100 @@
+{
+  "id": "2021-het-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2021h2]t1-20-an.pdf"
+  },
+  "title": "Veränderung von Zahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-20-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-20-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-20-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_873a",
+          "baseId": "1_873",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/682/Veraenderung_von_Zahlen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel: 66; Spannweite: 74"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte Datenliste besteht aus 100 Zahlen x₁, x₂, …, x₁₀₀. Das arithmetische Mittel der Datenliste beträgt 86, deren Minimum 29 und deren Maximum 103.\n\nEine zweite Datenliste besteht ebenfalls aus 100 Zahlen. Sie entsteht dadurch, dass jede Zahl der ursprünglichen Datenliste um 20 verkleinert wird.\n\nGeben Sie für die zweite Datenliste das arithmetische Mittel und die Spannweite an."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "mittel",
+            "label": "arithmetisches Mittel",
+            "value": 66,
+            "tol": 1e-9
+          },
+          {
+            "id": "spannweite",
+            "label": "Spannweite",
+            "value": 74,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "perBlank",
+        "pointsPerCorrect": 0.5,
+        "max": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_873",
+      "baseId": "1_873",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/682/Veraenderung_von_Zahlen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

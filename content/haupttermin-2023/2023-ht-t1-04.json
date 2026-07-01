@@ -1,0 +1,149 @@
+{
+  "id": "2023-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2023h1]t1-4-ag.pdf"
+  },
+  "title": "Grafische Darstellung von Vektoren",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-04-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AG 3.3",
+          "description": "Definition der Rechenoperationen mit Vektoren (Addition, Multiplikation mit einem Skalar, Skalarmultiplikation) kennen, Rechenoperationen verständig einsetzen und (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1271a",
+          "baseId": "1_1271",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/810/1_1271_srdp_ma_Grafische%20Darstellung%20von%20Vektoren_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [
+        {
+          "kind": "image",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-04-q.png",
+          "alt": "Koordinatengitter mit den Vektoren a und c ausgehend von P"
+        }
+      ],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-04-sol.png",
+              "alt": "Lösung: Vektor b als Pfeil ausgehend von P eingezeichnet"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Vektors b als Pfeil ausgehend von P."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie ausgehend vom Punkt P den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec b"
+        },
+        {
+          "t": "text",
+          "v": " als Pfeil so ein, dass gilt:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\vec a + \\vec b = \\vec c"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Den Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec b"
+          },
+          {
+            "t": "text",
+            "v": " als Pfeil ausgehend von P einzeichnen mit "
+          },
+          {
+            "t": "math",
+            "v": "\\vec b=\\vec c-\\vec a"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1271",
+      "baseId": "1_1271",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/810/1_1271_srdp_ma_Grafische%20Darstellung%20von%20Vektoren_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die zwei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec c"
+    },
+    {
+      "t": "text",
+      "v": " als Pfeile ausgehend vom Punkt P dargestellt."
+    }
+  ]
+}

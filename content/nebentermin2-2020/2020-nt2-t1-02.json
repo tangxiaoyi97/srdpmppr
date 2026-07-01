@@ -1,0 +1,105 @@
+{
+  "id": "2020-nt2-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2020n2]t1-2-ws.pdf"
+  },
+  "title": "Verkehrsunfallstatistik",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-2-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-2-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_735a",
+          "baseId": "1_735",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/511/Verkehrsunfallstatistik.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N=\\dfrac{A\\cdot a}{100}+\\dfrac{B\\cdot b}{100}+\\dfrac{C\\cdot c}{100}"
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Term. Äquivalente Terme sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Term für die Gesamtanzahl N der Straßenverkehrsunfälle mit Personenschaden im Zeitraum von 2014 bis 2016 an."
+        },
+        {
+          "t": "math",
+          "v": "N="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "A*a/100 + B*b/100 + C*c/100",
+        "vars": [
+          "A",
+          "a",
+          "B",
+          "b",
+          "C",
+          "c"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_735",
+      "baseId": "1_735",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/511/Verkehrsunfallstatistik.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehenden Angaben beziehen sich auf Straßenverkehrsunfälle im Zeitraum von 2014 bis 2016.\n\nA ... Anzahl der Straßenverkehrsunfälle im Jahr 2014, davon a % mit Personenschaden\nB ... Anzahl der Straßenverkehrsunfälle im Jahr 2015, davon b % mit Personenschaden\nC ... Anzahl der Straßenverkehrsunfälle im Jahr 2016, davon c % mit Personenschaden"
+    }
+  ]
+}

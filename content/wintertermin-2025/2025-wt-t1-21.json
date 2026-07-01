@@ -1,0 +1,104 @@
+{
+  "id": "2025-wt-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2025w1]t1-21-ws.pdf"
+  },
+  "title": "Pizzatemperatur",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-21-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 1.2",
+          "description": "Tabellen und einfache statistische Grafiken erstellen, zwischen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1445a",
+          "baseId": "1_1445",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1007/1_1445_srdp_ma_Pizzatemperatur_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Boxplot: Minimum 40 °C, q₁ = 50 °C, Median 60 °C, q₃ = Maximum = 90 °C."
+            }
+          ],
+          "figures": [],
+          "note": "Ein Punkt für das richtige Einzeichnen des Boxplots."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung den zugehörigen Boxplot ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-21-q.png",
+          "alt": "Leere Skala für den Boxplot von 30 bis 90, Temperatur in °C."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Boxplot mit Minimum 40 °C, 1. Quartil q₁ = 50 °C, Median 60 °C, 3. Quartil q₃ = 90 °C und Maximum 90 °C (q₃ und Maximum fallen zusammen)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1445",
+      "baseId": "1_1445",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1007/1_1445_srdp_ma_Pizzatemperatur_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Pizzalieferant hat die Temperaturen seiner zugestellten Pizzen gemessen.\n\n- Mindestens 75 % der zugestellten Pizzen hatten eine Temperatur von 50 °C oder mehr.\n- Mindestens 25 % der zugestellten Pizzen hatten eine Temperatur von 50 °C oder weniger.\n- Der Median liegt bei 60 °C.\n- Das Temperaturminimum beträgt 40 °C.\n- Das Temperaturmaximum beträgt 90 °C und ist gleich dem 3. Quartil q₃."
+    }
+  ]
+}

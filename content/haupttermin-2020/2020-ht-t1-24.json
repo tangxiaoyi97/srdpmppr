@@ -1,0 +1,106 @@
+{
+  "id": "2020-ht-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2020h1]t1-24-ws.pdf"
+  },
+  "title": "Konditionierungsexperiment",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "h=\\frac{40}{50}=0{,}8"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}91-0{,}8=0{,}11"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "a=0{,}8-0{,}11=0{,}69"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=0{,}69"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die untere Grenze a des Konfidenzintervalls."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.69,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Konditionierungsexperiment lernen Schäferhunde die Bedienung eines Mechanismus, um Futter zu erhalten. Nach einer Trainingsphase, an der 50 Schäferhunde teilnehmen, können 40 von ihnen den Mechanismus bedienen.\n\nDer relative Anteil dieser Schäferhunde, die nach der Trainingsphase den Mechanismus bedienen können, wird mit h bezeichnet.\n\nAus diesen Daten wird ein um h symmetrisches Konfidenzintervall [a; 0,91] mit a ∈ ℝ für den unbekannten Anteil p aller Schäferhunde ermittelt, die nach einer solchen Trainingsphase den Mechanismus bedienen können."
+    }
+  ]
+}

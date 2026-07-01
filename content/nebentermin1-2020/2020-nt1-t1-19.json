@@ -1,0 +1,134 @@
+{
+  "id": "2020-nt1-t1-19",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 19,
+    "file": "[2020n1]t1-19-ws.pdf"
+  },
+  "title": "Boxplots von Körpergrößen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-19-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-19-ws.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-19-q.png",
+      "alt": "Zwei Boxplots (4A und 4B) der Körpergröße in cm auf einer Skala von 135 bis 175 cm."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-19-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_800a",
+          "baseId": "1_800",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/584/Boxplots%20von%20Koerpergroessen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „In der 4B sind mehr Schulkinder größer als 160 cm als in der 4A.“ und „Die Spannweite der Körpergröße ist in der 4A größer als in der 4B.“."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die auf jeden Fall zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "In der 4A ist mehr als die Hälfte der Schulkinder kleiner als 150 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In der 4B sind mehr Schulkinder größer als 160 cm als in der 4A."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite der Körpergröße ist in der 4A größer als in der 4B."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das größte Schulkind der beiden Klassen besucht die 4B."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In der 4A ist 160 cm die häufigste Körpergröße."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_800",
+      "baseId": "1_800",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/584/Boxplots%20von%20Koerpergroessen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehenden Boxplots (Kastenschaubilder) stellen für zwei Klassen (4A und 4B) die Verteilung der Körpergröße der Schulkinder der jeweiligen Klasse dar. Beide Klassen werden von gleich vielen Schulkindern besucht."
+    }
+  ]
+}

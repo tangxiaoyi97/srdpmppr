@@ -1,0 +1,106 @@
+{
+  "id": "2020-nt2-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2020n2]t1-6-ag.pdf"
+  },
+  "title": "Räumliches Sehen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-06-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_739a",
+          "baseId": "1_739",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/515/R%C3%A4umliches%20Sehen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g=\\dfrac{d}{2\\cdot\\sin\\!\\left(\\tfrac{\\varepsilon}{2}\\right)}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Abstand g in Abhängigkeit vom Augenabstand d und vom Winkel ε an."
+        },
+        {
+          "t": "math",
+          "v": "g="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "d / (2*sin(ε/2))",
+        "vars": [
+          "d",
+          "ε"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_739",
+      "baseId": "1_739",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/515/R%C3%A4umliches%20Sehen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Betrachtet man einen Gegenstand, so schließen die Blickrichtungen der beiden Augen einen Winkel ε ein. In der nachstehend dargestellten Situation hat der Gegenstand G zu den beiden Augen A₁ und A₂ den gleichen Abstand g. Der Augenabstand wird mit d bezeichnet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-06-q.png",
+      "alt": "Skizze: zwei Augen A₁ und A₂ im Abstand d; vom Gegenstand G aus jeweils Abstand g zu beiden Augen; am Gegenstand G der eingeschlossene Winkel ε."
+    }
+  ]
+}

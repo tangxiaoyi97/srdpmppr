@@ -1,0 +1,97 @@
+{
+  "id": "2021-het-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2021h2]t1-14-an.pdf"
+  },
+  "title": "Differenzengleichung",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-14-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "AN 1.4",
+          "description": "Differenzialquotient (Ableitung, momentane Änderungsrate) als Grenzwert des Differenzenquotienten deuten/interpretieren können",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "x_1=1{,}2\\cdot x_0-2"
+            },
+            {
+              "t": "math",
+              "v": "x_2=1{,}2\\cdot(1{,}2\\cdot x_0-2)-2"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_2=1{,}44\\cdot x_0-4{,}4"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist für n ∈ ℕ die Differenzengleichung "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}=1{,}2\\cdot x_n-2"
+        },
+        {
+          "t": "text",
+          "v": " mit dem Startwert "
+        },
+        {
+          "t": "math",
+          "v": "x_0\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nStellen Sie mithilfe von x₀ eine Formel zur Berechnung von x₂ auf."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1.44\\cdot x_0-4.4",
+        "vars": [
+          "x_0"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": []
+}

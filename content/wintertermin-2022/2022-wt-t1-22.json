@@ -1,0 +1,122 @@
+{
+  "id": "2022-wt-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2022w1]t1-22-ws.pdf"
+  },
+  "title": "Sektoren eines Glücksrads",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-22-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_899a",
+          "baseId": "1_899",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/701/Sektoren_eines_Gluecksrads.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mit "
+            },
+            {
+              "t": "math",
+              "v": "(1 - p)^{3}"
+            },
+            {
+              "t": "text",
+              "v": " kann die Wahrscheinlichkeit dafür berechnet werden, dass bei 3-maligem Drehen nach keiner dieser Drehungen der Zeiger des Glücksrads auf den gelben Sektor zeigt."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Beschreiben im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beschreiben Sie ein mögliches Ereignis im gegebenen Sachzusammenhang, dessen Wahrscheinlichkeit durch "
+        },
+        {
+          "t": "math",
+          "v": "(1 - p)^{3}"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mit "
+          },
+          {
+            "t": "math",
+            "v": "(1 - p)^{3}"
+          },
+          {
+            "t": "text",
+            "v": " kann die Wahrscheinlichkeit dafür berechnet werden, dass bei 3-maligem Drehen nach keiner dieser Drehungen der Zeiger des Glücksrads auf den gelben Sektor zeigt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_899",
+      "baseId": "1_899",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/701/Sektoren_eines_Gluecksrads.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmtes Glücksrad hat drei unterschiedlich große Sektoren. Einer dieser Sektoren ist grün markiert, einer ist rot markiert und einer ist gelb markiert.\nDie Wahrscheinlichkeit, dass der Zeiger des Glücksrads nach einer Drehung auf den gelben Sektor zeigt, beträgt für jede Drehung des Glücksrads (unabhängig von den vorangegangenen Drehungen) konstant p."
+    }
+  ]
+}

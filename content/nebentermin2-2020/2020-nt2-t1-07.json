@@ -1,0 +1,110 @@
+{
+  "id": "2020-nt2-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2020n2]t1-7-an.pdf"
+  },
+  "title": "Gewinnfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_740a",
+          "baseId": "1_740",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/516/Gewinnfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "G ist eine lineare Funktion, deren Graph durch die Punkte (0 | –3) und (5 | 0) verläuft."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-07-sol.png",
+              "alt": "Lösung: Graph von G als Gerade durch (0 | –3) und (5 | 0)."
+            }
+          ],
+          "note": "Ein Punkt für die Darstellung des Graphen der Funktion G, wobei G eine lineare Funktion sein muss, deren Graph durch die beiden Punkte (0 | –3) und (5 | 0) verläuft."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung den Graphen von G ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-07-q.png",
+          "alt": "Koordinatensystem mit den Graphen der linearen Kostenfunktion K und der linearen Erlösfunktion E für x ∈ [0; 6]; Achse K(x), E(x), G(x) von –8 bis 8."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Graph von G ist eine lineare Funktion, deren Graph durch die beiden Punkte (0 | –3) und (5 | 0) verläuft."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_740",
+      "baseId": "1_740",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/516/Gewinnfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt eine lineare Kostenfunktion K: x ↦ K(x) und eine lineare Erlösfunktion E: x ↦ E(x) mit x ∈ [0; 6].\n\nFür die Gewinnfunktion G: x ↦ G(x) gilt für alle x ∈ [0; 6]: G(x) = E(x) – K(x)."
+    }
+  ]
+}

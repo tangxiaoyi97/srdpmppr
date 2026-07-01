@@ -1,0 +1,100 @@
+{
+  "id": "2021-het-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2021",
+    "year": 2021,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2021h2]t1-11-fa.pdf"
+  },
+  "title": "Medikament",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-het-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_864a",
+          "baseId": "1_864",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/673/Medikament.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "100=700\\cdot 0{,}92^{t}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "t=23{,}3\\ldots\\ \\text{h}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln der Anzahl an Stunden."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der schmerzlindernde Wirkstoff eines Medikaments wird im Körper eines bestimmten Patienten annähernd exponentiell abgebaut. Dabei nimmt die Wirkstoffmenge pro Stunde um 8 % ab.\nZum Zeitpunkt t = 0 beträgt die Wirkstoffmenge 700 Mikrogramm.\n\nErmitteln Sie, nach welcher Zeit (in h) die Wirkstoffmenge im Körper des Patienten auf 100 Mikrogramm gesunken ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "t",
+            "label": "t",
+            "value": 23.3,
+            "tol": 0.1,
+            "unit": "h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_864",
+      "baseId": "1_864",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/673/Medikament.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ]
+}

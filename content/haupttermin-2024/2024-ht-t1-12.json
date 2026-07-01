@@ -1,0 +1,183 @@
+{
+  "id": "2024-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2024h1]t1-12-fa.pdf"
+  },
+  "title": "Sinusfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.1",
+          "description": "grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge der Art f(x) = a * sin(b * x) als allgemeine Sinusfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1351a",
+          "baseId": "1_1351",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/903/1_1351_srdp_ma_Sinusfunktion_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=3"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "b=4"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln beider Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie a und b."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 3,
+            "tol": 1e-9
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1351",
+      "baseId": "1_1351",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/903/1_1351_srdp_ma_Sinusfunktion_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Funktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a, b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-12-q.png",
+      "alt": "Graph der Funktion f mit den Nullstellen P1 und P2 auf der positiven x-Achse."
+    },
+    {
+      "t": "text",
+      "v": "Die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P_1=(x_1\\mid 0)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P_2=(x_2\\mid 0)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "x_1=\\tfrac{3\\cdot\\pi}{4}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "x_2=\\pi"
+    },
+    {
+      "t": "text",
+      "v": " liegen auf dem Graphen von f.\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f\\!\\left(\\dfrac{x_1+x_2}{2}\\right)=-3"
+    }
+  ]
+}

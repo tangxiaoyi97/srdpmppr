@@ -1,0 +1,96 @@
+{
+  "id": "2023-wt-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2023w1]t1-24-ws.pdf"
+  },
+  "title": "Glücksrad",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-24-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1267a",
+          "baseId": "1_1267",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/800/1_1267_srdp_ma_Gluecksrad_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n \\cdot \\tfrac{1}{12}"
+            }
+          ],
+          "note": "Ein Punkt für das Angeben des richtigen Erwartungswerts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Erwartungswert für die Anzahl der gewonnenen Preise in Abhängigkeit von n an."
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "n\\cdot\\frac{1}{12}",
+        "vars": [
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1267",
+      "baseId": "1_1267",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/800/1_1267_srdp_ma_Gluecksrad_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Gewinnspiel wird ein Glücksrad gedreht, das in 24 gleich große Sektoren unterteilt ist. Zwei der Sektoren sind grün, alle anderen rot.\n\nFür jede Drehung gilt:\n- Der Zeiger des Glücksrads zeigt auf jeden Sektor mit der gleichen Wahrscheinlichkeit.\n- Zeigt der Zeiger nach der Drehung auf einen grünen Sektor, gewinnt man einen Preis.\n- Zeigt der Zeiger nach der Drehung auf einen roten Sektor, gewinnt man keinen Preis.\n\nDas Glücksrad wird n-mal gedreht. Die Ergebnisse der Drehungen sind voneinander unabhängig."
+    }
+  ]
+}

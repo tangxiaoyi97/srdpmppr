@@ -1,0 +1,211 @@
+{
+  "id": "2024-wt-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2024",
+    "year": 2024,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2024w1]t1-12-fa.pdf"
+  },
+  "title": "Sinusfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2024/[2024w1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2024/lo/[2024w1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-wt-t1-12-a",
+      "label": "a",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1327a",
+          "baseId": "1_1327",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/875/1_1327_srdp_ma_Sinusfunktionen_PT3_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Graph 1 → B; Graph 2 → E; Graph 3 → D; Graph 4 → F."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Graphen jeweils die passende Bedingung für a und b aus A bis F zu."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-q.png",
+          "alt": "Vier Abbildungen mit Graphen von f(x) = a·sin(b·x) im Bereich x von –π/2 bis 2π, y von –2 bis 2 (Graphen 1 bis 4 von oben nach unten)."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Graph 1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Graph 2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Graph 3"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Graph 4"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: "
+            },
+            {
+              "t": "math",
+              "v": "a<0\\ \\text{und}\\ b<1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: "
+            },
+            {
+              "t": "math",
+              "v": "a<0\\ \\text{und}\\ b>1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: "
+            },
+            {
+              "t": "math",
+              "v": "0<a<1\\ \\text{und}\\ b<1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: "
+            },
+            {
+              "t": "math",
+              "v": "0<a<1\\ \\text{und}\\ b>1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: "
+            },
+            {
+              "t": "math",
+              "v": "a>1\\ \\text{und}\\ b<1"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: "
+            },
+            {
+              "t": "math",
+              "v": "a>1\\ \\text{und}\\ b>1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1327",
+      "baseId": "1_1327",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/875/1_1327_srdp_ma_Sinusfunktionen_PT3_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Vier Graphen von Funktionen der Form f(x) = a · sin(b · x) mit a ∈ ℝ und b ∈ ℝ⁺ sind in den unten stehenden Abbildungen dargestellt."
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "id": "2022-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2022h1]t2-3.pdf"
+  },
+  "title": "Weltbevölkerung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.3",
+          "description": "die Wirkung der Parameter a und b (bzw. e^lambda ) kennen und die Parameter in unterschiedlichen Kontexten deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_115a",
+          "baseId": "2_115",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/746/Weltbev%C3%B6lkerung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Zeitraum von 1850 bis 1950 hat sich die Weltbevölkerung annähernd verdoppelt. Nehmen Sie für diesen Zeitraum an, dass die Weltbevölkerung jährlich um den gleichen Prozentsatz gewachsen ist.\n\nBerechnen Sie diesen Prozentsatz."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.7,
+            "tol": 0.05,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "100\\cdot\\sqrt[100]{\\dfrac{2{,}536}{1{,}260}}=1{,}00701\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "100\\cdot\\sqrt[100]{2}=1{,}00695\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Prozentsatz: rund 0,70 %"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen des Prozentsatzes."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_115b",
+          "baseId": "2_115",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/746/Weltbev%C3%B6lkerung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ab 1970 kann die Entwicklung der Weltbevölkerung näherungsweise durch eine lineare Funktion f beschrieben werden.\n\nStellen Sie mithilfe der Werte für die Weltbevölkerung der Kalenderjahre 1970 und 2000 eine Funktionsgleichung von f in Abhängigkeit von der Zeit t auf (t in Jahren mit t = 0 für das Jahr 1970, f(t) in Milliarden)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "(6.140-3.700)/30*t + 3.700",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "k=\\dfrac{6{,}140-3{,}700}{30}=0{,}081\\overline{3}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "d=f(0)=3{,}700"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f(t)=0{,}081\\overline{3}\\cdot t+3{,}700"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_115b",
+          "baseId": "2_115",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/746/Weltbev%C3%B6lkerung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent der mithilfe von f ermittelte Wert für das Kalenderjahr 2020 vom in der obigen Tabelle angegebenen Wert abweicht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": -0.3,
+            "tol": 0.1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(50)=7{,}76\\overline{3}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{7{,}76\\overline{3}-7{,}790}{7{,}790}=-0{,}0029\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Abweichung: rund –0,3 %"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Abweichung in %. Auch die Angabe von 0,3 % ist richtig."
+        }
+      ]
+    },
+    {
+      "id": "2022-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_115c",
+          "baseId": "2_115",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/746/Weltbev%C3%B6lkerung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem anderen Modell wird die Entwicklung der Weltbevölkerung ab 1970 durch die Funktion g modelliert."
+        },
+        {
+          "t": "math",
+          "v": "g(t)=3{,}7\\cdot e^{-0{,}0001\\cdot t^{2}}+0{,}02\\cdot t"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit ab 1970 in Jahren\ng(t) ... Weltbevölkerung zur Zeit t in Milliarden\n\nGemäß diesem Modell wird die Weltbevölkerung zunächst zunehmen und in weiterer Folge abnehmen.\n\nErmitteln Sie mithilfe der Funktion g das Maximum der Weltbevölkerung und das Kalenderjahr, in dem dies gemäß dem Modell eintreten soll."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "max",
+            "label": "Maximum der Weltbevölkerung",
+            "value": 10.1,
+            "tol": 0.2,
+            "unit": "Milliarden"
+          },
+          {
+            "id": "jahr",
+            "label": "Kalenderjahr",
+            "value": 2070,
+            "tol": 1
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Maximum der Weltbevölkerung: rund 10,1 Milliarden; Kalenderjahr: 2070"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_115",
+      "baseId": "2_115",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/746/Weltbev%C3%B6lkerung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Tabelle ist für bestimmte Kalenderjahre die Schätzung der Weltbevölkerung (jeweils zur Jahresmitte) angegeben."
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{c|c} \\text{Kalenderjahr} & \\text{Weltbevölkerung in Milliarden}\\\\\\hline 1850 & 1{,}260\\\\ 1900 & 1{,}650\\\\ 1950 & 2{,}536\\\\ 1960 & 3{,}030\\\\ 1970 & 3{,}700\\\\ 1990 & 5{,}327\\\\ 2000 & 6{,}140\\\\ 2010 & 6{,}957\\\\ 2020 & 7{,}790 \\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "Datenquellen: https://de.statista.com/statistik/daten/studie/1694/umfrage/entwicklung-der-weltbevoelkerungszahl/, https://www.statistik.at/web_de/statistiken/menschen_und_gesellschaft/bevoelkerung/internationale_uebersich/036446.html [17.05.2020]."
+    }
+  ]
+}

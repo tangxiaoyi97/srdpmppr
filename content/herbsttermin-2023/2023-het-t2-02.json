@@ -1,0 +1,411 @@
+{
+  "id": "2023-het-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2023h2]t2-2.pdf"
+  },
+  "title": "Mensch ärgere dich nicht",
+  "rights": {
+    "thirdPartyMaterial": false,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t2-2.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_130a",
+          "baseId": "2_130",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/861/2_130_srdp_ma_Mensch%20%C3%A4rgere%20Dich%20nicht_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem Stoffsäckchen befinden sich 4 rote, 4 gelbe und 4 blaue Spielfiguren eines „Mensch ärgere Dich nicht“-Spieles. Isabella zieht zufällig und ohne Zurücklegen 4 Spielfiguren."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass alle 4 gezogenen Spielfiguren rot sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.00202,
+            "tol": 0.0001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{4}{12} \\cdot \\frac{3}{11} \\cdot \\frac{2}{10} \\cdot \\frac{1}{9} = \\frac{1}{495} = 0{,}0020\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass alle 4 gezogenen Spielfiguren rot sind, beträgt rund 0,2 %."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass alle 4 gezogenen Spielfiguren rot sind."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_130a",
+          "baseId": "2_130",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/861/2_130_srdp_ma_Mensch%20%C3%A4rgere%20Dich%20nicht_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Isabella hat alle roten Spielfiguren entnommen. Das Stoffsäckchen enthält also nur mehr die 4 gelben und die 4 blauen Spielfiguren.\nNun zieht Fatima so oft ohne Zurücklegen je 1 Spielfigur, bis sie alle 4 gelben Spielfiguren gezogen hat.\n\nDie Zufallsvariable X beschreibt die Anzahl der Züge k, die Fatima benötigt, bis sie alle 4 gelben Spielfiguren gezogen hat. Durch die nachstehende Tabelle ist die Wahrscheinlichkeitsverteilung der Zufallsvariablen X gegeben."
+        },
+        {
+          "t": "math",
+          "v": "\\begin{array}{c|ccccc} k & 4 & 5 & 6 & 7 & 8 \\\\ \\hline P(X=k) & \\tfrac{1}{70} & u & \\tfrac{10}{70} & \\tfrac{20}{70} & v \\end{array}"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie u und v."
+        },
+        {
+          "t": "math",
+          "v": "u =\\quad\\quad v ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "u",
+            "value": 0.05714285714285714,
+            "tol": 0.000001
+          },
+          {
+            "id": "v",
+            "value": 0.5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "u = \\tfrac{4}{70} = \\tfrac{2}{35}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "v = \\tfrac{35}{70} = \\tfrac{1}{2}"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen von u und v."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-02-b1",
+      "label": "b1",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_130b",
+          "baseId": "2_130",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/861/2_130_srdp_ma_Mensch%20%C3%A4rgere%20Dich%20nicht_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Isabella gewinnt gegen ihre Freundin Fatima durchschnittlich 3 von 5 Partien „Mensch ärgere Dich nicht“. In den bevorstehenden Sommerferien werden die beiden Mädchen n Partien gegeneinander spielen (n gerade, n > 2).\nDie binomialverteilte Zufallsvariable Y gibt an, wie viele der n Partien von Isabella gewonnen werden.\n\nGegeben sind vier Wahrscheinlichkeiten und sechs Ereignisse."
+        },
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Wahrscheinlichkeiten jeweils das mit dieser Wahrscheinlichkeit eintretende Ereignis aus A bis F zu."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "\\binom{n}{\\tfrac{n}{2}} \\cdot 0{,}6^{\\frac{n}{2}} \\cdot 0{,}4^{\\frac{n}{2}}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1 - 0{,}4^{n} - n \\cdot 0{,}6 \\cdot 0{,}4^{n-1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1 - 0{,}6^{n}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "n \\cdot 0{,}6^{n-1} \\cdot 0{,}4"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "Isabella gewinnt genau die Hälfte der n Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Isabella gewinnt mindestens 2 der n Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Isabella verliert mehr als die Hälfte der n Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Isabella verliert genau 1 der n Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Isabella verliert mindestens 1 der n Partien."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Isabella gewinnt höchstens 1 der n Partien."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "1. → A;  2. → B;  3. → E;  4. → D"
+            }
+          ],
+          "note": "b1) Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ]
+    },
+    {
+      "id": "2023-het-t2-02-b2",
+      "label": "b2",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_130b",
+          "baseId": "2_130",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/861/2_130_srdp_ma_Mensch%20%C3%A4rgere%20Dich%20nicht_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Erwartungswert von Y wird mit μ, die Standardabweichung von Y mit σ bezeichnet."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit P(μ − σ < Y < μ + σ) für n = 14."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "value": 0.7255,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "p = 0{,}6,\\quad n = 14"
+            },
+            {
+              "t": "math",
+              "v": "\\mu = 8{,}4,\\quad \\sigma = 1{,}83\\ldots"
+            },
+            {
+              "t": "math",
+              "v": "[\\mu - \\sigma;\\ \\mu + \\sigma] = [6{,}56\\ldots;\\ 10{,}23\\ldots]"
+            },
+            {
+              "t": "math",
+              "v": "P(7 \\le Y \\le 10) = 0{,}7255\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(\\mu - \\sigma < Y < \\mu + \\sigma) = 0{,}7255\\ldots"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_130",
+      "baseId": "2_130",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/861/2_130_srdp_ma_Mensch%20%C3%A4rgere%20Dich%20nicht_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "„Mensch ärgere Dich nicht“ ist ein Brettspiel für mindestens zwei Personen. Ziel des Spieles ist es, die eigenen 4 gleichfarbigen Spielfiguren möglichst schnell von den Startfeldern zu den Zielfeldern zu bewegen."
+    }
+  ]
+}

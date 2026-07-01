@@ -1,0 +1,100 @@
+{
+  "id": "2025-het-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2025h2]t1-8-fa.pdf"
+  },
+  "title": "Umfang eines Rechtecks",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-08-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1550a",
+          "baseId": "1_1550",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1057/1_1550_srdp_ma_Umfang%20eines%20Rechtecks_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "u(a)=4\\cdot a+10"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von u auf."
+        },
+        {
+          "t": "math",
+          "v": "u(a)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "4\\cdot a+10",
+        "vars": [
+          "a"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1550",
+      "baseId": "1_1550",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1057/1_1550_srdp_ma_Umfang%20eines%20Rechtecks_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Rechteck hat die Seitenlängen a und a + 5 mit a ∈ ℝ⁺.\n\nDer Umfang u dieses Rechtecks kann in Abhängigkeit von dessen Seitenlänge a als lineare Funktion u: ℝ⁺ → ℝ⁺ beschrieben werden."
+    }
+  ]
+}

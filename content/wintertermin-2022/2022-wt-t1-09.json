@@ -1,0 +1,100 @@
+{
+  "id": "2022-wt-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2022w1]t1-9-an.pdf"
+  },
+  "title": "Flächeninhalt von Rechtecken",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-9-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-9-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-09-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_886a",
+          "baseId": "1_886",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/713/Fl%C3%A4cheninhalt_von_Rechtecken.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x) = \\dfrac{26}{x}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Funktionsgleichung von f."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Funktionsgleichung von f auf."
+        },
+        {
+          "t": "math",
+          "v": "f(x) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{26}{x}",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_886",
+      "baseId": "1_886",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/713/Fl%C3%A4cheninhalt_von_Rechtecken.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion f ordnet der Breite x (mit x > 0) eines Rechtecks mit dem Flächeninhalt 26 cm² die Länge f(x) zu (x, f(x) in cm)."
+    }
+  ]
+}

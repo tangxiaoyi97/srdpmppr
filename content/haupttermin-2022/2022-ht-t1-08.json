@@ -1,0 +1,165 @@
+{
+  "id": "2022-ht-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2022h1]t1-8-fa.pdf"
+  },
+  "title": "Lineare Funktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-8-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-8-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-08-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 2.4",
+          "description": "charakteristische Eigenschaften kennen und im Kontext deuten können: f(x + 1) = f(x) + k ; (f(x2) - f(x1))/(x2 -x1) = k = [f'(x)]",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1186a",
+          "baseId": "1_1186",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/728/Lineare%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "f(x+2)"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "f(x)+2\\cdot k"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass auf jeden Fall eine richtige Aussage entsteht.\n\nFür alle x ∈ ℝ gilt: ① = ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "f(x+1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+1)+f(x+1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)+2\\cdot k"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)+d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot f(x)+2"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1186",
+      "baseId": "1_1186",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/728/Lineare%20Funktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die lineare Funktion f: ℝ → ℝ mit f(x) = k · x + d und k, d ∈ ℝ."
+    }
+  ]
+}

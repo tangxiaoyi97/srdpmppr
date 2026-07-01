@@ -1,0 +1,406 @@
+{
+  "id": "2023-ht-t2-04",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2023h1]t2-4.pdf"
+  },
+  "title": "Flugreisen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene exponentielle Zusammenhänge als Exponentialfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_128a",
+          "baseId": "2_128",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/834/2_128_srdp_ma_Flugreisen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die jährliche Anzahl aller Fluggäste in Österreich ist von 0,14 Millionen im Jahr 1955 auf 28,95 Millionen im Jahr 2017 gestiegen.\n\nDiese zeitliche Entwicklung der Anzahl der Fluggäste in Österreich kann näherungsweise durch die Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "N:\\mathbb{R}_0^+\\to\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=a\\cdot b^{t}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a,\\,b\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (t in Jahren mit t = 0 für das Jahr 1955, N(t) in Millionen Fluggästen).\n\nBerechnen Sie a und b."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 0.14,
+            "tol": 0.005
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1.089,
+            "tol": 0.002
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=0{,}14;\\quad b=\\sqrt[62]{\\dfrac{28{,}95}{0{,}14}}=1{,}089\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von a und b."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.2",
+          "description": "aus Tabellen, Graphen und Gleichungen von Exponentialfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_128a",
+          "baseId": "2_128",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/834/2_128_srdp_ma_Flugreisen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 2018 gab es in Österreich 31,73 Millionen Fluggäste.\n\nWeisen Sie rechnerisch nach, dass die mit N ermittelte Anzahl der Fluggäste für das Jahr 2018 um weniger als 1 % von der tatsächlichen Anzahl der Fluggäste abweicht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\dfrac{31{,}73-N(63)}{31{,}73}=0{,}0056\\ldots=0{,}56\\ldots\\,\\%<1\\,\\%"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige rechnerische Nachweisen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{31{,}73-N(63)}{31{,}73}=0{,}0056\\ldots=0{,}56\\ldots\\,\\%"
+            },
+            {
+              "t": "text",
+              "v": " — Die mit N ermittelte Anzahl der Fluggäste für das Jahr 2018 weicht um weniger als 1 % von der tatsächlichen Anzahl der Fluggäste ab."
+            }
+          ],
+          "note": "Ein Punkt für das richtige rechnerische Nachweisen."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-04-b",
+      "label": "b",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_128b",
+          "baseId": "2_128",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/834/2_128_srdp_ma_Flugreisen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Anzahl der Flüge bzw. Fluggäste in Österreich ist für die Jahre 2018 und 2019 in der nachstehenden Tabelle angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-04-b-tab.png",
+          "alt": "Tabelle: Anzahl der Flüge und Anzahl der Fluggäste für 2018 und 2019"
+        },
+        {
+          "t": "text",
+          "v": "Die durchschnittliche Anzahl der Fluggäste pro Flug ist von 2018 auf 2019 um n gestiegen.\n\nBerechnen Sie n."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 6.29,
+            "tol": 0.1
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=\\dfrac{36\\,206\\,642}{319\\,945}-\\dfrac{31\\,725\\,019}{296\\,852}=6{,}29\\ldots"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von n."
+        }
+      ]
+    },
+    {
+      "id": "2023-ht-t2-04-c",
+      "label": "c",
+      "format": "Zuordnungsformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_128c",
+          "baseId": "2_128",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/834/2_128_srdp_ma_Flugreisen_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die unten stehende Abbildung zeigt für das Jahr 2019 die Anzahl der angebotenen Sitzplätze sowie die Anzahl der Fluggäste für Flüge von bzw. nach Wien. Die Prozentsätze geben jeweils den relativen Anteil der durch die Fluggäste besetzten Sitzplätze an.\n\nOrdnen Sie den vier Aussagen jeweils die passende Flugstrecke aus A bis F zu."
+        }
+      ],
+      "figures": [
+        {
+          "kind": "image",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-04-c.png",
+          "alt": "Säulendiagramm 2019: angebotene Sitzplätze und beförderte Fluggäste je Flugstrecke ab/nach Wien, mit Auslastungsprozentsätzen"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Auf dieser Flugstrecke wurden mehr als doppelt so viele Fluggäste befördert wie auf der Flugstrecke Wien–Moskau."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Auf dieser Flugstrecke war die Anzahl der unbesetzten Sitzplätze am kleinsten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Auf dieser Flugstrecke war die Anzahl der beförderten Fluggäste größer als 650 000 und kleiner als 1,1 Millionen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Auf dieser Flugstrecke war mehr als ein Drittel der angebotenen Sitzplätze unbesetzt."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A  Wien–Berlin"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B  Wien–Madrid"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C  Wien–Brüssel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D  Wien–Kopenhagen"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E  Wien–London"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F  Wien–Rom"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 2,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 4,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "①→E (Wien–London), ②→B (Wien–Madrid), ③→A (Wien–Berlin), ④→C (Wien–Brüssel)."
+            }
+          ],
+          "note": "Ein Punkt für vier richtige Zuordnungen, ein halber Punkt für zwei oder drei richtige Zuordnungen."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_128",
+      "baseId": "2_128",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/834/2_128_srdp_ma_Flugreisen_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An den österreichischen Flughäfen werden die Anzahl der Flüge, die Anzahl der Fluggäste sowie die Flugstrecken der Reisenden erfasst."
+    }
+  ]
+}

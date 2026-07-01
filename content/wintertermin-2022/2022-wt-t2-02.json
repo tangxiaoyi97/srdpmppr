@@ -1,0 +1,374 @@
+{
+  "id": "2022-wt-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2022w1]t2-2.pdf"
+  },
+  "title": "Hurrikans - tropische Wirbelstürme",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.5",
+          "description": "die Angemessenheit einer Beschreibung mittels linearer Funktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_110a",
+          "baseId": "2_110",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/719/Hurrikans-tropische%20Wirbelstuerme.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Den einzelnen Hurrikan-Kategorien dieser Skala sind unterschiedliche Schadenspotenziale zugeordnet, die den verursachten Schaden beschreiben:\n\nHurrikan-Kategorie: 1 | 2 | 3 | 4 | 5\nSchadenspotenzial: 1 | 10 | 50 | 250 | 500\n\nDatenquelle: Pielke Jr., Roger A. und Christopher W. Landsea: Normalized Hurricane Damages in the United States: 1925–95. In: Weather and Forecasting 13(3) (1998), S. 621 – 631.\n\nWeisen Sie unter Verwendung der Werte aus der Tabelle nach, dass der Zusammenhang zwischen der Hurrikan-Kategorie und dem Schadenspotenzial nicht linear und auch nicht exponentiell ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nicht linear: Die absolute Änderung des Schadenspotenzials für zwei aufeinanderfolgende Kategorien ist nicht konstant, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "S_2 = S_1 + 9"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "S_3 = S_2 + 40"
+          },
+          {
+            "t": "text",
+            "v": ". Nicht exponentiell: Die relative Änderung des Schadenspotenzials für zwei aufeinanderfolgende Kategorien ist nicht konstant, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "S_2 = S_1 \\cdot 10"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "S_3 = S_2 \\cdot 5"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "S_i ... Schadenspotenzial bei der Hurrikan-Kategorie i. "
+            },
+            {
+              "t": "math",
+              "v": "S_2 = S_1 + 9"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "S_3 = S_2 + 40"
+            },
+            {
+              "t": "text",
+              "v": " — die absolute Änderung für zwei aufeinanderfolgende Kategorien ist nicht konstant, der Zusammenhang ist nicht linear. "
+            },
+            {
+              "t": "math",
+              "v": "S_2 = S_1 \\cdot 10"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "S_3 = S_2 \\cdot 5"
+            },
+            {
+              "t": "text",
+              "v": " — die relative Änderung für zwei aufeinanderfolgende Kategorien ist nicht konstant, der Zusammenhang ist nicht exponentiell."
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Nachweisen bei beiden Zusammenhängen, ein halber Punkt bei nur einem richtig nachgewiesenen Zusammenhang."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_110b",
+          "baseId": "2_110",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/719/Hurrikans-tropische%20Wirbelstuerme.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im 45-jährigen Zeitraum von 1972 bis 2016 traten 110 Große Hurrikans auf (das sind Hurrikans, die auf der Saffir-Simpson-Hurrikan-Skala in eine der Kategorien 3, 4 und 5 fallen).\n\nFür den Zeitraum von 1972 bis 2016 wird die Anzahl aller Hurrikans pro Jahr untersucht.\nx̄ ... arithmetisches Mittel der Anzahl aller Hurrikans pro Jahr\nh ... relativer Anteil der Großen Hurrikans an der Gesamtzahl aller Hurrikans von 1972 bis 2016\n\nStellen Sie unter Verwendung von x̄ eine Formel zur Berechnung von h auf."
+        },
+        {
+          "t": "math",
+          "v": "h ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{110}{45\\cdot x}",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h = \\dfrac{110}{45 \\cdot \\bar{x}}"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_110b",
+          "baseId": "2_110",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/719/Hurrikans-tropische%20Wirbelstuerme.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Tabelle gibt einen Überblick über die Anzahl aller Hurrikans pro Jahr für den Zeitraum von 1972 bis 2016.\n\nAnzahl aller Hurrikans pro Jahr | Anzahl der Jahre\n0 bis 2 | 2\n3 bis 5 | 20\n6 bis 8 | 14\n9 bis 11 | 7\n12 bis 14 | 1\n15 bis 17 | 1\n\nDatenquelle: Landsea, Christopher W., Gabriel A. Vecchi et al.: Impact of Duration Thresholds on Atlantic Tropical Cyclone Counts. In: Journal of Climate 23(10) (2010), S. 2 508 – 2 519.\n\nEine exakte Berechnung des arithmetischen Mittels x̄ der Anzahl aller Hurrikans pro Jahr ist anhand der in der obigen Tabelle zusammengefassten Daten nicht möglich. Mithilfe der Klassenmitten aus der linken Spalte kann jedoch ein Näherungswert für x̄ berechnet werden. Dabei wird z. B. für „9 bis 11“ als Klassenmitte der Wert 10 verwendet.\n\nBerechnen Sie diesen Näherungswert für x̄."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "xquer",
+            "label": "Näherungswert für x̄",
+            "value": 6.2,
+            "tol": 0.05
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{1 \\cdot 2 + 4 \\cdot 20 + 7 \\cdot 14 + 10 \\cdot 7 + 13 \\cdot 1 + 16 \\cdot 1}{45} = 6{,}2"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Näherungswert für x̄: 6,2"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen des Näherungswerts für x̄."
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.6",
+          "description": "direkte Proportionalität als lineare Funktion vom Typ f(x) = k * x beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_110c",
+          "baseId": "2_110",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/719/Hurrikans-tropische%20Wirbelstuerme.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Windgeschwindigkeiten werden oft in Kilometern pro Stunde (km/h) oder Knoten (kn) angegeben.\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "1\\ \\text{kn} = 1{,}852\\ \\text{km/h}"
+        },
+        {
+          "t": "text",
+          "v": "Zwischen der Windgeschwindigkeit v (in km/h) und der Windgeschwindigkeit v_k (in kn) besteht ein direkt proportionaler Zusammenhang.\n\nStellen Sie eine Gleichung auf, die diesen Zusammenhang beschreibt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1.852\\cdot v_k",
+        "vars": [
+          "v_k"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v = 1{,}852 \\cdot v_k"
+            },
+            {
+              "t": "text",
+              "v": "  oder:  "
+            },
+            {
+              "t": "math",
+              "v": "v_k = 0{,}539\\ldots \\cdot v"
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_110",
+      "baseId": "2_110",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/719/Hurrikans-tropische%20Wirbelstuerme.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Saffir-Simpson-Hurrikan-Skala teilt Hurrikans anhand ihrer Windgeschwindigkeit in fünf Kategorien – von Kategorie 1 (schwach) bis Kategorie 5 (verwüstend) – ein."
+    }
+  ]
+}

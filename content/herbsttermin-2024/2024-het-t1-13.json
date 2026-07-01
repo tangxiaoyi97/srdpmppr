@@ -1,0 +1,109 @@
+{
+  "id": "2024-het-t1-13",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 13,
+    "file": "[2024h2]t1-13-ag.pdf"
+  },
+  "title": "Preisunterschied",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-13-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-13-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-13-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1376a",
+          "baseId": "1_1376",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/932/1_1376_srdp_ma_Preisunterschied_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h=\\dfrac{x-y}{y}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Formel zur Berechnung von h."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie mithilfe von x und y eine Formel zur Berechnung von h auf."
+        },
+        {
+          "t": "math",
+          "v": "h="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{x-y}{y}",
+        "vars": [
+          "x",
+          "y"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1376",
+      "baseId": "1_1376",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/932/1_1376_srdp_ma_Preisunterschied_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmtes Produkt kostet im örtlichen Geschäft x Euro, im Onlinehandel kostet es y Euro.\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "x > y > 0"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDer relative Anteil, um den das Produkt im örtlichen Geschäft teurer als im Onlinehandel ist, wird mit h bezeichnet."
+    }
+  ]
+}

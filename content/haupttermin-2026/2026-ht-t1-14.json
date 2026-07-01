@@ -1,0 +1,199 @@
+{
+  "id": "2026-ht-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2026h1]t1-14-an.pdf"
+  },
+  "title": "Differenzen- und Differenzialquotient",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-14-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-14-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1604a",
+          "baseId": "1_1604",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1124/1_1604_Differenzen-%20und%20Differenzialquotient_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a<b"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "b=c"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: ① und ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a<b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a=b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b<c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b=c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b>c"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1604",
+      "baseId": "1_1604",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1124/1_1604_Differenzen-%20und%20Differenzialquotient_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer differenzierbaren Funktion f dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-14-q.png",
+      "alt": "Koordinatensystem mit dem Graphen einer differenzierbaren Funktion f; auf der x-Achse sind die Stellen x₁ und x₂ markiert."
+    },
+    {
+      "t": "text",
+      "v": "Es gilt:"
+    },
+    {
+      "t": "math",
+      "v": "a=\\dfrac{f(x_2)-f(x_1)}{x_2-x_1}"
+    },
+    {
+      "t": "math",
+      "v": "b=\\lim_{z\\to x_2}\\dfrac{f(z)-f(x_2)}{z-x_2}"
+    },
+    {
+      "t": "math",
+      "v": "c=\\lim_{\\Delta x\\to 0}\\dfrac{f(x_2+\\Delta x)-f(x_2)}{\\Delta x}"
+    }
+  ]
+}

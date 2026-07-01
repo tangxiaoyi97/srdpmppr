@@ -1,0 +1,127 @@
+{
+  "id": "2019-ht-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2019h1]t1-10-fa.pdf"
+  },
+  "title": "Verlauf einer Polynomfunktion vierten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-10-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 4.1",
+          "description": "typische Verläufe von Graphen in Abhängigkeit vom Grad der Polynomfunktion (er)kennen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_695a",
+          "baseId": "1_695",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/428/Verlauf%20einer%20Polynomfunktion%20vierten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Lösung: Graph einer Polynomfunktion vierten Grades mit drei Nullstellen im Intervall [–3; 3], wobei genau eine Nullstelle eine lokale Extremstelle ist."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die Darstellung des Graphen einer solchen Funktion vierten Grades, wobei alle drei Nullstellen im Intervall [–3; 3] liegen müssen und genau eine der drei Nullstellen eine lokale Extremstelle sein muss. Der Verlauf des Graphen soll vor der ersten Nullstelle und nach der dritten Nullstelle klar erkennbar sein."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem im Intervall [–4; 4] den Verlauf des Graphen einer solchen Funktion f mit allen drei Nullstellen im Intervall [–3; 3]!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-10-q.png",
+          "alt": "Leeres Koordinatensystem mit f(x)-Achse und x-Achse von −4 bis 4 zum Einzeichnen des Graphen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zu zeichnen ist der Graph einer Polynomfunktion vierten Grades, deren alle drei Nullstellen im Intervall [–3; 3] liegen und bei der genau eine der drei Nullstellen eine lokale Extremstelle ist. Der Verlauf des Graphen soll vor der ersten Nullstelle und nach der dritten Nullstelle klar erkennbar sein."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_695",
+      "baseId": "1_695",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/428/Verlauf%20einer%20Polynomfunktion%20vierten%20Grades.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es gibt Polynomfunktionen vierten Grades, die genau drei Nullstellen "
+    },
+    {
+      "t": "math",
+      "v": "x_1,\\ x_2\\ \\text{und}\\ x_3"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "x_1, x_2, x_3\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "x_1<x_2<x_3"
+    },
+    {
+      "t": "text",
+      "v": " haben."
+    }
+  ]
+}

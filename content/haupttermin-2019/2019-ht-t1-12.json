@@ -1,0 +1,219 @@
+{
+  "id": "2019-ht-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2019h1]t1-12-fa.pdf"
+  },
+  "title": "Graphen zweier Winkelfunktionen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-12-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_697a",
+          "baseId": "1_697",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/430/Graphen%20zweier%20Winkelfunktionen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "a_1\\le a_2\\le 2\\cdot a_1"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "b_1\\le b_2\\le 2\\cdot b_1"
+            }
+          ],
+          "note": "[0 / ½ / 1 Punkt] Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist. Ist nur für eine der beiden Lücken der richtige Satzteil angekreuzt, ist ein halber Punkt zu geben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nFür die Parameterwerte gilt ① und ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "a_2<a_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a_1\\le a_2\\le 2\\cdot a_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a_2>2\\cdot a_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b_2<b_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b_1\\le b_2\\le 2\\cdot b_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b_2>2\\cdot b_1"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_697",
+      "baseId": "1_697",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/430/Graphen%20zweier%20Winkelfunktionen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Graphen der Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f_1\\!: \\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f_2\\!: \\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f_1(x)=a_1\\cdot\\sin(b_1\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " sowie "
+    },
+    {
+      "t": "math",
+      "v": "f_2(x)=a_2\\cdot\\sin(b_2\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a_1, a_2, b_1, b_2>0"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-12-q.png",
+      "alt": "Graphen zweier Sinusfunktionen f1 und f2: f2 hat die größere Amplitude und die kleinere Periode (höhere Frequenz) als f1."
+    }
+  ]
+}

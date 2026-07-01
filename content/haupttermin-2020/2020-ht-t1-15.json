@@ -1,0 +1,107 @@
+{
+  "id": "2020-ht-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2020",
+    "year": 2020,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2020h1]t1-15-ag.pdf"
+  },
+  "title": "Population",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2020/[2020h1]t1-15-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2020/lo/[2020h1]t1-15-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-ht-t1-15-a",
+      "label": "a",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "R_1=60"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "R_2=1{,}2\\cdot 60-2=70"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "R_3=1{,}2\\cdot 70-2=82"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Rehe am Ende des dritten Jahres beträgt 82."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Anzahl der Rehe in diesem Wald am Ende des dritten Jahres."
+        },
+        {
+          "t": "text",
+          "v": "Die Anzahl der Rehe am Ende des dritten Jahres beträgt ___."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "R3",
+            "label": "Anzahl der Rehe",
+            "value": 82,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Anzahl der Rehe in einem Wald am Ende eines Jahres i (i = 1, 2, 3) wird mit Rᵢ bezeichnet.\nAm Ende des ersten Jahres gibt es 60 Rehe in diesem Wald.\n\nDie nachstehende Gleichung beschreibt die Entwicklung der Population der Rehe."
+    },
+    {
+      "t": "math",
+      "v": "R_{i+1}=1{,}2\\cdot R_{i}-2\\ \\text{für}\\ i=1,\\,2"
+    }
+  ]
+}

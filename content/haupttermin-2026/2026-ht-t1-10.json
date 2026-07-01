@@ -1,0 +1,115 @@
+{
+  "id": "2026-ht-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2026h1]t1-10-fa.pdf"
+  },
+  "title": "Potenzfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-10-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge dieser Art als entsprechende Potenzfunktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1600a",
+          "baseId": "1_1600",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1120/1_1600_Potenzfunktion_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "z=-1"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von z."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie z."
+        },
+        {
+          "t": "math",
+          "v": "z="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "z",
+            "label": "z",
+            "value": -1,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1600",
+      "baseId": "1_1600",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1120/1_1600_Potenzfunktion_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Potenzfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=x^{z}\\ \\text{mit}\\ z\\in\\mathbb{Z}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f(1)=2\\cdot f(2)"
+    }
+  ]
+}

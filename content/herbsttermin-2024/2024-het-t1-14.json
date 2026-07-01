@@ -1,0 +1,150 @@
+{
+  "id": "2024-het-t1-14",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 14,
+    "file": "[2024h2]t1-14-an.pdf"
+  },
+  "title": "Differenzen- und Differenzialquotient",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-14-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-14-an.pdf"
+  },
+  "figures": [
+    {
+      "kind": "image",
+      "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-14-q.png",
+      "alt": "Graph einer Polynomfunktion 3. Grades f mit auf der x-Achse markierten Stellen a, b, O, c, d."
+    }
+  ],
+  "parts": [
+    {
+      "id": "2024-het-t1-14-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1377a",
+          "baseId": "1_1377",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/933/1_1377_srdp_ma_Differenzen-%20und%20Differenzialquotient_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{f(b)-f(a)}{b-a} > 0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f'(d) < f'(c)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden auf die Funktion f zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{f(b)-f(a)}{b-a} > 0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{f(d)-f(c)}{d-c} > f'(c)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(b) < 0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{f(c)-f(b)}{c-b} < 0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(d) < f'(c)"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1377",
+      "baseId": "1_1377",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/933/1_1377_srdp_ma_Differenzen-%20und%20Differenzialquotient_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Polynomfunktion 3. Grades f dargestellt."
+    }
+  ]
+}

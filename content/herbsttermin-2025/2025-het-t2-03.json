@@ -1,0 +1,364 @@
+{
+  "id": "2025-het-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2025h2]t2-3.pdf"
+  },
+  "title": "Seegrundstück",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_155a",
+          "baseId": "2_155",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1076/2_155_srdp_ma_Seegrundst%C3%BCck_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Polynomfunktion f ist durch die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}0002\\cdot x^{3}+0{,}013\\cdot x^{2}+c\\cdot x+d"
+        },
+        {
+          "t": "text",
+          "v": " mit c, d ∈ ℝ⁺ gegeben.\n\nErmitteln Sie c und d."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "c",
+            "label": "c",
+            "value": 0.03
+          },
+          {
+            "id": "d",
+            "label": "d",
+            "value": 25
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f(0)=25,\\quad f(50)=34"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "d=25,\\quad c=0{,}03"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "c=0{,}03,\\quad d=25"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Ermitteln von c und d."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_155a",
+          "baseId": "2_155",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1076/2_155_srdp_ma_Seegrundst%C3%BCck_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Grundstück soll in zwei Grundstücke mit gleich großem Flächeninhalt geteilt werden. Die Teilungslinie verläuft parallel zur senkrechten Achse durch die Stelle x₀.\n\nErmitteln Sie x₀."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x0",
+            "label": "x₀",
+            "value": 27.43,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{50} f(x)\\,dx=1\\,516{,}66\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{x_{0}} f(x)\\,dx=\\dfrac{1\\,516{,}66\\ldots}{2}"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "x_{0}=27{,}43\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_{0}=27{,}43\\ldots"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Ermitteln von x₀."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_155b",
+          "baseId": "2_155",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1076/2_155_srdp_ma_Seegrundst%C3%BCck_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "An einer der Grundstücksgrenzen wird ein 34 m langer Zaun aus n Brettern errichtet.\n\nDie verwendeten Bretter sind jeweils b cm breit und werden in einem Abstand von jeweils a cm auf Querbalken befestigt. Der Zaun beginnt und endet mit einem Brett.\n\nEin Teil des Zaunes ist in der nachstehenden nicht maßstabgetreuen Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-03-b1-q.png",
+          "alt": "Nicht maßstabgetreue Skizze eines Zaunabschnitts: abwechselnd Bretter der Breite b und Abstände a (b a b a b ... b a b) über eine Gesamtlänge von 34 m."
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung auf, die den Zusammenhang zwischen a, b und n beschreibt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine richtige Gleichung ist "
+          },
+          {
+            "t": "math",
+            "v": "n\\cdot b+(n-1)\\cdot a=3\\,400"
+          },
+          {
+            "t": "text",
+            "v": " (Länge in cm; n Bretter der Breite b cm und n − 1 Abstände der Breite a cm ergeben 34 m = 3 400 cm)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Aufstellen der Gleichung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n\\cdot b+(n-1)\\cdot a=3\\,400"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_155b",
+          "baseId": "2_155",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1076/2_155_srdp_ma_Seegrundst%C3%BCck_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Als Sonnenschutz wird ausgehend von der Zaunoberkante in einer Höhe von 2,5 m eine Plane mit einer Seitenlänge von 2 m gespannt. Der Winkel zwischen Plane und Zaun beträgt 80°.\n\nDer Einfallswinkel der Sonnenstrahlen zu einer bestimmten Tageszeit wird mit α bezeichnet. Zu dieser Tageszeit hat der Schattenbereich eine Länge von 4 m. (Siehe nachstehende nicht maßstabgetreue Abbildung in der Ansicht von der Seite.)"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-03-b2-q.png",
+          "alt": "Nicht maßstabgetreue Seitenansicht: ein 2,5 m hoher Zaun, an dessen Oberkante eine 2 m lange Plane im Winkel von 80° zum Zaun gespannt ist; die Sonnenstrahlen treffen unter dem Einfallswinkel α ein, der Schattenbereich am Boden ist 4 m lang."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie α."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "alpha",
+            "label": "α",
+            "value": 46.67,
+            "tol": 0.5,
+            "unit": "°"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\dfrac{2{,}5-2\\cdot\\cos(80^\\circ)}{4-2\\cdot\\sin(80^\\circ)}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=46{,}67\\ldots^{\\circ}"
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Berechnen von α."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_155",
+      "baseId": "2_155",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1076/2_155_srdp_ma_Seegrundst%C3%BCck_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem See liegt ein Grundstück. Dieses Grundstück ist in der nachstehenden Abbildung in der Ansicht von oben als grau markierte Fläche dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-03-q.png",
+      "alt": "Ansicht von oben: grau markiertes Seegrundstück; die Uferlinie ist der Graph der Polynomfunktion f über x in m (0 bis 50), f(x) in m mit dem Wert 25 bei x = 0; unten verläuft die Zufahrtsstraße, rechts eine 34 m lange Grenze."
+    },
+    {
+      "t": "text",
+      "v": "Der Graph der Polynomfunktion f: [0; 50] → ℝ, x ↦ f(x) beschreibt modellhaft die Uferlinie des Grundstücks (x in m, f(x) in m)."
+    }
+  ]
+}

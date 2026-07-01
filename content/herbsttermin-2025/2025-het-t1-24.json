@@ -1,0 +1,113 @@
+{
+  "id": "2025-het-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2025h2]t1-24-ws.pdf"
+  },
+  "title": "Elektrobauteile",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-24-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1566a",
+          "baseId": "1_1566",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1073/1_1566_srdp_ma_Elektrobauteile_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "n=100,\\quad p=0{,}02"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le 4)=0{,}9491\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit beträgt rund 94,9 %."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass höchstens 4 der 100 entnommenen Elektrobauteile nicht funktionstüchtig sind."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "label": "P(X ≤ 4)",
+            "value": 0.9491,
+            "tol": 0.0015
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1566",
+      "baseId": "1_1566",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1073/1_1566_srdp_ma_Elektrobauteile_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Produzierte Elektrobauteile werden regelmäßig auf ihre Funktionstüchtigkeit hin überprüft.\n\nAus Erfahrung weiß man, dass 2 % aller produzierten Elektrobauteile nicht funktionstüchtig sind.\n\nEs werden 100 Stück der produzierten Elektrobauteile nach dem Zufallsprinzip entnommen.\n\nDie binomialverteilte Zufallsvariable X gibt dabei die Anzahl derjenigen entnommenen Elektrobauteile an, die nicht funktionstüchtig sind."
+    }
+  ]
+}

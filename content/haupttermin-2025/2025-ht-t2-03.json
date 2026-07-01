@@ -1,0 +1,469 @@
+{
+  "id": "2025-ht-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2025h1]t2-3.pdf"
+  },
+  "title": "Mount-Everest-Marathon",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_151a",
+          "baseId": "2_151",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1045/2_151_srdp_ma_Mount-Everest-Marathon_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Weg zum Basislager beginnt beim Flughafen Lukla in Nepal.\n\nModellhaft wird angenommen, dass die Landebahn des Flughafens Lukla eine konstante Steigung von 11,7 % hat. Die Landebahn überwindet einen Höhenunterschied von 61 m (siehe nachstehende nicht maßstabgetreue Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-03-a-q.png",
+          "alt": "Nicht maßstabgetreue Abbildung: schräge Landebahn (Hypotenuse) mit Länge der Landebahn und vertikalem Höhenunterschied von 61 m."
+        },
+        {
+          "t": "text",
+          "v": "\n\nBerechnen Sie die Länge der Landebahn."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "Länge der Landebahn",
+            "value": 524.9,
+            "tol": 1.5,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=0{,}117 \\Rightarrow \\alpha=6{,}673\\ldots^{\\circ}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\sin(6{,}673\\ldots^{\\circ})=\\dfrac{61}{x} \\Rightarrow x=524{,}9\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Landebahn hat eine Länge von rund 525 m."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen der Länge der Landebahn."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.6",
+          "description": "die Angemessenheit einer Beschreibung mittels Exponentialfunktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_151a",
+          "baseId": "2_151",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1045/2_151_srdp_ma_Mount-Everest-Marathon_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der sogenannte Mount Everest Trek führt vom Flughafen Lukla zum Basislager und wird zu Fuß zurückgelegt. Der vor Ort vorherrschende niedrige Luftdruck macht diesen Trek besonders anstrengend.\n\nDer Flughafen Lukla liegt 2 860 m über dem Meeresspiegel.\nDas Basislager liegt 5 364 m über dem Meeresspiegel.\n\nEs wird angenommen, dass der Luftdruck mit zunehmender Höhe über dem Meeresspiegel exponentiell abnimmt.\n\nEs gilt: Bei einer Zunahme der Höhe über dem Meeresspiegel um 80 m nimmt der Luftdruck um 1 % ab.\n\nAn einem bestimmten Tag beträgt der Luftdruck am Flughafen Lukla 708 Hektopascal (hPa).\n\nBerechnen Sie unter dieser Annahme den Luftdruck im Basislager an diesem Tag."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "Luftdruck im Basislager",
+            "value": 516.9,
+            "tol": 1.5,
+            "unit": "hPa"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\dfrac{5364-2860}{80}=31{,}3"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "708\\cdot 0{,}99^{31{,}3}=516{,}9\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Luftdruck im Basislager an diesem Tag beträgt rund 517 hPa."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen des Luftdrucks im Basislager."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_151b",
+          "baseId": "2_151",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1045/2_151_srdp_ma_Mount-Everest-Marathon_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Marathonstrecke führt vom Startpunkt im Basislager bis zum Endpunkt in Namche. An bestimmten Streckenpunkten werden die bis dahin benötigten Laufzeiten einer bestimmten Läuferin ermittelt (siehe nachstehende Tabelle)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-03-b-tab.png",
+          "alt": "Tabelle: Name des Streckenpunkts | bis dahin zurückgelegte Strecke in km | bis dahin benötigte Laufzeit in h. Basislager 0 / 0; Dingboche 17,3 / t1; Tengboche 32,6 / t2; Namche 42,195 / t3."
+        },
+        {
+          "t": "text",
+          "v": "\n\nUnter Verwendung der nachstehenden Formel kann mithilfe der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " die zu erwartende Laufzeit "
+        },
+        {
+          "t": "math",
+          "v": "t_3"
+        },
+        {
+          "t": "text",
+          "v": " für den gesamten Marathon näherungsweise berechnet werden. Es gilt:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "t_3=t_1\\cdot\\left(\\dfrac{42{,}195}{17{,}3}\\right)^{k}"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "t_3"
+        },
+        {
+          "t": "text",
+          "v": " ... zu erwartende Laufzeit für den gesamten Marathon in h\n"
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " ... Laufzeit bis zum Streckenpunkt Dingboche in h\n"
+        },
+        {
+          "t": "math",
+          "v": "k>0"
+        },
+        {
+          "t": "text",
+          "v": " ... Ermüdungsfaktor\n\nFür diese Läuferin gilt: "
+        },
+        {
+          "t": "math",
+          "v": "k=1{,}073"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDie Läuferin startet um 7 Uhr (07:00:00) im Basislager. Um 8:30 Uhr (08:30:00) erreicht sie den Streckenpunkt Dingboche. Gemäß dem obigen Modell erreicht die Läuferin das Ziel in Namche um eine bestimmte Uhrzeit.\n\nTragen Sie für diese Uhrzeit die Stunden und Minuten in den nachstehenden Kästchen ein.\n\nUhrzeit: "
+        },
+        {
+          "t": "math",
+          "v": "\\rule{2em}{0.4pt}:\\rule{2em}{0.4pt}:16"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h",
+            "label": "Stunden",
+            "value": 10,
+            "tol": 1e-9
+          },
+          {
+            "id": "min",
+            "label": "Minuten",
+            "value": 54,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "t_3=1{,}5\\cdot\\left(\\dfrac{42{,}195}{17{,}3}\\right)^{1{,}073}=3{,}904\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "0{,}904\\ldots\\cdot 60=54{,}27\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Uhrzeit: 10 : 54 : 16"
+            }
+          ],
+          "note": "Ein Punkt für das Eintragen der richtigen Zahlen."
+        }
+      ]
+    },
+    {
+      "id": "2025-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_151c",
+          "baseId": "2_151",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1045/2_151_srdp_ma_Mount-Everest-Marathon_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nach Absolvierung des Marathons werden zur Analyse für alle Läuferinnen und Läufer jeweils folgende zwei Größen berechnet:\n- die Durchschnittsgeschwindigkeit v (in km/h)\n- die sogenannte Pace c (in min/km)\n\nDie Pace gibt an, wie viele Minuten im Durchschnitt pro gelaufenem Kilometer benötigt worden sind.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Pace c kann mithilfe der Gleichung ① berechnet werden und wird bei doppelter Durchschnittsgeschwindigkeit v ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "c=\\dfrac{60}{v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c=\\dfrac{1}{v}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c=\\dfrac{3{,}6}{v}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "halbiert"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "verdoppelt"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "vervierfacht"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "c=\\dfrac{60}{v}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② halbiert"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_151",
+      "baseId": "2_151",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1045/2_151_srdp_ma_Mount-Everest-Marathon_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der 42,195 km lange Mount-Everest-Marathon zählt zu den anstrengendsten Marathons der Welt. Dessen Startpunkt ist das Basislager des Mount Everest."
+    }
+  ]
+}

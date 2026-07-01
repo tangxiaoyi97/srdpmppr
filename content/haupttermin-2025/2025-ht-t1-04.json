@@ -1,0 +1,172 @@
+{
+  "id": "2025-ht-t1-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2025",
+    "year": 2025,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 4,
+    "file": "[2025h1]t1-4-ag.pdf"
+  },
+  "title": "Punkte auf einer Geraden",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2025/[2025h1]t1-4-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2025/lo/[2025h1]t1-4-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-ht-t1-04-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1452a",
+          "baseId": "1_1452",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1022/1_1452_srdp_ma_Punkte%20auf%20einer%20Geraden_PT1_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A=(7\\mid -2\\mid 1)"
+            }
+          ],
+          "steps": [
+            {
+              "t": "text",
+              "v": "Jeder andere Punkt A mit "
+            },
+            {
+              "t": "math",
+              "v": "A=P+t\\cdot\\overrightarrow{PQ}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "t\\in\\mathbb{R}\\setminus\\{0;\\,1\\}"
+            },
+            {
+              "t": "text",
+              "v": " ist ebenfalls als richtig zu werten."
+            }
+          ],
+          "note": "Ein Punkt für das Angeben der richtigen Koordinaten von A."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie mögliche Koordinaten von A an.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "A=(\\quad\\mid\\quad\\mid\\quad)"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Anzugeben sind die Koordinaten eines Punktes A auf der Geraden g, der von P und von Q verschieden ist. Jeder Punkt A mit "
+          },
+          {
+            "t": "math",
+            "v": "A=P+t\\cdot\\overrightarrow{PQ}"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "t\\in\\mathbb{R}\\setminus\\{0;\\,1\\}"
+          },
+          {
+            "t": "text",
+            "v": " ist als richtig zu werten, z. B. "
+          },
+          {
+            "t": "math",
+            "v": "A=(7\\mid -2\\mid 1)"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1452",
+      "baseId": "1_1452",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1022/1_1452_srdp_ma_Punkte%20auf%20einer%20Geraden_PT1_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Gerade g in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}^3"
+    },
+    {
+      "t": "text",
+      "v": " verläuft durch die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P=(-1\\mid 0\\mid 3)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "Q=(3\\mid -1\\mid 2)"
+    },
+    {
+      "t": "text",
+      "v": ".\nDer Punkt A ist ein von P und von Q verschiedener Punkt auf g."
+    }
+  ]
+}

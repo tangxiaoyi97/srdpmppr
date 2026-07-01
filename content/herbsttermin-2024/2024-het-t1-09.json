@@ -1,0 +1,123 @@
+{
+  "id": "2024-het-t1-09",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 9,
+    "file": "[2024h2]t1-9-fa.pdf"
+  },
+  "title": "Wassermenge in einem Swimmingpool",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-9-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-9-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-09-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.4",
+          "description": "charakteristische Eigenschaften kennen und im Kontext deuten können: f(x + 1) = f(x) + k ; (f(x2) - f(x1))/(x2 -x1) = k = [f'(x)]",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1372a",
+          "baseId": "1_1372",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/928/1_1372_srdp_ma_Wassermenge%20in%20einem%20Swimmingpool_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Pro Minute verringert sich die Wassermenge um 10 L."
+            }
+          ],
+          "note": "Die Angabe des Zeitintervalls ist für die Punktevergabe nicht erforderlich. Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheiten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die obige Gleichung im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheiten."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Pro Minute verringert sich die Wassermenge um 10 L. (Die Angabe des Zeitintervalls ist für die Punktevergabe nicht erforderlich.)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheiten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1372",
+      "baseId": "1_1372",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/928/1_1372_srdp_ma_Wassermenge%20in%20einem%20Swimmingpool_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die lineare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "V: [0; 10] \\to \\mathbb{R}_0^{+}"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt modellhaft die Wassermenge in einem Swimmingpool in Abhängigkeit von der Zeit t (t in min, V(t) in L).\n\nFür alle "
+    },
+    {
+      "t": "math",
+      "v": "t \\in [0; 9]"
+    },
+    {
+      "t": "text",
+      "v": " gilt:"
+    },
+    {
+      "t": "math",
+      "v": "V(t+1)-V(t)=-10"
+    }
+  ]
+}

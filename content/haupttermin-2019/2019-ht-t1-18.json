@@ -1,0 +1,154 @@
+{
+  "id": "2019-ht-t1-18",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 18,
+    "file": "[2019h1]t1-18-an.pdf"
+  },
+  "title": "Flächeninhalte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-18-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-18-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-18-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_703a",
+          "baseId": "1_703",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/436/Fl%C3%A4cheninhalte.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{a}^{b} f(x)\\,dx=A_2-A_1"
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Äquivalente Ausdrücke sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das bestimmte Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{a}^{b} f(x)\\,dx"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe der Flächeninhalte "
+        },
+        {
+          "t": "math",
+          "v": "A_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "A_2"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "math",
+          "v": "\\int_{a}^{b} f(x)\\,dx="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "A_2-A_1",
+        "vars": [
+          "A_1",
+          "A_2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_703",
+      "baseId": "1_703",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/436/Fl%C3%A4cheninhalte.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt den Graphen der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\!: \\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und zwei markierte Flächenstücke.\n\nDer Graph der Funktion f, die x-Achse und die Gerade g mit der Gleichung x = a schließen das Flächenstück I mit dem Inhalt "
+    },
+    {
+      "t": "math",
+      "v": "A_1"
+    },
+    {
+      "t": "text",
+      "v": " ein.\nDer Graph der Funktion f, die x-Achse und die Gerade h mit der Gleichung x = b schließen das Flächenstück II mit dem Inhalt "
+    },
+    {
+      "t": "math",
+      "v": "A_2"
+    },
+    {
+      "t": "text",
+      "v": " ein."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-18-q.png",
+      "alt": "Graph von f mit Geraden x = a und x = b; Flächenstück I (Inhalt A1) unterhalb der x-Achse bei a, Flächenstück II (Inhalt A2) oberhalb der x-Achse bei b."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "2022-wt-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2022",
+    "year": 2022,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2022w1]t1-10-fa.pdf"
+  },
+  "title": "Grad einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-wt-t1-10-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.4",
+          "description": "den Zusammenhang zwischen dem Grad der Polynomfunktion und der Anzahl der Null-, Extrem- und Wendestellen wissen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_887a",
+          "baseId": "1_887",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/714/Grad%20einer%20Polynomfunktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion hat 4 Nullstellen.\noder:\nDie Funktion hat 3 Extremstellen.\noder:\nDie Funktion hat 2 Wendestellen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Begründen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum der Grad von f mindestens 4 sein muss."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine zutreffende Begründung nennt eine der folgenden Eigenschaften des dargestellten Graphen: Die Funktion hat 4 Nullstellen, oder die Funktion hat 3 Extremstellen, oder die Funktion hat 2 Wendestellen. Daraus folgt, dass der Grad von f mindestens 4 sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_887",
+      "baseId": "1_887",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/714/Grad%20einer%20Polynomfunktion.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist der Graph der Polynomfunktion f abgebildet. Außerhalb des dargestellten Bereichs hat f keine Null-, keine Extrem- und keine Wendestellen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-10-q.png",
+      "alt": "Graph einer Polynomfunktion f im Koordinatensystem mit dem Ursprung O; der Graph schneidet die x-Achse mehrfach und weist mehrere Extrem- und Wendestellen auf."
+    }
+  ]
+}

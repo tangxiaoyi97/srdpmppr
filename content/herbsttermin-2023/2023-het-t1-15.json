@@ -1,0 +1,124 @@
+{
+  "id": "2023-het-t1-15",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 15,
+    "file": "[2023h2]t1-15-an.pdf"
+  },
+  "title": "Stammfunktion einer Sinusfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-15-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-15-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-15-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1306a",
+          "baseId": "1_1306",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/850/1_1306_srdp_ma_Stammfunktion%20einer%20Sinusfunktion_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "F'(x) = 1{,}25 \\cdot b \\cdot \\sin(b \\cdot x) = 2 \\cdot \\sin(b \\cdot x)"
+            },
+            {
+              "t": "math",
+              "v": "1{,}25 \\cdot b = 2"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "b = 1{,}6"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie b."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "value": 1.6,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1306",
+      "baseId": "1_1306",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/850/1_1306_srdp_ma_Stammfunktion%20einer%20Sinusfunktion_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion F: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "F(x) = -1{,}25 \\cdot \\cos(b \\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Stammfunktion der Funktion f: ℝ → ℝ mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x) = 2 \\cdot \\sin(b \\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit b ∈ ℝ\\{0}."
+    }
+  ]
+}

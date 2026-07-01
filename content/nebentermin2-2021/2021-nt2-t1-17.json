@@ -1,0 +1,161 @@
+{
+  "id": "2021-nt2-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2021n2]t1-17-an.pdf"
+  },
+  "title": "Fläche zwischen Graph und x-Achse",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_822a",
+          "baseId": "1_822",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/610/Flaeche%20zwischen%20Graph%20und%20x-Achse.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "2{,}5\\cdot\\bigl(f(0)+f(2{,}5)+f(5)+f(7{,}5)+f(10)+f(12{,}5)\\bigr)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{15} f(x)\\,dx"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Ausdrücke angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Ausdrücke an, mit denen der Flächeninhalt A besser als mit dem Ausdruck U angenähert werden kann."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "5\\cdot\\bigl(f(0)+f(5)+f(10)+f(15)\\bigr)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2{,}5\\cdot\\bigl(f(0)+f(2{,}5)+f(5)+f(7{,}5)+f(10)+f(12{,}5)\\bigr)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{15} f(x)\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(0)\\cdot 15"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(15)\\cdot 5"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_822",
+      "baseId": "1_822",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/610/Flaeche%20zwischen%20Graph%20und%20x-Achse.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Potenzfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f\\colon[0;\\,15]\\to\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDer Inhalt A derjenigen Fläche, die vom Graphen von f, von der x-Achse und von den beiden Geraden x = 0 und x = 15 begrenzt wird, kann durch den nachstehenden Ausdruck U näherungsweise berechnet werden."
+    },
+    {
+      "t": "math",
+      "v": "U=5\\cdot\\bigl(f(0)+f(5)+f(10)\\bigr)"
+    },
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind der Graph von f und – grau markiert – die Fläche, deren Inhalt durch den Ausdruck U berechnet wird, dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-17-q.png",
+      "alt": "Koordinatensystem (x von 0 bis 15, f(x) von 0 bis 7): Graph der Potenzfunktion f; grau markiert die durch den Ausdruck U berechnete Fläche (drei Rechtecke der Breite 5 mit Höhen f(0), f(5), f(10))."
+    }
+  ]
+}

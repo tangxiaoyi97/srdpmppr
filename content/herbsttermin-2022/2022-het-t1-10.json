@@ -1,0 +1,100 @@
+{
+  "id": "2022-het-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2022h2]t1-10-fa.pdf"
+  },
+  "title": "Abfüllmaschinen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-10-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1229a",
+          "baseId": "1_1229",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/759/Abfuellmaschinen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(n)=\\tfrac{96}{n}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Gleichung von f."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung der Funktion f auf."
+        },
+        {
+          "t": "math",
+          "v": "f(n)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{96}{n}",
+        "vars": [
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1229",
+      "baseId": "1_1229",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/759/Abfuellmaschinen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Werden vier gleich schnell arbeitende Abfüllmaschinen gleichzeitig eingesetzt, so benötigen sie 24 Minuten zum Befüllen von 6 000 Flaschen Mineralwasser.\n\nDie Funktion f ordnet einer Anzahl n solcher gleichzeitig arbeitender Abfüllmaschinen die Dauer f(n) zu, die für die Befüllung der 6 000 Flaschen benötigt wird (n ∈ ℕ\\{0} und f(n) in Minuten)."
+    }
+  ]
+}

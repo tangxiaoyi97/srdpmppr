@@ -1,0 +1,122 @@
+{
+  "id": "2023-wt-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2023w1]t1-23-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1266a",
+          "baseId": "1_1266",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/799/1_1266_srdp_ma_Wahrscheinlichkeitsverteilung_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "E(X) = 1 \\cdot 0{,}2 + 2 \\cdot 0{,}5 + 4 \\cdot 0{,}3 = 2{,}4"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X) = 2{,}4"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln von E(X)."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "E(X)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EX",
+            "label": "E(X)",
+            "value": 2.4,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1266",
+      "baseId": "1_1266",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/799/1_1266_srdp_ma_Wahrscheinlichkeitsverteilung_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist die Wahrscheinlichkeitsverteilung der Zufallsvariablen X dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-23-q.png",
+      "alt": "Stabdiagramm der Wahrscheinlichkeitsverteilung P(X = k): bei k = 1 Wahrscheinlichkeit 0,2; bei k = 2 Wahrscheinlichkeit 0,5; bei k = 4 Wahrscheinlichkeit 0,3."
+    },
+    {
+      "t": "text",
+      "v": "Die Zufallsvariable X nimmt nur die Werte 1, 2 und 4 mit einer positiven Wahrscheinlichkeit an."
+    }
+  ]
+}

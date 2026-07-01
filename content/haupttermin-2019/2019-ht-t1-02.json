@@ -1,0 +1,129 @@
+{
+  "id": "2019-ht-t1-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 2,
+    "file": "[2019h1]t1-2-an.pdf"
+  },
+  "title": "Anhalteweg",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019/[2019h1]t1-2-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019/lo/[2019h1]t1-2-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-ht-t1-02-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.3",
+          "description": "quadratische Gleichungen in einer Variablen umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_687a",
+          "baseId": "1_687",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/420/Anhalteweg.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "25=\\frac{v}{10}\\cdot 3+\\left(\\frac{v}{10}\\right)^{2}"
+            },
+            {
+              "t": "math",
+              "v": "v^{2}+30\\cdot v-2\\,500=0"
+            },
+            {
+              "t": "math",
+              "v": "v_{1}=-15+\\sqrt{2\\,725}\\approx 37{,}2\\quad(v_{2}=-15-\\sqrt{2\\,725})"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die maximal zulässige Geschwindigkeit beträgt ≈ 37,2 km/h."
+            }
+          ],
+          "note": "[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Toleranzintervall: [37; 38]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die maximal zulässige Geschwindigkeit bei einer Sichtweite von 25 m!\n\nDie maximal zulässige Geschwindigkeit beträgt ≈ "
+        },
+        {
+          "t": "math",
+          "v": "\\square"
+        },
+        {
+          "t": "text",
+          "v": " km/h."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "value": 37.5,
+            "tol": 0.5,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_687",
+      "baseId": "1_687",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/420/Anhalteweg.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Schülerinnen und Schüler einer Fahrschule lernen die nachstehende Formel für die näherungsweise Berechnung des Anhaltewegs s. Dabei ist v die Geschwindigkeit des Fahrzeugs (s in m, v in km/h)."
+    },
+    {
+      "t": "math",
+      "v": "s=\\frac{v}{10}\\cdot 3+\\left(\\frac{v}{10}\\right)^{2}"
+    },
+    {
+      "t": "text",
+      "v": "Bei „Fahren auf Sicht“ muss man jederzeit die Geschwindigkeit so wählen, dass man innerhalb der Sichtweite anhalten kann. „Sichtweite“ bezeichnet dabei die Länge des Streckenabschnitts, den man sehen kann."
+    }
+  ]
+}

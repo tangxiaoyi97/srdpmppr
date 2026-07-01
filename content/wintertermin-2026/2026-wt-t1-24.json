@@ -1,0 +1,187 @@
+{
+  "id": "2026-wt-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2026w1]t1-24-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-24-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1590a",
+          "baseId": "1_1590",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1104/1_1590_srdp_ma_Wahrscheinlichkeitsverteilungen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "E(X)<E(Y)"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma(X)=\\sigma(Y)"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nBei den beiden binomialverteilten Zufallsvariablen gilt für die Erwartungswerte ① und für die Standardabweichungen ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "E(X)<E(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "E(X)=E(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "E(X)>E(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sigma(X)<\\sigma(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sigma(X)=\\sigma(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sigma(X)>\\sigma(Y)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1590",
+      "baseId": "1_1590",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1104/1_1590_srdp_ma_Wahrscheinlichkeitsverteilungen_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die zwei binomialverteilten Zufallsvariablen X und Y.\n\nDie unten stehenden Abbildungen zeigen die Wahrscheinlichkeitsverteilungen von X und Y. Zu jedem Wert von X gibt es einen Wert von Y, der die gleiche Wahrscheinlichkeit hat wie X, und umgekehrt.\n\nEs gilt:"
+    },
+    {
+      "t": "math",
+      "v": "P(X=k)=P(Y=12-k)\\ \\text{für alle}\\ k=0,1,2,\\ldots,12"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-24-q.png",
+      "alt": "Zwei Stabdiagramme der Wahrscheinlichkeitsverteilungen P(X = k) und P(Y = k) (k von 0 bis 12, Wahrscheinlichkeit 0 % bis 25 %); die Verteilung von Y ist die an k = 6 gespiegelte Verteilung von X."
+    },
+    {
+      "t": "text",
+      "v": "Der Erwartungswert von X wird mit E(X) und die Standardabweichung von X mit σ(X) bezeichnet. Der Erwartungswert von Y wird mit E(Y) und die Standardabweichung von Y mit σ(Y) bezeichnet."
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "id": "2019-nt2-t2-01",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2019",
+    "year": 2019,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 1,
+    "file": "[2019n2]t2-1.pdf"
+  },
+  "title": "Polynomfunktion dritten Grades",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t2-1.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t2-1.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2019-nt2-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041a",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die lokalen Extremstellen von "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von t an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lokale Extremstellen: "
+          },
+          {
+            "t": "math",
+            "v": "x_1=t"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "x_2=\\tfrac{t}{3}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Ausgleichspunkt für die Angabe der beiden richtigen Werte.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f_t'(x)=\\tfrac{3}{t}\\cdot x^{2}-4\\cdot x+t"
+            },
+            {
+              "t": "math",
+              "v": "3\\cdot x^{2}-4\\cdot t\\cdot x+t^{2}=0 \\Rightarrow x_1=t;\\ x_2=\\tfrac{t}{3}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_1=t;\\quad x_2=\\tfrac{t}{3}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe der beiden richtigen Werte."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041a",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "An der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x=t"
+        },
+        {
+          "t": "text",
+          "v": " gelten für die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " die Gleichungen "
+        },
+        {
+          "t": "math",
+          "v": "f_t(t)=0"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "f_t'(t)=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "f_t''(t)=2"
+        },
+        {
+          "t": "text",
+          "v": ".\nBeschreiben Sie den Verlauf des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " bei "
+        },
+        {
+          "t": "math",
+          "v": "x=t"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Beschreibung: An der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x=t"
+          },
+          {
+            "t": "text",
+            "v": " hat "
+          },
+          {
+            "t": "math",
+            "v": "f_t"
+          },
+          {
+            "t": "text",
+            "v": " eine Nullstelle und ein lokales Minimum."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Beschreibung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "An der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=t"
+            },
+            {
+              "t": "text",
+              "v": " hat "
+            },
+            {
+              "t": "math",
+              "v": "f_t"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle und ein lokales Minimum."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Beschreibung."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041b",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie diejenige Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_0"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von t an, an der sich das Krümmungsverhalten von "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " ändert!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Wendestelle: "
+          },
+          {
+            "t": "math",
+            "v": "x_0=\\tfrac{2}{3}\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f_t''(x)=\\tfrac{6}{t}\\cdot x-4"
+            },
+            {
+              "t": "math",
+              "v": "f_t''(x)=0 \\Rightarrow x_0=\\tfrac{2}{3}\\cdot t"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "x_0=\\tfrac{2}{3}\\cdot t"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 2.1",
+          "description": "einfache Regeln des Differenzierens kennen und anwenden können: Potenzregel, Summenregel, Regeln für [k * f(x)]' und [f(k *x)]' (vgl. Inhaltsbereich Funktionale Abhängigkeiten)",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041b",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Weisen Sie rechnerisch nach, dass das Krümmungsverhalten des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " an der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x=0"
+        },
+        {
+          "t": "text",
+          "v": " unabhängig von der Wahl des Parameters t ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Möglicher Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "f_t''(0)=\\tfrac{6}{t}\\cdot 0-4=-4"
+          },
+          {
+            "t": "text",
+            "v": ". Die zweite Ableitungsfunktion hat an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x=0"
+          },
+          {
+            "t": "text",
+            "v": " den Wert −4 und ist somit unabhängig vom Parameter t."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen korrekten rechnerischen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f_t''(0)=\\tfrac{6}{t}\\cdot 0-4=-4"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die zweite Ableitungsfunktion hat an der Stelle x = 0 den Wert −4 und ist somit unabhängig vom Parameter t."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041c",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion A beschreibt in Abhängigkeit von t mit "
+        },
+        {
+          "t": "math",
+          "v": "t>0"
+        },
+        {
+          "t": "text",
+          "v": " den Flächeninhalt derjenigen Fläche, die vom Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " und von der x-Achse im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0; t]"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt wird. Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "A:\\mathbb{R}^{+}\\to\\mathbb{R}_0^{+}"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "t\\mapsto A(t)"
+        },
+        {
+          "t": "text",
+          "v": ", ist eine Polynomfunktion.\nGeben Sie den Funktionsterm und den Grad von A an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Funktionsterm: "
+          },
+          {
+            "t": "math",
+            "v": "A(t)=\\tfrac{t^{3}}{12}"
+          },
+          {
+            "t": "text",
+            "v": "; die Funktion A ist eine Funktion dritten Grades."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen richtigen Funktionsterm und die Angabe des richtigen Grades von A. Äquivalente Terme sind als richtig zu werten.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "A(t)=\\int_{0}^{t} f_t(x)\\,dx=\\tfrac{t^{3}}{4}-\\tfrac{2\\,t^{3}}{3}+\\tfrac{t^{3}}{2}=\\tfrac{t^{3}}{12}"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion A ist eine Funktion dritten Grades."
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Funktionsterm und die Angabe des richtigen Grades von A. Äquivalente Terme sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 1.2",
+          "description": "Wissen über algebraische Begriffe angemessen einsetzen können: Variable, Terme, Formeln,(Un-)Gleichungen, Gleichungssysteme, Äquivalenz, Umformungen, Lösbarkeit",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041c",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das Verhältnis "
+        },
+        {
+          "t": "math",
+          "v": "A(t):A(2\\cdot t)"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "A(t):A(2\\cdot t)=1:8"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für ein richtiges Verhältnis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A(t):A(2\\cdot t)=1:8"
+            }
+          ],
+          "note": "Ein Punkt für ein richtiges Verhältnis."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 4.3",
+          "description": "aus Tabellen, Graphen und Gleichungen von Polynomfunktionen Funktionswerte, aus Tabellen und Graphen sowie aus einer quadratischen Funktionsgleichung Argumentwerte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041d",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie rechnerisch, dass "
+        },
+        {
+          "t": "math",
+          "v": "f_{-1}(x)=f_{1}(-x)"
+        },
+        {
+          "t": "text",
+          "v": " für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Möglicher Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "f_{-1}(x)=-x^{3}-2\\cdot x^{2}-x"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "f_{1}(-x)=(-x)^{3}-2\\cdot(-x)^{2}+(-x)=-x^{3}-2\\cdot x^{2}-x"
+          },
+          {
+            "t": "text",
+            "v": ", also "
+          },
+          {
+            "t": "math",
+            "v": "f_{-1}(x)=f_{1}(-x)"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen korrekten rechnerischen Nachweis.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "f_{-1}(x)=-x^{3}-2\\cdot x^{2}-x"
+            },
+            {
+              "t": "math",
+              "v": "f_{1}(-x)=(-x)^{3}-2\\cdot(-x)^{2}+(-x)=-x^{3}-2\\cdot x^{2}-x"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "f_{-1}(x)=f_{1}(-x)"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis."
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-01-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_041d",
+          "baseId": "2_041",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erläutern Sie, wie der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f_{-1}"
+        },
+        {
+          "t": "text",
+          "v": " aus dem Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f_{1}"
+        },
+        {
+          "t": "text",
+          "v": " hervorgeht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Erläuterung: Wird der Graph der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f_{1}"
+          },
+          {
+            "t": "text",
+            "v": " an der senkrechten Achse gespiegelt, so erhält man den Graphen der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f_{-1}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für eine korrekte Erläuterung.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wird der Graph der Funktion f1 an der senkrechten Achse gespiegelt, so erhält man den Graphen der Funktion f−1."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Erläuterung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_041",
+      "baseId": "2_041",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/415/Polynomfunktion%20dritten%20Grades.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion dritten Grades "
+    },
+    {
+      "t": "math",
+      "v": "f_t"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f_t(x)=\\tfrac{1}{t}\\cdot x^{3}-2\\cdot x^{2}+t\\cdot x"
+    },
+    {
+      "t": "text",
+      "v": ". Für den Parameter t gilt: "
+    },
+    {
+      "t": "math",
+      "v": "t\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "t\\neq 0"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
+}

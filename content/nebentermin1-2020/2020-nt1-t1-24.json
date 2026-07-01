@@ -1,0 +1,79 @@
+{
+  "id": "2020-nt1-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2020n1]t1-24-ws.pdf"
+  },
+  "title": "Konfidenzintervall",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "[h – 0,02; h + 0,02]"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für diese zweite Befragung das um h symmetrische 95-%-Konfidenzintervall für den unbekannten relativen Anteil der Befürworter/innen der Umfahrungsstraße an."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das gesuchte 95-%-Konfidenzintervall ist [h – 0,02; h + 0,02]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Anhand der relativen Stichprobenhäufigkeit h bei einer repräsentativen Befragung von 500 Personen wurde für den unbekannten relativen Anteil der Befürworter/innen einer Umfahrungsstraße das 95-%-Konfidenzintervall [h – 0,04; h + 0,04] ermittelt.\n\nEine zweite repräsentative Befragung von 2 000 Personen ergibt die gleiche relative Stichprobenhäufigkeit h."
+    }
+  ]
+}

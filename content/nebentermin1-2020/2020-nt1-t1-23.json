@@ -1,0 +1,124 @@
+{
+  "id": "2020-nt1-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2020n1]t1-23-ws.pdf"
+  },
+  "title": "Wurf einer Münze",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-23-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_804a",
+          "baseId": "1_804",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/588/Wurf%20einer%20Muenze.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Die mit den Parametern n und p binomialverteilte Zufallsvariable X beschreibt die Anzahl der Würfe der Münze, bei denen Kopf geworfen wird.\n"
+            },
+            {
+              "t": "math",
+              "v": "n=20"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}5"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X=12)=\\binom{20}{12}\\cdot 0{,}5^{12}\\cdot 0{,}5^{8}=0{,}120\\ldots\\approx 0{,}12"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=12)\\approx 0{,}12"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass bei diesen 20 Würfen die Münze genau 12-mal Kopf zeigt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "value": 0.12,
+            "tol": 0.005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_804",
+      "baseId": "1_804",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/588/Wurf%20einer%20Muenze.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Münze zeigt nach einem Wurf entweder Kopf oder Zahl. Die Wahrscheinlichkeit, dass die Münze Kopf zeigt, ist bei jedem Wurf genauso groß wie die Wahrscheinlichkeit, dass sie Zahl zeigt. Die Ergebnisse der Würfe sind voneinander unabhängig. Die Münze wird 20-mal geworfen."
+    }
+  ]
+}

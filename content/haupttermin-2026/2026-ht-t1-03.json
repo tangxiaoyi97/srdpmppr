@@ -1,0 +1,133 @@
+{
+  "id": "2026-ht-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2026h1]t1-3-ag.pdf"
+  },
+  "title": "Fruchtsäfte",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-03-a",
+      "label": "a",
+      "format": "1 aus 6",
+      "competencies": [
+        {
+          "code": "AG 2.4",
+          "description": "lineare Ungleichungen aufstellen, interpretieren, umformen/lösen, Lösungen (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1593a",
+          "baseId": "1_1593",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1113/1_1593_Fruchtsaefte_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{100}\\cdot(50-x)+\\tfrac{b}{100}\\cdot x\\ge\\tfrac{c}{100}\\cdot 50"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Ungleichung an, mit der in jedem Fall alle möglichen Werte von x berechnet werden können."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{100}\\cdot x+\\tfrac{b}{100}\\cdot(50-x)\\ge\\tfrac{c}{100}\\cdot 50"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{100}\\cdot x+\\tfrac{b}{100}\\cdot(50-x)\\le\\tfrac{c}{100}\\cdot 50"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{100}\\cdot(50-x)+\\tfrac{b}{100}\\cdot x\\ge\\tfrac{c}{100}\\cdot 50"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tfrac{a}{100}\\cdot(50-x)+\\tfrac{b}{100}\\cdot x\\le\\tfrac{c}{100}\\cdot 50"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "50\\cdot\\left(\\tfrac{a}{100}\\cdot(50-x)+\\tfrac{b}{100}\\cdot x\\right)\\ge\\tfrac{c}{100}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "50\\cdot\\left(\\tfrac{a}{100}\\cdot x+\\tfrac{b}{100}\\cdot(50-x)\\right)\\le\\tfrac{c}{100}"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1593",
+      "baseId": "1_1593",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1113/1_1593_Fruchtsaefte_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sollen 50 Liter Fruchtsaft C mit einem Fruchtanteil von mindestens c % hergestellt werden. Dafür werden ausschließlich die Fruchtsäfte A und B verwendet. Fruchtsaft A hat einen Fruchtanteil von a %. Fruchtsaft B hat einen Fruchtanteil von b %.\n\nFür die Herstellung von Fruchtsaft C werden x Liter von Fruchtsaft B verwendet."
+    }
+  ]
+}

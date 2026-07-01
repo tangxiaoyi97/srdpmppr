@@ -1,0 +1,129 @@
+{
+  "id": "2023-ht-t1-07",
+  "schemaVersion": 2,
+  "status": "reviewed",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2023",
+    "year": 2023,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2023h1]t1-7-an.pdf"
+  },
+  "title": "Graph einer Polynomfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-7-an.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2023/lo/[2023h1]t1-7-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-ht-t1-07-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1274a",
+          "baseId": "1_1274",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/813/1_1274_srdp_ma_Graph%20einer%20Polynomfunktion_PT1_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [
+        {
+          "kind": "image",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-07-q.png",
+          "alt": "Leeres Koordinatensystem, x und f(x) von −4 bis 4"
+        }
+      ],
+      "solution": [
+        {
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t1-07-sol.png",
+              "alt": "Lösung: zur senkrechten Achse symmetrischer Graph mit Hochpunkten bei x = −3 und x = 3"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Skizzieren des Funktionsgraphen (Polynomfunktion 4. Grades), wobei dieser klar erkennbar an den Stellen −3 und 3 jeweils ein Maximum haben muss und symmetrisch bezüglich der senkrechten Achse verlaufen muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem im Intervall [−4; 4] den Graphen einer solchen Polynomfunktion f."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Graph einer Polynomfunktion 4. Grades im Intervall [−4; 4] skizzieren, der bei "
+          },
+          {
+            "t": "math",
+            "v": "x=-3"
+          },
+          {
+            "t": "text",
+            "v": " und (wegen der Symmetrie zur senkrechten Achse) bei "
+          },
+          {
+            "t": "math",
+            "v": "x=3"
+          },
+          {
+            "t": "text",
+            "v": " je ein lokales Maximum hat und symmetrisch zur senkrechten Achse verläuft."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1274",
+      "baseId": "1_1274",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/813/1_1274_srdp_ma_Graph%20einer%20Polynomfunktion_PT1_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion 4. Grades f hat folgende Eigenschaften:\n\n- f hat an der Stelle "
+    },
+    {
+      "t": "math",
+      "v": "x=-3"
+    },
+    {
+      "t": "text",
+      "v": " ein lokales Maximum.\n- Der Graph von f ist symmetrisch bezüglich der senkrechten Achse."
+    }
+  ]
+}

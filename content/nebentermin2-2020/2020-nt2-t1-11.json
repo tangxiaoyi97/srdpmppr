@@ -1,0 +1,134 @@
+{
+  "id": "2020-nt2-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2020n2]t1-11-fa.pdf"
+  },
+  "title": "Verzinsung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-11-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_744a",
+          "baseId": "1_744",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/520/Verzinsung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot K_0=K_0\\cdot 1{,}01^{n}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "2=1{,}01^{n}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\ln(2)=\\ln(1{,}01)\\cdot n"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "n=\\dfrac{\\ln(2)}{\\ln(1{,}01)}=69{,}66\\ldots\\approx 69{,}7"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Kapital K₀ verdoppelt sich nach ca. 69,7 Jahren."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Jahr“ nicht angeführt sein muss. Toleranzintervall: [69 Jahre; 70 Jahre]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, in wie vielen Jahren sich das Kapital K₀ bei gleichbleibendem Zinssatz verdoppelt."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 69.5,
+            "tol": 0.5,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_744",
+      "baseId": "1_744",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/520/Verzinsung.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Kapital K₀ wird auf einem Sparbuch mit 1 % p. a. (pro Jahr) verzinst.\n\nFür die nachstehende Aufgabenstellung gilt die Annahme, dass allfällige Steuern oder Gebühren nicht gesondert berücksichtigt werden müssen und dass keine weiteren Einzahlungen oder Auszahlungen erfolgen."
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "id": "2020-nt1-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2020n1]t2-4.pdf"
+  },
+  "title": "Sicherheitskontrolle",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096a",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable X beschreibt die Dauer d (in s) der Sicherheitskontrolle bei einer Person. Wartezeiten, die eventuell auftreten können, werden nicht berücksichtigt.\n\nErgänzen Sie in der nachstehenden Tabelle die Wahrscheinlichkeitsverteilung der Zufallsvariablen X."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t2-04-a1.png",
+          "alt": "Leere Tabelle mit zwei Zeilen: d und P(X = d), die zu ergänzen sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d1",
+            "label": "d (1)",
+            "value": 15,
+            "tol": 1e-9,
+            "unit": "s"
+          },
+          {
+            "id": "d2",
+            "label": "d (2)",
+            "value": 30,
+            "tol": 1e-9,
+            "unit": "s"
+          },
+          {
+            "id": "d3",
+            "label": "d (3)",
+            "value": 330,
+            "tol": 1e-9,
+            "unit": "s"
+          },
+          {
+            "id": "p1",
+            "label": "P(X = 15)",
+            "value": 0.9,
+            "tol": 1e-9
+          },
+          {
+            "id": "p2",
+            "label": "P(X = 30)",
+            "value": 0.06,
+            "tol": 1e-9
+          },
+          {
+            "id": "p3",
+            "label": "P(X = 330)",
+            "value": 0.04,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "d\\in\\{15,\\ 30,\\ 330\\}"
+            },
+            {
+              "t": "text",
+              "v": ";  "
+            },
+            {
+              "t": "math",
+              "v": "P(X=15)=0{,}9,\\quad P(X=30)=0{,}1\\cdot 0{,}6=0{,}06,\\quad P(X=330)=0{,}1\\cdot 0{,}4=0{,}04"
+            }
+          ],
+          "note": "a1) Ein Punkt für die Ergänzung der richtigen Werte in der Tabelle."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-04-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096a",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Erwartungswert E(X)."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "EX",
+            "label": "E(X)",
+            "value": 28.5,
+            "tol": 1e-9,
+            "unit": "s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "E(X)=15\\cdot 0{,}9+30\\cdot 0{,}06+330\\cdot 0{,}04=28{,}5"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=28{,}5"
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096b",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Wert p gibt die Wahrscheinlichkeit an, dass eine Person einen unzulässigen Gegenstand mit sich führt. Die Wahrscheinlichkeit, dass von 2 zufällig und unabhängig voneinander ausgewählten Personen beide einen unzulässigen Gegenstand mit sich führen, beträgt 10 %.\n\nBerechnen Sie die Wahrscheinlichkeit p."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "label": "p",
+            "value": 0.31622776601683794,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "p^{2}=0{,}1\\ \\Rightarrow\\ p=0{,}31622\\ldots\\approx 0{,}3162"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "p\\approx 0{,}3162"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nGrundkompetenz: WS 2.3"
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096b",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Wahrscheinlichkeit, dass von 10 zufällig und unabhängig voneinander ausgewählten Personen mindestens 5 Personen einen unzulässigen Gegenstand mit sich führen."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "P",
+            "value": 0.179,
+            "tol": 0.001
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "Y ... Anzahl der Personen, die einen unzulässigen Gegenstand mit sich führen\nY ist binomialverteilt mit "
+            },
+            {
+              "t": "math",
+              "v": "n=10,\\ p=0{,}31622\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P(Y\\ge 5)=0{,}1794\\ldots\\approx 0{,}179"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "P(Y\\ge 5)\\approx 0{,}179"
+            }
+          ],
+          "note": "b2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096c",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die momentane Änderungsrate der Anzahl der Personen im Stadion kann mithilfe der Funktion A mit "
+        },
+        {
+          "t": "math",
+          "v": "A(t)=a\\cdot t^{2}+b\\cdot t+c\\ \\text{mit}\\ a,b,c\\in\\mathbb{R}\\ \\text{und}\\ 0\\le t\\le 90"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit t beschrieben werden, wobei zum Zeitpunkt t = 0 der Einlass ins Stadion beginnt (t in Minuten, A(t) in Personen pro Minute).\n\nZum Zeitpunkt t = 0 kommt keine Person ins Stadion, 45 min nach Einlassbeginn kommen 15 Personen pro Minute ins Stadion. Zu diesem Zeitpunkt ist die momentane Änderungsrate der Anzahl der ins Stadion kommenden Personen pro Minute am größten.\n\nBerechnen Sie die Werte von a, b und c."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -0.007407407407407408,
+            "tol": 0.00001
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 0.6666666666666666,
+            "tol": 0.0001
+          },
+          {
+            "id": "c",
+            "label": "c",
+            "value": 0,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "A(0)=0,\\quad A(45)=15,\\quad A'(45)=0"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-\\tfrac{1}{135},\\quad b=\\tfrac{2}{3},\\quad c=0"
+            }
+          ],
+          "note": "c1) Ein Punkt für die Angabe der drei richtigen Werte."
+        }
+      ]
+    },
+    {
+      "id": "2020-nt1-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 4.3",
+          "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_096c",
+          "baseId": "2_096",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Anzahl der Personen an, die insgesamt bis zum Zeitpunkt t = 90 ins Stadion gekommen sind."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "value": 900,
+            "tol": 1e-9,
+            "unit": "Personen"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{90}A(t)\\,dt=900"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "900 Personen"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_096",
+      "baseId": "2_096",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/593/Sicherheitskontrolle.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Einlass in ein bestimmtes Stadion findet bei einer Veranstaltung eine maximal dreistufige Sicherheitskontrolle bei Personen statt, um mitgeführte Gegenstände zu kontrollieren und unzulässige Gegenstände zu erfassen. Liefert die erste Stufe dieser Sicherheitskontrolle kein eindeutiges Ergebnis, dann wird die zweite Stufe der Sicherheitskontrolle durchgeführt. Liegt dann noch immer kein eindeutiges Ergebnis vor, kommt die dritte Stufe der Sicherheitskontrolle zum Einsatz.\n\nDie erste und die zweite Stufe der Sicherheitskontrolle dauern jeweils 15 s, die dritte Stufe dauert 300 s. Ein eindeutiges Ergebnis liefert dabei die erste Stufe mit einer Wahrscheinlichkeit von 90 %, die zweite Stufe mit einer Wahrscheinlichkeit von 60 %."
+    }
+  ]
+}

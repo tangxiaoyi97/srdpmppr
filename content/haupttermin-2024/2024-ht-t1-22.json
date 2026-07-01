@@ -1,0 +1,109 @@
+{
+  "id": "2024-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2024",
+    "year": 2024,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2024h1]t1-22-ws.pdf"
+  },
+  "title": "Ziehen von Kugeln",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2024/[2024h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2024/lo/[2024h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-ht-t1-22-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1361a",
+          "baseId": "1_1361",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/913/1_1361_srdp_ma_Ziehen%20von%20Kugeln_PT1_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\dfrac{6}{n}\\cdot\\dfrac{5}{n-1}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie unter Verwendung von n eine Gleichung zur Berechnung von p auf."
+        },
+        {
+          "t": "math",
+          "v": "p="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "(6/n)*(5/(n-1))",
+        "vars": [
+          "n"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1361",
+      "baseId": "1_1361",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/913/1_1361_srdp_ma_Ziehen%20von%20Kugeln_PT1_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Urne befinden sich n Kugeln. Von den n Kugeln sind 6 Kugeln rot, die restlichen Kugeln sind weiß. Aus dieser Urne werden nach dem Zufallsprinzip hintereinander 2 Kugeln ohne Zurücklegen gezogen.\n\nDie zugehörigen Wahrscheinlichkeiten sind im nachstehenden Baumdiagramm dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-22-q.png",
+      "alt": "Baumdiagramm: erste Stufe rot 6/n, weiß (n−6)/n; zweite Stufe Wahrscheinlichkeiten 5/(n−1), (n−6)/(n−1), 6/(n−1), (n−7)/(n−1)."
+    },
+    {
+      "t": "text",
+      "v": "Die Wahrscheinlichkeit, dass die beiden gezogenen Kugeln rot sind, beträgt p."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "2022-ht-t1-22",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 22,
+    "file": "[2022h1]t1-22-ws.pdf"
+  },
+  "title": "Sportwettbewerb",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-22-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-22-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-22-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.4",
+          "description": "Binomialkoeffizient berechnen und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1200a",
+          "baseId": "1_1200",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/741/Sportwettbewerb.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gibt 4 845 Möglichkeiten für die Auswahl einer Viererguppe.\noder:\nEs gibt 4 845 Möglichkeiten, aus den 20 Personen eine Gruppe von 4 Personen auszuwählen."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\binom{20}{4}=4\\,845"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Sachzusammenhang."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es gibt 4 845 Möglichkeiten für die Auswahl einer Vierergruppe. (oder: Es gibt 4 845 Möglichkeiten, aus den 20 Personen eine Gruppe von 4 Personen auszuwählen.)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1200",
+      "baseId": "1_1200",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/741/Sportwettbewerb.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem Sportwettbewerb nehmen 20 Personen teil. Diese werden in Gruppen eingeteilt."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "2020-nt1-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2020n1]t1-11-fa.pdf"
+  },
+  "title": "Halbwertszeit",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-11-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_792a",
+          "baseId": "1_792",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/576/Halbwertszeit.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "10 mg"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „mg“ nicht angeführt sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie diejenige Masse (in mg) der radioaktiven Substanz, die nach den ersten 3 Halbwertszeiten vorhanden ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "m",
+            "value": 10,
+            "tol": 1e-9,
+            "unit": "mg"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_792",
+      "baseId": "1_792",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/576/Halbwertszeit.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(t)=80\\cdot b^{t}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Masse f(t) einer radioaktiven Substanz in Abhängigkeit von der Zeit t (t in h, f(t) in mg). Die Halbwertszeit der radioaktiven Substanz beträgt 4 h.\nEine Messung beginnt zum Zeitpunkt t = 0."
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": "2021-nt2-t2-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2021n2]t2-3.pdf"
+  },
+  "title": "Elektromobilität",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t2-3.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t2-3.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t2-03-a1",
+      "label": "a1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Grafik zeigt den Bestand an Elektroautos in Österreich für den Zeitraum vom 31. Dezember 2015 bis 31. August 2018. Für die Jahre 2015 bis 2017 wird der Bestand jeweils am Ende des Jahres dargestellt, für das Jahr 2018 der Bestand Ende August."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t2-03-a1-q.png",
+          "alt": "Säulendiagramm „Bestand an Elektroautos in Österreich“: 2015: 5 032; 2016: 9 073; 2017: 14 618; 2018 (Ende August): 18 459."
+        },
+        {
+          "t": "text",
+          "v": "Die Differenzengleichung Bₙ₊₁ = Bₙ · a + b beschreibt die Entwicklung des Bestands an Elektroautos in Österreich ausgehend vom Jahr 2015 für die Jahre 2016 und 2017.\nDabei gilt:\n- B₀ ist der Bestand am Ende des Jahres 2015.\n- B₁ ist der Bestand am Ende des Jahres 2016.\n- B₂ ist der Bestand am Ende des Jahres 2017.\n\nGeben Sie a und b an."
+        },
+        {
+          "t": "math",
+          "v": "a=\\quad b="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 1.37,
+            "tol": 0.01
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 2168.1,
+            "tol": 5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=1{,}37\\ldots,\\quad b=2\\,168{,}1\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für die Angabe der beiden richtigen Werte."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-03-a2",
+      "label": "a2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Damit die angegebene Differenzengleichung auch für das Ende des Jahres 2018 zutrifft, hätte der Bestand an Elektroautos im Rest des Jahres 2018 noch um eine bestimmte Anzahl erhöht werden müssen.\n\nBerechnen Sie diese Anzahl."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "anzahl",
+            "label": "Anzahl",
+            "value": 3768,
+            "tol": 5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "B_3=14\\,618\\cdot 1{,}37\\ldots+2\\,168{,}1\\ldots=22\\,226{,}7\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "22\\,226{,}7\\ldots-18\\,459=3\\,767{,}7\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Bestand an Elektroautos hätte im Jahr 2018 noch um ca. 3 768 Elektroautos erhöht werden müssen, damit die angegebene Differenzengleichung auch für das Jahr 2018 zutreffend wäre."
+            }
+          ],
+          "note": "a2) Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-03-b1",
+      "label": "b1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Batteriekapazität (in kWh) ist das Produkt von Ladeleistung (in kW) und Ladezeit (in h). Um beispielsweise eine (annähernd) leere Batterie mit einer Batteriekapazität von 22 kWh mit einer Ladeleistung von 11 kW zu laden, benötigt man eine Ladezeit von 2 h.\n\nDie Funktion f beschreibt die Ladezeit f(P) einer Batterie mit einer Batteriekapazität von 22 kWh in Abhängigkeit von der Ladeleistung P (P in kW, f(P) in h).\n\nGeben Sie f(P) an."
+        },
+        {
+          "t": "math",
+          "v": "f(P)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac{22}{P}",
+        "vars": [
+          "P"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(P)=\\dfrac{22}{P}"
+            }
+          ],
+          "note": "b1) Ein Ausgleichspunkt für eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-03-b2",
+      "label": "b2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die typische Ladeleistung einer privaten Ladestation liegt im Leistungsintervall [2,3 kW; 3,7 kW].\n\nGeben Sie für eine Batterie mit einer Batteriekapazität von 22 kWh dasjenige Zeitintervall der Ladezeit an, das diesem Leistungsintervall entspricht."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "interval",
+        "lower": 5.9459,
+        "upper": 9.5652,
+        "lowerClosed": true,
+        "upperClosed": true
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zeitintervall: [5,94… h; 9,56… h]"
+            }
+          ],
+          "note": "b2) Ein Punkt für ein richtiges Intervall, wobei die Einheit „h“ nicht angegeben sein muss."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-03-c1",
+      "label": "c1",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Fahrt eines Elektroautos auf einer bestimmten Teststrecke wird modellhaft angenommen:\n- Die gesamte Teststrecke wird mit einer konstanten Geschwindigkeit durchfahren.\n- Es besteht ein linearer Zusammenhang zwischen dem Energiebedarf dieses Elektroautos und der jeweiligen konstanten Geschwindigkeit.\n\nDieses Elektroauto hat bei einer konstanten Geschwindigkeit von 70 km/h einen Energiebedarf von 12,9 kWh für das Durchfahren dieser Teststrecke. Bei einer konstanten Geschwindigkeit von 110 km/h hat es einen Energiebedarf von 20,9 kWh für das Durchfahren dieser Teststrecke.\n\nDie Funktion E beschreibt den Energiebedarf E(v) in Abhängigkeit von der Geschwindigkeit v mit 50 ≤ v ≤ 130 (v in km/h, E(v) in kWh).\n\nGeben Sie E(v) an."
+        },
+        {
+          "t": "math",
+          "v": "E(v)="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.2\\cdot v-1.1",
+        "vars": [
+          "v"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(v)=0{,}2\\cdot v-1{,}1"
+            }
+          ],
+          "note": "c1) Ein Punkt für eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t2-03-c2",
+      "label": "c2",
+      "format": "",
+      "competencies": [],
+      "externalRefs": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Batterie dieses Elektroautos hat eine Batteriekapazität von 41 kWh und ist vor dem Durchfahren der Teststrecke vollständig geladen. Nach dem Durchfahren der Teststrecke sind in der Batterie noch 30,22 kWh gespeichert.\n\nErmitteln Sie die (konstante) Geschwindigkeit v₁, mit der die Teststrecke durchfahren worden ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v1",
+            "label": "v₁",
+            "value": 59.4,
+            "tol": 0.1,
+            "unit": "km/h"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "E(v_1)=41-30{,}22=10{,}78"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "v_1=59{,}4\\ \\text{km/h}"
+            }
+          ],
+          "note": "c2) Ein Punkt für die richtige Lösung, wobei die Einheit „km/h“ nicht angegeben sein muss."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Bestand an Elektroautos nahm in Österreich in den letzten Jahren zu. Die Gründe dafür liegen unter anderem an technischen Verbesserungen, wie zum Beispiel den steigenden Batteriekapazitäten und kürzeren Ladezeiten.\n\nUnter Batteriekapazität versteht man die in der Batterie des Elektroautos maximal speicherbare Energie E (in Kilowattstunden, kWh). Diese Energie wird während des Fahrens in eine andere Energieform umgewandelt und beim Ladevorgang wieder der Batterie zugeführt.\n\nUnter Ladezeit versteht man diejenige Zeit, die für das vollständige Laden einer (annähernd) leeren Batterie benötigt wird."
+    }
+  ]
+}

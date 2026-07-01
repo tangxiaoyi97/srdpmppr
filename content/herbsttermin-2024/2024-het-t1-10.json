@@ -1,0 +1,118 @@
+{
+  "id": "2024-het-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2024",
+    "year": 2024,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2024h2]t1-10-fa.pdf"
+  },
+  "title": "Sauerstoff",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2024/[2024h2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2024/lo/[2024h2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2024-het-t1-10-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 5.5",
+          "description": "die Begriffe Halbwertszeit und Verdoppelungszeit kennen, die entsprechenden Werte berechnen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1373a",
+          "baseId": "1_1373",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/929/1_1373_srdp_ma_Sauerstoff_PT2_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "S(0) = 14,6;  S(20) = 9,1. Berechnung mittels Technologieeinsatz: "
+            },
+            {
+              "t": "math",
+              "v": "S(T)=14{,}6 \\cdot 0{,}9766\\ldots^{\\,T}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "S(T_1)=\\tfrac{S(0)}{2}"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "T_1 = 29{,}3\\ldots\\ ^\\circ\\text{C}"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Berechnen von T1."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Temperatur T₁, bei der S(T₁) nur mehr halb so groß wie S(0) ist."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "T1",
+            "label": "T_1",
+            "value": 29.3,
+            "tol": 0.3,
+            "unit": "°C"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1373",
+      "baseId": "1_1373",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/929/1_1373_srdp_ma_Sauerstoff_PT2_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion S ordnet der Temperatur T von Wasser die maximale Aufnahmefähigkeit S(T) von reinem Sauerstoff zu (T in °C, S(T) in mg/L). Nachstehend ist eine Wertetabelle von S gegeben.\n\nTemperatur T (in °C) | maximale Aufnahmefähigkeit S(T) (in mg/L)\n0 | 14,6\n20 | 9,1\n\nEs wird angenommen, dass S eine Exponentialfunktion ist."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "2025-wt-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2025w1]t1-17-an.pdf"
+  },
+  "title": "Ableitungsfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1441a",
+          "baseId": "1_1441",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1003/1_1441_srdp_ma_Ableitungsfunktion_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Die Funktion f ist im Intervall (–4; 0) streng monoton fallend.“ und „Die Funktion f hat mindestens 3 Wendestellen.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat im Intervall [–4; 3] mindestens 3 lokale Extremstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f ist im Intervall (–4; 0) streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat mindestens 3 Wendestellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat im Intervall [–4; 3] mindestens 3 Nullstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion f hat an der Stelle x = 0 eine lokale Maximumstelle."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1441",
+      "baseId": "1_1441",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1003/1_1441_srdp_ma_Ableitungsfunktion_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Ableitungsfunktion f′ einer Polynomfunktion f."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-17-q.png",
+      "alt": "Koordinatensystem mit dem Graphen der Ableitungsfunktion f′; x von -4 bis 4, f′(x) von -5 bis 3."
+    }
+  ]
+}

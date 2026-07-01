@@ -1,0 +1,185 @@
+{
+  "id": "2025-wt-t1-05",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 5,
+    "file": "[2025w1]t1-5-ag.pdf"
+  },
+  "title": "Geradengleichungen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t1-5-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t1-5-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t1-05-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "AG 3.4",
+          "description": "Geraden durch (Parameter-)Gleichungen in R² und R³ angeben können; Geradengleichungen interpretieren können; Lagebeziehungen (zwischen Geraden und zwischen Punkt und Gerade) analysieren, Schnittpunkte ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1429a",
+          "baseId": "1_1429",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/991/1_1429_srdp_ma_Geradengleichungen_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "B=\\begin{pmatrix}-10\\\\5\\\\9\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "h=\\begin{pmatrix}-9\\\\0\\\\6\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für das Ankreuzen der beiden richtigen Satzteile."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Für ① und ② sind g und h ident."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "B=\\begin{pmatrix}8\\\\6\\\\-3\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\begin{pmatrix}-9\\\\0\\\\6\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=\\begin{pmatrix}3\\\\0\\\\-2\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\begin{pmatrix}3\\\\1\\\\-2\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B=\\begin{pmatrix}-10\\\\5\\\\9\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h=\\begin{pmatrix}4\\\\0\\\\6\\end{pmatrix}"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1429",
+      "baseId": "1_1429",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/991/1_1429_srdp_ma_Geradengleichungen_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die zwei Geraden g und h in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}^3"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "math",
+      "v": "g:\\ X=\\begin{pmatrix}2\\\\5\\\\1\\end{pmatrix}+t\\cdot\\begin{pmatrix}6\\\\0\\\\-4\\end{pmatrix}\\quad\\text{mit}\\ t\\in\\mathbb{R}"
+    },
+    {
+      "t": "math",
+      "v": "h:\\ X=B+u\\cdot h\\quad\\text{mit}\\ u\\in\\mathbb{R}"
+    }
+  ]
+}

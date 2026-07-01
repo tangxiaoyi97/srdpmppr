@@ -1,0 +1,119 @@
+{
+  "id": "2023-het-t1-08",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2023",
+    "year": 2023,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 8,
+    "file": "[2023h2]t1-8-an.pdf"
+  },
+  "title": "Beschleunigung",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2023/[2023h2]t1-8-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2023/lo/[2023h2]t1-8-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-het-t1-08-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1299a",
+          "baseId": "1_1299",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/843/1_1299_srdp_ma_Beschleunigung_PT2_23.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "v(t) = 20 + 3 \\cdot t"
+            },
+            {
+              "t": "text",
+              "v": " im Intervall [0; 5]: Strecke von (0 | 20) nach (5 | 35)."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen des Graphen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie im nachstehenden Koordinatensystem den Graphen von v ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t1-08-q.png",
+          "alt": "Leeres Koordinatensystem: x-Achse t in s von 0 bis 5, y-Achse v(t) in m/s von 0 bis 40 (Skalierung in Schritten von 5)."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Einzuzeichnen ist der Graph der linearen Funktion "
+          },
+          {
+            "t": "math",
+            "v": "v(t) = 20 + 3 \\cdot t"
+          },
+          {
+            "t": "text",
+            "v": " im Intervall [0; 5], also die Strecke vom Punkt (0 | 20) zum Punkt (5 | 35)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1299",
+      "baseId": "1_1299",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/843/1_1299_srdp_ma_Beschleunigung_PT2_23.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Fahrzeug bewegt sich mit einer Geschwindigkeit von 20 m/s auf einer geradlinig verlaufenden Strecke vorwärts.\nAb dem Zeitpunkt t = 0 beschleunigt es 5 s lang gleichmäßig mit 3 m/s². Die Richtung der Bewegung bleibt unverändert.\nDie Funktion v beschreibt die Geschwindigkeit des Fahrzeugs (in m/s) nach t Sekunden im Zeitintervall [0; 5]."
+    }
+  ]
+}

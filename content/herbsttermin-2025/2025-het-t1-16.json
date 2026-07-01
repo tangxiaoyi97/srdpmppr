@@ -1,0 +1,152 @@
+{
+  "id": "2025-het-t1-16",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 16,
+    "file": "[2025h2]t1-16-fa.pdf"
+  },
+  "title": "Funktion und Stammfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-16-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-16-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-16-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 3.1",
+          "description": "den Begriff Ableitungsfunktion/Stammfunktion kennen und zur Beschreibung von Funktionen einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1558a",
+          "baseId": "1_1558",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1065/1_1558_srdp_ma_Funktion%20und%20Stammfunktion_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=F_{1}'(x)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "F_{1}'(x)-F_{2}'(x)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die in jedem Fall auf alle x ∈ ℝ zutreffen."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f'(x)=F_{1}'(x)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine Zahl c ∈ ℝ mit c ≠ 1, für die gilt: "
+            },
+            {
+              "t": "math",
+              "v": "F_{2}'(x)=c\\cdot F_{1}'(x)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine Zahl c ∈ ℝ mit c ≠ 0, für die gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=F_{2}'(x)+c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=F_{1}'(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F_{1}'(x)-F_{2}'(x)=0"
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1558",
+      "baseId": "1_1558",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1065/1_1558_srdp_ma_Funktion%20und%20Stammfunktion_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion f vom Grad n mit n ≥ 1.\n\nDie Funktionen F₁ und F₂ sind zwei verschiedene Stammfunktionen von f."
+    }
+  ]
+}

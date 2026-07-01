@@ -1,0 +1,110 @@
+{
+  "id": "2022-ht-t1-23",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2022",
+    "year": 2022,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 23,
+    "file": "[2022h1]t1-23-ws.pdf"
+  },
+  "title": "Wahrscheinlichkeitsverteilung einer Zufallsvariablen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2022/[2022h1]t1-23-ws.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2022/lo/[2022h1]t1-23-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-ht-t1-23-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1201a",
+          "baseId": "1_1201",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/742/Wahrscheinlichkeitsverteilung%20einer%20Zufallsvariablen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=2)=0{,}4,\\quad P(X=3)=0{,}2"
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-23-sol.png",
+              "alt": "Lösung: Stabdiagramm mit P(X=1)=0,2, P(X=2)=0,4, P(X=3)=0,2, P(X=4)=0,2."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Einzeichnen der fehlenden Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung der Wahrscheinlichkeitsverteilung von X die fehlenden Werte P(X = 2) und P(X = 3) ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t1-23-q.png",
+          "alt": "Stabdiagramm der Wahrscheinlichkeitsverteilung von X; eingezeichnet sind die Stäbe P(X = 1) = 0,2 und P(X = 4) = 0,2; die Stäbe P(X = 2) und P(X = 3) fehlen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Aus P(X = 1) = 0,2 folgt P(X = 2) = 2 · 0,2 = 0,4. Da die Summe aller Wahrscheinlichkeiten 1 ergibt und P(X = 4) = 0,2 ist, gilt P(X = 3) = 1 − 0,2 − 0,4 − 0,2 = 0,2. Einzuzeichnen: P(X = 2) = 0,4 und P(X = 3) = 0,2."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1201",
+      "baseId": "1_1201",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/742/Wahrscheinlichkeitsverteilung%20einer%20Zufallsvariablen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Zufallsvariable X, die nur 1, 2, 3 oder 4 als Wert annehmen kann.\n\nEs gilt: P(X = 2) ist doppelt so groß wie P(X = 1)."
+    }
+  ]
+}

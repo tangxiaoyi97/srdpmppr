@@ -1,0 +1,149 @@
+{
+  "id": "2026-wt-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2026w1]t1-17-an.pdf"
+  },
+  "title": "Abschätzung eines bestimmten Integrals",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-17-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "AN 4.1",
+          "description": "den Begriff des bestimmten Integrals als Grenzwert einer Summe von Produkten deuten und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1583a",
+          "baseId": "1_1583",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1096/1_1583_srdp_ma_Absch%C3%A4tzung%20eines%20bestimmten%20Integrals_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{0}^{5} f(x)\\,\\mathrm{d}x<5\\cdot f(5)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "1\\cdot\\bigl(f(0)+f(1)+f(2)+f(3)+f(4)\\bigr)<\\int_{0}^{5} f(x)\\,\\mathrm{d}x"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "0<\\int_{0}^{5} f(x)\\,\\mathrm{d}x<5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{0}^{5} f(x)\\,\\mathrm{d}x<5\\cdot f(5)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3\\cdot f(3)+2\\cdot f(5)<\\int_{0}^{5} f(x)\\,\\mathrm{d}x"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1<\\int_{0}^{5} f(x)\\,\\mathrm{d}x<11"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1\\cdot\\bigl(f(0)+f(1)+f(2)+f(3)+f(4)\\bigr)<\\int_{0}^{5} f(x)\\,\\mathrm{d}x"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1583",
+      "baseId": "1_1583",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1096/1_1583_srdp_ma_Absch%C3%A4tzung%20eines%20bestimmten%20Integrals_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend ist eine Wertetabelle der Polynomfunktion f gegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-17-q.png",
+      "alt": "Wertetabelle x | f(x): 0|1, 1|3, 2|5, 3|8, 4|9, 5|11."
+    },
+    {
+      "t": "text",
+      "v": "Im Intervall [0; 5] ist f streng monoton steigend."
+    }
+  ]
+}

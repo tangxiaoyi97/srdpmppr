@@ -1,0 +1,99 @@
+{
+  "id": "2021-nt2-t1-24",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2021",
+    "year": 2021,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 24,
+    "file": "[2021n2]t1-24-ws.pdf"
+  },
+  "title": "Wahlprognose",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2021/[2021n2]t1-24-ws.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2021/lo/[2021n2]t1-24-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-nt2-t1-24-a",
+      "label": "a",
+      "format": "",
+      "competencies": [
+        {
+          "code": "WS 4.1",
+          "description": "Konfidenzintervalle als Schätzung für eine relative Häufigkeit bzw. eine Wahrscheinlichkeit interpretieren (können)",
+          "source": "printed",
+          "verifiedAt": "2026-07-01"
+        }
+      ],
+      "externalRefs": [],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}35+z\\cdot\\sqrt{\\dfrac{0{,}35\\cdot 0{,}65}{500}}=0{,}385"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "z=1{,}640\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "\\gamma\\approx 90\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie γ."
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "gamma",
+            "label": "γ",
+            "value": 90,
+            "tol": 1,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Vor einer bestimmten Wahl nahmen 500 Personen, die zufällig und unabhängig voneinander ausgewählt worden waren, an einer Umfrage teil. Von diesen Personen gaben 35 % an, dass sie Partei A wählen werden. Als Ergebnis der Umfrage wurde das um diesen relativen Anteil symmetrische γ-Konfidenzintervall [0,315; 0,385] für den unbekannten Anteil der Partei-A-Wähler/innen angegeben. Für die Berechnung dieses Konfidenzintervalls wurde eine die Binomialverteilung approximierende Normalverteilung verwendet."
+    }
+  ]
+}

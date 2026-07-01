@@ -1,0 +1,178 @@
+{
+  "id": "2026-wt-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2026w1]t1-20-ag.pdf"
+  },
+  "title": "Statistische Kennzahlen",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-20-ag.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-20-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-20-a",
+      "label": "a",
+      "format": "Lückentext",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1586a",
+          "baseId": "1_1586",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1100/1_1586_srdp_ma_Statistische%20Kennzahlen_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{9\\cdot n+6}{6}"
+            },
+            {
+              "t": "text",
+              "v": ";  ② "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot n"
+            }
+          ],
+          "note": "Ein halber Punkt für das Ankreuzen des ersten richtigen Satzteils, ein halber Punkt für das Ankreuzen des zweiten richtigen Satzteils."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen der jeweils zutreffenden Satzteile so, dass eine richtige Aussage entsteht.\n\nDas arithmetische Mittel der Datenliste beträgt ①; die Spannweite der Datenliste beträgt ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "9\\cdot n+6"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{9\\cdot n}{6}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\dfrac{9\\cdot n+6}{6}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "n"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot n"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3\\cdot n"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1586",
+      "baseId": "1_1586",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1100/1_1586_srdp_ma_Statistische%20Kennzahlen_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine geordnete Datenliste mit 6 Zahlen (n > 3)."
+    },
+    {
+      "t": "math",
+      "v": "n\\quad n+1\\quad n+2\\quad n+3\\quad 2\\cdot n\\quad 3\\cdot n"
+    }
+  ]
+}

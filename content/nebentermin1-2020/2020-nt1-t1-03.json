@@ -1,0 +1,106 @@
+{
+  "id": "2020-nt1-t1-03",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2020",
+    "year": 2020,
+    "term": "nebentermin-1",
+    "part": "t1",
+    "nr": 3,
+    "file": "[2020n1]t1-3-ag.pdf"
+  },
+  "title": "Bewegung eines Körpers",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2020/[2020n1]t1-3-ag.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2020/lo/[2020n1]t1-3-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt1-t1-03-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.2",
+          "description": "lineare Gleichungen aufstellen, interpretieren, umformen/lösen und die Lösung im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_784a",
+          "baseId": "1_784",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/568/Bewegung%20eines%20Koerpers.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Interpretation:\nDie Lösung der Gleichung gibt die Zeit (in s) an, die der Körper für diese Bewegung benötigt."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Interpretation, wobei die Einheit „s“ nicht angeführt sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Lösung der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "8\\cdot x-100=0"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Interpretation:\nDie Lösung der Gleichung gibt die Zeit (in s) an, die der Körper für diese Bewegung benötigt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_784",
+      "baseId": "1_784",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/568/Bewegung%20eines%20Koerpers.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Körper bewegt sich geradlinig mit einer konstanten Geschwindigkeit von 8 m/s und legt dabei 100 m zurück."
+    }
+  ]
+}

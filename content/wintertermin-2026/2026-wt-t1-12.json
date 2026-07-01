@@ -1,0 +1,127 @@
+{
+  "id": "2026-wt-t1-12",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2026",
+    "year": 2026,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 12,
+    "file": "[2026w1]t1-12-fa.pdf"
+  },
+  "title": "Sinusfunktion",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2026/[2026w1]t1-12-fa.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2026/lo/[2026w1]t1-12-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-wt-t1-12-a",
+      "label": "a",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.4",
+          "description": "Periodizität als charakteristische Eigenschaft kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1578a",
+          "baseId": "1_1578",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1091/1_1578_srdp_ma_Sinusfunktion_PT3_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f\\!\\left(\\tfrac{3}{4}\\cdot T\\right)=-5"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ermitteln des Funktionswerts."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Funktionswert "
+        },
+        {
+          "t": "math",
+          "v": "f\\!\\left(\\tfrac{3}{4}\\cdot T\\right)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "math",
+          "v": "f\\!\\left(\\tfrac{3}{4}\\cdot T\\right)="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "f",
+            "label": "f(3/4·T)",
+            "value": -5,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1578",
+      "baseId": "1_1578",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1091/1_1578_srdp_ma_Sinusfunktion_PT3_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Sinusfunktion f mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=5\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "b\\in\\mathbb{R}^{+}"
+    },
+    {
+      "t": "text",
+      "v": ". Die (kleinste) Periodenlänge von f wird mit T bezeichnet."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "2025-het-t1-07",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 7,
+    "file": "[2025h2]t1-7-fa.pdf"
+  },
+  "title": "Temperaturverlauf",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-7-fa.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-7-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-07-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.1",
+          "description": "für gegebene Zusammenhänge entscheiden können, ob man sie als Funktionen betrachten kann",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1549a",
+          "baseId": "1_1549",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1056/1_1549_srdp_ma_Temperaturverlauf_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Zeit kann als Funktion der Temperatur betrachtet werden, weil jeder Temperatur im Intervall [10 °C; 40 °C] genau ein Zeitpunkt im Intervall [0 s; 20 s] zugeordnet werden kann.\n\nDie Argumentation über strenge Monotonie ist ebenfalls als richtig zu werten."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Begründen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie mithilfe des dargestellten Temperaturverlaufs, warum auch die Zeit im Intervall [0 s; 20 s] in Abhängigkeit von der Temperatur im Intervall [10 °C; 40 °C] als Funktion betrachtet werden kann."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Zeit kann als Funktion der Temperatur betrachtet werden, weil jeder Temperatur im Intervall [10 °C; 40 °C] genau ein Zeitpunkt im Intervall [0 s; 20 s] zugeordnet werden kann. Die Argumentation über strenge Monotonie ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Begründen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1549",
+      "baseId": "1_1549",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1056/1_1549_srdp_ma_Temperaturverlauf_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Während eines bestimmten Experiments wird eine Flüssigkeit aufgewärmt. Der Temperaturverlauf während der ersten 20 s ist in der nachstehenden Abbildung als Graph einer stetigen Funktion dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-07-q.png",
+      "alt": "Koordinatensystem mit Temperatur in °C (0 bis 50) über Zeit in s (0 bis 20); der Graph einer stetigen, streng monoton steigenden Funktion stellt den Temperaturverlauf dar."
+    }
+  ]
+}

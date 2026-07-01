@@ -1,0 +1,115 @@
+{
+  "id": "2025-het-t1-06",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 6,
+    "file": "[2025h2]t1-6-ag.pdf"
+  },
+  "title": "Bewegung eines Objekts",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-6-ag.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-6-ag.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-06-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1548a",
+          "baseId": "1_1548",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1055/1_1548_srdp_ma_Bewegung%20eines%20Objekts_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\beta=90^\\circ-\\arctan\\!\\left(\\tfrac{a+c}{b}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "  oder:  "
+            },
+            {
+              "t": "math",
+              "v": "\\beta=\\arctan\\!\\left(\\tfrac{b}{a+c}\\right)"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Aufstellen der Gleichung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung zur Berechnung von β auf. Verwenden Sie dabei a, b und c."
+        },
+        {
+          "t": "math",
+          "v": "\\beta="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\arctan\\frac{b}{a+c}",
+        "vars": [
+          "a",
+          "b",
+          "c"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1548",
+      "baseId": "1_1548",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1055/1_1548_srdp_ma_Bewegung%20eines%20Objekts_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Objekt bewegt sich von einem Startpunkt aus zuerst a Meter nach Osten (O), dann b Meter nach Norden (N) und schließlich c Meter wieder nach Osten (O) zu seinem Endpunkt mit a, b, c > 0. Modellhaft wird angenommen, dass die Bewegung in jede Richtung geradlinig und jede Richtungsänderung unmittelbar erfolgt.\n\nDer Winkel zwischen der direkten Verbindung von Startpunkt und Endpunkt und der Richtung nach Norden wird mit β bezeichnet. Er ist in der nachstehenden Skizze dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-06-q.png",
+      "alt": "Skizze mit Himmelsrichtungen N, O, S, W. Vom Startpunkt verläuft die direkte Verbindung zum Endpunkt; der Winkel β liegt zwischen dieser Verbindung und der Richtung nach Norden."
+    }
+  ]
+}

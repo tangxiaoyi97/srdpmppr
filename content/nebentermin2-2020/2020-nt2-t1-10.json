@@ -1,0 +1,114 @@
+{
+  "id": "2020-nt2-t1-10",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin2-2020",
+    "year": 2020,
+    "term": "nebentermin-2",
+    "part": "t1",
+    "nr": 10,
+    "file": "[2020n2]t1-10-fa.pdf"
+  },
+  "title": "Bruttogehalt und Nettogehalt",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin2-2020/[2020n2]t1-10-fa.pdf",
+    "solutionPdf": "assets/pdf/nebentermin2-2020/lo/[2020n2]t1-10-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2020-nt2-t1-10-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.5",
+          "description": "die Angemessenheit einer Beschreibung mittels linearer Funktion bewerten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_743a",
+          "baseId": "1_743",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/519/Brutto%20und%20Nettogehalt.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Es besteht kein linearer Zusammenhang, da die gleiche Zunahme des Bruttogehalts (jeweils € 500) nicht die gleiche Erhöhung des Nettogehalts (€ 284 bzw. € 266) bewirkt."
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Nachweis unter Verwendung der angeführten Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie unter Verwendung der in der obigen Tabelle angeführten Werte, dass zwischen dem Bruttogehalt und dem Nettogehalt kein linearer Zusammenhang besteht."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es besteht kein linearer Zusammenhang, da die gleiche Zunahme des Bruttogehalts (jeweils € 500) nicht die gleiche Erhöhung des Nettogehalts (€ 284 bzw. € 266) bewirkt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für einen richtigen Nachweis unter Verwendung der angeführten Werte.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_743",
+      "baseId": "1_743",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/519/Brutto%20und%20Nettogehalt.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf der Website des Finanzministeriums findet man einen Brutto-Netto-Rechner, der für jedes monatliche Bruttogehalt das entsprechende Nettogehalt berechnet.\n\nFolgende Tabelle gibt Auskunft über einige Gehälter:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-10-q.png",
+      "alt": "Tabelle: Bruttogehalt in € | 1 500 | 2 000 | 2 500; Nettogehalt in € | 1 199 | 1 483 | 1 749."
+    }
+  ]
+}

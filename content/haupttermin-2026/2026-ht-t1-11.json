@@ -1,0 +1,152 @@
+{
+  "id": "2026-ht-t1-11",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2026",
+    "year": 2026,
+    "term": "haupttermin",
+    "part": "t1",
+    "nr": 11,
+    "file": "[2026h1]t1-11-fa.pdf"
+  },
+  "title": "Indirekte Proportionalität",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2026/[2026h1]t1-11-fa.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2026/lo/[2026h1]t1-11-fa.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2026-ht-t1-11-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "FA 3.4",
+          "description": "indirekte Proportionalität als Potenzfunktion vom Typ f(x) = a/x (bzw. f(x) = a * x^(-1) beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1601a",
+          "baseId": "1_1601",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1121/1_1601_Indirekte%20Proportionalitaet_PT1_26.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: "
+            },
+            {
+              "t": "math",
+              "v": "h\\mapsto r(h)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "r\\mapsto h(r)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Zuordnungen an, die eine indirekte Proportionalität beschreiben."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "r\\mapsto M(r)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h\\mapsto M(h)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "M\\mapsto r(M)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h\\mapsto r(h)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "r\\mapsto h(r)"
+            }
+          ]
+        ],
+        "correct": [
+          3,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1601",
+      "baseId": "1_1601",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1121/1_1601_Indirekte%20Proportionalitaet_PT1_26.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die Mantelfläche M eines Drehzylinders mit dem Radius r und der Höhe h gilt:"
+    },
+    {
+      "t": "math",
+      "v": "M=2\\cdot\\pi\\cdot r\\cdot h"
+    },
+    {
+      "t": "text",
+      "v": "Wenn eine der drei Variablen als konstant angenommen wird, beschreibt diese Gleichung einen funktionalen Zusammenhang zwischen den beiden anderen Variablen."
+    }
+  ]
+}

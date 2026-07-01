@@ -1,0 +1,384 @@
+{
+  "id": "2025-wt-t2-04",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2025",
+    "year": 2025,
+    "term": "wintertermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2025w1]t2-4.pdf"
+  },
+  "title": "Hotel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2025/[2025w1]t2-4.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2025/lo/[2025w1]t2-4.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-wt-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_148a",
+          "baseId": "2_148",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1014/2_148_srdp_ma_Hotel%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In diesem Hotel gibt es zu Silvester jedes Jahr 120 Reservierungen. Aus Erfahrung weiß die Hotelleitung, dass im langjährigen Mittel 4 % der Reservierungen storniert werden. Es wird angenommen, dass die Anzahl der stornierten Reservierungen binomialverteilt ist.\n\nBerechnen Sie die Wahrscheinlichkeit, dass zu Silvester höchstens 1 Reservierung storniert wird."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "p",
+            "value": 0.0447,
+            "tol": 0.0005
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "text",
+              "v": "X ... Anzahl der stornierten Reservierungen\nX ist binomialverteilt mit n = 120 und p = 0,04\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le 1)=0{,}0447\\ldots"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_148b",
+          "baseId": "2_148",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1014/2_148_srdp_ma_Hotel%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem bestimmten Jahr gab es in diesem Hotel durchschnittlich 4 100 Nächtigungen pro Monat.\n\nIn den ersten 6 Monaten dieses Jahres (Jänner bis Juni) gab es durchschnittlich 4 000 Nächtigungen pro Monat.\n\nDie nachstehende Tabelle gibt die Anzahl der Nächtigungen für die restlichen Monate dieses Jahres an (n, d ∈ ℕ)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-04-b-tab.png",
+          "alt": "Tabelle der Anzahl der Nächtigungen: Juli 4 870; August 4 915; September 3 680; Oktober 3 600; November n; Dezember d."
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie n + d."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "nd",
+            "value": 8135,
+            "tol": 1e-9
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac{4\\,000\\cdot 6+4\\,870+4\\,915+3\\,680+3\\,600+n+d}{12}=4\\,100"
+            }
+          ],
+          "result": [
+            {
+              "t": "math",
+              "v": "n+d=8\\,135"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_148c",
+          "baseId": "2_148",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1014/2_148_srdp_ma_Hotel%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Wellnessbereich des Hotels befindet sich eine Sauna.\n\nBei einem sogenannten Aufguss wird Wasser mit einem bestimmten Duftöl vermischt und auf heiße Steine gegossen. Die Konzentration des Duftöls in der Luft in Abhängigkeit von der Zeit t nach dem Aufguss kann modellhaft durch die Funktion K: ℝ₀⁺ → ℝ₀⁺ mit "
+        },
+        {
+          "t": "math",
+          "v": "K(t)=0{,}5\\cdot t\\cdot e^{-0{,}8\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (t nach dem Aufguss in min, K(t) in ml/m³).\n\nDer Duft ist wahrnehmbar, wenn die Konzentration des Duftöls in der Luft mindestens 0,09 ml/m³ beträgt.\n\nBerechnen Sie, wie viele Minuten lang der Duft gemäß diesem Modell wahrnehmbar ist."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "dauer",
+            "value": 3.6,
+            "tol": 0.1,
+            "unit": "min"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "K(t)=0{,}09"
+            },
+            {
+              "t": "text",
+              "v": "\nBerechnung mittels Technologieeinsatz:\n"
+            },
+            {
+              "t": "math",
+              "v": "t_1=0{,}2135\\ldots\\quad t_2=3{,}8182\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "t_2-t_1=3{,}60\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Duft ist rund 3,6 Minuten lang wahrnehmbar."
+            }
+          ],
+          "note": "c1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2025-wt-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.3",
+          "description": "den Differenzen- und Differenzialquotienten in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch den Differenzen- bzw. Differenzialquotienten beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_148c",
+          "baseId": "2_148",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/1014/2_148_srdp_ma_Hotel%20_PT3_24.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Temperatur in der Sauna in Abhängigkeit von der Zeit t kann durch die Funktion T: [0; 15] → ℝ⁺, t ↦ T(t) modelliert werden (t in min, T(t) in °C).\n\nFür die zwei Zeitpunkte tₐ, t_B ∈ (0; 15) mit tₐ < t_B gilt: T(tₐ) > T(t_B)\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Der Differenzenquotient der Funktion T im Intervall [tₐ; t_B] gibt in jedem Fall ① in diesem Intervall an; dieser Differenzenquotient ist in jedem Fall ②."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "die mittlere Änderungsrate der Temperatur in °C/min"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "negativ"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die momentane Änderungsrate der Temperatur in °C/min"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "positiv"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die mittlere Temperatur in °C"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich null"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "tiered",
+        "tiers": [
+          {
+            "minCorrect": 1,
+            "points": 0.5
+          },
+          {
+            "minCorrect": 2,
+            "points": 1
+          }
+        ]
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① die mittlere Änderungsrate der Temperatur in °C/min;  ② negativ."
+            }
+          ],
+          "note": "c2) Ein Punkt für das Ankreuzen der beiden richtigen Satzteile, ein halber Punkt, wenn nur ein richtiger Satzteil angekreuzt ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_148",
+      "baseId": "2_148",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/1014/2_148_srdp_ma_Hotel%20_PT3_24.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem bestimmten Hotel gibt es insgesamt 120 Gästezimmer."
+    }
+  ]
+}

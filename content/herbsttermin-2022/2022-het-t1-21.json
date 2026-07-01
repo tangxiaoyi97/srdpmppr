@@ -1,0 +1,128 @@
+{
+  "id": "2022-het-t1-21",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2022",
+    "year": 2022,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 21,
+    "file": "[2022h2]t1-21-ws.pdf"
+  },
+  "title": "Median und arithmetisches Mittel",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2022/[2022h2]t1-21-ws.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2022/lo/[2022h2]t1-21-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2022-het-t1-21-a",
+      "label": "a",
+      "format": "2 aus 5",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1240a",
+          "baseId": "1_1240",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/770/Median%20und%20arithmetisches%20Mittel.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zutreffend: „Mindestens 1 Person dieser Gruppe hat ein Bruttoeinkommen von genau € 3.200.“ und „Mindestens 6 Personen dieser Gruppe haben ein Bruttoeinkommen von höchstens € 3.200.“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Ankreuzen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden auf jeden Fall zutreffenden Aussagen an."
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 1 Person dieser Gruppe hat ein Bruttoeinkommen von genau € 3.200."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 1 Person dieser Gruppe hat ein Bruttoeinkommen von genau € 5.690."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 6 Personen dieser Gruppe haben ein Bruttoeinkommen von höchstens € 3.200."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens 1 Person dieser Gruppe hat ein Bruttoeinkommen von mehr als € 5.690."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 5 Personen dieser Gruppe haben ein Bruttoeinkommen von mehr als € 5.690."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1240",
+      "baseId": "1_1240",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/770/Median%20und%20arithmetisches%20Mittel.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine bestimmte Gruppe von 11 Personen gilt: Das arithmetische Mittel ihrer Bruttoeinkommen beträgt € 5.690, der Median ihrer Bruttoeinkommen beträgt € 3.200."
+    }
+  ]
+}

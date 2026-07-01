@@ -1,0 +1,119 @@
+{
+  "id": "2023-wt-t1-20",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "wintertermin-2023",
+    "year": 2023,
+    "term": "wintertermin",
+    "part": "t1",
+    "nr": 20,
+    "file": "[2023w1]t1-20-ws.pdf"
+  },
+  "title": "Erfolg und Misserfolg",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/wintertermin-2023/[2023w1]t1-20-ws.pdf",
+    "solutionPdf": "assets/pdf/wintertermin-2023/lo/[2023w1]t1-20-ws.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2023-wt-t1-20-a",
+      "label": "a",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.1",
+          "description": "Grundraum und Ereignisse in angemessenen Situationen verbal bzw. formal angeben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1263a",
+          "baseId": "1_1263",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/796/1_1263_srdp_ma_Erfolg%20und%20Misserfolg_PT3_22.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "E ... „es tritt (bei n-maliger Durchführung des Versuchs) mindestens 1-mal ‚Erfolg‘ ein“"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Beschreiben von E."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beschreiben Sie ein mögliches Ereignis E bei diesem Zufallsexperiment, das mit der Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "1 - (1 - p)^{n}"
+        },
+        {
+          "t": "text",
+          "v": " eintritt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "E ... „es tritt (bei n-maliger Durchführung des Versuchs) mindestens 1-mal ‚Erfolg‘ ein“"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Beschreiben von E.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1263",
+      "baseId": "1_1263",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/796/1_1263_srdp_ma_Erfolg%20und%20Misserfolg_PT3_22.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmtes Zufallsexperiment besteht aus n unabhängigen Durchführungen eines Versuchs "
+    },
+    {
+      "t": "math",
+      "v": "(n \\in \\mathbb{N} \\setminus \\{0\\})"
+    },
+    {
+      "t": "text",
+      "v": ". Bei jedem Versuch tritt „Erfolg“ mit der Wahrscheinlichkeit p ein, ansonsten „Misserfolg“."
+    }
+  ]
+}

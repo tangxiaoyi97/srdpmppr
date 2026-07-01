@@ -1,0 +1,398 @@
+{
+  "id": "2021-ht-t2-02",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2021",
+    "year": 2021,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 2,
+    "file": "[2021h1]t2-2.pdf"
+  },
+  "title": "CO2 und Klimaschutz",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2021/[2021h1]t2-2.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2021/lo/[2021h1]t2-2.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2021-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_102a",
+          "baseId": "2_102",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/648/CO2undKlimaschutz.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für jeden PKW mit Benzinantrieb wird angenommen, dass pro Liter verbrauchten Benzins 2,32 kg CO₂ ausgestoßen werden.\n\nPKW A fährt eine Strecke von "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " km mit einem durchschnittlichen Benzinverbrauch von 7,9 Litern pro 100 km.\n\nUm dessen CO₂-Ausstoß auszugleichen, sollen "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " Bäume gepflanzt werden. Dabei nimmt man an, dass jeder dieser Bäume in seiner gesamten Lebenszeit 500 kg CO₂ aufnimmt.\n\nStellen Sie unter Verwendung von "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " eine Formel zur Berechnung der Anzahl "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " der zu pflanzenden Bäume auf."
+        },
+        {
+          "t": "math",
+          "v": "b="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "(7.9\\cdot 2.32\\cdot s)/(100\\cdot 500)",
+        "vars": [
+          "s"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=\\dfrac{7{,}9\\cdot 2{,}32\\cdot s}{100\\cdot 500}"
+            }
+          ],
+          "note": "a1) Ein Punkt für das richtige Aufstellen der Formel."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_102a",
+          "baseId": "2_102",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/648/CO2undKlimaschutz.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "PKW B legt eine Strecke von 15 000 km zurück. Um dessen CO₂-Ausstoß auszugleichen, werden 5 Bäume gepflanzt.\n\nBerechnen Sie den durchschnittlichen Benzinverbrauch (in Litern pro 100 km) von PKW B auf dieser Strecke."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "v",
+            "label": "durchschnittlicher Benzinverbrauch",
+            "value": 7.18,
+            "tol": 0.05,
+            "unit": "Liter pro 100 km"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "steps": [
+            {
+              "t": "math",
+              "v": "5=\\dfrac{x\\cdot 2{,}32\\cdot 15\\,000}{100\\cdot 500}\\ \\Rightarrow\\ x=7{,}18\\ldots"
+            }
+          ],
+          "result": [
+            {
+              "t": "text",
+              "v": "durchschnittlicher Benzinverbrauch: rund 7,18 Liter pro 100 km"
+            }
+          ],
+          "note": "a2) Ein Punkt für das richtige Berechnen des durchschnittlichen Benzinverbrauchs."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_102b",
+          "baseId": "2_102",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/648/CO2undKlimaschutz.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Neben CO₂ verstärken auch andere Gase die Klimaerwärmung. Die Emission von diesen Gasen wird in sogenannte CO₂-Äquivalente umgerechnet.\n\nDie nachstehende Tabelle gibt für einige Staaten der EU Auskunft über die jeweilige Einwohnerzahl (in Millionen) im Jahr 2015 und die zugehörigen CO₂-Äquivalente (in Tonnen pro Person).\n\nEinwohnerzahl in Millionen | CO₂-Äquivalente in Tonnen pro Person\nBelgien: 11,2 | 11,9\nFrankreich: 66,4 | 6,8\nItalien: 60,8 | 7,0\nLuxemburg: 0,6 | 18,5\nNiederlande: 16,9 | 12,3\n\nBerechnen Sie die durchschnittlichen CO₂-Äquivalente "
+        },
+        {
+          "t": "math",
+          "v": "e"
+        },
+        {
+          "t": "text",
+          "v": " (in Tonnen pro Person) für den gesamten in der obigen Tabelle angeführten Teil der EU."
+        },
+        {
+          "t": "math",
+          "v": "e="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "e",
+            "label": "e",
+            "value": 7.8,
+            "tol": 0.1,
+            "unit": "Tonnen pro Person"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "e=7{,}8\\ldots"
+            },
+            {
+              "t": "text",
+              "v": " Tonnen pro Person"
+            }
+          ],
+          "note": "b1) Ein Punkt für das richtige Berechnen."
+        }
+      ]
+    },
+    {
+      "id": "2021-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_102b",
+          "baseId": "2_102",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/648/CO2undKlimaschutz.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lukas sind nur die in der obigen Tabelle angeführten Werte der CO₂-Äquivalente der einzelnen Staaten bekannt, nicht aber die jeweils zugehörige Einwohnerzahl.\nEr berechnet das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{x}"
+        },
+        {
+          "t": "text",
+          "v": " der CO₂-Äquivalente: "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{x}=11{,}3"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nErklären Sie ohne Verwendung des berechneten Wertes von "
+        },
+        {
+          "t": "math",
+          "v": "e"
+        },
+        {
+          "t": "text",
+          "v": ", warum "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{x}"
+        },
+        {
+          "t": "text",
+          "v": " größer als "
+        },
+        {
+          "t": "math",
+          "v": "e"
+        },
+        {
+          "t": "text",
+          "v": " sein muss."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das arithmetische Mittel "
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x}"
+          },
+          {
+            "t": "text",
+            "v": " ist größer, weil die für die einzelnen Staaten angegebenen Werte der CO₂-Äquivalente für Staaten mit einer geringeren Einwohnerzahl größer sind als für jene mit einer höheren Einwohnerzahl. (Beim Übergang vom ungewichteten zum gewichteten arithmetischen Mittel erhöht sich das Gewicht jedes Staates mit einem Wert kleiner als "
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x}"
+          },
+          {
+            "t": "text",
+            "v": " und verringert sich das Gewicht jedes Staates mit einem Wert größer als "
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x}"
+          },
+          {
+            "t": "text",
+            "v": ".)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das arithmetische Mittel "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "text",
+              "v": " ist größer, weil die für die einzelnen Staaten angegebenen Werte der CO₂-Äquivalente für Staaten mit einer geringeren Einwohnerzahl größer sind als für jene mit einer höheren Einwohnerzahl."
+            }
+          ],
+          "note": "b2) Ein Punkt für das richtige Erklären."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "2_102",
+      "baseId": "2_102",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/648/CO2undKlimaschutz.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den letzten Jahrzehnten hat der CO₂-Gehalt in der Erdatmosphäre unter anderem durch den Straßenverkehr zugenommen."
+    }
+  ]
+}

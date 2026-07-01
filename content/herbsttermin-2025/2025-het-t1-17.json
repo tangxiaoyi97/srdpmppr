@@ -1,0 +1,114 @@
+{
+  "id": "2025-het-t1-17",
+  "schemaVersion": 2,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "herbsttermin-2025",
+    "year": 2025,
+    "term": "herbsttermin",
+    "part": "t1",
+    "nr": 17,
+    "file": "[2025h2]t1-17-an.pdf"
+  },
+  "title": "Größter Funktionswert in einem Intervall",
+  "rights": {
+    "thirdPartyMaterial": true,
+    "note": "* meaning unverified — see Aufgabenpool legend"
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/herbsttermin-2025/[2025h2]t1-17-an.pdf",
+    "solutionPdf": "assets/pdf/herbsttermin-2025/lo/[2025h2]t1-17-an.pdf"
+  },
+  "figures": [],
+  "parts": [
+    {
+      "id": "2025-het-t1-17-a",
+      "label": "a",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "1_1559a",
+          "baseId": "1_1559",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/1066/1_1559_srdp_ma_Gr%C3%B6%C3%9Fter%20Funktionswert%20in%20einem%20Intervall_PT2_25.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "t₁ wird an der Nullstelle von g′ mit Vorzeichenwechsel von + nach − markiert."
+            }
+          ],
+          "figures": [
+            {
+              "kind": "image",
+              "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-17-sol.png",
+              "alt": "Lösung: die Stelle t₁ ist an der Nullstelle von g′ (Vorzeichenwechsel + nach −) markiert."
+            }
+          ],
+          "note": "Ein Punkt für das richtige Markieren."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Markieren Sie in der obigen Abbildung die Stelle t₁."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Stelle t₁ wird an jener Stelle markiert, an der der Graph von g′ die t-Achse von positiven zu negativen Werten schneidet (Nullstelle von g′ mit Vorzeichenwechsel von + nach −), denn dort nimmt g im Intervall [0; b] den größten Funktionswert an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "aufgabenpool",
+      "id": "1_1559",
+      "baseId": "1_1559",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/1066/1_1559_srdp_ma_Gr%C3%B6%C3%9Fter%20Funktionswert%20in%20einem%20Intervall_PT2_25.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-06-30"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die differenzierbare Funktion g: [0; b] → ℝ, t ↦ g(t).\n\nIn der nachstehenden Abbildung ist der Graph der Ableitungsfunktion g′ dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-17-q.png",
+      "alt": "Koordinatensystem mit dem Graphen der Ableitungsfunktion g′ über t im Intervall [0; b]; g′ ist zunächst positiv und wird dann negativ."
+    },
+    {
+      "t": "text",
+      "v": "An der Stelle t₁ nimmt g den größten Funktionswert im Intervall [0; b] an."
+    }
+  ]
+}
