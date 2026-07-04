@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -182,11 +182,15 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Es gibt genau zwei Zeitpunkte t₁, t₂ ∈ (0 s; 440 s) mit t₁ < t₂, für die gilt:"
+          "v": "Es gibt genau zwei Zeitpunkte t₁, t₂ ∈ (0 s; 440 s) mit t₁ < t₂, für die gilt:\n"
         },
         {
           "t": "math",
           "v": "v'(t_1)=0\\ \\text{und}\\ v''(t_1)<0"
+        },
+        {
+          "t": "text",
+          "v": "\n"
         },
         {
           "t": "math",
@@ -194,7 +198,7 @@
         },
         {
           "t": "text",
-          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Zeitpunkte t₁ und t₂ sind ① der Funktion v und der Wert von "
+          "v": "\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Zeitpunkte t₁ und t₂ sind ① der Funktion v und der Wert von "
         },
         {
           "t": "math",
@@ -269,6 +273,40 @@
             1,
             5
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {

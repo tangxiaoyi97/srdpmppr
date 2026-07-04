@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t1-12",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -108,6 +108,24 @@
               "t": "math",
               "v": "h"
             }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "h"
+            }
           ]
         ],
         "pairs": [
@@ -117,8 +135,42 @@
           ],
           [
             1,
-            2
+            5
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {
@@ -150,15 +202,23 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Die Funktionen f, g und h beschreiben jeweils in Abhängigkeit von der Zeit t (in Sekunden) Schwingungen, die Töne erzeugen.\n\nDabei gilt:"
+      "v": "Die Funktionen f, g und h beschreiben jeweils in Abhängigkeit von der Zeit t (in Sekunden) Schwingungen, die Töne erzeugen.\n\nDabei gilt:\n"
     },
     {
       "t": "math",
       "v": "f(t)=\\sin(600\\cdot t)"
     },
     {
+      "t": "text",
+      "v": "\n"
+    },
+    {
       "t": "math",
       "v": "g(t)=\\tfrac{5}{4}\\cdot\\sin(800\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
     },
     {
       "t": "math",
@@ -166,7 +226,7 @@
     },
     {
       "t": "text",
-      "v": "Die Lautstärke eines Tons ist umso höher, je größer die Amplitude (maximale Auslenkung) der zugehörigen Schwingung ist.\nEin Ton ist umso höher, je höher die Frequenz (Anzahl der Schwingungen pro Sekunde) der zugehörigen Schwingung ist."
+      "v": "\nDie Lautstärke eines Tons ist umso höher, je größer die Amplitude (maximale Auslenkung) der zugehörigen Schwingung ist.\nEin Ton ist umso höher, je höher die Frequenz (Anzahl der Schwingungen pro Sekunde) der zugehörigen Schwingung ist."
     }
   ]
 }

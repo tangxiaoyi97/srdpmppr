@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -53,11 +53,15 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Das Unternehmen Pistazienwunder füllt Pistazien in Packungen ab und verkauft sie.\n\nDie Kosten für die Produktion dieser Packungen werden durch die Polynomfunktion K modellhaft beschrieben. Der Erlös aus dem Verkauf dieser Packungen wird durch die lineare Funktion E modellhaft beschrieben.\n\nEs wird angenommen, dass alle produzierten Packungen auch verkauft werden.\n\nEs gilt:"
+          "v": "Das Unternehmen Pistazienwunder füllt Pistazien in Packungen ab und verkauft sie.\n\nDie Kosten für die Produktion dieser Packungen werden durch die Polynomfunktion K modellhaft beschrieben. Der Erlös aus dem Verkauf dieser Packungen wird durch die lineare Funktion E modellhaft beschrieben.\n\nEs wird angenommen, dass alle produzierten Packungen auch verkauft werden.\n\nEs gilt:\n"
         },
         {
           "t": "math",
           "v": "K(x)=\\tfrac{x^{3}}{10^{6}}-\\tfrac{15\\cdot x^{2}}{10^{4}}+1{,}5\\cdot x+1\\,000"
+        },
+        {
+          "t": "text",
+          "v": "\n"
         },
         {
           "t": "math",
@@ -65,7 +69,7 @@
         },
         {
           "t": "text",
-          "v": "x ... Anzahl der produzierten und verkauften Packungen\nK(x) ... Kosten für die Produktion von x Packungen in Euro\nE(x) ... Erlös aus dem Verkauf von x Packungen in Euro\np ... Verkaufspreis in Euro pro Packung\n\nDer maximale Gewinn wird beim Verkauf von 1 500 Packungen erzielt.\n\nBerechnen Sie p."
+          "v": "\nx ... Anzahl der produzierten und verkauften Packungen\nK(x) ... Kosten für die Produktion von x Packungen in Euro\nE(x) ... Erlös aus dem Verkauf von x Packungen in Euro\np ... Verkaufspreis in Euro pro Packung\n\nDer maximale Gewinn wird beim Verkauf von 1 500 Packungen erzielt.\n\nBerechnen Sie p."
         }
       ],
       "figures": [],
@@ -210,15 +214,23 @@
         },
         {
           "t": "text",
-          "v": "Es gilt:"
+          "v": "Es gilt:\n"
         },
         {
           "t": "math",
           "v": "g_1(x)=k_1\\cdot x+d_1\\ \\text{mit}\\ -6\\le x\\le -3"
         },
         {
+          "t": "text",
+          "v": "\n"
+        },
+        {
           "t": "math",
           "v": "g_2(x)=k_2\\cdot x+d_2\\ \\text{mit}\\ 3\\le x\\le 6"
+        },
+        {
+          "t": "text",
+          "v": "\n"
         },
         {
           "t": "math",
@@ -226,7 +238,7 @@
         },
         {
           "t": "text",
-          "v": "x, f(x), g₁(x), g₂(x) ... Maße in Längeneinheiten (LE)\nk₁, k₂, d₁, d₂ ... reelle Parameter\n\nDer größere Teil des Logos wird von den Graphen der Funktionen g₁ und g₂ und zwei weiteren Strecken sowie von einem Halbkreis mit dem Mittelpunkt M = (0 | 0) und dem Radius r = 6 LE begrenzt.\n\nDer kleinere Teil des Logos wird vom Graphen der Funktion f und von zwei Strecken begrenzt und ist in der Abbildung grau markiert dargestellt.\n\nDie Eckpunkte des größeren Teils des Logos haben ganzzahlige Koordinaten.\n\nBerechnen Sie den Anteil pA des Flächeninhalts der grau markierten Fläche am gesamten Flächeninhalt des Logos in Prozent."
+          "v": "\nx, f(x), g₁(x), g₂(x) ... Maße in Längeneinheiten (LE)\nk₁, k₂, d₁, d₂ ... reelle Parameter\n\nDer größere Teil des Logos wird von den Graphen der Funktionen g₁ und g₂ und zwei weiteren Strecken sowie von einem Halbkreis mit dem Mittelpunkt M = (0 | 0) und dem Radius r = 6 LE begrenzt.\n\nDer kleinere Teil des Logos wird vom Graphen der Funktion f und von zwei Strecken begrenzt und ist in der Abbildung grau markiert dargestellt.\n\nDie Eckpunkte des größeren Teils des Logos haben ganzzahlige Koordinaten.\n\nBerechnen Sie den Anteil pA des Flächeninhalts der grau markierten Fläche am gesamten Flächeninhalt des Logos in Prozent."
         }
       ],
       "figures": [],
@@ -373,6 +385,40 @@
             1,
             4
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {

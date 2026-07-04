@@ -1,6 +1,6 @@
 {
   "id": "2023-ht-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "reviewed",
   "lang": "de",
   "source": {
@@ -117,6 +117,24 @@
               "t": "text",
               "v": "Quadratwurzelfunktion"
             }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "quadratische Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Quadratwurzelfunktion"
+            }
           ]
         ],
         "pairs": [
@@ -126,8 +144,42 @@
           ],
           [
             1,
-            0
+            3
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {

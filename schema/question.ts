@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-/* QED · Question Schema v2 — single source of truth.
+/* QED · Question Schema v2/v3 — single source of truth.
  * One Aufgabe = one Question, holding 1..n Parts (sub-tasks a/b/c).
  * status lifecycle:  linked → converted → reviewed
  *   linked    : metadata + official links + PDF assets; CONTENT not yet extracted (PDF is the source)
@@ -25,9 +25,14 @@ export const Figure = z.discriminatedUnion("kind", [
 ]);
 
 const NumericBlank = z.object({ id: z.string(), label: z.string().optional(), value: z.number(), tol: z.number().default(1e-9), unit: z.string().optional() });
+const CandidateGroup = z.object({
+  leftIndices: z.array(z.number().int().nonnegative()),
+  rightIndices: z.array(z.number().int().nonnegative()),
+  label: RichText.optional(),
+});
 export const Answer = z.discriminatedUnion("kind", [
   z.object({ kind: z.literal("choice"), options: z.array(RichText), correct: z.array(z.number().int()), selectCount: z.number().int() }),
-  z.object({ kind: z.literal("matching"), left: z.array(RichText), right: z.array(RichText), pairs: z.array(z.tuple([z.number().int(), z.number().int()])) }),
+  z.object({ kind: z.literal("matching"), left: z.array(RichText), right: z.array(RichText), pairs: z.array(z.tuple([z.number().int(), z.number().int()])), candidateGroups: z.array(CandidateGroup).optional() }),
   z.object({ kind: z.literal("numeric"), blanks: z.array(NumericBlank).min(1) }),
   z.object({ kind: z.literal("expression"), canonical: z.string(), vars: z.array(z.string()).default([]), checker: z.literal("cas") }),
   z.object({ kind: z.literal("interval"), lower: z.number(), upper: z.number(), lowerClosed: z.boolean(), upperClosed: z.boolean() }),
@@ -72,7 +77,7 @@ export const Part = z.object({
 
 export const Question = z.object({
   id: z.string(),                                          // sovereign PK, derived from source: "2023-ht-t1-09"
-  schemaVersion: z.literal(2),
+  schemaVersion: z.union([z.literal(2), z.literal(3)]),
   status: z.enum(["linked","converted","reviewed"]),
   lang: z.string().default("de"),
   source: z.object({

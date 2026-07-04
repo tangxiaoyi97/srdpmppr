@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-14",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -141,6 +141,40 @@
             1,
             4
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {
@@ -181,15 +215,23 @@
     },
     {
       "t": "text",
-      "v": "Es gilt:"
+      "v": "Es gilt:\n"
     },
     {
       "t": "math",
       "v": "a=\\dfrac{f(x_2)-f(x_1)}{x_2-x_1}"
     },
     {
+      "t": "text",
+      "v": "\n"
+    },
+    {
       "t": "math",
       "v": "b=\\lim_{z\\to x_2}\\dfrac{f(z)-f(x_2)}{z-x_2}"
+    },
+    {
+      "t": "text",
+      "v": "\n"
     },
     {
       "t": "math",

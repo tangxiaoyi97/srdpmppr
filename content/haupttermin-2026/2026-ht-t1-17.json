@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-17",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -141,6 +141,40 @@
             1,
             5
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {
@@ -180,15 +214,23 @@
     },
     {
       "t": "text",
-      "v": " ist auf dem Intervall [0; 4] streng monoton steigend.\n\nEs gilt:"
+      "v": " ist auf dem Intervall [0; 4] streng monoton steigend.\n\nEs gilt:\n"
     },
     {
       "t": "math",
       "v": "A=\\int_{0}^{4} f(x)\\,dx"
     },
     {
+      "t": "text",
+      "v": "\n"
+    },
+    {
       "t": "math",
       "v": "A_2=2\\cdot\\bigl(f(0)+f(2)\\bigr)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
     },
     {
       "t": "math",

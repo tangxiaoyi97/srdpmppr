@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t1-05",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -137,6 +137,40 @@
             1,
             3
           ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ],
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ]
+          }
         ]
       },
       "scoring": {
@@ -167,11 +201,15 @@
     },
     {
       "t": "text",
-      "v": "."
+      "v": ".\n"
     },
     {
       "t": "math",
       "v": "g\\colon X = A + t \\cdot \\vec{a} \\quad \\text{mit } t \\in \\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "\n"
     },
     {
       "t": "math",
