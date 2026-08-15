@@ -2,105 +2,283 @@ import { z } from "zod";
 
 /* QED · Question Schema v2/v3 — single source of truth.
  * One Aufgabe = one Question, holding 1..n Parts (sub-tasks a/b/c).
- * status lifecycle:  linked → converted → reviewed
- *   linked    : metadata + official links + PDF assets; CONTENT not yet extracted (PDF is the source)
- *   converted : prompt/answer/figures/scoring filled (PDF→KaTeX done)
- *   reviewed  : a human approved it side-by-side against the source PDF
+ * status lifecycle: linked → converted → reviewed
  */
 
+const strictObject = z.strictObject;
+const nonNegativeInt = z.number().int().nonnegative();
+const positivePoints = z.number().positive();
+
 export const InlineNode = z.discriminatedUnion("t", [
-  z.object({ t: z.literal("text"), v: z.string() }),
-  z.object({ t: z.literal("math"), v: z.string() }),     // KaTeX source
-  z.object({ t: z.literal("fig"), src: z.string(), alt: z.string().default("") }),  // figure anchored inline in the text stream
+  strictObject({ t: z.literal("text"), v: z.string() }),
+  strictObject({ t: z.literal("math"), v: z.string() }),
+  strictObject({ t: z.literal("fig"), src: z.string().min(1), alt: z.string().default("") }),
 ]);
 export const RichText = z.array(InlineNode);
 
 export const Figure = z.discriminatedUnion("kind", [
-  z.object({ kind: z.literal("image"), src: z.string(), alt: z.string() }),   // migration default
-  z.object({ kind: z.literal("plot"), fns: z.array(z.string()),
-    window: z.object({ xmin: z.number(), xmax: z.number(), ymin: z.number(), ymax: z.number() }) }),
-  z.object({ kind: z.literal("chart"), chart: z.enum(["boxplot","histogram","stemleaf","scatter","bar"]), data: z.unknown() }),
-  z.object({ kind: z.literal("geometry"), construction: z.unknown() }),
-  z.object({ kind: z.literal("svg"), markup: z.string() }),
+  strictObject({ kind: z.literal("image"), src: z.string().min(1), alt: z.string() }),
+  strictObject({
+    kind: z.literal("plot"),
+    fns: z.array(z.string()),
+    window: strictObject({ xmin: z.number(), xmax: z.number(), ymin: z.number(), ymax: z.number() }),
+  }),
+  strictObject({
+    kind: z.literal("chart"),
+    chart: z.enum(["boxplot", "histogram", "stemleaf", "scatter", "bar"]),
+    data: z.unknown(),
+  }),
+  strictObject({ kind: z.literal("geometry"), construction: z.unknown() }),
+  strictObject({ kind: z.literal("svg"), markup: z.string() }),
 ]);
 
-const NumericBlank = z.object({ id: z.string(), label: z.string().optional(), value: z.number(), tol: z.number().default(1e-9), unit: z.string().optional() });
-const CandidateGroup = z.object({
-  leftIndices: z.array(z.number().int().nonnegative()),
-  rightIndices: z.array(z.number().int().nonnegative()),
+const NumericBlank = strictObject({
+  id: z.string().min(1),
+  label: z.string().optional(),
+  value: z.number(),
+  tol: z.number().nonnegative().default(1e-9),
+  unit: z.string().optional(),
+});
+const CandidateGroup = strictObject({
+  leftIndices: z.array(nonNegativeInt).min(1),
+  rightIndices: z.array(nonNegativeInt).min(1),
   label: RichText.optional(),
 });
+
+const ChoiceAnswer = strictObject({
+  kind: z.literal("choice"),
+  options: z.array(RichText).min(1),
+  correct: z.array(nonNegativeInt).min(1),
+  selectCount: z.number().int().positive(),
+}).superRefine((answer, ctx) => {
+  if (answer.selectCount !== answer.correct.length) {
+    ctx.addIssue({ code: "custom", path: ["selectCount"], message: "must equal correct.length" });
+  }
+  if (new Set(answer.correct).size !== answer.correct.length) {
+    ctx.addIssue({ code: "custom", path: ["correct"], message: "indices must be unique" });
+  }
+  answer.correct.forEach((index, i) => {
+    if (index >= answer.options.length) {
+      ctx.addIssue({ code: "custom", path: ["correct", i], message: "index is outside options" });
+    }
+  });
+});
+
+const MatchingAnswer = strictObject({
+  kind: z.literal("matching"),
+  left: z.array(RichText).min(1),
+  right: z.array(RichText).min(1),
+  pairs: z.array(z.tuple([nonNegativeInt, nonNegativeInt])).min(1),
+  candidateGroups: z.array(CandidateGroup).min(1).optional(),
+}).superRefine((answer, ctx) => {
+  const left = answer.pairs.map((pair) => pair[0]);
+  const right = answer.pairs.map((pair) => pair[1]);
+  if (new Set(left).size !== left.length) {
+    ctx.addIssue({ code: "custom", path: ["pairs"], message: "left indices must be unique" });
+  }
+  if (new Set(right).size !== right.length) {
+    ctx.addIssue({ code: "custom", path: ["pairs"], message: "right indices must be unique" });
+  }
+  if (answer.pairs.length !== answer.left.length) {
+    ctx.addIssue({ code: "custom", path: ["pairs"], message: "must match every left entry exactly once" });
+  }
+  answer.pairs.forEach(([leftIndex, rightIndex], i) => {
+    if (leftIndex >= answer.left.length) {
+      ctx.addIssue({ code: "custom", path: ["pairs", i, 0], message: "index is outside left" });
+    }
+    if (rightIndex >= answer.right.length) {
+      ctx.addIssue({ code: "custom", path: ["pairs", i, 1], message: "index is outside right" });
+    }
+  });
+  if (!answer.candidateGroups) return;
+  const checkCoverage = (side: "leftIndices" | "rightIndices", size: number) => {
+    const indices = answer.candidateGroups!.flatMap((group) => group[side]);
+    if (indices.length !== size || new Set(indices).size !== size || indices.some((index) => index >= size)) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["candidateGroups"],
+        message: `${side} must be disjoint and exactly cover 0..${size - 1}`,
+      });
+    }
+  };
+  checkCoverage("leftIndices", answer.left.length);
+  checkCoverage("rightIndices", answer.right.length);
+  answer.pairs.forEach(([leftIndex, rightIndex], i) => {
+    const leftGroup = answer.candidateGroups!.findIndex((group) => group.leftIndices.includes(leftIndex));
+    const rightGroup = answer.candidateGroups!.findIndex((group) => group.rightIndices.includes(rightIndex));
+    if (leftGroup !== rightGroup) {
+      ctx.addIssue({ code: "custom", path: ["pairs", i], message: "pair crosses candidateGroups" });
+    }
+  });
+});
+
+const NumericAnswer = strictObject({
+  kind: z.literal("numeric"),
+  blanks: z.array(NumericBlank).min(1),
+}).superRefine((answer, ctx) => {
+  const ids = answer.blanks.map((blank) => blank.id);
+  if (new Set(ids).size !== ids.length) {
+    ctx.addIssue({ code: "custom", path: ["blanks"], message: "blank ids must be unique" });
+  }
+});
+
+const IntervalAnswer = strictObject({
+  kind: z.literal("interval"),
+  lower: z.number(),
+  upper: z.number(),
+  lowerClosed: z.boolean(),
+  upperClosed: z.boolean(),
+}).superRefine((answer, ctx) => {
+  if (answer.lower > answer.upper) {
+    ctx.addIssue({ code: "custom", path: ["upper"], message: "must be >= lower" });
+  } else if (answer.lower === answer.upper && (!answer.lowerClosed || !answer.upperClosed)) {
+    ctx.addIssue({ code: "custom", path: ["upper"], message: "equal bounds must both be closed" });
+  }
+});
+
 export const Answer = z.discriminatedUnion("kind", [
-  z.object({ kind: z.literal("choice"), options: z.array(RichText), correct: z.array(z.number().int()), selectCount: z.number().int() }),
-  z.object({ kind: z.literal("matching"), left: z.array(RichText), right: z.array(RichText), pairs: z.array(z.tuple([z.number().int(), z.number().int()])), candidateGroups: z.array(CandidateGroup).optional() }),
-  z.object({ kind: z.literal("numeric"), blanks: z.array(NumericBlank).min(1) }),
-  z.object({ kind: z.literal("expression"), canonical: z.string(), vars: z.array(z.string()).default([]), checker: z.literal("cas") }),
-  z.object({ kind: z.literal("interval"), lower: z.number(), upper: z.number(), lowerClosed: z.boolean(), upperClosed: z.boolean() }),
-  z.object({ kind: z.literal("open"), rubric: RichText, grader: z.enum(["self","ai"]) }),
+  ChoiceAnswer,
+  MatchingAnswer,
+  NumericAnswer,
+  strictObject({
+    kind: z.literal("expression"),
+    canonical: z.string().min(1),
+    vars: z.array(z.string().min(1)).default([]),
+    checker: z.literal("cas"),
+  }),
+  IntervalAnswer,
+  strictObject({ kind: z.literal("open"), rubric: RichText, grader: z.enum(["self", "ai"]) }),
 ]);
 
 export const Scoring = z.discriminatedUnion("mode", [
-  z.object({ mode: z.literal("allOrNothing"), points: z.number() }),                                  // "x aus n", most Teil-1
-  z.object({ mode: z.literal("perBlank"), pointsPerCorrect: z.number(), max: z.number() }),
-  z.object({ mode: z.literal("tiered"), tiers: z.array(z.object({ minCorrect: z.number().int(), points: z.number() })) }),  // [0 / ½ / 1]
-  z.object({ mode: z.literal("rubric"), criteria: z.array(z.object({ desc: z.string(), points: z.number() })) }),           // Teil-2 "Ein Punkt für …"
+  strictObject({ mode: z.literal("allOrNothing"), points: positivePoints }),
+  strictObject({ mode: z.literal("perBlank"), pointsPerCorrect: positivePoints, max: positivePoints }),
+  strictObject({
+    mode: z.literal("tiered"),
+    tiers: z.array(strictObject({ minCorrect: z.number().int().positive(), points: positivePoints })).min(1),
+  }),
+  strictObject({
+    mode: z.literal("rubric"),
+    criteria: z.array(strictObject({ desc: z.string().min(1), points: positivePoints })).min(1),
+  }),
 ]);
 
-const COMPETENCY_CODE = /^(AG|FA|AN|WS) \d\.\d+$/;          // "AN 4.3" (pool prints "AN4.3")
-export const Competency = z.object({
+const COMPETENCY_CODE = /^(AG|FA|AN|WS) \d\.\d+$/;
+export const Competency = strictObject({
   code: z.string().regex(COMPETENCY_CODE),
   description: z.string().optional(),
-  source: z.enum(["aufgabenpool","printed","inferred"]),
+  source: z.enum(["aufgabenpool", "printed", "inferred"]),
   verifiedAt: z.string().optional(),
 });
 
-export const ExternalRef = z.object({
-  system: z.enum(["aufgabenpool","maturaArchiv","other"]),
-  id: z.string(), baseId: z.string().optional(),
-  url: z.string().url().optional(), license: z.string().optional(), verifiedAt: z.string().optional(),
+export const ExternalRef = strictObject({
+  system: z.enum(["aufgabenpool", "maturaArchiv", "other"]),
+  id: z.string().min(1),
+  baseId: z.string().optional(),
+  url: z.string().url().optional(),
+  license: z.string().optional(),
+  verifiedAt: z.string().optional(),
 });
 
-export const Part = z.object({
-  id: z.string(),                                          // derived: `${question.id}-${label}`
-  label: z.string(),
-  format: z.string(),                                      // official Antwortformat, verbatim ("2 aus 5", "Halboffenes Antwortformat", …)
+const Solution = strictObject({
+  steps: RichText.optional(),
+  result: RichText.optional(),
+  note: z.string().optional(),
+  figures: z.array(Figure).default([]),
+});
+
+export const Part = strictObject({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  // Linked legacy records may not yet have the official answer-format label.
+  format: z.string(),
   competencies: z.array(Competency).default([]),
   externalRefs: z.array(ExternalRef).default([]),
-  // —— filled at conversion ——
   prompt: RichText.optional(),
   figures: z.array(Figure).default([]),
   answer: Answer.optional(),
   scoring: Scoring.optional(),
-  points: z.number().optional(),
-  solution: z.array(z.object({ steps: RichText.optional(), result: RichText.optional(), note: z.string().optional(), figures: z.array(Figure).default([]) })).default([]),
+  points: positivePoints.optional(),
+  solution: z.array(Solution).default([]),
 });
 
-export const Question = z.object({
-  id: z.string(),                                          // sovereign PK, derived from source: "2023-ht-t1-09"
+export const Question = strictObject({
+  id: z.string().min(1),
   schemaVersion: z.union([z.literal(2), z.literal(3)]),
-  status: z.enum(["linked","converted","reviewed"]),
+  status: z.enum(["linked", "converted", "reviewed"]),
   lang: z.string().default("de"),
-  source: z.object({
-    suite: z.string(), year: z.number().int(),
-    term: z.enum(["haupttermin","nebentermin-1","nebentermin-2","herbsttermin","wintertermin"]),
-    part: z.enum(["t1","t2"]), nr: z.number().int(), file: z.string(),
+  source: strictObject({
+    suite: z.string().min(1),
+    year: z.number().int(),
+    term: z.enum(["haupttermin", "nebentermin-1", "nebentermin-2", "herbsttermin", "wintertermin"]),
+    part: z.enum(["t1", "t2"]),
+    nr: z.number().int().positive(),
+    file: z.string().min(1),
   }),
-  title: z.string(),
-  rights: z.object({ thirdPartyMaterial: z.boolean(), note: z.string().optional() }),  // the "*" marker
-  assets: z.object({ questionPdf: z.string(), solutionPdf: z.string().optional() }),   // PDF stays the content source until conversion
-  prompt: RichText.optional(),                             // shared stem (filled at conversion)
+  title: z.string().min(1),
+  rights: strictObject({ thirdPartyMaterial: z.boolean(), note: z.string().optional() }),
+  // These are source references. Only figure src values are packaged resources.
+  assets: strictObject({ questionPdf: z.string().min(1), solutionPdf: z.string().min(1).optional() }),
+  prompt: RichText.optional(),
   figures: z.array(Figure).default([]),
   parts: z.array(Part).min(1),
-  externalRefs: z.array(ExternalRef).default([]),          // question-level link (base Aufgabe)
-}).superRefine((q, ctx) => {
-  if (q.status !== "linked") {
-    q.parts.forEach((p, i) => {
-      if (!p.answer)        ctx.addIssue({ code: "custom", path: ["parts", i, "answer"],  message: "required once status≥converted" });
-      if (!p.scoring)       ctx.addIssue({ code: "custom", path: ["parts", i, "scoring"], message: "required once status≥converted" });
-      if (p.points == null) ctx.addIssue({ code: "custom", path: ["parts", i, "points"],  message: "required once status≥converted" });
-    });
-  }
+  externalRefs: z.array(ExternalRef).default([]),
+}).superRefine((question, ctx) => {
+  const partIds = new Set<string>();
+  const labels = new Set<string>();
+  question.parts.forEach((part, i) => {
+    const expectedPartId = `${question.id}-${part.label}`;
+    if (part.id !== expectedPartId) {
+      ctx.addIssue({ code: "custom", path: ["parts", i, "id"], message: `must equal ${expectedPartId}` });
+    }
+    if (partIds.has(part.id)) ctx.addIssue({ code: "custom", path: ["parts", i, "id"], message: "must be unique" });
+    if (labels.has(part.label)) ctx.addIssue({ code: "custom", path: ["parts", i, "label"], message: "must be unique" });
+    partIds.add(part.id);
+    labels.add(part.label);
+
+    if (question.status !== "linked") {
+      if (!part.answer) ctx.addIssue({ code: "custom", path: ["parts", i, "answer"], message: "required once status≥converted" });
+      if (!part.scoring) ctx.addIssue({ code: "custom", path: ["parts", i, "scoring"], message: "required once status≥converted" });
+      if (part.points == null) ctx.addIssue({ code: "custom", path: ["parts", i, "points"], message: "required once status≥converted" });
+    }
+    if (!part.answer || !part.scoring || part.points == null) return;
+
+    let scoringMaximum = 0;
+    if (part.scoring.mode === "allOrNothing") scoringMaximum = part.scoring.points;
+    if (part.scoring.mode === "perBlank") {
+      scoringMaximum = part.scoring.max;
+      if (part.answer.kind !== "numeric") {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "scoring"], message: "perBlank requires a numeric answer" });
+      } else if (Math.abs(part.scoring.pointsPerCorrect * part.answer.blanks.length - part.scoring.max) > 1e-9) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "scoring", "max"], message: "must equal pointsPerCorrect × blanks.length" });
+      }
+    }
+    if (part.scoring.mode === "tiered") {
+      const tiers = part.scoring.tiers;
+      scoringMaximum = Math.max(...tiers.map((tier) => tier.points));
+      const thresholds = tiers.map((tier) => tier.minCorrect);
+      if (new Set(thresholds).size !== thresholds.length || thresholds.some((value, index) => index > 0 && value <= thresholds[index - 1]!)) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "scoring", "tiers"], message: "minCorrect thresholds must be unique and ascending" });
+      }
+      if (tiers.some((tier, index) => index > 0 && tier.points <= tiers[index - 1]!.points)) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "scoring", "tiers"], message: "tier points must be ascending" });
+      }
+      const possible = part.answer.kind === "choice" ? part.answer.correct.length
+        : part.answer.kind === "matching" ? part.answer.pairs.length
+        : part.answer.kind === "numeric" ? part.answer.blanks.length
+        : undefined;
+      if (possible !== undefined && thresholds.some((threshold) => threshold > possible)) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "scoring", "tiers"], message: "minCorrect exceeds the answer item count" });
+      }
+    }
+    if (part.scoring.mode === "rubric") {
+      scoringMaximum = part.scoring.criteria.reduce((sum, criterion) => sum + criterion.points, 0);
+    }
+    if (Math.abs(scoringMaximum - part.points) > 1e-9) {
+      ctx.addIssue({ code: "custom", path: ["parts", i, "points"], message: `must equal scoring maximum ${scoringMaximum}` });
+    }
+  });
 });
 
 export type Question = z.infer<typeof Question>;
-export const totalPoints = (q: Question) => q.parts.reduce((s, p) => s + (p.points ?? 0), 0);
+export const totalPoints = (question: Question) => question.parts.reduce((sum, part) => sum + (part.points ?? 0), 0);

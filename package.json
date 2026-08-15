@@ -1,0 +1,17 @@
+{
+  "name": "@qed2/question-bank",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.10"
+  },
+  "packageManager": "pnpm@11.0.3",
+  "scripts": {
+    "validate": "node --experimental-strip-types scripts/validate-bank.mjs",
+    "assets:manifest": "node --experimental-strip-types scripts/validate-bank.mjs --write-manifest",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  }
+}
