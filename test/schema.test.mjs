@@ -89,3 +89,81 @@ test('schema rejects an empty interval encoded with equal open bounds', () => {
 test('schema accepts a strict valid v3 question', () => {
   assert.equal(Question.safeParse(question()).success, true);
 });
+
+test('schema v4 accepts strict, versioned learning metadata and grounded solution alternatives', () => {
+  const value = question();
+  value.schemaVersion = 4;
+  value.parts[0].learning = {
+    schemaVersion: 1,
+    concepts: ['algebra.linear-equations'],
+    prerequisites: ['algebra.operations'],
+    difficulty: 2,
+    estimatedMinutes: 7,
+    misconceptions: [{ id: 'sign-change', label: 'Vorzeichen beim Umformen' }],
+    hints: [
+      { level: 1, content: [{ t: 'text', v: 'Markiere die unbekannte Größe.' }] },
+      { level: 2, content: [{ t: 'text', v: 'Bringe alle x-Terme auf eine Seite.' }] },
+      { level: 3, content: [{ t: 'math', v: '2x=6' }] },
+    ],
+  };
+  value.parts[0].solution = [{
+    id: 'standard',
+    steps: [{ t: 'text', v: 'Umformen' }],
+    result: [{ t: 'math', v: 'x=3' }],
+    alternatives: [[{ t: 'text', v: 'Auch durch Einsetzen lösbar.' }]],
+    figures: [],
+  }];
+  assert.equal(Question.safeParse(value).success, true);
+});
+
+test('schema keeps v4 learning fields out of immutable v2/v3 records', () => {
+  const value = question();
+  value.parts[0].learning = { schemaVersion: 1, concepts: ['algebra.linear-equations'] };
+  value.parts[0].solution = [{ id: 'standard', result: [{ t: 'math', v: 'x=3' }], figures: [] }];
+  const result = Question.safeParse(value);
+  assert.equal(result.success, false);
+  assert.match(JSON.stringify(result.error.issues), /requires schemaVersion 4/);
+});
+
+test('schema requires a complete ordered three-level hint ladder with stable unique ids', () => {
+  const value = question();
+  value.schemaVersion = 4;
+  value.parts[0].learning = {
+    schemaVersion: 1,
+    concepts: ['algebra.linear-equations', 'algebra.linear-equations'],
+    hints: [
+      { level: 1, content: [{ t: 'text', v: 'Erster Hinweis' }] },
+      { level: 3, content: [{ t: 'text', v: 'Zu früh' }] },
+      { level: 2, content: [{ t: 'text', v: 'Zu spät' }] },
+    ],
+  };
+  const result = Question.safeParse(value);
+  assert.equal(result.success, false);
+  assert.match(JSON.stringify(result.error.issues), /ids must be unique/);
+  assert.match(JSON.stringify(result.error.issues), /exactly 1, 2, 3/);
+});
+
+test('grader ai requires grounded solution text but keeps valid all-or-nothing scoring', () => {
+  const value = question();
+  value.parts[0].answer = {
+    kind: 'open', rubric: [{ t: 'text', v: 'Begründung und Ergebnis stimmen.' }], grader: 'ai',
+  };
+  value.parts[0].solution = [{ note: 'Nur ein interner Hinweis', figures: [] }];
+  const rejected = Question.safeParse(value);
+  assert.equal(rejected.success, false);
+  assert.match(JSON.stringify(rejected.error.issues), /effective solution steps or result/);
+
+  value.parts[0].solution = [{ steps: [{ t: 'fig', src: 'solution.svg' }], figures: [] }];
+  const figureOnly = Question.safeParse(value);
+  assert.equal(figureOnly.success, false);
+  assert.match(JSON.stringify(figureOnly.error.issues), /effective solution steps or result/);
+
+  value.parts[0].solution = [{ result: [{ t: 'math', v: 'x=3' }], figures: [] }];
+  value.parts[0].answer.rubric = [{ t: 'fig', src: 'rubric.svg' }];
+  const figureOnlyRubric = Question.safeParse(value);
+  assert.equal(figureOnlyRubric.success, false);
+  assert.match(JSON.stringify(figureOnlyRubric.error.issues), /effective rubric/);
+
+  value.parts[0].answer.rubric = [{ t: 'text', v: 'Begründung und Ergebnis stimmen.' }];
+  assert.equal(Question.safeParse(value).success, true);
+});

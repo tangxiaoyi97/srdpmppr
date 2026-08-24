@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-/* QED · Question Schema v2/v3 — single source of truth.
+/* QED · Question Schema v2/v3/v4 — single source of truth.
  * One Aufgabe = one Question, holding 1..n Parts (sub-tasks a/b/c).
  * status lifecycle: linked → converted → reviewed
  */
@@ -8,6 +8,11 @@ import { z } from "zod";
 const strictObject = z.strictObject;
 const nonNegativeInt = z.number().int().nonnegative();
 const positivePoints = z.number().positive();
+const stableLearningId = z
+  .string()
+  .min(1)
+  .max(96)
+  .regex(/^[a-z0-9]+(?:[._-][a-z0-9]+)*$/, "must be a stable lowercase id");
 
 export const InlineNode = z.discriminatedUnion("t", [
   strictObject({ t: z.literal("text"), v: z.string() }),
@@ -15,6 +20,14 @@ export const InlineNode = z.discriminatedUnion("t", [
   strictObject({ t: z.literal("fig"), src: z.string().min(1), alt: z.string().default("") }),
 ]);
 export const RichText = z.array(InlineNode);
+
+function hasEffectiveRichText(value: z.infer<typeof RichText> | undefined): boolean {
+  return value?.some((node) => node.t === "fig" || node.v.trim().length > 0) ?? false;
+}
+
+function hasGroundedTextOrMath(value: z.infer<typeof RichText> | undefined): boolean {
+  return value?.some((node) => node.t !== "fig" && node.v.trim().length > 0) ?? false;
+}
 
 export const Figure = z.discriminatedUnion("kind", [
   strictObject({ kind: z.literal("image"), src: z.string().min(1), alt: z.string() }),
@@ -180,9 +193,48 @@ export const ExternalRef = strictObject({
   verifiedAt: z.string().optional(),
 });
 
+const LearningHint = strictObject({
+  level: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  content: RichText.refine(hasEffectiveRichText, "must contain effective hint content"),
+});
+
+/**
+ * Optional, authored learning metadata introduced with question schema v4.
+ * IDs are language-independent stable keys. Hints stay in RichText; short
+ * misconception labels are bounded plain text for compact filtering UI.
+ * A hints array is deliberately all-or-nothing so clients never mistake one
+ * long hint for a complete progressive-hint ladder.
+ */
+export const LearningMetadataV1 = strictObject({
+  schemaVersion: z.literal(1),
+  concepts: z.array(stableLearningId).min(1).max(32).optional(),
+  prerequisites: z.array(stableLearningId).min(1).max(32).optional(),
+  difficulty: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]).optional(),
+  estimatedMinutes: z.number().int().min(1).max(180).optional(),
+  misconceptions: z.array(strictObject({
+    id: stableLearningId,
+    label: z.string().trim().min(1).max(240),
+  })).min(1).max(24).optional(),
+  hints: z.array(LearningHint).length(3).optional(),
+}).superRefine((learning, ctx) => {
+  const unique = (values: string[] | undefined, path: string) => {
+    if (values && new Set(values).size !== values.length) {
+      ctx.addIssue({ code: "custom", path: [path], message: "ids must be unique" });
+    }
+  };
+  unique(learning.concepts, "concepts");
+  unique(learning.prerequisites, "prerequisites");
+  unique(learning.misconceptions?.map((item) => item.id), "misconceptions");
+  if (learning.hints && learning.hints.some((hint, index) => hint.level !== index + 1)) {
+    ctx.addIssue({ code: "custom", path: ["hints"], message: "levels must be exactly 1, 2, 3 in order" });
+  }
+});
+
 const Solution = strictObject({
+  id: stableLearningId.optional(),
   steps: RichText.optional(),
   result: RichText.optional(),
+  alternatives: z.array(RichText.refine(hasEffectiveRichText, "must contain effective alternative content")).min(1).max(10).optional(),
   note: z.string().optional(),
   figures: z.array(Figure).default([]),
 });
@@ -200,11 +252,12 @@ export const Part = strictObject({
   scoring: Scoring.optional(),
   points: positivePoints.optional(),
   solution: z.array(Solution).default([]),
+  learning: LearningMetadataV1.optional(),
 });
 
 export const Question = strictObject({
   id: z.string().min(1),
-  schemaVersion: z.union([z.literal(2), z.literal(3)]),
+  schemaVersion: z.union([z.literal(2), z.literal(3), z.literal(4)]),
   status: z.enum(["linked", "converted", "reviewed"]),
   lang: z.string().default("de"),
   source: strictObject({
@@ -236,10 +289,54 @@ export const Question = strictObject({
     partIds.add(part.id);
     labels.add(part.label);
 
+    // v2/v3 are immutable published contracts. Learning metadata and stable
+    // solution identifiers are additive v4 fields, never retroactively
+    // interpreted on an older version.
+    if (question.schemaVersion < 4) {
+      if (part.learning !== undefined) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "learning"], message: "requires schemaVersion 4" });
+      }
+      part.solution.forEach((entry, solutionIndex) => {
+        if (entry.id !== undefined) {
+          ctx.addIssue({ code: "custom", path: ["parts", i, "solution", solutionIndex, "id"], message: "requires schemaVersion 4" });
+        }
+        if (entry.alternatives !== undefined) {
+          ctx.addIssue({ code: "custom", path: ["parts", i, "solution", solutionIndex, "alternatives"], message: "requires schemaVersion 4" });
+        }
+      });
+    }
+    const solutionIds = part.solution.flatMap((entry) => entry.id ? [entry.id] : []);
+    if (new Set(solutionIds).size !== solutionIds.length) {
+      ctx.addIssue({ code: "custom", path: ["parts", i, "solution"], message: "solution ids must be unique" });
+    }
+
     if (question.status !== "linked") {
       if (!part.answer) ctx.addIssue({ code: "custom", path: ["parts", i, "answer"], message: "required once status≥converted" });
       if (!part.scoring) ctx.addIssue({ code: "custom", path: ["parts", i, "scoring"], message: "required once status≥converted" });
       if (part.points == null) ctx.addIssue({ code: "custom", path: ["parts", i, "points"], message: "required once status≥converted" });
+    }
+
+    if (part.answer?.kind === "open" && part.answer.grader === "ai") {
+      if (!hasGroundedTextOrMath(part.answer.rubric)) {
+        ctx.addIssue({ code: "custom", path: ["parts", i, "answer", "rubric"], message: "grader ai requires an effective rubric" });
+      }
+      const hasGroundedSolution = part.solution.some(
+        (entry) => hasGroundedTextOrMath(entry.steps) || hasGroundedTextOrMath(entry.result),
+      );
+      if (!hasGroundedSolution) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["parts", i, "answer", "grader"],
+          message: "grader ai requires effective solution steps or result; notes and figures alone are advisory",
+        });
+      }
+      if (!part.scoring || part.points == null || part.scoring.mode === "perBlank") {
+        ctx.addIssue({
+          code: "custom",
+          path: ["parts", i, "answer", "grader"],
+          message: "grader ai requires a scoreable open-answer scoring mode",
+        });
+      }
     }
     if (!part.answer || !part.scoring || part.points == null) return;
 
