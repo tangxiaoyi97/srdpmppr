@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -22,14 +22,605 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt1-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt1-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie die Bedeutung der nachstehend angeführten Werte im Kontext der Entwicklung der Einwohnerzahl an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\sqrt[10]{\\dfrac{121150573}{94508583}}\\approx1{,}02515"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "\\sqrt[9]{\\dfrac{169590693}{146917459}}\\approx1{,}01607"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Jährliche Wachstumsfaktoren: 1970–1980 ca. 2,515 % jährliche Zunahme, 1991–2000 ca. 1,607 % jährliche Zunahme. Beide Werte korrekt deuten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall [1970; 1980] steigt die Einwohnerzahl pro Jahr um ca. 2,515 %, im Zeitintervall [1991; 2000] steigt die Einwohnerzahl pro Jahr um ca. 1,607 %."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine (sinngemäß) korrekte Deutung der beiden Werte."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "math",
+          "v": "\\sqrt[10]{\\dfrac{121150573}{94508583}}\\approx1{,}02515"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "\\sqrt[9]{\\dfrac{169590693}{146917459}}\\approx1{,}01607"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie anhand der beiden angeführten Werte, warum man die Entwicklung der Einwohnerzahl im gesamten Zeitraum von 1970 bis 2010 nicht angemessen durch eine Exponentialfunktion beschreiben kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bei exponentiellem Wachstum müsste die relative jährliche Zunahme annähernd gleich sein; die beiden angegebenen Wachstumsraten unterscheiden sich deutlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Damit eine Beschreibung durch eine Exponentialfunktion angemessen ist, müsste die relative jährliche Zunahme der Einwohnerzahl in den beiden betrachteten Zeitintervallen annähernd gleich sein. Im Zeitintervall [1970; 1980] ist die relative jährliche Zunahme der Einwohnerzahl mit ca. 2,5 % deutlich größer als im Zeitintervall [1991; 2000], wo es nur mehr ca. 1,6 % beträgt. Daher wäre eine Beschreibung der Entwicklung der Einwohnerzahl durch eine Exponentialfunktion nicht angemessen."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-03-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie unter Annahme eines linearen Wachstums anhand der Einwohnerzahlen von 1991 und 2010 eine Gleichung derjenigen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an, die die Einwohnerzahl beschreibt! Die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " wird dabei in Jahren gemessen, der Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " entspricht dem Jahr 1991."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(t)=146917459+k\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "k\\approx2307281"
+          },
+          {
+            "t": "text",
+            "v": ", Toleranzintervall für k: [2305000;2310000]. Äquivalente Funktionsgleichungen akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "f(t)=146917459+k\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "k=\\dfrac{190755799-146917459}{19}\\approx2307281"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f(t)=146917459+2307281\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten. Toleranzintervall für k: [2305000; 2310000]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie unter Annahme eines linearen Wachstums anhand der Einwohnerzahlen von 1991 und 2010 eine Gleichung derjenigen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an, die die Einwohnerzahl beschreibt! Die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " wird dabei in Jahren gemessen, der Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " entspricht dem Jahr 1991."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie, um wie viel Prozent die Vorhersage des linearen Modells für das Jahr 2014 von dem in der Einleitung angegebenen tatsächlichen Wert abweicht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 1,4 %; negative Angabe ebenfalls korrekt. Toleranzintervall [1 %; 2 %] bzw. [0,01; 0,02], entsprechende negative Werte ebenfalls."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "f(23)=199984922"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{199984922}{202740000}\\approx0{,}986"
+            },
+            {
+              "t": "text",
+              "v": ". Die Abweichung zur Vorhersage beträgt ca. 1,4 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Abweichung auch als negativer Wert angegeben sein kann. Toleranzintervall: [1 %; 2 %] bzw. [0,01; 0,02]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für Brasilien wird für die Jahre 2010 bis 2015 jeweils eine konstante Geburtenrate "
+        },
+        {
+          "t": "math",
+          "v": "b=14{,}6"
+        },
+        {
+          "t": "text",
+          "v": " sowie eine konstante Sterberate "
+        },
+        {
+          "t": "math",
+          "v": "d=6{,}6"
+        },
+        {
+          "t": "text",
+          "v": " angenommen. Das bedeutet, dass es jährlich 14,6 Geburten pro 1000 Einwohner/innen und 6,6 Todesfälle pro 1000 Einwohner/innen gibt.\n\nDie Entwicklung der Einwohnerzahl kann in diesem Zeitraum mithilfe der Differenzengleichung "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}=x_n+x_n\\cdot\\dfrac{1}{1000}\\cdot(b-d)+m_n"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden, wobei "
+        },
+        {
+          "t": "math",
+          "v": "x_n"
+        },
+        {
+          "t": "text",
+          "v": " die Anzahl der Einwohner/innen im Jahr "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt und "
+        },
+        {
+          "t": "math",
+          "v": "m_n"
+        },
+        {
+          "t": "text",
+          "v": " die Differenz aus der Anzahl der zugewanderten und jener der abgewanderten Personen angibt. Diese Differenz wird als Wanderungsbilanz bezeichnet.\n\nGeben Sie die Bedeutung des Ausdrucks "
+        },
+        {
+          "t": "math",
+          "v": "x_n\\cdot\\dfrac{1}{1000}\\cdot(b-d)"
+        },
+        {
+          "t": "text",
+          "v": " im Kontext der Entwicklung der Einwohnerzahl an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Änderung der Einwohnerzahl im Zeitraum [n;n+1] durch Geburten und Todesfälle."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Deutung: Der angeführte Ausdruck gibt die Anzahl derjenigen Personen an, die die Einwohnerzahl "
+            },
+            {
+              "t": "math",
+              "v": "x_n"
+            },
+            {
+              "t": "text",
+              "v": " im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "[n;n+1]"
+            },
+            {
+              "t": "text",
+              "v": " aufgrund von Geburten und/oder Todesfällen erhöhen (bzw. verringern)."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Deutung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für Brasilien wird für die Jahre 2010 bis 2015 jeweils eine konstante Geburtenrate "
+        },
+        {
+          "t": "math",
+          "v": "b=14{,}6"
+        },
+        {
+          "t": "text",
+          "v": " sowie eine konstante Sterberate "
+        },
+        {
+          "t": "math",
+          "v": "d=6{,}6"
+        },
+        {
+          "t": "text",
+          "v": " angenommen. Das bedeutet, dass es jährlich 14,6 Geburten pro 1000 Einwohner/innen und 6,6 Todesfälle pro 1000 Einwohner/innen gibt.\n\nDie Entwicklung der Einwohnerzahl kann in diesem Zeitraum mithilfe der Differenzengleichung "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}=x_n+x_n\\cdot\\dfrac{1}{1000}\\cdot(b-d)+m_n"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden, wobei "
+        },
+        {
+          "t": "math",
+          "v": "x_n"
+        },
+        {
+          "t": "text",
+          "v": " die Anzahl der Einwohner/innen im Jahr "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt und "
+        },
+        {
+          "t": "math",
+          "v": "m_n"
+        },
+        {
+          "t": "text",
+          "v": " die Differenz aus der Anzahl der zugewanderten und jener der abgewanderten Personen angibt. Diese Differenz wird als Wanderungsbilanz bezeichnet.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die maximale Größe der Wanderungsbilanz für den Fall, dass die Einwohnerzahl im Jahr 2015 gegenüber der Einwohnerzahl des Vorjahres maximal um 1 % größer ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Höchstens 405480 Personen; Toleranzintervall [405000;406000]. Ein korrekter Ansatz mit Rechenfehler ist ebenfalls richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "x_{2015}\\leq1{,}01\\cdot x_{2014}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "x_{2014}+x_{2014}\\cdot\\dfrac{14{,}6-6{,}6}{1000}+m_{2014}\\leq1{,}01\\cdot x_{2014}"
+            },
+            {
+              "t": "text",
+              "v": "; daher "
+            },
+            {
+              "t": "math",
+              "v": "m_{2014}\\leq\\left(1{,}01-1-\\dfrac{14{,}6-6{,}6}{1000}\\right)\\cdot x_{2014}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "m_{2014}\\leq0{,}002\\cdot202740000=405480"
+            },
+            {
+              "t": "text",
+              "v": ".\nDamit die Einwohnerzahl im Jahr 2015 gegenüber der Einwohnerzahl im Jahr davor maximal um 1 % größer wird, dürfen höchstens 405480 Personen mehr zuwandern als abwandern."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [405000 Personen; 406000 Personen]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=9",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Brasilien ist der größte und bevölkerungsreichste Staat Südamerikas.\n\nIm Jahr 2014 hatte Brasilien eine Einwohnerzahl von 202,74 Millionen.\n\nAufgrund von Volkszählungen sind folgende Einwohnerzahlen bekannt:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-03-population-table.png",
+      "alt": "Jahr und Einwohnerzahl: 1970 94508583; 1980 121150573; 1991 146917459; 2000 169590693; 2010 190755799"
+    }
+  ]
 }

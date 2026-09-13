@@ -1,6 +1,6 @@
 {
   "id": "2026-wt-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1587a",
+          "id": "1_1587",
           "baseId": "1_1587",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1101/1_1587_srdp_ma_Vogelz%C3%A4hlung_PT3_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,13 +67,12 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.157,
-            "tol": 0.001
+            "t": "text",
+            "v": "Ein Punkt für das richtige Ermitteln von p = 17427/110965 = 0,157049… . Gleichwertige Brüche und angemessen gerundete Dezimalangaben (etwa 0,157) sind als richtig zu werten."
           }
         ]
       },

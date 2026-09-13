@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -22,14 +22,678 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt1-t2-02-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie eine Gleichung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " unter Verwendung der Daten aus den beiden Jahren 1790 und 1890!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "B_0=3{,}9"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "B(100)=62{,}9\\Rightarrow62{,}9=3{,}9\\cdot a^{100}\\Rightarrow a=\\sqrt[100]{\\frac{62{,}9}{3{,}9}}\\Rightarrow a\\approx1{,}0282"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "B(t)=3{,}9\\cdot1{,}0282^t"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Gleichungen sind als richtig zu werten. Toleranzintervall für a: [1,028; 1,029]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "B(t)=3{,}9\\cdot1{,}0282^t"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Gleichungen sind als richtig zu werten. Toleranzintervall für a: [1,028; 1,029]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "B_0=3{,}9"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "B(100)=62{,}9\\Rightarrow62{,}9=3{,}9\\cdot a^{100}\\Rightarrow a=\\sqrt[100]{\\frac{62{,}9}{3{,}9}}\\Rightarrow a\\approx1{,}0282"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-02-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das bestimmte Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^{50}B'(t)\\,\\mathrm{d}t"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Zusammenhang!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Das bestimmte Integral "
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{50}B'(t)\\,\\mathrm{d}t"
+          },
+          {
+            "t": "text",
+            "v": " gibt denjenigen Wert näherungsweise an, um den die Einwohnerzahl von 1790 bis 1840 gewachsen ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das bestimmte Integral "
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{50}B'(t)\\,\\mathrm{d}t"
+            },
+            {
+              "t": "text",
+              "v": " gibt denjenigen Wert näherungsweise an, um den die Einwohnerzahl von 1790 bis 1840 gewachsen ist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "id": "2016-nt1-t2-02-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die erste Ableitung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " ist gegeben durch "
+        },
+        {
+          "t": "math",
+          "v": "B'(t)=B_0\\cdot\\ln(a)\\cdot a^t"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "t^*"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass "
+        },
+        {
+          "t": "math",
+          "v": "B'(t^*)=B_0\\cdot\\ln(a)"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "t*",
+            "value": 0,
+            "tol": 1e-09,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t^*=0"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "id": "2016-nt1-t2-02-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die erste Ableitung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " ist gegeben durch "
+        },
+        {
+          "t": "math",
+          "v": "B'(t)=B_0\\cdot\\ln(a)\\cdot a^t"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "t^*"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass "
+        },
+        {
+          "t": "math",
+          "v": "B'(t^*)=B_0\\cdot\\ln(a)"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "B'(t^*)"
+        },
+        {
+          "t": "text",
+          "v": " im Zusammenhang mit dem Bevölkerungswachstum in den USA!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "B_0\\cdot\\ln(a)"
+          },
+          {
+            "t": "text",
+            "v": " ist die Wachstumsgeschwindigkeit der Bevölkerung (momentane Änderungsrate der Einwohnerzahl) zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=0"
+          },
+          {
+            "t": "text",
+            "v": " in Millionen Einwohner/innen pro Jahr."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "B_0\\cdot\\ln(a)"
+            },
+            {
+              "t": "text",
+              "v": " ist die Wachstumsgeschwindigkeit der Bevölkerung (momentane Änderungsrate der Einwohnerzahl) zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=0"
+            },
+            {
+              "t": "text",
+              "v": " in Millionen Einwohner/innen pro Jahr."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "id": "2016-nt1-t2-02-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Begründen Sie, warum die Bevölkerungsentwicklung in den USA im Zeitraum von 2003 bis 2013 näherungsweise durch eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "N"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=k\\cdot t+d"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden kann (dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die Zeit in Jahren, die seit 2003 vergangen sind, an)!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\nIm Zeitraum von 2003 bis 2013 ist die (absolute) Zunahme der Bevölkerung pro Jahr annähernd konstant."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für eine (sinngemäß) richtige Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nIm Zeitraum von 2003 bis 2013 ist die (absolute) Zunahme der Bevölkerung pro Jahr annähernd konstant."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine (sinngemäß) richtige Begründung."
+        }
+      ],
+      "id": "2016-nt1-t2-02-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Begründen Sie, warum die Bevölkerungsentwicklung in den USA im Zeitraum von 2003 bis 2013 näherungsweise durch eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "N"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=k\\cdot t+d"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden kann (dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die Zeit in Jahren, die seit 2003 vergangen sind, an)!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Bedeutung des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " dieser linearen Funktion! Eine Berechnung des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " ist nicht erforderlich."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Parameter "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": " entspricht der (durchschnittlichen) Zunahme der Bevölkerung pro Jahr."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die (sinngemäß) richtige Interpretation des Parameters k."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Parameter "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": " entspricht der (durchschnittlichen) Zunahme der Bevölkerung pro Jahr."
+            }
+          ],
+          "note": "Ein Punkt für die (sinngemäß) richtige Interpretation des Parameters k."
+        }
+      ],
+      "id": "2016-nt1-t2-02-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die erste Volkszählung in den USA fand im Jahre 1790 statt. Seit diesem Zeitpunkt werden Volkszählungen im Abstand von zehn Jahren abgehalten. Zwischen den Volkszählungen wird die Zahl der Einwohner/innen durch die Meldeämter ermittelt.\n\nNachstehend wird ein Überblick über die Bevölkerungsentwicklung in den USA im Zeitraum von 1790 bis 1890 (Tabelle) bzw. 2003 bis 2013 (Grafik) gegeben.\n\nTabelle: Bevölkerungsentwicklung in den USA von 1790 bis 1890"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-02-population-table.png",
+      "alt": "Originaltabelle der US-Bevölkerung1790bis1890"
+    },
+    {
+      "t": "text",
+      "v": "\nQuelle: Keller, G. (2011). Mathematik in den Life Sciences. Stuttgart: Ulmer. S. 55.\n\nGrafik: Bevölkerungsentwicklung in den USA von 2003 bis 2013"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-02-population-chart.png",
+      "alt": "Originalsäulendiagramm der US-Bevölkerung2003bis2013"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://de.statista.com/statistik/daten/studie/19320/umfrage/gesamtbevoelkerung-der-usa/ [19.09.2013] (adaptiert).\n\nFür den Zeitraum von 1790 bis 1890 kann die Entwicklung der Zahl der Einwohner/innen der USA näherungsweise durch eine Exponentialfunktion "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "B(t)=B_0\\cdot a^t"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Dabei gibt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " die Zeit in Jahren, die seit 1790 vergangen sind, an. "
+    },
+    {
+      "t": "math",
+      "v": "B(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird in Millionen Einwohner/innen angegeben."
+    }
+  ]
 }

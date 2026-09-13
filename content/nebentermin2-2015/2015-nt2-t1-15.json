@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,116 @@
     {
       "id": "2015-nt2-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Konstruktionsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_383",
+          "baseId": "1_383",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/91/Graph%20einer%20Ableitungsfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-15-derivative.png",
+              "alt": "Offizieller Lösungsgraph: nach unten geöffnete Parabel f′, Nullstellen an den Extremstellen von f, Scheitel an der Wendestelle."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Kriterien für die Richtigkeit des Graphen: Die Nullstellen von f′ müssen bei den Extremstellen von f liegen und die x-Koordinate des Scheitels von f′ bei der Wendestelle von f. Der Graph muss zumindest annähernd einer Parabel entsprechen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie den Graphen der Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " in das Koordinatensystem!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-15-graph.png",
+          "alt": "Graph der kubischen Funktion f mit Wendepunkt W im Koordinatensystem."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-15-derivative.png",
+            "alt": "Offizieller Lösungsgraph: nach unten geöffnete Parabel f′, Nullstellen an den Extremstellen von f, Scheitel an der Wendestelle."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Kriterien für die Richtigkeit des Graphen: Die Nullstellen von f′ müssen bei den Extremstellen von f liegen und die x-Koordinate des Scheitels von f′ bei der Wendestelle von f. Der Graph muss zumindest annähernd einer Parabel entsprechen."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=19",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_383",
+      "baseId": "1_383",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/91/Graph%20einer%20Ableitungsfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt den Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades, die den Wendepunkt "
+    },
+    {
+      "t": "math",
+      "v": "W"
+    },
+    {
+      "t": "text",
+      "v": " besitzt."
+    }
+  ]
 }

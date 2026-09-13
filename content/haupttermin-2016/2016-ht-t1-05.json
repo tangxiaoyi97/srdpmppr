@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,126 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_489a",
+          "id": "1_489",
           "baseId": "1_489",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/198/Vektoraddition.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-05-vectors-solution.png",
+              "alt": "Lösung: v₂ verläuft vom Endpunkt von v₁ fünf Rastereinheiten nach links und sechs nach oben."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung von v₂, wobei der gesuchte Vektor auch von anderen Ausgangspunkten aus gezeichnet werden kann."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie in der Abbildung einen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}_2"
+        },
+        {
+          "t": "text",
+          "v": " so, dass "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}_1 + \\vec{v}_2 = \\vec{v}"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-05-vectors.png",
+          "alt": "Vektoren v₁ und v auf einem Raster"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-05-vectors-solution.png",
+            "alt": "Lösung: v₂ verläuft vom Endpunkt von v₁ fünf Rastereinheiten nach links und sechs nach oben."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Darstellung von v₂, wobei der gesuchte Vektor auch von anderen Ausgangspunkten aus gezeichnet werden kann."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_489",
       "baseId": "1_489",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/198/Vektoraddition.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt zwei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}_1"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

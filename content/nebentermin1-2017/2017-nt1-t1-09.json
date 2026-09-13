@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,190 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_574a",
+          "id": "1_574",
           "baseId": "1_574",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/283/Parameter%20reeller%20Funktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b>d"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Aussagen treffen für die Parameter "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " zu?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "a>c"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b>d"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "c<1"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_574",
       "baseId": "1_574",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/283/Parameter%20reeller%20Funktionen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Graphen zweier reeller Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " mit den Funktionsgleichungen "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^3+b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g(x)=c\\cdot x^3+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c,d\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-09-q.png",
+      "alt": "Graphen f(x) = ax³ + b und g(x) = cx³ + d."
     }
   ]
 }

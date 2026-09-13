@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t1-06",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_883a",
+          "id": "1_883",
           "baseId": "1_883",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/710/Treppe.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -72,24 +72,43 @@
         {
           "t": "text",
           "v": "Ermitteln Sie den kleinstmöglichen und den größtmöglichen Steigungswinkel φ (in °), bei dem die oben genannten Bedingungen erfüllt sind."
+        },
+        {
+          "t": "text",
+          "v": "\n\nkleinstmöglicher Steigungswinkel φ: ______ °\ngrößtmöglicher Steigungswinkel φ: ______ °"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "phi_min",
-            "label": "kleinstmöglicher Steigungswinkel φ",
-            "value": 19.95,
-            "tol": 0.5,
-            "unit": "°"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "phi_max",
-            "label": "größtmöglicher Steigungswinkel φ",
-            "value": 45,
-            "tol": 0.5,
-            "unit": "°"
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "kleinstmöglicher Steigungswinkel φ: "
+          },
+          {
+            "t": "math",
+            "v": "19{,}95\\ldots^\\circ"
+          },
+          {
+            "t": "text",
+            "v": ";  größtmöglicher Steigungswinkel φ: "
+          },
+          {
+            "t": "math",
+            "v": "45^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln der beiden Steigungswinkel, ein halber Punkt für nur einen richtigen Steigungswinkel."
           }
         ]
       },

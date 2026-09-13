@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -22,14 +22,978 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt1-t2-01-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Um die Effektivität des Starts zu überprüfen, wird die mittlere Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{v}"
+        },
+        {
+          "t": "text",
+          "v": " der Läuferin im Zeitintervall [0 s; 3 s] ermittelt.\n\nBerechnen Sie die mittlere Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{v}"
+        },
+        {
+          "t": "text",
+          "v": " der Läuferin in m/s!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\bar{v}=\\frac{s(3)-s(0)}{3-0}=\\frac{23{,}4375-0}{3}\\approx7{,}8"
+          },
+          {
+            "t": "text",
+            "v": "\nDie mittlere Geschwindigkeit innerhalb der ersten drei Fahrsekunden beträgt ca. 7,8 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss. Toleranzintervall: [7,5 m/s; 8 m/s]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar{v}=\\frac{s(3)-s(0)}{3-0}=\\frac{23{,}4375-0}{3}\\approx7{,}8"
+            },
+            {
+              "t": "text",
+              "v": "\nDie mittlere Geschwindigkeit innerhalb der ersten drei Fahrsekunden beträgt ca. 7,8 m/s."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss. Toleranzintervall: [7,5 m/s; 8 m/s]"
+        }
+      ],
+      "id": "2016-nt1-t2-01-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die für die Fahrt von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " benötigte Zeit!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "-\\frac1{144}\\cdot t^4+\\frac83\\cdot t^2=240\\Rightarrow t_{1,2}=\\pm12;\\ t_{3,4}\\approx\\pm15{,}5"
+          },
+          {
+            "t": "text",
+            "v": "\nalso: "
+          },
+          {
+            "t": "math",
+            "v": "t=12"
+          },
+          {
+            "t": "text",
+            "v": " s"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Fahrt von "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " nach "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " dauert 12 Sekunden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Fahrt von "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " dauert 12 Sekunden."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "-\\frac1{144}\\cdot t^4+\\frac83\\cdot t^2=240\\Rightarrow t_{1,2}=\\pm12;\\ t_{3,4}\\approx\\pm15{,}5"
+            },
+            {
+              "t": "text",
+              "v": "\nalso: "
+            },
+            {
+              "t": "math",
+              "v": "t=12"
+            },
+            {
+              "t": "text",
+              "v": " s"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-01-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie denjenigen Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": ", für den "
+        },
+        {
+          "t": "math",
+          "v": "s''(t_1)=0"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "s'(t)=-\\frac1{36}\\cdot t^3+\\frac{16}3\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s''(t)=-\\frac1{12}\\cdot t^2+\\frac{16}3"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s''(t)=0\\Leftrightarrow-\\frac1{12}\\cdot t^2+\\frac{16}3=0\\Rightarrow t_{1,2}=\\pm8"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "also: "
+          },
+          {
+            "t": "math",
+            "v": "t_1=8"
+          },
+          {
+            "t": "text",
+            "v": " s"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "also: "
+            },
+            {
+              "t": "math",
+              "v": "t_1=8"
+            },
+            {
+              "t": "text",
+              "v": " s"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "s'(t)=-\\frac1{36}\\cdot t^3+\\frac{16}3\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "s''(t)=-\\frac1{12}\\cdot t^2+\\frac{16}3"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "s''(t)=0\\Leftrightarrow-\\frac1{12}\\cdot t^2+\\frac{16}3=0\\Rightarrow t_{1,2}=\\pm8"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-01-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie denjenigen Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": ", für den "
+        },
+        {
+          "t": "math",
+          "v": "s''(t_1)=0"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf die Fahrt der Rennläuferin von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation:\nDie Läuferin erreicht nach 8 Sekunden die maximale Geschwindigkeit."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation:\nDie Läuferin erreicht nach 8 Sekunden die maximale Geschwindigkeit."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "id": "2016-nt1-t2-01-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Momentangeschwindigkeit der Läuferin zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2=6"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "s'(t)=-\\frac1{36}\\cdot t^3+\\frac{16}3\\cdot t\\Rightarrow s'(6)=26"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t_2=6"
+          },
+          {
+            "t": "text",
+            "v": " hat die Läuferin eine Geschwindigkeit von 26 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t_2=6"
+            },
+            {
+              "t": "text",
+              "v": " hat die Läuferin eine Geschwindigkeit von 26 m/s."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "s'(t)=-\\frac1{36}\\cdot t^3+\\frac{16}3\\cdot t\\Rightarrow s'(6)=26"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-01-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Momentangeschwindigkeit der Läuferin zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2=6"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Angenommen, die Geschwindigkeit der Rennläuferin bliebe ab dem Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": " unverändert. Geben Sie an, nach wie vielen Sekunden ab dem Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": " die Läuferin den Geländepunkt "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " erreichen würde!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Zeit nach t₂",
+            "value": 5.85,
+            "tol": 0.05,
+            "unit": "s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Läuferin würde den Geländepunkt "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " ca. 5,9 s nach dem Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t_2"
+            },
+            {
+              "t": "text",
+              "v": " erreichen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss. Toleranzintervall: [5,8 s; 5,9 s]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "s(6)=87\\Rightarrow\\frac{240-87}{26}\\approx5{,}9"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-01-c2"
+    },
+    {
+      "label": "d",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem mathematischen Modell für die zeitliche Abhängigkeit des von der Läuferin zurückgelegten Weges sollen folgende Sachverhalte gelten:\n\n(1) Zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " beträgt die momentane Geschwindigkeit der Läuferin 0 m/s.\n(2) Während der Fahrt von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " nimmt die zurückgelegte Weglänge streng monoton zu.\n\nGeben Sie an, welche mathematischen Eigenschaften einer differenzierbaren Zeit-Weg-Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s_1"
+        },
+        {
+          "t": "text",
+          "v": " diese Sachverhalte garantieren!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "s_1"
+          },
+          {
+            "t": "text",
+            "v": " muss die Eigenschaften\n• "
+          },
+          {
+            "t": "math",
+            "v": "s_1'(0)=0"
+          },
+          {
+            "t": "text",
+            "v": " und\n• "
+          },
+          {
+            "t": "math",
+            "v": "s_1'(t)>0"
+          },
+          {
+            "t": "text",
+            "v": " während der Fahrt von "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " nach "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": "\nerfüllen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Nennung der Eigenschaft s₁′(0) = 0. Ein Punkt für die Nennung der Eigenschaft s₁′(t) > 0."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 2,
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "s₁′(0)=0",
+            "points": 1
+          },
+          {
+            "desc": "s₁′(t)>0 während der Fahrt von A nach B",
+            "points": 1
+          }
+        ]
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "s_1"
+            },
+            {
+              "t": "text",
+              "v": " muss die Eigenschaften\n• "
+            },
+            {
+              "t": "math",
+              "v": "s_1'(0)=0"
+            },
+            {
+              "t": "text",
+              "v": " und\n• "
+            },
+            {
+              "t": "math",
+              "v": "s_1'(t)>0"
+            },
+            {
+              "t": "text",
+              "v": " während der Fahrt von "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": "\nerfüllen."
+            }
+          ],
+          "note": "Ein Punkt für die Nennung der Eigenschaft s₁′(0) = 0. Ein Punkt für die Nennung der Eigenschaft s₁′(t) > 0."
+        }
+      ],
+      "id": "2016-nt1-t2-01-d"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Schirennläuferinnen absolvieren Trainingsfahrten auf einer eigens dafür präparierten Strecke. Die Trainerin legt den Schwerpunkt ihrer Analyse auf einen 240 m langen Streckenabschnitt vom Starthaus "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " bis zu einem Geländepunkt "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ". Mithilfe von Videoanalysen wird die von den Rennläuferinnen zurückgelegte Weglänge in Abhängigkeit von der Zeit ermittelt.\n\nFür eine bestimmte Trainingsfahrt einer Läuferin kann die Abhängigkeit des zurückgelegten Weges von der Zeit während der Fahrt von "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " nach "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " modellhaft durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "s(t)=-\\frac1{144}\\cdot t^4+\\frac83\\cdot t^2"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Die Läuferin verlässt zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " das Starthaus. Die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " wird in Sekunden gemessen. "
+    },
+    {
+      "t": "math",
+      "v": "s(t)"
+    },
+    {
+      "t": "text",
+      "v": " gibt die bis zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " zurückgelegte Weglänge in Metern an.\n\nDie folgenden Fragestellungen beziehen sich auf die gegebene Zeit-Weg-Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

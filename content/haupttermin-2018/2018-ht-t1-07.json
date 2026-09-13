@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,270 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_620a",
+          "id": "1_620",
           "baseId": "1_620",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/341/Quadratische%20Pyramide.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für "
+            },
+            {
+              "t": "math",
+              "v": "a=1\\,\\mathrm{cm}"
+            },
+            {
+              "t": "text",
+              "v": " ist die Oberfläche sicher größer als "
+            },
+            {
+              "t": "math",
+              "v": "2\\,\\mathrm{cm}^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Aussage angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind sechs Aussagen zur Oberfläche von regelmäßigen quadratischen Pyramiden.\nKreuzen Sie die zutreffende Aussage an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Ist "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": " konstant, dann ist die Oberfläche direkt proportional zu "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ist "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " konstant, dann ist die Oberfläche direkt proportional zu "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für "
+            },
+            {
+              "t": "math",
+              "v": "a=1\\,\\mathrm{cm}"
+            },
+            {
+              "t": "text",
+              "v": " ist die Oberfläche sicher größer als "
+            },
+            {
+              "t": "math",
+              "v": "2\\,\\mathrm{cm}^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für "
+            },
+            {
+              "t": "math",
+              "v": "a=1\\,\\mathrm{cm}"
+            },
+            {
+              "t": "text",
+              "v": " ist die Oberfläche sicher kleiner als "
+            },
+            {
+              "t": "math",
+              "v": "10\\,\\mathrm{cm}^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Werden sowohl "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " als auch "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": " verdoppelt, so wird die Oberfläche verdoppelt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ist "
+            },
+            {
+              "t": "math",
+              "v": "h_1=a^2"
+            },
+            {
+              "t": "text",
+              "v": ", dann kann die Oberfläche durch eine Exponentialfunktion in Abhängigkeit von "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " beschrieben werden."
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_620",
       "baseId": "1_620",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/341/Quadratische%20Pyramide.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Oberfläche einer regelmäßigen quadratischen Pyramide kann als Funktion "
+    },
+    {
+      "t": "math",
+      "v": "O"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Länge der Grundkante "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " und der Höhe der Seitenfläche "
+    },
+    {
+      "t": "math",
+      "v": "h_1"
+    },
+    {
+      "t": "text",
+      "v": " aufgefasst werden.\nEs gilt: "
+    },
+    {
+      "t": "math",
+      "v": "O(a,h_1)=a^2+2\\cdot a\\cdot h_1"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h_1>\\frac{a}{2}"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

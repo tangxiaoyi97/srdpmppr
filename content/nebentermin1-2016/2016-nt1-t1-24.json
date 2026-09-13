@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -24,12 +24,101 @@
     {
       "id": "2016-nt1-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}208;0{,}260]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,20; 0,21] Toleranzintervall für den oberen Wert: [0,26; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "n=1\\,000,\\ h=0{,}234"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}234\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}234\\cdot(1-0{,}234)}{1\\,000}}\\approx0{,}234\\pm0{,}026\\Rightarrow[0{,}208;0{,}260]"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie ein symmetrisches 95-%-Konfidenzintervall für den relativen Anteil der Österreicherinnen und Österreicher, die eine Abschaffung der 500-Euro-Scheine in Österreich befürworten, an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "n=1\\,000,\\ h=0{,}234"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}234\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}234\\cdot(1-0{,}234)}{1\\,000}}\\approx0{,}234\\pm0{,}026\\Rightarrow[0{,}208;0{,}260]"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "[0{,}208;0{,}260]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,20; 0,21] Toleranzintervall für den oberen Wert: [0,26; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer repräsentativen Umfrage in Österreich geht es um die in Diskussion stehende Abschaffung der 500-Euro-Scheine. Es sprechen sich 234 von 1 000 Befragten für eine Abschaffung aus."
+    }
+  ]
 }

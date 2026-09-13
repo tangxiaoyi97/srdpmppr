@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,141 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_512a",
+          "id": "1_512",
           "baseId": "1_512",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/221/Winkel%20bestimmen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=\\alpha_2\\approx156{,}4^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angeführt sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [156°; 157°]",
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=0{,}4\\Rightarrow\\alpha_1\\approx23{,}6^\\circ;\\ \\alpha_2\\approx156{,}4^\\circ"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\cos(\\alpha_1)>0;\\ \\cos(\\alpha_2)<0\\Rightarrow\\alpha=\\alpha_2\\approx156{,}4^\\circ"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sin(\\alpha)=0{,}4\\Rightarrow\\alpha_1\\approx23{,}6^\\circ;\\ \\alpha_2\\approx156{,}4^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\cos(\\alpha_1)>0;\\ \\cos(\\alpha_2)<0\\Rightarrow\\alpha=\\alpha_2\\approx156{,}4^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=\\alpha_2\\approx156{,}4^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angeführt sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [156°; 157°]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_512",
       "baseId": "1_512",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/221/Winkel%20bestimmen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für einen Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha\\in[0^\\circ;360^\\circ)"
+    },
+    {
+      "t": "text",
+      "v": " gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "\\sin(\\alpha)=0{,}4"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\cos(\\alpha)<0"
     }
   ]
 }

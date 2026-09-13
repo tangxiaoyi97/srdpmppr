@@ -1,6 +1,6 @@
 {
   "id": "2019-nt1-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,7 +24,7 @@
     {
       "id": "2019-nt1-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 4.1",
@@ -33,22 +33,41 @@
           "verifiedAt": "2026-07-01"
         }
       ],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3250&token=11bb3f1b4614362eb650f4ebe8f4e86e8e99ce9d#page=26",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
           "steps": [
             {
               "t": "text",
-              "v": "mögliche Vorgehensweise:\nh ... relative Häufigkeit, "
+              "v": "mögliche Vorgehensweise:\nh ... relative Häufigkeit"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
               "v": "h=0{,}234"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "0{,}234\\pm 1{,}96\\cdot\\sqrt{\\tfrac{0{,}234\\cdot(1-0{,}234)}{1\\,000}}\\approx 0{,}234\\pm 0{,}026\\ \\Rightarrow\\ [0{,}208;\\ 0{,}260]"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -61,7 +80,7 @@
               "v": "Der tatsächliche Anteil liegt nicht im berechneten 95-%-Konfidenzintervall."
             }
           ],
-          "note": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist. Toleranzintervall für den unteren Wert: [0,2; 0,22] Toleranzintervall für den oberen Wert: [0,25; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          "note": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist. Toleranzintervall für den unteren Wert: [0,2; 0,22] Toleranzintervall für den oberen Wert: [0,25; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: WS 4.1"
         }
       ],
       "prompt": [
@@ -72,18 +91,31 @@
       ],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Ein richtiges symmetrisches 95-%-Konfidenzintervall ist "
-          },
-          {
-            "t": "math",
-            "v": "[0{,}208;\\ 0{,}260]"
+            "v": "mögliche Vorgehensweise:\nh ... relative Häufigkeit"
           },
           {
             "t": "text",
-            "v": " (Toleranzintervall für den unteren Wert: [0,2; 0,22]; für den oberen Wert: [0,25; 0,27]). Da "
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h=0{,}234"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}234\\pm 1{,}96\\cdot\\sqrt{\\tfrac{0{,}234\\cdot(1-0{,}234)}{1\\,000}}\\approx 0{,}234\\pm 0{,}026\\ \\Rightarrow\\ [0{,}208;\\ 0{,}260]"
+          },
+          {
+            "t": "text",
+            "v": "\n"
           },
           {
             "t": "math",
@@ -91,16 +123,23 @@
           },
           {
             "t": "text",
-            "v": ", liegt der tatsächliche Anteil nicht im berechneten Konfidenzintervall."
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der tatsächliche Anteil liegt nicht im berechneten 95-%-Konfidenzintervall."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist. Toleranzintervall für den unteren Wert: [0,2; 0,22] Toleranzintervall für den oberen Wert: [0,25; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: WS 4.1"
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
         "criteria": [
           {
-            "desc": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist.",
+            "desc": "Ein Punkt für ein richtiges Konfidenzintervall und eine richtige entsprechende Angabe, ob der tatsächliche Anteil in diesem enthalten ist. Toleranzintervall für den unteren Wert: [0,2; 0,22] Toleranzintervall für den oberen Wert: [0,25; 0,27] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: WS 4.1",
             "points": 1
           }
         ]
@@ -108,7 +147,14 @@
       "points": 1
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3250&token=11bb3f1b4614362eb650f4ebe8f4e86e8e99ce9d#page=26",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -22,14 +22,711 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt2-t2-04-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{t}"
+        },
+        {
+          "t": "text",
+          "v": " der zehn Reaktionszeiten "
+        },
+        {
+          "t": "math",
+          "v": "t_1,t_2,\\ldots,t_{10}"
+        },
+        {
+          "t": "text",
+          "v": " sowie die Standardabweichung "
+        },
+        {
+          "t": "math",
+          "v": "s_t"
+        },
+        {
+          "t": "text",
+          "v": " dieser zehn Werte!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "mean",
+            "label": "Arithmetisches Mittel",
+            "value": 25,
+            "tol": 1e-09,
+            "unit": "s"
+          },
+          {
+            "id": "sd",
+            "label": "Standardabweichung",
+            "value": 4.8,
+            "tol": 0.2,
+            "unit": "s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar{t}=25\\,\\mathrm{s}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "s_t\\approx4{,}9\\,\\mathrm{s}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die korrekten Werte von t̄ und sₜ, wobei die Einheit nicht angeführt sein muss. Toleranzintervall für sₜ: [4,6 s; 5,0 s]"
+        }
+      ],
+      "id": "2016-nt2-t2-04-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{t}"
+        },
+        {
+          "t": "text",
+          "v": " der zehn Reaktionszeiten "
+        },
+        {
+          "t": "math",
+          "v": "t_1,t_2,\\ldots,t_{10}"
+        },
+        {
+          "t": "text",
+          "v": " sowie die Standardabweichung "
+        },
+        {
+          "t": "math",
+          "v": "s_t"
+        },
+        {
+          "t": "text",
+          "v": " dieser zehn Werte!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die getestete Person absolviert zwei weitere Testdurchgänge und erreicht dabei die Zeiten "
+        },
+        {
+          "t": "math",
+          "v": "t_{11}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t_{12}"
+        },
+        {
+          "t": "text",
+          "v": ". Das arithmetische Mittel der neuen Datenreihe "
+        },
+        {
+          "t": "math",
+          "v": "t_1,t_2,\\ldots,t_{10},t_{11},t_{12}"
+        },
+        {
+          "t": "text",
+          "v": " wird mit "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{t}_{\\mathrm{neu}}"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet, die entsprechende Standardabweichung mit "
+        },
+        {
+          "t": "math",
+          "v": "s_{\\mathrm{neu}}"
+        },
+        {
+          "t": "text",
+          "v": ". Geben Sie Werte für "
+        },
+        {
+          "t": "math",
+          "v": "t_{11}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t_{12}"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass "
+        },
+        {
+          "t": "math",
+          "v": "t_{11}\\ne t_{12}"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{t}_{\\mathrm{neu}}=\\bar{t}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "s_{\\mathrm{neu}}<s_t"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Angaben der Werte für "
+          },
+          {
+            "t": "math",
+            "v": "t_{11}"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "t_{12}"
+          },
+          {
+            "t": "text",
+            "v": ":\n"
+          },
+          {
+            "t": "math",
+            "v": "t_{11}=23"
+          },
+          {
+            "t": "text",
+            "v": " s, "
+          },
+          {
+            "t": "math",
+            "v": "t_{12}=27"
+          },
+          {
+            "t": "text",
+            "v": " s\n\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "t_{11}=24"
+          },
+          {
+            "t": "text",
+            "v": " s, "
+          },
+          {
+            "t": "math",
+            "v": "t_{12}=26"
+          },
+          {
+            "t": "text",
+            "v": " s"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine geeignete Angabe von je einem Wert für t₁₁ und t₁₂, wobei die Einheit „s“ nicht angeführt sein muss und wobei allgemein gilt: Eine der beiden Zeiten muss den Wert 25 + x, die andere den Wert 25 – x annehmen, wobei x ∈ [0; sₜ). Der Punkt ist auch dann zu geben, wenn die Werte für t₁₁ und t₁₂ auf der Basis falsch berechneter Werte von t̄ bzw. sₜ ermittelt werden, der Lösungsweg aber prinzipiell korrekt ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Angaben der Werte für "
+            },
+            {
+              "t": "math",
+              "v": "t_{11}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "t_{12}"
+            },
+            {
+              "t": "text",
+              "v": ":\n"
+            },
+            {
+              "t": "math",
+              "v": "t_{11}=23"
+            },
+            {
+              "t": "text",
+              "v": " s, "
+            },
+            {
+              "t": "math",
+              "v": "t_{12}=27"
+            },
+            {
+              "t": "text",
+              "v": " s\n\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "t_{11}=24"
+            },
+            {
+              "t": "text",
+              "v": " s, "
+            },
+            {
+              "t": "math",
+              "v": "t_{12}=26"
+            },
+            {
+              "t": "text",
+              "v": " s"
+            }
+          ],
+          "note": "Ein Punkt für eine geeignete Angabe von je einem Wert für t₁₁ und t₁₂, wobei die Einheit „s“ nicht angeführt sein muss und wobei allgemein gilt: Eine der beiden Zeiten muss den Wert 25 + x, die andere den Wert 25 – x annehmen, wobei x ∈ [0; sₜ). Der Punkt ist auch dann zu geben, wenn die Werte für t₁₁ und t₁₂ auf der Basis falsch berechneter Werte von t̄ bzw. sₜ ermittelt werden, der Lösungsweg aber prinzipiell korrekt ist."
+        }
+      ],
+      "id": "2016-nt2-t2-04-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Laufe einer Diskussion vertritt eine Person die Meinung, dass das arithmetische Mittel der 10 Reaktionszeiten die gegebene Datenliste nicht optimal beschreibt. Geben Sie ein mögliches Argument an, das diese Meinung stützt, und nennen Sie ein alternatives statistisches Zentralmaß!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliches Argument:\nDurch die beiden „Ausreißer“ 32,8 und 35,4 wird das arithmetische Mittel stark nach oben verzerrt. Das alternative Zentralmaß Median ist gegenüber Ausreißern robust."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein richtiges Argument und die Angabe des Medians als alternatives Zentralmaß."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliches Argument:\nDurch die beiden „Ausreißer“ 32,8 und 35,4 wird das arithmetische Mittel stark nach oben verzerrt. Das alternative Zentralmaß Median ist gegenüber Ausreißern robust."
+            }
+          ],
+          "note": "Ein Punkt für ein richtiges Argument und die Angabe des Medians als alternatives Zentralmaß."
+        }
+      ],
+      "id": "2016-nt2-t2-04-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Datenreihe der 500 Reaktionszeiten von insgesamt 50 Testpersonen wird durch das nachstehende Kastenschaubild dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-04-boxplot.png",
+          "alt": "Boxplot mitMinimum21.4,Q122.4,Median23.0,Q327.9,Maximum35.8s"
+        },
+        {
+          "t": "text",
+          "v": "\nEntscheiden Sie, ob die folgende Aussage jedenfalls korrekt ist: „Höchstens 125 der 500 Reaktionszeiten betragen höchstens 22,4 s.“ Begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Aussage ist so nicht korrekt, da aus dem Kastenschaubild nicht hervorgeht, ob es mehrere Reaktionszeiten gibt, die genau 22,4 s betragen und die im zweiten Viertel der geordneten Datenreihe liegen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Entscheidung und eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussage ist so nicht korrekt, da aus dem Kastenschaubild nicht hervorgeht, ob es mehrere Reaktionszeiten gibt, die genau 22,4 s betragen und die im zweiten Viertel der geordneten Datenreihe liegen."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Entscheidung und eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "id": "2016-nt2-t2-04-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " ordnet jedem Testdurchgang, bei dem einer bestimmten Person 20 Bilder vorgelegt werden, die Anzahl der dabei auftretenden fehlerhaften Reaktionen zu.\n\nNennen Sie unter Bezugnahme auf den dargelegten Sachverhalt die Voraussetzungen, die für den Reaktionstest als erfüllt angesehen werden müssen, damit die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " durch eine Binomialverteilung beschrieben werden kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Damit die Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "H"
+          },
+          {
+            "t": "text",
+            "v": " als binomialverteilt angesehen werden kann, müssen folgende Bedingungen erfüllt sein:\n\n1. Die Wahrscheinlichkeit für eine fehlerhafte Reaktion muss für alle 20 Reaktionen gleich hoch sein (darf also bei bestimmten Bildern nicht höher oder niedriger sein als bei anderen Bildern).\n2. Die Reaktionen müssen voneinander unabhängig sein. (Ob eine vorangegangene Reaktion richtig oder falsch war, darf keinen Einfluss auf die Richtigkeit einer nachfolgenden Reaktion haben.)\n3. Die Reaktionen können nur entweder fehlerhaft oder korrekt sein.\n\noder:\nJeder einzelne Versuch wird unter denselben Bedingungen durchgeführt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die (sinngemäß) richtige Angabe erforderlicher kontextbezogener Voraussetzungen für die Verwendung der Binomialverteilung, wobei der 3. Punkt nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Damit die Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "H"
+            },
+            {
+              "t": "text",
+              "v": " als binomialverteilt angesehen werden kann, müssen folgende Bedingungen erfüllt sein:\n\n1. Die Wahrscheinlichkeit für eine fehlerhafte Reaktion muss für alle 20 Reaktionen gleich hoch sein (darf also bei bestimmten Bildern nicht höher oder niedriger sein als bei anderen Bildern).\n2. Die Reaktionen müssen voneinander unabhängig sein. (Ob eine vorangegangene Reaktion richtig oder falsch war, darf keinen Einfluss auf die Richtigkeit einer nachfolgenden Reaktion haben.)\n3. Die Reaktionen können nur entweder fehlerhaft oder korrekt sein.\n\noder:\nJeder einzelne Versuch wird unter denselben Bedingungen durchgeführt."
+            }
+          ],
+          "note": "Ein Punkt für die (sinngemäß) richtige Angabe erforderlicher kontextbezogener Voraussetzungen für die Verwendung der Binomialverteilung, wobei der 3. Punkt nicht angeführt sein muss."
+        }
+      ],
+      "id": "2016-nt2-t2-04-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " ordnet jedem Testdurchgang, bei dem einer bestimmten Person 20 Bilder vorgelegt werden, die Anzahl der dabei auftretenden fehlerhaften Reaktionen zu.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "P(H>2)"
+        },
+        {
+          "t": "text",
+          "v": ", wenn die getestete Person mit einer Wahrscheinlichkeit von "
+        },
+        {
+          "t": "math",
+          "v": "p=0{,}15"
+        },
+        {
+          "t": "text",
+          "v": " fehlerhaft reagiert!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P(H>2)=1-[P(H=0)+P(H=1)+P(H=2)]\\approx0{,}595"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (z. B. in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,59; 0,61] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(H>2)=1-[P(H=0)+P(H=1)+P(H=2)]\\approx0{,}595"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (z. B. in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,59; 0,61] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "id": "2016-nt2-t2-04-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=9",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Reaktionstest am Computer werden der getesteten Person am Bildschirm nacheinander 20 Muster gezeigt, die klassifiziert werden müssen. Protokolliert werden die für die 20 Reaktionen insgesamt benötigte Reaktionszeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " sowie die Anzahl "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " der dabei auftretenden fehlerhaften Klassifikationen.\nIn der nachstehenden Tabelle sind die Ergebnisse eines Reaktionstests am Computer einer Testperson in einer Serie von zehn Testdurchgängen angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-04-test-results.png",
+      "alt": "Tabelle der zehnTestdurchgänge mitReaktionszeiten22.3,24.6,21.8,23.5,32.8,21.7,22.6,22.8,35.4,22.5s undFehleranzahlen3,2,3,1,5,4,3,2,3,1."
+    },
+    {
+      "t": "text",
+      "v": "\n* Erläuterung: Die Person benötigte bei der ersten Testdurchführung 22,3 Sekunden, drei ihrer Klassifikationen waren falsch."
+    }
+  ]
 }

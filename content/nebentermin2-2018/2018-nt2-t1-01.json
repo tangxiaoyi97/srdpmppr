@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,126 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_590a",
+          "id": "1_590",
           "baseId": "1_590",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/299/Anzahl%20der%20Personen%20in%20einem%20Autobus.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "M+1=2\\cdot F"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Gleichung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige Gleichung an, die den Zusammenhang zwischen der Anzahl der Frauen und der Anzahl der Männer in diesem Autobus richtig beschreibt!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot(M+1)=F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "M+1=2\\cdot F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F=2\\cdot M+1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F+1=2\\cdot M"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "M-1=2\\cdot F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot F=M"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_590",
       "baseId": "1_590",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/299/Anzahl%20der%20Personen%20in%20einem%20Autobus.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Variable "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet die Anzahl der weiblichen Passagiere in einem Autobus, "
+    },
+    {
+      "t": "math",
+      "v": "M"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet die Anzahl der männlichen Passagiere in diesem Autobus. Zusammen mit dem Lenker (männlich) sind doppelt so viele Männer wie Frauen in diesem Autobus. (Der Lenker wird nicht bei den Passagieren mitgezählt.)"
     }
   ]
 }

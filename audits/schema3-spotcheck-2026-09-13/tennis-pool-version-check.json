@@ -1,0 +1,366 @@
+{
+  "checkedAt": "2026-09-13",
+  "reviewer": "convert_2016",
+  "questionId": "2020-nt2-t2-02",
+  "scope": "Independent full-document official identity/version verification, followed by root-authorized corrections restricted to this Tennis question. No other question, schema, or metadata modified.",
+  "method": "All 5 pages of each official pool PDF and both pages of original au and lo independently visually inspected at 1000-pixel width; extracted text compared as an additional check. Compared every subquestion, formulas, diagram labels, probability table, expected solutions and grading text, rather than title/date alone.",
+  "sources": {
+    "dated": {
+      "path": "/tmp/qed-schema3-spotcheck/http-cache/cb7e3e7c7d47ef1bedea4332ca6d15d3429a1118b25d43dfbbac4b0282aad104.pdf",
+      "sha256": "284fae6f22ef7fb12ee5ca92793343bd7633fd3d55c032db15bd705845cf1887",
+      "pages": 5,
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/535/2_058_srdp_ma_Tennis_PT3_19%202020-08-19.pdf",
+      "httpStatus": 200,
+      "bytes": 96412,
+      "printedIdentity": {
+        "page": 1,
+        "id": "2_058",
+        "title": "Tennis*",
+        "formerExamDate": "14. Jänner 2020",
+        "explicitlyMarkedAdapted": false
+      }
+    },
+    "plain": {
+      "path": "/tmp/qed-schema3-spotcheck/http-cache/fcd132a3f31c1b8e8d0c6a924732ba4fbd1951a6f4ae465e71a248ffa01a2035.pdf",
+      "sha256": "e738a9cf978de9854a5de57f40b9195112c10aae55930036202377963071a80a",
+      "pages": 5,
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+      "httpStatus": 200,
+      "bytes": 112788,
+      "printedIdentity": {
+        "page": 1,
+        "id": "2_058",
+        "title": "Tennis*",
+        "formerExamDate": "14. Jänner 2020",
+        "explicitlyMarkedAdapted": false
+      }
+    },
+    "au": {
+      "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t2-2.pdf",
+      "sha256": "5143dd720c53038a5daf033f2f6548a74f2f4459f99eb3fe908247ee86e61d9f",
+      "pages": 2,
+      "printedPages": [
+        28,
+        29
+      ]
+    },
+    "lo": {
+      "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2020/[2020n2]t2-2.pdf",
+      "sha256": "39ddac88025722c0b1aa811a30345b27249ee132865f8171818d7b53678a4879",
+      "pages": 2,
+      "printedPages": [
+        30,
+        31
+      ]
+    }
+  },
+  "visualEvidence": {
+    "poolComparisons": [
+      "/tmp/tennis-check/pool-pair-1.png",
+      "/tmp/tennis-check/pool-pair-2.png",
+      "/tmp/tennis-check/pool-pair-3.png",
+      "/tmp/tennis-check/pool-pair-4.png",
+      "/tmp/tennis-check/pool-pair-5.png"
+    ],
+    "originalRenders": [
+      "/tmp/tennis-check/au-1.png",
+      "/tmp/tennis-check/au-2.png",
+      "/tmp/tennis-check/lo-1.png",
+      "/tmp/tennis-check/lo-2.png"
+    ],
+    "textDiff": "/tmp/tennis-check/pdf-text.diff"
+  },
+  "conclusion": {
+    "sameOfficialItem": true,
+    "baseId": "2_058",
+    "sameMathematicalTasksDataAndAnswers": true,
+    "byteIdentical": false,
+    "wordForWordIdentical": false,
+    "recommendUrl": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+    "reason": "Tennis.pdf retains the original examination wording in b2 and c, whereas the dated-filename PDF contains editorial/clarifying wording changes. Neither pool document labels itself adapted. Both remove the examination Ausgleichspunkt designation at a1, so original examination au/lo remain authoritative for that marking. Do not silently replace the original exam wording with the dated version. No chronology inferred from the filename alone."
+  },
+  "pageChecks": [
+    {
+      "poolPages": [
+        1
+      ],
+      "original": "au page 1 (printed 28)",
+      "checked": "Printed 2_058 on both pool versions; former exam 14 January 2020. All global prose and court diagram match: 23.77 m by 8.23 m, central Netz, Grundlinie, Seitenlinie, maximum net height 1.07 m. Both a subquestions and complete cubic f(x)=-0.0007*x^3+0.005*x^2+0.2*x+0.4, domain, definitions, position/direction premise match. Original a1 has boxed A; pool versions omit it.",
+      "result": "same item; exam marking presentation differs"
+    },
+    {
+      "poolPages": [
+        2
+      ],
+      "original": "au page 2 upper half (printed 29)",
+      "checked": "Both b subquestions, restitution r=v2/v1, speed definitions, sign convention delta v=v2-(-v1), and values 4.4 m/s, 0.6, 0.01 s match. Plain wording matches original; dated b2 omits der Geschwindigkeit.",
+      "result": "same mathematics; wording difference recorded"
+    },
+    {
+      "poolPages": [
+        3
+      ],
+      "original": "au page 2 lower half (printed 29)",
+      "checked": "Both c subquestions, original context, 2 percentage-point advantage over B, 10 over C, requested 50.94 percent comparison match. All p/m table rows match: (0.5,0.5),(0.51,0.6302),(0.55,0.9512),(0.6,0.9995),(0.7,1.000). Plain wording matches original. Dated version adds a match-specific premise and changes determiners.",
+      "result": "same mathematics; wording differences recorded"
+    },
+    {
+      "poolPages": [
+        4
+      ],
+      "original": "lo page 1 (printed 30) a/b; lo page 2 (printed 31) c",
+      "checked": "All six expected answers and working checked. Dated c2 descriptions change ein to das; mathematical steps and results unchanged.",
+      "result": "all six expected solutions agree"
+    },
+    {
+      "poolPages": [
+        5
+      ],
+      "original": "lo page 1 (printed 30) a/b; lo page 2 (printed 31) c",
+      "checked": "All six point assignments, all tolerances and all equivalent-expression/method-with-arithmetic-error acceptance rules checked. Both pool grading pages agree with each other; original a1 says Ausgleichspunkt while pool says Punkt.",
+      "result": "same numerical scoring and acceptance rules; exam-specific a1 point type differs"
+    }
+  ],
+  "versionDifferences": [
+    {
+      "location": "b2 premise; pool p2; au p2 printed 29",
+      "originalAndPlain": "Ein Tennisball trifft mit der Geschwindigkeit v₁ = 4,4 m/s lotrecht auf dem Boden auf.",
+      "dated": "Ein Tennisball trifft mit v₁ = 4,4 m/s lotrecht auf dem Boden auf.",
+      "effect": "word omission; unchanged data"
+    },
+    {
+      "location": "c premise before B advantage; pool p3; au p2 printed 29",
+      "originalAndPlain": "No additional sentence.",
+      "dated": "Für ein bestimmtes Fünf-Satz-Match gilt:",
+      "effect": "explicit scenario qualification; unchanged values"
+    },
+    {
+      "location": "c1 instruction; pool p3; au p2 printed 29",
+      "originalAndPlain": "dass Spieler A ein Fünf-Satz-Match gewinnt",
+      "dated": "dass Spieler A dieses Fünf-Satz-Match gewinnt",
+      "effect": "determiner change"
+    },
+    {
+      "location": "c2 instruction; pool p3; au p2 printed 29",
+      "originalAndPlain": "ein Fünf-Satz-Match gegen Gegenspieler C ... bei einem Fünf-Satz-Match gegen B",
+      "dated": "das Fünf-Satz-Match gegen Gegenspieler C ... beim Fünf-Satz-Match gegen B",
+      "effect": "determiner change"
+    },
+    {
+      "location": "c2 solution labels for both C and B; pool p4; lo p2 printed 31",
+      "originalAndPlain": "Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler ... gewinnt",
+      "dated": "Wahrscheinlichkeit, dass Spieler A das Fünf-Satz-Match gegen Spieler ... gewinnt",
+      "effect": "determiner change; both probabilities identical"
+    },
+    {
+      "location": "a1 instruction and grading; pool p1/p5; original au p1 printed 28 and lo p1 printed 30",
+      "original": "Boxed A in instruction; Ein Ausgleichspunkt für die richtige Lösung.",
+      "bothPoolVersions": "No boxed A; Ein Punkt für die richtige Lösung.",
+      "effect": "pool presentation drops original examination compensation-point designation; retain original scoring note"
+    }
+  ],
+  "answersAndScoring": [
+    {
+      "part": "a1",
+      "originalLoPage": 1,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "f prime = 0; x1=12.42..., x2=-7.66...; requested distance approximately 12.4 m",
+      "points": 1,
+      "tolerance": "[12.4 m; 12.5 m]",
+      "acceptance": "Correct approach accepted even if arithmetic error yields incorrect result. Original compensation point designation noted above."
+    },
+    {
+      "part": "a2",
+      "originalLoPage": 1,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "f=0; x1=21.597..., x2=-2.15..., x3=-12.30...; unique positive zero approx. 21.6 < court length 23.77, so ball lands in opponent field",
+      "points": 1,
+      "acceptance": "Correct computational justification required."
+    },
+    {
+      "part": "b1",
+      "originalLoPage": 1,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "delta v = r*v1 + v1",
+      "points": 1,
+      "acceptance": "Other equivalent forms of the solution accepted."
+    },
+    {
+      "part": "b2",
+      "originalLoPage": 1,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "delta v=4.4*(1+0.6)=7.04; a=7.04/0.01=704 m/s^2",
+      "points": 1,
+      "tolerance": "[700 m/s^2; 710 m/s^2]",
+      "acceptance": "Correct approach accepted even if arithmetic error yields incorrect result."
+    },
+    {
+      "part": "c1",
+      "originalLoPage": 2,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "0.6302-0.3698=0.2604; approximately 26 percentage points",
+      "points": 1,
+      "tolerance": "[26; 26.1]",
+      "acceptance": "Correct numerical solution."
+    },
+    {
+      "part": "c2",
+      "originalLoPage": 2,
+      "poolSolutionPage": 4,
+      "poolScoringPage": 5,
+      "solution": "C probability 0.9512; B probability 0.6302; ratio 1.50936... approximately 1.5094, hence approximately 50.94 percent higher",
+      "points": 1,
+      "acceptance": "Correct computational justification; correct approach accepted even if arithmetic error yields incorrect result."
+    }
+  ],
+  "incidentalBankObservations": [
+    {
+      "path": "parts[a1].answer; parts[b2].answer",
+      "finding": "Numeric-only answer objects cannot implement explicitly accepted correct-method solutions containing arithmetic errors. Current public solution notes preserve that original rule.",
+      "status": "fixed after explicit parent authorization"
+    },
+    {
+      "path": "parts[a2].prompt; parts[b2].prompt; parts[c2].prompt",
+      "finding": "a2 lacks shared function definition and a premise; b2 lacks shared r/speed/sign definitions; c2 lacks shared p/m table and B premise when subquestions are displayed independently.",
+      "status": "fixed after explicit parent authorization"
+    },
+    {
+      "path": "parts[c2].answer.rubric and scoring.criteria",
+      "finding": "Correct-method/arithmetic-error acceptance is in solution.note but not the current answer rubric/scoring description.",
+      "status": "fixed after explicit parent authorization"
+    }
+  ],
+  "bankFileAtReview": {
+    "path": "content/nebentermin2-2020/2020-nt2-t2-02.json",
+    "modifiedByThisReview": true,
+    "sha256Before": "11475a0c5b5ab0433bea258fc115d64de82280ddabdab4ed9fdfdf7f9cfe5576",
+    "sha256After": "8c120bbd1e0963a7cb6daed3f7c3925d91f82923112534e74040dfe3ce8ef6db"
+  },
+  "repairs": {
+    "authorization": "Parent explicitly lifted read-only restriction for confirmed Tennis defects and authorized schema3 open/rubric scoring plus dependent context restoration. Subsequently reported and corrected the newly confirmed wrong Tennis court PNG within the same exclusive question scope.",
+    "hashesAndSourceCrop": {
+      "beforeJsonSha256": "11475a0c5b5ab0433bea258fc115d64de82280ddabdab4ed9fdfdf7f9cfe5576",
+      "afterJsonSha256": "8c120bbd1e0963a7cb6daed3f7c3925d91f82923112534e74040dfe3ce8ef6db",
+      "asset": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-q.png",
+      "assetBeforeSha256": "4156683b1eac064e031b6cb3f594079d018241c42cff00551d93604d2f17bbb2",
+      "assetAfterSha256": "9d57738df15eb0c066b6aec3ad069e5fbb70c611daba1fd7f5da62e081d64699",
+      "source": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t2-2.pdf",
+      "sourcePage": 1,
+      "printedPage": 28,
+      "cropRectMediaPageTopLeftPoints": [
+        218,
+        252,
+        425,
+        362
+      ],
+      "renderScale": 4,
+      "imageDimensions": [
+        828,
+        440
+      ],
+      "contextCopies": {
+        "a2": {
+          "from": "parts[a1].prompt prefix before Geben Sie an",
+          "original": "au p1 printed 28 a shared premise"
+        },
+        "b2": {
+          "from": "parts[b1].prompt prefix before Geben Sie Δv",
+          "original": "au p2 printed 29 b shared premise"
+        },
+        "c2": {
+          "from": "parts[c1].prompt prefix before Geben Sie an, including p/m table and B condition",
+          "original": "au p2 printed 29 c shared premise"
+        }
+      }
+    },
+    "changes": [
+      {
+        "paths": [
+          "parts[a1].answer",
+          "parts[a1].scoring",
+          "parts[b2].answer",
+          "parts[b2].scoring"
+        ],
+        "before": "numeric answers only; narrow acceptance excludes officially accepted correct approach with arithmetic error",
+        "after": "open/ai rubrics contain complete original expected working, result, tolerance, and original grading note; rubric scoring awards one point under that original rule; original Ausgleichspunkt retained for a1"
+      },
+      {
+        "paths": [
+          "parts[a2].prompt",
+          "parts[b2].prompt",
+          "parts[c2].prompt"
+        ],
+        "before": "dependent subquestions lack original shared premises",
+        "after": "copy only original common premises, definitions and c table in their original order; exclude preceding subquestion instructions and expected answers"
+      },
+      {
+        "paths": [
+          "parts[a1].prompt",
+          "parts[b2].prompt"
+        ],
+        "before": "answer-line units supplied only by removed numeric blank metadata",
+        "after": "preserve original answer-line unit m or m/s² in visible prompt text"
+      },
+      {
+        "paths": [
+          "parts[c2].answer.rubric",
+          "parts[c2].scoring.criteria"
+        ],
+        "before": "method-correct arithmetic-error allowance exists only in public solution note",
+        "after": "full original grading note added to active rubric and scoring criterion"
+      },
+      {
+        "paths": [
+          "question.prompt[1]",
+          "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-q.png"
+        ],
+        "before": "court asset incorrectly contains another probability table; original Abbildung 1 label omitted",
+        "after": "restore Abbildung 1 text before figure and crop exact original court diagram from au p1 (printed 28); retain existing asset path; compare crop to both pool p1 diagrams and original source"
+      }
+    ],
+    "preserved": "All six original public solutions including original scoring notes, six individual one-point values, total six points, schemaVersion 3, all source/refs/format metadata; other assets unchanged.",
+    "visualReinspection": "Restored 828x440 court PNG viewed after saving. Entire field outline, 23.77 m arrow, 8.23 m arrow, net, both sidelines, Grundlinie/Netz/Seitenlinie labels and leader lines visible. No prompt/answer text incorporated in crop. Original c table PNG independently viewed and found correct.",
+    "validation": {
+      "questionCount": 1,
+      "partCount": 6,
+      "mathNodes": 21,
+      "schemaPass": true,
+      "unchangedOriginalSolutionCount": 6,
+      "totalPoints": 6,
+      "sharedPremisesVerified": 3,
+      "methodErrorRubricsVerified": [
+        "a1",
+        "b2",
+        "c2"
+      ],
+      "metadataUntouched": true
+    }
+  },
+  "assetsReviewed": [
+    {
+      "path": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-q.png",
+      "sha256After": "9d57738df15eb0c066b6aec3ad069e5fbb70c611daba1fd7f5da62e081d64699",
+      "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t2-2.pdf",
+      "sourcePage": 1,
+      "originalPrintedPage": 28,
+      "poolPage": 1,
+      "visuallyReviewed": true,
+      "finding": "Court diagram before Aufgabenstellung; restored correct figure and complete labels."
+    },
+    {
+      "path": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-c-tab.png",
+      "sha256After": "9bd90380278004ffe0e1791b64c38b50a19f878d76266061a656f78dd7b62ee1",
+      "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t2-2.pdf",
+      "sourcePage": 2,
+      "originalPrintedPage": 29,
+      "poolPage": 3,
+      "visuallyReviewed": true,
+      "finding": "p/m table inside c shared premise, placed before B advantage; repeated as necessary in c2 shared context."
+    }
+  ]
+}

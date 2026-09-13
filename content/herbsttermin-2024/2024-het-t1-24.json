@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1387a",
+          "id": "1_1387",
           "baseId": "1_1387",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/943/1_1387_srdp_ma_Experiment_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,14 +67,26 @@
         }
       ],
       "answer": {
-        "kind": "expression",
-        "canonical": "b^n + combinations(n,1)*a*b^(n-1) + combinations(n,2)*a^2*b^(n-2)",
-        "vars": [
-          "a",
-          "b",
-          "n"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P_1 = b^n + \\binom{n}{1} \\cdot a \\cdot b^{\\,n-1} + \\binom{n}{2} \\cdot a^2 \\cdot b^{\\,n-2}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben des richtigen Terms."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",

@@ -119,6 +119,35 @@ test('validator rejects a schema symlink before executing it', async (t) => {
   assert.equal(fs.existsSync(marker), false);
 });
 
+test('2019 legacy papers retain their original numbers without colliding with regular papers', async (t) => {
+  const root = fixture();
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  const original = JSON.parse(fs.readFileSync(path.join(root, 'content/haupttermin-2024/2024-ht-t1-01.json'), 'utf8'));
+  for (const [term, idTerm, suite, code, nr] of [
+    ['haupttermin', 'ht', 'haupttermin', 'h1', 2],
+    ['haupttermin', 'ht', 'haupttermin', 'h1', 3],
+    ['haupttermin', 'ht', 'haupttermin', 'h1', 4],
+    ['nebentermin-1', 'nt1', 'nebentermin1', 'n1', 2],
+    ['nebentermin-1', 'nt1', 'nebentermin1', 'n1', 3],
+  ]) {
+    const q = structuredClone(original);
+    q.id = `2019-${idTerm}-alt-t2-0${nr}`;
+    q.source = { suite: `${suite}-2019-erstantritt-vor-mai-2018`, year: 2019, term, part: 't2', nr, file: `[2019${code}-alt]t2-${nr}.pdf` };
+    q.assets.questionPdf = `assets/pdf/${q.source.suite}/${q.source.file}`;
+    q.parts[0].id = `${q.id}-a`;
+    const directory = path.join(root, 'content', q.source.suite);
+    fs.mkdirSync(directory, { recursive: true });
+    fs.writeFileSync(path.join(directory, `${q.id}.json`), JSON.stringify(q));
+  }
+  assert.equal((await validateBank(root, { checkManifest: false })).questionCount, 6);
+  const legacyFile = path.join(root, 'content/haupttermin-2019-erstantritt-vor-mai-2018/2019-ht-alt-t2-02.json');
+  const wrongEdition = JSON.parse(fs.readFileSync(legacyFile, 'utf8'));
+  wrongEdition.source.file = '[2019h1]t2-2.pdf';
+  fs.writeFileSync(legacyFile, JSON.stringify(wrongEdition));
+  await assert.rejects(() => validateBank(root, { checkManifest: false }), (error) =>
+    error instanceof BankValidationError && error.issues.some((issue) => issue.includes('source.file does not agree')));
+});
+
 test('validator rejects symbolic content roots and traversal entries', async (t) => {
   const root = fixture();
   const externalRoot = `${root}-external-content`;

@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-12",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1602a",
+          "id": "1_1602",
           "baseId": "1_1602",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1122/1_1602_Bakterienpopulation_PT1_26.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,13 +69,16 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.98,
-            "tol": 0.1,
-            "unit": "%"
+            "t": "math",
+            "v": "1{,}8^{\\frac{1}{60}}-1=\\sqrt[60]{1{,}8}-1=0{,}0098\\ldots=0{,}98\\ldots\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "Die Anzahl der Bakterien erhöht sich pro Minute um rund 1 %. Ein Punkt für das richtige Berechnen des Prozentsatzes. Die berechnete prozentuelle Erhöhung und angemessen gerundete Angaben wie 0,98 % oder rund 1 % sind richtig; ein bloßer Dezimalwert muss als relativer Zuwachs erkennbar sein."
           }
         ]
       },

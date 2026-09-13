@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,228 @@
     {
       "id": "2015-nt2-t1-01-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (3 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_397 (offiziell adaptierte Fassung)",
+          "baseId": "1_397",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/105/ZahlenDenZahlenmengenZuordnen.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen über "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{-4}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "0{,}\\dot9"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "text",
+              "v": " sind richtig."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl "
+            },
+            {
+              "t": "math",
+              "v": "-\\frac13"
+            },
+            {
+              "t": "text",
+              "v": " liegt in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb Z"
+            },
+            {
+              "t": "text",
+              "v": ", aber nicht in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb N"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{-4}"
+            },
+            {
+              "t": "text",
+              "v": " liegt in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb C"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl "
+            },
+            {
+              "t": "math",
+              "v": "0{,}\\dot9"
+            },
+            {
+              "t": "text",
+              "v": " liegt in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb Q"
+            },
+            {
+              "t": "text",
+              "v": " und in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl "
+            },
+            {
+              "t": "math",
+              "v": "\\pi"
+            },
+            {
+              "t": "text",
+              "v": " liegt in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Zahl "
+            },
+            {
+              "t": "math",
+              "v": "-\\sqrt7"
+            },
+            {
+              "t": "text",
+              "v": " liegt nicht in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=5",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_397 (offiziell adaptierte Fassung)",
+      "baseId": "1_397",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/105/ZahlenDenZahlenmengenZuordnen.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind Aussagen zu Zahlen."
+    }
+  ]
 }

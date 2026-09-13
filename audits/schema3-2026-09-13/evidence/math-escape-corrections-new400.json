@@ -1,0 +1,1462 @@
+{
+  "scope": "Only the 400 newly converted records: source years 2014–2018 and the 5 legacy 2019 variants. Existing 644 records and schema/format/reference metadata are outside this correction.",
+  "reviewedAt": "2026-09-13",
+  "initialScan": {
+    "questions": 400,
+    "mathNodes": 5673,
+    "counts": {},
+    "findings": []
+  },
+  "summary": {
+    "questionsWithPrimeCorrections": 20,
+    "mathNodesCorrected": 67,
+    "controlCharacterCorrectionsByThisAgent": 0
+  },
+  "records": [
+    {
+      "id": "2017-ht-t1-16",
+      "file": "content/haupttermin-2017/2017-ht-t1-16.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/2",
+          "before": "g(t)=f\\prime(t)",
+          "after": "g(t)=f'(t)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/rubric/2",
+          "before": "g(t)=f\\prime(t)",
+          "after": "g(t)=f'(t)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt1-16-an.pdf",
+          "sha256": "e652819232f569733490734b49768faffaa8aa80c677ef34ee4eceb79a5a8456",
+          "evidence": []
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt1-16-an.pdf",
+          "sha256": "ad62cac1619c854c525d2b1ed71c2919af262f6d133576bbe1900034541a6b15",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "oder:\ng(t) = f′(t)\nLösungsschlüssel:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt1-16-an.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          195.10389999999995,
+          343.65520000000004,
+          254.60389999999995
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "04ef9a43cf7a15e0a3c14d5db4255ee8a46a634e3df23aa1d3fa1036d9e0cf96",
+      "jsonSha256After": "05cc0ab42213d7e89c2f0f60509d2beb768cc8dde8a9e2d39d8ce2f808050ee7"
+    },
+    {
+      "id": "2017-ht-t1-17",
+      "file": "content/haupttermin-2017/2017-ht-t1-17.json",
+      "changes": [
+        {
+          "path": "/parts/0/prompt/1",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt1-17-an.pdf",
+          "sha256": "f074dca40f7d7dd3ca63b1ce0a8e35500993c0bfe2503d0a870c9d3e92cc7db1",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabenstellung:\nSkizzieren Sie in der gegebenen Grafik den Graphen der Ableitungsfunktion f′ im Intervall [x ; x ]\n1 2"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt1-17-an.pdf",
+          "sha256": "980149b86af111aa62b77089897013a784901d00fc456db1ea6f0598d4889ce1",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "f\nf′\nx\nLösungsschlüssel:\nEin Punkt für eine korrekte Darstellung der Ableitungsfunktion f′. Der Graph der Funktion f′ muss\nerkennbar die Form einer nach oben offenen Parabel haben und die x-Achse an den beiden Stel-\nlen schneiden, bei denen die Funktion f die Extremstellen hat. Der Graph einer entsprechenden\nFunktion f′, der über das Intervall [x ; x ] hinaus gezeichnet ist, ist ebenfalls als richtig zu werten.\n1 2"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt1-17-an.pdf",
+        "page": 1,
+        "bbox": [
+          265.0774,
+          457.10839999999996,
+          595.276,
+          516.6084
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "7e06d0169a9a81315dcb18fa84bd582988cee19f52b0aefabf19c5128d54a77b",
+      "jsonSha256After": "a22130efbca7b2ee234c9536b0759c284f32a681fa30d60f45e87d5d7c3208f8"
+    },
+    {
+      "id": "2017-ht-t2-01",
+      "file": "content/haupttermin-2017/2017-ht-t2-01.json",
+      "changes": [
+        {
+          "path": "/parts/4/prompt/9",
+          "before": "h\\prime(k)=0",
+          "after": "h'(k)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/prompt/7",
+          "before": "h\\prime(k)=0",
+          "after": "h'(k)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/answer/rubric/2",
+          "before": "h\\prime(x)=2\\cdot x-2\\cdot k",
+          "after": "h'(x)=2\\cdot x-2\\cdot k",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/answer/rubric/4",
+          "before": "h\\prime(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h\\prime(k)=0",
+          "after": "h'(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h'(k)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/solution/0/result/2",
+          "before": "h\\prime(x)=2\\cdot x-2\\cdot k",
+          "after": "h'(x)=2\\cdot x-2\\cdot k",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/solution/0/result/4",
+          "before": "h\\prime(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h\\prime(k)=0",
+          "after": "h'(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h'(k)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-1.pdf",
+          "sha256": "9a6ca2a005e289da4e2f5965e4ad25853e09d38697d387fca4cdd8f22f0ce177",
+          "evidence": [
+            {
+              "page": 2,
+              "textEvidence": "c) Für eine Stelle k (k ∈ ℝ) des Graphen einer quadratischen Funktion h gelten die Bedingungen\nh(k) = 0 und h′(k) = 0.\nA Skizzieren Sie einen möglichen Verlauf des Graphen von h und kennzeichnen Sie die\nZeigen Sie rechnerisch, dass eine Funktion h mit der Funktionsgleichung\nh(x) = x2 – 2 · k · x + k2 die Bedingungen h(k) = 0 und h′(k) = 0 erfüllt!\n7"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt2-1.pdf",
+          "sha256": "375e1561b9a9f6297d82bef91e7ac387efb1ea2003f0125b21294df3ec23fb4d",
+          "evidence": [
+            {
+              "page": 2,
+              "textEvidence": "h(k) = k2 – 2 ∙ k2 + k2 = 0 ⇒ h(k) = 0\nh′(x) = 2 ∙ x – 2 ∙ k\nh′(k) = 2 ∙ k – 2 ∙ k = 0 ⇒ h′(k) = 0\nLösungsschlüssel:\nGraph von h muss die Form einer nach oben oder unten offenen Parabel haben und an der\ngekennzeichneten Stelle von k müssen die Nullstelle und (somit) die Extremstelle der Funkti-\non h klar erkennbar sein, die Symmetrie bezüglich der Geraden x = k muss erkennbar sein."
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-1.pdf",
+        "page": 2,
+        "bbox": [
+          0,
+          103.86019999999985,
+          403.5377,
+          163.36019999999985
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "fe14c89a3f8befe25c0ee2e894446e9953c5a0570d4e5eb828d935850c4d4a6a",
+      "jsonSha256After": "9d5a8296f3e95964c1964d8bd1431902cbc2e0afd1d4415f59ed35768dd71aab"
+    },
+    {
+      "id": "2017-ht-t2-02",
+      "file": "content/haupttermin-2017/2017-ht-t2-02.json",
+      "changes": [
+        {
+          "path": "/parts/3/prompt/29",
+          "before": "P\\prime(v_1)=0",
+          "after": "P'(v_1)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-2.pdf",
+          "sha256": "75888ed558a4196e49ea8b1c293ac882be94163dfc63a0e273947adf60176a63",
+          "evidence": [
+            {
+              "page": 2,
+              "textEvidence": "1\nkontraktion, für den P′(v ) = 0 gilt!"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt2-2.pdf",
+          "sha256": "6031d9a99f7afa36226ac1037f1b61dc7b7711c9bcd764fa0cf0efd0ceb962ed",
+          "evidence": []
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-2.pdf",
+        "page": 2,
+        "bbox": [
+          15.299900000000008,
+          653.0663,
+          439.03740000000005,
+          712.5663
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "5cb1904eafa63fd7e7c74278d2d4bd53ff76568f74bb7c5b610c4306fc1f4f03",
+      "jsonSha256After": "e4ebe273c658eaecd7551de900941a6db730045a6f459672420890d9a697163b"
+    },
+    {
+      "id": "2017-ht-t2-03",
+      "file": "content/haupttermin-2017/2017-ht-t2-03.json",
+      "changes": [
+        {
+          "path": "/parts/5/prompt/6",
+          "before": "\\int_0^{t_1}f_3\\prime(t)\\,dt",
+          "after": "\\int_0^{t_1}f_3'(t)\\,dt",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/answer/rubric/0",
+          "before": "\\int_0^{t_1}f_3\\prime(t)\\,dt\\approx-300",
+          "after": "\\int_0^{t_1}f_3'(t)\\,dt\\approx-300",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/solution/0/result/0",
+          "before": "\\int_0^{t_1}f_3\\prime(t)\\,dt\\approx-300",
+          "after": "\\int_0^{t_1}f_3'(t)\\,dt\\approx-300",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/7/answer/rubric/1",
+          "before": "f_3\\prime",
+          "after": "f_3'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/7/solution/0/result/1",
+          "before": "f_3\\prime",
+          "after": "f_3'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/prompt/5",
+          "before": "f_3\\prime",
+          "after": "f_3'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-3.pdf",
+          "sha256": "b4c186cd1bb2177495bb4b566fdda54d8e5c4f835bc317d7808281997bc75195",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Waldbestand der Tropen entsprechend den oben angeführten Szenarien 1 und 3 beschreiben.\nDie nachstehende Abbildung 2 zeigt den Graphen der Ableitungsfunktion f ′ der in der Abbil-\n3\n400\nf ′\n300 3"
+            },
+            {
+              "page": 2,
+              "textEvidence": "t\nBestimmen Sie näherungsweise den Wert des Integrals ∫1f ′(t)dt durch Ablesen aus den\n3"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dhaupttermin-2017/%5B2017h1%5Dt2-3.pdf",
+          "sha256": "27c066619bb79f542b53c0f82d9b176dc914183cf4aa5cbbc152509d930e3589",
+          "evidence": [
+            {
+              "page": 2,
+              "textEvidence": "t\n∫1f ′(t)dt ≈ –300 (bzw. –300 000 000)\n3\nMögliche Begründung:\nDer Betrag der Steigung der Funktion f ′ ist im Zeitraum 2000 bis 2012 deutlich größer als"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dhaupttermin-2017/%5B2017h1%5Dt2-3.pdf",
+        "page": 1,
+        "bbox": [
+          256.7629,
+          361.1049,
+          595.276,
+          420.6049
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "7d65766b741c0b86384c94228c85b9992820941ba49710b973c4a308b1efd91a",
+      "jsonSha256After": "3b3bde6dd40b85559e595fa99ff8a02e0b6894fde4be3efc58cead2145dbed51"
+    },
+    {
+      "id": "2015-nt1-t1-07",
+      "file": "content/nebentermin1-2015/2015-nt1-t1-07.json",
+      "changes": [
+        {
+          "path": "/parts/0/answer/rubric/1",
+          "before": "s\\prime(0)=s\\prime(10)=0",
+          "after": "s'(0)=s'(10)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-7-an.pdf",
+          "sha256": "838b96c04e22f1144cec188f7e4fa5a2f4094aff24d3c213f44f638b06b2863a",
+          "evidence": []
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt1-7-an.pdf",
+          "sha256": "63fdd18a79bed22ae29436bafb74b60900c1f285592632089eb8f1c1662754f3",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "• der Graph verläuft durch die in der Tabelle angegebenen Punkte\n• s′(0) = s′(10) = 0\n• linksgekrümmt in [0; 3), rechtsgekrümmt in (6; 10] und linearer Verlauf in [3; 6]\n8"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt1-7-an.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          511.10490000000004,
+          326.9389,
+          570.6049
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "31e8f27425d8275cf7047d886989410ace834e10c1ed1d9a07e6d6a545033ef7",
+      "jsonSha256After": "c5643384026678e86e2809b25d18a22324d3e64f4fb91c79a73b4f26c408c3af"
+    },
+    {
+      "id": "2015-nt1-t1-13",
+      "file": "content/nebentermin1-2015/2015-nt1-t1-13.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/0",
+          "before": "f\\prime(x_1)=0",
+          "after": "f'(x_1)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/solution/0/result/2",
+          "before": "\\dfrac{f(x_3)-f(x_1)}{x_3-x_1}=f\\prime(x_2)",
+          "after": "\\dfrac{f(x_3)-f(x_1)}{x_3-x_1}=f'(x_2)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/0/0",
+          "before": "f\\prime(x_0)=f\\prime(x_3)",
+          "after": "f'(x_0)=f'(x_3)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/1/0",
+          "before": "f\\prime(x_1)=0",
+          "after": "f'(x_1)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/2/0",
+          "before": "\\dfrac{f(x_3)-f(x_1)}{x_3-x_1}=f\\prime(x_2)",
+          "after": "\\dfrac{f(x_3)-f(x_1)}{x_3-x_1}=f'(x_2)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/3/0",
+          "before": "f\\prime(x_0)=0",
+          "after": "f'(x_0)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-13-an.pdf",
+          "sha256": "bcb5e8d78c5a5a5ffb4ec7238f24d419fc3f2022edcd3c7be595d0b44a70b901",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Gegeben ist eine Polynomfunktion f zweiten Grades. In der nachstehenden Abbildung sind der\nGraph dieser Funktion im Intervall [0; x ] sowie eine Sekante s und eine Tangente t dargestellt.\n3\nDie Stellen x und x sind Nullstellen, x ist eine lokale Extremstelle von f.\n0 3 1\nWeiters ist die Tangente t im Punkt (x |f(x )) parallel zur eingezeichneten Sekante s.\n2 2\nKreuzen Sie die beiden zutreffenden Aussagen an!\nf′(x\n0\n) = f′(x\n)\n1\n– x\n1 = f′(x\n2\n3 1"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt1-13-an.pdf",
+          "sha256": "c15a197cb9f19fb49c7826083f1a05900d98210710b934dacb4c17c1c6a8f403",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Lösungserwartung:\nf′(x\n1\n– x\n1 = f′(x\n2"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-13-an.pdf",
+        "page": 1,
+        "bbox": [
+          47.68430000000001,
+          529.2835,
+          471.4218,
+          588.7835
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "143eebbb498f44d9c5c3ee5f7114cb651c3ead5cc006e7d4636cc881e7267dd2",
+      "jsonSha256After": "c5e3cfcbebdcd0b052ff5b888e626038dd1fa10f1f486b655f88233bbfb21cfd"
+    },
+    {
+      "id": "2015-nt1-t1-14",
+      "file": "content/nebentermin1-2015/2015-nt1-t1-14.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/0",
+          "before": "f\\prime(x)=-5\\cdot\\sin(x)+3\\cdot\\cos(3\\cdot x)",
+          "after": "f'(x)=-5\\cdot\\sin(x)+3\\cdot\\cos(3\\cdot x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/prompt/1",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-14-an.pdf",
+          "sha256": "84149494540921dda3743dc1a856e6770febbbf8504a61248392818824996774",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 14\nAbleitung einer Winkelfunktion\nEine Gleichung einer Funktion f lautet:\nAufgabenstellung:\nGeben Sie eine Gleichung der Ableitungsfunktion f′ der Funktion f an!\n18"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt1-14-an.pdf",
+          "sha256": "aec211dfe4f8dde6657f238fb6c5fc9e5fa69084d59faaa6fa608a30623fe942",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 14\nAbleitung einer Winkelfunktion\nLösungserwartung:\nf′(x) = –5·sin(x) + 3 · cos(3·x)\nLösungsschlüssel:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-14-an.pdf",
+        "page": 1,
+        "bbox": [
+          136.03590000000003,
+          206.11289999999997,
+          559.7734,
+          265.61289999999997
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "558bd465451f138960e281808047c348e19ec26efaa880a6019ff98b6f050dbf",
+      "jsonSha256After": "f1074715bd2f1406ba83c8aedc28026f2a5bda0a8819a0308700083aaaf5d1b2"
+    },
+    {
+      "id": "2015-nt1-t1-16",
+      "file": "content/nebentermin1-2015/2015-nt1-t1-16.json",
+      "changes": [
+        {
+          "path": "/prompt/1",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/prompt/5",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-16-an.pdf",
+          "sha256": "bb2c21235808d94f557e42c7b81c4b09914a6e483a601cbe5fa6996716caf409",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 16\nGraph einer Ableitungsfunktion\nDie nachstehende Abbildung zeigt den Graphen der Ableitungsfunktion f′ einer Funktion f.\nDie Funktion f′ ist eine Polynomfunktion zweiten Grades.\nf'(x)\n5\nf'\n4\nDie Funktion f hat an der Stelle x = 0 eine Wendestelle.\nDie Funktion f ist im Intervall [–4; 4] links gekrümmt.\n20"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt1-16-an.pdf",
+          "sha256": "84a6e3d8b662d7ad73aa4a538aab55d38b72779f09742e2a5d5b31b1a37953e4",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 16\nGraph einer Ableitungsfunktion\nLösungserwartung:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt1-16-an.pdf",
+        "page": 1,
+        "bbox": [
+          244.84890000000001,
+          121.10489999999993,
+          595.276,
+          180.60489999999993
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "756ef0909bdc990ab42d208a44bc4263661491732fd36360af5286b0f5ba99dd",
+      "jsonSha256After": "b207753df61c343d403e0232104ea1bc273faf18663a98c5968b953809bcc089"
+    },
+    {
+      "id": "2015-nt1-t2-01",
+      "file": "content/nebentermin1-2015/2015-nt1-t2-01.json",
+      "changes": [
+        {
+          "path": "/parts/1/solution/0/result/0",
+          "before": "f\\prime(-1)=2\\cdot(-1)+10=8",
+          "after": "f'(-1)=2\\cdot(-1)+10=8",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/2/solution/0/result/0",
+          "before": "f\\prime(x)=2\\cdot x+b\\Rightarrow2\\cdot x_{\\mathrm E}+b=0",
+          "after": "f'(x)=2\\cdot x+b\\Rightarrow2\\cdot x_{\\mathrm E}+b=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/7/answer/rubric/1",
+          "before": "d=f(2)-2f\\prime(2)=2b+20-2(4+b)=12",
+          "after": "d=f(2)-2f'(2)=2b+20-2(4+b)=12",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/7/solution/0/result/1",
+          "before": "f(2)=f\\prime(2)\\cdot2+d",
+          "after": "f(2)=f'(2)\\cdot2+d",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt2-1.pdf",
+          "sha256": "51946d108d3283b94f4138b2077666ad52b9ea86e9dfa1efbf592a20763c70c6",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "A Bestimmen Sie den Parameter b dieser Funktion f!\nGeben Sie die Steigung dieser Funktion f an der Stelle x = –1 an!\nb) Geben Sie an, welcher allgemeine Zusammenhang zwischen der Extremstelle x einer solchen\nE\nDrücken Sie den Funktionswert f(2) in Abhängigkeit vom Parameter b aus!\nDie Tangente im Punkt Q an den Graphen der Funktion f schneidet die senkrechte Achse in\neinem Punkt R. Zeigen Sie mittels einer Rechnung, dass die Lage dieses Punktes R von der"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-1.pdf",
+          "sha256": "46435c8eb924c37df8c1262cd2d2621827ac855dcd4ebefa90c85f814e4cd674",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "b = 10\nf′(–1) = 2 · (–1) + 10 = 8\nLösungsschlüssel:\n– E in Ausgleichspunkt für die korrekte Angabe des Parameters b.\n– E in Punkt für die korrekte Angabe der Steigung der Funktion f an der Stelle x = –1.\nb) Lösungserwartung:\nf′(x) = 2 · x + b ⇒ 2 · x + b = 0\nE"
+            },
+            {
+              "page": 2,
+              "textEvidence": "f(2) = 22 + 2 · b + 16 = 2 · b + 20\nDie Lage der Tangente ergibt sich aus f(2) = f′(2) · 2 + d.\nDaraus folgt: 2 · b + 20 = (4 + b) · 2 + d und daraus d = 12, daher ist die Lage des Punktes R"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-1.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          183.10039999999992,
+          332.32269999999994,
+          242.60039999999992
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "5ce551246ac33d057b903a635a11d08911f7a58d9cf14a06d10b09f5aadce209",
+      "jsonSha256After": "14a4836da0199d58e5d607158f44b24964d2e179c450d2000d5f4199a0f38bee"
+    },
+    {
+      "id": "2015-nt1-t2-02",
+      "file": "content/nebentermin1-2015/2015-nt1-t2-02.json",
+      "changes": [
+        {
+          "path": "/parts/2/solution/0/result/2",
+          "before": "P\\prime(M)=2{,}48737004\\cdot(M-75)^{0{,}348}",
+          "after": "P'(M)=2{,}48737004\\cdot(M-75)^{0{,}348}",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/2/solution/0/result/4",
+          "before": "P\\prime(209)\\approx13{,}68",
+          "after": "P'(209)\\approx13{,}68",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt2-2.pdf",
+          "sha256": "f22f0f0673e32a842ca12a36473e98cdd4d6b473ab50edf1fa9d92d5dd8bc0e4",
+          "evidence": [
+            {
+              "page": 2,
+              "textEvidence": "die Abhängigkeit der Punktezahl P(M) von der Leistung M bei Hochsprungleistungen.\nBerechnen Sie die Steigung der Tangente an die Funktion P bei dieser Weltrekordhöhe im\nHochsprung!\nInterpretieren Sie den Wert der Steigung im gegebenen Kontext!\n7"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-2.pdf",
+          "sha256": "0de7ac2d0ac0a0f939aa437461f91866d3b50b9e601c571726a04eb6942f1789",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "P(M) = 1,84523 ∙ (M – 75)1,348\nP′(M) = 2,48737004 ∙ (M – 75)0,348\nP′(209) ≈ 13,68\nDer Wert der Steigung dieser Tangente gibt näherungsweise an, um wie viel sich die Punkte-\nzahl bei dieser Leistung pro Zentimeter Sprunghöhenänderung verändert."
+            },
+            {
+              "page": 2,
+              "textEvidence": "mittlere Änderungsrate zwischen M = 150 und M = 200: –9,82 Punkte pro Sekunde\nDa die Funktion linksgekrümmt ist, sind die Änderungsraten bei kürzeren Laufzeiten (betrags-\nmäßig) größer als bei längeren Laufzeiten."
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-2.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          376.10089999999997,
+          336.01919999999996,
+          435.60089999999997
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "a61a52ad1ae03b25a66eb66ba1b015496dd151ac9f8b48b62ac9445fae035c08",
+      "jsonSha256After": "cb61338685d5d639b01e29961b298b2a91310930d243780cfdbd315c27d23be8"
+    },
+    {
+      "id": "2015-nt1-t2-03",
+      "file": "content/nebentermin1-2015/2015-nt1-t2-03.json",
+      "changes": [
+        {
+          "path": "/parts/1/answer/rubric/0",
+          "before": "f\\prime\\prime(x)=4{,}8\\cdot10^{-6}x^2+4\\cdot10^{-3}>0",
+          "after": "f''(x)=4{,}8\\cdot10^{-6}x^2+4\\cdot10^{-3}>0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/2",
+          "before": "f\\prime(x)=1{,}6\\cdot10^{-6}\\cdot x^3+4\\cdot10^{-3}\\cdot x+4\\cdot10^{-1}",
+          "after": "f'(x)=1{,}6\\cdot10^{-6}\\cdot x^3+4\\cdot10^{-3}\\cdot x+4\\cdot10^{-1}",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/4",
+          "before": "f\\prime\\prime(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}",
+          "after": "f''(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/8",
+          "before": "f\\prime\\prime(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}>0",
+          "after": "f''(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}>0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2015/%5B2015n1%5Dt2-3.pdf",
+          "sha256": "1494b0444e1a0ddc8dce1bd301e418531f83d7facfe45deba60c111c83d54f3d",
+          "evidence": []
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-3.pdf",
+          "sha256": "82d1739ebe442b4a70c9ad44a7a18471d49b8a228bd5d4bbbd215a82892fa28a",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "f(x) = 4 · 10–7 · x4 + 2 · 10–3 · x2 + 4 · 10–1 · x\nf′(x) = 1,6 · 10–6 · x3 + 4 · 10–3 · x + 4 · 10–1\nf″(x) = 4,8 · 10–6 · x2 + 4 · 10–3\nDie Funktion f ist linksgekrümmt, weil: f″(x) = 4,8 · 10–6 · x2 + 4 · 10–3 > 0 für alle x ∈ [0; 100].\nLösungsschlüssel:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2015/%5B2015n1%5Dt2-3.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          221.1008999999999,
+          332.5626,
+          280.6008999999999
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "1139895a7bd7fb831c143320ceb5ceaa8920a05010d2e4c892613ff431960eb8",
+      "jsonSha256After": "dbe77e2f8bb6921d8c66195d2ea15c75d3b628a3b61a44a15ef6ca677bc1ad76"
+    },
+    {
+      "id": "2017-nt1-t1-15",
+      "file": "content/nebentermin1-2017/2017-nt1-t1-15.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/0",
+          "before": "f\\prime(x)=g(x)",
+          "after": "f'(x)=g(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/0/0",
+          "before": "a\\cdot f\\prime(x)=g(x)",
+          "after": "a\\cdot f'(x)=g(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/1/0",
+          "before": "g\\prime(x)=f(x)",
+          "after": "g'(x)=f(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/2/0",
+          "before": "a\\cdot g(x)=f\\prime(x)",
+          "after": "a\\cdot g(x)=f'(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/3/0",
+          "before": "f(x)=a\\cdot g\\prime(x)",
+          "after": "f(x)=a\\cdot g'(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/4/0",
+          "before": "f\\prime(x)=g(x)",
+          "after": "f'(x)=g(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/5/0",
+          "before": "g\\prime(x)=a\\cdot f(x)",
+          "after": "g'(x)=a\\cdot f(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-15-an.pdf",
+          "sha256": "5ff415f3081b1b760bae548a95eb1f36a1e73a9a795dc4c7e56f321dac60a2c2",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabenstellung:\nWelche Beziehung besteht zwischen den Funktionen f und g und deren Ableitungsfunktionen?\nKreuzen Sie diejenige Gleichung an, die für alle a ∈ ℝ gilt!\na · f′(x) = g(x)\ng′(x) = f(x)\na · g(x) = f′(x)\nf(x) = a · g′(x)\nf′(x) = g(x)\ng′(x) = a · f(x)\n19"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt1-15-an.pdf",
+          "sha256": "3c6d61dbd8b3551e448fcdf88cd1fea1d0e474bfcfad7a00c0506ca9998ca6a6",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Lösungserwartung:\nf′(x) = g(x)\nLösungsschlüssel:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-15-an.pdf",
+        "page": 1,
+        "bbox": [
+          76.28320000000002,
+          235.69229999999993,
+          500.02070000000003,
+          295.19229999999993
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "c9f94ae78c2b83614c4d5d2bf628ed009748e07800cd9f7181dbf8afbf2c6348",
+      "jsonSha256After": "77ef43d7c3c67572e7f08d6199a09543e44cb920aaa84c095f74990d4c75a3ed"
+    },
+    {
+      "id": "2017-nt1-t1-16",
+      "file": "content/nebentermin1-2017/2017-nt1-t1-16.json",
+      "changes": [
+        {
+          "path": "/prompt/9",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-16-an.pdf",
+          "sha256": "558dec117f8f4c1386e79c4288c8cb663b9d8814792558039ec1ccbb2b98a143",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Gegeben ist eine Funktion f mit f(x) = ℯλ · x mit λ ∈ ℝ.\nDie nachstehende Abbildung zeigt die Graphen der Funktion f und ihrer Ableitungsfunktion f′.\nf(x), f′(x)\n2\n0\nf′\n–1"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt1-16-an.pdf",
+          "sha256": "2aa4ef3d3b66741baf7d777521ea40d8a956daedc783a6ac79f6b46c8f4c5175",
+          "evidence": []
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-16-an.pdf",
+        "page": 1,
+        "bbox": [
+          338.50909999999993,
+          136.1008999999999,
+          595.276,
+          195.6008999999999
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "8496a1adab4346ecc138e925bba715c78a82eda10c02aa79bf87da20d81417b8",
+      "jsonSha256After": "9819f2fd9f3c9a5593a6e1c54bb2225457562cd384243e4ab39a9f940f3a9c34"
+    },
+    {
+      "id": "2017-nt1-t1-17",
+      "file": "content/nebentermin1-2017/2017-nt1-t1-17.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/1",
+          "before": "s\\prime\\prime",
+          "after": "s''",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/1/1",
+          "before": "s\\prime",
+          "after": "s'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/2/1",
+          "before": "s\\prime\\prime",
+          "after": "s''",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-17-an.pdf",
+          "sha256": "e839976e17d5b476e285d0276180cb622f8a19f7d86f2e859f5b3873a8332e3b",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Die Geschwindigkeit des Autos wird immer größer.\nDie Funktionswerte von s′ sind negativ.\nDie Funktionswerte von s″ sind negativ.\nDer Wert des Differenzenquotienten von s im Beobachtungs-"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt1-17-an.pdf",
+          "sha256": "60c52c5b299399f93e741070aeafc19a1435c71287fc977d35ad5eaf4550c77e",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Lösungserwartung:\nDie Funktionswerte von s″ sind negativ.\nDer Wert des Differenzialquotienten von s wird immer kleiner."
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt1-17-an.pdf",
+        "page": 1,
+        "bbox": [
+          84.08839999999998,
+          280.2982999999999,
+          507.8259,
+          339.7982999999999
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "36620e7d2661a0cc50355344378f5929827ce7c9ad28cbb8a396694cbc7f9d85",
+      "jsonSha256After": "8d7b7aad88ab599b9edec1bafd5f5314606093623bc1bf7f7440f11139b14ea4"
+    },
+    {
+      "id": "2017-nt1-t2-01",
+      "file": "content/nebentermin1-2017/2017-nt1-t2-01.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/1",
+          "before": "A(t)=|N\\prime(t)|=\\lambda\\cdot N_0\\cdot e^{-\\lambda\\cdot t}",
+          "after": "A(t)=|N'(t)|=\\lambda\\cdot N_0\\cdot e^{-\\lambda\\cdot t}",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt2-1.pdf",
+          "sha256": "2d774b7e6c504119bed324183792ffb360cc32901f9c74148fe84f1a12b2b465",
+          "evidence": []
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt2-1.pdf",
+          "sha256": "62341d32b0640a556c48b196513c9a255ae1f16247d76bb9180bb21a5e950d91",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Mögliche Vorgehensweise:\nA(t) = |N′(t)| = λ ∙ N ∙ ℯ–λ ∙ t\n0"
+            },
+            {
+              "page": 2,
+              "textEvidence": "der Funktion N und der Zeitachse liegen und als Graph einer (streng) monoton fallenden\nlinksgekrümmten Funktion erkennbar sein.\n3"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt2-1.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          169.1058999999999,
+          369.4829,
+          228.6058999999999
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "067dd10ddb4430ac746d249709b71fa66667575856eb1b0a892a67a84d454679",
+      "jsonSha256After": "25a57772a2c326c9f690802aa2053c3748ffb73b4ffae9f0ce985509fc2982b8"
+    },
+    {
+      "id": "2017-nt1-t2-02",
+      "file": "content/nebentermin1-2017/2017-nt1-t2-02.json",
+      "changes": [
+        {
+          "path": "/parts/1/solution/0/result/1",
+          "before": "A\\prime(x)=180-4\\cdot x=0\\Rightarrow x=45",
+          "after": "A'(x)=180-4\\cdot x=0\\Rightarrow x=45",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/3",
+          "before": "A\\prime\\prime(45)=-4<0\\Rightarrow",
+          "after": "A''(45)=-4<0\\Rightarrow",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/5",
+          "before": "A\\prime\\prime(x)<0",
+          "after": "A''(x)<0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-1-2017/%5B2017n1%5Dt2-2.pdf",
+          "sha256": "b42a0e89dd8b9fea776d0776e14d57a08afc6449cc2e4ebb09f5e998486ff777",
+          "evidence": []
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt2-2.pdf",
+          "sha256": "58b7178ebe1e9dd14ce6ba1399fcd7c0cf67e3b11ed09e59c2759a56ece5f08b",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Mögliche Vorgehensweise:\nA′(x) = 180 – 4 ∙ x = 0 ⇒ x = 45\n( A″(45) = –4 < 0 ⇒ lokales Maximum\nAus A″(x) < 0 für alle x folgt, dass A rechtsgekrümmt ist und das lokale Maximum daher ein\nglobales Maximum ist.)"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2017/%5B2017n1%5Dt2-2.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          199.09439999999984,
+          335.6801,
+          258.59439999999984
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "732bd404ea1454eb842ee70de411bd801c6dd63fad4195b241406672f5cc7661",
+      "jsonSha256After": "20cd1a23e36982c0e3f427fe0ce4449e7884151fcdb96eadc78fbf00282afdb9"
+    },
+    {
+      "id": "2017-nt2-t1-15",
+      "file": "content/nebentermin2-2017/2017-nt2-t1-15.json",
+      "changes": [
+        {
+          "path": "/parts/0/solution/0/result/5",
+          "before": "f\\prime(x_0)",
+          "after": "f'(x_0)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/1/1",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/1/5",
+          "before": "\\int f(x)\\,dx=f\\prime(x)",
+          "after": "\\int f(x)\\,dx=f'(x)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/answer/options/2/5",
+          "before": "f\\prime(x_0)",
+          "after": "f'(x_0)",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-2-2017/%5B2017n2%5Dt1-15-an.pdf",
+          "sha256": "86794e8c44ce6089ab9cad228fef3b755f1910d915ee9e04f476d1a3707e609d",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 15\nAbleitungs- und Stammfunktion\nEs sei f eine Polynomfunktion und F eine ihrer Stammfunktionen.\nEine Funktion F heißt Stammfunktion der Funktion f, wenn gilt: f(x) = F(x) + c (c ∈ ℝ).\nEine Funktion f′ heißt Ableitungsfunktion von f, wenn gilt: ∫ f(x)dx = f′(x).\nWenn die Funktion f an der Stelle x definiert ist, gibt f′(x ) die Steigung der Tangente\n0 0"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-2-2017/%5B2017n2%5Dt1-15-an.pdf",
+          "sha256": "c3caa54c8e07cbc662a0fb1aae9e638df0351b62c1ff9c195a1a1678df5eb01d",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 15\nAbleitungs- und Stammfunktion\nLösungserwartung:\nWenn die Funktion f an der Stelle x definiert ist, gibt f′(x ) die Steigung der Tangente\n0 0"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-2-2017/%5B2017n2%5Dt1-15-an.pdf",
+        "page": 1,
+        "bbox": [
+          0,
+          254.38699999999994,
+          396.94730000000004,
+          313.88699999999994
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "77467442ff532d4a8f03c61c72bd1653313d76672025baf8fcd7081e15a3efc9",
+      "jsonSha256After": "8d6f7e6197fed265da78fee28dee79b4444069de1222892167707f57a6cd57f0"
+    },
+    {
+      "id": "2017-nt2-t1-16",
+      "file": "content/nebentermin2-2017/2017-nt2-t1-16.json",
+      "changes": [
+        {
+          "path": "/parts/0/prompt/1",
+          "before": "f\\prime\\prime(x)>0",
+          "after": "f''(x)>0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-2-2017/%5B2017n2%5Dt1-16-an.pdf",
+          "sha256": "5700db1288b82354ae3c1a3c4be455d3c7ab32d1d267f9774efbfc557a52324d",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 16\nEigenschaften der zweiten Ableitung\nGegeben sind die Graphen von fünf reellen Funktionen.\nAufgabenstellung:\nFür welche der angegebenen Funktionen gilt f″(x) > 0 im Intervall [–1; 1]?\nKreuzen Sie die beiden zutreffenden Graphen an!"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-2-2017/%5B2017n2%5Dt1-16-an.pdf",
+          "sha256": "efebd869e2a15fd307f0024a660c38b28bd0f6efcc1e91a12d69b442a88f23ca",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Aufgabe 16\nEigenschaften der zweiten Ableitung\nLösungserwartung:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-2-2017/%5B2017n2%5Dt1-16-an.pdf",
+        "page": 1,
+        "bbox": [
+          116.42840000000001,
+          181.1119,
+          542.6614,
+          240.6119
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "b24563e6f3d6a21fbd96e41028702055b00f79bfde57ee9337cbb9760737763a",
+      "jsonSha256After": "b0c6a8b353b4e7540680d5da8101f02a186dd73baf6d3ebc0c5426bffdd7645f"
+    },
+    {
+      "id": "2017-nt2-t2-01",
+      "file": "content/nebentermin2-2017/2017-nt2-t2-01.json",
+      "changes": [
+        {
+          "path": "/parts/0/answer/rubric/1",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/solution/0/result/1",
+          "before": "f\\prime(x)=0",
+          "after": "f'(x)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/solution/0/result/5",
+          "before": "f\\prime",
+          "after": "f'",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/0/solution/0/result/7",
+          "before": "f\\prime(x)=0",
+          "after": "f'(x)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/answer/rubric/0",
+          "before": "f\\prime(x)=3(x-1)^2",
+          "after": "f'(x)=3(x-1)^2",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/1/solution/0/result/1",
+          "before": "f\\prime(x)=3x^2-6x+3",
+          "after": "f'(x)=3x^2-6x+3",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/4/solution/0/result/0",
+          "before": "f\\prime\\prime(x)=0",
+          "after": "f''(x)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/answer/rubric/2",
+          "before": "f\\prime(0)=0",
+          "after": "f'(0)=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/solution/0/result/0",
+          "before": "f\\prime(x)=3a\\cdot x^2+c",
+          "after": "f'(x)=3a\\cdot x^2+c",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        },
+        {
+          "path": "/parts/5/solution/0/result/2",
+          "before": "f\\prime(0)=0\\Rightarrow c=0",
+          "after": "f'(0)=0\\Rightarrow c=0",
+          "reason": "Original PDF prints a raised first/second derivative mark. Bare TeX \\prime produces an ordinary-level symbol; apostrophe syntax makes the prime superscript without changing the derivative order or formula."
+        }
+      ],
+      "source": [
+        {
+          "kind": "au",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Bau%5Dnebentermin-2-2017/%5B2017n2%5Dt2-1.pdf",
+          "sha256": "3d5ae6d21f1658ef3703da3ecd55cd573df1c5f4bdf19fffcae7c0224e7bb48e",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Je nach Wahl der Werte für die Koeffizienten ergibt sich unter anderem die Anzahl und Lage der\nNullstellen, Extremstellen und Wendestellen von f.\nAufgabenstellung:\na) Wie viele lokale Extremstellen kann f höchstens haben? Geben Sie die Anzahl an und begrün-\nden Sie Ihre Antwort mithilfe der Ableitungsfunktion von f!\nA Zeigen Sie für den Spezialfall a = 1, b = –3, c = 3, d = 0, dass die Funktion f keine lokale\nExtremstelle hat!\nb) Wenn für alle x ∈ ℝ die Beziehung f(–x) = –f(x) gilt, dann ist der Graph von f symmetrisch\nGeben Sie eine zusätzliche Bedingung dafür an, dass der Graph von f im Wendepunkt\nW = (0|f(0)) eine zur x-Achse parallele Tangente hat!\n5"
+            }
+          ]
+        },
+        {
+          "kind": "lo",
+          "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-2-2017/%5B2017n2%5Dt2-1.pdf",
+          "sha256": "33b86fd6c9a7c7b3cf4c404ecf1868be9d882c1930c845000a90d2f3364a1274",
+          "evidence": [
+            {
+              "page": 1,
+              "textEvidence": "Mögliche Begründung:\nNur an denjenigen Stellen, an denen f′(x) = 0 ist, können lokale Extremstellen von f liegen.\nDie Ableitungsfunktion f′ ist eine Polynomfunktion zweiten Grades. Da die quadratische Glei-\nchung f′(x) = 0 maximal zwei Lösungen hat, kann die Funktion f höchstens zwei Extremstel-\nlen haben.\nMögliche Vorgehensweise:\nDie 1. Ableitung f′(x) = 3x2 – 6x + 3 hat genau eine Nullstelle bei x = 1 und hat sowohl links\nals auch rechts von der Nullstelle positive Werte. Damit ist die Funktion f auf ihrem gesamten\nDefinitionsbereich streng monoton wachsend und hat keine Extremstelle.\nLösungsschlüssel:"
+            },
+            {
+              "page": 2,
+              "textEvidence": "c) Lösungserwartung:\nf″(x) = 0\n6a · x + 2b = 0\nx = 0 ⇒ b = 0\nf′(x) = 3a · x2 + c\nf′(0) = 0 ⇒ c = 0\nLösungsschlüssel:"
+            }
+          ]
+        }
+      ],
+      "visualEvidence": {
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-2-2017/%5B2017n2%5Dt2-1.pdf",
+        "page": 1,
+        "bbox": [
+          93.70440000000002,
+          169.1058999999999,
+          517.4419,
+          228.6058999999999
+        ],
+        "inspected": true
+      },
+      "jsonSha256Before": "1c9e402027ea293cc5c96a9259b6c38296038961e0b28ce875a30d75a81877b5",
+      "jsonSha256After": "d144b8f366373739525b9345af2fc8d903753750fcbdad72fa75c10458acd3d3"
+    }
+  ],
+  "otherAgentCorrections": {
+    "controlCharacters": "Two Python newline-for-\\ne errors already corrected by convert_2014_2015 in 2014-ht-t1-03 and 2014-ht-t2-02. See context-repair-2014-2015ht-2018nt1.json.",
+    "primeNotation": "37 earlier corrections in 2018NT1 T2 / 2015HT T2 and 3 in 2015-nt2-t2-01 were separately audited by convert_2014_2015; no duplicate writes here."
+  },
+  "visualEvidenceSheets": [
+    "evidence/math-escape-evidence/prime-source-0.png",
+    "evidence/math-escape-evidence/prime-source-8.png",
+    "evidence/math-escape-evidence/prime-source-16.png"
+  ],
+  "limitations": "Control-character/command-pattern scanning and source-directed corrections do not claim to prove every formula mathematically or transcribe every formula again.",
+  "germanQuoteRenderingCorrections": {
+    "nodes": 6,
+    "questions": 2,
+    "sources": [
+      {
+        "id": "2016-nt1-t2-04",
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-1-2016/%5B2016n1%5Dt2-4.pdf",
+        "sha256": "ec1abacbb1294c9f18f760b71674fdcfb4f1e5d35d4a8554f503d8aeca9387af",
+        "evidence": "Official solution prints P(„Rouge“)=P(„Noir“)=18/37."
+      },
+      {
+        "id": "2016-nt2-t1-21",
+        "pdf": "https://github.com/tangxiaoyi97/srdpmppr-src/blob/cf2a431a0aa15f91a55b47b94f9b3623b09f4481/library/%5Blo%5Dnebentermin-2-2016/%5B2016n2%5Dt1-21-ws.pdf",
+        "sha256": "0ae3389ea086e5617189d9de6316bb51a0cd746399d4bad51100d310d3222315",
+        "evidence": "Official solution prints P(„Rouge“)=P(„Noir“)=18/37."
+      }
+    ],
+    "changes": [
+      {
+        "id": "2016-nt1-t2-04",
+        "path": "/parts/0/answer/rubric/3",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Rouge“})=P(\\text{„Noir“})=\\frac{18}{37}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Rouge“"
+          },
+          {
+            "t": "math",
+            "v": ")=P("
+          },
+          {
+            "t": "text",
+            "v": "„Noir“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac{18}{37}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      },
+      {
+        "id": "2016-nt1-t2-04",
+        "path": "/parts/0/solution/0/result/1",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Rouge“})=P(\\text{„Noir“})=\\frac{18}{37}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Rouge“"
+          },
+          {
+            "t": "math",
+            "v": ")=P("
+          },
+          {
+            "t": "text",
+            "v": "„Noir“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac{18}{37}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      },
+      {
+        "id": "2016-nt2-t1-21",
+        "path": "/parts/0/solution/0/steps/5",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Augensumme 5“})=\\frac4{36}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 5“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      },
+      {
+        "id": "2016-nt2-t1-21",
+        "path": "/parts/0/solution/0/steps/7",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Augensumme 9“})=\\frac4{36}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 9“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      },
+      {
+        "id": "2016-nt2-t1-21",
+        "path": "/parts/0/answer/rubric/6",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Augensumme 5“})=\\frac4{36}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 5“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      },
+      {
+        "id": "2016-nt2-t1-21",
+        "path": "/parts/0/answer/rubric/8",
+        "before": {
+          "t": "math",
+          "v": "P(\\text{„Augensumme 9“})=\\frac4{36}"
+        },
+        "after": [
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 9“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          }
+        ],
+        "reason": "Original German quotation marks and event names retained verbatim as text nodes, with adjoining probability notation still math. Avoids the missing KaTeX font metrics for low German quote U+201E in text math."
+      }
+    ],
+    "coordination": "convert_2016 authorized using the established rich-text split approach for remaining six nodes; original wording and mathematical values unchanged."
+  },
+  "finalScan": {
+    "questions": 400,
+    "mathNodes": 5681,
+    "counts": {},
+    "findings": []
+  },
+  "validation": {
+    "questions": 400,
+    "mathNodes": 5681,
+    "errors": [],
+    "unicodeTextWarnings": [],
+    "allChangedPrimeNodesPassStrictKatex": true
+  }
+}

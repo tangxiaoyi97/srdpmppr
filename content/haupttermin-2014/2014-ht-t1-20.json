@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,110 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_330a",
+          "id": "1_330",
           "baseId": "1_330",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/42/Boxplot-Analyse.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mehr als 60 % der befragten Mädchen haben einen Schulweg von mindestens 4 km.\n\nMindestens 50 % der Mädchen und mindestens 75 % der Burschen haben einen Schulweg, der kleiner oder gleich 6 km ist."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Mehr als 60 % der befragten Mädchen haben einen Schulweg von mindestens 4 km."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Median der erhobenen Daten ist bei Burschen und Mädchen gleich."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 50 % der Mädchen und mindestens 75 % der Burschen haben einen Schulweg, der kleiner oder gleich 6 km ist."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens 40 % der befragten Burschen haben einen Schulweg zwischen 4 km und 8 km."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite ist bei den Umfragedaten der Burschen genauso groß wie bei den Umfragedaten der Mädchen."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_330",
       "baseId": "1_330",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/42/Boxplot-Analyse.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Alle Mädchen und Burschen einer Schulklasse wurden über die Länge ihres Schulweges befragt. Die beiden Kastenschaubilder (Boxplots) geben Auskunft über ihre Antworten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-20-boxplots.png",
+      "alt": "Boxplots der Schulweglängen für Mädchen und Burschen, Entfernung in km."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -66,7 +66,7 @@
           {
             "id": "n",
             "value": 30,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -118,17 +118,46 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Brokkoli enthält durchschnittlich 100 mg Vitamin C pro 100 g.\n\nBei einem Gemüsegroßhändler wird eine Zufallsstichprobe von 50 Portionen frischem Brokkoli entnommen und für jede Portion der Vitamin-C-Gehalt pro 100 g gemessen.\nDer Flächeninhalt eines Rechtecks im nachstehenden Histogramm entspricht der absoluten Häufigkeit der Portionen dieser Stichprobe im jeweiligen Bereich."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2022/fig/2022-ht-t2-04-a.png",
+          "alt": "Histogramm: Vitamin-C-Gehalt pro 100 g auf der x-Achse mit den Klassen „80 bis unter 90“, „90 bis unter 100“ und „100 bis 120“; die Rechteckhöhe der Klasse „100 bis 120“ beträgt 1,5."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Von der Zufallsstichprobe werden 3 Portionen ohne Zurücklegen entnommen.\n\nBerechnen Sie die Wahrscheinlichkeit, dass höchstens 2 dieser Portionen 100 mg bis 120 mg Vitamin C pro 100 g aufweisen."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.7928,
-            "tol": 0.0005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "1-\\dfrac{30}{50}\\cdot\\dfrac{29}{49}\\cdot\\dfrac{28}{48}=0{,}7928\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit beträgt rund 79,3 %."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
         ]
       },
@@ -241,6 +270,14 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Ein Getränkehersteller möchte Fruchtsaft so in Flaschen abfüllen, dass jede Flasche 100 mg Vitamin C enthält.\n\nEs stehen zur Verfügung:\n- Birnensaft mit 20 mg Vitamin C pro 100 ml\n- Orangensaft mit 35 mg Vitamin C pro 100 ml\n- Mischungen aus diesen beiden Säften\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die zur Verfügung stehenden Fruchtsäfte werden so gemischt, dass 350 ml Saft genau 100 mg Vitamin C enthalten.\n\nErmitteln Sie, wie viele Milliliter Birnensaft mit wie vielen Millilitern Orangensaft dafür gemischt werden müssen."
         }
       ],
@@ -252,14 +289,14 @@
             "id": "x",
             "label": "Birnensaft",
             "value": 150,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "ml"
           },
           {
             "id": "y",
             "label": "Orangensaft",
             "value": 200,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "ml"
           }
         ]

@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -22,14 +22,667 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-ht-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie eine Formel für die Länge "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " der rechteckigen Querschnittsfläche in der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a(h)=k\\cdot h+d"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "a(0)=d=10"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "a(20)=20\\cdot k+10=16\\Rightarrow k=0{,}3"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "a(h)=0{,}3\\cdot h+10"
+          },
+          {
+            "t": "text",
+            "v": ". Ein Ausgleichspunkt für eine korrekte Formel. Äquivalente Formeln sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a(h)=k\\cdot h+d"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "a(0)=d=10"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "a(20)=20\\cdot k+10=16\\Rightarrow k=0{,}3"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "a(h)=0{,}3\\cdot h+10"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Formel. Äquivalente Formeln sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie eine Formel für die Länge "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " der rechteckigen Querschnittsfläche in der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "In das Gefäß wird Flüssigkeit gefüllt. Geben Sie an, was der Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "12\\cdot\\int_0^{15}a(h)\\,\\mathrm dh"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Zusammenhang bedeutet!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das Integral gibt das Volumen der enthaltenen Flüssigkeit (in ml) an, wenn das Gefäß bis 5 cm unter dem Rand (bzw. bis zu einer Höhe von 15 cm) gefüllt ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Integral gibt das Volumen der enthaltenen Flüssigkeit (in ml) an, wenn das Gefäß bis 5 cm unter dem Rand (bzw. bis zu einer Höhe von 15 cm) gefüllt ist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das leere Gefäß wird bis zum Rand mit Flüssigkeit gefüllt. Nach "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " Sekunden befindet sich die Wassermenge "
+        },
+        {
+          "t": "math",
+          "v": "q(t)"
+        },
+        {
+          "t": "text",
+          "v": " (in ml) im Gefäß. Die Füllung dauert 39 Sekunden. Für "
+        },
+        {
+          "t": "math",
+          "v": "t\\in[0;39]"
+        },
+        {
+          "t": "text",
+          "v": " gilt: "
+        },
+        {
+          "t": "math",
+          "v": "q'(t)=80"
+        },
+        {
+          "t": "text",
+          "v": ".\nInterpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "q'(t)=80"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Zusammenhang!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die momentane Änderungsrate der Wassermenge beträgt im gesamten Zeitintervall 80 Milliliter pro Sekunde."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die momentane Änderungsrate der Wassermenge beträgt im gesamten Zeitintervall 80 Milliliter pro Sekunde."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das leere Gefäß wird bis zum Rand mit Flüssigkeit gefüllt. Nach "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " Sekunden befindet sich die Wassermenge "
+        },
+        {
+          "t": "math",
+          "v": "q(t)"
+        },
+        {
+          "t": "text",
+          "v": " (in ml) im Gefäß. Die Füllung dauert 39 Sekunden. Für "
+        },
+        {
+          "t": "math",
+          "v": "t\\in[0;39]"
+        },
+        {
+          "t": "text",
+          "v": " gilt: "
+        },
+        {
+          "t": "math",
+          "v": "q'(t)=80"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{q(t_2)-q(t_1)}{t_2-t_1}"
+        },
+        {
+          "t": "text",
+          "v": " für beliebige "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "t_1<t_2"
+        },
+        {
+          "t": "text",
+          "v": " aus dem gegebenen Zeitintervall!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Differenzenquotient",
+            "label": "Differenzenquotient",
+            "value": 80,
+            "tol": 1e-09,
+            "unit": "ml/s"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{q(t_2)-q(t_1)}{t_2-t_1}=80"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Fassungsvermögen des Gefäßes (in ml) bis zur Höhe "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " kann durch das Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^x(3{,}6\\cdot h+120)\\,\\mathrm dh"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt werden.\nErmitteln Sie, bei welcher Höhe "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " das Wasser im Gefäß steht, wenn man 2,5 Liter Wasser in das Gefäß gießt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "2\\,500=\\int_0^x(3{,}6\\cdot h+120)\\,\\mathrm dh=1{,}8x^2+120x"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "1{,}8x^2+120x-2\\,500=0"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "x_1\\approx16{,}7"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "(x_2<0)"
+          },
+          {
+            "t": "text",
+            "v": ". Das Wasser steht ca. 16,7 cm hoch. Ein Punkt für die richtige Lösung, wobei weder die negative Lösung der quadratischen Gleichung noch die Einheit cm angeführt werden müssen. Toleranzintervall: [16,5; 17]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "2\\,500=\\int_0^x(3{,}6\\cdot h+120)\\,\\mathrm dh=1{,}8x^2+120x"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "1{,}8x^2+120x-2\\,500=0"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "x_1\\approx16{,}7"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "(x_2<0)"
+            },
+            {
+              "t": "text",
+              "v": ". Das Wasser steht ca. 16,7 cm hoch."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei weder die negative Lösung der quadratischen Gleichung noch die Einheit cm angeführt werden müssen. Toleranzintervall: [16,5; 17]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Fassungsvermögen des Gefäßes (in ml) bis zur Höhe "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " kann durch das Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^x(3{,}6\\cdot h+120)\\,\\mathrm dh"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt werden."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den im Integral vorkommenden Wert 3,6 im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "3,6 gibt diejenige Fläche in cm² an, um die die Querschnittsfläche mit jedem zusätzlichen cm Höhe zunimmt. Oder: 3,6 ist die Steigung der Funktion, die den Inhalt der Querschnittsfläche in der Höhe "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " angibt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "3,6 gibt diejenige Fläche in cm² an, um die die Querschnittsfläche mit jedem zusätzlichen cm Höhe zunimmt. Oder: 3,6 ist die Steigung der Funktion, die den Inhalt der Querschnittsfläche in der Höhe "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " angibt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Innenraum eines 20 cm hohen Gefäßes hat in jeder Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " eine rechteckige, horizontale Querschnittsfläche. Ihre Länge beträgt am Boden 10 cm und nimmt dann mit der Höhe linear bis auf 16 cm zu, ihre Breite beträgt in jeder Höhe 12 cm."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-04-vessel.png",
+      "alt": "Originaldarstellung des Gefäßes mit den Maßen 20 cm, 16 cm, 12 cm und 10 cm."
+    }
+  ]
 }

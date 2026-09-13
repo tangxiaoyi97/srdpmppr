@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -24,12 +24,274 @@
     {
       "id": "2017-nt1-t1-19-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_584 (offiziell adaptierte Fassung)",
+          "baseId": "1_584",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/293/Staengel-Blatt-Diagramme.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gab in dieser Woche mehr Vorstellungen des Films "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " als des Films "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": ".\nDie Spannweite der Anzahl der Besucher/innen ist bei Film "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als bei Film "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": ".\nDie Gesamtanzahl der Besucher/innen in dieser Woche war bei Film "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " größer als bei Film "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": ".\nIn einer Vorstellung des Films "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " waren mehr Besucher/innen als in jeder einzelnen Vorstellung des Films "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie diejenige(n) Aussage(n) an, die bezogen auf die dargestellten Stängel-Blatt-Diagramme mit Sicherheit zutrifft/zutreffen!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es gab in dieser Woche mehr Vorstellungen des Films "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " als des Films "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Median der Anzahl der Besucher/innen ist bei Film "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " größer als bei Film "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite der Anzahl der Besucher/innen ist bei Film "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als bei Film "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Gesamtanzahl der Besucher/innen in dieser Woche war bei Film "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " größer als bei Film "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In einer Vorstellung des Films "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " waren mehr Besucher/innen als in jeder einzelnen Vorstellung des Films "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "selectCount": 4
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=23",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_584 (offiziell adaptierte Fassung)",
+      "baseId": "1_584",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/293/Staengel-Blatt-Diagramme.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehenden Stängel-Blatt-Diagramme zeigen die Anzahl der Kinobesucher/innen je Vorstellung der Filme "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " im Lauf einer Woche. In diesen Diagrammen ist die Einheit des Stängels 10, die des Blattes 1."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-19-table.png",
+      "alt": "Stängel-Blatt-Diagramme Film A und Film B, Stängeleinheit 10 und Blatteinheit 1."
+    }
+  ]
 }

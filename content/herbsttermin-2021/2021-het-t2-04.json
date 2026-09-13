@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -51,21 +51,32 @@
         },
         {
           "t": "math",
-          "v": "N(F)="
+          "v": "N(F)=\\underline{\\hspace{6cm}}"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "\\frac{16777216}{F}",
-        "vars": [
-          "F"
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "N(F)=\\dfrac{16\\cdot 1\\,024\\cdot 1\\,024}{F}=\\dfrac{16\\,777\\,216}{F}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von N, wobei auch jeder Hinweis auf das Abrunden von N(F) auf die nächstkleinere ganze Zahl als richtig zu werten ist."
+          }
         ],
-        "checker": "cas"
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für das richtige Aufstellen der Funktionsgleichung von N, wobei auch jeder Hinweis auf das Abrunden von N(F) auf die nächstkleinere ganze Zahl als richtig zu werten ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -116,18 +127,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.85546875,
-            "tol": 0.000001
+            "t": "math",
+            "v": "0{,}75+0{,}25\\cdot 0{,}75^{3}=0{,}855\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}855\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -179,23 +207,44 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Michael hat 4 USB-Sticks mit den Bezeichnungen A, B, C und D.\n- Auf USB-Stick A speichert er alle seine Fotos ab.\n- Auf den 3 anderen USB-Sticks, B, C und D, speichert er zur Sicherung jeweils genau ein Drittel seiner Fotos so ab, dass jedes Foto zusätzlich auf genau 1 dieser 3 USB-Sticks gespeichert ist.\n\nFür jeden der 4 USB-Sticks ist (jeweils unabhängig voneinander) die Wahrscheinlichkeit 75 %, dass er 5 Jahre lang funktionstüchtig bleibt.\n\nEs wird vereinfacht angenommen, dass ein USB-Stick entweder vollständig funktionstüchtig ist oder gar nicht funktioniert.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Michael stellt nach 5 Jahren fest, dass USB-Stick A nicht mehr funktionstüchtig ist.\n\nBerechnen Sie die Wahrscheinlichkeit, dass zumindest 2 der 3 USB-Sticks B, C und D funktionstüchtig sind."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.84375,
-            "tol": 0.000001
+            "t": "math",
+            "v": "0{,}75^{3}+3\\cdot 0{,}25\\cdot 0{,}75^{2}=0{,}843\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}843\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -259,30 +308,67 @@
         {
           "t": "text",
           "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 2002\nP(t) ... durchschnittlicher Preis für eine Film-DVD zur Zeit t in Euro\n\nErmitteln Sie a und b so, dass P für die Jahre 2002 und 2011 den durchschnittlichen Preis für eine Film-DVD im jeweiligen Jahr laut obigem Diagramm ergibt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a=\\underline{\\hspace{5cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "b=\\underline{\\hspace{5cm}}"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 9.1,
-            "tol": 0.000001
+            "t": "math",
+            "v": "P(0)=20{,}1\\Rightarrow a+11=20{,}1"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 0.60579,
-            "tol": 0.0001
+            "t": "math",
+            "v": "P(9)=11{,}1\\Rightarrow a\\cdot b^{9}+11=11{,}1"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=9{,}1"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "b=\\sqrt[9]{\\tfrac{0{,}1}{9{,}1}}=0{,}60579\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "perBlank",
-        "pointsPerCorrect": 0.5,
-        "max": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

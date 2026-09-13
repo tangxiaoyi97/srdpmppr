@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -22,14 +22,586 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt2-t2-03-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Körper fällt im Vakuum aus einer Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h_0=45"
+        },
+        {
+          "t": "text",
+          "v": " m.\nⒶ Berechnen Sie seine Geschwindigkeit in m/s zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " des Aufpralls!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Zeit-Weg-Funktion "
+          },
+          {
+            "t": "math",
+            "v": "h(t)=45-5t^2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0=45-5t^2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_1=3"
+          },
+          {
+            "t": "text",
+            "v": "\nGeschwindigkeitsfunktion "
+          },
+          {
+            "t": "math",
+            "v": "v(t)=h'(t)=-10t"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "v(3)=h'(3)=-30"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Betrag der Geschwindigkeit zum Zeitpunkt des Aufpralls beträgt 30 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss und auch –30 m/s als korrekt zu werten ist. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Betrag der Geschwindigkeit zum Zeitpunkt des Aufpralls beträgt 30 m/s."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss und auch –30 m/s als korrekt zu werten ist. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Zeit-Weg-Funktion "
+            },
+            {
+              "t": "math",
+              "v": "h(t)=45-5t^2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0=45-5t^2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "t_1=3"
+            },
+            {
+              "t": "text",
+              "v": "\nGeschwindigkeitsfunktion "
+            },
+            {
+              "t": "math",
+              "v": "v(t)=h'(t)=-10t"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "v(3)=h'(3)=-30"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt2-t2-03-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ein Körper fällt im Vakuum aus einer Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h_0=45"
+        },
+        {
+          "t": "text",
+          "v": " m.\nⒶ Berechnen Sie seine Geschwindigkeit in m/s zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_1"
+        },
+        {
+          "t": "text",
+          "v": " des Aufpralls!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum der Betrag der Geschwindigkeit dieses Körpers im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;t_1]"
+        },
+        {
+          "t": "text",
+          "v": " monoton steigt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Geschwindigkeitsfunktion ist eine lineare Funktion, die im Intervall [0 s; 3 s] von "
+          },
+          {
+            "t": "math",
+            "v": "v(0)=h'(0)=0"
+          },
+          {
+            "t": "text",
+            "v": " ausgehend monoton fallend ist – daher wird der Betrag der Geschwindigkeit immer größer.\n\noder:\nDie Bewegung ist gleichmäßig beschleunigt – das heißt, der Betrag der Geschwindigkeit ist monoton wachsend."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeitsfunktion ist eine lineare Funktion, die im Intervall [0 s; 3 s] von "
+            },
+            {
+              "t": "math",
+              "v": "v(0)=h'(0)=0"
+            },
+            {
+              "t": "text",
+              "v": " ausgehend monoton fallend ist – daher wird der Betrag der Geschwindigkeit immer größer.\n\noder:\nDie Bewegung ist gleichmäßig beschleunigt – das heißt, der Betrag der Geschwindigkeit ist monoton wachsend."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "id": "2016-nt2-t2-03-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der unten stehenden Abbildung ist der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " für "
+        },
+        {
+          "t": "math",
+          "v": "h_0=45"
+        },
+        {
+          "t": "text",
+          "v": " m dargestellt. Bestimmen Sie die Steigung der Sekante "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " durch die Punkte "
+        },
+        {
+          "t": "math",
+          "v": "A=(0\\mid45)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B=(3\\mid0)"
+        },
+        {
+          "t": "text",
+          "v": " und deuten Sie diesen Wert im Hinblick auf die Bewegung des Körpers!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-03-fall-graph.png",
+          "alt": "Fallkurve h(t),Sekante durch A=(0|45)undB=(3|0),paralleleTangenteimPunktPbei1.5s"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Steigung der Sekante beträgt –15.\nDas bedeutet, dass der Betrag der Durchschnittsgeschwindigkeit bei der Bewegung des Körpers im Zeitraum von 0 Sekunden bis 3 Sekunden 15 m/s beträgt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Bestimmung der Sekantensteigung und eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Steigung der Sekante beträgt –15.\nDas bedeutet, dass der Betrag der Durchschnittsgeschwindigkeit bei der Bewegung des Körpers im Zeitraum von 0 Sekunden bis 3 Sekunden 15 m/s beträgt."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Bestimmung der Sekantensteigung und eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "id": "2016-nt2-t2-03-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "In der unten stehenden Abbildung ist der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " für "
+        },
+        {
+          "t": "math",
+          "v": "h_0=45"
+        },
+        {
+          "t": "text",
+          "v": " m dargestellt. Bestimmen Sie die Steigung der Sekante "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " durch die Punkte "
+        },
+        {
+          "t": "math",
+          "v": "A=(0\\mid45)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B=(3\\mid0)"
+        },
+        {
+          "t": "text",
+          "v": " und deuten Sie diesen Wert im Hinblick auf die Bewegung des Körpers!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-03-fall-graph.png",
+          "alt": "Fallkurve h(t),Sekante durch A=(0|45)undB=(3|0),paralleleTangenteimPunktPbei1.5s"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Tangente "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(1{,}5\\mid h(1{,}5))"
+        },
+        {
+          "t": "text",
+          "v": " ist parallel zur Sekante "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": ". Interpretieren Sie diese Tatsache im Hinblick auf die Bewegung des Körpers!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation:\nDer Betrag der Momentangeschwindigkeit ist zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=1{,}5"
+          },
+          {
+            "t": "text",
+            "v": " gleich groß wie die Durchschnittsgeschwindigkeit des Körpers im Intervall [0 s; 3 s]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation:\nDer Betrag der Momentangeschwindigkeit ist zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=1{,}5"
+            },
+            {
+              "t": "text",
+              "v": " gleich groß wie die Durchschnittsgeschwindigkeit des Körpers im Intervall [0 s; 3 s]."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "id": "2016-nt2-t2-03-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Schiefe Turm von Pisa zählt zu den bekanntesten Gebäuden der Welt.\nHistorisch nicht verbürgt sind Galileo Galileis (1564 – 1642) Fallversuche aus verschiedenen Höhen des Schiefen Turms von Pisa. Tatsache ist jedoch, dass Galilei die Gesetze des freien Falls erforscht hat. Die Fallzeit eines Körpers aus der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h_0"
+    },
+    {
+      "t": "text",
+      "v": " ist bei Vernachlässigung des Luftwiderstandes (im Vakuum) unabhängig von seiner Form und seiner Masse.\nModellhaft kann die Höhe des fallenden Körpers in Abhängigkeit von der Zeit näherungsweise durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "h(t)=h_0-5t^2"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Die Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird in Metern und die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden gemessen."
+    }
+  ]
 }

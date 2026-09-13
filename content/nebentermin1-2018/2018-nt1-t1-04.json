@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,302 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_641a",
+          "id": "1_641",
           "baseId": "1_641",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/366/Verkaufszahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "C; E; B; D"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier gesuchten Größen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Am Ende der Woche werden Daten für die betrachtete Woche (Montag bis Samstag) ausgewertet, wobei die erforderlichen Berechnungen mithilfe von Termen angeschrieben werden können.\nOrdnen Sie den vier gesuchten Größen jeweils den für die Berechnung zutreffenden Term (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "durchschnittliche Verkaufszahlen (pro Sportartikel) pro Tag in der betrachteten Woche"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Gesamteinnahmen durch den Verkauf von Sportartikeln in der betrachteten Woche"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Verkaufszahlen (pro Sportartikel) in der betrachteten Woche"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Verkaufswert des Lagerbestands an Sportartikeln am Ende der betrachteten Woche"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "6\\cdot(B-C)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "B-C"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac16\\cdot(B-C)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P\\cdot C"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P\\cdot(B-C)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "6\\cdot P\\cdot(B-C)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_641",
       "baseId": "1_641",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/366/Verkaufszahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Sportfachgeschäft bietet "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " verschiedene Sportartikel an. Die "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " Sportartikel sind in einer Datenbank nach ihrer Artikelnummer geordnet, sodass die Liste mit den entsprechenden Stückzahlen als Vektor (mit "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " Komponenten) aufgefasst werden kann.\nDie Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "B,C,P\\in\\mathbb{R}^n"
+    },
+    {
+      "t": "text",
+      "v": ") haben die folgende Bedeutung:\nVektor "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ": Die Komponente "
+    },
+    {
+      "t": "math",
+      "v": "b_i\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "1\\le i\\le n"
+    },
+    {
+      "t": "text",
+      "v": ") gibt den Lagerbestand des "
+    },
+    {
+      "t": "math",
+      "v": "i"
+    },
+    {
+      "t": "text",
+      "v": "-ten Artikels am Montagmorgen einer bestimmten Woche an.\nVektor "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": ": Die Komponente "
+    },
+    {
+      "t": "math",
+      "v": "c_i\\in\\mathbb{N}"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "1\\le i\\le n"
+    },
+    {
+      "t": "text",
+      "v": ") gibt den Lagerbestand des "
+    },
+    {
+      "t": "math",
+      "v": "i"
+    },
+    {
+      "t": "text",
+      "v": "-ten Artikels am Samstagabend dieser Woche an.\nVektor "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": ": Die Komponente "
+    },
+    {
+      "t": "math",
+      "v": "p_i\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "1\\le i\\le n"
+    },
+    {
+      "t": "text",
+      "v": ") gibt den Stückpreis (in Euro) des "
+    },
+    {
+      "t": "math",
+      "v": "i"
+    },
+    {
+      "t": "text",
+      "v": "-ten Artikels in dieser Woche an.\n\nDas Fachgeschäft ist in der betrachteten Woche von Montag bis Samstag geöffnet und im Laufe dieser Woche werden weder Sportartikel nachgeliefert noch Stückpreise verändert."
     }
   ]
 }

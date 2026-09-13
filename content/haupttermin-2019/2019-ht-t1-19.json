@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t1-19",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_704a",
+          "id": "1_704",
           "baseId": "1_704",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/437/Freizeitverhalten%20von%20Jugendlichen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -49,8 +49,13 @@
         {
           "steps": [
             {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t1-19-sol-table.png",
+              "alt": "Offizielle ausgefüllte Tabelle: Sportverein und Instrument."
+            },
+            {
               "t": "text",
-              "v": "Es haben 22 Jugendliche angegeben, dass sie weder Mitglied in einem Sportverein sind noch ein Instrument spielen."
+              "v": "Es haben 22 Jugendliche angegeben, dass sie weder Mitglied in einem Sportverein sind noch ein Instrument spielen.\n\n"
             },
             {
               "t": "math",
@@ -73,13 +78,16 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "h",
-            "label": "h",
-            "value": 0.055,
-            "tol": 0.005
+            "t": "math",
+            "v": "h=0{,}055"
+          },
+          {
+            "t": "text",
+            "v": "\n[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Die angeführte Tabelle muss nicht ausgefüllt sein. Toleranzintervall: [0,05; 0,06] bzw. [5 %; 6 %]"
           }
         ]
       },

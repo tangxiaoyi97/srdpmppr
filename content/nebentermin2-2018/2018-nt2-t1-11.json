@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,170 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_600a",
+          "id": "1_600",
           "baseId": "1_600",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/309/Halbwertszeiten.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Von oben nach unten: D, E, C, F."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Graphen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Graphen jeweils die entsprechende Halbwertszeit (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-11-q-1.png",
+              "alt": "Graph 1 von M(t)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-11-q-2.png",
+              "alt": "Graph 2 von M(t)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-11-q-3.png",
+              "alt": "Graph 3 von M(t)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-11-q-4.png",
+              "alt": "Graph 4 von M(t)."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: 1 Tag"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: 2 Tage"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: 3 Tage"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: 5 Tage"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: 10 Tage"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: mehr als 10 Tage"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_600",
       "baseId": "1_600",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/309/Halbwertszeiten.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehenden Abbildungen zeigen die Graphen von Exponentialfunktionen, die jeweils die Abhängigkeit der Menge einer radioaktiven Substanz von der Zeit beschreiben. Dabei gibt "
+    },
+    {
+      "t": "math",
+      "v": "M(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Menge (in mg) zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " (in Tagen) an."
     }
   ]
 }

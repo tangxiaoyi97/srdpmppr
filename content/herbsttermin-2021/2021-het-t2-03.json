@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -20,13 +20,7 @@
     "questionPdf": "assets/pdf/herbsttermin-2021/[2021h2]t2-3.pdf",
     "solutionPdf": "assets/pdf/herbsttermin-2021/lo/[2021h2]t2-3.pdf"
   },
-  "figures": [
-    {
-      "kind": "image",
-      "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t2-03-q.png",
-      "alt": "Modell: kugelförmige Erde mit Radius R, Satellit auf kreisförmiger Umlaufbahn mit Radius r."
-    }
-  ],
+  "figures": [],
   "parts": [
     {
       "id": "2021-het-t2-03-a1",
@@ -70,20 +64,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "r",
-            "label": "r",
-            "value": 7079093.3,
-            "tol": 1000,
-            "unit": "m"
+            "t": "math",
+            "v": "7\\,500=\\sqrt{\\dfrac{6{,}67\\cdot 10^{-11}\\cdot 5{,}97\\cdot 10^{24}}{r}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "r=7\\,079\\,093{,}3\\ldots\\ \\text{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Berechnen von r."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für das richtige Berechnen von r.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -129,6 +138,18 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Ein bestimmter Satellit bewegt sich mit der Geschwindigkeit v = 7 500 m/s auf seiner Umlaufbahn. Der Zusammenhang zwischen seiner Geschwindigkeit und dem Radius seiner Umlaufbahn wird durch die nachstehende Gleichung angegeben."
+        },
+        {
+          "t": "math",
+          "v": "v=\\sqrt{\\dfrac{G\\cdot M}{r}}"
+        },
+        {
+          "t": "text",
+          "v": "v ... Geschwindigkeit des Satelliten in m/s\nG = 6,67 ∙ 10⁻¹¹ ... allgemeine Gravitationskonstante in m³/(kg ∙ s²)\nM = 5,97 ∙ 10²⁴ ... Masse der Erde in kg\nr ... Radius der Umlaufbahn des Satelliten in m\n\n"
+        },
+        {
+          "t": "text",
           "v": "Berechnen Sie die Zeit (in s), die dieser Satellit für einen Umlauf um die Erde benötigt."
         },
         {
@@ -138,20 +159,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "t",
-            "label": "t",
-            "value": 5930.5,
-            "tol": 2,
-            "unit": "s"
+            "t": "math",
+            "v": "2\\cdot r\\cdot\\pi=7\\,500\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t=5\\,930{,}5\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Berechnen der benötigten Zeit."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für das richtige Berechnen der benötigten Zeit.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -208,7 +244,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t2-03-b.png",
-          "alt": "Nicht maßstabgetreue Abbildung: Forschungsstation auf der Erde (Radius R), Winkel 81,32° an der Forschungsstation, Satellit auf Umlaufbahn mit Radius r."
+          "alt": "Nicht maßstabgetreue Abbildung: Forschungsstation auf der Erde (Radius R), Winkel 81,32° am Erdmittelpunkt zwischen R und r; rechter Winkel zwischen Radius R und Funkstrecke an der Forschungsstation."
         },
         {
           "t": "text",
@@ -221,20 +257,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "r",
-            "label": "r",
-            "value": 42208977.5,
-            "tol": 5000,
-            "unit": "m"
+            "t": "math",
+            "v": "\\cos(81{,}32^\\circ)=\\dfrac{6{,}37\\cdot 10^{6}}{r}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "r=42\\,208\\,977{,}5\\ldots\\ \\text{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen von r."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Berechnen von r.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -258,7 +309,7 @@
     {
       "id": "2021-het-t2-03-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AG 4.1",
@@ -286,6 +337,19 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Satellitenschüssel einer Forschungsstation wird auf einen bestimmten Satelliten ausgerichtet.\n\nIn der nachstehenden nicht maßstabgetreuen Abbildung ist diese Situation dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t2-03-b.png",
+          "alt": "Nicht maßstabgetreue Abbildung: Forschungsstation auf der Erde (Radius R), Winkel 81,32° am Erdmittelpunkt zwischen R und r; rechter Winkel zwischen Radius R und Funkstrecke an der Forschungsstation."
+        },
+        {
+          "t": "text",
+          "v": "Der Erdradius R wird mit R = 6,37 ∙ 10⁶ m angenommen.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die Geschwindigkeit von Funksignalen wird mit 3 ∙ 10⁸ m/s angenommen.\n\nBerechnen Sie die Zeit (in s), die ein Funksignal für seinen Weg von der Forschungsstation zu diesem Satelliten benötigt. Geben Sie das Ergebnis mit 3 Nachkommastellen an."
         }
       ],
@@ -297,7 +361,7 @@
             "id": "t",
             "label": "t",
             "value": 0.139,
-            "tol": 0.001,
+            "tol": 1e-09,
             "unit": "s"
           }
         ]
@@ -348,6 +412,11 @@
     {
       "t": "text",
       "v": "Ein Satellit bewegt sich auf einer annähernd kreisförmigen Umlaufbahn mit dem Radius r um die Erde. Die Erde wird als kugelförmig mit dem Radius R angenommen.\nDieses Modell ist in der nachstehenden Abbildung dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/herbsttermin-2021/fig/2021-het-t2-03-q.png",
+      "alt": "Modell: kugelförmige Erde mit Radius R, Satellit auf kreisförmiger Umlaufbahn mit Radius r."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,107 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_524a",
+          "id": "1_524",
           "baseId": "1_524",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/233/Tachograph.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Diese Gleichung sagt aus, dass das Fahrzeug in der ersten halben Stunde (bzw. im Zeitintervall [0 h; 0,5 h]) 40 km zurückgelegt hat."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung der Gleichung unter Verwendung der korrekten Einheiten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^{0{,}5}v(t)\\,dt=40"
+        },
+        {
+          "t": "text",
+          "v": " unter Verwendung der korrekten Einheiten im gegebenen Kontext an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Diese Gleichung sagt aus, dass das Fahrzeug in der ersten halben Stunde (bzw. im Zeitintervall [0 h; 0,5 h]) 40 km zurückgelegt hat."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_524",
       "baseId": "1_524",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/233/Tachograph.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Mithilfe eines Tachographen kann die Geschwindigkeit eines Fahrzeugs in Abhängigkeit von der Zeit aufgezeichnet werden. Es sei "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Geschwindigkeit zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": ".\nDie Zeit wird in Stunden (h) angegeben, die Geschwindigkeit in Kilometern pro Stunde (km/h).\n\nEin Fahrzeug startet zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

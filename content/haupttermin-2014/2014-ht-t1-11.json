@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,189 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_339a",
+          "id": "1_339",
           "baseId": "1_339",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/51/Exponentialfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{f(x+h)}{f(x)}=a^h"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f(x+1)=a\\cdot f(x)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie jene beiden Aussagen an, die auf diese Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und alle Werte "
+        },
+        {
+          "t": "math",
+          "v": "k,h\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "k>1"
+        },
+        {
+          "t": "text",
+          "v": " zutreffen!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f(k\\cdot x)=k\\cdot f(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{f(x+h)}{f(x)}=a^h"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+1)=a\\cdot f(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(0)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+h)=f(x)+f(h)"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_339",
       "baseId": "1_339",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/51/Exponentialfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine reelle Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=c\\cdot a^x"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Exponentialfunktion, für deren reelle Parameter "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "c\\ne0"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "a>1"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

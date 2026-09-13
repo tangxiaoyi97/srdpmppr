@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t1-07",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1346a",
+          "id": "1_1346",
           "baseId": "1_1346",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/898/1_1346_srdp_ma_Beschleunigung_PT1_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,7 +50,15 @@
           "result": [
             {
               "t": "text",
-              "v": "Zutreffend sind der v(t)-Graph mit linearem Abfall von 2 m/s auf 0 (Abbildung links oben) und der a(t)-Graph mit konstantem Wert −0,4 m/s² (Abbildung links unten)."
+              "v": "Zutreffend sind die Abbildungen links oben und rechts oben."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-1.png"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-4.png"
             }
           ],
           "note": "Ein Punkt für das richtige Ankreuzen."
@@ -59,12 +67,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Kreuzen Sie die beiden zutreffenden Abbildungen an."
-        },
-        {
-          "t": "fig",
-          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-q.png",
-          "alt": "Fünf Abbildungen: v(t), a(t), s(t), v(t) und a(t) als mögliche Darstellungen der Bewegung."
+          "v": "Kreuzen Sie die beiden zutreffenden Abbildungen an. [2 aus 5]"
         }
       ],
       "answer": {
@@ -72,38 +75,38 @@
         "options": [
           [
             {
-              "t": "text",
-              "v": "v(t)-Graph: Gerade, die von v(0) = 2 m/s linear auf v(5) = 0 fällt."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-1.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "a(t)-Graph: Gerade durch den Ursprung (steigend)."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-2.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "s(t)-Graph: steigende Gerade."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-3.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "v(t)-Graph: von v(0) = 0 linear steigend."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-4.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "a(t)-Graph: konstante Gerade bei a = −0,4 m/s²."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-5.png"
             }
           ]
         ],
         "correct": [
           0,
-          4
+          3
         ],
         "selectCount": 2
       },

@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-05",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_834a",
+          "id": "1_834",
           "baseId": "1_834",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/627/Quadrat.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -132,46 +132,39 @@
         {
           "t": "text",
           "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\nA = __________\n\nB = __________"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "Ax",
-            "label": "A_x",
-            "value": 1,
-            "tol": 1e-9
+            "t": "math",
+            "v": "A=(1\\mid 5)"
           },
           {
-            "id": "Ay",
-            "label": "A_y",
-            "value": 5,
-            "tol": 1e-9
+            "t": "text",
+            "v": ", "
           },
           {
-            "id": "Bx",
-            "label": "B_x",
-            "value": -1,
-            "tol": 1e-9
+            "t": "math",
+            "v": "B=(-1\\mid-1)"
           },
           {
-            "id": "By",
-            "label": "B_y",
-            "value": -1,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln der Koordinaten beider Eckpunkte, ein halber Punkt für die richtigen Koordinaten nur eines Eckpunkts."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 2,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 4,
+            "desc": "Ein Punkt für das richtige Ermitteln der Koordinaten beider Eckpunkte, ein halber Punkt für die richtigen Koordinaten nur eines Eckpunkts.",
             "points": 1
           }
         ]

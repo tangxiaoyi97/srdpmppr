@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,197 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_351a",
+          "id": "1_351",
           "baseId": "1_351",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/62/Binomialverteilung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Rechtecksflächen für "
+            },
+            {
+              "t": "math",
+              "v": "k=4"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "k=5"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "k=6"
+            },
+            {
+              "t": "text",
+              "v": ", also "
+            },
+            {
+              "t": "math",
+              "v": "P(X>3)"
+            },
+            {
+              "t": "text",
+              "v": ", sind zu kennzeichnen."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-23-solution.png",
+              "alt": "Originale Lösung: Säulen für k = 4, 5 und 6 farbig hervorgehoben."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Jede Lösung, die den Bereich P(X > 3) farbig hervorhebt oder deutlich kennzeichnet, ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Schraffieren Sie diejenigen Rechtecksflächen, die "
+        },
+        {
+          "t": "math",
+          "v": "P(X>\\mu)"
+        },
+        {
+          "t": "text",
+          "v": " veranschaulichen!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-23-distribution.png",
+          "alt": "Vollständiges originales Säulendiagramm der Binomialverteilung mit n = 6 und p = 0,5."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Rechtecksflächen für "
+          },
+          {
+            "t": "math",
+            "v": "k=4"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "k=5"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "k=6"
+          },
+          {
+            "t": "text",
+            "v": ", also "
+          },
+          {
+            "t": "math",
+            "v": "P(X>3)"
+          },
+          {
+            "t": "text",
+            "v": ", sind zu kennzeichnen."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_351",
       "baseId": "1_351",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/62/Binomialverteilung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der untenstehenden Abbildung ist die Wahrscheinlichkeitsverteilung einer binomialverteilten Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " mit den Parametern "
+    },
+    {
+      "t": "math",
+      "v": "n=6"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "p=0{,}5"
+    },
+    {
+      "t": "text",
+      "v": " durch ein Säulendiagramm (Säulenbreite = 1) dargestellt. "
+    },
+    {
+      "t": "math",
+      "v": "\\mu"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet den Erwartungswert von "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

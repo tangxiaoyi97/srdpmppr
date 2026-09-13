@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -87,7 +87,7 @@
     {
       "id": "2022-wt-t2-01-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 1.1",
@@ -107,6 +107,14 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "In der nachstehenden Tabelle ist für das Jahr 2000 und für das Jahr 2015 jeweils die durchschnittliche Dauer der Krankenstände in Tagen angegeben.\n\nJahr | durchschnittliche Dauer der Krankenstände in Tagen\n2000 | 12,6\n2015 | 9,9\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Es wird folgende Berechnung durchgeführt:"
@@ -233,6 +241,14 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Aus langjähriger Erfahrung ist bekannt, dass im Winter der Angestellte A mit einer Wahrscheinlichkeit von 20 % und der Angestellte B mit einer Wahrscheinlichkeit von 30 % erkrankt.\n\nDabei wird modellhaft angenommen, dass alle Erkrankungen unabhängig voneinander erfolgen.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Berechnen Sie die Wahrscheinlichkeit, dass der Angestellte A in höchstens 1 von 5 Wintern erkrankt."
         }
       ],
@@ -244,7 +260,7 @@
             "id": "P",
             "label": "P(X ≤ 1)",
             "value": 0.73728,
-            "tol": 0.00001
+            "tol": 1e-09
           }
         ]
       },

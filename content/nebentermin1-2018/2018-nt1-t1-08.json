@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,148 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_645a",
+          "id": "1_645",
           "baseId": "1_645",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/370/Volumen%20eines%20Drehzylinders.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x=8"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Verdoppelt man den Radius "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " und die Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " eines Zylinders, so erhält man einen Zylinder, dessen Volumen "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-mal so groß wie jenes des ursprünglichen Zylinders ist.\nGeben Sie "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "value": 8,
+            "tol": 1e-09,
+            "label": "x"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_645",
       "baseId": "1_645",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/370/Volumen%20eines%20Drehzylinders.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Volumen eines Drehzylinders kann als Funktion "
+    },
+    {
+      "t": "math",
+      "v": "V"
+    },
+    {
+      "t": "text",
+      "v": " der beiden Größen "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " aufgefasst werden. Dabei ist "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " die Höhe des Zylinders und "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " der Radius der Grundfläche."
     }
   ]
 }

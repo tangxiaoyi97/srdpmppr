@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_833a",
+          "id": "1_833",
           "baseId": "1_833",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/626/ParameterdarstellungvonGeraden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -54,7 +54,7 @@
             },
             {
               "t": "math",
-              "v": "A=C+s\\cdot v+t\\cdot w"
+              "v": "A=C+s\\cdot \\vec{v}+t\\cdot \\vec{w}"
             },
             {
               "t": "text",
@@ -62,7 +62,7 @@
             },
             {
               "t": "math",
-              "v": "B=Q+t\\cdot w"
+              "v": "B=Q+t\\cdot \\vec{w}"
             },
             {
               "t": "text",
@@ -112,7 +112,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-04-q.png",
-          "alt": "Zwei Geraden g und h. Auf g die Punkte A, B, P und der Richtungsvektor v; auf h die Punkte B, C, Q und der Richtungsvektor w. A oben, darunter B (Schnittpunkt-nahe), C und Q links unten, P rechts unten."
+          "alt": "Zwei Geraden g und h schneiden sich in B. Auf g liegen A und P, auf h liegen C und Q. Die Richtungsvektoren v und w sind durch Pfeile gekennzeichnet."
         },
         {
           "t": "text",
@@ -140,7 +140,7 @@
         },
         {
           "t": "text",
-          "v": " so gewählt werden können, dass die jeweilige Aussage wahr ist."
+          "v": " so gewählt werden können, dass die jeweilige Aussage wahr ist. [2 aus 5]"
         }
       ],
       "answer": {
@@ -149,31 +149,31 @@
           [
             {
               "t": "math",
-              "v": "A=C+s\\cdot v+t\\cdot w"
+              "v": "A=C+s\\cdot \\vec{v}+t\\cdot \\vec{w}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "B=C+s\\cdot v"
+              "v": "B=C+s\\cdot \\vec{v}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "B=Q+t\\cdot w"
+              "v": "B=Q+t\\cdot \\vec{w}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "A=P+s\\cdot v+t\\cdot w"
+              "v": "A=P+s\\cdot \\vec{v}+t\\cdot \\vec{w}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "C=P+t\\cdot w"
+              "v": "C=P+t\\cdot \\vec{w}"
             }
           ]
         ],

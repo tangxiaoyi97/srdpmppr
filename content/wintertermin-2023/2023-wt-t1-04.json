@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t1-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1247a",
+          "id": "1_1247",
           "baseId": "1_1247",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/802/1_1247_srdp_ma_Teilungspunkt%20einer%20Rechteckseite_PT3_22.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -68,22 +68,55 @@
         {
           "t": "text",
           "v": "Ermitteln Sie r und s."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "r="
+        },
+        {
+          "t": "text",
+          "v": " ______\n"
+        },
+        {
+          "t": "math",
+          "v": "s="
+        },
+        {
+          "t": "text",
+          "v": " ______"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "r",
-            "label": "r",
-            "value": 0.25,
-            "tol": 1e-9
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "s",
-            "label": "s",
-            "value": -1,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "r = \\tfrac{1}{4}"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "s = -1"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln von r und s, ein halber Punkt für nur einen richtigen Wert."
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,110 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_632a",
+          "id": "1_632",
           "baseId": "1_632",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/353/Haus%C3%BCbungen%20und%20Schularbeit.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Schülerin mit der geringsten Punkteanzahl bei der Schularbeit hat die wenigsten Hausübungen abgegeben.\nSchülerinnen mit mindestens 10 abgegebenen Hausübungen haben bei der Schularbeit im Durchschnitt mehr Punkte erzielt als jene mit weniger als 10 abgegebenen Hausübungen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei der nachstehenden fünf Aussagen interpretieren das dargestellte Punktwolkendiagramm korrekt. Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Nur Schülerinnen, die mehr als 10 Hausübungen abgegeben haben, konnten mehr als 35 Punkte bei der Schularbeit erzielen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Schülerin mit der geringsten Punkteanzahl bei der Schularbeit hat die wenigsten Hausübungen abgegeben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Schülerin mit den meisten Punkten bei der Schularbeit hat alle Hausübungen abgegeben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Schülerinnen mit mindestens 10 abgegebenen Hausübungen haben bei der Schularbeit im Durchschnitt mehr Punkte erzielt als jene mit weniger als 10 abgegebenen Hausübungen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Aus der Anzahl der bei der Schularbeit erreichten Punkte kann man eindeutig auf die Anzahl der abgegebenen Hausübungen schließen."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_632",
       "baseId": "1_632",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/353/Haus%C3%BCbungen%20und%20Schularbeit.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Klasse, in der ausschließlich Mädchen sind, waren bis zu einer Schularbeit 15 Hausübungen abzugeben. Bei der Schularbeit waren maximal 48 Punkte zu erreichen.\n\nIm nachstehenden Punktwolkendiagramm werden für jede der insgesamt 20 Schülerinnen dieser Klasse die Anzahl der abgegebenen Hausübungen und die Anzahl der bei der Schularbeit erreichten Punkte dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-19-q.png",
+      "alt": "Punktwolkendiagramm für 20 Schülerinnen: abgegebene Hausübungen und erreichte Schularbeitspunkte."
     }
   ]
 }

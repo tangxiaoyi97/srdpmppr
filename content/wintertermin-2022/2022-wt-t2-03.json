@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -54,6 +54,22 @@
         {
           "t": "text",
           "v": "Häufig werden bei Flügen nicht alle verkauften Tickets in Anspruch genommen. Daher werden üblicherweise mehr Tickets verkauft, als Plätze zur Verfügung stehen.\nDie Wahrscheinlichkeit, dass eine Person (unabhängig von den anderen Personen) ihr Ticket in Anspruch nimmt, beträgt 90 %.\nFür einen bestimmten Flug werden 6 % mehr Tickets verkauft, als Plätze zur Verfügung stehen.\n\nEs stehen m Plätze zur Verfügung.\nEs werden n Tickets verkauft.\nBei n verkauften Tickets beträgt der Erwartungswert für die in Anspruch genommenen Tickets 477.\n\nBerechnen Sie n und m."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "n = \\underline{\\hspace{2cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "m = \\underline{\\hspace{2cm}}"
         }
       ],
       "figures": [],
@@ -64,13 +80,13 @@
             "id": "n",
             "label": "n",
             "value": 530,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "m",
             "label": "m",
             "value": 500,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -102,7 +118,7 @@
     {
       "id": "2022-wt-t2-03-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.2",
@@ -124,18 +140,45 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Häufig werden bei Flügen nicht alle verkauften Tickets in Anspruch genommen. Daher werden üblicherweise mehr Tickets verkauft, als Plätze zur Verfügung stehen.\nDie Wahrscheinlichkeit, dass eine Person (unabhängig von den anderen Personen) ihr Ticket in Anspruch nimmt, beträgt 90 %.\nFür einen bestimmten Flug werden 6 % mehr Tickets verkauft, als Plätze zur Verfügung stehen.\n\nEs stehen m Plätze zur Verfügung.\nEs werden n Tickets verkauft.\nBei n verkauften Tickets beträgt der Erwartungswert für die in Anspruch genommenen Tickets 477.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Folgendes Ereignis E wird betrachtet:\nE ... „für mindestens 1 Person, die ihr Ticket in Anspruch nehmen möchte, steht kein Platz zur Verfügung“\n\nBerechnen Sie die Wahrscheinlichkeit P(E)."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "PE",
-            "label": "P(E)",
-            "value": 0.00012,
-            "tol": 0.0001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "X ... Anzahl der Personen, die ihr Ticket in Anspruch nehmen. Die Zufallsvariable X ist binomialverteilt mit den Parametern n = 530 und p = 0,9.\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X \\ge 501) = 0{,}00012\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(E) = P(X \\ge 501) = 0{,}00012\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
         ]
       },
@@ -195,23 +238,45 @@
         },
         {
           "t": "math",
-          "v": "V(s) = 4 + \\left(\\dfrac{128\\,000}{s} - 41\\right) \\cdot \\dfrac{1\\,000}{s} \\cdot e^{\\frac{s}{-4\\,000}} \\quad \\text{mit}\\ 2\\,000 \\le s \\le 10\\,000"
+          "v": "V(s)=4+\\left(\\frac{s}{128\\,000}-\\frac{1}{4}\\right)\\cdot\\frac{s}{1\\,000}\\cdot e^{-\\frac{s}{4\\,000}}\\quad\\text{mit }2\\,000\\le s\\le10\\,000"
         },
         {
           "t": "text",
-          "v": "s ... Flugdistanz in km\nV(s) ... Treibstoffverbrauch bei der Flugdistanz s in Litern pro Fluggast pro 100 km\n\nErmitteln Sie diejenige Flugdistanz d (in km), bei der der Treibstoffverbrauch am geringsten ist."
+          "v": "s ... Flugdistanz in km\nV(s) ... Treibstoffverbrauch bei der Flugdistanz s in Litern pro Fluggast pro 100 km\n\nErmitteln Sie die Flugdistanz d (in km), bei der der Treibstoffverbrauch am geringsten ist."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "d",
-            "label": "d",
-            "value": 3507.5,
-            "tol": 1,
-            "unit": "km"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "V'(d) = 0"
+          },
+          {
+            "t": "text",
+            "v": "  "
+          },
+          {
+            "t": "math",
+            "v": "(V''(3\\,507{,}5\\ldots) > 0)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "d = 3\\,507{,}5\\ldots\\ \\text{km}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Ermitteln der Flugdistanz d."
           }
         ]
       },
@@ -271,19 +336,61 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Für einen bestimmten Flug eines voll besetzten Flugzeugs kann der Zusammenhang zwischen der Flugdistanz s und dem Treibstoffverbrauch V(s) näherungsweise durch die Funktion V: [2 000; 10 000] → ℝ⁺ beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "V(s)=4+\\left(\\frac{s}{128\\,000}-\\frac{1}{4}\\right)\\cdot\\frac{s}{1\\,000}\\cdot e^{-\\frac{s}{4\\,000}}\\quad\\text{mit }2\\,000\\le s\\le10\\,000"
+        },
+        {
+          "t": "text",
+          "v": "s ... Flugdistanz in km\nV(s) ... Treibstoffverbrauch bei der Flugdistanz s in Litern pro Fluggast pro 100 km\n\nErmitteln Sie die Flugdistanz d (in km), bei der der Treibstoffverbrauch am geringsten ist."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Berechnen Sie die Menge an Treibstoff (in L), die dieses Flugzeug für die Flugdistanz d benötigt, wenn es mit 271 Fluggästen voll besetzt ist."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "menge",
-            "label": "Treibstoffmenge",
-            "value": 34934,
-            "tol": 50,
-            "unit": "L"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "V(3\\,507{,}5\\ldots) = 3{,}67\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "3{,}67\\ldots \\cdot 271 \\cdot 35{,}0\\ldots = 34\\,934{,}1\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die benötigte Menge an Treibstoff beträgt rund 34 934 L."
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Berechnen der benötigten Menge an Treibstoff."
           }
         ]
       },

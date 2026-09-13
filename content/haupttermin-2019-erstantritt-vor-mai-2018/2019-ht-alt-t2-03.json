@@ -1,0 +1,842 @@
+{
+  "id": "2019-ht-alt-t2-03",
+  "schemaVersion": 3,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019-erstantritt-vor-mai-2018",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2019h1-alt]t2-3.pdf"
+  },
+  "title": "Vornamen in Österreich",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019-erstantritt-vor-mai-2018/[2019h1-alt]t2-3.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019-erstantritt-vor-mai-2018/lo/[2019h1-alt]t2-3.pdf"
+  },
+  "figures": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Seit Jahrzehnten erhebt die Statistik Austria, das statistische Amt der Republik Österreich, die Vornamen, die Eltern ihren Kindern geben. Dabei betrachtet das Amt nur den ersten Vornamen (falls ein Kind mehrere Vornamen hat). Außerdem werden gewisse gleichlautende oder von der gleichen Herkunft stammende Vornamen wie etwa Sophie, Sofie und Sofia zu einem Vornamen zusammengefasst.\n\nSeit vielen Jahren zählen Anna und Lukas zu den beliebtesten Vornamen. Von den im Jahr 2015 geborenen Kindern (40 777 Mädchen, 43 604 Buben) erhielten 2 144 Mädchen den Vornamen Anna und 1 511 Buben den Vornamen Lukas."
+    }
+  ],
+  "parts": [
+    {
+      "competencies": [
+        {
+          "code": "WS 3.2",
+          "source": "printed",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "code": "WS 2.3",
+          "source": "printed",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für eine statistische Erhebung werden 30 Mädchen und 30 Buben aus dem Geburtenjahrgang 2015 nach dem Zufallsprinzip ausgewählt.\nⒶ Berechnen Sie die Wahrscheinlichkeit, dass in dieser Stichprobe mindestens ein Mädchen Anna heißt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\nZufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " … Anzahl der Mädchen mit dem Vornamen Anna\nAufgrund der großen Grundgesamtheit kann die Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " als binomialverteilt angenähert werden.\n"
+          },
+          {
+            "t": "math",
+            "v": "n=30"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p=\\frac{2\\,144}{40\\,777}\\approx0{,}0526"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\ge1)=1-P(X=0)=1-\\left(1-\\frac{2\\,144}{40\\,777}\\right)^{30}\\approx0{,}80217"
+          },
+          {
+            "t": "text",
+            "v": "\n(Ergebnis bei Verwendung der hypergeometrischen Verteilung: ≈0,80229)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,80; 0,81]\nGrundkompetenz: WS 3.2 (oder WS 2.3 bei der Verwendung der hypergeometrischen Verteilung)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nZufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " … Anzahl der Mädchen mit dem Vornamen Anna\nAufgrund der großen Grundgesamtheit kann die Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " als binomialverteilt angenähert werden.\n"
+            },
+            {
+              "t": "math",
+              "v": "n=30"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "p=\\frac{2\\,144}{40\\,777}\\approx0{,}0526"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\ge1)=1-P(X=0)=1-\\left(1-\\frac{2\\,144}{40\\,777}\\right)^{30}\\approx0{,}80217"
+            },
+            {
+              "t": "text",
+              "v": "\n(Ergebnis bei Verwendung der hypergeometrischen Verteilung: ≈0,80229)"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,80; 0,81]\nGrundkompetenz: WS 3.2 (oder WS 2.3 bei der Verwendung der hypergeometrischen Verteilung)"
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für eine statistische Erhebung werden 30 Mädchen und 30 Buben aus dem Geburtenjahrgang 2015 nach dem Zufallsprinzip ausgewählt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass in dieser Stichprobe mindestens ein Mädchen Anna und mindestens ein Bub Lukas heißt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\left(1-\\left(1-\\frac{2\\,144}{40\\,777}\\right)^{30}\\right)\\cdot\\left(1-\\left(1-\\frac{1\\,511}{43\\,604}\\right)^{30}\\right)\\approx0{,}52370"
+          },
+          {
+            "t": "text",
+            "v": "\n(Ergebnis bei Verwendung der hypergeometrischen Verteilung: ≈0,52388)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,52; 0,53]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\left(1-\\left(1-\\frac{2\\,144}{40\\,777}\\right)^{30}\\right)\\cdot\\left(1-\\left(1-\\frac{1\\,511}{43\\,604}\\right)^{30}\\right)\\approx0{,}52370"
+            },
+            {
+              "t": "text",
+              "v": "\n(Ergebnis bei Verwendung der hypergeometrischen Verteilung: ≈0,52388)"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,52; 0,53]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 1995 betrug der relative Anteil der zehn beliebtesten Vornamen für Buben 37,07 %. Im Jahr 2005 lag er bei 24,28 %. Im Jahr 2015 betrug er 20,91 %.\n\nDiese Entwicklung des relativen Anteils der zehn beliebtesten Vornamen für Buben wird mit einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " modelliert mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=0{,}000471\\cdot t^2+b\\cdot t+0{,}3707"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "b\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ". Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die Anzahl der Jahre ab 1995 an.\n\nBestimmen Sie "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und geben Sie eine Funktionsgleichung von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(10)=0{,}2428\\Rightarrow0{,}0471+10\\cdot b+0{,}3707=0{,}2428"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "b=-0{,}0175"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f(t)=0{,}000471\\cdot t^2-0{,}0175\\cdot t+0{,}3707"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten.\nToleranzintervall für a: [0,0004; 0,0005]\nToleranzintervall für b: [−0,02; −0,01]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(10)=0{,}2428\\Rightarrow0{,}0471+10\\cdot b+0{,}3707=0{,}2428"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b=-0{,}0175"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f(t)=0{,}000471\\cdot t^2-0{,}0175\\cdot t+0{,}3707"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten.\nToleranzintervall für a: [0,0004; 0,0005]\nToleranzintervall für b: [−0,02; −0,01]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 1995 betrug der relative Anteil der zehn beliebtesten Vornamen für Buben 37,07 %. Im Jahr 2005 lag er bei 24,28 %. Im Jahr 2015 betrug er 20,91 %.\n\nDiese Entwicklung des relativen Anteils der zehn beliebtesten Vornamen für Buben wird mit einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " modelliert mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=0{,}000471\\cdot t^2+b\\cdot t+0{,}3707"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "b\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ". Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die Anzahl der Jahre ab 1995 an."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "In welchem Jahr unterschreitet der relative Anteil der zehn beliebtesten Vornamen für Buben in diesem Modell zum ersten Mal ein Drittel?\nGeben Sie die entsprechende Jahreszahl an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(t)=\\frac13\\Rightarrow t_1\\approx2{,}274"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "t_2\\approx34{,}88"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " ist positiv gekrümmt "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow t>2{,}274"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Bei dieser Modellierung unterschreitet der relative Anteil der zehn beliebtesten Bubennamen zum ersten Mal im Jahr 1998 ein Drittel."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Angabe der Jahreszahl je nach Rundung des Koeffizienten b variieren kann.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei dieser Modellierung unterschreitet der relative Anteil der zehn beliebtesten Bubennamen zum ersten Mal im Jahr 1998 ein Drittel."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Angabe der Jahreszahl je nach Rundung des Koeffizienten b variieren kann.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(t)=\\frac13\\Rightarrow t_1\\approx2{,}274"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "t_2\\approx34{,}88"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist positiv gekrümmt "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow t>2{,}274"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " modelliert die Anzahl der im Jahr 2015 in Oberösterreich geborenen Mädchen, die den Vornamen Anna erhielten. Diese wird binomialverteilt mit den Parametern "
+        },
+        {
+          "t": "math",
+          "v": "n=7\\,041"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "p=0{,}0526"
+        },
+        {
+          "t": "text",
+          "v": " angenommen.\n\nBerechnen Sie den Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "\\mu"
+        },
+        {
+          "t": "text",
+          "v": " und die Standardabweichung "
+        },
+        {
+          "t": "math",
+          "v": "\\sigma"
+        },
+        {
+          "t": "text",
+          "v": " dieser Zufallsvariablen "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\mu\\approx\\underline{\\hspace{6cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\sigma\\approx\\underline{\\hspace{6cm}}"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\mu\\approx370{,}4"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sigma\\approx18{,}7"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der beiden richtigen Werte.\nToleranzintervalle: [370; 371] bzw. [18; 19]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\mu\\approx370{,}4"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\sigma\\approx18{,}7"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte.\nToleranzintervalle: [370; 371] bzw. [18; 19]"
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " modelliert die Anzahl der im Jahr 2015 in Oberösterreich geborenen Mädchen, die den Vornamen Anna erhielten. Diese wird binomialverteilt mit den Parametern "
+        },
+        {
+          "t": "math",
+          "v": "n=7\\,041"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "p=0{,}0526"
+        },
+        {
+          "t": "text",
+          "v": " angenommen."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Tatsächlich wurde für Mädchen der Vorname Anna im Jahr 2015 in allen neun Bundesländern am häufigsten gewählt, wobei der prozentuelle Anteil in Oberösterreich am größten war. In Oberösterreich wurden 7 041 Mädchen im Jahr 2015 geboren. Davon erhielten 494 den Vornamen Anna.\n\nEs gilt "
+        },
+        {
+          "t": "math",
+          "v": "494-\\mu=c\\cdot\\sigma"
+        },
+        {
+          "t": "text",
+          "v": " für ein "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": ".\nBerechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " und deuten Sie den Wert von "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c=\\frac{494-\\mu}{\\sigma}\\approx6{,}6"
+          },
+          {
+            "t": "text",
+            "v": "\n\nmögliche Deutung:*\nIn Oberösterreich weicht die Anzahl der im Jahr 2015 geborenen Mädchen, die den Vornamen Anna erhielten, um mehr als 6 Standardabweichungen vom Erwartungswert "
+          },
+          {
+            "t": "math",
+            "v": "\\mu"
+          },
+          {
+            "t": "text",
+            "v": " ab. Damit weicht diese Anzahl signifikant von "
+          },
+          {
+            "t": "math",
+            "v": "\\mu"
+          },
+          {
+            "t": "text",
+            "v": " ab.\n\n* Aktualisiert am 27. Mai 2019."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine richtige Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c=\\frac{494-\\mu}{\\sigma}\\approx6{,}6"
+            },
+            {
+              "t": "text",
+              "v": "\n\nmögliche Deutung:*\nIn Oberösterreich weicht die Anzahl der im Jahr 2015 geborenen Mädchen, die den Vornamen Anna erhielten, um mehr als 6 Standardabweichungen vom Erwartungswert "
+            },
+            {
+              "t": "math",
+              "v": "\\mu"
+            },
+            {
+              "t": "text",
+              "v": " ab. Damit weicht diese Anzahl signifikant von "
+            },
+            {
+              "t": "math",
+              "v": "\\mu"
+            },
+            {
+              "t": "text",
+              "v": " ab.\n\n* Aktualisiert am 27. Mai 2019."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine richtige Deutung."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 27 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=32",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
+}

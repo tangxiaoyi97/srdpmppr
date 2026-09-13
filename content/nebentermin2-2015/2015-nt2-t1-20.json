@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,146 @@
     {
       "id": "2015-nt2-t1-20-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (1 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_378 (offiziell adaptierte Fassung)",
+          "baseId": "1_378",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/86/AenderungStatistischerKennzahlen.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Antwortmöglichkeit angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche statistischen Kennzahlen der Liste werden durch die genannten Änderungen in keinem Fall verändert? Kreuzen Sie die entsprechende(n) statistische(n) Kennzahl(en) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Median"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Modus"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Spannweite"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Standardabweichung"
+            }
+          ]
+        ],
+        "correct": [
+          0
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=24",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_378 (offiziell adaptierte Fassung)",
+      "baseId": "1_378",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/86/AenderungStatistischerKennzahlen.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine geordnete Liste mit neun Werten "
+    },
+    {
+      "t": "math",
+      "v": "a_1,a_2,\\ldots,a_9"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDer Wert "
+    },
+    {
+      "t": "math",
+      "v": "a_1"
+    },
+    {
+      "t": "text",
+      "v": " wird um 5 vergrößert, der Wert "
+    },
+    {
+      "t": "math",
+      "v": "a_9"
+    },
+    {
+      "t": "text",
+      "v": " wird um 5 verkleinert, die restlichen Werte der Liste bleiben unverändert. Durch die Abänderung der beiden Werte "
+    },
+    {
+      "t": "math",
+      "v": "a_1"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a_9"
+    },
+    {
+      "t": "text",
+      "v": " kann sich eine neue, nicht geordnete Liste ergeben."
+    }
+  ]
 }

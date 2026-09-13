@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -22,14 +22,849 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt1-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt1-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel an, mit der die Anzahl der Atomkerne "
+        },
+        {
+          "t": "math",
+          "v": "N_0"
+        },
+        {
+          "t": "text",
+          "v": " aus der gemessenen Aktivität "
+        },
+        {
+          "t": "math",
+          "v": "A_0"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "expression",
+        "canonical": "A_0/lambda",
+        "vars": [
+          "A_0",
+          "lambda"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "A(t)=|N'(t)|=\\lambda\\cdot N_0\\cdot e^{-\\lambda\\cdot t}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "A_0=\\lambda\\cdot N_0"
+            },
+            {
+              "t": "text",
+              "v": ", also "
+            },
+            {
+              "t": "math",
+              "v": "N_0=\\dfrac{A_0}{\\lambda}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Probe von "
+        },
+        {
+          "t": "math",
+          "v": "^{238}\\mathrm{U}"
+        },
+        {
+          "t": "text",
+          "v": " (Uran-238) hat zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " eine Aktivität von 17 Bq. Die Zerfallskonstante von "
+        },
+        {
+          "t": "math",
+          "v": "^{238}\\mathrm{U}"
+        },
+        {
+          "t": "text",
+          "v": " hat den Wert "
+        },
+        {
+          "t": "math",
+          "v": "\\lambda\\approx4{,}92\\cdot10^{-18}"
+        },
+        {
+          "t": "text",
+          "v": " pro Sekunde.\nBestimmen Sie die Anzahl der "
+        },
+        {
+          "t": "math",
+          "v": "^{238}\\mathrm{U}"
+        },
+        {
+          "t": "text",
+          "v": "-Atomkerne zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " in der Probe!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "N_0\\approx3{,}46\\cdot10^{18}"
+          },
+          {
+            "t": "text",
+            "v": " Atomkerne; jede Zahl im Toleranzintervall "
+          },
+          {
+            "t": "math",
+            "v": "[3{,}4\\cdot10^{18};3{,}5\\cdot10^{18}]"
+          },
+          {
+            "t": "text",
+            "v": " ist richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N_0=\\dfrac{A_0}{\\lambda}=\\dfrac{17}{4{,}92\\cdot10^{-18}}\\approx3{,}46\\cdot10^{18}"
+            },
+            {
+              "t": "text",
+              "v": ". Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=0"
+            },
+            {
+              "t": "text",
+              "v": " befinden sich ca. "
+            },
+            {
+              "t": "math",
+              "v": "3{,}46\\cdot10^{18}"
+            },
+            {
+              "t": "text",
+              "v": " Atomkerne von "
+            },
+            {
+              "t": "math",
+              "v": "^{238}\\mathrm{U}"
+            },
+            {
+              "t": "text",
+              "v": " in der Probe."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [3,4 · 10^18 Atomkerne; 3,5 · 10^18 Atomkerne]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mithilfe des Anteils des in einer Probe enthaltenen Kohlenstoffisotops "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": " kann das Alter der Probe ermittelt werden. Durch den Stoffwechsel hat sich zwischen der Bildung und dem radioaktiven Zerfall des Isotops sowohl in der Atmosphäre als auch in lebenden Organismen eine Gleichgewichtskonzentration von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": " bzw. eine Aktivität von ca. 0,267 Bq pro Gramm Kohlenstoff eingestellt. Mit dem Absterben eines Organismus (z. B. eines Baumes) endet die Aufnahme von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": ". Der "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": "-Anteil nimmt ab diesem Zeitpunkt exponentiell (mit der Zerfallskonstante "
+        },
+        {
+          "t": "math",
+          "v": "\\lambda\\approx1{,}21\\cdot10^{-4}"
+        },
+        {
+          "t": "text",
+          "v": " pro Jahr) ab und damit nimmt auch die Aktivität exponentiell ab.\n\nEin Fundstück aus Holz hat einen Kohlenstoffanteil von 25 Gramm und eine Aktivität von ca. 4 Bq. Geben Sie an, vor wie vielen Jahren dieses Holz abgestorben ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 4232 Jahre; Toleranzintervall [4225 Jahre; 4240 Jahre]. Auch ein korrekter Ansatz mit Rechenfehler ist richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: lebender Organismus: "
+            },
+            {
+              "t": "math",
+              "v": "A_0=25\\cdot0{,}267=6{,}675"
+            },
+            {
+              "t": "text",
+              "v": " Bq für 25 g Kohlenstoff; "
+            },
+            {
+              "t": "math",
+              "v": "4=6{,}675\\cdot e^{-1{,}21\\cdot10^{-4}\\cdot t}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "t\\approx4232"
+            },
+            {
+              "t": "text",
+              "v": " Jahre."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [4225 Jahre; 4240 Jahre]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mithilfe des Anteils des in einer Probe enthaltenen Kohlenstoffisotops "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": " kann das Alter der Probe ermittelt werden. Durch den Stoffwechsel hat sich zwischen der Bildung und dem radioaktiven Zerfall des Isotops sowohl in der Atmosphäre als auch in lebenden Organismen eine Gleichgewichtskonzentration von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": " bzw. eine Aktivität von ca. 0,267 Bq pro Gramm Kohlenstoff eingestellt. Mit dem Absterben eines Organismus (z. B. eines Baumes) endet die Aufnahme von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": ". Der "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": "-Anteil nimmt ab diesem Zeitpunkt exponentiell (mit der Zerfallskonstante "
+        },
+        {
+          "t": "math",
+          "v": "\\lambda\\approx1{,}21\\cdot10^{-4}"
+        },
+        {
+          "t": "text",
+          "v": " pro Jahr) ab und damit nimmt auch die Aktivität exponentiell ab.\n\nEin Fundstück aus Holz hat einen Kohlenstoffanteil von 25 Gramm und eine Aktivität von ca. 4 Bq. "
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob zum Zeitpunkt des Fundes mehr oder weniger als die Hälfte der ursprünglich vorhandenen "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm{C}"
+        },
+        {
+          "t": "text",
+          "v": "-Atomkerne zerfallen ist, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Weniger als die Hälfte. Korrekte Begründung über "
+          },
+          {
+            "t": "math",
+            "v": "\\tau\\approx5730"
+          },
+          {
+            "t": "text",
+            "v": " Jahre > 4232 Jahre oder über die Aktivität (4 Bq > 6,675 Bq/2)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "\\tau"
+            },
+            {
+              "t": "text",
+              "v": " … Halbwertszeit. "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{N_0}{2}=N_0\\cdot e^{-\\lambda\\cdot\\tau}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\ln(2)=\\lambda\\cdot\\tau"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\tau=\\dfrac{\\ln(2)}{\\lambda}\\approx5730"
+            },
+            {
+              "t": "text",
+              "v": ".\nZum Zeitpunkt des Fundes sind weniger als die Hälfte der ursprünglich vorhandenen Atomkerne zerfallen, da die Halbwertszeit von "
+            },
+            {
+              "t": "math",
+              "v": "^{14}\\mathrm{C}"
+            },
+            {
+              "t": "text",
+              "v": " ca. 5730 Jahre beträgt, das Holz aber erst vor ca. 4232 Jahren abgestorben ist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung dafür, dass weniger als die Hälfte der ursprünglich vorhandenen ¹⁴C-Atomkerne zerfallen sind. Andere korrekte Begründungen (z. B. über das Absinken der Aktivität) sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "N"
+        },
+        {
+          "t": "text",
+          "v": " kann auch in der Form "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=N_0\\cdot0{,}5^{\\frac{t}{c}}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " angegeben werden.\n\nⒶ Geben Sie an, welcher Zusammenhang zwischen der Konstanten "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " und der Halbwertszeit "
+        },
+        {
+          "t": "math",
+          "v": "\\tau"
+        },
+        {
+          "t": "text",
+          "v": " eines radioaktiven Stoffes besteht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c=\\tau"
+          },
+          {
+            "t": "text",
+            "v": ": Die Konstante c entspricht der Halbwertszeit."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac12=\\dfrac{N(\\tau)}{N_0}=\\dfrac{N_0\\cdot0{,}5^{\\frac{\\tau}{c}}}{N_0}=0{,}5^{\\frac{\\tau}{c}}\\iff\\dfrac{\\tau}{c}=1\\iff\\tau=c"
+            },
+            {
+              "t": "text",
+              "v": ". Die Konstante "
+            },
+            {
+              "t": "math",
+              "v": "c"
+            },
+            {
+              "t": "text",
+              "v": " entspricht der Halbwertszeit eines radioaktiven Stoffes."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe des richtigen Zusammenhangs."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der unten stehenden Abbildung ist der Graph einer Funktion "
+        },
+        {
+          "t": "math",
+          "v": "N"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=N_0\\cdot0{,}5^{\\frac{t}{c}}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt.\nZeichnen Sie den Verlauf des Graphen einer Funktion "
+        },
+        {
+          "t": "math",
+          "v": "N_{\\mathrm{neu}}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N_{\\mathrm{neu}}(t)=N_0\\cdot0{,}5^{\\frac{t}{c_{\\mathrm{neu}}}}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c_{\\mathrm{neu}}\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " in diese Abbildung ein, wenn "
+        },
+        {
+          "t": "math",
+          "v": "c_{\\mathrm{neu}}<c"
+        },
+        {
+          "t": "text",
+          "v": " gelten soll!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-01-c-graph.png",
+          "alt": "Graph der exponentiell abnehmenden Funktion N mit Anfangswert N₀"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der skizzierte Graph muss den Punkt (0|N₀) enthalten, zwischen dem Graphen von N und der Zeitachse liegen und als Graph einer (streng) monoton fallenden linksgekrümmten Funktion erkennbar sein."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Verlauf:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-01-c-solution.png",
+              "alt": "Nneu beginnt bei N₀ und fällt unterhalb von N gegen null"
+            }
+          ],
+          "note": "Ein Punkt für das Einzeichnen eines korrekten Verlaufs des Graphen einer möglichen Funktion Nneu. Der skizzierte Graph muss den Punkt (0|N₀) enthalten, zwischen dem Graphen der Funktion N und der Zeitachse liegen und als Graph einer (streng) monoton fallenden linksgekrümmten Funktion erkennbar sein."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Zerfall eines radioaktiven Stoffes nimmt die Anzahl der noch nicht zerfallenen Atomkerne exponentiell ab und lässt sich näherungsweise durch eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot e^{-\\lambda\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": " beschreiben. Dabei ist "
+    },
+    {
+      "t": "math",
+      "v": "N_0"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der Atomkerne zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "N(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der noch nicht zerfallenen Atomkerne zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t\\geq0"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\lambda"
+    },
+    {
+      "t": "text",
+      "v": " die sogenannte Zerfallskonstante.\n\nDie Aktivität "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " ist der Absolutbetrag der momentanen Änderungsrate der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": ". Sie wird in Becquerel (Bq) gemessen. Eine Aktivität von 1 Bq entspricht einem radioaktiven Zerfall pro Sekunde.\n\nBei radioaktiven Stoffen nimmt die Aktivität ebenfalls exponentiell ab und kann durch eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "A(t)=A_0\\cdot e^{-\\lambda\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": " modelliert werden. Dabei ist "
+    },
+    {
+      "t": "math",
+      "v": "A_0"
+    },
+    {
+      "t": "text",
+      "v": " die Aktivität zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Aktivität zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t\\geq0"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

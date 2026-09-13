@@ -1,6 +1,6 @@
 {
   "id": "2019-nt1-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_730a",
+          "id": "1_730",
           "baseId": "1_730",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/469/Ziehungswahrscheinlichkeit.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -62,24 +62,40 @@
           "v": "Geben Sie die Wahrscheinlichkeit p an."
         },
         {
+          "t": "text",
+          "v": "\n"
+        },
+        {
           "t": "math",
           "v": "p="
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.4,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p=\\tfrac{2}{5}\\cdot\\tfrac{1}{4}+\\tfrac{3}{5}\\cdot\\tfrac{1}{2}=\\tfrac{2}{5}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -22,14 +22,880 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-ht-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Konstruktionsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " ist symmetrisch zur senkrechten Achse und schneidet die "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse an den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x_2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "x_1<x_2"
+        },
+        {
+          "t": "text",
+          "v": ". Es gilt "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{x_1}^{x_2}f(x)\\,dx=d"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "d\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nVeranschaulichen Sie den Wert "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe eines passenden Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im nachstehenden Koordinatensystem!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-01-a1-q.png",
+          "alt": "Leeres Koordinatensystem f(x), x für die Veranschaulichung des Integrals."
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Fläche zwischen den Nullstellen einer zur y-Achse symmetrischen, nach unten offenen Parabel ist als d zu kennzeichnen."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert "
+            },
+            {
+              "t": "math",
+              "v": "d"
+            },
+            {
+              "t": "text",
+              "v": " ist der Flächeninhalt unter der nach unten offenen Parabel zwischen den beiden Nullstellen."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-01-a1-sol.png",
+              "alt": "Nach unten offene, zur y-Achse symmetrische Parabel; Fläche d zwischen den Nullstellen."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Veranschaulichung des Wertes d, wobei der Graph von f klar erkennbar die Form einer achsensymmetrischen und nach unten offenen Parabel haben muss."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " ist symmetrisch zur senkrechten Achse und schneidet die "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse an den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x_2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "x_1<x_2"
+        },
+        {
+          "t": "text",
+          "v": ". Es gilt "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{x_1}^{x_2}f(x)\\,dx=d"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "d\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie für jeden der Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " dieser Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an, ob er positiv, negativ oder genau null sein muss!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a<0"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "b=0"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "c>0"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "c>0"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Bedingungen für die Koeffizienten a, b und c."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " hat einen Tiefpunkt und an den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x_1=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x_2>0"
+        },
+        {
+          "t": "text",
+          "v": " Schnittpunkte mit der "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse. Die Nullstelle "
+        },
+        {
+          "t": "math",
+          "v": "x_2"
+        },
+        {
+          "t": "text",
+          "v": " lässt sich mithilfe der Koeffizienten der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " berechnen. Stellen Sie eine entsprechende Formel auf!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "x_2=-\\frac ba"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Formeln sind richtig; a > 0 und b < 0 müssen nicht angeführt werden."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "g(x)=a\\cdot x^2+b\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot x^2+b\\cdot x=0\\Rightarrow(x_1=0),\\ x_2=-\\frac ba"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel, wobei die Bedingungen a > 0 und b < 0 nicht angeführt werden müssen. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " hat einen Tiefpunkt und an den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x_1=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "x_2>0"
+        },
+        {
+          "t": "text",
+          "v": " Schnittpunkte mit der "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse. "
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt mit der "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse eine endliche Fläche. Geben Sie ein bestimmtes Integral an, mit dessen Hilfe der Inhalt dieser endlichen Fläche berechnet werden kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\int_{-b/a}^{0}g(x)\\,dx"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "-\\int_0^{x_2}g(x)\\,dx"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Ausdrücke sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung des gesuchten Flächeninhalts: "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{-b/a}^{0}g(x)\\,dx"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n\n"
+            },
+            {
+              "t": "math",
+              "v": "-\\int_0^{x_2}g(x)\\,dx"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes bestimmtes Integral. Äquivalente Ausdrücke sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Konstruktionsformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für eine Stelle "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " ("
+        },
+        {
+          "t": "math",
+          "v": "k\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ") des Graphen einer quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " gelten die Bedingungen "
+        },
+        {
+          "t": "math",
+          "v": "h(k)=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h'(k)=0"
+        },
+        {
+          "t": "text",
+          "v": ".\nⒶ Skizzieren Sie einen möglichen Verlauf des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " und kennzeichnen Sie die Stelle "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " im nachstehenden Koordinatensystem!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-01-c1-q.png",
+          "alt": "Leeres Koordinatensystem h(x), x."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Ausgleichspunkt für eine korrekte Skizze eines entsprechenden Graphen von h. Der Graph von h muss die Form einer nach oben oder unten offenen Parabel haben und an der gekennzeichneten Stelle von k müssen die Nullstelle und (somit) die Extremstelle der Funktion h klar erkennbar sein, die Symmetrie bezüglich der Geraden x = k muss erkennbar sein."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Graph von "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": ": eine Parabel mit Scheitelpunkt "
+            },
+            {
+              "t": "math",
+              "v": "(k|0)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-01-c1-sol.png",
+              "alt": "Möglicher Graph von h: Parabel mit Scheitel und Nullstelle bei (k|0)."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Skizze eines entsprechenden Graphen von h. Der Graph von h muss die Form einer nach oben oder unten offenen Parabel haben und an der gekennzeichneten Stelle von k müssen die Nullstelle und (somit) die Extremstelle der Funktion h klar erkennbar sein, die Symmetrie bezüglich der Geraden x = k muss erkennbar sein."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie rechnerisch, dass eine Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " mit der Funktionsgleichung "
+        },
+        {
+          "t": "math",
+          "v": "h(x)=x^2-2\\cdot k\\cdot x+k^2"
+        },
+        {
+          "t": "text",
+          "v": " die Bedingungen "
+        },
+        {
+          "t": "math",
+          "v": "h(k)=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h'(k)=0"
+        },
+        {
+          "t": "text",
+          "v": " erfüllt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "h(k)=k^2-2\\cdot k^2+k^2=0\\Rightarrow h(k)=0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h'(x)=2\\cdot x-2\\cdot k"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h'(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h'(k)=0"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h(k)=k^2-2\\cdot k^2+k^2=0\\Rightarrow h(k)=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h'(x)=2\\cdot x-2\\cdot k"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h'(k)=2\\cdot k-2\\cdot k=0\\Rightarrow h'(k)=0"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis beider Bedingungen."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Betrachtet werden quadratische Funktionen der Form "
+    },
+    {
+      "t": "math",
+      "v": "x\\mapsto a\\cdot x^2+b\\cdot x+c"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": ". Die Wahl der Koeffizienten "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " beeinflusst verschiedene Eigenschaften wie Monotonie, Monotoniewechsel, Achsensymmetrie und Schnittpunkte mit den Achsen."
+    }
+  ]
 }

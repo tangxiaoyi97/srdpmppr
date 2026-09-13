@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,206 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_548a",
+          "id": "1_548",
           "baseId": "1_548",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/257/Wassermenge%20in%20einem%20Beh%C3%A4lter.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=6"
+            },
+            {
+              "t": "text",
+              "v": " befindet sich weniger Wasser im Behälter als zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=2"
+            },
+            {
+              "t": "text",
+              "v": ".\nIm Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "(6;8)"
+            },
+            {
+              "t": "text",
+              "v": " nimmt die Wassermenge im Behälter zu."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen über die Wassermenge im Behälter an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=6"
+            },
+            {
+              "t": "text",
+              "v": " befindet sich weniger Wasser im Behälter als zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "(6;8)"
+            },
+            {
+              "t": "text",
+              "v": " nimmt die Wassermenge im Behälter zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=2"
+            },
+            {
+              "t": "text",
+              "v": " befindet sich kein Wasser im Behälter."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "(0;2)"
+            },
+            {
+              "t": "text",
+              "v": " nimmt die Wassermenge im Behälter ab."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=4"
+            },
+            {
+              "t": "text",
+              "v": " befindet sich am wenigsten Wasser im Behälter."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_548",
       "baseId": "1_548",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/257/Wassermenge%20in%20einem%20Beh%C3%A4lter.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist die momentane Änderungsrate "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " der Wassermenge in einem Behälter (in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{m^3/h}"
+    },
+    {
+      "t": "text",
+      "v": ") in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-18-q.png",
+      "alt": "Momentane Änderungsrate R(t) in m³/h, positive Werte für 0 < t < 2 und 6 < t < 8, negative Werte für 2 < t < 6."
     }
   ]
 }

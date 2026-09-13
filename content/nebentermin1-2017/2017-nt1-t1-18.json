@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,142 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_583a",
+          "id": "1_583",
           "baseId": "1_583",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/292/Fl%C3%A4cheninhaltsberechnung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A=\\int_{-3}^{0}(f(x)-g(x))\\,dx+\\int_0^3(g(x)-f(x))\\,dx"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "A=\\int_{-3}^{0}(f(x)-g(x))\\,dx+\\left|\\int_0^3(f(x)-g(x))\\,dx\\right|"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Gleichungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Gleichungen geben den Inhalt "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " der (gesamten) grau markierten Fläche an? Kreuzen Sie die beiden zutreffenden Gleichungen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "A=\\left|\\int_{-3}^{3}(f(x)-g(x))\\,dx\\right|"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=2\\cdot\\int_0^3(g(x)-f(x))\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=\\int_{-3}^{0}(f(x)-g(x))\\,dx+\\int_0^3(g(x)-f(x))\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=\\left|\\int_{-3}^{0}(f(x)-g(x))\\,dx\\right|+\\int_0^3(f(x)-g(x))\\,dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "A=\\int_{-3}^{0}(f(x)-g(x))\\,dx+\\left|\\int_0^3(f(x)-g(x))\\,dx\\right|"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_583",
       "baseId": "1_583",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/292/Fl%C3%A4cheninhaltsberechnung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind die Graphen der Polynomfunktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Diese schneiden einander an den Stellen −3, 0 und 3 und begrenzen die beiden grau markierten Flächenstücke."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-18-q.png",
+      "alt": "Graphen f und g mit Schnittstellen −3, 0, 3 und zwei grau markierten Flächenstücken."
     }
   ]
 }

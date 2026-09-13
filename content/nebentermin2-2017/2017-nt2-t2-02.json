@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -22,14 +22,399 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt2-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt2-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Ausdrücke "
+        },
+        {
+          "t": "math",
+          "v": "4963-4269"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{4963-4269}{4269}"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Absolute bzw. relative Zunahme der Erkrankungen in der Woche vom 6. bis zum 13. September 2014; beide Ausdrücke richtig deuten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "4963-4269"
+            },
+            {
+              "t": "text",
+              "v": " gibt die absolute Zunahme der Erkrankungen in dieser Woche an.\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{4963-4269}{4269}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die relative Zunahme der Erkrankungen in dieser Woche an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung beider Ausdrücke."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Ausdrücke "
+        },
+        {
+          "t": "math",
+          "v": "4963-4269"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{4963-4269}{4269}"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Mithilfe dieser Ausdrücke kann auf Basis der Anzahl der Erkrankungen vom 6. September 2014 und vom 13. September 2014 die Anzahl der Erkrankungen vom 20. September 2014 vorhergesagt werden, wenn man ein lineares oder ein exponentielles Wachstumsmodell zugrunde legt.\nErmitteln Sie die Werte beider Wachstumsmodelle für den 20. September 2014, vergleichen Sie sie mit den tatsächlichen Daten und geben Sie an, welches der beiden Modelle zur Modellierung der Anzahl der Erkrankungen im betrachteten Zeitraum eher angemessen ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Linear 5657, exponentiell ca. 5770 (Toleranz [5450;5960]); exponentielles Modell eher angemessen, näher bei tatsächlichen 5843. Beide Werte und angemessene Modellierung erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "prognostizierte Erkrankungen für den 20. September 2014:\nlineares Modell: "
+            },
+            {
+              "t": "math",
+              "v": "4963+(4963-4269)=5657"
+            },
+            {
+              "t": "text",
+              "v": "\nexponentielles Modell: "
+            },
+            {
+              "t": "math",
+              "v": "4963\\cdot\\left(\\dfrac{4963-4269}{4269}+1\\right)\\approx5770"
+            },
+            {
+              "t": "text",
+              "v": "\nDas exponentielle Modell ist eher angemessen, da es näher beim tatsächlichen Wert von 5843 Erkrankungen liegt."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden korrekten Werte und die Angabe der entsprechenden angemessenen Modellierung. Toleranzintervall für den exponentiellen Wert: [5450; 5960]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mitte September 2014 zitierte die New York Times die Behauptung von Wissenschaftlern, die Epidemie könne 12 bis 18 Monate dauern; es könne allein bis Mitte Oktober 2014 bereits 20000 Infektionsfälle geben.\nDatenquelle: http://www.nytimes.com/2014/09/13/world/africa/us-scientists-see-long-fight-against-ebola.html [29.06.2016].\n\nDie zeitliche Entwicklung der Anzahl von Erkrankungsfällen bei einer Epidemie kann für einen beschränkten Zeitraum durch eine Exponentialfunktion beschrieben werden. Auf Basis der Anzahl der Erkrankten vom 6. September 2014 und vom 20. September 2014 soll die Anzahl der Erkrankungsfälle in Form einer Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot b^t"
+        },
+        {
+          "t": "text",
+          "v": " modelliert werden. Die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " wird dabei in Tagen ab dem 6. September 2014 gemessen, der Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " entspricht dem 6. September 2014.\n\nⒶ Geben Sie den Wert von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "b=\\sqrt[14]{5843/4269}\\approx1{,}0227"
+          },
+          {
+            "t": "text",
+            "v": ", Toleranz [1,02;1,03]. Korrekter Ansatz mit Rechenfehler ebenfalls richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "f(0)=4269"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "f(14)=5843=4269\\cdot b^{14}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "b=\\sqrt[14]{\\dfrac{5843}{4269}}\\approx1{,}0227"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [1,02; 1,03]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mitte September 2014 zitierte die New York Times die Behauptung von Wissenschaftlern, die Epidemie könne 12 bis 18 Monate dauern; es könne allein bis Mitte Oktober 2014 bereits 20000 Infektionsfälle geben.\nDatenquelle: http://www.nytimes.com/2014/09/13/world/africa/us-scientists-see-long-fight-against-ebola.html [29.06.2016].\n\nDie zeitliche Entwicklung der Anzahl von Erkrankungsfällen bei einer Epidemie kann für einen beschränkten Zeitraum durch eine Exponentialfunktion beschrieben werden. Auf Basis der Anzahl der Erkrankten vom 6. September 2014 und vom 20. September 2014 soll die Anzahl der Erkrankungsfälle in Form einer Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot b^t"
+        },
+        {
+          "t": "text",
+          "v": " modelliert werden. Die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " wird dabei in Tagen ab dem 6. September 2014 gemessen, der Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " entspricht dem 6. September 2014.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie, wie viele Tage nach dem 6. September 2014 die Anzahl der Erkrankten gemäß der Modellfunktion die Zahl 20000 überschreitet, und vergleichen Sie Ihr Resultat mit der Aussage der Wissenschaftler!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 69 Tage (Toleranz [68;70]), also Mitte November; laut Modell erscheint die Aussage für Mitte Oktober nicht gerechtfertigt. Korrekter Ansatz mit Rechenfehler ebenfalls richtig; korrekter Vergleich erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t=\\dfrac{\\ln\\left(\\frac{20000}{4269}\\right)}{\\ln(1{,}0227)}\\approx68{,}80"
+            },
+            {
+              "t": "text",
+              "v": ", also am 69. Tag nach dem 6. September 2014. Dieser Zeitpunkt ist Mitte November.\nDie Aussage der Wissenschaftler, es könne bis Mitte Oktober 2014 bereits 20000 Erkrankungsfälle geben, erscheint daher (nach vorliegendem Modell) nicht gerechtfertigt."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und einen (sinngemäß) korrekten Vergleich. Toleranzintervall: [68; 70]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ebola ist eine durch Viren ausgelöste, ansteckende Krankheit. Die Ebola-Epidemie, die 2014 in mehreren Ländern Westafrikas ausbrach, gilt nach der Weltgesundheitsorganisation WHO als die bisher schwerste Ebola-Epidemie. Der Verlauf der Epidemie wurde von der WHO genau beobachtet und dokumentiert.\n\nIn der nachstehenden Tabelle ist ein Auszug der Dokumentation der WHO für die Staaten Guinea, Liberia und Sierra Leone für drei Tage im September 2014 dargestellt. Angeführt ist jeweils die Gesamtanzahl der Erkrankten."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-02-case-table.png",
+      "alt": "Erkrankte: 6. September 4269, 13. September 4963, 20. September 5843"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://www.who.int/csr/disease/ebola/situation-reports/en/ [20.09.2014]."
+    }
+  ]
 }

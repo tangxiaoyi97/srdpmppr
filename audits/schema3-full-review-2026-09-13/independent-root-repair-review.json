@@ -1,0 +1,338 @@
+{
+  "date": "2026-09-13",
+  "reviewer": "convert_2016",
+  "scope": "Independent review of three specified root-authored repairs only",
+  "summary": {
+    "questions": 3,
+    "officialOriginalPagesVisuallyReviewed": 6,
+    "officialPoolPagesVisuallyReviewed": 6,
+    "pngAssetsVisuallyReviewed": 4,
+    "additionalFindings": 2,
+    "findingsResolvedByRoot": 2,
+    "unresolved": 0
+  },
+  "records": [
+    {
+      "questionId": "2024-het-t1-05",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/herbsttermin-2024/2024-het-t1-05.json",
+      "beforeSha256": "dc85e23d8326989a2ad7a866f41b8ba551c7c7d378379b550c3be3905a0a8cfb",
+      "bindings": [
+        {
+          "questionId": "2024-het-t1-05",
+          "kind": "au",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2024/[2024h2]t1-5-ag.pdf",
+          "librarySha256": "e925709f4a93db69639ea2a194d8b4c27a94358a74f51b328610a5e0c130e63c",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 7,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-official-question-pdfs/herbsttermin-2024-all.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=7225&token=b789582ab59217ba7e616c3daa171214878f074e",
+          "officialSha256": "6a52824b8ddf05cd7a971f758ad2e750156be69443e45b27263199004f26be1e"
+        },
+        {
+          "questionId": "2024-het-t1-05",
+          "kind": "lo",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]herbsttermin-2024/[2024h2]t1-5-ag.pdf",
+          "librarySha256": "2ad81bafc35206d2d55f67848bc8f6ad018b1778e8d271b095aec1079b627d79",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 8,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-schema3-full-review/official/herbsttermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=7228&token=3a7dedce298e4b04611fbe04f8aed294dc47f37f",
+          "officialSha256": "2b53b96f6426c59309499fb7c096153cb71b6f8472eebafce529264ce306138f"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-05-q.png",
+          "jsonPath": ".figures[0]",
+          "sha256": "6ce26552db6419236251fec40f53f269826e5d0bd748ae7e56b6be55b2759163",
+          "result": "visually complete and correct against original official AU/LO region",
+          "visualSheet": "/tmp/independent-root-repairs/2024-het-t1-05/assets.png"
+        }
+      ],
+      "renders": [
+        {
+          "kind": "au",
+          "page": 7,
+          "path": "/tmp/independent-root-repairs/2024-het-t1-05/official-au-7.png"
+        },
+        {
+          "kind": "lo",
+          "page": 8,
+          "path": "/tmp/independent-root-repairs/2024-het-t1-05/official-lo-8.png"
+        }
+      ],
+      "pool": {
+        "url": "https://www.aufgabenpool.at/amn/Typ-1/924/1_1368_srdp_ma_Wegbeschreibung_PT2_24.pdf",
+        "cachePath": "/tmp/qed-schema3-spotcheck/http-cache/38c3cdd8e18ea1267acc6d95e1ea5dad816631d21573429d1109b48983e1918d.pdf",
+        "sha256": "6149451b970cde0ff7168664338aafdb701162528f80250ff7487b4458e9f09e",
+        "httpStatus": 200,
+        "printedIdsOnFirstPage": [
+          "1_1368"
+        ],
+        "pagesVisuallyReviewed": [
+          {
+            "page": 1,
+            "render": "/tmp/independent-root-repairs/2024-het-t1-05/pool-1.png"
+          },
+          {
+            "page": 2,
+            "render": "/tmp/independent-root-repairs/2024-het-t1-05/pool-2.png"
+          }
+        ]
+      },
+      "afterSha256": "1e383c1d2b60b37443ced9e892c60b3bbda6c1179ef5f547918e7cbe823d33c5",
+      "status": "reviewed-pass-after-root-repair",
+      "reviewMethod": "Read complete current JSON and both authoritative original AU/LO pages; visually compared every current PNG and current placement. Read and visually checked both live-cached official pool PDF pages including printed ID and all original data/figures/solution/scoring.",
+      "conclusions": [
+        "Original AB=(3,2) from A(1,1),B(4,3); clockwise right-angle direction (2,-3) and strictly positive multiples are correct. Open rubric and one-point scoring preserve original acceptance.",
+        "Single actual graph PNG has full -5..9 / -2..6 axes, A/B coordinates and arrow. Original pre-instruction placement and half-open format retained.",
+        "Printed 1_1368 and pool link exactly match original item including original answer vector and positive-multiple rule."
+      ],
+      "findings": [
+        {
+          "field": "parts[0].prompt[-1]",
+          "finding": "Original two-component blank column-vector template missing, prompt had only vec a=.",
+          "evidence": "Original AU page 7 and pool page 1 both visually show two boxed components.",
+          "resolution": "Reported to root; root restored pmatrix with two boxed phantom cells. Final current JSON re-read and confirmed.",
+          "status": "resolved-by-root"
+        }
+      ],
+      "contentModifiedByIndependentReviewer": false
+    },
+    {
+      "questionId": "2024-het-t1-18",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/herbsttermin-2024/2024-het-t1-18.json",
+      "beforeSha256": "a3298f0c1284817109fe14fd506d06a79f4f3a0198e07901f16937ddc5221fd1",
+      "bindings": [
+        {
+          "questionId": "2024-het-t1-18",
+          "kind": "au",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2024/[2024h2]t1-18-an.pdf",
+          "librarySha256": "d2b7d1a5483d336785b9c013d51e3067e7507777b491aeac81e3ee65539e53b5",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 20,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-official-question-pdfs/herbsttermin-2024-all.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=7225&token=b789582ab59217ba7e616c3daa171214878f074e",
+          "officialSha256": "6a52824b8ddf05cd7a971f758ad2e750156be69443e45b27263199004f26be1e"
+        },
+        {
+          "questionId": "2024-het-t1-18",
+          "kind": "lo",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]herbsttermin-2024/[2024h2]t1-18-an.pdf",
+          "librarySha256": "50e6ce492d2fad5bb6e89bb266132400b5beb00f9addc4beeef96ea77cd2ebf2",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 21,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-schema3-full-review/official/herbsttermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=7228&token=3a7dedce298e4b04611fbe04f8aed294dc47f37f",
+          "officialSha256": "2b53b96f6426c59309499fb7c096153cb71b6f8472eebafce529264ce306138f"
+        }
+      ],
+      "assets": [
+        {
+          "path": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-sol-upper.png",
+          "jsonPath": ".parts[0].solution[0].figures[0]",
+          "sha256": "923390348d71cf0c1fd14ba84b89810c6c8250505d4f210879192c702219032c",
+          "result": "visually complete and correct against original official AU/LO region",
+          "visualSheet": "/tmp/independent-root-repairs/2024-het-t1-18/assets.png"
+        },
+        {
+          "path": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-sol.png",
+          "jsonPath": ".parts[0].solution[0].figures[1]",
+          "sha256": "d549f71f972589ec61e99bce17b977507b3fd34cc5be041b0a50c63893522453",
+          "result": "visually complete and correct against original official AU/LO region",
+          "visualSheet": "/tmp/independent-root-repairs/2024-het-t1-18/assets.png"
+        },
+        {
+          "path": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-q.png",
+          "jsonPath": ".parts[0].prompt[1]",
+          "sha256": "733c9a41663bcba4e58cc51548b11d177f451e6e50d97270a10b08768c1771a4",
+          "result": "visually complete and correct against original official AU/LO region",
+          "visualSheet": "/tmp/independent-root-repairs/2024-het-t1-18/assets.png"
+        }
+      ],
+      "renders": [
+        {
+          "kind": "au",
+          "page": 20,
+          "path": "/tmp/independent-root-repairs/2024-het-t1-18/official-au-20.png"
+        },
+        {
+          "kind": "lo",
+          "page": 21,
+          "path": "/tmp/independent-root-repairs/2024-het-t1-18/official-lo-21.png"
+        }
+      ],
+      "pool": {
+        "url": "https://www.aufgabenpool.at/amn/Typ-1/937/1_1381_srdp_ma_Geometrische%20Deutung%20der%20Summenregel_PT2_24.pdf",
+        "cachePath": "/tmp/qed-schema3-spotcheck/http-cache/db4f08186cce3971074bfdcc096a0f03807a31d62e52283f4dcac736e08b5b8f.pdf",
+        "sha256": "fdeccba99eb5ebbcfe0de6e45d1c720e83cc5773e3b65ffd760d276e4c2d27fb",
+        "httpStatus": 200,
+        "printedIdsOnFirstPage": [
+          "1_1381"
+        ],
+        "pagesVisuallyReviewed": [
+          {
+            "page": 1,
+            "render": "/tmp/independent-root-repairs/2024-het-t1-18/pool-1.png"
+          },
+          {
+            "page": 2,
+            "render": "/tmp/independent-root-repairs/2024-het-t1-18/pool-2.png"
+          }
+        ]
+      },
+      "afterSha256": "a3298f0c1284817109fe14fd506d06a79f4f3a0198e07901f16937ddc5221fd1",
+      "status": "reviewed-pass-after-root-repair",
+      "reviewMethod": "Read complete current JSON and both authoritative original AU/LO pages; visually compared every current PNG and current placement. Read and visually checked both live-cached official pool PDF pages including printed ID and all original data/figures/solution/scoring.",
+      "conclusions": [
+        "Original f/g shift +2, domain[a,b], A integral f and B integral2 retained. Instruction precedes blank graph at part.prompt, matching original.",
+        "Three PNGs newly inspected: blank graph; original first upper region between g and y=2; original second region between f and x-axis. Both solutions now present in original order with axes/a/b labels complete and no clipped lower axis.",
+        "Open rubric accepts either original valid shaded subarea; exact original one-point draw instruction/scoring preserved.",
+        "Printed 1_1381 and URL correspond exactly to the original task and both solution variants."
+      ],
+      "findings": [],
+      "contentModifiedByIndependentReviewer": false
+    },
+    {
+      "questionId": "2022-wt-t2-03",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2022/2022-wt-t2-03.json",
+      "beforeSha256": "2a643f24f373def9490ffae573da6069ae6132045d44a47bb9b59c6f2c81a5ac",
+      "bindings": [
+        {
+          "questionId": "2022-wt-t2-03",
+          "kind": "au",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2022/[2022w1]t2-3.pdf",
+          "librarySha256": "399d835635077183e1377ef46c2907cc369e4ec39f55e88badb621cf99bff49a",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 30,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2022-all.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5292&token=67d998258d11a712e7d17b4dc462fc8cd3d61640",
+          "officialSha256": "4f1d3d40261727c2ce1fc73d5112761f827a30205ebe6183e8dae2f53c107a32"
+        },
+        {
+          "questionId": "2022-wt-t2-03",
+          "kind": "lo",
+          "libraryPdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2022/[2022w1]t2-3.pdf",
+          "librarySha256": "45f8ead75e416b970c4a9a51afcb4c0eebcce9ea1ac5589a450f7e2863e7958e",
+          "pageChecks": [
+            {
+              "libraryPage": 1,
+              "officialPage": 30,
+              "wordNumericTokenCoverage": 1.0,
+              "normalizedCharacterCoverage": 1.0,
+              "missingTokens": {},
+              "emptyText": false,
+              "needsReview": false
+            }
+          ],
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2022-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5293&token=97ec9f793cb0d36100479bc84be50ed844d94639",
+          "officialSha256": "d83656f3c176646ca1aaa63052dbdbfba3eefdaf0d6ac7c4c8f927efd8915e31"
+        }
+      ],
+      "assets": [],
+      "renders": [
+        {
+          "kind": "au",
+          "page": 30,
+          "path": "/tmp/independent-root-repairs/2022-wt-t2-03/official-au-30.png"
+        },
+        {
+          "kind": "lo",
+          "page": 30,
+          "path": "/tmp/independent-root-repairs/2022-wt-t2-03/official-lo-30.png"
+        }
+      ],
+      "pool": {
+        "url": "https://www.aufgabenpool.at/amn/Typ-2/704/Auslastung_von_Fluegen.pdf",
+        "cachePath": "/tmp/qed-schema3-spotcheck/http-cache/b623c96288bc57dda83dbb1e263956f88ec0daba6c6990f536f7bdd0b5d4d9e6.pdf",
+        "sha256": "d1ea2b3ada86da017bd81f341ecd93b5f5be6c4ea7f3c5dc65fce514134586fa",
+        "httpStatus": 200,
+        "printedIdsOnFirstPage": [
+          "2_111"
+        ],
+        "pagesVisuallyReviewed": [
+          {
+            "page": 1,
+            "render": "/tmp/independent-root-repairs/2022-wt-t2-03/pool-1.png"
+          },
+          {
+            "page": 2,
+            "render": "/tmp/independent-root-repairs/2022-wt-t2-03/pool-2.png"
+          }
+        ]
+      },
+      "afterSha256": "964a7d8c15e89b75ebc0e78ea5d801753f233a183e1fbbd80c6d1304da016da2",
+      "status": "reviewed-pass-after-root-repair",
+      "reviewMethod": "Read complete current JSON and both authoritative original AU/LO pages; visually compared every current PNG and current placement. Read and visually checked both live-cached official pool PDF pages including printed ID and all original data/figures/solution/scoring.",
+      "independentCalculation": {
+        "derivativeRootsEquation": "-s^2+40000s-128000000=0",
+        "minimumDistanceKm": 3507.577497529357,
+        "consumptionLitersPerPassengerPer100Km": 3.6751399601197665,
+        "consumption271PassengersLiters": 34934.17158808886,
+        "binomialProbability": 0.00012501814161655934
+      },
+      "conclusions": [
+        "Full four-part conditions and calculations match original AU/LO: n530,m500, binomial upper tail >=501, 90% independent use and 6% excess tickets.",
+        "Both current copies of V(s)=4+(s/128000−1/4)*(s/1000)*exp(−s/4000) and domain[2000,10000] match visually read original fractions/exponent. Independent derivative and consumption calculation reproduce official 3507.5...km / 34934.1...L.",
+        "Shared a2 premises and labelled full b1 context in b2 define required quantities without prior answers. All four original one-point scoring rules and full original calculation explanations retained; no PNGs occur in task/solution.",
+        "Printed 2_111 and pool link exactly match original AU/LO content and all four solution parts."
+      ],
+      "findings": [
+        {
+          "field": "parts[0].prompt",
+          "finding": "Original n= and m= answer underlines absent.",
+          "evidence": "Original AU page 30 and pool page 1 both visually show separate n and m lines.",
+          "resolution": "Reported to root; root added both original labelled answer underlines. Final current JSON re-read and confirmed.",
+          "status": "resolved-by-root"
+        }
+      ],
+      "contentModifiedByIndependentReviewer": false
+    }
+  ]
+}

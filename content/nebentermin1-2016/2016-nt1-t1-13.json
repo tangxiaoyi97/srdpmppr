@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,119 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_505a",
+          "id": "1_505",
           "baseId": "1_505",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/214/Aktienkurs.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Kurs der Aktie ist in den (ersten) 10 Tagen um durchschnittlich 2 Euro pro Tag gestiegen."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird folgender Wert berechnet:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\frac{A(10)-A(0)}{10}=2"
+        },
+        {
+          "t": "text",
+          "v": "\n\nGeben Sie an, was dieser Wert im Hinblick auf die Entwicklung des Aktienkurses aussagt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Kurs der Aktie ist in den (ersten) 10 Tagen um durchschnittlich 2 Euro pro Tag gestiegen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_505",
       "baseId": "1_505",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/214/Aktienkurs.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ab dem Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " wird der Kurs einer Aktie (in Euro) beobachtet und dokumentiert.\n"
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt den Kurs der Aktie nach "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Tagen."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,148 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_539a",
+          "id": "1_539",
           "baseId": "1_539",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/248/Teilungspunkt.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Formeln: "
+            },
+            {
+              "t": "math",
+              "v": "T=A+\\frac35\\cdot\\overrightarrow{AB}"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n\n"
+            },
+            {
+              "t": "math",
+              "v": "T=\\frac25\\cdot A+\\frac35\\cdot B"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel für die Berechnung des Punkts "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " auf!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "T="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "T=A+\\frac35\\cdot\\overrightarrow{AB}"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "T=\\frac25\\cdot A+\\frac35\\cdot B"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Formeln sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=7",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_539",
       "baseId": "1_539",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/248/Teilungspunkt.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die gegebene Strecke "
+    },
+    {
+      "t": "math",
+      "v": "AB"
+    },
+    {
+      "t": "text",
+      "v": ": "
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-03-q.png",
+      "alt": "Strecke AB, links A, rechts B."
+    },
+    {
+      "t": "text",
+      "v": " wird innen durch den Punkt "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " im Verhältnis "
+    },
+    {
+      "t": "math",
+      "v": "3:2"
+    },
+    {
+      "t": "text",
+      "v": " geteilt."
     }
   ]
 }

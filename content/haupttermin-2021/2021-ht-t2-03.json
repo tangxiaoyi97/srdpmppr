@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -107,21 +107,40 @@
         },
         {
           "t": "math",
-          "v": "d="
+          "v": "d=\\underline{\\hspace{6cm}}"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "36+12\\cdot(t1-6)",
-        "vars": [
-          "t1"
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "d=36+\\int_{6}^{t_1} v_2(t)\\,dt"
+          },
+          {
+            "t": "text",
+            "v": "  oder:  "
+          },
+          {
+            "t": "math",
+            "v": "d=36+12\\cdot(t_1-6)"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das Angeben der richtigen Formel."
+          }
         ],
-        "checker": "cas"
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für das Angeben der richtigen Formel.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -147,7 +166,7 @@
     {
       "id": "2021-ht-t2-03-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -173,6 +192,18 @@
         },
         {
           "t": "math",
+          "v": "[0;\\,6]"
+        },
+        {
+          "t": "text",
+          "v": " legt PKW A eine Strecke von 36 m zurück.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Im Zeitintervall "
+        },
+        {
+          "t": "math",
           "v": "[0;\\,10]"
         },
         {
@@ -187,7 +218,7 @@
           {
             "id": "diff",
             "value": 44,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "m"
           }
         ]
@@ -312,69 +343,61 @@
         "kind": "open",
         "rubric": [
           {
+            "t": "math",
+            "v": "\\mathrm{I:}\\ v_1(6)=12"
+          },
+          {
             "t": "text",
-            "v": "Aufzustellen ist ein Gleichungssystem mit drei Gleichungen, z. B.:  "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "\\text{I: } v_1(6)=12"
+            "v": "\\mathrm{II:}\\ v_1^{\\prime}(0)=0"
           },
           {
             "t": "text",
-            "v": ", "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "\\text{II: } v_1'(0)=0"
+            "v": "\\mathrm{III:}\\ v_1^{\\prime\\prime}(3)=0"
           },
           {
             "t": "text",
-            "v": ", "
+            "v": "\noder:\n"
           },
           {
             "t": "math",
-            "v": "\\text{III: } v_1''(3)=0"
+            "v": "\\mathrm{I:}\\ 216\\cdot p+36\\cdot q+6\\cdot r=12"
           },
           {
             "t": "text",
-            "v": ".  Konkret:  "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "216p+36q+6r=12"
+            "v": "\\mathrm{II:}\\ r=0"
           },
           {
             "t": "text",
-            "v": ", "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "r=0"
+            "v": "\\mathrm{III:}\\ 18\\cdot p+2\\cdot q=0"
           },
           {
             "t": "text",
-            "v": ", "
-          },
-          {
-            "t": "math",
-            "v": "18p+2q=0"
-          },
-          {
-            "t": "text",
-            "v": "."
+            "v": "\n\nb1) Ein Punkt für das richtige Aufstellen des Gleichungssystems mit drei Gleichungen, ein halber Punkt für nur zwei richtige Gleichungen."
           }
         ],
         "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 2,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 3,
+            "desc": "b1) Ein Punkt für das richtige Aufstellen des Gleichungssystems mit drei Gleichungen, ein halber Punkt für nur zwei richtige Gleichungen.",
             "points": 1
           }
         ]
@@ -385,47 +408,47 @@
           "result": [
             {
               "t": "math",
-              "v": "\\text{I: } v_1(6)=12"
+              "v": "\\mathrm{I:}\\ v_1(6)=12"
             },
             {
               "t": "text",
-              "v": ", "
+              "v": "\n"
             },
             {
               "t": "math",
-              "v": "\\text{II: } v_1'(0)=0"
+              "v": "\\mathrm{II:}\\ v_1^{\\prime}(0)=0"
             },
             {
               "t": "text",
-              "v": ", "
+              "v": "\n"
             },
             {
               "t": "math",
-              "v": "\\text{III: } v_1''(3)=0"
+              "v": "\\mathrm{III:}\\ v_1^{\\prime\\prime}(3)=0"
             },
             {
               "t": "text",
-              "v": "  bzw.  "
+              "v": "\noder:\n"
             },
             {
               "t": "math",
-              "v": "216p+36q+6r=12"
+              "v": "\\mathrm{I:}\\ 216\\cdot p+36\\cdot q+6\\cdot r=12"
             },
             {
               "t": "text",
-              "v": ", "
+              "v": "\n"
             },
             {
               "t": "math",
-              "v": "r=0"
+              "v": "\\mathrm{II:}\\ r=0"
             },
             {
               "t": "text",
-              "v": ", "
+              "v": "\n"
             },
             {
               "t": "math",
-              "v": "18p+2q=0"
+              "v": "\\mathrm{III:}\\ 18\\cdot p+2\\cdot q=0"
             }
           ],
           "note": "b1) Ein Punkt für das richtige Aufstellen des Gleichungssystems mit drei Gleichungen, ein halber Punkt für nur zwei richtige Gleichungen."

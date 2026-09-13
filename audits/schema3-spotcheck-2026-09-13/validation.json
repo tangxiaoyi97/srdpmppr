@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-13",
+  "runs": [
+    {
+      "command": "pnpm validate",
+      "chunk_id": "7edb6a",
+      "wall_time_seconds": 0.328536375,
+      "exit_code": 0,
+      "original_token_count": 51,
+      "output": "$ node --experimental-strip-types scripts/validate-bank.mjs\n[bank:validate] 1044 questions, 1672 parts, 808 packaged assets; sha256 root 9bb2f32c9e478eef4c4f058b11c79e0900f1a7ec23372be5d2dcc05b468ce607\n"
+    },
+    {
+      "command": "pnpm test",
+      "chunk_id": "493d95",
+      "wall_time_seconds": 0.234557,
+      "exit_code": 0,
+      "original_token_count": 420,
+      "output": "$ node --experimental-strip-types --test test/*.test.mjs\n✔ schema rejects unknown keys at every contract object (2.852167ms)\n✔ schema rejects invalid matching indices and candidateGroups (0.498458ms)\n✔ schema requires every matching left entry exactly once (0.147209ms)\n✔ schema rejects scoring totals that disagree with part points (0.117042ms)\n✔ schema rejects duplicate and out-of-range choice indices (0.390875ms)\n✔ schema rejects an empty interval encoded with equal open bounds (0.229375ms)\n✔ schema accepts a strict valid v3 question (0.118208ms)\n✔ schema v4 accepts strict, versioned learning metadata and grounded solution alternatives (0.676834ms)\n✔ schema keeps v4 learning fields out of immutable v2/v3 records (0.176709ms)\n✔ schema requires a complete ordered three-level hint ladder with stable unique ids (0.316166ms)\n✔ grader ai requires grounded solution text but keeps valid all-or-nothing scoring (0.597542ms)\n✔ validator verifies content and deterministic asset manifest (56.647167ms)\n✔ validator fails closed on asset tampering (15.082708ms)\n✔ validator rejects an asset whose bytes do not match its MIME type (6.110875ms)\n✔ validator enforces globally unique part ids (12.245958ms)\n✔ validator rejects missing resources and source/file drift (6.8945ms)\n✔ validator rejects a schema symlink before executing it (2.510958ms)\n✔ 2019 legacy papers retain their original numbers without colliding with regular papers (8.88025ms)\n✔ validator rejects symbolic content roots and traversal entries (2.745792ms)\nℹ tests 19\nℹ suites 0\nℹ pass 19\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 153.281083\n"
+    },
+    {
+      "command": "pnpm validate",
+      "chunk_id": "08b7f3",
+      "wall_time_seconds": 0.32957925,
+      "exit_code": 0,
+      "original_token_count": 51,
+      "output": "$ node --experimental-strip-types scripts/validate-bank.mjs\n[bank:validate] 1044 questions, 1672 parts, 808 packaged assets; sha256 root 9bb2f32c9e478eef4c4f058b11c79e0900f1a7ec23372be5d2dcc05b468ce607\n"
+    },
+    {
+      "command": "git diff --check",
+      "chunk_id": "92c472",
+      "wall_time_seconds": 0.007184833,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  ],
+  "repositoryTests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "referenceVerification": "final-reference-verification.json",
+  "sourceVerification": "source-bindings.json",
+  "schemaAndFormulaVerification": "schema3-validation.json",
+  "mathWarnings": [
+    "Three pre-existing KaTeX warnings: no character metrics for € in Main-Regular text; no math parse errors."
+  ],
+  "scope": "All content is schema 3. No schema, application, test or grading-engine code changed during this spotcheck; tests include pre-existing schema 4 contract coverage."
+}

@@ -1,6 +1,6 @@
 {
   "id": "2020-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,16 @@
     {
       "id": "2020-ht-t2-04-a1",
       "label": "a1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -40,7 +47,7 @@
           {
             "id": "hoehe",
             "value": 144,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "m"
           }
         ]
@@ -63,7 +70,7 @@
             },
             {
               "t": "text",
-              "v": "\n"
+              "v": "\nt ... Zeit in s\nv(t) ... Geschwindigkeit des Wetterballons in m/s zum Zeitpunkt t\n"
             },
             {
               "t": "math",
@@ -91,10 +98,21 @@
     {
       "id": "2020-ht-t2-04-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Auf der Hohen Warte in Wien befindet sich in 220 m Seehöhe eine Wetterstation. Hier wird für eine Messreihe ein Wetterballon mit einem Ozonmessgerät gestartet. Das Ozonmessgerät beginnt mit seinen Aufzeichnungen, wenn der Wetterballon eine Seehöhe von 2 km erreicht hat.\n\nNehmen Sie an, dass der Wetterballon (mit der Anfangsgeschwindigkeit 0 m/s) lotrecht in die Höhe steigt und dabei gleichmäßig mit 0,125 m/s² beschleunigt, bis er zu einem Zeitpunkt t₁ eine Geschwindigkeit von 6 m/s erreicht. Die Zeit wird dabei in Sekunden und die Seehöhe in Metern gemessen.\n\n"
+        },
         {
           "t": "text",
           "v": "Ab dem Zeitpunkt t₁ steigt der Wetterballon mit der konstanten Geschwindigkeit von 6 m/s lotrecht weiter.\n\nErmitteln Sie, wie viele Sekunden nach dem Start das Messgerät mit seinen Aufzeichnungen beginnt."
@@ -102,19 +120,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "zeit",
-            "value": 321,
-            "tol": 1,
-            "unit": "s"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\nverbleibende senkrechte Strecke bis zum Start der Messung:\n"
+          },
+          {
+            "t": "math",
+            "v": "2\\,000-220-144=1\\,636"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{1\\,636}{6}+48=320{,}\\dot{6}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Das Messgerät beginnt seine Aufzeichnungen ca. 321 s nach dem Start."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -134,7 +180,7 @@
             },
             {
               "t": "math",
-              "v": "\\frac{1\\,636}{6}+48=320{,}6\\ldots"
+              "v": "\\frac{1\\,636}{6}+48=320{,}\\dot{6}"
             }
           ],
           "result": [
@@ -150,9 +196,16 @@
     {
       "id": "2020-ht-t2-04-b1",
       "label": "b1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -200,10 +253,33 @@
     {
       "id": "2020-ht-t2-04-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Wetterballon hat bei einem Luftdruck von 1 013,25 hPa ein Volumen von 6,3 m³. Durch die Abnahme des Luftdrucks während des Aufstiegs dehnt sich der Wetterballon immer weiter aus und wird näherungsweise kugelförmig. Bei einem Durchmesser von d Metern zerplatzt er.\n\nDer Luftdruck kann in Abhängigkeit von der Seehöhe h durch eine Funktion p modelliert werden. Dabei ordnet die Funktion p der Seehöhe h den Luftdruck p(h) zu.\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "p(h)=1\\,013{,}25\\cdot\\left(1-\\frac{0{,}0065\\cdot h}{288{,}15}\\right)^{5{,}255}\\ \\text{mit}\\ h\\ \\text{in m},\\ p(h)\\ \\text{in hPa}"
+        },
+        {
+          "t": "text",
+          "v": "Gehen Sie davon aus, dass der Luftdruck p(h) und das Volumen V(h) des Wetterballons indirekt proportional zueinander sind. Dabei ist V(h) das Volumen des Wetterballons in der Seehöhe h."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Der Wetterballon zerplatzt in einer Seehöhe von h = 27 873,6 m.\n\nBerechnen Sie den Durchmesser d des Wetterballons in Metern, bei dem dieser zerplatzt."
@@ -211,20 +287,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "d",
-            "label": "d",
-            "value": 13,
-            "tol": 1,
-            "unit": "m"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "V(27\\,873{,}6)=1\\,150{,}351\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{4}{3}\\cdot\\left(\\frac{d}{2}\\right)^{3}\\cdot\\pi=1\\,150{,}351\\ldots\\ \\Rightarrow\\ d=13{,}0\\ldots\\approx 13"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Durchmesser des Wetterballons, bei dem dieser zerplatzt, beträgt ca. 13 m."
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -260,9 +363,16 @@
     {
       "id": "2020-ht-t2-04-c1",
       "label": "c1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -320,10 +430,21 @@
     {
       "id": "2020-ht-t2-04-c2",
       "label": "c2",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Das sogenannte Gesamtozon ist ein Maß für die Dicke der Ozonschicht und wird in sogenannten Dobson-Einheiten (DU) angegeben.\n\nDie von einem Wetterballon aufgezeichneten Messdaten können modellhaft durch eine quadratische Funktion f beschrieben werden. Dabei ordnet f der Höhe h die Gesamtozondichte f(h) zu (h in km, f(h) in DU/km).\n\nDer höchste Wert von 36 DU/km wird in einer Seehöhe von 22 km gemessen. In einer Seehöhe von 37 km beträgt der gemessene Wert 1 DU/km.\n\n"
+        },
         {
           "t": "text",
           "v": "In der Erdatmosphäre entspricht 1 DU einer 0,01 mm dicken Schicht reinen Ozons an der Erdoberfläche. Die Dicke derjenigen Schicht reinen Ozons an der Erdoberfläche, die dem Gesamtozon zwischen 7 km und 37 km Seehöhe entspricht, ist "
@@ -349,7 +470,7 @@
             "id": "dicke",
             "label": "Dicke dieser Schicht",
             "value": 7.3,
-            "tol": 0.01,
+            "tol": 1e-09,
             "unit": "mm"
           }
         ]
@@ -386,7 +507,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 28 (Teil 2)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=32",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

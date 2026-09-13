@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -24,12 +24,121 @@
     {
       "id": "2018-ht-t1-17-a",
       "label": "a",
-      "format": "",
+      "format": "Konstruktionsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=21",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-17-sol.png",
+              "alt": "Möglicher Graph mit waagrechtem Wendepunkt (4|2)."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung eines möglichen Graphen einer Funktion f, wobei alle in der Angabe angeführten Eigenschaften erkennbar sein müssen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der nachstehenden Abbildung einen möglichen Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-17-q.png",
+          "alt": "Leeres Koordinatensystem für den Funktionsgraphen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine korrekte Darstellung eines möglichen Graphen einer Funktion f, wobei alle in der Angabe angeführten Eigenschaften erkennbar sein müssen."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=21",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine nicht konstante Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f:\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " hat die folgenden Eigenschaften:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "f(4)=2"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "f'(4)=0"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "f''(4)=0"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "f'(x)\\le0"
+    },
+    {
+      "t": "text",
+      "v": " für alle "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    }
+  ]
 }

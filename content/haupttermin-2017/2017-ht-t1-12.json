@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,131 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_554a",
+          "id": "1_554",
           "baseId": "1_554",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/263/Halbwertszeit%20von%20Cobalt60.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{N_0}{2}=N_0\\cdot e^{-0{,}13149\\cdot t}\\Rightarrow t\\approx5{,}27"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDie Halbwertszeit von Cobalt-60 beträgt ca. 5,27 Jahre."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Jahre“ nicht angegeben sein muss. Toleranzintervall: [5 Jahre; 5,5 Jahre]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Halbwertszeit von Cobalt-60!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Halbwertszeit beträgt ca. 5,27 Jahre. Ein Punkt für die richtige Lösung, wobei die Einheit „Jahre“ nicht angegeben sein muss. Toleranzintervall: [5 Jahre; 5,5 Jahre]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_554",
       "baseId": "1_554",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/263/Halbwertszeit%20von%20Cobalt60.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das radioaktive Isotop Cobalt-60 wird unter anderem zur Konservierung von Lebensmitteln und in der Medizin verwendet.\nDas Zerfallsgesetz für Cobalt-60 lautet "
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot e^{-0{,}13149\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Jahren; dabei bezeichnet "
+    },
+    {
+      "t": "math",
+      "v": "N_0"
+    },
+    {
+      "t": "text",
+      "v": " die vorhandene Menge des Isotops zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "N(t)"
+    },
+    {
+      "t": "text",
+      "v": " die vorhandene Menge zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t\\geq0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

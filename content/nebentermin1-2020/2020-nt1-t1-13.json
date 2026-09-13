@@ -1,6 +1,6 @@
 {
   "id": "2020-nt1-t1-13",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -32,7 +32,22 @@
       "label": "a",
       "format": "2 aus 5",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT2/KL20_PT2_AHS_MAT_00_DE_AU.pdf#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_794",
+          "baseId": "1_794",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/578/Differenzenquotient%20und%20Differenzialquotient.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -142,11 +157,31 @@
       "points": 1
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT2/KL20_PT2_AHS_MAT_00_DE_AU.pdf#page=15",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_794",
+      "baseId": "1_794",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/578/Differenzenquotient%20und%20Differenzialquotient.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",
       "v": "In der nachstehenden Abbildung ist der Graph einer Polynomfunktion 3. Grades f dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2020/fig/2020-nt1-t1-13-q.png",
+      "alt": "Graph einer Polynomfunktion 3. Grades mit lokalem Minimum nahe x = 1 und lokalem Maximum nahe x = 5; Achsen und Raster wie in der ursprünglichen Abbildung."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,87 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_448a",
+          "id": "1_448",
           "baseId": "1_448",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/156/Maturaball-Gl%C3%BCcksspiele.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gibt 150 Gewinnlose."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "\\frac2{10}\\cdot\\frac{x}{1\\,000}=0{,}03\\Rightarrow x=150"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Max hat das Glücksrad einmal gedreht und als Erster ein Los der Tombola gekauft. In beiden Fällen hat er gewonnen. Die Maturazeitung berichtet darüber: „Die Wahrscheinlichkeit für dieses Ereignis beträgt 3 %.“ Berechnen Sie die Anzahl der Gewinn-Lose!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Anzahl der Gewinn-Lose",
+            "value": 150,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_448",
       "baseId": "1_448",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/156/Maturaball-Gl%C3%BCcksspiele.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Maturaball werden zwei verschiedene Glücksspiele angeboten: ein Glücksrad und eine Tombola, bei der 1 000 Lose verkauft werden. Das Glücksrad ist in zehn gleich große Sektoren unterteilt, die alle mit der gleichen Wahrscheinlichkeit auftreten können. Man gewinnt, wenn der Zeiger nach Stillstand des Rades auf das Feld der „1“ oder der „6“ zeigt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-22-wheel.png",
+      "alt": "Glücksrad mit zehn gleich großen Sektoren0bis9"
     }
   ]
 }

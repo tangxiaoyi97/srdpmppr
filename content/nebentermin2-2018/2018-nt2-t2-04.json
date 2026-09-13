@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -22,14 +22,1076 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt2-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2018-nt2-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F(0)=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "F(c)=1"
+            },
+            {
+              "t": "text",
+              "v": " bzw. "
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le c)=1"
+            },
+            {
+              "t": "text",
+              "v": ", d. h., die Wahrscheinlichkeit, dass "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " einen Wert kleiner gleich "
+            },
+            {
+              "t": "math",
+              "v": "c"
+            },
+            {
+              "t": "text",
+              "v": " annimmt, beträgt 100 %, da "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=0"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "x>c"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für die gegebene Dichtefunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " den Funktionswert "
+        },
+        {
+          "t": "math",
+          "v": "F(0)"
+        },
+        {
+          "t": "text",
+          "v": " der zugehörigen Verteilungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " an und begründen Sie, warum "
+        },
+        {
+          "t": "math",
+          "v": "F(c)=1"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "F(0)=0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "F(c)=1"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le c)=1"
+          },
+          {
+            "t": "text",
+            "v": ", d. h., die Wahrscheinlichkeit, dass "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " einen Wert kleiner gleich "
+          },
+          {
+            "t": "math",
+            "v": "c"
+          },
+          {
+            "t": "text",
+            "v": " annimmt, beträgt 100 %, da "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=0"
+          },
+          {
+            "t": "text",
+            "v": " für "
+          },
+          {
+            "t": "math",
+            "v": "x>c"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-04-a2",
+      "label": "a2",
+      "format": "Konstruktionsformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-04-a2-sol.png",
+              "alt": "Dichtefunktion f und Verteilungsfunktion F mit Wendestelle c/2."
+            },
+            {
+              "t": "text",
+              "v": "Bis zum lokalen Maximum von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": " linksgekrümmt, danach ist die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": " rechtsgekrümmt."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze und eine (sinngemäß) korrekte Beschreibung des Krümmungsverhaltens der Funktion F. Die Skizze ist als korrekt zu betrachten, wenn das korrekte Krümmungsverhalten des Graphen von F in der Skizze klar erkennbar ist und die Wendestelle von F dabei bei x = c/2 liegt. Für x > c muss der Graph von F, sofern er in diesem Bereich skizziert ist, waagrecht verlaufen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der oben stehenden Grafik den Graphen der zugehörigen Verteilungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " und beschreiben Sie das Krümmungsverhalten von "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;c]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bis zum lokalen Maximum von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " ist die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "F"
+          },
+          {
+            "t": "text",
+            "v": " linksgekrümmt, danach ist die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "F"
+          },
+          {
+            "t": "text",
+            "v": " rechtsgekrümmt.\nEin Punkt für eine korrekte Skizze und eine (sinngemäß) korrekte Beschreibung des Krümmungsverhaltens der Funktion F. Die Skizze ist als korrekt zu betrachten, wenn das korrekte Krümmungsverhalten des Graphen von F in der Skizze klar erkennbar ist und die Wendestelle von F dabei bei x = c/2 liegt. Für x > c muss der Graph von F, sofern er in diesem Bereich skizziert ist, waagrecht verlaufen."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert von "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": " ist durch die Eigenschaft "
+            },
+            {
+              "t": "math",
+              "v": "F(c)=1"
+            },
+            {
+              "t": "text",
+              "v": " festgelegt, d. h., der Inhalt der vom Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " und der "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": "-Achse im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[0;c]"
+            },
+            {
+              "t": "text",
+              "v": " eingeschlossenen Fläche muss 1 sein.\nDa die rechte Nullstelle bei "
+            },
+            {
+              "t": "math",
+              "v": "x=\\pi"
+            },
+            {
+              "t": "text",
+              "v": " liegt und somit "
+            },
+            {
+              "t": "math",
+              "v": "c=\\pi"
+            },
+            {
+              "t": "text",
+              "v": " ist, muss gelten:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{\\pi}k\\cdot\\sin(x)\\,\\mathrm dx=1\\Rightarrow k=0{,}5"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Angabe, welche Eigenschaft von f den Wert von k festlegt, und für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, durch welche Eigenschaft von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " der Wert des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " festgelegt ist, und berechnen Sie den Wert von "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Wert von "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": " ist durch die Eigenschaft "
+          },
+          {
+            "t": "math",
+            "v": "F(c)=1"
+          },
+          {
+            "t": "text",
+            "v": " festgelegt, d. h., der Inhalt der vom Graphen von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " und der "
+          },
+          {
+            "t": "math",
+            "v": "x"
+          },
+          {
+            "t": "text",
+            "v": "-Achse im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[0;c]"
+          },
+          {
+            "t": "text",
+            "v": " eingeschlossenen Fläche muss 1 sein.\nDa die rechte Nullstelle bei "
+          },
+          {
+            "t": "math",
+            "v": "x=\\pi"
+          },
+          {
+            "t": "text",
+            "v": " liegt und somit "
+          },
+          {
+            "t": "math",
+            "v": "c=\\pi"
+          },
+          {
+            "t": "text",
+            "v": " ist, muss gelten:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{\\pi}k\\cdot\\sin(x)\\,\\mathrm dx=1\\Rightarrow k=0{,}5"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine (sinngemäß) korrekte Angabe, welche Eigenschaft von f den Wert von k festlegt, und für die richtige Lösung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F(x)=-0{,}5\\cdot\\cos(x)+0{,}5"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Term. Äquivalente Terme sind als richtig zu werten.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "F(x)=-0{,}5\\cdot\\cos(x)+C"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "F(0)=0\\Rightarrow C=0{,}5"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Term der zugehörigen Verteilungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;c]"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-0.5*cos(x)+0.5",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Ereignis "
+            },
+            {
+              "t": "math",
+              "v": "E"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt, dass die Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " einen Wert annimmt, der größer (oder gleich) "
+            },
+            {
+              "t": "math",
+              "v": "c-a"
+            },
+            {
+              "t": "text",
+              "v": " ist."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine (sinngemäß) korrekte Beschreibung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein Ereignis "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " gilt: "
+        },
+        {
+          "t": "math",
+          "v": "P(E)=1-P(X\\le c-a)"
+        },
+        {
+          "t": "text",
+          "v": " für ein beliebiges "
+        },
+        {
+          "t": "math",
+          "v": "a\\in[0;c]"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nⒶ Beschreiben Sie dieses Ereignis "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " verbal!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das Ereignis "
+          },
+          {
+            "t": "math",
+            "v": "E"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt, dass die Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " einen Wert annimmt, der größer (oder gleich) "
+          },
+          {
+            "t": "math",
+            "v": "c-a"
+          },
+          {
+            "t": "text",
+            "v": " ist."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für eine (sinngemäß) korrekte Beschreibung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-04-c2",
+      "label": "c2",
+      "format": "Konstruktionsformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-04-c2-sol.png",
+              "alt": "Fläche unter f von a bis c−a mit symmetrischen Grenzen."
+            },
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nWegen der Symmetrie der Dichtefunktion gilt: "
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le a)=P(X\\ge c-a)"
+            },
+            {
+              "t": "text",
+              "v": ".\nAus "
+            },
+            {
+              "t": "math",
+              "v": "F(c)=1"
+            },
+            {
+              "t": "text",
+              "v": " folgt: "
+            },
+            {
+              "t": "math",
+              "v": "P(a\\le X\\le c-a)=1-P(X\\le a)-P(X\\ge c-a)=1-2\\cdot P(X\\le a)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung der Wahrscheinlichkeit als Fläche, wobei die beiden Grenzen symmetrisch zur Stelle des Maximums der Funktion f liegen müssen, und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein Ereignis "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " gilt: "
+        },
+        {
+          "t": "math",
+          "v": "P(E)=1-P(X\\le c-a)"
+        },
+        {
+          "t": "text",
+          "v": " für ein beliebiges "
+        },
+        {
+          "t": "math",
+          "v": "a\\in[0;c]"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie für "
+        },
+        {
+          "t": "math",
+          "v": "a\\le\\frac c2"
+        },
+        {
+          "t": "text",
+          "v": " die Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "P(a\\le X\\le c-a)"
+        },
+        {
+          "t": "text",
+          "v": " in nachstehender Grafik als Fläche dar und begründen Sie den Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "P(a\\le X\\le c-a)=1-2\\cdot P(X\\le a)"
+        },
+        {
+          "t": "text",
+          "v": " anhand dieser Darstellung!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-04-c2-q.png",
+          "alt": "Dichtefunktion f zur Darstellung der Wahrscheinlichkeit als Fläche."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\nWegen der Symmetrie der Dichtefunktion gilt: "
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le a)=P(X\\ge c-a)"
+          },
+          {
+            "t": "text",
+            "v": ".\nAus "
+          },
+          {
+            "t": "math",
+            "v": "F(c)=1"
+          },
+          {
+            "t": "text",
+            "v": " folgt: "
+          },
+          {
+            "t": "math",
+            "v": "P(a\\le X\\le c-a)=1-P(X\\le a)-P(X\\ge c-a)=1-2\\cdot P(X\\le a)"
+          },
+          {
+            "t": "text",
+            "v": ".\nEin Punkt für eine korrekte Darstellung der Wahrscheinlichkeit als Fläche, wobei die beiden Grenzen symmetrisch zur Stelle des Maximums der Funktion f liegen müssen, und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sei "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " eine Zufallsvariable, für die sich die Wahrscheinlichkeit, dass "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " in einem Intervall "
+    },
+    {
+      "t": "math",
+      "v": "I"
+    },
+    {
+      "t": "text",
+      "v": " liegt, mithilfe einer sogenannten Dichtefunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " folgendermaßen ermitteln lässt:\n"
+    },
+    {
+      "t": "math",
+      "v": "P(a\\le X\\le b)=\\int_a^b f(x)\\,\\mathrm dx"
+    },
+    {
+      "t": "text",
+      "v": " für alle "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in I"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a\\le b"
+    },
+    {
+      "t": "text",
+      "v": "\n\nIn diesem Fall gilt für die Verteilungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": ": "
+    },
+    {
+      "t": "math",
+      "v": "F(x)=P(X\\le x)"
+    },
+    {
+      "t": "text",
+      "v": " für alle "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": ", d. h. insbesondere "
+    },
+    {
+      "t": "math",
+      "v": "F(b)-F(a)=P(a\\le X\\le b)"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in I"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\le b"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie nachstehende Grafik zeigt den Graphen einer Dichtefunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k\\cdot\\sin(x)"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "x\\in[0;c]"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "k\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "k>0"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f(c)=0"
+    },
+    {
+      "t": "text",
+      "v": " gilt. Für "
+    },
+    {
+      "t": "math",
+      "v": "x\\notin[0;c]"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=0"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-04-q.png",
+      "alt": "Dichtefunktion f auf dem Intervall [0,c]."
+    }
+  ]
 }

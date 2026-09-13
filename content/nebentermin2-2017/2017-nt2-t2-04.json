@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -22,14 +22,550 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt2-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt2-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen und interpretieren Sie den Differenzenquotienten "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{f(13)-f(0)}{13}"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 46,8 MW pro Jahr, Toleranz 46–47; durchschnittliche jährliche Zunahme der Leistung 2000–2013. Ergebnis und Interpretation erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{f(13)-f(0)}{13}\\approx46{,}8"
+            },
+            {
+              "t": "text",
+              "v": "\nIm Zeitraum von 2000 bis 2013 hat die Leistung durchschnittlich um ca. 47 MW pro Jahr zugenommen."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung und eine (sinngemäß) korrekte Interpretation. Toleranzintervall: [46 MW; 47 MW]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung des Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^{13}f(t)\\,\\mathrm{d}t"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf die Erzeugung von Sonnenstrom an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Näherungsweise insgesamt 2000–2013 mithilfe von Solarzellen erzeugte elektrische Energie."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Integral gibt näherungsweise an, wie viel elektrische Energie („Sonnenstrom“) in den Jahren 2000 bis 2013 mithilfe von Solarzellen insgesamt erzeugt wurde."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die in der obigen Grafik im Zeitintervall [9 Jahre; 12 Jahre] dargestellte Leistung (in MW) durch eine Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=a\\cdot b^t"
+        },
+        {
+          "t": "text",
+          "v": " gut angenähert werden kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Leistung verdoppelt sich ungefähr jedes Jahr in diesem Zeitintervall."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im Zeitintervall [9 Jahre; 12 Jahre] kommt es jährlich ungefähr zu einer Verdoppelung der Leistung."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die in der obigen Grafik im Zeitintervall [9 Jahre; 12 Jahre] dargestellte Leistung (in MW) durch eine Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=a\\cdot b^t"
+        },
+        {
+          "t": "text",
+          "v": " gut angenähert werden kann!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{f(12)-f(9)}{f(9)}+1"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "b^3",
+        "vars": [
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac{f(12)-f(9)}{f(9)}+1=b^3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-04-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Energiegewinnung durch eine Fotovoltaikanlage ist am größten, wenn das Sonnenlicht im rechten Winkel auf die Solarzellen trifft.\nDie optimale Neigung der Fotovoltaikmodule hängt daher vom Einfallswinkel der Sonne ab, der auf der nördlichen Erdhalbkugel am 21. Juni am größten ist."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-04-c-earth.png",
+          "alt": "Erdquerschnitt mit Erdachse, Äquator, Sonneneinstrahlung und Winkeln α, δ, φ"
+        },
+        {
+          "t": "text",
+          "v": "\nIn der obigen Abbildung ist der Einfallswinkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " der Sonne am 21. Juni zu Mittag dargestellt. Der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\delta\\approx23{,}5^\\circ"
+        },
+        {
+          "t": "text",
+          "v": " gibt dabei die Neigung der Erdachse zur Bahnebene um die Sonne und der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\varphi"
+        },
+        {
+          "t": "text",
+          "v": " die geografische Breite an.\n\nGeben Sie eine Formel für den Einfallswinkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " der Sonnenstrahlung in Abhängigkeit von der geografischen Breite "
+        },
+        {
+          "t": "math",
+          "v": "\\varphi"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\alpha=90^\\circ+\\delta-\\varphi=113{,}5^\\circ-\\varphi"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Formeln akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\alpha=90^\\circ+\\delta-\\varphi=113{,}5^\\circ-\\varphi"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Energiegewinnung durch eine Fotovoltaikanlage ist am größten, wenn das Sonnenlicht im rechten Winkel auf die Solarzellen trifft.\nDie optimale Neigung der Fotovoltaikmodule hängt daher vom Einfallswinkel der Sonne ab, der auf der nördlichen Erdhalbkugel am 21. Juni am größten ist."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-04-c-earth.png",
+          "alt": "Erdquerschnitt mit Erdachse, Äquator, Sonneneinstrahlung und Winkeln α, δ, φ"
+        },
+        {
+          "t": "text",
+          "v": "\nIn der obigen Abbildung ist der Einfallswinkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " der Sonne am 21. Juni zu Mittag dargestellt. Der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\delta\\approx23{,}5^\\circ"
+        },
+        {
+          "t": "text",
+          "v": " gibt dabei die Neigung der Erdachse zur Bahnebene um die Sonne und der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\varphi"
+        },
+        {
+          "t": "text",
+          "v": " die geografische Breite an.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-04-c-solar-panel.png",
+          "alt": "Fotovoltaikmodul, gegen die Horizontale um Winkel β geneigt"
+        },
+        {
+          "t": "text",
+          "v": "\nBildquelle: http://www.solaranlage.eu/sites/default/files/bilder/reflexionsverluste-solarmodule.jpg [14.11.2016] (adaptiert).\n\nDie obige Abbildung zeigt Fotovoltaikmodule, die unter einem Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " gegen die Horizontale geneigt sind. Die Solarzellen sind dabei der Sonne zugewandt.\n\nErmitteln Sie eine Formel für den optimalen Neigungswinkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta_{\\mathrm{opt}}"
+        },
+        {
+          "t": "text",
+          "v": " der Fotovoltaikmodule in Abhängigkeit von demjenigen "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": ", bei dem das Sonnenlicht im rechten Winkel auftrifft! Geben Sie an, wie sich dieser Winkel im Winter bzw. in höheren Breiten (d. h. bei einer Zunahme der geografischen Breite) verändert! Begründen Sie Ihre Antwort!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\beta_{\\mathrm{opt}}=90^\\circ-\\alpha"
+          },
+          {
+            "t": "text",
+            "v": ". Optimale Neigung steigt im Winter/in höheren Breiten, weil Einfallswinkel kleiner ist. Formel, Schlussfolgerung und Begründung erforderlich; äquivalente Formeln akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\beta_{\\mathrm{opt}}+90^\\circ+\\alpha=180^\\circ\\Rightarrow\\beta_{\\mathrm{opt}}=90^\\circ-\\alpha"
+            },
+            {
+              "t": "text",
+              "v": "\nMögliche Begründung: Da der Einfallswinkel in höheren Breiten bzw. im Winter kleiner ist, vergrößert sich die optimale Neigung der Fotovoltaikmodule."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel, eine korrekte Schlussfolgerung und eine (sinngemäß) korrekte Begründung. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Fotovoltaikanlage wird Sonnenstrahlung mithilfe von Solarzellen in elektrische Energie umgewandelt und somit „Sonnenstrom“ erzeugt. In Österreich arbeiten Solarmodule am effizientesten, wenn sie nach Süden ausgerichtet sind.\n\nMan unterscheidet dabei die sogenannten aufgeständerten Systeme, bei denen die Module entsprechend dem Einfall der Sonnenstrahlung bewegt werden können, und die kostengünstigeren Systeme mit einer dachparallelen Montage.\n\nÜberschüssiger Strom kann ins öffentliche Stromnetz eingespeist werden, was die Stromkosten eines Haushalts weiter verringert.\n\nDie nachstehende Grafik zeigt die Zunahme an Sonnenstrom seit dem Jahr 2000."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-04-solar-power-chart.png",
+      "alt": "Sonnenstrom in Österreich: kumulierte Leistung 2000–2013 von 4,9 bis 612,9 MW"
+    },
+    {
+      "t": "text",
+      "v": "\nQuelle: http://kurier.at/wirtschaft/ein-oel-mann-wird-zum-solar-fan/42.474.775 [28.06.2016].\n\nEs sei "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der seit dem Jahr 2000 vergangenen Jahre und "
+    },
+    {
+      "t": "math",
+      "v": "f(t)"
+    },
+    {
+      "t": "text",
+      "v": " die in der obigen Grafik dargestellte Leistung (in MW) nach "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Jahren."
+    }
+  ]
 }

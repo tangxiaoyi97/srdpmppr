@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,182 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_372a",
+          "id": "1_372",
           "baseId": "1_372",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/80/Definitionsmengen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zuordnung in der Reihenfolge der Terme: C, F, D, A."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn alle vier Buchstaben richtig zugeordnet sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Termen jeweils die entsprechende größtmögliche Definitionsmenge "
+        },
+        {
+          "t": "math",
+          "v": "D_A,D_B,\\ldots,D_F"
+        },
+        {
+          "t": "text",
+          "v": " in der Menge der reellen Zahlen zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "\\ln(x+1)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{1-x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{2x}{x\\cdot(x+1)^2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{2x}{x^2+1}"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: "
+            },
+            {
+              "t": "math",
+              "v": "D_A=\\mathbb R"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: "
+            },
+            {
+              "t": "math",
+              "v": "D_B=(1;\\infty)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: "
+            },
+            {
+              "t": "math",
+              "v": "D_C=(-1;\\infty)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: "
+            },
+            {
+              "t": "math",
+              "v": "D_D=\\mathbb R\\setminus\\{-1;0\\}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: "
+            },
+            {
+              "t": "math",
+              "v": "D_E=(-\\infty;1)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: "
+            },
+            {
+              "t": "math",
+              "v": "D_F=(-\\infty;1]"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_372",
       "baseId": "1_372",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/80/Definitionsmengen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sind vier Terme und sechs Mengen (A bis F) gegeben."
     }
   ]
 }

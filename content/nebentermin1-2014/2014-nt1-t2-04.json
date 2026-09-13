@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -22,14 +22,425 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-nt1-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie anhand der Abbildung, in welcher der vier Wachstumsphasen sich ein längerer Zeitraum befindet, in welchem die Höhe des Baumes annähernd linear zunimmt, und begründen Sie Ihre Auswahl!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Im mittleren Bereich der Altersphase nimmt die Höhe des Baumes annähernd linear zu, weil der Höhenzuwachs pro Jahr annähernd konstant ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im mittleren Bereich der Altersphase nimmt die Höhe des Baumes annähernd linear zu, weil der Höhenzuwachs pro Jahr annähernd konstant ist."
+            }
+          ],
+          "note": "Ein Punkt für die Nennung der Altersphase (bzw. die Markierung der betreffenden Stelle im Graphen) und die sinngemäß richtige Begründung, dass die Höhe des Baumes dann linear zunimmt, wenn i waagrecht verläuft, d. h. der Höhenzuwachs konstant ist."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie unter Verwendung der Wachstumsgeschwindigkeitsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "i"
+        },
+        {
+          "t": "text",
+          "v": " einen mathematischen Ausdruck an, der die Höhe des Baumes am Beginn der Senilitätsphase (also zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_3"
+        },
+        {
+          "t": "text",
+          "v": ") beschreibt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\int_0^{t_3}i(t)\\,\\mathrm dt"
+          },
+          {
+            "t": "text",
+            "v": " inklusive Grenzen und Integrationsvariable."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Höhe des Baumes am Beginn der Senilitätsphase: "
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{t_3}i(t)\\,\\mathrm dt"
+            }
+          ],
+          "note": "Ein Punkt für das richtige Anschreiben des Integrals (inkl. Grenzen und Integrationsvariable)."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Markieren Sie in der nachstehenden Abbildung diejenige Stelle "
+        },
+        {
+          "t": "math",
+          "v": "t^*"
+        },
+        {
+          "t": "text",
+          "v": " auf der t-Achse (in der Hauptphase "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": "), für die "
+        },
+        {
+          "t": "math",
+          "v": "i'(t^*)=0"
+        },
+        {
+          "t": "text",
+          "v": " gilt! Formulieren Sie eine Aussage über das Höhenwachstum des Baumes an der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "t^*"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-04-growth.png",
+          "alt": "Originalgraph der Wachstumsgeschwindigkeit i mit den Phasen J, H, A und S."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Maximumstelle muss auf der t-Achse erkennbar gekennzeichnet sein. Zu diesem Zeitpunkt ("
+          },
+          {
+            "t": "math",
+            "v": "t^*"
+          },
+          {
+            "t": "text",
+            "v": ") ist die Wachstumsgeschwindigkeit des Baumes größer als zu den Zeitpunkten davor und danach."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Maximumstelle muss auf der t-Achse erkennbar gekennzeichnet sein. Zu diesem Zeitpunkt ("
+            },
+            {
+              "t": "math",
+              "v": "t^*"
+            },
+            {
+              "t": "text",
+              "v": ") ist die Wachstumsgeschwindigkeit des Baumes größer als zu den Zeitpunkten davor und danach."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-04-solution.png",
+              "alt": "Originale Lösung mit markierter Maximumstelle t* auf der Zeitachse."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Kennzeichnung der Maximumstelle und für eine sinngemäß richtige Interpretation dieses Zeitpunktes. Die Maximumstelle muss (auf der t-Achse!) erkennbar gekennzeichnet sein. Aus der formulierten Aussage muss klar hervorgehen, dass der Baum zu diesem Zeitpunkt am schnellsten wächst."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Während der Jugendphase ist die Wachstumsgeschwindigkeitsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "i"
+        },
+        {
+          "t": "text",
+          "v": " monoton steigend, während der Altersphase ist "
+        },
+        {
+          "t": "math",
+          "v": "i"
+        },
+        {
+          "t": "text",
+          "v": " monoton fallend. Interpretieren Sie dieses Monotonieverhalten im Hinblick auf das Höhenwachstum des Baumes!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Solange "
+          },
+          {
+            "t": "math",
+            "v": "i"
+          },
+          {
+            "t": "text",
+            "v": " monoton steigt (Jugendphase), wächst der Baum immer schneller, d. h., die Höhenzunahme pro Jahr wird größer. Wenn "
+          },
+          {
+            "t": "math",
+            "v": "i"
+          },
+          {
+            "t": "text",
+            "v": " monoton fällt (Altersphase), nimmt die Wachstumsgeschwindigkeit ab, d. h., der Baum wächst immer langsamer."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Solange "
+            },
+            {
+              "t": "math",
+              "v": "i"
+            },
+            {
+              "t": "text",
+              "v": " monoton steigt (Jugendphase), wächst der Baum immer schneller, d. h., die Höhenzunahme pro Jahr wird größer. Wenn "
+            },
+            {
+              "t": "math",
+              "v": "i"
+            },
+            {
+              "t": "text",
+              "v": " monoton fällt (Altersphase), nimmt die Wachstumsgeschwindigkeit ab, d. h., der Baum wächst immer langsamer."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation des Monotonieverhaltens von i im Hinblick auf das Baumwachstum."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=9",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Wachstum von Bäumen wird die Zunahme der Höhe, des Durchmessers, der Grundfläche, des Volumens und der Baumkronenhöhe des Baumes beobachtet.\nDie untenstehende Abbildung zeigt einen typischen Verlauf des Graphen einer Wachstumsgeschwindigkeitsfunktion von Bäumen. Die vier eingezeichneten Punkte markieren Wendepunkte des Graphen der Wachstumsgeschwindigkeitsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "i"
+    },
+    {
+      "t": "text",
+      "v": ".\nBeim Höhenwachstum des Baumes werden vier Phasen unterschieden. Auf die Jugendphase "
+    },
+    {
+      "t": "math",
+      "v": "J"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "0\\le t\\le t_1"
+    },
+    {
+      "t": "text",
+      "v": ") folgt die Hauptphase "
+    },
+    {
+      "t": "math",
+      "v": "H"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t_1\\le t\\le t_2"
+    },
+    {
+      "t": "text",
+      "v": "), darauf folgt die Altersphase "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t_2\\le t\\le t_3"
+    },
+    {
+      "t": "text",
+      "v": ") und schließlich die Senilitätsphase "
+    },
+    {
+      "t": "math",
+      "v": "S"
+    },
+    {
+      "t": "text",
+      "v": ". "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ist das Lebensalter des Baumes in Jahren. "
+    },
+    {
+      "t": "math",
+      "v": "i(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird in Metern pro Jahr angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-04-growth.png",
+      "alt": "Originalgraph der Wachstumsgeschwindigkeit i mit den Phasen J, H, A und S."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://www.wsl.ch/forest/waldman/vorlesung/ww_tk32.ehtml [21.05.2014] (adaptiert)"
+    }
+  ]
 }

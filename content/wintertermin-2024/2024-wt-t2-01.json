@@ -36,12 +36,18 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_133a",
           "baseId": "2_133",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -53,6 +59,10 @@
           "t": "fig",
           "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-a-tab.png",
           "alt": "Tabelle Parkgebühren pro Woche in Euro: Klagenfurt K, Salzburg 54, Linz L, Graz G, Wien-Schwechat W, Innsbruck 147."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://www.derstandard.at/story/2000079383984/ranking-wo-das-parken-teurer-ist-als-der-flug [09.08.2022].\n\n"
         },
         {
           "t": "text",
@@ -81,7 +91,7 @@
           "steps": [
             {
               "t": "math",
-              "v": "\\dfrac{147-54}{54}=1{,}72"
+              "v": "\\dfrac{147-54}{54}=1{,}7\\dot{2}"
             }
           ],
           "result": [
@@ -97,7 +107,7 @@
     {
       "id": "2024-wt-t2-01-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "WS 1.4",
@@ -108,22 +118,41 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_133a",
           "baseId": "2_133",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Das arithmetische Mittel dieser 6 Parkgebühren beträgt D (in Euro).\n\nStellen Sie eine Formel zur Berechnung der Parkgebühren G am Flughafen Graz auf. Verwenden Sie dabei D und die Einträge der obigen Tabelle."
+          "v": "In Österreich waren im Jahr 2018 die Parkgebühren in der Nähe der unten angeführten Flughäfen unterschiedlich hoch."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-a-tab.png",
+          "alt": "Tabelle Parkgebühren pro Woche in Euro: Klagenfurt K, Salzburg 54, Linz L, Graz G, Wien-Schwechat W, Innsbruck 147."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://www.derstandard.at/story/2000079383984/ranking-wo-das-parken-teurer-ist-als-der-flug [09.08.2022].\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Das arithmetische Mittel dieser 6 Parkgebühren beträgt D (in Euro).\n\nStellen Sie eine Formel zur Berechnung der Parkgebühren G am Flughafen Graz auf. Verwenden Sie dabei D und die Einträge der obigen Tabelle.\n\n"
         },
         {
           "t": "math",
-          "v": "G="
+          "v": "G=\\underline{\\hspace{6cm}}"
         }
       ],
       "figures": [],
@@ -169,12 +198,18 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_133b",
           "baseId": "2_133",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -199,7 +234,7 @@
           {
             "id": "s",
             "value": 1120,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "m"
           }
         ]
@@ -241,18 +276,24 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_133c",
           "baseId": "2_133",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Für einen bestimmten Flug haben 124 Personen jeweils einen Platz gebucht.\n\nModellhaft wird angenommen: Die für einen Flug gebuchten Plätze werden unabhängig voneinander jeweils mit der Wahrscheinlichkeit p in Anspruch genommen.\n\nFür die Wahrscheinlichkeit des Ereignisses E gilt:"
+          "v": "Für einen bestimmten Flug haben 124 Personen jeweils einen Platz gebucht.\n\nModellhaft wird angenommen: Die für einen Flug gebuchten Plätze werden unabhängig voneinander jeweils mit der Wahrscheinlichkeit p in Anspruch genommen.\n\nFür die Wahrscheinlichkeit des Ereignisses E gilt:\n"
         },
         {
           "t": "math",
@@ -260,7 +301,7 @@
         },
         {
           "t": "text",
-          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass jedenfalls eine richtige Aussage entsteht.\n\nDas Ereignis E ist: „Es werden ① ② der gebuchten Plätze in Anspruch genommen.“"
+          "v": "\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass jedenfalls eine richtige Aussage entsteht.\n\nDas Ereignis E ist: „Es werden ① ② der gebuchten Plätze in Anspruch genommen.“"
         }
       ],
       "figures": [],
@@ -383,18 +424,19 @@
   ],
   "externalRefs": [
     {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 25 (Teil 2)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=27",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "system": "aufgabenpool",
       "id": "2_133",
       "baseId": "2_133",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
     }
   ],
-  "prompt": [
-    {
-      "t": "text",
-      "v": "Flugreisen"
-    }
-  ]
+  "prompt": []
 }

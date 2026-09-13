@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t1-22",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1446a",
+          "id": "1_1446",
           "baseId": "1_1446",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1008/1_1446_srdp_ma_Lieblingslied_PT3_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,19 +69,27 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 4.1,
-            "tol": 0.1,
-            "unit": "%"
+            "t": "math",
+            "v": "(19/20)^4\\cdot(1/20)=0{,}0407253125"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit beträgt rund 4,1 %. Gleichwertige Bruch-, Dezimal- oder Prozentdarstellungen und angemessene Rundungen wie 0,0407 bzw. 4,1 % sind richtig. Ein Punkt für das richtige Berechnen."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

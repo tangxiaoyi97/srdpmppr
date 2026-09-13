@@ -36,6 +36,12 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=31",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_151a",
           "baseId": "2_151",
@@ -61,25 +67,80 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "x",
-            "label": "Länge der Landebahn",
-            "value": 524.9,
-            "tol": 1.5,
-            "unit": "m"
+            "t": "text",
+            "v": "α ... Steigungswinkel der Landebahn in °\nx ... Länge der Landebahn in m\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=0{,}117 \\Rightarrow \\alpha=6{,}673\\ldots^{\\circ}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "\\sin(6{,}673\\ldots^{\\circ})=\\dfrac{61}{x} \\Rightarrow x=524{,}9\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\noder:\nh ... horizontale Entfernung zwischen Anfang und Ende der Landebahn in m\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{61}{h}=0{,}117"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h=521{,}367\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "x=\\sqrt{h^2+61^2}=524{,}9\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Die Landebahn hat eine Länge von rund 525 m."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen der Länge der Landebahn."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Länge524,9…m, laut Original rund525m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
         {
           "steps": [
+            {
+              "t": "text",
+              "v": "α ... Steigungswinkel der Landebahn in °\nx ... Länge der Landebahn in m\n"
+            },
             {
               "t": "math",
               "v": "\\tan(\\alpha)=0{,}117 \\Rightarrow \\alpha=6{,}673\\ldots^{\\circ}"
@@ -91,6 +152,30 @@
             {
               "t": "math",
               "v": "\\sin(6{,}673\\ldots^{\\circ})=\\dfrac{61}{x} \\Rightarrow x=524{,}9\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\nh ... horizontale Entfernung zwischen Anfang und Ende der Landebahn in m\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{61}{h}=0{,}117"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h=521{,}367\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "x=\\sqrt{h^2+61^2}=524{,}9\\ldots"
             }
           ],
           "result": [
@@ -117,6 +202,12 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=31",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_151a",
           "baseId": "2_151",
@@ -133,20 +224,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "Luftdruck im Basislager",
-            "value": 516.9,
-            "tol": 1.5,
-            "unit": "hPa"
+            "t": "math",
+            "v": "\\dfrac{5364-2860}{80}=31{,}3"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "708\\cdot 0{,}99^{31{,}3}=516{,}9\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Der Luftdruck im Basislager an diesem Tag beträgt rund 517 hPa."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen des Luftdrucks im Basislager."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Luftdruck516,9…hPa, laut Original rund517hPa.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -188,6 +302,12 @@
         }
       ],
       "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=31",
+          "verifiedAt": "2026-09-13"
+        },
         {
           "system": "aufgabenpool",
           "id": "2_151b",
@@ -280,13 +400,13 @@
             "id": "h",
             "label": "Stunden",
             "value": 10,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "min",
             "label": "Minuten",
             "value": 54,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -335,6 +455,12 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=31",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_151c",
           "baseId": "2_151",
@@ -346,7 +472,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Nach Absolvierung des Marathons werden zur Analyse für alle Läuferinnen und Läufer jeweils folgende zwei Größen berechnet:\n- die Durchschnittsgeschwindigkeit v (in km/h)\n- die sogenannte Pace c (in min/km)\n\nDie Pace gibt an, wie viele Minuten im Durchschnitt pro gelaufenem Kilometer benötigt worden sind.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Pace c kann mithilfe der Gleichung ① berechnet werden und wird bei doppelter Durchschnittsgeschwindigkeit v ②."
+          "v": "Nach Absolvierung des Marathons werden zur Analyse für alle Läuferinnen und Läufer jeweils folgende zwei Größen berechnet:\n- die Durchschnittsgeschwindigkeit v̄ (in km/h)\n- die sogenannte Pace c (in min/km)\n\nDie Pace gibt an, wie viele Minuten im Durchschnitt pro gelaufenem Kilometer benötigt worden sind.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Pace c kann mithilfe der Gleichung ① berechnet werden und wird bei doppelter Durchschnittsgeschwindigkeit v̄ ②."
         }
       ],
       "figures": [],
@@ -370,19 +496,19 @@
           [
             {
               "t": "math",
-              "v": "c=\\dfrac{60}{v}"
+              "v": "c=\\dfrac{60}{\\bar{v}}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "c=\\dfrac{1}{v}"
+              "v": "c=\\dfrac{1}{\\bar{v}}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "c=\\dfrac{3{,}6}{v}"
+              "v": "c=\\dfrac{3{,}6}{\\bar{v}}"
             }
           ],
           [
@@ -472,7 +598,7 @@
             },
             {
               "t": "math",
-              "v": "c=\\dfrac{60}{v}"
+              "v": "c=\\dfrac{60}{\\bar{v}}"
             },
             {
               "t": "text",
@@ -485,6 +611,12 @@
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 27 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=31",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_151",

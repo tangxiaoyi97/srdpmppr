@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,155 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_418a",
+          "id": "1_418",
           "baseId": "1_418",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/126/Parameterdarstellung%20einer%20Geraden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g:X=\\begin{pmatrix}-1\\\\-6\\\\2\\end{pmatrix}+t\\cdot\\begin{pmatrix}6\\\\3\\\\-5\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "t\\in\\mathbb R"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Parameterdarstellung der Geraden g, wobei t ∈ ℝ nicht angegeben werden muss. Äquivalente Parameterdarstellungen der Geraden g sind ebenfalls als richtig zu werten. Die Angabe der Parameterdarstellung nur in allgemeiner Form wie z. B. g: X = A + t · AB genügt nicht."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Parameterdarstellung dieser Geraden "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " unter Verwendung der konkreten Koordinaten der Punkte "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "g:X="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "g:X=\\begin{pmatrix}-1\\\\-6\\\\2\\end{pmatrix}+t\\cdot\\begin{pmatrix}6\\\\3\\\\-5\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "t\\in\\mathbb R"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Parameterdarstellung der Geraden g, wobei t ∈ ℝ nicht angegeben werden muss. Äquivalente Parameterdarstellungen der Geraden g sind ebenfalls als richtig zu werten. Die Angabe der Parameterdarstellung nur in allgemeiner Form wie z. B. g: X = A + t · AB genügt nicht."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_418",
       "baseId": "1_418",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/126/Parameterdarstellung%20einer%20Geraden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die zwei Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(-1|-6|2)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(5|-3|-3)"
+    },
+    {
+      "t": "text",
+      "v": " liegen auf einer Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb R^3"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

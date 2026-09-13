@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,110 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_403a",
+          "id": "1_403",
           "baseId": "1_403",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/111/Internetplattform.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Median der Anzahl von Besuchen pro Woche ist bei den Burschen etwas höher als bei den Mädchen.\n\nDer Anteil der Burschen, die mehr als 20-mal pro Woche die Plattform nützen, ist zumindest gleich groß oder größer als jener der Mädchen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Median der Anzahl von Besuchen pro Woche ist bei den Burschen etwas höher als bei den Mädchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite der wöchentlichen Nutzung der Plattform ist bei den Burschen größer als bei den Mädchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Aus der Grafik kann man ablesen, dass genauso viele Mädchen wie Burschen die Plattform wöchentlich besuchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Anteil der Burschen, die mehr als 20-mal pro Woche die Plattform nützen, ist zumindest gleich groß oder größer als jener der Mädchen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ca. 80 % der Mädchen und ca. 75 % der Burschen nützen die Plattform genau 25-mal pro Woche."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_403",
       "baseId": "1_403",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/111/Internetplattform.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Nutzung einer bestimmten Internetplattform durch Jugendliche wird für Mädchen und Burschen getrennt untersucht. Dabei wird erfasst, wie oft die befragten Jugendlichen diese Plattform pro Woche besuchen. Die nachstehenden Kastenschaubilder (Boxplots) zeigen das Ergebnis der Untersuchung."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-19-boxplots.png",
+      "alt": "Originale Boxplots der Plattformbesuche pro Woche von Burschen und Mädchen."
     }
   ]
 }

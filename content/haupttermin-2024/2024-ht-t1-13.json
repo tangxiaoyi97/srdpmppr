@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t1-13",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1352a",
+          "id": "1_1352",
           "baseId": "1_1352",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/904/1_1352_srdp_ma_CO2-Emissionen_PT1_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -79,37 +79,49 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Berechnen Sie die Werte der nachstehend angegebenen Größen.\n\nabsolute Änderung der CO₂-Emissionen von 2017 auf 2018 (in Millionen Tonnen):\n\nrelative Änderung der CO₂-Emissionen von 1990 auf 2005:"
+          "v": "Berechnen Sie die Werte der nachstehend angegebenen Größen.\n\nabsolute Änderung der CO₂-Emissionen von 2017 auf 2018: "
+        },
+        {
+          "t": "math",
+          "v": "\\underline{\\hspace{2cm}}"
+        },
+        {
+          "t": "text",
+          "v": " Millionen Tonnen\n\nrelative Änderung der CO₂-Emissionen von 1990 auf 2005: "
+        },
+        {
+          "t": "math",
+          "v": "\\underline{\\hspace{2cm}}"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "abs",
-            "label": "absolute Änderung",
-            "value": -3,
-            "tol": 1e-9,
-            "unit": "Millionen Tonnen"
+            "t": "text",
+            "v": "Absolute Änderung: −3 Millionen Tonnen. Die Angabe +3 ist ausdrücklich nicht richtig. Relative Änderung: "
           },
           {
-            "id": "rel",
-            "label": "relative Änderung",
-            "value": 0.17834394904458598,
-            "tol": 0.001
+            "t": "math",
+            "v": "\\frac{92{,}5-78{,}5}{78{,}5}=0{,}178343949\\ldots=17{,}8343949\\ldots\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "Gleichwertige Bruch-, Dezimal- oder Prozentdarstellungen sowie angemessene Rundungen wie 0,178 bzw. 17,8 % sind richtig. Je 0,5 Punkte für einen richtigen Wert; beide zusammen 1 Punkt."
           }
         ]
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
+            "desc": "Absolute Änderung −3 Millionen Tonnen (nicht +3).",
             "points": 0.5
           },
           {
-            "minCorrect": 2,
-            "points": 1
+            "desc": "Relative Änderung 0,178… bzw. 17,8… % oder gleichwertig.",
+            "points": 0.5
           }
         ]
       },

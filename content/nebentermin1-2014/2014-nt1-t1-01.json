@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,177 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_373a",
+          "id": "1_373",
           "baseId": "1_373",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/81/Aussagen%20%C3%BCber%20Zahlenmengen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Reelle Zahlen mit periodischer oder endlicher Dezimaldarstellung sind rationale Zahlen.\n\nZwischen zwei verschiedenen rationalen Zahlen "
+            },
+            {
+              "t": "math",
+              "v": "a,b"
+            },
+            {
+              "t": "text",
+              "v": " existiert stets eine weitere rationale Zahl."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die korrekt sind!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Reelle Zahlen mit periodischer oder endlicher Dezimaldarstellung sind rationale Zahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Differenz zweier natürlicher Zahlen ist stets eine natürliche Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Alle Wurzelausdrücke der Form "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt a"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "a\\in\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " sind stets irrationale Zahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Zwischen zwei verschiedenen rationalen Zahlen "
+            },
+            {
+              "t": "math",
+              "v": "a,b"
+            },
+            {
+              "t": "text",
+              "v": " existiert stets eine weitere rationale Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Quotient zweier negativer ganzer Zahlen ist stets eine positive ganze Zahl."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_373",
       "baseId": "1_373",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/81/Aussagen%20%C3%BCber%20Zahlenmengen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Untenstehend sind fünf Aussagen über Zahlen aus den Zahlenmengen "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb N"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb Z"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb Q"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " angeführt."
     }
   ]
 }

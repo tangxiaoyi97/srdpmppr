@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -22,14 +22,439 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-nt1-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-nt1-t2-03-a1",
+      "label": "a1",
+      "format": "Lückentext",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nGemäß dem gegebenen Wachstumsprozess bedecken die Bakterien am Beginn eine Fläche von ①, und diese Fläche nimmt pro Stunde um ② zu."
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "1{,}05\\ \\mathrm{mm}^2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3\\ \\mathrm{mm}^2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3\\cdot1{,}05\\ \\mathrm{mm}^2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "1,05 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "3 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "5 %"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① 3 mm²; ② 5 %."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt ist nur dann zu geben, wenn für beide Lücken ausschließlich der jeweils richtige Satzteil angekreuzt ist."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Beschreiben Sie, an welche Grenzen das gegebene exponentielle Wachstumsmodell für die von der Bakterienkultur bedeckte Fläche stößt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Dem vorliegenden exponentiellen Wachstum bzgl. der Fläche der Bakterienkultur wird durch die Größe der Petrischale (ca. 2 376 mm²) eine Grenze gesetzt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Dem vorliegenden exponentiellen Wachstum bzgl. der Fläche der Bakterienkultur wird durch die Größe der Petrischale (ca. 2 376 mm²) eine Grenze gesetzt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Beschreibung. Korrekt sind alle Antworten, die erläutern, dass kein unbeschränktes Wachstum innerhalb der Petrischale möglich ist."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-03-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie, nach wie vielen Stunden sich die Fläche der Bakterienkultur verdoppelt hat!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Verdoppelungszeit: "
+          },
+          {
+            "t": "math",
+            "v": "t=\\frac{\\ln(2)}{\\ln(1{,}05)}\\approx14{,}21"
+          },
+          {
+            "t": "text",
+            "v": ". Die Verdoppelungszeit beträgt ca. 14 Stunden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Berechnung. Toleranzintervall: [14; 15]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Verdoppelungszeit: "
+            },
+            {
+              "t": "math",
+              "v": "t=\\frac{\\ln(2)}{\\ln(1{,}05)}\\approx14{,}21"
+            },
+            {
+              "t": "text",
+              "v": ". Die Verdoppelungszeit beträgt ca. 14 Stunden."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung. Toleranzintervall: [14; 15]."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie, nach wie vielen Stunden sich die Fläche der Bakterienkultur verdoppelt hat!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Erklären und begründen Sie mithilfe der durchgeführten Rechnung oder allgemein, welche Auswirkung eine Änderung der anfangs von Bakterien bedeckten Fläche auf die Verdoppelungszeit für diese Fläche hat!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bei der Berechnung der Verdoppelungszeit "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": " sieht man, dass das Ergebnis vom Anfangswert "
+          },
+          {
+            "t": "math",
+            "v": "A(0)=3"
+          },
+          {
+            "t": "text",
+            "v": " unabhängig ist (er fällt durch Gleichungsumformungen weg), z. B.: "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot3=3\\cdot1{,}05^t"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "2=1{,}05^t"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "t=\\frac{\\ln(2)}{\\ln(1{,}05)}"
+          },
+          {
+            "t": "text",
+            "v": ". Oder: Wenn in jeder Stunde gleich viele Prozent dazukommen, dann dauert es immer – also unabhängig von der Anfangsmenge – gleich lang, bis 100 % dazugekommen sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei der Berechnung der Verdoppelungszeit "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": " sieht man, dass das Ergebnis vom Anfangswert "
+            },
+            {
+              "t": "math",
+              "v": "A(0)=3"
+            },
+            {
+              "t": "text",
+              "v": " unabhängig ist (er fällt durch Gleichungsumformungen weg), z. B.: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot3=3\\cdot1{,}05^t"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "2=1{,}05^t"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "t=\\frac{\\ln(2)}{\\ln(1{,}05)}"
+            },
+            {
+              "t": "text",
+              "v": ". Oder: Wenn in jeder Stunde gleich viele Prozent dazukommen, dann dauert es immer – also unabhängig von der Anfangsmenge – gleich lang, bis 100 % dazugekommen sind."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung. Auch andere Berechnungen mit einer Variablen (z. B.: a anstelle von 1,05, A(0) anstelle von 3) oder selbst anderer Bezeichnung für A(t) (z. B.: N(t)), die die Unabhängigkeit von t vom Anfangswert (hier A(0)) zeigen, gelten als richtig."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Petrischale hat die Form eines oben offenen, geraden Drehzylinders geringer Höhe.\n\nIn einer Petrischale mit einem Durchmesser von 55 mm wird eine Bakterienkultur gezüchtet. Die von Bakterien bedeckte Fläche "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " wird modellhaft durch "
+    },
+    {
+      "t": "math",
+      "v": "A(t)=3\\cdot1{,}05^t"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben. Dabei ist die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Stunden und die Fläche "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Quadratmillimetern angegeben."
+    }
+  ]
 }

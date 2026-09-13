@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-18",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1381a",
+          "id": "1_1381",
           "baseId": "1_1381",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/937/1_1381_srdp_ma_Geometrische%20Deutung%20der%20Summenregel_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,15 +50,60 @@
           "result": [
             {
               "t": "text",
-              "v": "Die Teilfläche mit dem Flächeninhalt A ist die Fläche zwischen dem Graphen von f und der x-Achse im Intervall [a; b] (untere Teilfläche unter dem Graphen von g)."
+              "v": "Eine mögliche Teilfläche liegt zwischen dem Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": " und der Geraden "
+            },
+            {
+              "t": "math",
+              "v": "y=2"
+            },
+            {
+              "t": "text",
+              "v": " im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[a;b]"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nOder: die Teilfläche zwischen dem Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " und der x-Achse im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[a;b]"
+            },
+            {
+              "t": "text",
+              "v": "."
             }
           ],
           "note": "Ein Punkt für das richtige Einzeichnen einer Teilfläche mit dem Flächeninhalt A.",
           "figures": [
             {
               "kind": "image",
+              "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-sol-upper.png",
+              "alt": "Erstes offizielles Lösungsbeispiel: grau markierte Teilfläche zwischen g und y = 2 von a bis b."
+            },
+            {
+              "kind": "image",
               "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t1-18-sol.png",
-              "alt": "Offizielle Lösungsabbildung zu „Geometrische Deutung der Summenregel“: die eingezeichnete bzw. markierte Lösung."
+              "alt": "Zweites offizielles Lösungsbeispiel: grau markierte Teilfläche zwischen f und der x-Achse von a bis b."
             }
           ]
         }
@@ -76,21 +121,65 @@
       ],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Einzeichnen der Teilfläche mit dem Flächeninhalt A, d. h. der Fläche zwischen dem Graphen von f und der x-Achse im Intervall [a; b] (die untere Teilfläche unterhalb des Graphen von g, die dem Integral "
-          },
-          {
-            "t": "math",
-            "v": "\\int_{a}^{b} f(x)\\,dx"
+            "v": "Lösungserwartung:\n"
           },
           {
             "t": "text",
-            "v": " entspricht)."
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Eine mögliche Teilfläche liegt zwischen dem Graphen von "
+          },
+          {
+            "t": "math",
+            "v": "g"
+          },
+          {
+            "t": "text",
+            "v": " und der Geraden "
+          },
+          {
+            "t": "math",
+            "v": "y=2"
+          },
+          {
+            "t": "text",
+            "v": " im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[a;b]"
+          },
+          {
+            "t": "text",
+            "v": ".\n\nOder: die Teilfläche zwischen dem Graphen von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " und der x-Achse im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[a;b]"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Einzeichnen einer Teilfläche mit dem Flächeninhalt A."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",

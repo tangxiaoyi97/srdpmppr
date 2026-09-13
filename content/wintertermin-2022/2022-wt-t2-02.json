@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -191,12 +191,26 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "\\frac{110}{45\\cdot x}",
-        "vars": [
-          "x"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h = \\dfrac{110}{45 \\cdot \\bar{x}}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Aufstellen der Formel."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -257,7 +271,7 @@
             "id": "xquer",
             "label": "Näherungswert für x̄",
             "value": 6.2,
-            "tol": 0.05
+            "tol": 1e-09
           }
         ]
       },
@@ -322,12 +336,34 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "1.852\\cdot v_k",
-        "vars": [
-          "v_k"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "v = 1{,}852 \\cdot v_k"
+          },
+          {
+            "t": "text",
+            "v": "  oder:  "
+          },
+          {
+            "t": "math",
+            "v": "v_k = 0{,}539\\ldots \\cdot v"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für das richtige Aufstellen der Gleichung."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",

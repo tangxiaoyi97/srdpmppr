@@ -1,6 +1,6 @@
 {
   "id": "2019-nt2-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -61,29 +61,37 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Lokale Extremstellen: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
-            "v": "x_1=t"
+            "v": "f_t'(x)=\\tfrac{3}{t}\\cdot x^{2}-4\\cdot x+t"
           },
           {
             "t": "text",
-            "v": " und "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "x_2=\\tfrac{t}{3}"
+            "v": "3\\cdot x^{2}-4\\cdot t\\cdot x+t^{2}=0 \\Rightarrow x_1=\\tfrac{t}{3};\\ x_2=t"
           },
           {
             "t": "text",
-            "v": "."
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "x_1=\\tfrac{t}{3};\\quad x_2=t"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die Angabe der beiden richtigen Werte."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -99,18 +107,26 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "f_t'(x)=\\tfrac{3}{t}\\cdot x^{2}-4\\cdot x+t"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
-              "v": "3\\cdot x^{2}-4\\cdot t\\cdot x+t^{2}=0 \\Rightarrow x_1=t;\\ x_2=\\tfrac{t}{3}"
+              "v": "3\\cdot x^{2}-4\\cdot t\\cdot x+t^{2}=0 \\Rightarrow x_1=\\tfrac{t}{3};\\ x_2=t"
             }
           ],
           "result": [
             {
               "t": "math",
-              "v": "x_1=t;\\quad x_2=\\tfrac{t}{3}"
+              "v": "x_1=\\tfrac{t}{3};\\quad x_2=t"
             }
           ],
           "note": "Ein Ausgleichspunkt für die Angabe der beiden richtigen Werte."
@@ -204,10 +220,19 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Mögliche Beschreibung: An der Stelle "
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Beschreibung:\n"
+          },
+          {
+            "t": "text",
+            "v": "An der Stelle "
           },
           {
             "t": "math",
@@ -224,9 +249,12 @@
           {
             "t": "text",
             "v": " eine Nullstelle und ein lokales Minimum."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Beschreibung."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -241,6 +269,10 @@
       "solution": [
         {
           "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Beschreibung:\n"
+            },
             {
               "t": "text",
               "v": "An der Stelle "
@@ -313,10 +345,27 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Wendestelle: "
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f_t''(x)=\\tfrac{6}{t}\\cdot x-4"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f_t''(x)=0 \\Rightarrow x_0=\\tfrac{2}{3}\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "\n"
           },
           {
             "t": "math",
@@ -324,10 +373,9 @@
           },
           {
             "t": "text",
-            "v": "."
+            "v": "\nEin Punkt für die richtige Lösung."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -343,8 +391,16 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "f_t''(x)=\\tfrac{6}{t}\\cdot x-4"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -408,10 +464,11 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Möglicher Nachweis: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
@@ -419,18 +476,17 @@
           },
           {
             "t": "text",
-            "v": ". Die zweite Ableitungsfunktion hat an der Stelle "
-          },
-          {
-            "t": "math",
-            "v": "x=0"
+            "v": "\n"
           },
           {
             "t": "text",
-            "v": " den Wert −4 und ist somit unabhängig vom Parameter t."
+            "v": "Die zweite Ableitungsfunktion hat an der Stelle x = 0 den Wert −4 und ist somit unabhängig vom Parameter t."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen korrekten rechnerischen Nachweis."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -445,6 +501,10 @@
       "solution": [
         {
           "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
             {
               "t": "math",
               "v": "f_t''(0)=\\tfrac{6}{t}\\cdot 0-4=-4"
@@ -531,21 +591,29 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Funktionsterm: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
-            "v": "A(t)=\\tfrac{t^{3}}{12}"
+            "v": "A(t)=\\int_{0}^{t} f_t(x)\\,dx=\\tfrac{t^{3}}{4}-\\tfrac{2\\,t^{3}}{3}+\\tfrac{t^{3}}{2}=\\tfrac{t^{3}}{12}"
           },
           {
             "t": "text",
-            "v": "; die Funktion A ist eine Funktion dritten Grades."
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Funktion A ist eine Funktion dritten Grades."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen richtigen Funktionsterm und die Angabe des richtigen Grades von A. Äquivalente Terme sind als richtig zu werten."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -560,6 +628,10 @@
       "solution": [
         {
           "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
             {
               "t": "math",
               "v": "A(t)=\\int_{0}^{t} f_t(x)\\,dx=\\tfrac{t^{3}}{4}-\\tfrac{2\\,t^{3}}{3}+\\tfrac{t^{3}}{2}=\\tfrac{t^{3}}{12}"
@@ -600,6 +672,50 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Funktion A beschreibt in Abhängigkeit von t mit "
+        },
+        {
+          "t": "math",
+          "v": "t>0"
+        },
+        {
+          "t": "text",
+          "v": " den Flächeninhalt derjenigen Fläche, die vom Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f_t"
+        },
+        {
+          "t": "text",
+          "v": " und von der x-Achse im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0; t]"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt wird. Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "A:\\mathbb{R}^{+}\\to\\mathbb{R}_0^{+}"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "t\\mapsto A(t)"
+        },
+        {
+          "t": "text",
+          "v": ", ist eine Polynomfunktion.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Geben Sie das Verhältnis "
         },
         {
@@ -614,13 +730,21 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
+          {
+            "t": "text",
+            "v": "\n"
+          },
           {
             "t": "math",
             "v": "A(t):A(2\\cdot t)=1:8"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für ein richtiges Verhältnis."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -691,10 +815,11 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Möglicher Nachweis: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
@@ -702,7 +827,7 @@
           },
           {
             "t": "text",
-            "v": " und "
+            "v": "\n"
           },
           {
             "t": "math",
@@ -710,7 +835,7 @@
           },
           {
             "t": "text",
-            "v": ", also "
+            "v": "\n"
           },
           {
             "t": "math",
@@ -718,10 +843,9 @@
           },
           {
             "t": "text",
-            "v": "."
+            "v": "\nEin Punkt für einen korrekten rechnerischen Nachweis."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -737,8 +861,16 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "f_{-1}(x)=-x^{3}-2\\cdot x^{2}-x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -802,7 +934,12 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
+          {
+            "t": "text",
+            "v": "\n"
+          },
           {
             "t": "text",
             "v": "Mögliche Erläuterung: Wird der Graph der Funktion "
@@ -822,9 +959,12 @@
           {
             "t": "text",
             "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Erläuterung."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -841,7 +981,23 @@
           "result": [
             {
               "t": "text",
-              "v": "Wird der Graph der Funktion f1 an der senkrechten Achse gespiegelt, so erhält man den Graphen der Funktion f−1."
+              "v": "Mögliche Erläuterung: Wird der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f_{1}"
+            },
+            {
+              "t": "text",
+              "v": " an der senkrechten Achse gespiegelt, so erhält man den Graphen der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f_{-1}"
+            },
+            {
+              "t": "text",
+              "v": "."
             }
           ],
           "note": "Ein Punkt für eine korrekte Erläuterung."

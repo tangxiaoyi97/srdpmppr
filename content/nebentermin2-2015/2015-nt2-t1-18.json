@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,158 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_380a",
+          "id": "1_380",
           "baseId": "1_380",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/88/Integral.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_0^3f(x)\\,dx=6{,}75"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\int_{-3}^3f(x)\\,dx=0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Gleichungen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_0^3f(x)\\,dx=6{,}75"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-3}^3f(x)\\,dx=13{,}5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-3}^3f(x)\\,dx=-13{,}5"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-3}^3f(x)\\,dx=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_{-3}^0f(x)\\,dx=6{,}75"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_380",
       "baseId": "1_380",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/88/Integral.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer punktsymmetrischen Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " (das bedeutet: "
+    },
+    {
+      "t": "math",
+      "v": "f(-x)=-f(x)"
+    },
+    {
+      "t": "text",
+      "v": ") dargestellt. Die Fläche zwischen dem Graphen der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und der "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": "-Achse im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;3]"
+    },
+    {
+      "t": "text",
+      "v": " ist grau unterlegt. Ihre Maßzahl beträgt 6,75."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-18-integral.png",
+      "alt": "Punktsymmetrischer Graph f; Fläche zwischen 0 und 3 oberhalb der x-Achse ist grau markiert, Maßzahl 6,75."
     }
   ]
 }

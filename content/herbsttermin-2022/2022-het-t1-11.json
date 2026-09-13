@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1230a",
+          "id": "1_1230",
           "baseId": "1_1230",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/760/Grippeerkrankungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,13 +69,28 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "prozentsatz",
-            "value": 6.5,
-            "tol": 0.1,
-            "unit": "%"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sqrt[11]{2}=1{,}0650\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Prozentsatz: rund 6,5 %"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des Prozentsatzes.\nGrundkompetenz: FA 5.1"
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,155 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_573a",
+          "id": "1_573",
           "baseId": "1_573",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/282/Wert%20eines%20Gegenstandes.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": " ... jährliche Wertminderung (des Gegenstandes), jährlicher Wertverlust, jährliche Abnahme des Wertes\n"
+            },
+            {
+              "t": "math",
+              "v": "d"
+            },
+            {
+              "t": "text",
+              "v": " ... Wert des Gegenstandes zum Zeitpunkt der Anschaffung"
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung beider Parameter."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf den Wert des Gegenstandes an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": " ... jährliche Wertminderung (des Gegenstandes), jährlicher Wertverlust, jährliche Abnahme des Wertes\n"
+          },
+          {
+            "t": "math",
+            "v": "d"
+          },
+          {
+            "t": "text",
+            "v": " ... Wert des Gegenstandes zum Zeitpunkt der Anschaffung"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_573",
       "baseId": "1_573",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/282/Wert%20eines%20Gegenstandes.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Wert eines bestimmten Gegenstandes "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Jahre nach der Anschaffung wird mit "
+    },
+    {
+      "t": "math",
+      "v": "W(t)"
+    },
+    {
+      "t": "text",
+      "v": " angegeben und kann mithilfe der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "W(t)=-k\\cdot t+d"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "k,d\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": ") berechnet werden ("
+    },
+    {
+      "t": "math",
+      "v": "W(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Euro)."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,85 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_411a",
+          "id": "1_411",
           "baseId": "1_411",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/119/Technetium.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es dauert 12,02 Stunden."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit Stunden nicht angeführt werden muss. Toleranzintervall: [11,55; 12,06]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie lange es dauert, bis von einer bestimmten Ausgangsmenge Technetiums nur noch ein Viertel vorhanden ist!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Stunden",
+            "label": "Stunden",
+            "value": 11.805,
+            "tol": 0.255,
+            "unit": "Stunden"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_411",
       "baseId": "1_411",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/119/Technetium.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine medizinische Untersuchung wird das radioaktive Isotop "
+    },
+    {
+      "t": "math",
+      "v": "{}^{99\\mathrm m}_{43}\\mathrm{Tc}"
+    },
+    {
+      "t": "text",
+      "v": " (Technetium) künstlich hergestellt. Dieses Isotop hat eine Halbwertszeit von 6,01 Stunden."
     }
   ]
 }

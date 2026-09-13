@@ -1,6 +1,6 @@
 {
   "id": "2024-wt-t1-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -25,7 +25,7 @@
     {
       "id": "2024-wt-t1-01-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AG 1.2",
@@ -36,12 +36,18 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=3",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_1316a",
+          "id": "1_1316",
           "baseId": "1_1316",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/864/1_1316_srdp_ma_Lineare%20Gleichung_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -53,7 +59,7 @@
               "v": "..., –4, –2, 0, 2, 4, ... (alle geraden ganzen Zahlen)"
             }
           ],
-          "note": "Ein Punkt für das Angeben der richtigen Zahlen."
+          "note": "Ein Punkt für das Angeben der richtigen Zahlen.\nGrundkompetenz: AG 1.2"
         }
       ],
       "prompt": [
@@ -84,6 +90,10 @@
           {
             "t": "text",
             "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für das Angeben der richtigen Zahlen.\nGrundkompetenz: AG 1.2"
           }
         ],
         "grader": "ai"
@@ -102,6 +112,12 @@
   ],
   "externalRefs": [
     {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=3",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "system": "aufgabenpool",
       "id": "1_1316",
       "baseId": "1_1316",
@@ -114,6 +130,10 @@
     {
       "t": "text",
       "v": "Gegeben ist die folgende Gleichung in der Variablen x ∈ ℤ:"
+    },
+    {
+      "t": "text",
+      "v": "\n"
     },
     {
       "t": "math",

@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-08",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_837a",
+          "id": "1_837",
           "baseId": "1_837",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/630/Funktionstypen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -83,15 +83,7 @@
         },
         {
           "t": "text",
-          "v": " sind auf zwei Dezimalstellen gerundet.\n\nWertetabellen (Spalten: "
-        },
-        {
-          "t": "math",
-          "v": "x"
-        },
-        {
-          "t": "text",
-          "v": " von −2 bis 2):\nA: −0,91; −0,84; 0; 0,84; 0,91\nB: 8; 2; 0; 2; 8\nC: −7; −1; 0; 1; 9\nD: 0,25; 0,5; 1; 2; 4\nE: −3; −1; 1; 3; 5\nF: −0,5; −1; nicht definiert; 1; 0,5\n\nOrdnen Sie jedem der vier angegebenen Funktionstypen jeweils die entsprechende Wertetabelle (aus A bis F) zu."
+          "v": " sind auf zwei Dezimalstellen gerundet.\n\nOrdnen Sie jedem der vier angegebenen Funktionstypen jeweils die entsprechende Wertetabelle (aus A bis F) zu."
         }
       ],
       "answer": {
@@ -126,37 +118,61 @@
           [
             {
               "t": "text",
-              "v": "A"
+              "v": "A\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{1}(x)\\\\\\hline -2&-0{,}91\\\\-1&-0{,}84\\\\0&0\\\\1&0{,}84\\\\2&0{,}91\\end{array}"
             }
           ],
           [
             {
               "t": "text",
-              "v": "B"
+              "v": "B\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{2}(x)\\\\\\hline -2&8\\\\-1&2\\\\0&0\\\\1&2\\\\2&8\\end{array}"
             }
           ],
           [
             {
               "t": "text",
-              "v": "C"
+              "v": "C\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{3}(x)\\\\\\hline -2&-7\\\\-1&-1\\\\0&0\\\\1&1\\\\2&9\\end{array}"
             }
           ],
           [
             {
               "t": "text",
-              "v": "D"
+              "v": "D\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{4}(x)\\\\\\hline -2&0{,}25\\\\-1&0{,}5\\\\0&1\\\\1&2\\\\2&4\\end{array}"
             }
           ],
           [
             {
               "t": "text",
-              "v": "E"
+              "v": "E\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{5}(x)\\\\\\hline -2&-3\\\\-1&-1\\\\0&1\\\\1&3\\\\2&5\\end{array}"
             }
           ],
           [
             {
               "t": "text",
-              "v": "F"
+              "v": "F\n"
+            },
+            {
+              "t": "math",
+              "v": "\\begin{array}{c|c}x&f_{6}(x)\\\\\\hline -2&-0{,}5\\\\-1&-1\\\\0&\\text{nicht definiert}\\\\1&1\\\\2&0{,}5\\end{array}"
             }
           ]
         ],

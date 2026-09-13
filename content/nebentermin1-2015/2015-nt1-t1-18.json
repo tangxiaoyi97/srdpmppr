@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,143 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_428a",
+          "id": "1_428",
           "baseId": "1_428",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/136/Durchflussrate.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die durch das Rohr geflossene Wassermenge (in Litern) vom Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=60"
+            },
+            {
+              "t": "text",
+              "v": " bis zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=120"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Bedeutung der Zahl "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{60}^{120}D(t)\\,\\mathrm dt"
+        },
+        {
+          "t": "text",
+          "v": " im vorliegenden Kontext an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Durchgeflossene Wassermenge in Litern vom Zeitpunkt t=60 bis t=120 Minuten."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_428",
       "baseId": "1_428",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/136/Durchflussrate.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Wasserrohr wird durch einen Sensor die Durchflussrate (= Durchflussmenge pro Zeiteinheit) gemessen. Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": " ordnet jedem Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " die Durchflussrate "
+    },
+    {
+      "t": "math",
+      "v": "D(t)"
+    },
+    {
+      "t": "text",
+      "v": " zu. Dabei wird "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Minuten und "
+    },
+    {
+      "t": "math",
+      "v": "D(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Litern pro Minute angegeben."
     }
   ]
 }

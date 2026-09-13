@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -24,12 +24,148 @@
     {
       "id": "2017-nt1-t1-01-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_566 (offiziell adaptierte Fassung)",
+          "baseId": "1_566",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/275/Zahlenmengen.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jede natürliche Zahl ist eine rationale Zahl.\nJede ganze Zahl ist eine reelle Zahl.\nJede rationale Zahl ist eine reelle Zahl."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl ist eine rationale Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede natürliche Zahl ist eine rationale Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede ganze Zahl ist eine reelle Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede rationale Zahl ist eine reelle Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede komplexe Zahl ist eine reelle Zahl."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=5",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_566 (offiziell adaptierte Fassung)",
+      "baseId": "1_566",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/275/Zahlenmengen.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Untenstehend werden Aussagen über Zahlen aus den Zahlenmengen "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb N"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb Z"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb Q"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb C"
+    },
+    {
+      "t": "text",
+      "v": " getroffen."
+    }
+  ]
 }

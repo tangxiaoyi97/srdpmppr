@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -118,14 +118,28 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t2",
-            "label": "t₂",
-            "value": 6.21,
-            "tol": 0.05,
-            "unit": "s"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "v_2(t_2)=130"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_2=6{,}21\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen von t₂."
           }
         ]
       },
@@ -205,13 +219,13 @@
             "id": "b",
             "label": "b",
             "value": -0.13825,
-            "tol": 0.00001
+            "tol": 1e-09
           },
           {
             "id": "c",
             "label": "c",
             "value": 15.84,
-            "tol": 0.01
+            "tol": 1e-09
           }
         ]
       },
@@ -271,6 +285,27 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Geschwindigkeit-Beschleunigung-Funktion a ordnet jeder Geschwindigkeit v ∈ [80; 160] des Sportwagens näherungsweise die entsprechende Beschleunigung a(v) zu."
+        },
+        {
+          "t": "math",
+          "v": "a(v)=0{,}0003\\cdot v^{2}+b\\cdot v+c\\quad\\text{mit}\\ b,c\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "v ... Geschwindigkeit in km/h\na(v) ... Beschleunigung bei der Geschwindigkeit v in m/s²\n\nIn der nachstehenden Tabelle sind zwei Beschleunigungswerte angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-03-c-tab.png",
+          "alt": "Tabelle: v in km/h: 80 und 160; a(v) in m/s²: 6,7 und 1,4."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Ermitteln Sie mithilfe der Funktion a und der Abbildung im Einleitungstext den Zeitpunkt t₃, zu dem die Beschleunigung 3,7 m/s² beträgt."
         }
       ],
@@ -281,7 +316,7 @@
           {
             "id": "t3",
             "label": "t₃",
-            "value": 5.5,
+            "value": 5,
             "tol": 1,
             "unit": "s"
           }

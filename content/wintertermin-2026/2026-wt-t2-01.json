@@ -166,7 +166,7 @@
     {
       "id": "2026-wt-t2-01-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AN 1.1",
@@ -359,7 +359,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-c-q.png",
-          "alt": "Koordinatensystem (x in m von 0 bis 6, f(x) in m bis 4): die grau markierte Fläche wird oben durch die waagrechte Gerade auf Höhe 4, an den Seiten durch zwei achsenparallele Strecken und unten durch den Graphen der Funktion f begrenzt."
+          "alt": "Koordinatensystem mit x in m und f(x) in m: Die grau markierte Fläche wird durch die waagrechte Strecke von (0 | 4) bis (6 | 4), die senkrechte Strecke bei x = 6 und den Graphen von f begrenzt."
         },
         {
           "t": "text",
@@ -388,19 +388,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "A",
-            "value": 23.94,
-            "tol": 0.1,
-            "unit": "m^2"
+            "t": "math",
+            "v": "\\int_{0}^{6}\\bigl(4-f(x)\\bigr)\\,\\mathrm{d}x=23{,}94\\ldots"
+          },
+          {
+            "t": "math",
+            "v": "\\text{Der Flächeninhalt beträgt rund } 23{,}9\\ \\text{m}^2."
+          },
+          {
+            "t": "text",
+            "v": "c1) Ein Punkt für das richtige Berechnen des Flächeninhalts."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Flächeninhalt23,94…m², laut Original rund23,9m².",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

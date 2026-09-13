@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -24,12 +24,292 @@
     {
       "id": "2014-nt1-t1-07-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_367 (offiziell adaptierte Fassung)",
+          "baseId": "1_367",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/75/QuadratischeFunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat zwei verschiedene reelle Nullstellen, wenn gilt: "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nDer Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "b=0"
+            },
+            {
+              "t": "text",
+              "v": " berührt die x-Achse in der lokalen Extremstelle.\n\nFür "
+            },
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": " hat der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " einen Hochpunkt."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau drei Aussagen angekreuzt sind und alle Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat zwei verschiedene reelle Nullstellen, wenn gilt: "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "b=0"
+            },
+            {
+              "t": "text",
+              "v": " berührt die x-Achse in der lokalen Extremstelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            },
+            {
+              "t": "text",
+              "v": " berührt die x-Achse im Ursprung."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für "
+            },
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": " hat der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " einen Hochpunkt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für die lokale Extremstelle "
+            },
+            {
+              "t": "math",
+              "v": "x_s"
+            },
+            {
+              "t": "text",
+              "v": " der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " gilt immer: "
+            },
+            {
+              "t": "math",
+              "v": "x_s=b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ],
+        "selectCount": 3
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=11",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_367 (offiziell adaptierte Fassung)",
+      "baseId": "1_367",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/75/QuadratischeFunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine quadratische Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " der Form "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^2+b"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": " ist gegeben."
+    }
+  ]
 }

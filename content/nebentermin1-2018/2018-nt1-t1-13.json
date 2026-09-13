@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,159 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_650a",
+          "id": "1_650",
           "baseId": "1_650",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/375/1_650_srdp_ma_Wasserstand_e_Flusses_PT2_18.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation:\nDer Ausdruck beschreibt die Änderungsgeschwindigkeit (momentane Änderungsrate) in m/h des Wasserstands "
+            },
+            {
+              "t": "math",
+              "v": "W(t)"
+            },
+            {
+              "t": "text",
+              "v": " zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=6"
+            },
+            {
+              "t": "text",
+              "v": " an dieser Messstelle des Flusses."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Interpretation, wobei die Einheit „m/h“ nicht angeführt sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den nachstehenden Ausdruck im Hinblick auf den Wasserstand "
+        },
+        {
+          "t": "math",
+          "v": "W(t)"
+        },
+        {
+          "t": "text",
+          "v": " des Flusses!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\lim_{\\Delta t\\to0}\\frac{W(6+\\Delta t)-W(6)}{\\Delta t}"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation:\nDer Ausdruck beschreibt die Änderungsgeschwindigkeit (momentane Änderungsrate) in m/h des Wasserstands "
+          },
+          {
+            "t": "math",
+            "v": "W(t)"
+          },
+          {
+            "t": "text",
+            "v": " zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=6"
+          },
+          {
+            "t": "text",
+            "v": " an dieser Messstelle des Flusses.\nEin Punkt für eine korrekte Interpretation, wobei die Einheit „m/h“ nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_650",
       "baseId": "1_650",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/375/1_650_srdp_ma_Wasserstand_e_Flusses_PT2_18.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "W:[0;24]\\to\\mathbb{R}_0^+"
+    },
+    {
+      "t": "text",
+      "v": " ordnet jedem Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " den Wasserstand "
+    },
+    {
+      "t": "math",
+      "v": "W(t)"
+    },
+    {
+      "t": "text",
+      "v": " eines Flusses an einer bestimmten Messstelle zu. Dabei wird "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Stunden und "
+    },
+    {
+      "t": "math",
+      "v": "W(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Metern angegeben."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -24,12 +24,212 @@
     {
       "id": "2016-nt2-t1-11-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (3 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_459 (offiziell adaptierte Fassung)",
+          "baseId": "1_459",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/168/EigenschaftenExponentialfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall [0; 5] streng monoton steigend.\n\nDer Funktionswert "
+            },
+            {
+              "t": "math",
+              "v": "f(x)"
+            },
+            {
+              "t": "text",
+              "v": " ist positiv für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nWenn man den Wert des Arguments "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " um 1 vergrößert, wird der zugehörige Funktionswert um 97 % größer."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Aussagen trifft/treffen auf diese Funktion zu?\nKreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " verläuft durch den Punkt "
+            },
+            {
+              "t": "math",
+              "v": "P=(50\\mid0)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall [0; 5] streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn man den Wert des Arguments "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " um 5 vergrößert, wird der Funktionswert 50-mal so groß."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Funktionswert "
+            },
+            {
+              "t": "math",
+              "v": "f(x)"
+            },
+            {
+              "t": "text",
+              "v": " ist positiv für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn man den Wert des Arguments "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " um 1 vergrößert, wird der zugehörige Funktionswert um 97 % größer."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3,
+          4
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=15",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_459 (offiziell adaptierte Fassung)",
+      "baseId": "1_459",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/168/EigenschaftenExponentialfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=50\\cdot1{,}97^x"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

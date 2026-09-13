@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t1-07",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1431a",
+          "id": "1_1431",
           "baseId": "1_1431",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/993/1_1431_srdp_ma_Leistung%20von%20Windkraftanlagen_PT3_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -59,7 +59,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
         }
       ],
       "answer": {
@@ -126,7 +126,7 @@
     },
     {
       "t": "math",
-      "v": "P=\\frac{\\varrho}{2}\\cdot r^{2}\\cdot\\pi\\cdot v^{3}\\quad\\text{mit}\\ \\varrho,\\,r,\\,v\\in\\mathbb{R}^{+}"
+      "v": "P=\\frac{\\varrho\\cdot r^{2}\\cdot\\pi\\cdot v^{3}}{2}\\quad\\text{mit}\\ \\varrho,\\,r,\\,v\\in\\mathbb{R}^{+}"
     }
   ]
 }

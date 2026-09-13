@@ -36,6 +36,12 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_152a",
           "baseId": "2_152",
@@ -67,14 +73,14 @@
             "id": "v",
             "label": "v",
             "value": 125,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "g"
           },
           {
             "id": "w",
             "label": "w",
             "value": 175,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "g"
           }
         ]
@@ -124,6 +130,12 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_152a",
           "baseId": "2_152",
@@ -135,25 +147,57 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Eine neue Schokoladesorte besteht aus Vollmilchschokolade und weißer Schokolade.\n\nDie Zutaten von je 100 g Vollmilchschokolade und weißer Schokolade sind in der nachstehenden Tabelle angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-04-a-tab.png",
+          "alt": "Tabelle der Zutaten je 100 g: Spalten Zucker, Kakao, Milchpulver, Sonstiges. Vollmilchschokolade: 35 g, 42 g, 21 g, 2 g. Weiße Schokolade: 38 g, 30 g, 30 g, 2 g."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDer Anteil an Kakao in der neuen Schokoladesorte beträgt 35 %.\n\nFür die Herstellung einer 300-g-Tafel der neuen Schokoladesorte benötigt man v Gramm Vollmilchschokolade und w Gramm weiße Schokolade."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Für die Herstellung von 1 kg Milchpulver werden 7 Liter Milch benötigt.\n\nBerechnen Sie, wie viele Liter Milch für die Herstellung des Milchpulvers für eine 300-g-Tafel der neuen Schokoladesorte benötigt werden."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "milch",
-            "label": "Liter Milch",
-            "value": 0.55125,
-            "tol": 0.01,
-            "unit": "L"
+            "t": "math",
+            "v": "\\dfrac{0{,}21\\cdot 125+0{,}3\\cdot 175}{1\\,000}\\cdot 7=0{,}55125"
+          },
+          {
+            "t": "text",
+            "v": "Für die Herstellung des Milchpulvers für eine 300-g-Tafel der neuen Schokoladesorte werden rund 0,55 Liter Milch benötigt."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Milchmenge0,55125L, laut Original rund0,55Liter.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -187,6 +231,12 @@
         }
       ],
       "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=34",
+          "verifiedAt": "2026-09-13"
+        },
         {
           "system": "aufgabenpool",
           "id": "2_152b",
@@ -250,7 +300,7 @@
             "id": "rate",
             "label": "mittlere Änderungsrate",
             "value": -0.3,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "°C/min"
           }
         ]
@@ -315,6 +365,12 @@
         }
       ],
       "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=34",
+          "verifiedAt": "2026-09-13"
+        },
         {
           "system": "aufgabenpool",
           "id": "2_152c",
@@ -467,6 +523,12 @@
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 28 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=8039&token=54624320a80f1cb56754a14632c8e1849770beed#page=34",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_152",

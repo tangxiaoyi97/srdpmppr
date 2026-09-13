@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,174 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_528a",
+          "id": "1_528",
           "baseId": "1_528",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/237/Aenderungsraten%20einer%20Polynomfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Differenzialquotient an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " ist negativ.\nDer Differenzenquotient im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[3;6]"
+            },
+            {
+              "t": "text",
+              "v": " ist positiv."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Differenzialquotient an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=6"
+            },
+            {
+              "t": "text",
+              "v": " ist größer als der Differenzialquotient an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=-3"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Differenzialquotient an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " ist negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Differenzenquotient im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-3;0]"
+            },
+            {
+              "t": "text",
+              "v": " ist 1."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die mittlere Änderungsrate ist in keinem Intervall gleich 0."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Differenzenquotient im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[3;6]"
+            },
+            {
+              "t": "text",
+              "v": " ist positiv."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_528",
       "baseId": "1_528",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/237/Aenderungsraten%20einer%20Polynomfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-14-q.png",
+      "alt": "Graph der Polynomfunktion f für −4 bis 11."
     }
   ]
 }

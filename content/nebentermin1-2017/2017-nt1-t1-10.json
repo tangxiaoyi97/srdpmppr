@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,135 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_575a",
+          "id": "1_575",
           "baseId": "1_575",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/284/Exponentialfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x)=c\\cdot a^x\\Rightarrow f(0)=c=12"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f(4)=12\\cdot a^4=192\\Rightarrow a=2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x)=12\\cdot2^x"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Funktionsgleichung der Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x)="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(x)=12\\cdot2^x"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Funktionsgleichungen sind richtig. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_575",
       "baseId": "1_575",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/284/Exponentialfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von einer Exponentialfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " sind die folgenden Funktionswerte bekannt:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "f(0)=12"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f(4)=192"
     }
   ]
 }

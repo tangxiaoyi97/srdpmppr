@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -83,7 +83,7 @@
             "id": "W",
             "label": "W",
             "value": 260400,
-            "tol": 5000,
+            "tol": 1e-09,
             "unit": "J"
           }
         ]
@@ -142,6 +142,27 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Katharina unterzieht sich einem Belastungstest. Die Belastung wird bei diesem Test schrittweise erhöht, bis Katharina den Test nach 43 min abbricht.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P\\!:[0;43]\\to\\mathbb{R}^{+},\\ t\\mapsto P(t)"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die von Katharina erbrachte Leistung in Abhängigkeit von der Zeit t ab Beginn des Belastungstests (t in min, P(t) in Watt). Der Graph von P ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-04-a.png",
+          "alt": "Graph der Leistung P(t) in Watt über der Zeit t in min (0 bis 43)."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Im Rahmen dieses Belastungstests wird die Laktatkonzentration in Katharinas Blut gemessen.\nDie Funktion "
         },
         {
@@ -169,7 +190,7 @@
             "id": "P",
             "label": "Leistung",
             "value": 280,
-            "tol": 5,
+            "tol": 1e-09,
             "unit": "Watt"
           }
         ]
@@ -336,20 +357,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t1",
-            "label": "t₁",
-            "value": 21.1,
-            "tol": 0.2,
-            "unit": "min"
+            "t": "math",
+            "v": "c_2^{\\prime}(t_{\\max})=0,\\quad t_{\\max}=6{,}155\\ldots"
+          },
+          {
+            "t": "math",
+            "v": "c_2(t_{\\max})=17{,}69\\ldots,\\quad c_2(t_1)=\\frac{c_2(t_{\\max})}{2}"
+          },
+          {
+            "t": "math",
+            "v": "t_1=21{,}1\\ldots\\ \\text{min}"
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Ermitteln des Zeitpunkts nach dem Maximum; originale Rundung oder genauerer Wert, keine zusätzliche±0,2min-Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Absteigender Halbwertzeitpunkt t₁=21,1…min.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t1-16",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1440a",
+          "id": "1_1440",
           "baseId": "1_1440",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1002/1_1440_srdp_ma_Ableitungsfunktion%20und%20Stammfunktion_PT3_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -54,7 +54,14 @@
             }
           ],
           "figures": [],
-          "note": "Ein Punkt für das richtige Eintragen."
+          "note": "Ein Punkt für das richtige Eintragen.",
+          "steps": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-16-sol.png",
+              "alt": "Offizielle Lösung: F im linken Kästchen, f im rechten Kästchen und f′ im unteren Kästchen."
+            }
+          ]
         }
       ],
       "prompt": [
@@ -69,6 +76,10 @@
           {
             "t": "text",
             "v": "Die drei Graphen sind korrekt zu beschriften: derjenige Graph, dessen Steigung an jeder Stelle dem Funktionswert des Graphen f entspricht, ist F (Stammfunktion); der Graph, dessen Funktionswert an jeder Stelle der Steigung von f entspricht, ist f′ (Ableitungsfunktion)."
+          },
+          {
+            "t": "text",
+            "v": "Konkret: F in das linke Kästchen (strichpunktierter Graph), f in das rechte Kästchen (gestrichelter Graph), f′ in das untere Kästchen (durchgezogene Parabel). Ein Punkt für alle drei richtigen Eintragungen."
           }
         ],
         "grader": "self"

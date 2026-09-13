@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_877a",
+          "id": "1_877",
           "baseId": "1_877",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/686/Binomialverteilte_Zufallsvariable.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -68,6 +68,22 @@
         {
           "t": "text",
           "v": "Ein bestimmter Zufallsversuch mit der unbekannten Erfolgswahrscheinlichkeit p wird 400-mal durchgeführt. Die binomialverteilte Zufallsvariable X beschreibt dabei die Anzahl der Erfolge. Für den Erwartungswert gilt: μ = 80.\n\nBerechnen Sie die Erfolgswahrscheinlichkeit p sowie die Standardabweichung σ der Zufallsvariablen X."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "p=\\underline{\\hspace{5cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\sigma=\\underline{\\hspace{5cm}}"
         }
       ],
       "answer": {
@@ -77,13 +93,13 @@
             "id": "p",
             "label": "p",
             "value": 0.2,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "sigma",
             "label": "σ",
             "value": 8,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

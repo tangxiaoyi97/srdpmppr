@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,112 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_587a",
+          "id": "1_587",
           "baseId": "1_587",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/296/Wahrscheinlichkeit%20bestimmen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(4\\leq X<7)\\approx0{,}55"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,54; 0,56] bzw. [54 %; 56 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie mithilfe dieser Abbildung näherungsweise die Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "P(4\\leq X<7)"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "P(4\\leq X<7)\\approx"
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(4\\leq X<7)\\approx0{,}55"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,54; 0,56] bzw. [54 %; 56 %]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_587",
       "baseId": "1_587",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/296/Wahrscheinlichkeit%20bestimmen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-22-q.png",
+      "alt": "Wahrscheinlichkeitsverteilung von X für k = 0 bis 10."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -70,7 +70,7 @@
       "figures": [],
       "answer": {
         "kind": "expression",
-        "canonical": "171\\cdot e^{0{,}039\\cdot t}",
+        "canonical": "171\\cdot e^{\\frac{\\ln(389/171)}{21}\\cdot t}",
         "vars": [
           "t"
         ],
@@ -134,6 +134,35 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "In der nachstehenden Tabelle ist der durchschnittliche Geflügelbestand pro Bauernhof mit Geflügelhaltung für die Jahre 1999, 2010 und 2020 angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t2-03-a-tab.png",
+          "alt": "Tabelle des durchschnittlichen Geflügelbestands pro Bauernhof mit Geflügelhaltung: 1999 171; 2010 258; 2020 389."
+        },
+        {
+          "t": "text",
+          "v": "Der durchschnittliche Geflügelbestand pro Bauernhof mit Geflügelhaltung in Abhängigkeit von der Zeit t kann durch die Exponentialfunktion f modelliert werden.\n\nEs gilt:"
+        },
+        {
+          "t": "math",
+          "v": "f(t)=a\\cdot e^{\\lambda\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in Jahren mit t = 0 für das Jahr 1999\nf(t) ... durchschnittlicher Geflügelbestand pro Bauernhof mit Geflügelhaltung zum Zeitpunkt t\na, λ ... positive Parameter\n\nStellen Sie eine Funktionsgleichung von f auf. Verwenden Sie dabei die Werte für die Jahre 1999 und 2020."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Sandra behauptet, dass der mithilfe von f errechnete Wert für das Jahr 2010 um weniger als 3 % vom in der obigen Tabelle angegebenen Wert abweicht.\n\nWeisen Sie rechnerisch nach, dass Sandras Behauptung richtig ist."
@@ -235,35 +264,33 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "I_k",
-            "value": 28,
-            "tol": 1e-9
+            "t": "math",
+            "v": "\\mathrm{I:}\\quad r=28\\cdot b"
           },
           {
-            "id": "II_f",
-            "value": 0.922,
-            "tol": 1e-9
+            "t": "math",
+            "v": "\\mathrm{II:}\\quad r\\cdot0{,}922=34\\cdot(b-17\\,331)"
           },
           {
-            "id": "II_d",
-            "value": 17331,
-            "tol": 1e-9
+            "t": "text",
+            "v": "Ein Punkt für beide vollständig richtig ergänzten Gleichungen, ein halber Punkt für genau eine vollständig richtig ergänzte Gleichung. Für Gleichung II müssen beide zugehörigen Kästchen (0,922 und 17 331) stimmen; ein einzelnes richtiges Kästchen in II allein erhält keinen halben Punkt. Äquivalente Zahlen-/Bruchdarstellungen sind zulässig."
           }
         ]
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
+            "desc": "Gleichung I vollständig richtig: Kästchen 28.",
             "points": 0.5
           },
           {
-            "minCorrect": 3,
-            "points": 1
+            "desc": "Gleichung II vollständig richtig: beide Kästchen 0,922 und 17 331.",
+            "points": 0.5
           }
         ]
       },
@@ -346,7 +373,7 @@
           {
             "id": "A",
             "value": 135,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "m²"
           }
         ]

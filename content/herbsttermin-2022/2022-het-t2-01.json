@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -77,15 +77,10 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "a",
-            "label": "a",
-            "value": 0.03125,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "\\frac{1}{32}",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -167,19 +162,64 @@
       "prompt": [
         {
           "t": "text",
+          "v": "In der nachstehenden Abbildung ist ein Firmenlogo grau markiert dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t2-01-a.png",
+          "alt": "Koordinatensystem (f(x), g(x) in cm) mit einem grau markierten Firmenlogo; die untere Begrenzungslinie ist ein Teil des Graphen von f, die obere ein Teil des Graphen von g."
+        },
+        {
+          "t": "text",
+          "v": "Die untere Begrenzungslinie wird durch einen Teil des Graphen der Funktion f beschrieben:"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=\\tfrac{1}{8}\\cdot x^{2}-2"
+        },
+        {
+          "t": "text",
+          "v": "Die obere Begrenzungslinie wird durch einen Teil des Graphen der Funktion g beschrieben:"
+        },
+        {
+          "t": "math",
+          "v": "g(x)=a\\cdot(x^{3}-16\\cdot x)\\quad\\text{mit}\\ a\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "An der Stelle x = 4 haben f und g die gleiche Steigung.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Der Punkt (0 | 0) ist ein Wendepunkt des Graphen von g.\n\nBegründen Sie, warum der Graph der Funktion g keinen weiteren Wendepunkt haben kann."
         }
       ],
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Die Funktion g ist eine Polynomfunktion 3. Grades. Ihre zweite Ableitung g″ ist linear und hat daher nur 1 Nullstelle, also kann g nur 1 Wendepunkt haben."
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Funktion g ist eine Polynomfunktion 3. Grades. Oder: Die Funktion g″ ist linear und hat nur 1 Nullstelle. (Die Funktion g kann also nur 1 Wendepunkt haben.)"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Begründen."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -242,14 +282,28 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "u",
-            "label": "u",
-            "value": 17.63,
-            "tol": 0.05,
-            "unit": "cm"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "u=5\\cdot 2\\cdot 3\\cdot\\sin(36^\\circ)=17{,}63\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "u=17{,}6\\ \\text{cm}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen des Umfangs u."
           }
         ]
       },
@@ -360,10 +414,5 @@
       "verifiedAt": "2026-06-30"
     }
   ],
-  "prompt": [
-    {
-      "t": "text",
-      "v": "Firmenlogos"
-    }
-  ]
+  "prompt": []
 }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -24,12 +24,176 @@
     {
       "id": "2018-nt2-t1-17-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (2 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_606",
+          "baseId": "1_606",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/315/Bestimmtes%20Integral.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_a^c f(x)\\,\\mathrm dx"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_a^b f(x)\\,\\mathrm dx"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen bestimmten Integrale angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehend angeführten bestimmten Integrale haben einen Wert, der größer als 0 ist?\nKreuzen Sie die beiden zutreffenden bestimmten Integrale an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^c f(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_b^c f(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_b^d f(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^b f(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_d^e f(x)\\,\\mathrm dx"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=21",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_606",
+      "baseId": "1_606",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/315/Bestimmtes%20Integral.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " schneidet die "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": "-Achse in einem gewissen Bereich an den Stellen "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "d"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "e"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-17-q.png",
+      "alt": "Graph f mit Nullstellen a, b, c, d und e."
+    }
+  ]
 }

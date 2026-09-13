@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,122 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_414a",
+          "id": "1_414",
           "baseId": "1_414",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/122/Lorenzkurve.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die einkommensschwächsten 40 % der Bevölkerung verfügen über ca. 10 % des Gesamteinkommens.\n\nDie einkommensschwächsten 90 % der Bevölkerung verfügen über ca. 60 % des Gesamteinkommens."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden für die oben dargestellte Lorenz-Kurve zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die einkommensstärksten 10 % der Bevölkerung verfügen über ca. 60 % des Gesamteinkommens."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die einkommensstärksten 40 % der Bevölkerung verfügen über ca. 90 % des Gesamteinkommens."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die einkommensschwächsten 40 % der Bevölkerung verfügen über ca. 10 % des Gesamteinkommens."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die einkommensschwächsten 60 % der Bevölkerung verfügen über ca. 90 % des Gesamteinkommens."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die einkommensschwächsten 90 % der Bevölkerung verfügen über ca. 60 % des Gesamteinkommens."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_414",
       "baseId": "1_414",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/122/Lorenzkurve.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die in der unten stehenden Abbildung dargestellte Lorenz-Kurve kann als Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " verstanden werden, die gewissen Bevölkerungsanteilen deren jeweiligen Anteil am Gesamteinkommen zuordnet.\n\nDieser Lorenz-Kurve kann man z. B. entnehmen, dass die einkommensschwächsten 80 % der Bevölkerung über ca. 43 % des Gesamteinkommens verfügen. Das bedeutet zugleich, dass die einkommensstärksten 20 % der Bevölkerung über ca. 57 % des Gesamteinkommens verfügen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-08-lorenz.png",
+      "alt": "Originale Lorenz-Kurve f mit Bevölkerungs- und Gesamteinkommensanteilen."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://www.lai.fu-berlin.de/e-learning/projekte/vwl_basiswissen/Umverteilung/Gini_Koeffizient/index.html [21.01.2015] (adaptiert)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,114 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_427a",
+          "id": "1_427",
           "baseId": "1_427",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/135/Entwicklung%20der%20Landwirtschaft%20in%20%C3%96sterreich.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche Betriebsgröße hat von 1995 bis 1999 im Jahresdurchschnitt um mehr Hektar zugenommen als von 1999 bis 2010.\nDie Gesamtgröße der land- und forstwirtschaftlich genutzten Fläche hat von 1995 bis 2010 abgenommen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der land- und forstwirtschaftlichen Betriebe ist im Zeitraum von 1995 bis 2010 in jedem Jahr um die gleiche Zahl gesunken."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche Betriebsgröße hat von 1995 bis 1999 im Jahresdurchschnitt um mehr Hektar zugenommen als von 1999 bis 2010."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche Betriebsgröße hat von 1995 bis 1999 um durchschnittlich 0,5 ha pro Jahr abgenommen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Gesamtgröße der land- und forstwirtschaftlich genutzten Fläche hat von 1995 bis 2010 abgenommen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der land- und forstwirtschaftlichen Betriebe ist im Zeitraum von 1995 bis 2010 um mehr als ein Drittel gesunken."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_427",
       "baseId": "1_427",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/135/Entwicklung%20der%20Landwirtschaft%20in%20%C3%96sterreich.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Website der Statistik Austria kann man folgende Tabelle über die Entwicklung der Agrarstruktur in Österreich entnehmen:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-19-table.png",
+      "alt": "Agrarstruktur: 1995,1999,2010; Betriebe 239099,217508,173317; durchschnittliche Betriebsgröße 31,5,34,6,42,4 ha"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://www.statistik.at/web_de/statistiken/land_und_forstwirtschaft/index.html"
     }
   ]
 }

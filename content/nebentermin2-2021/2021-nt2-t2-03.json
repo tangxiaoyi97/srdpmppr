@@ -1,6 +1,6 @@
 {
   "id": "2021-nt2-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,16 @@
     {
       "id": "2021-nt2-t2-03-a1",
       "label": "a1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -43,30 +50,32 @@
         },
         {
           "t": "math",
-          "v": "a=\\quad b="
+          "v": "\\begin{aligned}a&=\\underline{\\hspace{5cm}}\\\\b&=\\underline{\\hspace{5cm}}\\end{aligned}"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 1.37,
-            "tol": 0.01
+            "t": "math",
+            "v": "a=1{,}37\\ldots,\\quad b=2\\,168{,}1\\ldots"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 2168.1,
-            "tol": 5
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für die Angabe der beiden richtigen Werte."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für die Angabe der beiden richtigen Werte.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -84,10 +93,30 @@
     {
       "id": "2021-nt2-t2-03-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Grafik zeigt den Bestand an Elektroautos in Österreich für den Zeitraum vom 31. Dezember 2015 bis 31. August 2018. Für die Jahre 2015 bis 2017 wird der Bestand jeweils am Ende des Jahres dargestellt, für das Jahr 2018 der Bestand Ende August."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t2-03-a1-q.png",
+          "alt": "Säulendiagramm „Bestand an Elektroautos in Österreich“: 2015: 5 032; 2016: 9 073; 2017: 14 618; 2018 (Ende August): 18 459."
+        },
+        {
+          "t": "text",
+          "v": "Die Differenzengleichung Bₙ₊₁ = Bₙ · a + b beschreibt die Entwicklung des Bestands an Elektroautos in Österreich ausgehend vom Jahr 2015 für die Jahre 2016 und 2017.\nDabei gilt:\n- B₀ ist der Bestand am Ende des Jahres 2015.\n- B₁ ist der Bestand am Ende des Jahres 2016.\n- B₂ ist der Bestand am Ende des Jahres 2017.\n\n"
+        },
         {
           "t": "text",
           "v": "Damit die angegebene Differenzengleichung auch für das Ende des Jahres 2018 zutrifft, hätte der Bestand an Elektroautos im Rest des Jahres 2018 noch um eine bestimmte Anzahl erhöht werden müssen.\n\nBerechnen Sie diese Anzahl."
@@ -95,19 +124,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "anzahl",
-            "label": "Anzahl",
-            "value": 3768,
-            "tol": 5
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "B_3=14\\,618\\cdot 1{,}37\\ldots+2\\,168{,}1\\ldots=22\\,226{,}7\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "22\\,226{,}7\\ldots-18\\,459=3\\,767{,}7\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Bestand an Elektroautos hätte im Jahr 2018 noch um ca. 3 768 Elektroautos erhöht werden müssen, damit die angegebene Differenzengleichung auch für das Jahr 2018 zutreffend wäre."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für die richtige Lösung."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -143,9 +200,16 @@
     {
       "id": "2021-nt2-t2-03-b1",
       "label": "b1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -153,7 +217,7 @@
         },
         {
           "t": "math",
-          "v": "f(P)="
+          "v": "f(P)=\\underline{\\hspace{5cm}}"
         }
       ],
       "figures": [],
@@ -185,10 +249,21 @@
     {
       "id": "2021-nt2-t2-03-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Batteriekapazität (in kWh) ist das Produkt von Ladeleistung (in kW) und Ladezeit (in h). Um beispielsweise eine (annähernd) leere Batterie mit einer Batteriekapazität von 22 kWh mit einer Ladeleistung von 11 kW zu laden, benötigt man eine Ladezeit von 2 h.\n\nDie Funktion f beschreibt die Ladezeit f(P) einer Batterie mit einer Batteriekapazität von 22 kWh in Abhängigkeit von der Ladeleistung P (P in kW, f(P) in h).\n\n"
+        },
         {
           "t": "text",
           "v": "Die typische Ladeleistung einer privaten Ladestation liegt im Leistungsintervall [2,3 kW; 3,7 kW].\n\nGeben Sie für eine Batterie mit einer Batteriekapazität von 22 kWh dasjenige Zeitintervall der Ladezeit an, das diesem Leistungsintervall entspricht."
@@ -196,15 +271,27 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "interval",
-        "lower": 5.9459,
-        "upper": 9.5652,
-        "lowerClosed": true,
-        "upperClosed": true
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zeitintervall: [5,94… h; 9,56… h]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für ein richtiges Intervall, wobei die Einheit „h“ nicht angegeben sein muss."
+          }
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für ein richtiges Intervall, wobei die Einheit „h“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -222,9 +309,16 @@
     {
       "id": "2021-nt2-t2-03-c1",
       "label": "c1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -232,7 +326,7 @@
         },
         {
           "t": "math",
-          "v": "E(v)="
+          "v": "E(v)=\\underline{\\hspace{5cm}}"
         }
       ],
       "figures": [],
@@ -264,10 +358,21 @@
     {
       "id": "2021-nt2-t2-03-c2",
       "label": "c2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Fahrt eines Elektroautos auf einer bestimmten Teststrecke wird modellhaft angenommen:\n- Die gesamte Teststrecke wird mit einer konstanten Geschwindigkeit durchfahren.\n- Es besteht ein linearer Zusammenhang zwischen dem Energiebedarf dieses Elektroautos und der jeweiligen konstanten Geschwindigkeit.\n\nDieses Elektroauto hat bei einer konstanten Geschwindigkeit von 70 km/h einen Energiebedarf von 12,9 kWh für das Durchfahren dieser Teststrecke. Bei einer konstanten Geschwindigkeit von 110 km/h hat es einen Energiebedarf von 20,9 kWh für das Durchfahren dieser Teststrecke.\n\nDie Funktion E beschreibt den Energiebedarf E(v) in Abhängigkeit von der Geschwindigkeit v mit 50 ≤ v ≤ 130 (v in km/h, E(v) in kWh).\n\n"
+        },
         {
           "t": "text",
           "v": "Die Batterie dieses Elektroautos hat eine Batteriekapazität von 41 kWh und ist vor dem Durchfahren der Teststrecke vollständig geladen. Nach dem Durchfahren der Teststrecke sind in der Batterie noch 30,22 kWh gespeichert.\n\nErmitteln Sie die (konstante) Geschwindigkeit v₁, mit der die Teststrecke durchfahren worden ist."
@@ -281,7 +386,6 @@
             "id": "v1",
             "label": "v₁",
             "value": 59.4,
-            "tol": 0.1,
             "unit": "km/h"
           }
         ]
@@ -310,7 +414,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 27 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=31",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

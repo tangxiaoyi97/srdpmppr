@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -22,14 +22,587 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-ht-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2018-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Monat: August\nKursverlust: ≈ € 55"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe des richtigen Monats sowie des korrekten Wertes für den Kursverlust.\nToleranzintervall: [€ 50; € 70]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, in welchem der Monate von April 2015 bis Dezember 2015 der Bitcoin-Euro-Kurs jeweils vom Monatsanfang bis zum Monatsende absolut am stärksten gefallen ist, und geben Sie diesen Kursverlust in Euro an!\nMonat: __________\nKursverlust: __________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Monat: August\nKursverlust: ≈ € 55"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe des richtigen Monats sowie des korrekten Wertes für den Kursverlust.\nToleranzintervall: [€ 50; € 70]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{K_2-K_1}{AT}\\approx-1{,}8"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Interpretation:\nIm August 2015 betrug die durchschnittliche Kursänderung pro Tag ca. € −1,8.\noder:\nIm August 2015 betrug der durchschnittliche Kursverlust pro Tag ca. € 1,8."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Interpretation.\nToleranzintervall: [−2,3; −1,5] bzw. [1,5; 2,3]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, in welchem der Monate von April 2015 bis Dezember 2015 der Bitcoin-Euro-Kurs jeweils vom Monatsanfang bis zum Monatsende absolut am stärksten gefallen ist, und geben Sie diesen Kursverlust in Euro an!\nMonat: __________\nKursverlust: __________"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Es sei "
+        },
+        {
+          "t": "math",
+          "v": "K_1"
+        },
+        {
+          "t": "text",
+          "v": " der Bitcoin-Euro-Kurs zum Beginn des betreffenden Monats, "
+        },
+        {
+          "t": "math",
+          "v": "K_2"
+        },
+        {
+          "t": "text",
+          "v": " der Bitcoin-Euro-Kurs am Ende des betreffenden Monats sowie "
+        },
+        {
+          "t": "math",
+          "v": "AT"
+        },
+        {
+          "t": "text",
+          "v": " die Anzahl der Tage des betreffenden Monats.\n\nBerechnen Sie den ungefähren Wert des Ausdrucks "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{K_2-K_1}{AT}"
+        },
+        {
+          "t": "text",
+          "v": " und interpretieren Sie das Ergebnis im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\frac{K_2-K_1}{AT}\\approx-1{,}8"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Interpretation:\nIm August 2015 betrug die durchschnittliche Kursänderung pro Tag ca. € −1,8.\noder:\nIm August 2015 betrug der durchschnittliche Kursverlust pro Tag ca. € 1,8."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine korrekte Interpretation.\nToleranzintervall: [−2,3; −1,5] bzw. [1,5; 2,3]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{f(8)-f(7)}{f(7)}\\approx0{,}065"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Interpretation:\nDie Anzahl der im Umlauf befindlichen Bitcoins nimmt im Zeitraum von Anfang Jänner 2016 bis Anfang Jänner 2017 um ca. 6,5 % zu."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Interpretation.\nToleranzintervall: [0,06; 0,07] bzw. [6 %; 7 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Anfang Jänner 2016 waren ca. 15 Millionen Bitcoins im Umlauf. Die "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " Jahre nach dem Jahr 2009 im Umlauf befindliche Menge an Bitcoins ist annähernd "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=21\\cdot10^6-21\\cdot10^6\\cdot\\mathrm e^{-0{,}18\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": ". Damit ist "
+        },
+        {
+          "t": "math",
+          "v": "f(0)"
+        },
+        {
+          "t": "text",
+          "v": " die zu Anfang Jänner 2009 im Umlauf befindliche Menge an Bitcoins.\n\nBestimmen und interpretieren Sie die relative (prozentuelle) Änderung der im Umlauf befindlichen Menge an Bitcoins im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[7;8]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\frac{f(8)-f(7)}{f(7)}\\approx0{,}065"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Interpretation:\nDie Anzahl der im Umlauf befindlichen Bitcoins nimmt im Zeitraum von Anfang Jänner 2016 bis Anfang Jänner 2017 um ca. 6,5 % zu."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine korrekte Interpretation.\nToleranzintervall: [0,06; 0,07] bzw. [6 %; 7 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Gleichung:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(t)=20\\cdot10^6"
+            },
+            {
+              "t": "text",
+              "v": "\nLösung der Gleichung: "
+            },
+            {
+              "t": "math",
+              "v": "t\\approx17"
+            },
+            {
+              "t": "text",
+              "v": "\nUngefähr Anfang Jänner 2026 kann nur mehr 1 Million Bitcoins in Umlauf gebracht werden."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung und die richtige Lösung. Andere korrekte Gleichungen sind ebenfalls als richtig zu werten.\nToleranzintervall [16; 17] bzw. [2025; 2026]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Anfang Jänner 2016 waren ca. 15 Millionen Bitcoins im Umlauf. Die "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " Jahre nach dem Jahr 2009 im Umlauf befindliche Menge an Bitcoins ist annähernd "
+        },
+        {
+          "t": "math",
+          "v": "f(t)=21\\cdot10^6-21\\cdot10^6\\cdot\\mathrm e^{-0{,}18\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": ". Damit ist "
+        },
+        {
+          "t": "math",
+          "v": "f(0)"
+        },
+        {
+          "t": "text",
+          "v": " die zu Anfang Jänner 2009 im Umlauf befindliche Menge an Bitcoins."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung an, mit der derjenige Zeitpunkt berechnet werden kann, ab dem nur mehr eine Million Bitcoins in Umlauf gebracht werden kann, und ermitteln Sie diesen Zeitpunkt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Gleichung:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(t)=20\\cdot10^6"
+          },
+          {
+            "t": "text",
+            "v": "\nLösung der Gleichung: "
+          },
+          {
+            "t": "math",
+            "v": "t\\approx17"
+          },
+          {
+            "t": "text",
+            "v": "\nUngefähr Anfang Jänner 2026 kann nur mehr 1 Million Bitcoins in Umlauf gebracht werden."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Gleichung und die richtige Lösung. Andere korrekte Gleichungen sind ebenfalls als richtig zu werten.\nToleranzintervall [16; 17] bzw. [2025; 2026]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=171"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h\\approx0{,}807"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}807\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}807\\cdot(1-0{,}807)}{171}}\\approx0{,}807\\pm0{,}059\\Rightarrow[0{,}748;0{,}866]"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten.\nToleranzintervall für den unteren Wert: [0,74; 0,75]\nToleranzintervall für den oberen Wert: [0,86; 0,87]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Untersuchung der Demografie von Bitcoin-Usern hat ergeben, dass weltweit 88 % der Bitcoin-User männlich sind.\nEs soll festgestellt werden, wie hoch dieser Prozentsatz in Österreich ist. Dazu wird eine große Anzahl an Personen befragt. Diese Befragung ergibt, dass 171 der befragten Personen Bitcoin-User sind, und von diesen 171 Personen sind 138 männlich.\n\nⒶ Geben Sie aufgrund dieser Daten ein symmetrisches 95-%-Konfidenzintervall für den unbekannten Anteil der männlichen Bitcoin-User unter allen Bitcoin-Usern in Österreich an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "n=171"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h\\approx0{,}807"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}807\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}807\\cdot(1-0{,}807)}{171}}\\approx0{,}807\\pm0{,}059\\Rightarrow[0{,}748;0{,}866]"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten.\nToleranzintervall für den unteren Wert: [0,74; 0,75]\nToleranzintervall für den oberen Wert: [0,86; 0,87]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Konfidenzniveau muss mindestens 98,4 % betragen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.\nToleranzintervall: [0,98; 0,99] bzw. [98 %; 99 %]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}880-\\frac{138}{171}\\approx0{,}073"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}073\\le z\\cdot\\sqrt{\\frac{0{,}807\\cdot(1-0{,}807)}{171}}\\Rightarrow z\\ge2{,}418"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\Phi(2{,}418)-1\\approx0{,}984"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Eine Untersuchung der Demografie von Bitcoin-Usern hat ergeben, dass weltweit 88 % der Bitcoin-User männlich sind.\nEs soll festgestellt werden, wie hoch dieser Prozentsatz in Österreich ist. Dazu wird eine große Anzahl an Personen befragt. Diese Befragung ergibt, dass 171 der befragten Personen Bitcoin-User sind, und von diesen 171 Personen sind 138 männlich.\n\nⒶ Geben Sie aufgrund dieser Daten ein symmetrisches 95-%-Konfidenzintervall für den unbekannten Anteil der männlichen Bitcoin-User unter allen Bitcoin-Usern in Österreich an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, welches Konfidenzniveau zur Berechnung eines solchen Intervalls mindestens angenommen werden muss, damit der weltweit ermittelte Anteil von 88 % in diesem Intervall enthalten ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}880-\\frac{138}{171}\\approx0{,}073"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}073\\le z\\cdot\\sqrt{\\frac{0{,}807\\cdot(1-0{,}807)}{171}}\\Rightarrow z\\ge2{,}418"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\Phi(2{,}418)-1\\approx0{,}984"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Das Konfidenzniveau muss mindestens 98,4 % betragen."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung.\nToleranzintervall: [0,98; 0,99] bzw. [98 %; 99 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bitcoin (Währungskürzel: BTC) ist eine digitale Kunstwährung. Der Marktwert des Bitcoin ergibt sich aufgrund von Angebot und Nachfrage.\n\nNutzer/innen des Bitcoin werden in dieser Aufgabe als Bitcoin-User bezeichnet.\n\nDie nachstehende Abbildung zeigt den Bitcoin-Euro-Kurs vom 11. März 2015 bis zum 11. März 2016. Die linke Skala zeigt dabei den absoluten Wert eines Bitcoins in Euro, die rechte Skala zeigt die Veränderung in Prozent bezogen auf den 11. März 2015."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-04-q.png",
+      "alt": "Bitcoin-Euro-Kurs vom März 2015 bis März 2016 mit Euro-Skala und Prozent-Skala."
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://www.finanzen.net/devisen/bitcoin-euro-kurs [11.03.2017] (adaptiert)."
+    }
+  ]
 }

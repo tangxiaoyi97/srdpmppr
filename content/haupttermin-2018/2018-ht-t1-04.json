@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,137 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_617a",
+          "id": "1_617",
           "baseId": "1_617",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/338/Kr%C3%A4fte.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-04-sol.png",
+              "alt": "Lösung: ergänzter Kraftvektor d im Gitternetz."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung von d, wobei d auch von einem anderen Ausgangspunkt aus gezeichnet sein kann."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Abbildung einen Kraftvektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec d"
+        },
+        {
+          "t": "text",
+          "v": " so ein, dass die Summe aller vier Kräfte (in jeder Komponente) gleich null ist!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-04-q.png",
+          "alt": "Drei am Massenpunkt M angreifende Kraftvektoren im Gitternetz."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine korrekte Darstellung von "
+          },
+          {
+            "t": "math",
+            "v": "\\vec d"
+          },
+          {
+            "t": "text",
+            "v": ", wobei "
+          },
+          {
+            "t": "math",
+            "v": "\\vec d"
+          },
+          {
+            "t": "text",
+            "v": " auch von einem anderen Ausgangspunkt aus gezeichnet sein kann."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_617",
       "baseId": "1_617",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/338/Kr%C3%A4fte.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem Massenpunkt "
+    },
+    {
+      "t": "math",
+      "v": "M"
+    },
+    {
+      "t": "text",
+      "v": " greifen drei Kräfte an. Diese sind durch die Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\vec b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec c"
+    },
+    {
+      "t": "text",
+      "v": " gegeben."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t1-13",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -11,7 +11,7 @@
     "nr": 13,
     "file": "[2019h1]t1-13-an.pdf"
   },
-  "title": "Kriminalstatistik 2010-2011",
+  "title": "Kriminalstatistik 2010–2011",
   "rights": {
     "thirdPartyMaterial": true,
     "note": "* meaning unverified — see Aufgabenpool legend"
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_698a",
+          "id": "1_698",
           "baseId": "1_698",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/431/Kriminalstatistik%202010-2011.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,12 +69,16 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "rel",
-            "value": 0.115,
-            "tol": 0.005
+            "t": "text",
+            "v": "Die relative Änderung beträgt ca. 0,117."
+          },
+          {
+            "t": "text",
+            "v": "\n[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,11; 0,12] bzw. [11 %; 12 %] Grundkompetenz: AN 1.1"
           }
         ]
       },

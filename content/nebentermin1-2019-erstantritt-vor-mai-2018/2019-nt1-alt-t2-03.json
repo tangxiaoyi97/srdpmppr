@@ -1,0 +1,1231 @@
+{
+  "id": "2019-nt1-alt-t2-03",
+  "schemaVersion": 3,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "nebentermin1-2019-erstantritt-vor-mai-2018",
+    "year": 2019,
+    "term": "nebentermin-1",
+    "part": "t2",
+    "nr": 3,
+    "file": "[2019n1-alt]t2-3.pdf"
+  },
+  "title": "Angebot und Nachfrage",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/nebentermin1-2019-erstantritt-vor-mai-2018/[2019n1-alt]t2-3.pdf",
+    "solutionPdf": "assets/pdf/nebentermin1-2019-erstantritt-vor-mai-2018/lo/[2019n1-alt]t2-3.pdf"
+  },
+  "figures": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Aufeinandertreffen von Anbietern und Nachfragern wird in der Wirtschaftswissenschaft als Markt bezeichnet. Gibt es auf einem Markt genau einen Anbieter für eine Ware, so ist dieser in der Lage, den Preis der Ware zu bestimmen, wobei die nachgefragte und damit absetzbare Menge der Ware vom Preis abhängt. Um bei gewissen Problemstellungen mit der Kosten-, Erlös- und/oder Gewinnfunktion arbeiten zu können, wird häufig der Preis als sogenannte Preisfunktion der Nachfrage "
+    },
+    {
+      "t": "math",
+      "v": "p_N"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der nachgefragten Menge "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " der Ware angegeben.\n\nDie nachstehenden Aufgaben sind für die Preisfunktion der Nachfrage "
+    },
+    {
+      "t": "math",
+      "v": "p_N"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p_N(x)=36-x^2"
+    },
+    {
+      "t": "text",
+      "v": " zu bearbeiten. Dabei wird "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " in Mengeneinheiten (ME) und "
+    },
+    {
+      "t": "math",
+      "v": "p_N(x)"
+    },
+    {
+      "t": "text",
+      "v": " in Geldeinheiten pro Mengeneinheit (GE/ME) angegeben."
+    }
+  ],
+  "parts": [
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb R_0^+"
+        },
+        {
+          "t": "text",
+          "v": ", für die "
+        },
+        {
+          "t": "math",
+          "v": "p_N(x)\\ge0"
+        },
+        {
+          "t": "text",
+          "v": " gilt, liegen im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_0;x_n]"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nErmitteln Sie die mittlere Änderungsrate der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p_N"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_0;x_n]"
+        },
+        {
+          "t": "text",
+          "v": " und deuten Sie das Ergebnis im Hinblick auf den Verkaufspreis."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Intervall: "
+          },
+          {
+            "t": "math",
+            "v": "x_0=0"
+          },
+          {
+            "t": "text",
+            "v": " ME, "
+          },
+          {
+            "t": "math",
+            "v": "x_n=6"
+          },
+          {
+            "t": "text",
+            "v": " ME "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " [0 ME; 6 ME]\nmittlere Änderungsrate: "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{p_N(6)-p_N(0)}{6-0}=\\frac{0-36}{6}=-6"
+          },
+          {
+            "t": "text",
+            "v": "\n\nmögliche Deutung:\nPro zusätzlicher Mengeneinheit, die verkauft werden soll, nimmt der Verkaufspreis im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[0;6]"
+          },
+          {
+            "t": "text",
+            "v": " durchschnittlich um 6 GE/ME ab."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine richtige Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Intervall: "
+            },
+            {
+              "t": "math",
+              "v": "x_0=0"
+            },
+            {
+              "t": "text",
+              "v": " ME, "
+            },
+            {
+              "t": "math",
+              "v": "x_n=6"
+            },
+            {
+              "t": "text",
+              "v": " ME "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " [0 ME; 6 ME]\nmittlere Änderungsrate: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{p_N(6)-p_N(0)}{6-0}=\\frac{0-36}{6}=-6"
+            },
+            {
+              "t": "text",
+              "v": "\n\nmögliche Deutung:\nPro zusätzlicher Mengeneinheit, die verkauft werden soll, nimmt der Verkaufspreis im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[0;6]"
+            },
+            {
+              "t": "text",
+              "v": " durchschnittlich um 6 GE/ME ab."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine richtige Deutung."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb R_0^+"
+        },
+        {
+          "t": "text",
+          "v": ", für die "
+        },
+        {
+          "t": "math",
+          "v": "p_N(x)\\ge0"
+        },
+        {
+          "t": "text",
+          "v": " gilt, liegen im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_0;x_n]"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Zeigen Sie mithilfe der Differenzialrechnung, dass für alle "
+        },
+        {
+          "t": "math",
+          "v": "x_1,x_2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "x_1<x_2"
+        },
+        {
+          "t": "text",
+          "v": " aus dem Intervall "
+        },
+        {
+          "t": "math",
+          "v": "(x_0;x_n)"
+        },
+        {
+          "t": "text",
+          "v": " die Ungleichung "
+        },
+        {
+          "t": "math",
+          "v": "p_N(x_1)>p_N(x_2)"
+        },
+        {
+          "t": "text",
+          "v": " gilt."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\nDie angegebene Ungleichung besagt, dass die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "p_N"
+          },
+          {
+            "t": "text",
+            "v": " im angegebenen Definitionsbereich streng monoton fallend ist. Das ist sicher dann der Fall, wenn "
+          },
+          {
+            "t": "math",
+            "v": "p_N'(x)"
+          },
+          {
+            "t": "text",
+            "v": " negativ (oder für einzelne Stellen null) für alle "
+          },
+          {
+            "t": "math",
+            "v": "x\\in(0;6)"
+          },
+          {
+            "t": "text",
+            "v": " ist.\nÜberprüfung: "
+          },
+          {
+            "t": "math",
+            "v": "p_N'(x)=-2\\cdot x"
+          },
+          {
+            "t": "text",
+            "v": " und es gilt: "
+          },
+          {
+            "t": "math",
+            "v": "-2\\cdot x<0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "x\\in(0;6)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen richtigen Nachweis mithilfe der Differenzialrechnung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\nDie angegebene Ungleichung besagt, dass die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "p_N"
+            },
+            {
+              "t": "text",
+              "v": " im angegebenen Definitionsbereich streng monoton fallend ist. Das ist sicher dann der Fall, wenn "
+            },
+            {
+              "t": "math",
+              "v": "p_N'(x)"
+            },
+            {
+              "t": "text",
+              "v": " negativ (oder für einzelne Stellen null) für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in(0;6)"
+            },
+            {
+              "t": "text",
+              "v": " ist.\nÜberprüfung: "
+            },
+            {
+              "t": "math",
+              "v": "p_N'(x)=-2\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": " und es gilt: "
+            },
+            {
+              "t": "math",
+              "v": "-2\\cdot x<0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in(0;6)"
+            }
+          ],
+          "note": "Ein Punkt für einen richtigen Nachweis mithilfe der Differenzialrechnung."
+        }
+      ]
+    },
+    {
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "source": "printed",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Erlös durch die verkaufte Menge der Ware wird durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "E(x)=x\\cdot p_N(x)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben. Der Grenzerlös "
+        },
+        {
+          "t": "math",
+          "v": "E'(x)"
+        },
+        {
+          "t": "text",
+          "v": " bei einer bestimmten Absatzmenge "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt näherungsweise die Änderung des Erlöses bezogen auf eine zusätzlich abgesetzte Mengeneinheit.\n\nⒶ Ermitteln Sie diejenige Menge "
+        },
+        {
+          "t": "math",
+          "v": "x_E"
+        },
+        {
+          "t": "text",
+          "v": ", bei der der Erlös maximal ist."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "E(x)=x\\cdot p_N(x)=-x^3+36\\cdot x"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "E'(x)=0\\Rightarrow-3\\cdot x^2+36=0\\Rightarrow x_1=\\sqrt{12}"
+          },
+          {
+            "t": "text",
+            "v": " "
+          },
+          {
+            "t": "math",
+            "v": "(x_2=-\\sqrt{12})"
+          },
+          {
+            "t": "text",
+            "v": " "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow x_E\\approx3{,}46"
+          },
+          {
+            "t": "text",
+            "v": " ME"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die richtige Lösung, wobei die Einheit „ME“ nicht angeführt sein muss.\nGrundkompetenz: AN 3.3\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(x)=x\\cdot p_N(x)=-x^3+36\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "E'(x)=0\\Rightarrow-3\\cdot x^2+36=0\\Rightarrow x_1=\\sqrt{12}"
+            },
+            {
+              "t": "text",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(x_2=-\\sqrt{12})"
+            },
+            {
+              "t": "text",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow x_E\\approx3{,}46"
+            },
+            {
+              "t": "text",
+              "v": " ME"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „ME“ nicht angeführt sein muss.\nGrundkompetenz: AN 3.3\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Erlös durch die verkaufte Menge der Ware wird durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "E(x)=x\\cdot p_N(x)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben. Der Grenzerlös "
+        },
+        {
+          "t": "math",
+          "v": "E'(x)"
+        },
+        {
+          "t": "text",
+          "v": " bei einer bestimmten Absatzmenge "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt näherungsweise die Änderung des Erlöses bezogen auf eine zusätzlich abgesetzte Mengeneinheit.\n\nⒶ Ermitteln Sie diejenige Menge "
+        },
+        {
+          "t": "math",
+          "v": "x_E"
+        },
+        {
+          "t": "text",
+          "v": ", bei der der Erlös maximal ist."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum der Grenzerlös für jede verkaufte Menge "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "0<x<x_E"
+        },
+        {
+          "t": "text",
+          "v": " positiv ist."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Begründung:\nDie Funktion "
+          },
+          {
+            "t": "math",
+            "v": "E'"
+          },
+          {
+            "t": "text",
+            "v": " ist eine nach unten offene Parabel, die an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x=0"
+          },
+          {
+            "t": "text",
+            "v": " den Funktionswert "
+          },
+          {
+            "t": "math",
+            "v": "E'(0)=36"
+          },
+          {
+            "t": "text",
+            "v": " hat und an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x_E=\\sqrt{12}"
+          },
+          {
+            "t": "text",
+            "v": " eine Nullstelle hat. Also sind sämtliche Funktionswerte von "
+          },
+          {
+            "t": "math",
+            "v": "E'"
+          },
+          {
+            "t": "text",
+            "v": " (und damit der Grenzerlös für jede verkaufte Menge "
+          },
+          {
+            "t": "math",
+            "v": "x"
+          },
+          {
+            "t": "text",
+            "v": ") im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "(0;x_E)"
+          },
+          {
+            "t": "text",
+            "v": " positiv."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine richtige Begründung. Andere richtige Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Begründung:\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "E'"
+            },
+            {
+              "t": "text",
+              "v": " ist eine nach unten offene Parabel, die an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=0"
+            },
+            {
+              "t": "text",
+              "v": " den Funktionswert "
+            },
+            {
+              "t": "math",
+              "v": "E'(0)=36"
+            },
+            {
+              "t": "text",
+              "v": " hat und an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_E=\\sqrt{12}"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle hat. Also sind sämtliche Funktionswerte von "
+            },
+            {
+              "t": "math",
+              "v": "E'"
+            },
+            {
+              "t": "text",
+              "v": " (und damit der Grenzerlös für jede verkaufte Menge "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": ") im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "(0;x_E)"
+            },
+            {
+              "t": "text",
+              "v": " positiv."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Begründung. Andere richtige Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gibt es auf einem Markt viele Anbieter einer Ware, dann werden diese in der Regel bei steigendem Preis auch eine größere Menge der Ware anbieten. Dieser Zusammenhang kann als Preisfunktion des Angebots "
+        },
+        {
+          "t": "math",
+          "v": "p_A"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der angebotenen Menge "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (mit "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " in ME und "
+        },
+        {
+          "t": "math",
+          "v": "p_A(x)"
+        },
+        {
+          "t": "text",
+          "v": " in GE/ME).\nDiejenige Menge der Ware, bei der der Preis für die angebotene Menge und der Preis für die nachgefragte Menge gleich groß sind, nennt man Gleichgewichtsmenge "
+        },
+        {
+          "t": "math",
+          "v": "x_G"
+        },
+        {
+          "t": "text",
+          "v": ". Den zugehörigen Preis nennt man Gleichgewichtspreis.\n\nErmitteln Sie für die gegebene Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p_N"
+        },
+        {
+          "t": "text",
+          "v": " und die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p_A"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "p_A(x)=4\\cdot x+4"
+        },
+        {
+          "t": "text",
+          "v": " die Gleichgewichtsmenge "
+        },
+        {
+          "t": "math",
+          "v": "x_G"
+        },
+        {
+          "t": "text",
+          "v": " und den zugehörigen Gleichgewichtspreis."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "p_A(x)=p_N(x)\\Rightarrow4\\cdot x+4=-x^2+36\\Rightarrow x_G=4"
+          },
+          {
+            "t": "text",
+            "v": " ME\nGleichgewichtspreis "
+          },
+          {
+            "t": "math",
+            "v": "=p_A(4)=p_N(4)=20"
+          },
+          {
+            "t": "text",
+            "v": "\nBei der Gleichgewichtsmenge von "
+          },
+          {
+            "t": "math",
+            "v": "x_G=4"
+          },
+          {
+            "t": "text",
+            "v": " ME beträgt der zugehörige Gleichgewichtspreis 20 GE/ME."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für Angabe der beiden richtigen Werte, wobei die entsprechenden Einheiten nicht angeführt sein müssen.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p_A(x)=p_N(x)\\Rightarrow4\\cdot x+4=-x^2+36\\Rightarrow x_G=4"
+            },
+            {
+              "t": "text",
+              "v": " ME\nGleichgewichtspreis "
+            },
+            {
+              "t": "math",
+              "v": "=p_A(4)=p_N(4)=20"
+            },
+            {
+              "t": "text",
+              "v": "\nBei der Gleichgewichtsmenge von "
+            },
+            {
+              "t": "math",
+              "v": "x_G=4"
+            },
+            {
+              "t": "text",
+              "v": " ME beträgt der zugehörige Gleichgewichtspreis 20 GE/ME."
+            }
+          ],
+          "note": "Ein Punkt für Angabe der beiden richtigen Werte, wobei die entsprechenden Einheiten nicht angeführt sein müssen.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-nt1-alt-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Gibt es auf einem Markt viele Anbieter einer Ware, dann werden diese in der Regel bei steigendem Preis auch eine größere Menge der Ware anbieten. Dieser Zusammenhang kann als Preisfunktion des Angebots "
+        },
+        {
+          "t": "math",
+          "v": "p_A"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der angebotenen Menge "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (mit "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " in ME und "
+        },
+        {
+          "t": "math",
+          "v": "p_A(x)"
+        },
+        {
+          "t": "text",
+          "v": " in GE/ME).\nDiejenige Menge der Ware, bei der der Preis für die angebotene Menge und der Preis für die nachgefragte Menge gleich groß sind, nennt man Gleichgewichtsmenge "
+        },
+        {
+          "t": "math",
+          "v": "x_G"
+        },
+        {
+          "t": "text",
+          "v": ". Den zugehörigen Preis nennt man Gleichgewichtspreis.\n\nErmitteln Sie für die gegebene Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p_N"
+        },
+        {
+          "t": "text",
+          "v": " und die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "p_A"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "p_A(x)=4\\cdot x+4"
+        },
+        {
+          "t": "text",
+          "v": " die Gleichgewichtsmenge "
+        },
+        {
+          "t": "math",
+          "v": "x_G"
+        },
+        {
+          "t": "text",
+          "v": " und den zugehörigen Gleichgewichtspreis."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Für eine Ware wird ein Preis "
+        },
+        {
+          "t": "math",
+          "v": "p_M"
+        },
+        {
+          "t": "text",
+          "v": " festgelegt, der um 2 GE/ME größer als der ermittelte Gleichgewichtspreis ist.\n\nBestimmen Sie die angebotene und die nachgefragte Menge für diesen Preis "
+        },
+        {
+          "t": "math",
+          "v": "p_M"
+        },
+        {
+          "t": "text",
+          "v": " und vergleichen Sie die Ergebnisse im Hinblick auf die verkaufte Menge der Ware."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "p_M=22"
+          },
+          {
+            "t": "text",
+            "v": " GE/ME\nangebotene Menge: "
+          },
+          {
+            "t": "math",
+            "v": "22=4\\cdot x+4\\Rightarrow x=4{,}5"
+          },
+          {
+            "t": "text",
+            "v": " ME\nnachgefragte Menge: "
+          },
+          {
+            "t": "math",
+            "v": "22=-x^2+36\\Rightarrow x_1=\\sqrt{14}"
+          },
+          {
+            "t": "text",
+            "v": " "
+          },
+          {
+            "t": "math",
+            "v": "(x_2=-\\sqrt{14})"
+          },
+          {
+            "t": "text",
+            "v": " "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow x\\approx3{,}74"
+          },
+          {
+            "t": "text",
+            "v": " ME\n\nmöglicher Vergleich:\nDie nachgefragte Menge ist kleiner als die angebotene Menge, d. h., die Ware wird nicht zur Gänze verkauft."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der beiden richtigen Werte, wobei die entsprechenden Einheiten nicht angeführt sein müssen, und für einen richtigen Vergleich.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p_M=22"
+            },
+            {
+              "t": "text",
+              "v": " GE/ME\nangebotene Menge: "
+            },
+            {
+              "t": "math",
+              "v": "22=4\\cdot x+4\\Rightarrow x=4{,}5"
+            },
+            {
+              "t": "text",
+              "v": " ME\nnachgefragte Menge: "
+            },
+            {
+              "t": "math",
+              "v": "22=-x^2+36\\Rightarrow x_1=\\sqrt{14}"
+            },
+            {
+              "t": "text",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "(x_2=-\\sqrt{14})"
+            },
+            {
+              "t": "text",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow x\\approx3{,}74"
+            },
+            {
+              "t": "text",
+              "v": " ME\n\nmöglicher Vergleich:\nDie nachgefragte Menge ist kleiner als die angebotene Menge, d. h., die Ware wird nicht zur Gänze verkauft."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte, wobei die entsprechenden Einheiten nicht angeführt sein müssen, und für einen richtigen Vergleich.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 27 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3252&token=ab50d25f9159025a5e28de836e907f925040d076#page=31",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
+}

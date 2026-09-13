@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -36,18 +36,23 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048a",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Eine Person läuft mit konstanter Geschwindigkeit, bis sie vom Catcher-Car überholt wird. Diese Person wird während der 15-km/h-Phase des Catcher-Cars überholt. Die Laufzeit t der Person hängt von der Geschwindigkeit v der Person ab.\n\nGeben Sie einen Term an, mit dem t bei Kenntnis von v berechnet werden kann (mit t in h und v in km/h)!"
+          "v": "Eine Person läuft mit konstanter Geschwindigkeit, bis sie vom Catcher-Car überholt wird. Diese Person wird während der 15-km/h-Phase des Catcher-Cars überholt. Die Laufzeit t der Person hängt von der Geschwindigkeit v der Person ab.\n\nGeben Sie einen Term an, mit dem t bei Kenntnis von v berechnet werden kann (mit t in h und v in km/h)!\n\n"
         },
         {
           "t": "math",
@@ -100,12 +105,17 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048a",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -124,19 +134,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 29.5,
-            "tol": 0.5,
-            "unit": "%"
+            "t": "math",
+            "v": "s=v\\cdot t=v\\cdot\\frac{7{,}5}{15-v}"
+          },
+          {
+            "t": "math",
+            "v": "v=9\\ \\text{km/h}: s=11{,}25\\ \\text{km};\\quad v=9{,}9\\ \\text{km/h}: s\\approx 14{,}559\\ \\text{km}"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{14{,}559}{11{,}25}\\approx 1{,}294"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die zurückgelegte Streckenlänge erhöhte sich dadurch um ca. 29,4 %."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Toleranzintervall: [29 %; 30 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [29 %; 30 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -147,8 +181,16 @@
               "v": "s=v\\cdot t=v\\cdot\\frac{7{,}5}{15-v}"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "v=9\\ \\text{km/h}: s=11{,}25\\ \\text{km};\\quad v=9{,}9\\ \\text{km/h}: s\\approx 14{,}559\\ \\text{km}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -179,18 +221,23 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048b",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Eine bestimmte gut trainierte Person läuft während der ersten Stunde mit einer konstanten Geschwindigkeit und benötigt dabei pro Kilometer 5 Minuten. Anschließend wird sie langsamer. Ab diesem Zeitpunkt (also für t ≥ 1) kann ihre Geschwindigkeit mithilfe der Funktion v in Abhängigkeit von der gelaufenen Zeit modelliert werden. Für die Geschwindigkeit v(t) gilt:"
+          "v": "Eine bestimmte gut trainierte Person läuft während der ersten Stunde mit einer konstanten Geschwindigkeit und benötigt dabei pro Kilometer 5 Minuten. Anschließend wird sie langsamer. Ab diesem Zeitpunkt (also für t ≥ 1) kann ihre Geschwindigkeit mithilfe der Funktion v in Abhängigkeit von der gelaufenen Zeit modelliert werden. Für die Geschwindigkeit v(t) gilt:\n\n"
         },
         {
           "t": "math",
@@ -198,7 +245,7 @@
         },
         {
           "t": "text",
-          "v": "Deuten Sie den Ausdruck "
+          "v": "\n\nDeuten Sie den Ausdruck "
         },
         {
           "t": "math",
@@ -256,15 +303,32 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048b",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Eine bestimmte gut trainierte Person läuft während der ersten Stunde mit einer konstanten Geschwindigkeit und benötigt dabei pro Kilometer 5 Minuten. Anschließend wird sie langsamer. Ab diesem Zeitpunkt (also für t ≥ 1) kann ihre Geschwindigkeit mithilfe der Funktion v in Abhängigkeit von der gelaufenen Zeit modelliert werden. Für die Geschwindigkeit v(t) gilt:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "v(t)=12\\cdot 0{,}7^{\\,t-1}\\ \\text{mit}\\ t\\ \\text{in h und}\\ v(t)\\ \\text{in km/h}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Berechnen Sie die Uhrzeit, zu der das Catcher-Car diese Person überholt!\n\nUhrzeit: __ : __ UTC"
@@ -273,27 +337,35 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
-            "t": "text",
-            "v": "Aus "
-          },
-          {
             "t": "math",
-            "v": "12+\\int_{1}^{b} v(t)\\,dt=15+16\\cdot(b-1{,}5)"
+            "v": "12+\\int_{1}^{b} v(t)\\,dt=15+16\\cdot(b-1{,}5)\\Rightarrow b\\approx 1{,}878"
           },
           {
             "t": "text",
-            "v": " folgt b ≈ 1,878, d. h. die Laufzeit der Person bis zum Zeitpunkt des Überholens beträgt ca. 1 h 53 min. Uhrzeit: 12:53 UTC (auch 12:52 UTC ist als richtig zu werten)."
+            "v": "Die Laufzeit der Person bis zum Zeitpunkt des Überholens beträgt ca. 1 h 53 min."
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Uhrzeit: 12:53 UTC"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei auch 12:52 UTC als richtig zu werten ist. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
         "criteria": [
           {
-            "desc": "Ein Punkt für die richtige Lösung, wobei auch 12:52 UTC als richtig zu werten ist.",
+            "desc": "Ein Punkt für die richtige Lösung, wobei auch 12:52 UTC als richtig zu werten ist. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
             "points": 1
           }
         ]
@@ -305,6 +377,10 @@
             {
               "t": "math",
               "v": "12+\\int_{1}^{b} v(t)\\,dt=15+16\\cdot(b-1{,}5)\\Rightarrow b\\approx 1{,}878"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "text",
@@ -335,12 +411,17 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048c",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -352,19 +433,27 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
             "v": "Die Behauptung von Leo stimmt. Mögliche Begründung: Das Catcher-Car legt bis zum Beginn der 20-km/h-Phase 48 km zurück, daher muss der Läufer zumindest 48 km zurückgelegt haben. Das Catcher-Car legt innerhalb der 20-km/h-Phase weitere 40 km zurück, bevor es die 35-km/h-Phase startet. Daher legt der Läufer höchstens 88 km zurück, wenn er in dieser Phase überholt wird. Somit ist es Leo möglich, ein kleineres Intervall anzugeben. (Das kleinstmögliche Intervall beträgt [48 km; 88 km].)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Die Begründung ist ausreichend, wenn aus ihr klar hervorgeht, dass die Breite des Intervalls durch Vergrößerung der linken Intervallgrenze verringert werden kann, die Angabe eines konkreten Intervalls ist dafür nicht erforderlich. Grundkompetenz: FA 1.7"
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
         "criteria": [
           {
-            "desc": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Die Begründung ist ausreichend, wenn aus ihr klar hervorgeht, dass die Breite des Intervalls durch Vergrößerung der linken Intervallgrenze verringert werden kann, die Angabe eines konkreten Intervalls ist dafür nicht erforderlich.",
+            "desc": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Die Begründung ist ausreichend, wenn aus ihr klar hervorgeht, dass die Breite des Intervalls durch Vergrößerung der linken Intervallgrenze verringert werden kann, die Angabe eines konkreten Intervalls ist dafür nicht erforderlich. Grundkompetenz: FA 1.7",
             "points": 1
           }
         ]
@@ -375,10 +464,10 @@
           "result": [
             {
               "t": "text",
-              "v": "Die Behauptung von Leo stimmt. Das Catcher-Car legt bis zum Beginn der 20-km/h-Phase 48 km zurück, daher muss der Läufer zumindest 48 km zurückgelegt haben; innerhalb der 20-km/h-Phase legt es weitere 40 km zurück, daher höchstens 88 km. Das kleinstmögliche Intervall beträgt [48 km; 88 km]."
+              "v": "Die Behauptung von Leo stimmt. Mögliche Begründung: Das Catcher-Car legt bis zum Beginn der 20-km/h-Phase 48 km zurück, daher muss der Läufer zumindest 48 km zurückgelegt haben. Das Catcher-Car legt innerhalb der 20-km/h-Phase weitere 40 km zurück, bevor es die 35-km/h-Phase startet. Daher legt der Läufer höchstens 88 km zurück, wenn er in dieser Phase überholt wird. Somit ist es Leo möglich, ein kleineres Intervall anzugeben. (Das kleinstmögliche Intervall beträgt [48 km; 88 km].)"
             }
           ],
-          "note": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Grundkompetenz: FA 1.7"
+          "note": "Ein Ausgleichspunkt für die Angabe, dass die Behauptung von Leo stimmt, und eine richtige Begründung. Die Begründung ist ausreichend, wenn aus ihr klar hervorgeht, dass die Breite des Intervalls durch Vergrößerung der linken Intervallgrenze verringert werden kann, die Angabe eines konkreten Intervalls ist dafür nicht erforderlich. Grundkompetenz: FA 1.7"
         }
       ]
     },
@@ -396,12 +485,17 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_048c",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
           "baseId": "2_048",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-          "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -415,7 +509,7 @@
         },
         {
           "t": "text",
-          "v": "!"
+          "v": "!\n\n"
         },
         {
           "t": "math",
@@ -428,20 +522,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "v",
-            "label": "v",
-            "value": 14,
-            "tol": 0.5,
-            "unit": "km/h"
+            "t": "text",
+            "v": "Die Teilnehmerin wurde während der 20-km/h-Phase des Catcher-Cars überholt."
+          },
+          {
+            "t": "math",
+            "v": "t=3{,}5+\\frac{3{,}72}{20}=3{,}686\\ \\text{h}"
+          },
+          {
+            "t": "math",
+            "v": "\\bar{v}=\\frac{51{,}72}{3{,}686}\\approx 14{,}03\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\bar{v}\\approx 14{,}03\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Toleranzintervall: [13,5; 14,5] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [13,5; 14,5] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -452,8 +569,16 @@
               "v": "Die Teilnehmerin wurde während der 20-km/h-Phase des Catcher-Cars überholt."
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "t=3{,}5+\\frac{3{,}72}{20}=3{,}686\\ \\text{h}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -473,12 +598,17 @@
   ],
   "externalRefs": [
     {
-      "system": "aufgabenpool",
-      "id": "2_048",
+      "system": "maturaArchiv",
+      "id": "Aufgabe 28 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=34",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 2_048 (offiziell adaptierte Fassung)",
       "baseId": "2_048",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/446/2_048_srdp_ma_Wings_for_Life_World_Run_PT1_19.pdf",
-      "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
     }
   ],
   "prompt": [

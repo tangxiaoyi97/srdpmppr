@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,131 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_627a",
+          "id": "1_627",
           "baseId": "1_627",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/348/Abk%C3%BChlungsprozess.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation:\nDie momentane Abnahme der Temperatur der Flüssigkeit beträgt 20 Minuten nach dem Start des Abkühlungsprozesses 0,97 °C pro Minute."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Interpretation unter Angabe der korrekten Einheiten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "T'(20)=-0{,}97"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext unter Angabe der korrekten Einheiten!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation:\nDie momentane Abnahme der Temperatur der Flüssigkeit beträgt 20 Minuten nach dem Start des Abkühlungsprozesses 0,97 °C pro Minute.\nEin Punkt für eine korrekte Interpretation unter Angabe der korrekten Einheiten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_627",
       "baseId": "1_627",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/348/Abk%C3%BChlungsprozess.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Flüssigkeit wird abgekühlt. Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt modellhaft den Temperaturverlauf. Dabei gibt "
+    },
+    {
+      "t": "math",
+      "v": "T(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Temperatur der Flüssigkeit zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t\\ge0"
+    },
+    {
+      "t": "text",
+      "v": " an ("
+    },
+    {
+      "t": "math",
+      "v": "T(t)"
+    },
+    {
+      "t": "text",
+      "v": " in °C, "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Minuten). Der Abkühlungsprozess startet zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

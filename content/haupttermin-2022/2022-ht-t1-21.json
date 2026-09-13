@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1199a",
+          "id": "1_1199",
           "baseId": "1_1199",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/740/Neugeborene.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,12 +69,28 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.062284,
-            "tol": 0.0005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{5\\,282}{5\\,282+47\\,152+32\\,370}=0{,}06228\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}06228\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des relativen Anteils."
           }
         ]
       },

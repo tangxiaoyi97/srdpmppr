@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,109 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_549a",
+          "id": "1_549",
           "baseId": "1_549",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/258/Grafisch%20differenzieren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ein Punkt für eine korrekte Darstellung der Ableitungsfunktion f′. Der Graph der Funktion f′ muss erkennbar die Form einer nach oben offenen Parabel haben und die x-Achse an den beiden Stellen schneiden, bei denen die Funktion f die Extremstellen hat. Der Graph einer entsprechenden Funktion f′, der über das Intervall [x₁; x₂] hinaus gezeichnet ist, ist ebenfalls als richtig zu werten."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-17-sol.png",
+              "alt": "Lösung: nach oben offene Parabel f′ mit Nullstellen an den Extremstellen von f."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung der Ableitungsfunktion f′. Der Graph der Funktion f′ muss erkennbar die Form einer nach oben offenen Parabel haben und die x-Achse an den beiden Stellen schneiden, bei denen die Funktion f die Extremstellen hat. Der Graph einer entsprechenden Funktion f′, der über das Intervall [x₁; x₂] hinaus gezeichnet ist, ist ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie in der gegebenen Grafik den Graphen der Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_1;x_2]"
+        },
+        {
+          "t": "text",
+          "v": " und markieren Sie gegebenenfalls die Nullstellen!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine korrekte Darstellung der Ableitungsfunktion f′. Der Graph der Funktion f′ muss erkennbar die Form einer nach oben offenen Parabel haben und die x-Achse an den beiden Stellen schneiden, bei denen die Funktion f die Extremstellen hat. Der Graph einer entsprechenden Funktion f′, der über das Intervall [x₁; x₂] hinaus gezeichnet ist, ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_549",
       "baseId": "1_549",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/258/Grafisch%20differenzieren.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Polynomfunktion dritten Grades "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-17-q.png",
+      "alt": "Graph der kubischen Funktion f; x₁ und x₂ begrenzen das geforderte Intervall."
     }
   ]
 }

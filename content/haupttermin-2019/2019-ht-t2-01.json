@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -64,7 +64,7 @@
         },
         {
           "t": "text",
-          "v": " an!"
+          "v": " an!\n\n"
         },
         {
           "t": "math",
@@ -123,6 +123,19 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Gegeben ist das System A:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-a.png",
+          "alt": "Seriensystem A: zwei hintereinandergeschaltete Bauteile T1 und T2."
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "text",
           "v": "Bei einem anderen System gleicher Bauart haben die Bauteile jeweils die gleiche Zuverlässigkeit "
         },
         {
@@ -139,7 +152,7 @@
         },
         {
           "t": "text",
-          "v": " (für jedes der beiden Bauteile) annehmen muss!"
+          "v": " (für jedes der beiden Bauteile) annehmen muss!\n\n"
         },
         {
           "t": "math",
@@ -148,18 +161,39 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "pneu",
-            "value": 0.935,
-            "tol": 0.005
+            "t": "math",
+            "v": "1-p_{\\text{neu}}^{2}=\\tfrac{1}{4}\\cdot\\left(1-0{,}7^{2}\\right)"
+          },
+          {
+            "t": "math",
+            "v": "p_{\\text{neu}}=\\sqrt{0{,}8725}\\approx 0{,}934"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p_{\\text{neu}}\\approx 0{,}934"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Toleranzintervall: [0,93; 0,94] bzw. [93 %; 94 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,93; 0,94] bzw. [93 %; 94 %] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -168,6 +202,10 @@
             {
               "t": "math",
               "v": "1-p_{\\text{neu}}^{2}=\\tfrac{1}{4}\\cdot\\left(1-0{,}7^{2}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -226,7 +264,7 @@
         },
         {
           "t": "text",
-          "v": " an!"
+          "v": " an!\n\n"
         },
         {
           "t": "math",
@@ -284,43 +322,80 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Gegeben ist das System B:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-b.png",
+          "alt": "Parallelsystem B: zwei parallel geschaltete Bauteile T1 und T2."
+        },
+        {
+          "t": "text",
+          "v": "Die beiden Bauteile T1 und T2 haben jeweils die gleiche Zuverlässigkeit p.\n\nBetrachten Sie die Zuverlässigkeit des Systems B als Funktion zB von p.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Zeigen Sie rechnerisch, dass die Funktion zB auf dem Intervall (0; 1) streng monoton steigend ist!"
         }
       ],
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Nachweis der strengen Monotonie von zB auf (0; 1), z. B. über die Ableitung: "
-          },
-          {
-            "t": "math",
-            "v": "z_B'(p)=2\\cdot(1-p)>0"
+            "v": "\n"
           },
           {
             "t": "text",
-            "v": " für alle "
+            "v": "mögliche Vorgehensweisen:\nDer Funktionsterm "
           },
           {
             "t": "math",
-            "v": "p\\in(0;1)"
+            "v": "1-(1-p)^2=-(p-1)^2+1"
           },
           {
             "t": "text",
-            "v": ". Alternativ: "
+            "v": " ist dahingehend zu deuten, dass die durch "
           },
           {
             "t": "math",
-            "v": "1-(1-p)^{2}=-(p-1)^{2}+1"
+            "v": "f(x)=x^2"
           },
           {
             "t": "text",
-            "v": " hat den Scheitelpunkt (1 | 1), daher ist zB auf (0; 1) streng monoton steigend; oder: (1 − p) ist auf (0; 1) positiv und streng monoton fallend, daher auch (1 − p)², somit ist 1 − (1 − p)² streng monoton steigend."
+            "v": " beschriebene Grundparabel durch Einsetzen von "
+          },
+          {
+            "t": "math",
+            "v": "x=(p-1)"
+          },
+          {
+            "t": "text",
+            "v": " um eine Einheit nach rechts verschoben wird, wegen des Minus vor der Klammer an der horizontalen Achse gespiegelt und durch die Addition von 1 um eine Einheit nach oben geschoben wird.\nDamit liegt der Scheitelpunkt bei (1 | 1) und zB ist im Intervall (0; 1) streng monoton steigend.\n\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "z'_B(p)=2\\cdot(1-p)>0\\ \\text{für alle}\\ p\\in(0;1)"
+          },
+          {
+            "t": "text",
+            "v": "\n\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "z_B=1-(1-p)^2"
+          },
+          {
+            "t": "text",
+            "v": "\n(1 − p) ist für p ∈ (0; 1) positiv und streng monoton fallend, daher auch (1 − p)².\nDamit ist 1 − (1 − p)² für p ∈ (0; 1) streng monoton steigend."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen richtigen Nachweis. Andere richtige Nachweise (z. B. grafische Nachweise) sind ebenfalls als richtig zu werten."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -336,8 +411,48 @@
         {
           "result": [
             {
+              "t": "text",
+              "v": "mögliche Vorgehensweisen:\nDer Funktionsterm "
+            },
+            {
               "t": "math",
-              "v": "z_B'(p)=2\\cdot(1-p)>0\\ \\text{für alle}\\ p\\in(0;1)"
+              "v": "1-(1-p)^2=-(p-1)^2+1"
+            },
+            {
+              "t": "text",
+              "v": " ist dahingehend zu deuten, dass die durch "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=x^2"
+            },
+            {
+              "t": "text",
+              "v": " beschriebene Grundparabel durch Einsetzen von "
+            },
+            {
+              "t": "math",
+              "v": "x=(p-1)"
+            },
+            {
+              "t": "text",
+              "v": " um eine Einheit nach rechts verschoben wird, wegen des Minus vor der Klammer an der horizontalen Achse gespiegelt und durch die Addition von 1 um eine Einheit nach oben geschoben wird.\nDamit liegt der Scheitelpunkt bei (1 | 1) und zB ist im Intervall (0; 1) streng monoton steigend.\n\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "z'_B(p)=2\\cdot(1-p)>0\\ \\text{für alle}\\ p\\in(0;1)"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "z_B=1-(1-p)^2"
+            },
+            {
+              "t": "text",
+              "v": "\n(1 − p) ist für p ∈ (0; 1) positiv und streng monoton fallend, daher auch (1 − p)².\nDamit ist 1 − (1 − p)² für p ∈ (0; 1) streng monoton steigend."
             }
           ],
           "note": "Ein Punkt für einen richtigen Nachweis. Andere richtige Nachweise (z. B. grafische Nachweise) sind ebenfalls als richtig zu werten."
@@ -374,7 +489,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-c.png",
-          "alt": "System C: zwei parallele Serienstränge (T1–T2 und T3–T4). System D: zwei serielle Parallelblöcke (T1∥T3 und T2∥T4)."
+          "alt": "System C: zwei serielle Parallelblöcke (T1∥T3 und T2∥T4). System D: zwei parallele Serienstränge (T1–T2 und T3–T4)."
         },
         {
           "t": "text",
@@ -399,18 +514,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "q",
-            "value": 0.255,
-            "tol": 0.005
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{1-z_C(0{,}9)}{1-z_C(0{,}8)}\\approx 0{,}254"
+          },
+          {
+            "t": "text",
+            "v": " Mögliche Interpretation: Bei Erhöhung der Zuverlässigkeit der Bauteile von 0,8 auf 0,9 sinkt die Ausfallwahrscheinlichkeit des Systems auf etwa ein Viertel des ursprünglichen Wertes."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für den richtigen Wert des Quotienten und eine richtige Interpretation. Toleranzintervall: [0,25; 0,26] bzw. [25 %; 26 %]"
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für den richtigen Wert des Quotienten und eine richtige Interpretation. Toleranzintervall: [0,25; 0,26] bzw. [25 %; 26 %]",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -454,6 +586,27 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Gegeben sind die Systeme C und D:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-c.png",
+          "alt": "System C: zwei serielle Parallelblöcke (T1∥T3 und T2∥T4). System D: zwei parallele Serienstränge (T1–T2 und T3–T4)."
+        },
+        {
+          "t": "text",
+          "v": "Jedes der Bauteile T1, T2, T3 und T4 hat die gleiche Zuverlässigkeit p.\n\nDie Zuverlässigkeit zC des Systems C ist eine Funktion von p und wird durch die Funktionsgleichung "
+        },
+        {
+          "t": "math",
+          "v": "z_C(p)=p^{4}-4\\cdot p^{3}+4\\cdot p^{2}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die Zuverlässigkeit zD des Systems D ist eine Funktion von p.\n\nBegründen Sie, warum "
         },
         {
@@ -476,29 +629,37 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Mögliche Begründungen: "
-          },
-          {
-            "t": "math",
-            "v": "z_D(p)=2\\cdot p^{2}\\cdot(1-p^{2})+p^{4}=2\\cdot p^{2}-p^{4}"
+            "v": "\n"
           },
           {
             "t": "text",
-            "v": ". Der Graph der Funktion zC verläuft für alle "
+            "v": "mögliche Begründungen:\n"
           },
           {
             "t": "math",
-            "v": "p\\in(0;1)"
+            "v": "z_D(p)=2\\cdot p^2\\cdot(1-p^2)+p^4"
           },
           {
             "t": "text",
-            "v": " oberhalb des Graphen der Funktion zD. Oder: Bei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C. Außerdem funktioniert System C auch dann, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "z_D(p)=2\\cdot p^2-p^4"
+          },
+          {
+            "t": "text",
+            "v": "\nDer Graph der Funktion zC verläuft für alle p ∈ (0; 1) oberhalb des Graphen der Funktion zD.\n\noder:\nBei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C. Außerdem funktioniert System C auch dann, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine richtige Begründung."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -515,7 +676,23 @@
           "result": [
             {
               "t": "text",
-              "v": "Der Graph der Funktion zC verläuft für alle p ∈ (0; 1) oberhalb des Graphen der Funktion zD; bzw. bei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C, und System C funktioniert zusätzlich, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
+              "v": "mögliche Begründungen:\n"
+            },
+            {
+              "t": "math",
+              "v": "z_D(p)=2\\cdot p^2\\cdot(1-p^2)+p^4"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "z_D(p)=2\\cdot p^2-p^4"
+            },
+            {
+              "t": "text",
+              "v": "\nDer Graph der Funktion zC verläuft für alle p ∈ (0; 1) oberhalb des Graphen der Funktion zD.\n\noder:\nBei allen Kombinationen, bei denen System D funktioniert, funktioniert auch System C. Außerdem funktioniert System C auch dann, wenn nur T1 und T4 bzw. nur T2 und T3 funktionieren."
             }
           ],
           "note": "Ein Punkt für eine richtige Begründung."
@@ -536,7 +713,25 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Ein System ist im Folgenden eine Maschine, die aus mehreren Bauteilen besteht. Jedes Bauteil dieses Systems kann mit einer gewissen Wahrscheinlichkeit korrekt funktionieren oder ausfallen. Wenn einzelne Bauteile eines Systems ausfallen, hängt es von der Bauart des Systems ab, ob das gesamte System weiter funktioniert oder ob es ausfällt.\n\nUnter der Zuverlässigkeit eines Bauteils versteht man die Wahrscheinlichkeit dafür, dass das Bauteil korrekt funktioniert, also nicht ausfällt. Das gilt jeweils für eine bestimmte Zeitdauer und unter bestimmten Bedingungen.\n\nUnter der Zuverlässigkeit eines Systems versteht man die Wahrscheinlichkeit dafür, dass das System korrekt funktioniert, also nicht ausfällt. (Es wird modellhaft angenommen, dass Ausfälle von Bauteilen voneinander unabhängig sind.) Die entsprechende Gegenwahrscheinlichkeit heißt Ausfallwahrscheinlichkeit.\n\nMan unterscheidet zwei einfache Typen von Systemen:\n- Seriensysteme: Ein Seriensystem funktioniert genau dann, wenn alle Bauteile funktionieren.\n- Parallelsysteme: Ein Parallelsystem funktioniert genau dann, wenn mindestens ein Bauteil funktioniert."
+      "v": "Ein System ist im Folgenden eine Maschine, die aus mehreren Bauteilen besteht. Jedes Bauteil dieses Systems kann mit einer gewissen Wahrscheinlichkeit korrekt funktionieren oder ausfallen. Wenn einzelne Bauteile eines Systems ausfallen, hängt es von der Bauart des Systems ab, ob das gesamte System weiter funktioniert oder ob es ausfällt.\n\nUnter der Zuverlässigkeit eines Bauteils versteht man die Wahrscheinlichkeit dafür, dass das Bauteil korrekt funktioniert, also nicht ausfällt. Das gilt jeweils für eine bestimmte Zeitdauer und unter bestimmten Bedingungen.\n\nUnter der Zuverlässigkeit eines Systems versteht man die Wahrscheinlichkeit dafür, dass das System korrekt funktioniert, also nicht ausfällt. (Es wird modellhaft angenommen, dass Ausfälle von Bauteilen voneinander unabhängig sind.) Die entsprechende Gegenwahrscheinlichkeit heißt Ausfallwahrscheinlichkeit.\n\nMan unterscheidet zwei einfache Typen von Systemen:\n\n• Seriensysteme:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-intro-series.png",
+      "alt": "Seriensystem mit zwei Bauteilen."
+    },
+    {
+      "t": "text",
+      "v": "Ein Seriensystem funktioniert genau dann, wenn alle Bauteile funktionieren.\n\n• Parallelsysteme:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019/fig/2019-ht-t2-01-intro-parallel.png",
+      "alt": "Parallelsystem mit zwei Bauteilen."
+    },
+    {
+      "t": "text",
+      "v": "Ein Parallelsystem funktioniert genau dann, wenn mindestens ein Bauteil funktioniert."
     }
   ]
 }

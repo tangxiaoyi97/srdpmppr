@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,101 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_432a",
+          "id": "1_432",
           "baseId": "1_432",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/140/Ableitung%20einer%20Winkelfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)=-5\\cdot\\sin(x)+3\\cdot\\cos(3\\cdot x)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung der Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-5*sin(x)+3*cos(3*x)",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_432",
       "baseId": "1_432",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/140/Ableitung%20einer%20Winkelfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Gleichung einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " lautet:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "f(x)=5\\cdot\\cos(x)+\\sin(3\\cdot x)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,131 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_563a",
+          "id": "1_563",
           "baseId": "1_563",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/272/Futtermittel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "1. Gleichung: "
+            },
+            {
+              "t": "math",
+              "v": "a+b=100"
+            },
+            {
+              "t": "text",
+              "v": "\n2. Gleichung: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}14\\cdot a+0{,}35\\cdot b=0{,}18\\cdot(a+b)"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe zweier korrekter Gleichungen. Andere korrekte Gleichungssysteme, die eine Berechnung der nötigen Mengen ermöglichen, sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie zwei Gleichungen in den Variablen "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an, mithilfe derer die für diese Mischung benötigten Mengen berechnet werden können!\n\n1. Gleichung: ____________________\n\n2. Gleichung: ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a+b=100"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "0{,}14\\cdot a+0{,}35\\cdot b=0{,}18\\cdot(a+b)"
+          },
+          {
+            "t": "text",
+            "v": ". Andere korrekte Gleichungssysteme, die eine Berechnung der nötigen Mengen ermöglichen, sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=7",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_563",
       "baseId": "1_563",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/272/Futtermittel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Bauer hat zwei Sorten von Fertigfutter für die Rindermast gekauft.\nFertigfutter A hat einen Proteinanteil von 14 %, während Fertigfutter B einen Proteinanteil von 35 % hat.\nDer Bauer möchte für seine Jungstiere 100 kg einer Mischung dieser beiden Fertigfutter-Sorten mit einem Proteinanteil von 18 % herstellen. Es sollen "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " kg der Sorte A mit "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " kg der Sorte B gemischt werden."
     }
   ]
 }

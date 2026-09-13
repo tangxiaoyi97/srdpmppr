@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-13",
+  "bankValidation": {
+    "command": "pnpm validate",
+    "exitCode": 0,
+    "questions": 1044,
+    "parts": 1672,
+    "packagedAssets": 772,
+    "manifestRootSha256": "ee67f2aa82d3ec4614002d6dbb09f88805f7251767029cbe262633ea6f5d6f4a"
+  },
+  "diffWhitespaceCheck": {
+    "command": "git diff --check",
+    "exitCode": 0
+  },
+  "schemaAndKaTeX": {
+    "questions": 1044,
+    "mathNodes": 9373,
+    "errors": [],
+    "schema4LearningNodes": [],
+    "notes": "KaTeX emitted three font-metric warnings for euro characters in previously structured content. These legacy nodes were preserved under the content-unchanged constraint. New conversion control-character/strict rendering checks are recorded separately.",
+    "euroMathNodes": [
+      {
+        "id": "2021-nt2-t2-04",
+        "path": ".parts.1.solution.0.steps.0",
+        "math": "p_1\\cdot 100\\,000-100\\,000=80\\,000\\ \\Rightarrow\\ p_1=1{,}80\\ \\text{€}"
+      },
+      {
+        "id": "2021-nt2-t2-04",
+        "path": ".parts.2.solution.0.result.0",
+        "math": "E(X)=0{,}29\\ \\text{€}"
+      },
+      {
+        "id": "2025-het-t2-01",
+        "path": ".parts.2.solution.0.result.0",
+        "math": "0{,}2875\\ \\text{€/km}"
+      }
+    ]
+  }
+}

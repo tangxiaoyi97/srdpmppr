@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,177 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_517a",
+          "id": "1_517",
           "baseId": "1_517",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/226/Eigenschaften%20von%20Zahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jede natürliche Zahl kann als Bruch in der Form "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{a}{b}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a\\in\\mathbb{Z}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b\\in\\mathbb{Z}\\setminus\\{0\\}"
+            },
+            {
+              "t": "text",
+              "v": " dargestellt werden.\n\nDas Produkt zweier rationaler Zahlen kann eine natürliche Zahl sein."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Quadratwurzel jeder natürlichen Zahl ist eine irrationale Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede natürliche Zahl kann als Bruch in der Form "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{a}{b}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a\\in\\mathbb{Z}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b\\in\\mathbb{Z}\\setminus\\{0\\}"
+            },
+            {
+              "t": "text",
+              "v": " dargestellt werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Produkt zweier rationaler Zahlen kann eine natürliche Zahl sein."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl kann als Bruch in der Form "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{a}{b}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a\\in\\mathbb{Z}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b\\in\\mathbb{Z}\\setminus\\{0\\}"
+            },
+            {
+              "t": "text",
+              "v": " dargestellt werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt eine kleinste ganze Zahl."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_517",
       "baseId": "1_517",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/226/Eigenschaften%20von%20Zahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind Aussagen über Zahlen und Zahlenmengen angeführt."
     }
   ]
 }

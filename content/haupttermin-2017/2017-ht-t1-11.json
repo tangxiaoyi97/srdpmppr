@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,136 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_555a",
+          "id": "1_555",
           "baseId": "1_555",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/264/Negative%20Funktionswerte.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in(-2;3)"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösungsmenge. Andere korrekte Schreibweisen der Lösungsmenge oder eine korrekte verbale oder grafische Beschreibung der Lösungsmenge, aus der klar hervorgeht, dass die Endpunkte −2 und 3 nicht inkludiert sind, sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ", deren zugehöriger Funktionswert "
+        },
+        {
+          "t": "math",
+          "v": "f(x)"
+        },
+        {
+          "t": "text",
+          "v": " negativ ist!"
+        }
+      ],
+      "answer": {
+        "kind": "interval",
+        "lower": -2,
+        "upper": 3,
+        "lowerClosed": false,
+        "upperClosed": false
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_555",
       "baseId": "1_555",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/264/Negative%20Funktionswerte.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Gleichung einer reellen Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=x^2-x-6"
+    },
+    {
+      "t": "text",
+      "v": ". Einen Funktionswert "
+    },
+    {
+      "t": "math",
+      "v": "f(x)"
+    },
+    {
+      "t": "text",
+      "v": " nennt man negativ, wenn "
+    },
+    {
+      "t": "math",
+      "v": "f(x)<0"
+    },
+    {
+      "t": "text",
+      "v": " gilt."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2020-ht-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_768a",
+          "id": "1_768",
           "baseId": "1_768",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/552/Anzahl_von_Tieren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -85,20 +85,47 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "n",
-            "label": "Zeitdauer",
-            "value": 39,
-            "tol": 1,
-            "unit": "Jahre"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "1{,}018^{n}=2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "n=38{,}8\\ldots\\approx 39"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Zeitdauer: ca. 39 Jahre"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die richtige Lösung."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

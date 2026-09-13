@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,107 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_388a",
+          "id": "1_388",
           "baseId": "1_388",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/96/Symmetrische%20Polynomfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wegen der Symmetrie muss ein weiterer lokaler Tiefpunkt vorliegen und damit auch ein lokaler Hochpunkt. Beim Vorliegen von mindestens drei Extrempunkten muss die Polynomfunktion mindestens 4. Grades sein.\n\nAlternativen:\n– Vorliegen eines weiteren Tiefpunkts und daher auch eines Hochpunkts\n– Vorliegen von insgesamt drei Extrempunkten\n– Vorliegen eines weiteren Tiefpunkts und nur gerader Potenzen aufgrund der Symmetrie"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Argumentation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die Polynomfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mindestens 4. Grades sein muss!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Wegen der Symmetrie muss ein weiterer lokaler Tiefpunkt vorliegen und damit auch ein lokaler Hochpunkt. Beim Vorliegen von mindestens drei Extrempunkten muss die Polynomfunktion mindestens 4. Grades sein.\n\nAlternativen:\n– Vorliegen eines weiteren Tiefpunkts und daher auch eines Hochpunkts\n– Vorliegen von insgesamt drei Extrempunkten\n– Vorliegen eines weiteren Tiefpunkts und nur gerader Potenzen aufgrund der Symmetrie"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Argumentation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_388",
       "baseId": "1_388",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/96/Symmetrische%20Polynomfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Graph einer zur senkrechten Achse symmetrischen Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " besitzt den lokalen Tiefpunkt "
+    },
+    {
+      "t": "math",
+      "v": "T=(3|-2)"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

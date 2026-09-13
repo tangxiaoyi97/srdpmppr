@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_754a",
+          "id": "1_754",
           "baseId": "1_754",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/530/Grippe%20in%20%C3%96sterreich.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -63,18 +63,27 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.6605,
-            "tol": 0.0005
+            "t": "math",
+            "v": "\\dfrac{1\\,290}{1\\,954}=0{,}66018\\ldots\\approx 0{,}6602"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,660; 0,661]"
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,660; 0,661]",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

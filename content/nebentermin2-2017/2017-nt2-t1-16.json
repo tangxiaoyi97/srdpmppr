@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,126 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_526a",
+          "id": "1_526",
           "baseId": "1_526",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/235/Eigenschaften%20der%20zweiten%20Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der zweite und der fünfte Graph."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Graphen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für welche der angegebenen Funktionen gilt "
+        },
+        {
+          "t": "math",
+          "v": "f''(x)>0"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[-1;1]"
+        },
+        {
+          "t": "text",
+          "v": "?\nKreuzen Sie die beiden zutreffenden Graphen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-16-option-1.png",
+              "alt": "Graph 1 von f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-16-option-2.png",
+              "alt": "Graph 2 von f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-16-option-3.png",
+              "alt": "Graph 3 von f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-16-option-4.png",
+              "alt": "Graph 4 von f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-16-option-5.png",
+              "alt": "Graph 5 von f."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_526",
       "baseId": "1_526",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/235/Eigenschaften%20der%20zweiten%20Ableitung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Graphen von fünf reellen Funktionen."
     }
   ]
 }

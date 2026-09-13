@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -22,14 +22,433 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-nt1-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-nt1-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Um eine Prognose für die weitere Entwicklung der Bevölkerungszahl machen zu können, wird angenommen, dass die Wachstumsrate aus dem Jahr 2010 in den nachfolgenden Jahren konstant bleibt. Berechnen Sie näherungsweise mithilfe der Bevölkerungszahl des Jahres 2010, wie viele Jahre nach 2010 die Bevölkerungszahl von Gambia den Wert von 2,2 Mio. Einwohnerinnen/Einwohnern unter dieser Annahme übersteigen wird!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ansatz: "
+          },
+          {
+            "t": "math",
+            "v": "2{,}2=a\\cdot b^t"
+          },
+          {
+            "t": "text",
+            "v": ", wobei der Wert für "
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": " aus dem Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[1{,}8;1{,}85]"
+          },
+          {
+            "t": "text",
+            "v": " und der Wert für "
+          },
+          {
+            "t": "math",
+            "v": "b"
+          },
+          {
+            "t": "text",
+            "v": " aus dem Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[1{,}025;1{,}027]"
+          },
+          {
+            "t": "text",
+            "v": " gewählt werden muss. Das Ergebnis für "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": " liegt demnach im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[6{,}5;8{,}2]"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ansatz: "
+            },
+            {
+              "t": "math",
+              "v": "2{,}2=a\\cdot b^t"
+            },
+            {
+              "t": "text",
+              "v": ", wobei der Wert für "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[1{,}8;1{,}85]"
+            },
+            {
+              "t": "text",
+              "v": " und der Wert für "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[1{,}025;1{,}027]"
+            },
+            {
+              "t": "text",
+              "v": " gewählt werden muss. Das Ergebnis für "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": " liegt demnach im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[6{,}5;8{,}2]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Betrachten Sie den Graphen des Bevölkerungswachstums und entscheiden Sie, in welchen vier aufeinanderfolgenden Jahren von 1983 bis 2010 sich die Bevölkerungszahl am besten durch eine einzige Exponentialfunktion beschreiben lässt! Begründen Sie Ihre Antwort!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für die Jahre 1990 bis 1993 lässt sich die Bevölkerungszahl am besten durch eine einzige Exponentialfunktion beschreiben, da die Prozentwerte des Bevölkerungswachstums annähernd konstant sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für die Jahre 1990 bis 1993 lässt sich die Bevölkerungszahl am besten durch eine einzige Exponentialfunktion beschreiben, da die Prozentwerte des Bevölkerungswachstums annähernd konstant sind."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung. Die Lösung muss inhaltlich der Lösungserwartung entsprechen. Alle Vierjahresintervalle zwischen 1989 und 1994 sind (im Hinblick auf die Ablesegenauigkeit) zulässig."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Unter der Bevölkerungsdichte eines Landes versteht man die mittlere Anzahl der Einwohner/innen pro km². In Österreich lag dieser Wert im Jahr 2010 bei 100 Einwohnerinnen/Einwohnern pro km².\nⒶ Berechnen Sie für das Jahr 2010, um wie viel Prozent die Bevölkerungsdichte in Gambia größer war als in Österreich!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Prozent",
+            "label": "Prozent",
+            "value": 66.5,
+            "tol": 3.5,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ansatz: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{a\\cdot1\\,000\\,000}{11\\,000}"
+            },
+            {
+              "t": "text",
+              "v": ", wobei der Wert für "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[1{,}8;1{,}85]"
+            },
+            {
+              "t": "text",
+              "v": " gewählt werden muss. Das Ergebnis für die Bevölkerungsdichte liegt demnach im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[163{,}6;168{,}2]"
+            },
+            {
+              "t": "text",
+              "v": ". Die Antwort auf die Frage, um wie viel Prozent die Bevölkerungsdichte in Gambia größer war als in Österreich, muss daher im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[63\\,\\%;70\\,\\%]"
+            },
+            {
+              "t": "text",
+              "v": " liegen."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Berechnung."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Unter der Bevölkerungsdichte eines Landes versteht man die mittlere Anzahl der Einwohner/innen pro km²."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Für den Zeitraum 1950–1990 lässt sich die Bevölkerungszahl "
+        },
+        {
+          "t": "math",
+          "v": "N(t)"
+        },
+        {
+          "t": "text",
+          "v": " (in Mio. Einwohnerinnen/Einwohnern) von Gambia annähernd durch die Gleichung\n"
+        },
+        {
+          "t": "math",
+          "v": "N(t)=0{,}2806\\cdot e^{0{,}03\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": "\nbeschreiben. Dabei wird "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Jahren ab 1950 gemessen. Deuten Sie den Faktor 0,2806 im Hinblick auf die Bevölkerungszahl in Gambia und bestimmen Sie die Bevölkerungsdichte von Gambia für das Jahr 1973 nach diesem Modell!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Faktor "
+          },
+          {
+            "t": "math",
+            "v": "0{,}2806"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt die Bevölkerungszahl in Gambia im Jahr 1950 (in Mio. Einwohner/innen). "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{N(23)\\cdot1\\,000\\,000}{11\\,000}\\approx50{,}86"
+          },
+          {
+            "t": "text",
+            "v": ". Die Bevölkerungsdichte von Gambia für das Jahr 1973 liegt bei ca. 50,86 Einwohner/innen/km²."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Faktor "
+            },
+            {
+              "t": "math",
+              "v": "0{,}2806"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Bevölkerungszahl in Gambia im Jahr 1950 (in Mio. Einwohner/innen). "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{N(23)\\cdot1\\,000\\,000}{11\\,000}\\approx50{,}86"
+            },
+            {
+              "t": "text",
+              "v": ". Die Bevölkerungsdichte von Gambia für das Jahr 1973 liegt bei ca. 50,86 Einwohner/innen/km²."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung und (sinngemäß) korrekte Deutung der Bevölkerungsdichte von Gambia für das Jahr 1973. Lösungsintervall: [50; 51]. Die Interpretation des Faktors muss sinngemäß der Lösungserwartung entsprechen."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gambia ist eine Republik in Westafrika, die an den Ufern des Gambiaflusses liegt. Mit Ausnahme eines kurzen Küstenabschnittes an der Mündung des Flusses in den Atlantischen Ozean wird Gambia vollständig vom Staat Senegal umschlossen. Mit einer Fläche von ungefähr 11 000 Quadratkilometern ist das Land einer der kleinsten Staaten des afrikanischen Kontinents.\nDas untenstehende Diagramm gibt Auskunft über die Bevölkerungsentwicklung in Gambia seit dem Jahr 1950. Die durchgezogene Linie beschreibt die Bevölkerungszahl von 1950 bis 2010 in Millionen Einwohnerinnen/Einwohnern. Die Punkte der gepunkteten Linie geben das jährliche Bevölkerungswachstum von 1983 bis 2010 in Prozent an."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-01-population.png",
+      "alt": "Originaldiagramm der Bevölkerungszahl und des Bevölkerungswachstums von Gambia."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://upload.wikimedia.org/wikipedia/commons/2/25/Gambia_Demographie_dt_1950-2010.png [08.08.2013]"
+    }
+  ]
 }

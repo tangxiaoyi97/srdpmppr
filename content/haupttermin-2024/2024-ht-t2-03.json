@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -121,7 +121,7 @@
             "id": "yB",
             "label": "yB",
             "value": 4,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -420,7 +420,7 @@
     {
       "id": "2024-ht-t2-03-c2",
       "label": "c2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 1.7",
@@ -442,6 +442,26 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Gesamtkosten für die Herstellung der Taschenlampen in Abhängigkeit von der Produktionsmenge x können durch die differenzierbare Kostenfunktion K modelliert werden.\nx ... Produktionsmenge in Mengeneinheiten (ME)\nK(x) ... Gesamtkosten bei der Produktionsmenge x in Geldeinheiten (GE)\n\nDie zugehörige Grenzkostenfunktion K′ hat die Funktionsgleichung"
+        },
+        {
+          "t": "math",
+          "v": "K'(x)=0{,}33\\cdot x^{2}-1{,}8\\cdot x+3"
+        },
+        {
+          "t": "text",
+          "v": "Es gilt: "
+        },
+        {
+          "t": "math",
+          "v": "K(1)=44{,}21"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Im Folgenden wird angenommen, dass jede produzierte Taschenlampe auch verkauft wird.\n\nDer Erlös aus dem Verkauf dieser Taschenlampen in Abhängigkeit von der Produktionsmenge x kann durch die Funktion E modelliert werden."
         },
         {
@@ -461,7 +481,7 @@
             "id": "a",
             "label": "a",
             "value": 29.65,
-            "tol": 0.05,
+            "tol": 1e-09,
             "unit": "GE/ME"
           }
         ]

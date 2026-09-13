@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,169 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_619a",
+          "id": "1_619",
           "baseId": "1_619",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/340/Sinus%20und%20Cosinus.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-06-sol.png",
+              "alt": "Lösung: Punkt Q als Spiegelbild von P an der x-Achse."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Ergänzung von Q."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der oben stehenden Abbildung den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "Q"
+        },
+        {
+          "t": "text",
+          "v": " ein!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für die korrekte Ergänzung von Q."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_619",
       "baseId": "1_619",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/340/Sinus%20und%20Cosinus.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt einen Kreis mit dem Mittelpunkt "
+    },
+    {
+      "t": "math",
+      "v": "O"
+    },
+    {
+      "t": "text",
+      "v": " und dem Radius 1. Die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(1|0)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " liegen auf der Kreislinie. Der eingezeichnete Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha"
+    },
+    {
+      "t": "text",
+      "v": " wird vom Schenkel "
+    },
+    {
+      "t": "math",
+      "v": "OA"
+    },
+    {
+      "t": "text",
+      "v": " zum Schenkel "
+    },
+    {
+      "t": "math",
+      "v": "OP"
+    },
+    {
+      "t": "text",
+      "v": " gegen den Uhrzeigersinn gemessen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-06-q.png",
+      "alt": "Einheitskreis mit O, A, P und dem Winkel α."
+    },
+    {
+      "t": "text",
+      "v": "Ein Punkt "
+    },
+    {
+      "t": "math",
+      "v": "Q"
+    },
+    {
+      "t": "text",
+      "v": " auf der Kreislinie soll in analoger Weise einen Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\beta"
+    },
+    {
+      "t": "text",
+      "v": " festlegen, für den folgende Beziehungen gelten:\n"
+    },
+    {
+      "t": "math",
+      "v": "\\sin(\\beta)=-\\sin(\\alpha)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\cos(\\beta)=\\cos(\\alpha)"
     }
   ]
 }

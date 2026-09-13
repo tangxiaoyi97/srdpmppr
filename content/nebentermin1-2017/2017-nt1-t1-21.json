@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,83 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_586a",
+          "id": "1_586",
           "baseId": "1_586",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/295/Mensch%20%C3%A4rgere%20Dich%20nicht.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac16+\\frac56\\cdot\\frac16+\\frac56\\cdot\\frac56\\cdot\\frac16\\approx0{,}42"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDie Wahrscheinlichkeit, eine Spielfigur nach maximal drei Versuchen auf das Spielfeld setzen zu dürfen, beträgt ca. 42 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,4; 0,45] bzw. [40 %; 45 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, mit der eine Spielfigur nach maximal drei Versuchen, einen Sechser zu werfen, auf das Spielfeld gesetzt werden darf!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit beträgt ca. 42 %, akzeptiert [0,4; 0,45] bzw. [40 %; 45 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_586",
       "baseId": "1_586",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/295/Mensch%20%C3%A4rgere%20Dich%20nicht.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Um beim Spiel Mensch ärgere Dich nicht zu Beginn des Spiels eine Figur auf das Spielfeld setzen zu dürfen, muss mit einem fairen Spielwürfel ein Sechser geworfen werden. (Ein Würfel ist „fair“, wenn die Wahrscheinlichkeit, nach einem Wurf nach oben zu zeigen, für alle sechs Seitenflächen gleich groß ist.)\n\nDie Anzahl der Versuche, einen Sechser zu werfen, ist laut Spielanleitung auf drei Versuche beschränkt, bevor die nächste Spielerin / der nächste Spieler an die Reihe kommt."
     }
   ]
 }

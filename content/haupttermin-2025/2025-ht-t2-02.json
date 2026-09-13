@@ -430,7 +430,7 @@
     {
       "id": "2025-ht-t2-02-c2",
       "label": "c2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "WS 2.3",
@@ -452,6 +452,10 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Wahrscheinlichkeit, dass nach der Einnahme des Wirkstoffs C Übelkeit als Nebenwirkung auftritt, beträgt 14 %.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die Wahrscheinlichkeit, dass nach der Einnahme des Wirkstoffs C Müdigkeit als Nebenwirkung auftritt, beträgt a.\nDie Nebenwirkungen Müdigkeit und Übelkeit treten unabhängig voneinander auf.\n\nDie Wahrscheinlichkeit, dass sowohl Müdigkeit als auch Übelkeit als Nebenwirkung auftreten, beträgt 0,0126.\n\nBerechnen Sie a.\n\n"
         },
         {
@@ -467,7 +471,7 @@
             "id": "a",
             "label": "a",
             "value": 0.09,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

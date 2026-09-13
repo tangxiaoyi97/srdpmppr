@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,150 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_453a",
+          "id": "1_453",
           "baseId": "1_453",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/161/Stammfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F(x)=\\frac{\\mathrm{e}^{2\\cdot x}}2+\\frac12"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Antwortmöglichkeit angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche von den unten durch ihre Funktionsgleichungen angegebenen Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " ist Stammfunktion von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und verläuft durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(0\\mid1)"
+        },
+        {
+          "t": "text",
+          "v": "?\nKreuzen Sie die zutreffende Antwort an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "F(x)=\\mathrm{e}^{2\\cdot x}+\\frac12"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(x)=2\\cdot\\mathrm{e}^{2\\cdot x}-1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(x)=2\\cdot\\mathrm{e}^{2\\cdot x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(x)=\\frac{\\mathrm{e}^{2\\cdot x}}2+\\frac12"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(x)=\\mathrm{e}^{2\\cdot x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F(x)=\\frac{\\mathrm{e}^{2\\cdot x}}2"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_453",
       "baseId": "1_453",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/161/Stammfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\mathrm{e}^{2\\cdot x}"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -24,12 +24,193 @@
     {
       "id": "2016-ht-t1-07-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (3 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_487 (offiziell adaptierte Fassung)",
+          "baseId": "1_487",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/196/Funktionseigenschaften_erkennen.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall (2; 3) monoton steigend.\n\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ändert im Intervall (–1; 1) das Krümmungsverhalten.\n\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ändert im Intervall (–3; 0) das Monotonieverhalten."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die für den dargestellten Funktionsgraphen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall (2; 3) monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat im Intervall (1; 2) eine lokale Maximumstelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ändert im Intervall (–1; 1) das Krümmungsverhalten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Funktionsgraph von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist symmetrisch bezüglich der senkrechten Achse."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ändert im Intervall (–3; 0) das Monotonieverhalten."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2,
+          4
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=11",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_487 (offiziell adaptierte Fassung)",
+      "baseId": "1_487",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/196/Funktionseigenschaften_erkennen.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-07-graph.png",
+      "alt": "Originalgraph einer Polynomfunktion dritten Grades"
+    }
+  ]
 }

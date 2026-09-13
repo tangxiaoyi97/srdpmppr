@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -24,12 +24,140 @@
     {
       "id": "2015-nt1-t1-08-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_438 (offiziell adaptierte Fassung)",
+          "baseId": "1_438",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/146/Modellierung.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Gesamtkosten bei der Herstellung einer Keramikglasur setzen sich aus einmaligen Kosten von € 1.000 für die Maschine und € 8 pro erzeugtem Kilogramm Glasur zusammen.\nStellen Sie die Gesamtkosten für die Herstellung einer Keramikglasur in Abhängigkeit von den erzeugten Kilogramm Glasur dar!\n\nEin zinsenloses Wohnbaudarlehen von € 240.000 wird 40 Jahre lang mit gleichbleibenden Jahresraten von € 6.000 zurückgezahlt.\nStellen Sie die Restschuld in Abhängigkeit von der Anzahl der vergangenen Jahre dar!\n\nBleibt in einem Stromkreis die Spannung konstant, so ist die Leistung direkt proportional zur Stromstärke.\nStellen Sie die Leistung im Stromkreis in Abhängigkeit von der Stromstärke dar!"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Aufgabenstellungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehend angegebenen Aufgabenstellungen kann / können mithilfe einer linearen Funktion modelliert werden? Kreuzen Sie die zutreffende(n) Aufgabenstellung(en) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Gesamtkosten bei der Herstellung einer Keramikglasur setzen sich aus einmaligen Kosten von € 1.000 für die Maschine und € 8 pro erzeugtem Kilogramm Glasur zusammen.\nStellen Sie die Gesamtkosten für die Herstellung einer Keramikglasur in Abhängigkeit von den erzeugten Kilogramm Glasur dar!"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Eine Bakterienkultur besteht zu Beginn einer Messung aus 20000 Bakterien. Die Anzahl der Bakterien verdreifacht sich alle vier Stunden.\nStellen Sie die Anzahl der Bakterien in dieser Kultur in Abhängigkeit von der verstrichenen Zeit (in Stunden) dar!"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anziehungskraft zweier Planeten verhält sich indirekt proportional zum Quadrat des Abstandes der beiden Planeten.\nStellen Sie die Abhängigkeit der Anziehungskraft zweier Planeten von ihrem Abstand dar!"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ein zinsenloses Wohnbaudarlehen von € 240.000 wird 40 Jahre lang mit gleichbleibenden Jahresraten von € 6.000 zurückgezahlt.\nStellen Sie die Restschuld in Abhängigkeit von der Anzahl der vergangenen Jahre dar!"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bleibt in einem Stromkreis die Spannung konstant, so ist die Leistung direkt proportional zur Stromstärke.\nStellen Sie die Leistung im Stromkreis in Abhängigkeit von der Stromstärke dar!"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=12",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_438 (offiziell adaptierte Fassung)",
+      "baseId": "1_438",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/146/Modellierung.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine lineare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " wird allgemein durch eine Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": " mit den Parametern "
+    },
+    {
+      "t": "math",
+      "v": "k\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "d\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -22,14 +22,488 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt1-t2-04-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand argumentiert: „Wenn die Kugel bei fünf Spielen hintereinander jedes Mal auf ein rotes Feld gefallen ist, fällt die Kugel beim 6. Spiel mit höherer Wahrscheinlichkeit auf ein schwarzes Feld als auf ein rotes, da bei einer längeren Spielserie dieselben Häufigkeiten für ‚Rouge‘ und ‚Noir‘ zu erwarten sind.“ Geben Sie an, ob diese Argumentation richtig oder falsch ist, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Argumentation ist falsch. Da die einzelnen Spiele unabhängig voneinander sind, gilt auch für das sechste Spiel (unabhängig von den vorherigen Spielausgängen):\n"
+          },
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Rouge“"
+          },
+          {
+            "t": "math",
+            "v": ")=P("
+          },
+          {
+            "t": "text",
+            "v": "„Noir“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac{18}{37}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe, dass die Argumentation nicht richtig ist, und für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Argumentation ist falsch. Da die einzelnen Spiele unabhängig voneinander sind, gilt auch für das sechste Spiel (unabhängig von den vorherigen Spielausgängen):\n"
+            },
+            {
+              "t": "math",
+              "v": "P("
+            },
+            {
+              "t": "text",
+              "v": "„Rouge“"
+            },
+            {
+              "t": "math",
+              "v": ")=P("
+            },
+            {
+              "t": "text",
+              "v": "„Noir“"
+            },
+            {
+              "t": "math",
+              "v": ")=\\frac{18}{37}"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die Argumentation nicht richtig ist, und für eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "id": "2016-nt1-t2-04-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "An einem Roulettetisch werden an einem Abend 100 Spiele gespielt.\nⒶ Berechnen Sie die Wahrscheinlichkeit, dass die Kugel dabei höchstens 40-mal in ein rotes Nummernfach fällt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung (z. B. durch Approximation durch die Normalverteilung ohne Stetigkeitskorrektur):\nDie binomialverteilte Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt, wie oft die Kugel in ein rotes Nummernfach fällt.\n"
+          },
+          {
+            "t": "math",
+            "v": "n=100,\\ p=\\frac{18}{37}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le40)\\approx0{,}0418"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei Ergebnisse durch Berechnung mit Stetigkeitskorrektur oder exakt mittels Binomialverteilung ebenfalls als richtig zu werten sind. Andere Schreibweisen des Ergebnisses (in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,03; 0,06] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\le40)\\approx0{,}0418"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei Ergebnisse durch Berechnung mit Stetigkeitskorrektur oder exakt mittels Binomialverteilung ebenfalls als richtig zu werten sind. Andere Schreibweisen des Ergebnisses (in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,03; 0,06] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung (z. B. durch Approximation durch die Normalverteilung ohne Stetigkeitskorrektur):\nDie binomialverteilte Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt, wie oft die Kugel in ein rotes Nummernfach fällt.\n"
+            },
+            {
+              "t": "math",
+              "v": "n=100,\\ p=\\frac{18}{37}"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-04-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der folgenden Tabelle sind einige Wettmöglichkeiten sowie die jeweiligen Gewinnquoten angeführt:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-04-bets.png",
+          "alt": "Offizielle Tabelle der Wettarten und Gewinnquoten"
+        },
+        {
+          "t": "text",
+          "v": "\nEine Gewinnquote von 2 : 1 bedeutet beispielsweise, dass im Falle eines Gewinns der Einsatz und zusätzlich das Doppelte des Einsatzes ausbezahlt wird. Im Falle eines Verlustes verliert man den Einsatz.\n\nAls Bankvorteil bezeichnet man bei Glücksspielen den erwarteten Verlust der Spielerin / des Spielers bezogen auf ihren/seinen Einsatz.\nEine Spielerin setzt € 10 auf "
+        },
+        {
+          "t": "math",
+          "v": "12^M"
+        },
+        {
+          "t": "text",
+          "v": ".\nBerechnen Sie den Bankvorteil in Prozent des Einsatzes!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: Bei "
+          },
+          {
+            "t": "math",
+            "v": "12^M"
+          },
+          {
+            "t": "text",
+            "v": " erhält die Spielerin bei einem Einsatz von € 10 mit der Wahrscheinlichkeit "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{12}{37}"
+          },
+          {
+            "t": "text",
+            "v": " einen Gewinn von € 20.\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{12}{37}\\cdot20-\\frac{25}{37}\\cdot10\\approx-0{,}27"
+          },
+          {
+            "t": "text",
+            "v": "\nD. h., der erwartete Verlust beträgt ca. € 0,27."
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Bankvorteil: € 0,27 bzw. 2,7 % des Einsatzes"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei diese sowohl in Prozentangabe als auch als Geldbetrag als richtig zu werten ist. Toleranzintervall: [€ 0,27; € 0,30] bzw. [2,7 %; 3 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bankvorteil: € 0,27 bzw. 2,7 % des Einsatzes"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei diese sowohl in Prozentangabe als auch als Geldbetrag als richtig zu werten ist. Toleranzintervall: [€ 0,27; € 0,30] bzw. [2,7 %; 3 %]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: Bei "
+            },
+            {
+              "t": "math",
+              "v": "12^M"
+            },
+            {
+              "t": "text",
+              "v": " erhält die Spielerin bei einem Einsatz von € 10 mit der Wahrscheinlichkeit "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{12}{37}"
+            },
+            {
+              "t": "text",
+              "v": " einen Gewinn von € 20.\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{12}{37}\\cdot20-\\frac{25}{37}\\cdot10\\approx-0{,}27"
+            },
+            {
+              "t": "text",
+              "v": "\nD. h., der erwartete Verlust beträgt ca. € 0,27."
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-04-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In der folgenden Tabelle sind einige Wettmöglichkeiten sowie die jeweiligen Gewinnquoten angeführt:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-04-bets.png",
+          "alt": "Offizielle Tabelle der Wettarten und Gewinnquoten"
+        },
+        {
+          "t": "text",
+          "v": "\nEine Gewinnquote von 2 : 1 bedeutet beispielsweise, dass im Falle eines Gewinns der Einsatz und zusätzlich das Doppelte des Einsatzes ausbezahlt wird. Im Falle eines Verlustes verliert man den Einsatz.\n\nAls Bankvorteil bezeichnet man bei Glücksspielen den erwarteten Verlust der Spielerin / des Spielers bezogen auf ihren/seinen Einsatz.\nEine Spielerin setzt € 10 auf "
+        },
+        {
+          "t": "math",
+          "v": "12^M"
+        },
+        {
+          "t": "text",
+          "v": ".\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob der in Prozent angegebene Bankvorteil größer wird, kleiner wird oder gleich bleibt, wenn die Spielerin / der Spieler bei einem Einsatz von € "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " eine Cheval-Variante wählt! Begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Cheval bei einem Einsatz von € "
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": ":\nerwarteter Gewinn: "
+          },
+          {
+            "t": "math",
+            "v": "\\frac2{37}\\cdot17\\cdot a-\\frac{35}{37}\\cdot a=-\\frac1{37}\\cdot a\\approx-0{,}027\\cdot a"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Bankvorteil bleibt mit ca. 2,7 % des Einsatzes gleich."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe, dass der Bankvorteil gleich bleibt, und für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Bankvorteil bleibt mit ca. 2,7 % des Einsatzes gleich."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass der Bankvorteil gleich bleibt, und für eine (sinngemäß) korrekte Begründung.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Cheval bei einem Einsatz von € "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": ":\nerwarteter Gewinn: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac2{37}\\cdot17\\cdot a-\\frac{35}{37}\\cdot a=-\\frac1{37}\\cdot a\\approx-0{,}027\\cdot a"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-04-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Glücksspiel Roulette versucht man, diejenige Zahl bzw. Gruppe von Zahlen zu erraten, die durch den Wurf einer Kugel in die Roulettemaschine bestimmt wird.\nBeim französischen Roulette besteht die Roulettemaschine aus einer in eine Schüssel eingelassenen, drehbaren Scheibe mit 36 abwechselnd roten und schwarzen Nummernfächern sowie einem 37., grün gekennzeichneten Fach für die Null (vgl. Abbildung 1). Die Roulettescheibe wird in Bewegung gesetzt und die Kugel wird gegen die Drehrichtung in die Roulettemaschine geworfen. Dabei wird kein Nummernfach bevorzugt und es gibt keine Möglichkeit, das Ergebnis (etwa durch „geschicktes“ Werfen) zu beeinflussen.\nZiel ist es, in jedem einzelnen Spiel im Vorhinein zu erraten, in welchem Nummernfach die Kugel zu liegen kommen wird.\nAuf dem Spielfeld (vgl. Abbildung 2) werden die Spieleinsätze (Jetons) platziert. Beispielsweise sind die Felder mit der „1“ und der „7“ rot („rouge“), die Felder mit der „4“ und der „6“ schwarz („noir“)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-04-roulette-wheel.png",
+      "alt": "Abbildung1:französischesRouletteradmit37Nummernfächern"
+    },
+    {
+      "t": "text",
+      "v": "\nAbbildung 1\nQuelle: http://www.rouletteplay.com/images/software_logos_small/european-roulette-wheel.gif [23.03.2016]."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-04-roulette-table.png",
+      "alt": "Abbildung2:Roulette-Spielfeld"
+    },
+    {
+      "t": "text",
+      "v": "\nAbbildung 2\nQuelle: https://commons.wikimedia.org/wiki/File:Roulette_frz.png [23.03.2016]."
+    }
+  ]
 }

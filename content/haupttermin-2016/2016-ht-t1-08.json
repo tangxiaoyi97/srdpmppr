@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,134 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_486a",
+          "id": "1_486",
           "baseId": "1_486",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/195/Kosten%20Erl%C3%B6s%20und%20Gewinn.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-08-graph-solution.png",
+              "alt": "Die lineare Kostenfunktion K schneidet E an den beiden Nullstellen x₁ und x₂ von G."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn der Graph einer linearen Kostenfunktion skizziert wurde und dieser den Graphen der Erlösfunktion E an den Stellen x₁ und x₂ schneidet."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die nachstehende Abbildung durch den Graphen der zugehörigen Kostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": "! Nehmen Sie dabei "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " als linear an! (Die Lösung der Aufgabe beruht auf der Annahme, dass alle produzierten Mengeneinheiten des Produkts verkauft werden.)"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-08-graph.png",
+          "alt": "Originalgraphen der Erlösfunktion E und der Gewinnfunktion G"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-08-graph-solution.png",
+            "alt": "Die lineare Kostenfunktion K schneidet E an den beiden Nullstellen x₁ und x₂ von G."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt ist genau dann zu geben, wenn der Graph einer linearen Kostenfunktion skizziert wurde und dieser den Graphen der Erlösfunktion E an den Stellen x₁ und x₂ schneidet."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_486",
       "baseId": "1_486",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/195/Kosten%20Erl%C3%B6s%20und%20Gewinn.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "E"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt den Erlös (in €) beim Absatz von "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " Mengeneinheiten eines Produkts. Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "G"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt den dabei erzielten Gewinn in €. Dieser ist definiert als Differenz „Erlös – Kosten“."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,188 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_452a",
+          "id": "1_452",
           "baseId": "1_452",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/160/Wasserversorgung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck gibt die Wassermenge (in m³) an, die vom Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=10"
+            },
+            {
+              "t": "text",
+              "v": " bis zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=40"
+            },
+            {
+              "t": "text",
+              "v": " durch die Leitung fließt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation des Ausdrucks."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, welche Größe durch den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "Q\\cdot\\int_{10}^{40}v(t)\\,\\mathrm{d}t"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Zusammenhang berechnet werden kann!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Ausdruck gibt die Wassermenge (in m³) an, die vom Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=10"
+          },
+          {
+            "t": "text",
+            "v": " bis zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=40"
+          },
+          {
+            "t": "text",
+            "v": " durch die Leitung fließt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation des Ausdrucks."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_452",
       "baseId": "1_452",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/160/Wasserversorgung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Wasser fließt durch eine Wasserleitung, wobei "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Geschwindigkeit des Wassers zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ist. Die Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird in m/s, die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in s gemessen, der Inhalt der Querschnittsfläche "
+    },
+    {
+      "t": "math",
+      "v": "Q"
+    },
+    {
+      "t": "text",
+      "v": " des Rohres wird in m² gemessen. Im nachstehenden Diagramm ist die Abhängigkeit der Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-18-velocity.png",
+      "alt": "Originalgraph der Wassergeschwindigkeit v(t) über die Zeit"
     }
   ]
 }

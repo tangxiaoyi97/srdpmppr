@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -22,14 +22,496 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt2-t2-01-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Bergstation Krippenstein "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " und die Schönbergalm "
+        },
+        {
+          "t": "math",
+          "v": "S"
+        },
+        {
+          "t": "text",
+          "v": " sind durch eine Seilbahn verbunden. Der Verlauf des Tragseils wird, wie in der nebenstehenden Abbildung dargestellt, modelliert. Dabei werden "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " in Metern gemessen.\nNach dieser Modellierung gilt: "
+        },
+        {
+          "t": "math",
+          "v": "K=(0|2\\,100)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "S=(2\\,160|1\\,350)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t2-01-cable.png",
+          "alt": "Modell des Tragseils von K zu S im Koordinatensystem mit eingebettetem Seilbahnbild."
+        },
+        {
+          "t": "text",
+          "v": "\nⒶ Bestimmen Sie den Steigungswinkel des Tragseils!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac{750}{2\\,160}\\;\\Rightarrow\\;\\alpha\\approx19{,}15^\\circ"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "\\alpha\\approx0{,}3342\\ \\mathrm{rad}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die korrekte Berechnung. Lösungsintervall: [19°; 19,2°] bzw. [0,33 rad; 0,335 rad]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac{750}{2\\,160}\\;\\Rightarrow\\;\\alpha\\approx19{,}15^\\circ"
+            },
+            {
+              "t": "text",
+              "v": " bzw. "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha\\approx0{,}3342\\ \\mathrm{rad}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die korrekte Berechnung. Lösungsintervall: [19°; 19,2°] bzw. [0,33 rad; 0,335 rad]."
+        }
+      ],
+      "id": "2015-nt2-t2-01-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Bergstation Krippenstein "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " und die Schönbergalm "
+        },
+        {
+          "t": "math",
+          "v": "S"
+        },
+        {
+          "t": "text",
+          "v": " sind durch eine Seilbahn verbunden. Der Verlauf des Tragseils wird, wie in der nebenstehenden Abbildung dargestellt, modelliert. Dabei werden "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " in Metern gemessen.\nNach dieser Modellierung gilt: "
+        },
+        {
+          "t": "math",
+          "v": "K=(0|2\\,100)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "S=(2\\,160|1\\,350)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t2-01-cable.png",
+          "alt": "Modell des Tragseils von K zu S im Koordinatensystem mit eingebettetem Seilbahnbild."
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "An welcher Stelle gleicher Seehöhe wie "
+        },
+        {
+          "t": "math",
+          "v": "S"
+        },
+        {
+          "t": "text",
+          "v": " müsste die Talstation "
+        },
+        {
+          "t": "math",
+          "v": "S'"
+        },
+        {
+          "t": "text",
+          "v": " stehen, wenn das Tragseil mit 100 % Steigung verlaufen soll? Geben Sie die Koordinaten von "
+        },
+        {
+          "t": "math",
+          "v": "S'"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "x",
+            "label": "x-Koordinate von S′",
+            "value": 750,
+            "tol": 1e-09,
+            "unit": "m"
+          },
+          {
+            "id": "y",
+            "label": "y-Koordinate von S′",
+            "value": 1350,
+            "tol": 1e-09,
+            "unit": "m"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "S'=(750|1\\,350)"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Berechnung."
+        }
+      ],
+      "id": "2015-nt2-t2-01-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mit zunehmender Höhe nimmt der Luftdruck exponentiell ab. Dabei gilt für die Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in m über dem Meeresspiegel) und den Luftdruck "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in mbar) näherungsweise der folgende funktionale Zusammenhang: "
+        },
+        {
+          "t": "math",
+          "v": "p(h)=1013{,}25\\cdot\\mathrm e^{-0{,}000118\\cdot h}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBerechnen Sie die prozentuelle Druckabnahme auf der Fahrt von der Schönbergalm (Seehöhe 1 350 m) bis zur Bergstation Krippenstein (Seehöhe 2 100 m)!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{p(1\\,350)-p(2\\,100)}{p(1\\,350)}\\approx0{,}085=8{,}5\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Berechnung. Lösungsintervall: [0,084; 0,085] bzw. [8,4 %; 8,5 %]. Lösungen aus dem Intervall [–0,085; –0,084] bzw. [–8,5 %; –8,4 %] sind ebenso als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{p(1\\,350)-p(2\\,100)}{p(1\\,350)}\\approx0{,}085=8{,}5\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung. Lösungsintervall: [0,084; 0,085] bzw. [8,4 %; 8,5 %]. Lösungen aus dem Intervall [–0,085; –0,084] bzw. [–8,5 %; –8,4 %] sind ebenso als richtig zu werten."
+        }
+      ],
+      "id": "2015-nt2-t2-01-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Multiple-Choice-Format",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mit zunehmender Höhe nimmt der Luftdruck exponentiell ab. Dabei gilt für die Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in m über dem Meeresspiegel) und den Luftdruck "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in mbar) näherungsweise der folgende funktionale Zusammenhang: "
+        },
+        {
+          "t": "math",
+          "v": "p(h)=1013{,}25\\cdot\\mathrm e^{-0{,}000118\\cdot h}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die prozentuelle Druckabnahme pro Höhenmeter ist konstant."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Bei einer Verdopplung der Höhe halbiert sich der Luftdruck."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die absolute Druckabnahme pro Höhenmeter ist konstant."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der zur Funktion "
+            },
+            {
+              "t": "math",
+              "v": "p"
+            },
+            {
+              "t": "text",
+              "v": " gehörige Graph ist streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der zur Funktion "
+            },
+            {
+              "t": "math",
+              "v": "p"
+            },
+            {
+              "t": "text",
+              "v": " gehörige Graph nähert sich asymptotisch der waagrechten Achse."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3,
+          4
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen 1, 4 und 5 sind richtig."
+            }
+          ],
+          "note": "Multiple-Choice-Aufgabe: Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "id": "2015-nt2-t2-01-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Dachsteinseilbahn erschließt vom oberösterreichischen Ort Obertraun aus den nördlichen Teil des Dachsteinmassivs. Die Dachsteinseilbahn besteht aus drei Teilstrecken. Die erste Teilstrecke auf die Schönbergalm ist bereits seit 1951 in Betrieb. Die zweite Teilstrecke führt von der Schönbergalm zum Krippenstein. Von dort aus ist die Aussichtsplattform five fingers durch einen Fußweg erreichbar. Die dritte Teilstrecke führt vom Krippenstein weiter zur Gjaidalm.\nBei den folgenden Aufgabenstellungen werden Orte als Punkte modelliert."
+    }
+  ]
 }

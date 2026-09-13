@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,297 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_338a",
+          "id": "1_338",
           "baseId": "1_338",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/50/Sinusfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Um den Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": " zu erhalten, muss "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " halbiert werden und "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " verdoppelt werden."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn für beide Lücken jeweils der richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wie müssen die Parameter "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " verändert werden, um aus "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " zu erhalten?\n\nErgänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine mathematisch korrekte Aussage entsteht!\n\nUm den Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " zu erhalten, muss "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " ① und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "verdoppelt werden"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "halbiert werden"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich bleiben"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "verdoppelt werden"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "halbiert werden"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "gleich bleiben"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_338",
       "baseId": "1_338",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/50/Sinusfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im untenstehenden Diagramm sind die Graphen zweier Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-12-sinus.png",
+      "alt": "Originalgraphen der Sinusfunktionen f und g."
+    },
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " hat die Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit den reellen Parametern "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": ". Wenn diese Parameter in entsprechender Weise verändert werden, erhält man die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

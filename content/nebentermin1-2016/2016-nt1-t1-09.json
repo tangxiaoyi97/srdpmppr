@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,113 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_509a",
+          "id": "1_509",
           "baseId": "1_509",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/218/Funktionsgleichung%20einer%20linearen%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=-2\\cdot x+1"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Funktionsgleichung dieser linearen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-2*x+1",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_509",
       "baseId": "1_509",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/218/Funktionsgleichung%20einer%20linearen%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine lineare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit folgenden Eigenschaften:\n\n• Wenn das Argument "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " um 2 zunimmt, dann nimmt der Funktionswert "
+    },
+    {
+      "t": "math",
+      "v": "f(x)"
+    },
+    {
+      "t": "text",
+      "v": " um 4 ab.\n• "
+    },
+    {
+      "t": "math",
+      "v": "f(0)=1"
     }
   ]
 }

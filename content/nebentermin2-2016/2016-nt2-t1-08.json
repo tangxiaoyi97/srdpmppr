@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,109 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_462a",
+          "id": "1_462",
           "baseId": "1_462",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/171/Gleichung%20einer%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=-2x+12"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Funktionsgleichung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-2*x+12",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_462",
       "baseId": "1_462",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/171/Gleichung%20einer%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Graph der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Gerade, die durch die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P=(2\\mid8)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "Q=(4\\mid4)"
+    },
+    {
+      "t": "text",
+      "v": " verläuft."
     }
   ]
 }

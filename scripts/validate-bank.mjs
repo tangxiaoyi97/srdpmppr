@@ -184,8 +184,15 @@ export async function writeAssetManifest(bankRoot) {
 
 function validateQuestionLocation(question, rel, issues) {
   const [suitePrefix, idTerm] = TERM_ID[question.source.term];
-  const expectedSuite = `${suitePrefix}-${question.source.year}`;
-  const expectedId = `${question.source.year}-${idTerm}-${question.source.part}-${String(question.source.nr).padStart(2, '0')}`;
+  // The 2019 legacy-curriculum papers reuse the regular papers' question numbers.
+  const legacySuffix = '-erstantritt-vor-mai-2018';
+  const legacy = question.source.suite.endsWith(legacySuffix);
+  const legacyTasks = new Set(['2019-ht-t2-2', '2019-ht-t2-3', '2019-ht-t2-4', '2019-nt1-t2-2', '2019-nt1-t2-3']);
+  if (legacy && !legacyTasks.has(`${question.source.year}-${idTerm}-${question.source.part}-${question.source.nr}`)) {
+    issues.push(`${rel}: unsupported legacy-curriculum task`);
+  }
+  const expectedSuite = `${suitePrefix}-${question.source.year}${legacy ? legacySuffix : ''}`;
+  const expectedId = `${question.source.year}-${idTerm}${legacy ? '-alt' : ''}-${question.source.part}-${String(question.source.nr).padStart(2, '0')}`;
   if (question.source.suite !== expectedSuite) issues.push(`${rel}: source.suite must equal ${expectedSuite}`);
   if (question.id !== expectedId) issues.push(`${rel}: question id must equal ${expectedId}`);
   const parsed = path.posix.parse(rel);
@@ -195,7 +202,7 @@ function validateQuestionLocation(question, rel, issues) {
   }
   const termCode = TERM_FILE_CODE[question.source.term];
   const sourcePattern = new RegExp(
-    `^\\[${question.source.year}${termCode}\\]${question.source.part}-${question.source.nr}(?:-[a-z0-9.-]+)?\\.pdf$`,
+    `^\\[${question.source.year}${termCode}${legacy ? '-alt' : ''}\\]${question.source.part}-${question.source.nr}(?:-[a-z0-9.-]+)?\\.pdf$`,
   );
   if (!sourcePattern.test(question.source.file)) {
     issues.push(`${rel}: source.file does not agree with source year/term/part/nr`);

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,160 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_382a",
+          "id": "1_382",
           "baseId": "1_382",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/90/Negative%20erste%20Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "I=(-3;4)"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "I=[-3;4)"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Die Lösung ist nur dann als richtig zu werten, wenn das Lösungsintervall bei 4 offen ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie das Intervall "
+        },
+        {
+          "t": "math",
+          "v": "I"
+        },
+        {
+          "t": "text",
+          "v": " für diejenigen Stellen "
+        },
+        {
+          "t": "math",
+          "v": "x\\in[-3;11]"
+        },
+        {
+          "t": "text",
+          "v": " an, für die gilt: "
+        },
+        {
+          "t": "math",
+          "v": "f'(x)<0"
+        },
+        {
+          "t": "text",
+          "v": "!\n"
+        },
+        {
+          "t": "math",
+          "v": "I="
+        },
+        {
+          "t": "text",
+          "v": " ______"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "I=(-3;4)"
+          },
+          {
+            "t": "text",
+            "v": "\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "I=[-3;4)"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Die Lösung ist nur dann als richtig zu werten, wenn das Lösungsintervall bei 4 offen ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_382",
       "baseId": "1_382",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/90/Negative%20erste%20Ableitung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[-3;11]"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. An der Stelle "
+    },
+    {
+      "t": "math",
+      "v": "x=4"
+    },
+    {
+      "t": "text",
+      "v": " hat die Funktion ein lokales Minimum."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-16-graph.png",
+      "alt": "Graph von f auf [−3;11] mit lokalem Minimum bei x=4."
     }
   ]
 }

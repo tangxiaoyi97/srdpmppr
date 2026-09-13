@@ -1,6 +1,6 @@
 {
   "id": "2020-ht-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -115,6 +115,14 @@
       ],
       "prompt": [
         {
+          "t": "math",
+          "v": "w=\\frac{v_1(10)-v_1(5)}{10-5}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
           "t": "text",
           "v": "Für ein t₁ ∈ [0; 30] gilt: v₁′(t₁) = w.\n\nDeuten Sie t₁ im gegebenen Kontext."
         }
@@ -182,19 +190,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "hoehe",
-            "value": 2544,
-            "tol": 1,
-            "unit": "m"
+            "t": "math",
+            "v": "4\\,000-\\int_{0}^{30} v_1(t)\\,\\mathrm{d}t=2\\,543{,}8\\ldots\\approx 2\\,544"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Fallschirm wird in einer Höhe von ca. 2 544 m geöffnet."
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -245,19 +269,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "zeitdauer",
-            "value": 532,
-            "tol": 1,
-            "unit": "s"
+            "t": "math",
+            "v": "\\int_{30}^{x} v_2(t)\\,\\mathrm{d}t=2\\,543{,}8\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "x=531{,}7\\ldots\\approx 532"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Zeitdauer des gesamten Fallschirmsprungs beträgt ca. 532 s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -322,19 +370,39 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "diff",
-            "value": 38.19,
-            "tol": 0.01,
-            "unit": "m/s"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "9{,}81\\cdot 9-v_1(9)=38{,}192\\ldots\\approx 38{,}19"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "v₁(9) ist um ca. 38,19 m/s kleiner als v*."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -390,24 +458,48 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Ohne Berücksichtigung des Luftwiderstands hätte der Fallschirmspringer eine Anfangsgeschwindigkeit von 0 m/s und im Zeitintervall [0; 30] eine konstante Beschleunigung von 9,81 m/s². Die Fallgeschwindigkeit 9 s nach dem Absprung beträgt dann v*.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Berechnen Sie, um wie viel Prozent 9 s nach dem Absprung die Beschleunigung des Fallschirmspringers geringer ist als bei einem Sprung ohne Berücksichtigung des Luftwiderstands."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "prozent",
-            "value": 84.96,
-            "tol": 0.1,
-            "unit": "%"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{9{,}81-v_1'(9)}{9{,}81}=0{,}84958\\ldots\\approx 0{,}8496"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Beschleunigung unter Berücksichtigung des Luftwiderstands ist um ca. 84,96 % geringer als jene ohne Berücksichtigung des Luftwiderstands."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -446,11 +538,11 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Bei einem Fallschirmsprung aus einer Höhe von 4 000 m über Grund wird 30 s nach dem Absprung der Fallschirm geöffnet."
+      "v": "Bei einem Fallschirmsprung aus einer Höhe von 4 000 m über Grund wird 30 s nach dem Absprung der Fallschirm geöffnet.\n\n"
     },
     {
       "t": "text",
-      "v": "Für t ∈ [0; 30] gibt die Funktion v₁ mit"
+      "v": "Für t ∈ [0; 30] gibt die Funktion v₁ mit "
     },
     {
       "t": "math",
@@ -458,7 +550,7 @@
     },
     {
       "t": "text",
-      "v": "(unter Berücksichtigung des Luftwiderstands) die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t an (t in s nach dem Absprung, v₁(t) in m/s).\n\nFür t ≥ 30 gibt die Funktion v₂ mit"
+      "v": " (unter Berücksichtigung des Luftwiderstands) die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t an (t in s nach dem Absprung, v₁(t) in m/s).\n\nFür t ≥ 30 gibt die Funktion v₂ mit "
     },
     {
       "t": "math",
@@ -466,7 +558,7 @@
     },
     {
       "t": "text",
-      "v": "die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t bis zum Zeitpunkt der Landung an (t in s nach dem Absprung, v₂(t) in m/s).\n\nModellhaft wird angenommen, dass der Fallschirmsprung lotrecht ist."
+      "v": " die Fallgeschwindigkeit des Fallschirmspringers zum Zeitpunkt t bis zum Zeitpunkt der Landung an (t in s nach dem Absprung, v₂(t) in m/s).\n\nModellhaft wird angenommen, dass der Fallschirmsprung lotrecht ist."
     }
   ]
 }

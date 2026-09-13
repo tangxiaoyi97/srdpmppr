@@ -114,7 +114,7 @@
     {
       "id": "2025-het-t2-01-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "FA 2.2",
@@ -134,6 +134,19 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Gesamtkosten in Abhängigkeit von der Zeit lassen sich näherungsweise für das Elektroauto durch die lineare Funktion e: [0; 60] → ℝ⁺ und für das Auto mit Verbrennungsmotor durch die lineare Funktion m: [0; 60] → ℝ⁺ beschreiben (t in Monaten mit t = 0 für den Zeitpunkt des Kaufes, e(t), m(t) in €).\nDer Graph von m ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t2-01-a-q.png",
+          "alt": "Koordinatensystem mit e(t), m(t) in € (14 000 bis 32 000) über t in Monaten (0 bis 60); der Graph der Geraden m verläuft vom Wert 16 000 bei t = 0 ansteigend."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nFür das Auto mit Verbrennungsmotor betragen die Gesamtkosten nach 12 Monaten rund ①; die Ausgaben pro Monat betragen ②."
@@ -268,7 +281,7 @@
     {
       "id": "2025-het-t2-01-a3",
       "label": "a3",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AG 2.1",
@@ -290,7 +303,19 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Kosten für den Erwerb des Elektroautos betragen € 18.000, die Ausgaben pro Monat betragen € 160.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Frau Klinger entscheidet sich für das Elektroauto und plant, pro Monat 1 600 km mit diesem Elektroauto zu fahren.\n\nBerechnen Sie die zu erwartenden Kosten pro gefahrenem Kilometer nach den ersten 60 Monaten unter Berücksichtigung der Kosten für den Erwerb."
+        },
+        {
+          "t": "math",
+          "v": "\\underline{\\hphantom{xxxx}}"
+        },
+        {
+          "t": "text",
+          "v": " €/km"
         }
       ],
       "figures": [],
@@ -320,7 +345,11 @@
           "result": [
             {
               "t": "math",
-              "v": "0{,}2875\\ \\text{€/km}"
+              "v": "0{,}2875"
+            },
+            {
+              "t": "text",
+              "v": " €/km"
             }
           ],
           "note": "a3) Ein Punkt für das richtige Berechnen."
@@ -365,20 +394,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "v1",
-            "label": "v₁",
-            "value": 30.09,
-            "tol": 0.5,
-            "unit": "km/h"
+            "t": "math",
+            "v": "f'(v_{1})=0"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "v_{1}=30{,}09\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "math",
+            "v": "v_{1}=30{,}09\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "b1) Ein Punkt für das richtige Berechnen von v₁."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Geschwindigkeitv₁=30,09…km/h beim Minimum.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -24,12 +24,140 @@
     {
       "id": "2018-ht-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Konfidenzintervall mit der kleinsten Intervallbreite: "
+            },
+            {
+              "t": "math",
+              "v": "C"
+            },
+            {
+              "t": "text",
+              "v": "\nKonfidenzintervall mit der größten Intervallbreite: "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Konfidenzintervalle."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Vergleichen Sie diese vier Konfidenzintervalle bezüglich ihrer Intervallbreite und geben Sie das Konfidenzintervall mit der kleinsten und jenes mit der größten Intervallbreite an!\n\nKonfidenzintervall mit der kleinsten Intervallbreite: _____\nKonfidenzintervall mit der größten Intervallbreite: _____"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Konfidenzintervall mit der kleinsten Intervallbreite: "
+          },
+          {
+            "t": "math",
+            "v": "C"
+          },
+          {
+            "t": "text",
+            "v": "\nKonfidenzintervall mit der größten Intervallbreite: "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Vier Konfidenzintervalle ("
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": ") für einen unbekannten Anteil werden auf dieselbe Art und Weise ausschließlich unter Verwendung des Stichprobenumfangs "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": ", des Konfidenzniveaus "
+    },
+    {
+      "t": "math",
+      "v": "\\gamma"
+    },
+    {
+      "t": "text",
+      "v": " und des relativen Anteils berechnet, wobei der relative Anteil für alle vier Konfidenzintervalle derselbe ist. Die Konfidenzintervalle liegen symmetrisch um den relativen Anteil."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-24-tab.png",
+      "alt": "Tabelle: Konfidenzintervalle A bis D, Stichprobenumfang und Konfidenzniveau."
+    }
+  ]
 }

@@ -52,18 +52,31 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.0447,
-            "tol": 0.0005
+            "t": "text",
+            "v": "X ist binomialverteilt mit n=120 und p=0,04. Gesucht ist "
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le1)=0{,}96^{120}+120\\cdot0{,}04\\cdot0{,}96^{119}=0{,}0447403333\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Rund 0,0447 bzw. 4,47 %. Gleichwertige Dezimal-, Prozent- oder exakte Termdarstellungen sowie angemessene Rundungen sind richtig. Ein Punkt für das richtige Berechnen."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Antwort gemäß dem offiziellen Lösungsschlüssel.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -126,7 +139,7 @@
           {
             "id": "nd",
             "value": 8135,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -191,19 +204,51 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "dauer",
-            "value": 3.6,
-            "tol": 0.1,
-            "unit": "min"
+            "t": "math",
+            "v": "K(t)=0{,}09"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "t_1=0{,}2135\\ldots\\quad t_2=3{,}8182\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_2-t_1=3{,}60\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Der Duft ist rund 3,6 Minuten lang wahrnehmbar."
+          },
+          {
+            "t": "text",
+            "v": "c1) Ein Punkt für das richtige Berechnen."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Dauert₂−t₁=3,60…min, laut Original rund3,6Minuten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -243,7 +288,7 @@
     {
       "id": "2025-wt-t2-04-c2",
       "label": "c2",
-      "format": "Offenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AN 1.3",
@@ -265,11 +310,75 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Die Temperatur in der Sauna in Abhängigkeit von der Zeit t kann durch die Funktion T: [0; 15] → ℝ⁺, t ↦ T(t) modelliert werden (t in min, T(t) in °C).\n\nFür die zwei Zeitpunkte tₐ, t_B ∈ (0; 15) mit tₐ < t_B gilt: T(tₐ) > T(t_B)\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+          "v": "Die Temperatur in der Sauna in Abhängigkeit von der Zeit t kann durch die Funktion T: [0; 15] → ℝ⁺, t ↦ T(t) modelliert werden (t in min, T(t) in °C).\n\nFür die zwei Zeitpunkte "
+        },
+        {
+          "t": "math",
+          "v": "t_A"
         },
         {
           "t": "text",
-          "v": "Der Differenzenquotient der Funktion T im Intervall [tₐ; t_B] gibt in jedem Fall ① in diesem Intervall an; dieser Differenzenquotient ist in jedem Fall ②."
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "t_B"
+        },
+        {
+          "t": "text",
+          "v": " ∈ (0; 15) mit "
+        },
+        {
+          "t": "math",
+          "v": "t_A"
+        },
+        {
+          "t": "text",
+          "v": " < "
+        },
+        {
+          "t": "math",
+          "v": "t_B"
+        },
+        {
+          "t": "text",
+          "v": " gilt: T("
+        },
+        {
+          "t": "math",
+          "v": "t_A"
+        },
+        {
+          "t": "text",
+          "v": ") > T("
+        },
+        {
+          "t": "math",
+          "v": "t_B"
+        },
+        {
+          "t": "text",
+          "v": ")\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+        },
+        {
+          "t": "text",
+          "v": "Der Differenzenquotient der Funktion T im Intervall ["
+        },
+        {
+          "t": "math",
+          "v": "t_A"
+        },
+        {
+          "t": "text",
+          "v": "; "
+        },
+        {
+          "t": "math",
+          "v": "t_B"
+        },
+        {
+          "t": "text",
+          "v": "] gibt in jedem Fall ① in diesem Intervall an; dieser Differenzenquotient ist in jedem Fall ②."
         }
       ],
       "figures": [],

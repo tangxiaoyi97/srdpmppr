@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,233 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_614a",
+          "id": "1_614",
           "baseId": "1_614",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/335/Zusammenhang%20zweier%20Variablen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als null ist, dann ist auch "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als null."
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "text",
+              "v": "Für jedes "
+            },
+            {
+              "t": "math",
+              "v": "n\\in\\mathbb{N}\\setminus\\{0\\}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "(a\\cdot n)\\cdot\\left(\\frac{b}{n}\\right)=1"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei der fünf nachstehenden Aussagen treffen in jedem Fall zu.\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als null ist, dann ist auch "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " kleiner als null."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Vorzeichen von "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " können unterschiedlich sein."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für jedes "
+            },
+            {
+              "t": "math",
+              "v": "n\\in\\mathbb{N}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "(a-n)\\cdot(b+n)=1"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für jedes "
+            },
+            {
+              "t": "math",
+              "v": "n\\in\\mathbb{N}\\setminus\\{0\\}"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "(a\\cdot n)\\cdot\\left(\\frac{b}{n}\\right)=1"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gilt: "
+            },
+            {
+              "t": "math",
+              "v": "a\\ne b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_614",
       "baseId": "1_614",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/335/Zusammenhang%20zweier%20Variablen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gilt der Zusammenhang "
+    },
+    {
+      "t": "math",
+      "v": "a\\cdot b=1"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

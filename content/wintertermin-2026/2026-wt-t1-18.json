@@ -1,6 +1,6 @@
 {
   "id": "2026-wt-t1-18",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1584a",
+          "id": "1_1584",
           "baseId": "1_1584",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1097/1_1584_srdp_ma_Zur%C3%BCckgelegter%20Weg_PT3_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,19 +69,35 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "s",
-            "value": 192.375,
-            "tol": 0.5,
-            "unit": "m"
+            "t": "math",
+            "v": "\\int_{0}^{15} v(t)\\,\\mathrm{d}t=192{,}375"
+          },
+          {
+            "t": "text",
+            "v": "Das Fahrzeug hat rund 192 m zurückgelegt."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Weglänge192,375m, laut Original rund192m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

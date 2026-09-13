@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -140,7 +140,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-03-b1-q.png",
-          "alt": "Graph der quadratischen Funktion v auf [0; 2] (nach unten geöffnete Parabel unterhalb der t-Achse); der Bereich zwischen Graph und t-Achse von t = 0 bis t = 1,5 ist grau markiert."
+          "alt": "Graph der quadratischen Funktion v auf [0; 2]: nach unten geöffnete Parabel oberhalb der t-Achse mit Nullstellen 0 und 2. Die Fläche unter dem Graphen von 0 bis 1,5 ist grau markiert; t in min, v(t) in m/min."
         },
         {
           "t": "text",
@@ -205,6 +205,43 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Laurin macht einen Tauchgang und taucht dabei schräg nach unten. Seine Geschwindigkeit in vertikaler Richtung beim Abtauchen wird dabei modellhaft durch die quadratische Funktion "
+        },
+        {
+          "t": "math",
+          "v": "v: [0; 2] \\to \\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben.\n\nDabei gilt: "
+        },
+        {
+          "t": "math",
+          "v": "v(t) = c \\cdot t \\cdot (t-2)"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c \\in \\mathbb{R}\\setminus\\{0\\}"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit ab Beginn des Abtauchens in min\nv(t) ... Geschwindigkeit in vertikaler Richtung zum Zeitpunkt t in m/min\n\nDer Graph von v ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-03-b1-q.png",
+          "alt": "Graph der quadratischen Funktion v auf [0; 2]: nach unten geöffnete Parabel oberhalb der t-Achse mit Nullstellen 0 und 2. Die Fläche unter dem Graphen von 0 bis 1,5 ist grau markiert; t in min, v(t) in m/min."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Laurin erreicht 2 min nach Beginn des Abtauchens eine Tauchtiefe von 16 m.\n\nErmitteln Sie c."
         }
       ],
@@ -265,6 +302,43 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Laurin macht einen Tauchgang und taucht dabei schräg nach unten. Seine Geschwindigkeit in vertikaler Richtung beim Abtauchen wird dabei modellhaft durch die quadratische Funktion "
+        },
+        {
+          "t": "math",
+          "v": "v: [0; 2] \\to \\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben.\n\nDabei gilt: "
+        },
+        {
+          "t": "math",
+          "v": "v(t) = c \\cdot t \\cdot (t-2)"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c \\in \\mathbb{R}\\setminus\\{0\\}"
+        },
+        {
+          "t": "text",
+          "v": "\nt ... Zeit ab Beginn des Abtauchens in min\nv(t) ... Geschwindigkeit in vertikaler Richtung zum Zeitpunkt t in m/min\n\nDer Graph von v ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-03-b1-q.png",
+          "alt": "Graph der quadratischen Funktion v auf [0; 2]: nach unten geöffnete Parabel oberhalb der t-Achse mit Nullstellen 0 und 2. Die Fläche unter dem Graphen von 0 bis 1,5 ist grau markiert; t in min, v(t) in m/min."
+        },
+        {
+          "t": "text",
+          "v": "\n\nLaurin erreicht 2 min nach Beginn des Abtauchens eine Tauchtiefe von 16 m.\n\n"
+        },
         {
           "t": "text",
           "v": "Ermitteln Sie dasjenige Zeitintervall, in dem Laurins Geschwindigkeit in vertikaler Richtung mindestens 9 m/min beträgt."

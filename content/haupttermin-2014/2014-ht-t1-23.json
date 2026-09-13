@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,123 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_327a",
+          "id": "1_327",
           "baseId": "1_327",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/39/Diskrete%20Zufallsvariable.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(3\\le X\\le6)"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau eine Antwort angekreuzt ist und das Kreuz richtig gesetzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welcher der folgenden Ausdrücke beschreibt die Wahrscheinlichkeit, die dem Inhalt der schraffierten Fläche entspricht?\nKreuzen Sie den zutreffenden Ausdruck an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "1-P(X\\le2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le6)-P(X\\le3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\ge3)+P(X\\le6)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(3\\le X\\le6)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le6)-P(X<2)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(3<X<6)"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_327",
       "baseId": "1_327",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/39/Diskrete%20Zufallsvariable.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt die Wahrscheinlichkeitsverteilung einer diskreten Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-23-distribution.png",
+      "alt": "Wahrscheinlichkeitsverteilung mit original schraffierten Balken."
     }
   ]
 }

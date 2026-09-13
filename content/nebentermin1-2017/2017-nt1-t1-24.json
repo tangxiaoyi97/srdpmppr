@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -24,12 +24,87 @@
     {
       "id": "2017-nt1-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=400,\\ h=0{,}2"
+            },
+            {
+              "t": "text",
+              "v": "\n\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}2\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}2\\cdot(1-0{,}2)}{400}}=0{,}2\\pm0{,}0392\\Rightarrow[0{,}1608;0{,}2392]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,160; 0,165]. Toleranzintervall für den oberen Wert: [0,239; 0,243]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie ein symmetrisches 95-%-Konfidenzintervall für den Stimmenanteil der Partei "
+        },
+        {
+          "t": "math",
+          "v": "Y"
+        },
+        {
+          "t": "text",
+          "v": " in der Grundgesamtheit an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Intervall [0,1608; 0,2392]. Toleranzintervall für den unteren Wert: [0,160; 0,165]; für den oberen Wert: [0,239; 0,243]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für eine Wahlprognose wird aus allen Wahlberechtigten eine Zufallsstichprobe ausgewählt.\nVon 400 befragten Personen geben 80 an, die Partei "
+    },
+    {
+      "t": "math",
+      "v": "Y"
+    },
+    {
+      "t": "text",
+      "v": " zu wählen."
+    }
+  ]
 }

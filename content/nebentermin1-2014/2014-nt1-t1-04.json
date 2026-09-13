@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,133 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_370a",
+          "id": "1_370",
           "baseId": "1_370",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/78/Vektoraddition.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Vektor "
+            },
+            {
+              "t": "math",
+              "v": "\\vec s=\\binom52"
+            },
+            {
+              "t": "text",
+              "v": " ist richtig als Pfeil dargestellt. Als Ausgangspunkt kann ein beliebiger Punkt gewählt werden."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-04-solution.png",
+              "alt": "Originale Lösung der Vektoraddition mit Ergebnispfeil."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Die Lösung ist dann als richtig zu werten, wenn der Vektor s = (5; 2) richtig dargestellt ist. Die Spitze des Vektors s muss korrekt und klar erkennbar eingezeichnet sein. Als Ausgangspunkt kann ein beliebiger Punkt gewählt werden. Die Summanden müssen nicht dargestellt werden."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie im untenstehenden Koordinatensystem den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec s"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "\\vec s=2\\cdot\\vec a+\\vec b"
+        },
+        {
+          "t": "text",
+          "v": " als Pfeil dar!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-04-vectors.png",
+          "alt": "Originale Vektoren a und b im Koordinatensystem."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec s=\\binom52"
+          },
+          {
+            "t": "text",
+            "v": " ist richtig als Pfeil dargestellt. Als Ausgangspunkt kann ein beliebiger Punkt gewählt werden."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_370",
       "baseId": "1_370",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/78/Vektoraddition.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die beiden Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec b"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

@@ -1,0 +1,2465 @@
+{
+  "audit": "Independent second review of 10 repaired high-impact graph/answer-key questions",
+  "date": "2026-09-13",
+  "reviewer": "convert_2017 subagent, independent of prior repairs",
+  "scope": [
+    "2019-nt2-t1-17",
+    "2020-nt2-t1-16",
+    "2020-ht-t1-22",
+    "2019-nt2-t2-03",
+    "2021-nt2-t1-09",
+    "2022-wt-t1-15",
+    "2023-wt-t2-02",
+    "2025-het-t1-20",
+    "2023-wt-t1-17",
+    "2024-ht-t1-07"
+  ],
+  "releaseCoordination": "Root released eight records. convert_2014_2015 explicitly confirmed release of 2023-wt-t1-17 and 2024-ht-t1-07 before they were inspected. No prior author script was rerun and prior repair audit files were preserved.",
+  "method": "Visually compared rendered original au and lo pages with every currently referenced PNG, including both inline t=fig nodes and legacy solution.figures kind=image nodes. Inspected current JSON display order and actual candidate arrays against printed official selected answers. File hashes document the reviewed bytes; they are not used as a substitute for visual content verification.",
+  "summary": {
+    "questions": 10,
+    "sourcePdfsViewed": 20,
+    "sourcePagesViewed": 23,
+    "originalUniquePngsViewed": 34,
+    "currentUniquePngsViewed": 35,
+    "currentImageReferencesViewed": 39,
+    "priorGraphAndChoiceKeyRepairsConfirmed": 10,
+    "additionalQuestionsChanged": 1,
+    "additionalPngs": 1,
+    "remainingConfirmedProblems": 0
+  },
+  "validation": {
+    "questions": 10,
+    "mathNodes": 39,
+    "errors": []
+  },
+  "preserved": "All question/part IDs, source metadata, externalRefs, format, schemaVersion, status, points and scoring values preserved. No changes to the other nine question JSONs or their assets.",
+  "questions": [
+    {
+      "id": "2019-nt2-t1-17",
+      "file": "content/nebentermin2-2019/2019-nt2-t1-17.json",
+      "beforeRecheckSha256": "4e0bc1a077e48b502655375dfa7e7f96c288aee9b69395155e0e25a1a86ac81b",
+      "afterRecheckSha256": "4e0bc1a077e48b502655375dfa7e7f96c288aee9b69395155e0e25a1a86ac81b",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sha256": "6468c38e0f72868546c4f5bf0431365c34e6ab7312868347e151b83431f1cbc8",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sha256": "9afd359c28c71b54b079d1bb75fe5943e2b3ac292c40f91902569bd998947121",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/00-2019-nt2-t1-17.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          21
+        ],
+        "sourceSolutionPrintedPages": [
+          18
+        ],
+        "visual": "All five graph PNGs viewed individually alongside au p1. Image order is row-major: left top S-shaped graph; right top parabola; left middle exponential; right middle concave graph; left bottom straight line. Lower/upper rectangle shading and axes match.",
+        "position": "Five candidate figures follow the integration condition and instruction, matching au p1.",
+        "answer": "lo p1 marks the left-top and left-bottom graphs; current indices [0,4] and solution 1/5 agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].answer.options[0][1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-1.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 21,
+          "sha256": "37344e0df6bddf08eefa1da13a38a87a4b614c9bcd1ff6cb4390c3f0a8d06bd7",
+          "pixelSize": [
+            400,
+            290
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[1][1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-2.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 21,
+          "sha256": "6312b5031ee7154c1637bdf6ea9b497b4717eded8c1066cc34031b3867dad932",
+          "pixelSize": [
+            398,
+            290
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[2][1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-3.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 21,
+          "sha256": "040eee3f868ff2ab1493c326b30c043a8d0e45354cc8b798cdc4722f9cf0fdf3",
+          "pixelSize": [
+            400,
+            293
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[3][1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-4.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 21,
+          "sha256": "3a5622a8dca63fb5db46f1e94d4c28fd64c06b40e5535c0a5deed7c4a6a4ddcd",
+          "pixelSize": [
+            398,
+            293
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[4][1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-5.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 21,
+          "sha256": "b1e398606abd95b5f7971606075dd42f39bfa89450892444cc57e69f2626044f",
+          "pixelSize": [
+            400,
+            289
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2019-nt2-t1-17-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-nt2-t1-16",
+      "file": "content/nebentermin2-2020/2020-nt2-t1-16.json",
+      "beforeRecheckSha256": "9d0024651b0d8a7b2261f2767ebca8fed706eb7844444a5c74df8460eb226053",
+      "afterRecheckSha256": "9d0024651b0d8a7b2261f2767ebca8fed706eb7844444a5c74df8460eb226053",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t1-16-an.pdf",
+          "sha256": "0f0906a0264c210b5efc4aa4d9a3104541bcc657bbefd99aba68a30bd7ed522f",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2020/[2020n2]t1-16-an.pdf",
+          "sha256": "8003f1ce3766b531975d8d9549de1a1f1aba2875c9e240963e1b6a686175831a",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/01-2020-nt2-t1-16.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          18
+        ],
+        "sourceSolutionPrintedPages": [
+          19
+        ],
+        "visual": "Complete matching-table PNG viewed: four f1–f4 graphs and all six A–F derivative graphs, including restored F positive hyperbola. No omitted F or edge/label loss.",
+        "position": "The original table appears after the assignment instruction in part.prompt[1].",
+        "answer": "lo p1 explicitly gives f1→D, f2→C, f3→F, f4→A; stored pairs [[0,3],[1,2],[2,5],[3,0]] and solution agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].prompt[1]",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-16-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2020/[2020n2]t1-16-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 18,
+          "sha256": "4c2603ab445d2be614350ffa35519c45ab5f15ab0035e94529c2302ca761e25a",
+          "pixelSize": [
+            1096,
+            1684
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2020-nt2-t1-16-a",
+          "kind": "matching",
+          "pairs": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-ht-t1-22",
+      "file": "content/haupttermin-2020/2020-ht-t1-22.json",
+      "beforeRecheckSha256": "b43fb4d4c18c43a0a16842bbe3168a2b39af3bba273eb27a759687417b9869a2",
+      "afterRecheckSha256": "b43fb4d4c18c43a0a16842bbe3168a2b39af3bba273eb27a759687417b9869a2",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2020/[2020h1]t1-22-ws.pdf",
+          "sha256": "504ecaf7f3123853a4b5187b5e4d4fb31f29f1c4bf935754dea51466b1d38f00",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]haupttermin-2020/[2020h1]t1-22-ws.pdf",
+          "sha256": "ef72bf1962aaa10219a51bed104205717cc98240261a0b39d67edf54ace35437",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/02-2020-ht-t1-22.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          24
+        ],
+        "sourceSolutionPrintedPages": [
+          25
+        ],
+        "visual": "The given probability table contains exactly x=1,2,3 and P(X=x)=0.3,0.6,0.1, with full header and border. All five text alternatives compared with au p1.",
+        "position": "The probability table is between its introduction and Aufgabenstellung as printed.",
+        "answer": "lo p1 marks höchstens zwei weiße and mindestens eine schwarze Kugel: options 1 and 5, indices [0,4]."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.prompt[1]",
+          "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-22-tab.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2020/[2020h1]t1-22-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 24,
+          "sha256": "bff7b7cb34b64d7e0b031e965c600d5dfe57e6218605419bc704413bacb02334",
+          "pixelSize": [
+            609,
+            141
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2020-ht-t1-22-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-nt2-t2-03",
+      "file": "content/nebentermin2-2019/2019-nt2-t2-03.json",
+      "beforeRecheckSha256": "ba8c26e124ca5a062e78151b3e9752d85fa7b10da6103ab3070721266971860f",
+      "afterRecheckSha256": "c65ead29950c15c18af993ae2fabf3720450a494819bd91cf9a7a21c78673de6",
+      "result": "pass after additional fixes",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sha256": "122d82f605e676c82e0f3a5e32711c98fb92f9e76c58cbdda2da63a7dd4c4d76",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sha256": "55b8656e04767266eec1338c0a57fd2b2d66ecb40d956bf5d516c1838ce12112",
+          "pages": 2
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/03-2019-nt2-t2-03.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          8,
+          9
+        ],
+        "sourceSolutionPrintedPages": [
+          6,
+          7
+        ],
+        "visual": "All three pre-existing PNGs viewed. Abbildung 1 retains €6086/34731/139614/310837 threshold labels; Abbildung 2 contains dashed guides at 80%/23%; b2 has the separate blank original Lorenz L drawing without guides or pre-drawn L*. Added faithful lo p1 solution L* drawing, viewed at native size.",
+        "position": "Shared Abbildungen 1 and 2 precede shared Gini definition; b2 drawing follows its sketch instruction. New L* diagram appears only in b2 solution, never in task prompt. c2 now receives original c1 Land-S-model context with explicit context/instruction headings and no answer.",
+        "answer": "Choice keys are not involved. Exact original tolerances and acceptance of counts or relative share, and correct approach despite calculation error, now preserved by open/AI rubrics for a1,b1,c1. a2 official interval [13200,13325] retained. All scoring values/part IDs/refs unchanged."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[3].prompt[1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sourcePage": 2,
+          "printedPage": 9,
+          "sha256": "1fcdea7d4dbd183ce2312476d6cc2d60f3f8dab6032bc3b137da9173579354b1",
+          "pixelSize": [
+            664,
+            592
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[3].solution[0].result[1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-sol.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sourcePage": 1,
+          "printedPage": 6,
+          "sha256": "65203aab30127335c59d8d9e8c3d5743d06269ac604c75c4a24a31e8b9e9120f",
+          "pixelSize": [
+            633,
+            558
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.prompt[1]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb1.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sourcePage": 1,
+          "printedPage": 8,
+          "sha256": "0b768871b47e2f352039869fa1f3424fe0df5e9c423f6c6da50ee5c7169b7466",
+          "pixelSize": [
+            850,
+            456
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.prompt[2]",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb2.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2019/[2019n2]t2-3.pdf",
+          "sourcePage": 1,
+          "printedPage": 8,
+          "sha256": "c8910eec6d3679b66c1f08271f4f1a3e16b5a357dde9c4db2cbe4de94c0e12dd",
+          "pixelSize": [
+            738,
+            411
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2019-nt2-t2-03-a1",
+          "kind": "open"
+        },
+        {
+          "id": "2019-nt2-t2-03-a2",
+          "kind": "numeric"
+        },
+        {
+          "id": "2019-nt2-t2-03-b1",
+          "kind": "open"
+        },
+        {
+          "id": "2019-nt2-t2-03-b2",
+          "kind": "open"
+        },
+        {
+          "id": "2019-nt2-t2-03-c1",
+          "kind": "open"
+        },
+        {
+          "id": "2019-nt2-t2-03-c2",
+          "kind": "open"
+        }
+      ]
+    },
+    {
+      "id": "2021-nt2-t1-09",
+      "file": "content/nebentermin2-2021/2021-nt2-t1-09.json",
+      "beforeRecheckSha256": "d6457c5ace75172dd149eee97c338d46b903ddf4a6ed17c09442a0be76e6df07",
+      "afterRecheckSha256": "d6457c5ace75172dd149eee97c338d46b903ddf4a6ed17c09442a0be76e6df07",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2021/[2021n2]t1-9-fa.pdf",
+          "sha256": "54d126b26814a68e2d61cf009612d0495111898d635a7e48e49cbc101fa2b254",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2021/[2021n2]t1-9-fa.pdf",
+          "sha256": "c72f14f2a4f9ca22d3deee27966f4c0032b9be2d090950964ebd0f81416993f4",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/04-2021-nt2-t1-09.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          11
+        ],
+        "sourceSolutionPrintedPages": [
+          12
+        ],
+        "visual": "Original four-quadrant diagram viewed: II upper left, I upper right, III lower left, IV lower right, x/f(x) axes and both zero labels intact. Six k/d options match source.",
+        "position": "Figure remains within shared statement, before the facts excluding quadrant I and before the selection instruction.",
+        "answer": "lo p1 selects k<0 and d<0; index [0] and solution agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.prompt[7]",
+          "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-09-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]nebentermin-2-2021/[2021n2]t1-9-fa.pdf",
+          "sourcePage": 1,
+          "printedPage": 11,
+          "sha256": "efd0aeb8297ce4d952c26bf742b561d906f2e9debe555dd70f7c4d7e77971ddc",
+          "pixelSize": [
+            674,
+            628
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2021-nt2-t1-09-a",
+          "kind": "choice",
+          "correct": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-wt-t1-15",
+      "file": "content/wintertermin-2022/2022-wt-t1-15.json",
+      "beforeRecheckSha256": "baa64e5727730d65e016607b0817e4151516725bb1b24a080cd2f6950a7b9d58",
+      "afterRecheckSha256": "baa64e5727730d65e016607b0817e4151516725bb1b24a080cd2f6950a7b9d58",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2022/[2022w1]t1-15-an.pdf",
+          "sha256": "cf27ea7838dcc6b27c97b02e4d4f9dd7e82abeec8339c9c6db201e17a2099c0d",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2022/[2022w1]t1-15-an.pdf",
+          "sha256": "46b97082eaba265fb0daa82581c70e666d7ff9c9fac1ee10727e3bc74e4c4974",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/05-2022-wt-t1-15.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          17
+        ],
+        "sourceSolutionPrintedPages": [
+          18
+        ],
+        "visual": "Original velocity arch complete from (0,0) to (30,0), maximum near t=15 slightly above10; 0,5,10 velocity and 0..30 time ticks/units intact. Five original alternatives compared.",
+        "position": "Figure appears after the velocity introduction and before the s/a definitions and instruction.",
+        "answer": "lo p1 selects existence of a(t0)=0 and strictly increasing s, options 2 and 5: [1,4]."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.prompt[1]",
+          "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-15-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2022/[2022w1]t1-15-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 17,
+          "sha256": "07a8ca0f37b9bd4fa41762c232c3c52d175c9f6a8e370b651755f4572aff61de",
+          "pixelSize": [
+            737,
+            369
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2022-wt-t1-15-a",
+          "kind": "choice",
+          "correct": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t2-02",
+      "file": "content/wintertermin-2023/2023-wt-t2-02.json",
+      "beforeRecheckSha256": "9940466c43951901b4ea318866eac08c79133373f099c7825cf667f19c5e174f",
+      "afterRecheckSha256": "9940466c43951901b4ea318866eac08c79133373f099c7825cf667f19c5e174f",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t2-2.pdf",
+          "sha256": "a287cb4f4994b21b965ffe155665f36d87656f64de9f9b70da66de971de7af47",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2023/[2023w1]t2-2.pdf",
+          "sha256": "59a0ceac6647e7c128f3df442be7543e34e0fe3794b3ceecdd465d47fb4b17a3",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/06-2023-wt-t2-02.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          29,
+          30
+        ],
+        "sourceSolutionPrintedPages": [
+          29
+        ],
+        "visual": "a1 task PNG is genuinely blank 0..10 distance axis; a1 solution PNG independently viewed with min1.5,Q1=2,median3,Q3=4,max7. b1 original incomplete frequency table has 20/blank, blank/0.4,10/blank. No solution leakage into task.",
+        "position": "a1 blank graph follows drawing instruction; b1 table precedes fill-table instruction. a1 worked boxplot appears only in solution.figures.",
+        "answer": "a1 boxplot rubric matches lo p1. a2 reasoning uses at most8 below12 among17. b1 missing values 0.4,20,0.2 match lo table. c1 sixth-factor permutation expression is fifth alternative, current [4], correct."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].prompt[1]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t2-2.pdf",
+          "sourcePage": 1,
+          "printedPage": 29,
+          "sha256": "92af5b18f434e9e14971295420970a02dc1fe169165ee5f79ae76e904e2e9a6b",
+          "pixelSize": [
+            1206,
+            302
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].solution[0].figures[0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-sol.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2023/[2023w1]t2-2.pdf",
+          "sourcePage": 1,
+          "printedPage": 29,
+          "sha256": "a26e4c5740034345006ae7fa4a1237d5e1b11411ada52975c07422623d35bb76",
+          "pixelSize": [
+            1197,
+            297
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[2].prompt[1]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-b1-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t2-2.pdf",
+          "sourcePage": 1,
+          "printedPage": 29,
+          "sha256": "34f2604bc546560e072b0d080704e56714a4e9946fc9f4b64dfc780a4d220fd2",
+          "pixelSize": [
+            1254,
+            322
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2023-wt-t2-02-a1",
+          "kind": "open"
+        },
+        {
+          "id": "2023-wt-t2-02-a2",
+          "kind": "open"
+        },
+        {
+          "id": "2023-wt-t2-02-b1",
+          "kind": "numeric"
+        },
+        {
+          "id": "2023-wt-t2-02-c1",
+          "kind": "choice",
+          "correct": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2025-het-t1-20",
+      "file": "content/herbsttermin-2025/2025-het-t1-20.json",
+      "beforeRecheckSha256": "3da43cbc7ae832da60e3917e729afe787f6380cadba2fca56719915e4760d0b4",
+      "afterRecheckSha256": "3da43cbc7ae832da60e3917e729afe787f6380cadba2fca56719915e4760d0b4",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sha256": "57ffe918be71fbd9eda1ff33c4965ca6a94073a586af45f399931fb86a61427e",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sha256": "ad536a21b4c8e1be70324d5f707e606ad811cf7c95535de5bfcff5e894d61cd1",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/07-2025-het-t1-20.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          22
+        ],
+        "sourceSolutionPrintedPages": [
+          23
+        ],
+        "visual": "Eight PNGs actually viewed: stem-leaf values 1|445557,2|111112277,3|11129; all six original histogram options; official checked histogram solution table. Distinct bin edges/heights of all six alternatives agree, including 0..1 versus 0..10 ordinate scales. Option5/6 additionally viewed at native size to confirm bottom axis labels 14..42 are complete.",
+        "position": "Stem-leaf diagram precedes histogram explanation and instruction. Six individual options follow instruction in row-major original order. Checked solution diagram is confined to solution.figures.",
+        "answer": "lo p1 marks original upper-left histogram; [0] and current solution agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].solution[0].figures[0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-sol.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 23,
+          "sha256": "e152f7685134c2c030795912656794d0416812df931ae6db8b6b132d92e8b446",
+          "pixelSize": [
+            1010,
+            405
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[0][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt1.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "0a53b4a8dc97cdc609aa5386d670a07492e4f41eaa84ab8b94943ff4fef53442",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[1][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt2.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "c95fb7097354b28dfa59e764e683c7369437401a25c240ea9175e20efc6b04d6",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[2][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt3.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "c57c0c4f15b1d3a650b9a16555d15c34fc6ac0fab6ea891b456409abb06376bd",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[3][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt4.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "7ff9688ff753498dfbac2a39431cce9b3e910eedea73c44ce5941b7c29d152c4",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[4][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt5.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "bd73aa046820177d97446a695dc1f35254df8dfb3d1b4f4d6b3a2680399a3ec7",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[5][0]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt6.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "52df5038e12bdbe0adbdfc1b6ca949f922b45755cd55c261fca5383d9d2bd0fc",
+          "pixelSize": [
+            557,
+            396
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.prompt[1]",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]herbsttermin-2025/[2025h2]t1-20-ws.pdf",
+          "sourcePage": 1,
+          "printedPage": 22,
+          "sha256": "3a6a7e3ddc4bbd4fa72eb9f1b628802882a342b93d6d8217d0ea8ffd252e3cbd",
+          "pixelSize": [
+            527,
+            173
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2025-het-t1-20-a",
+          "kind": "choice",
+          "correct": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-wt-t1-17",
+      "file": "content/wintertermin-2023/2023-wt-t1-17.json",
+      "beforeRecheckSha256": "8b5549d1cd9993851c7c74991f4c4beb675a645bf3a595facb40a02edc1053d7",
+      "afterRecheckSha256": "8b5549d1cd9993851c7c74991f4c4beb675a645bf3a595facb40a02edc1053d7",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sha256": "610d27764eac28af473551b02ac85a55735d1d68345a1a763a23c8481890d79b",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sha256": "0e3e1bc647409ad101a4209f675cfbe7b2d715b4c36a90aea8fa44a8db45bb94",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/lasttwo/00-2023-wt-t1-17.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          19
+        ],
+        "sourceSolutionPrintedPages": [
+          20
+        ],
+        "visual": "All six PNGs viewed: rising f-double-prime line through origin plus all five distinct cubic candidate curves. Candidate top/bottom extremity and f(x)/x labels complete; solution reuses first and fifth images.",
+        "position": "Given second-derivative graph precedes instruction; five candidates follow it, in original top-to-bottom order.",
+        "answer": "lo p1 marks first and fifth curves; [0,4] and solution figures agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].solution[0].result[1]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt1.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "cdc4cc39b036d5a171df5f507f7da7b3dede50f95b3634a42dececf90975c637",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass",
+          "selectionEvidence": "lo page 1; matching selected original graph identities"
+        },
+        {
+          "path": "$.parts[0].solution[0].result[2]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt5.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "04b89d2812f8e753566bda926315ee42d14793684a819d924241e4cfae77e727",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass",
+          "selectionEvidence": "lo page 1; matching selected original graph identities"
+        },
+        {
+          "path": "$.parts[0].answer.options[0][0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt1.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "cdc4cc39b036d5a171df5f507f7da7b3dede50f95b3634a42dececf90975c637",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[1][0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt2.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "0a5b2d26749c22fb165ef418d9bd702e1fb41b172be89269fbd9944f242d65f6",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[2][0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt3.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "9cc4f8d14510ba62b7e5cff1fe2289e64f81957220fd2f76e62b80c5cab31cac",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[3][0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt4.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "5b9159f8231706348720db16ceff0ccbd1367ad784a54c853be2426406955785",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[4][0]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt5.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "04b89d2812f8e753566bda926315ee42d14793684a819d924241e4cfae77e727",
+          "pixelSize": [
+            778,
+            262
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.prompt[1]",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-q.png",
+          "role": "given diagram at original task position",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2023/[2023w1]t1-17-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 19,
+          "sha256": "058ced011a912b136f405d84014d1e4b4fd8c830a220793b8023b041ee0d411b",
+          "pixelSize": [
+            820,
+            294
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2023-wt-t1-17-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-ht-t1-07",
+      "file": "content/haupttermin-2024/2024-ht-t1-07.json",
+      "beforeRecheckSha256": "e1c7ac176fc0583f0d63261c15725d4fff1d4880ffd7f5a42083fd5358ae5c82",
+      "afterRecheckSha256": "e1c7ac176fc0583f0d63261c15725d4fff1d4880ffd7f5a42083fd5358ae5c82",
+      "result": "pass, no additional change",
+      "sources": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sha256": "390f41aa8dd2b9e2ce3fbe58665bd308617af17ee6bace3301d39a79ef8dcf13",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sha256": "8a1c2ff96027483739da0c7c36d72d02b464a68c00b855389747767b2420c16c",
+          "pages": 1
+        }
+      ],
+      "reviewBoard": "/tmp/qed-repair-recheck/lasttwo/01-2024-ht-t1-07.png",
+      "sourceQuestionAllPagesViewed": true,
+      "sourceSolutionAllPagesViewed": true,
+      "manualEvidence": {
+        "sourceQuestionPrintedPages": [
+          9
+        ],
+        "sourceSolutionPrintedPages": [
+          10
+        ],
+        "visual": "All five original graph candidates viewed, including distinct v/a/s axis labels and units. Current order is original left column top/middle/bottom followed by right top/bottom: decreasing v, increasing convex s, decreasing a, constant negative a, constant negative v.",
+        "position": "Five candidate PNGs follow the instruction; no incorrect candidate graph is used as shared givens.",
+        "answer": "lo p1 marks upper-left decreasing v and upper-right constant a=-0.4; in retained column-major order these are indices [0,3]. Solution wording and two reused images agree."
+      },
+      "actuallyViewedAssetsAndLocations": [
+        {
+          "path": "$.parts[0].solution[0].result[1]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-1.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "0bf438519f184af729cc8e1d3a17e308a1b345e7dc106c243b865e1a649e735d",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass",
+          "selectionEvidence": "lo page 1; matching selected original graph identities"
+        },
+        {
+          "path": "$.parts[0].solution[0].result[2]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-4.png",
+          "role": "solution only",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "f8b17e1f3dc9c87e762b5a4b0f80faef5fe13b07f43ac9fbeb55ffb6e7ffb36c",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass",
+          "selectionEvidence": "lo page 1; matching selected original graph identities"
+        },
+        {
+          "path": "$.parts[0].answer.options[0][0]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-1.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "0bf438519f184af729cc8e1d3a17e308a1b345e7dc106c243b865e1a649e735d",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[1][0]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-2.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "f82a112f23f3ccfe036f783dda042344c1bd2563ca06b2ee9fcdd04d463e0e2c",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[2][0]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-3.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "059ae0c83064c667cccd666216d9a18e5c1b5e8fc2919382865a9c78c57ac9a4",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[3][0]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-4.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "f8b17e1f3dc9c87e762b5a4b0f80faef5fe13b07f43ac9fbeb55ffb6e7ffb36c",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        },
+        {
+          "path": "$.parts[0].answer.options[4][0]",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-5.png",
+          "role": "answer candidate after current task instruction",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2024/[2024h1]t1-7-an.pdf",
+          "sourcePage": 1,
+          "printedPage": 9,
+          "sha256": "100e4f3c01f884afd96b8619a7a6b098d3e62084a1bad264ec8d628a65162e89",
+          "pixelSize": [
+            448,
+            450
+          ],
+          "actualImageViewed": true,
+          "contentAndEdgesVerdict": "pass"
+        }
+      ],
+      "answerKeysAfter": [
+        {
+          "id": "2024-ht-t1-07-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "additionalRepair": {
+    "questionId": "2019-nt2-t2-03",
+    "file": "content/nebentermin2-2019/2019-nt2-t2-03.json",
+    "beforeSha256": "ba8c26e124ca5a062e78151b3e9752d85fa7b10da6103ab3070721266971860f",
+    "afterSha256": "c65ead29950c15c18af993ae2fabf3720450a494819bd91cf9a7a21c78673de6",
+    "before": {
+      "id": "2019-nt2-t2-03",
+      "schemaVersion": 3,
+      "status": "converted",
+      "lang": "de",
+      "source": {
+        "suite": "nebentermin2-2019",
+        "year": 2019,
+        "term": "nebentermin-2",
+        "part": "t2",
+        "nr": 3,
+        "file": "[2019n2]t2-3.pdf"
+      },
+      "title": "Vermögensverteilung",
+      "rights": {
+        "thirdPartyMaterial": true,
+        "note": "* meaning unverified — see Aufgabenpool legend"
+      },
+      "assets": {
+        "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t2-3.pdf",
+        "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t2-3.pdf"
+      },
+      "figures": [],
+      "parts": [
+        {
+          "id": "2019-nt2-t2-03-a1",
+          "label": "a1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "WS 1.1",
+              "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043a",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Ermitteln Sie mithilfe von Abbildung 1, wie viele Personen in Österreich im Jahr 2012 ein Vermögen von mindestens einer Million Euro besaßen!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "numeric",
+            "blanks": [
+              {
+                "id": "anzahl",
+                "value": 422500,
+                "tol": 84500,
+                "unit": "Personen"
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Im Jahr 2012 hatten in Österreich ca. 422 500 Personen (laut Abbildung 1: ca. 5 % der Bevölkerung) ein Vermögen von mindestens einer Million Euro."
+                }
+              ],
+              "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-a2",
+          "label": "a2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "FA 2.1",
+              "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043a",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Berechnen Sie unter der vereinfachenden Annahme, dass die Schwellenwerte im Intervall [20 %; 40 %] annähernd linear zunehmen, einen Näherungswert des Schwellenwerts bei 25 %!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "numeric",
+            "blanks": [
+              {
+                "id": "schwellenwert",
+                "value": 13262.5,
+                "tol": 62.5,
+                "unit": "€"
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angeführt sein muss. Toleranzintervall: [€ 13.200; € 13.325]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "steps": [
+                {
+                  "t": "math",
+                  "v": "6\\,086+\\dfrac{34\\,731-6\\,086}{4}=13\\,247{,}25"
+                }
+              ],
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Näherungswert für den Schwellenwert bei 25 % liegt bei ca. € 13.247."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angeführt sein muss. Toleranzintervall: [€ 13.200; € 13.325]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-b1",
+          "label": "b1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "WS 1.1",
+              "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043b",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Ermitteln Sie, welchen relativen Anteil am Gesamtvermögen die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "numeric",
+            "blanks": [
+              {
+                "id": "anteil",
+                "value": 0.6,
+                "tol": 0.02
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen ca. 60 % des Vermögens."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-b2",
+          "label": "b2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "FA 1.7",
+              "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043b",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Laut einer Studie der Universität Linz aus dem Jahr 2013 besitzen die vermögensstärksten 10 % der österreichischen Bevölkerung einen deutlich größeren relativen Anteil am Gesamtvermögen, als es in der EZB-Studie behauptet wurde.\nUnter Berücksichtigung der Studie der Universität Linz erhält man eine andere Lorenz-Kurve L* als die abgebildete Lorenz-Kurve L. Skizzieren Sie in der nachstehenden Abbildung einen möglichen Verlauf einer solchen Lorenz-Kurve L*!"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-q.png",
+              "alt": "Lorenz-Kurve L mit 45°-Linie der absoluten Gleichverteilung und markierter Fläche A; relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung, jeweils von 0 % bis 100 %, zum Einzeichnen von L*."
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Eine möglicher Verlauf einer Lorenz-Kurve L*, die monoton steigend ist und deren Funktionswert an der Stelle 90 % kleiner als 42 % ist (L* verläuft unterhalb von L im rechten Bereich, da die vermögensstärksten 10 % einen größeren Anteil besitzen)."
+              }
+            ],
+            "grader": "ai"
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für einen richtig eingezeichneten Verlauf einer möglichen Lorenz-Kurve L*, wobei der Funktionswert an der Stelle 90 % kleiner als 42 % sein muss und die Funktion monoton steigend sein muss.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Möglicher Verlauf von L*: eine monoton steigende Kurve, deren Funktionswert an der Stelle 90 % kleiner als 42 % ist."
+                }
+              ],
+              "note": "Ein Punkt für einen richtig eingezeichneten Verlauf einer möglichen Lorenz-Kurve L*, wobei der Funktionswert an der Stelle 90 % kleiner als 42 % sein muss und die Funktion monoton steigend sein muss."
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-c1",
+          "label": "c1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "AN 4.3",
+              "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043c",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Die Lorenz-Kurve wird im Intervall [0; 1] durch eine reelle Funktion in Abhängigkeit von x modelliert, wobei x den relativen Anteil der Bevölkerung angibt.\nBerechnen Sie den Gini-Koeffizienten für ein Land S, dessen Lorenz-Kurve für das Jahr 2012 durch die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "L_1"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "L_1(x)=0{,}9\\cdot x^{5}+0{,}08\\cdot x^{2}+0{,}02\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": " im Intervall [0; 1] beschrieben werden kann!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "numeric",
+            "blanks": [
+              {
+                "id": "gini",
+                "value": 0.625,
+                "tol": 0.005
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "steps": [
+                {
+                  "t": "math",
+                  "v": "0{,}5-\\int_{0}^{1} L_1(x)\\,dx=0{,}313\\ldots"
+                },
+                {
+                  "t": "math",
+                  "v": "\\dfrac{0{,}313\\ldots}{0{,}5}\\approx 0{,}63"
+                }
+              ],
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Gini-Koeffizient für das Jahr 2012 hatte für das Land S etwa den Wert 0,63."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-c2",
+          "label": "c2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "AG 2.1",
+              "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043c",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Vergleichen Sie Ihr Ergebnis mit dem Gini-Koeffizienten für Österreich für das Jahr 2012 und geben Sie an, ob das Gesamtvermögen in diesem Jahr in Österreich oder im Land S gleichmäßiger auf die Bevölkerung verteilt war!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Der Gini-Koeffizient für das Jahr 2012 war für das Land S niedriger als jener für Österreich. Das bedeutet, dass in diesem Jahr das Gesamtvermögen im Land S gleichmäßiger auf die Bevölkerung verteilt war als in Österreich."
+              }
+            ],
+            "grader": "ai"
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für einen korrekten Vergleich und eine (sinngemäß) richtige Deutung.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Gini-Koeffizient für das Jahr 2012 war für das Land S niedriger als jener für Österreich. Das bedeutet, dass in diesem Jahr das Gesamtvermögen im Land S gleichmäßiger auf die Bevölkerung verteilt war als in Österreich."
+                }
+              ],
+              "note": "Ein Punkt für einen korrekten Vergleich und eine (sinngemäß) richtige Deutung."
+            }
+          ]
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_043",
+          "baseId": "2_043",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das gesamte Vermögen eines Landes ist häufig sehr ungleich auf die Bevölkerung verteilt. Eine im Jahr 2012 durchgeführte Erhebung der Europäischen Zentralbank (EZB) lieferte Daten für eine Abschätzung, welcher Anteil der österreichischen Bevölkerung über welches Vermögen (in Millionen Euro) verfügt. Die Ergebnisse der darauf basierenden Studie sind in Abbildung 1 dargestellt. Beispielsweise bedeutet der Schwellenwert bei 20 %, dass die vermögensschwächsten 20 % der österreichischen Bevölkerung ein Vermögen von maximal € 6.086 besitzen.\nIm Jahr 2012 betrug die Bevölkerungszahl von Österreich ca. 8,45 Millionen Einwohner/innen.\nDie sogenannte Lorenz-Kurve L (vgl. Abbildung 2) veranschaulicht, welcher relative Anteil der Bevölkerung welchen relativen Anteil des Gesamtvermögens besitzt. So besitzen laut der EZB-Studie die vermögensschwächsten 80 % der österreichischen Bevölkerung nur ca. 23 % des gesamten Vermögens."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb1.png",
+          "alt": "Abbildung 1: Schwellenwert in Mio. Euro über dem relativen Anteil der Bevölkerung (0 % bis 100 %); Schwellenwerte: bei 20 %: € 6.086, bei 40 %: € 34.731, bei 60 %: € 139.614, bei 80 %: € 310.837."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb2.png",
+          "alt": "Abbildung 2: Lorenz-Kurve L (relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung), 45°-Linie der absoluten Gleichverteilung sowie die markierte Fläche A zwischen 45°-Linie und Lorenz-Kurve L."
+        },
+        {
+          "t": "text",
+          "v": "Der Gini-Koeffizient ist ein Maß für die Ungleichverteilung des Vermögens in einem Land. Er entspricht dem Quotienten aus dem Inhalt der markierten Fläche A (zwischen der 45°-Linie und der Lorenz-Kurve L) und dem Flächeninhalt desjenigen Dreiecks, das durch die Eckpunkte (0 % | 0 %), (100 % | 0 %) und (100 % | 100 %) festgelegt ist.\nLaut EZB-Studie hatte der Gini-Koeffizient für Österreich für das Jahr 2012 den Wert 0,76."
+        }
+      ]
+    },
+    "after": {
+      "id": "2019-nt2-t2-03",
+      "schemaVersion": 3,
+      "status": "converted",
+      "lang": "de",
+      "source": {
+        "suite": "nebentermin2-2019",
+        "year": 2019,
+        "term": "nebentermin-2",
+        "part": "t2",
+        "nr": 3,
+        "file": "[2019n2]t2-3.pdf"
+      },
+      "title": "Vermögensverteilung",
+      "rights": {
+        "thirdPartyMaterial": true,
+        "note": "* meaning unverified — see Aufgabenpool legend"
+      },
+      "assets": {
+        "questionPdf": "assets/pdf/nebentermin2-2019/[2019n2]t2-3.pdf",
+        "solutionPdf": "assets/pdf/nebentermin2-2019/lo/[2019n2]t2-3.pdf"
+      },
+      "figures": [],
+      "parts": [
+        {
+          "id": "2019-nt2-t2-03-a1",
+          "label": "a1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "WS 1.1",
+              "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043a",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Ermitteln Sie mithilfe von Abbildung 1, wie viele Personen in Österreich im Jahr 2012 ein Vermögen von mindestens einer Million Euro besaßen!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "grader": "ai",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Im Jahr 2012 hatten in Österreich ca. 422 500 Personen (laut Abbildung 1: ca. 5 % der Bevölkerung) ein Vermögen von mindestens einer Million Euro."
+              },
+              {
+                "t": "text",
+                "v": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]. Gleichwertige Schreibweisen des relativen Anteils sind zulässig."
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Im Jahr 2012 hatten in Österreich ca. 422 500 Personen (laut Abbildung 1: ca. 5 % der Bevölkerung) ein Vermögen von mindestens einer Million Euro."
+                }
+              ],
+              "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-a2",
+          "label": "a2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "FA 2.1",
+              "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043a",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Berechnen Sie unter der vereinfachenden Annahme, dass die Schwellenwerte im Intervall [20 %; 40 %] annähernd linear zunehmen, einen Näherungswert des Schwellenwerts bei 25 %!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "numeric",
+            "blanks": [
+              {
+                "id": "schwellenwert",
+                "value": 13262.5,
+                "tol": 62.5,
+                "unit": "€"
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angeführt sein muss. Toleranzintervall: [€ 13.200; € 13.325]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "steps": [
+                {
+                  "t": "math",
+                  "v": "6\\,086+\\dfrac{34\\,731-6\\,086}{4}=13\\,247{,}25"
+                }
+              ],
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Näherungswert für den Schwellenwert bei 25 % liegt bei ca. € 13.247."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angeführt sein muss. Toleranzintervall: [€ 13.200; € 13.325]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-b1",
+          "label": "b1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "WS 1.1",
+              "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043b",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Ermitteln Sie, welchen relativen Anteil am Gesamtvermögen die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "grader": "ai",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen ca. 60 % des Vermögens."
+              },
+              {
+                "t": "text",
+                "v": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]. Gleichwertige Schreibweisen des relativen Anteils, beispielsweise 0,6 statt 60 %, sind zulässig."
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen ca. 60 % des Vermögens."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]"
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-b2",
+          "label": "b2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "FA 1.7",
+              "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043b",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Laut einer Studie der Universität Linz aus dem Jahr 2013 besitzen die vermögensstärksten 10 % der österreichischen Bevölkerung einen deutlich größeren relativen Anteil am Gesamtvermögen, als es in der EZB-Studie behauptet wurde.\nUnter Berücksichtigung der Studie der Universität Linz erhält man eine andere Lorenz-Kurve L* als die abgebildete Lorenz-Kurve L. Skizzieren Sie in der nachstehenden Abbildung einen möglichen Verlauf einer solchen Lorenz-Kurve L*!"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-q.png",
+              "alt": "Lorenz-Kurve L mit 45°-Linie der absoluten Gleichverteilung und markierter Fläche A; relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung, jeweils von 0 % bis 100 %, zum Einzeichnen von L*."
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Eine möglicher Verlauf einer Lorenz-Kurve L*, die monoton steigend ist und deren Funktionswert an der Stelle 90 % kleiner als 42 % ist (L* verläuft unterhalb von L im rechten Bereich, da die vermögensstärksten 10 % einen größeren Anteil besitzen)."
+              }
+            ],
+            "grader": "ai"
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für einen richtig eingezeichneten Verlauf einer möglichen Lorenz-Kurve L*, wobei der Funktionswert an der Stelle 90 % kleiner als 42 % sein muss und die Funktion monoton steigend sein muss.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Möglicher Verlauf von L*:"
+                },
+                {
+                  "t": "fig",
+                  "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-sol.png",
+                  "alt": "Möglicher Verlauf der Lorenz-Kurve L* unterhalb der bisherigen Lorenz-Kurve L; beide verlaufen von (0 % | 0 %) nach (100 % | 100 %). 45°-Linie der absoluten Gleichverteilung und Fläche A sind dargestellt."
+                },
+                {
+                  "t": "text",
+                  "v": "Möglicher Verlauf von L*: eine monoton steigende Kurve, deren Funktionswert an der Stelle 90 % kleiner als 42 % ist."
+                }
+              ],
+              "note": "Ein Punkt für einen richtig eingezeichneten Verlauf einer möglichen Lorenz-Kurve L*, wobei der Funktionswert an der Stelle 90 % kleiner als 42 % sein muss und die Funktion monoton steigend sein muss."
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-c1",
+          "label": "c1",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "AN 4.3",
+              "description": "das bestimmte Integral in verschiedenen Kontexten deuten und entsprechende Sachverhalte durch Integrale beschreiben können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043c",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Die Lorenz-Kurve wird im Intervall [0; 1] durch eine reelle Funktion in Abhängigkeit von x modelliert, wobei x den relativen Anteil der Bevölkerung angibt.\nBerechnen Sie den Gini-Koeffizienten für ein Land S, dessen Lorenz-Kurve für das Jahr 2012 durch die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "L_1"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "L_1(x)=0{,}9\\cdot x^{5}+0{,}08\\cdot x^{2}+0{,}02\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": " im Intervall [0; 1] beschrieben werden kann!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "grader": "ai",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Mögliche Vorgehensweise:"
+              },
+              {
+                "t": "math",
+                "v": "0{,}5-\\int_{0}^{1}L_1(x)\\,dx=0{,}313\\ldots"
+              },
+              {
+                "t": "math",
+                "v": "\\dfrac{0{,}313\\ldots}{0{,}5}\\approx 0{,}63"
+              },
+              {
+                "t": "text",
+                "v": "Der Gini-Koeffizient für das Jahr 2012 hatte für das Land S etwa den Wert 0,63."
+              },
+              {
+                "t": "text",
+                "v": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+              }
+            ]
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "steps": [
+                {
+                  "t": "math",
+                  "v": "0{,}5-\\int_{0}^{1} L_1(x)\\,dx=0{,}313\\ldots"
+                },
+                {
+                  "t": "math",
+                  "v": "\\dfrac{0{,}313\\ldots}{0{,}5}\\approx 0{,}63"
+                }
+              ],
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Gini-Koeffizient für das Jahr 2012 hatte für das Land S etwa den Wert 0,63."
+                }
+              ],
+              "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+            }
+          ]
+        },
+        {
+          "id": "2019-nt2-t2-03-c2",
+          "label": "c2",
+          "format": "Offenes Antwortformat",
+          "competencies": [
+            {
+              "code": "AG 2.1",
+              "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+              "source": "aufgabenpool",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "externalRefs": [
+            {
+              "system": "aufgabenpool",
+              "id": "2_043c",
+              "baseId": "2_043",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            }
+          ],
+          "prompt": [
+            {
+              "t": "text",
+              "v": "Kontext aus Teilaufgabe c1:\n"
+            },
+            {
+              "t": "text",
+              "v": "Die Lorenz-Kurve wird im Intervall [0; 1] durch eine reelle Funktion in Abhängigkeit von x modelliert, wobei x den relativen Anteil der Bevölkerung angibt.\nBerechnen Sie den Gini-Koeffizienten für ein Land S, dessen Lorenz-Kurve für das Jahr 2012 durch die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "L_1"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "L_1(x)=0{,}9\\cdot x^{5}+0{,}08\\cdot x^{2}+0{,}02\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": " im Intervall [0; 1] beschrieben werden kann!"
+            },
+            {
+              "t": "text",
+              "v": "\n\nAktuelle Aufgabenstellung:\n"
+            },
+            {
+              "t": "text",
+              "v": "Vergleichen Sie Ihr Ergebnis mit dem Gini-Koeffizienten für Österreich für das Jahr 2012 und geben Sie an, ob das Gesamtvermögen in diesem Jahr in Österreich oder im Land S gleichmäßiger auf die Bevölkerung verteilt war!"
+            }
+          ],
+          "figures": [],
+          "answer": {
+            "kind": "open",
+            "rubric": [
+              {
+                "t": "text",
+                "v": "Der Gini-Koeffizient für das Jahr 2012 war für das Land S niedriger als jener für Österreich. Das bedeutet, dass in diesem Jahr das Gesamtvermögen im Land S gleichmäßiger auf die Bevölkerung verteilt war als in Österreich."
+              }
+            ],
+            "grader": "ai"
+          },
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für einen korrekten Vergleich und eine (sinngemäß) richtige Deutung.",
+                "points": 1
+              }
+            ]
+          },
+          "points": 1,
+          "solution": [
+            {
+              "result": [
+                {
+                  "t": "text",
+                  "v": "Der Gini-Koeffizient für das Jahr 2012 war für das Land S niedriger als jener für Österreich. Das bedeutet, dass in diesem Jahr das Gesamtvermögen im Land S gleichmäßiger auf die Bevölkerung verteilt war als in Österreich."
+                }
+              ],
+              "note": "Ein Punkt für einen korrekten Vergleich und eine (sinngemäß) richtige Deutung."
+            }
+          ]
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_043",
+          "baseId": "2_043",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/417/Verm%C3%B6gensverteilung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das gesamte Vermögen eines Landes ist häufig sehr ungleich auf die Bevölkerung verteilt. Eine im Jahr 2012 durchgeführte Erhebung der Europäischen Zentralbank (EZB) lieferte Daten für eine Abschätzung, welcher Anteil der österreichischen Bevölkerung über welches Vermögen (in Millionen Euro) verfügt. Die Ergebnisse der darauf basierenden Studie sind in Abbildung 1 dargestellt. Beispielsweise bedeutet der Schwellenwert bei 20 %, dass die vermögensschwächsten 20 % der österreichischen Bevölkerung ein Vermögen von maximal € 6.086 besitzen.\nIm Jahr 2012 betrug die Bevölkerungszahl von Österreich ca. 8,45 Millionen Einwohner/innen.\nDie sogenannte Lorenz-Kurve L (vgl. Abbildung 2) veranschaulicht, welcher relative Anteil der Bevölkerung welchen relativen Anteil des Gesamtvermögens besitzt. So besitzen laut der EZB-Studie die vermögensschwächsten 80 % der österreichischen Bevölkerung nur ca. 23 % des gesamten Vermögens."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb1.png",
+          "alt": "Abbildung 1: Schwellenwert in Mio. Euro über dem relativen Anteil der Bevölkerung (0 % bis 100 %); Schwellenwerte: bei 20 %: € 6.086, bei 40 %: € 34.731, bei 60 %: € 139.614, bei 80 %: € 310.837."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb2.png",
+          "alt": "Abbildung 2: Lorenz-Kurve L (relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung), 45°-Linie der absoluten Gleichverteilung sowie die markierte Fläche A zwischen 45°-Linie und Lorenz-Kurve L."
+        },
+        {
+          "t": "text",
+          "v": "Der Gini-Koeffizient ist ein Maß für die Ungleichverteilung des Vermögens in einem Land. Er entspricht dem Quotienten aus dem Inhalt der markierten Fläche A (zwischen der 45°-Linie und der Lorenz-Kurve L) und dem Flächeninhalt desjenigen Dreiecks, das durch die Eckpunkte (0 % | 0 %), (100 % | 0 %) und (100 % | 100 %) festgelegt ist.\nLaut EZB-Studie hatte der Gini-Koeffizient für Österreich für das Jahr 2012 den Wert 0,76."
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "paths": [
+          "parts[0].answer"
+        ],
+        "source": "lo page 1, printed page 6, a scoring",
+        "finding": "The official marking explicitly accepts both absolute counts [338000,507000] and relative proportions [4%,6%]; the old numeric count-only answer rejected the latter."
+      },
+      {
+        "paths": [
+          "parts[2].answer"
+        ],
+        "source": "lo page 1, printed page 6, b first result/scoring",
+        "finding": "The requested relative share is printed as 60% with tolerance [58%,62%]. The numeric decimal-only parser did not normalize percentage input; open rubric retains the original tolerance and equivalent relative-share notation."
+      },
+      {
+        "paths": [
+          "parts[4].answer"
+        ],
+        "source": "lo page 2, printed page 7, c scoring",
+        "finding": "The official marking explicitly awards the point for a correct approach even when a calculation error leads to an incorrect result; strict numeric grading could not honor this."
+      },
+      {
+        "paths": [
+          "parts[5].prompt"
+        ],
+        "source": "au page 2, printed page 9, c common model and comparison instruction",
+        "finding": "Client displays question.prompt plus only the current part. The comparison depended on the Land-S model supplied in c1. Copied original c1 context/instruction with an explicit context heading, excluding every answer."
+      },
+      {
+        "paths": [
+          "parts[3].solution[0].result"
+        ],
+        "source": "lo page 1, printed page 6, b possible Lorenz curve drawing",
+        "finding": "The official illustrative L* solution diagram was absent; restored the faithful source crop only in solution result."
+      }
+    ],
+    "asset": {
+      "file": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-sol.png",
+      "beforeSha256": null,
+      "afterSha256": "65203aab30127335c59d8d9e8c3d5743d06269ac604c75c4a24a31e8b9e9120f",
+      "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]nebentermin-2-2019/[2019n2]t2-3.pdf",
+      "sourcePage": 1,
+      "printedPage": 6,
+      "bboxPdfPointsTopOrigin": [
+        252,
+        477,
+        480,
+        678
+      ],
+      "dpi": 200,
+      "visuallyViewedAfterCrop": true,
+      "sourcePdfSha256": "55b8656e04767266eec1338c0a57fd2b2d66ecb40d956bf5d516c1838ce12112"
+    }
+  },
+  "assetsAfter": [
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-1.png",
+      "sha256": "37344e0df6bddf08eefa1da13a38a87a4b614c9bcd1ff6cb4390c3f0a8d06bd7",
+      "pixelSize": [
+        400,
+        290
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-2.png",
+      "sha256": "6312b5031ee7154c1637bdf6ea9b497b4717eded8c1066cc34031b3867dad932",
+      "pixelSize": [
+        398,
+        290
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-3.png",
+      "sha256": "040eee3f868ff2ab1493c326b30c043a8d0e45354cc8b798cdc4722f9cf0fdf3",
+      "pixelSize": [
+        400,
+        293
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-4.png",
+      "sha256": "3a5622a8dca63fb5db46f1e94d4c28fd64c06b40e5535c0a5deed7c4a6a4ddcd",
+      "pixelSize": [
+        398,
+        293
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t1-17-5.png",
+      "sha256": "b1e398606abd95b5f7971606075dd42f39bfa89450892444cc57e69f2626044f",
+      "pixelSize": [
+        400,
+        289
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-16-q.png",
+      "sha256": "4c2603ab445d2be614350ffa35519c45ab5f15ab0035e94529c2302ca761e25a",
+      "pixelSize": [
+        1096,
+        1684
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-22-tab.png",
+      "sha256": "bff7b7cb34b64d7e0b031e965c600d5dfe57e6218605419bc704413bacb02334",
+      "pixelSize": [
+        609,
+        141
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-q.png",
+      "sha256": "1fcdea7d4dbd183ce2312476d6cc2d60f3f8dab6032bc3b137da9173579354b1",
+      "pixelSize": [
+        664,
+        592
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-sol.png",
+      "sha256": "65203aab30127335c59d8d9e8c3d5743d06269ac604c75c4a24a31e8b9e9120f",
+      "pixelSize": [
+        633,
+        558
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb1.png",
+      "sha256": "0b768871b47e2f352039869fa1f3424fe0df5e9c423f6c6da50ee5c7169b7466",
+      "pixelSize": [
+        850,
+        456
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb2.png",
+      "sha256": "c8910eec6d3679b66c1f08271f4f1a3e16b5a357dde9c4db2cbe4de94c0e12dd",
+      "pixelSize": [
+        738,
+        411
+      ]
+    },
+    {
+      "src": "assets/pdf/nebentermin2-2021/fig/2021-nt2-t1-09-q.png",
+      "sha256": "efd0aeb8297ce4d952c26bf742b561d906f2e9debe555dd70f7c4d7e77971ddc",
+      "pixelSize": [
+        674,
+        628
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-15-q.png",
+      "sha256": "07a8ca0f37b9bd4fa41762c232c3c52d175c9f6a8e370b651755f4572aff61de",
+      "pixelSize": [
+        737,
+        369
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-q.png",
+      "sha256": "92af5b18f434e9e14971295420970a02dc1fe169165ee5f79ae76e904e2e9a6b",
+      "pixelSize": [
+        1206,
+        302
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-a1-sol.png",
+      "sha256": "a26e4c5740034345006ae7fa4a1237d5e1b11411ada52975c07422623d35bb76",
+      "pixelSize": [
+        1197,
+        297
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-02-b1-q.png",
+      "sha256": "34f2604bc546560e072b0d080704e56714a4e9946fc9f4b64dfc780a4d220fd2",
+      "pixelSize": [
+        1254,
+        322
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-sol.png",
+      "sha256": "e152f7685134c2c030795912656794d0416812df931ae6db8b6b132d92e8b446",
+      "pixelSize": [
+        1010,
+        405
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt1.png",
+      "sha256": "0a53b4a8dc97cdc609aa5386d670a07492e4f41eaa84ab8b94943ff4fef53442",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt2.png",
+      "sha256": "c95fb7097354b28dfa59e764e683c7369437401a25c240ea9175e20efc6b04d6",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt3.png",
+      "sha256": "c57c0c4f15b1d3a650b9a16555d15c34fc6ac0fab6ea891b456409abb06376bd",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt4.png",
+      "sha256": "7ff9688ff753498dfbac2a39431cce9b3e910eedea73c44ce5941b7c29d152c4",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt5.png",
+      "sha256": "bd73aa046820177d97446a695dc1f35254df8dfb3d1b4f4d6b3a2680399a3ec7",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-opt6.png",
+      "sha256": "52df5038e12bdbe0adbdfc1b6ca949f922b45755cd55c261fca5383d9d2bd0fc",
+      "pixelSize": [
+        557,
+        396
+      ]
+    },
+    {
+      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-20-q.png",
+      "sha256": "3a6a7e3ddc4bbd4fa72eb9f1b628802882a342b93d6d8217d0ea8ffd252e3cbd",
+      "pixelSize": [
+        527,
+        173
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt1.png",
+      "sha256": "cdc4cc39b036d5a171df5f507f7da7b3dede50f95b3634a42dececf90975c637",
+      "pixelSize": [
+        778,
+        262
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt5.png",
+      "sha256": "04b89d2812f8e753566bda926315ee42d14793684a819d924241e4cfae77e727",
+      "pixelSize": [
+        778,
+        262
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt2.png",
+      "sha256": "0a5b2d26749c22fb165ef418d9bd702e1fb41b172be89269fbd9944f242d65f6",
+      "pixelSize": [
+        778,
+        262
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt3.png",
+      "sha256": "9cc4f8d14510ba62b7e5cff1fe2289e64f81957220fd2f76e62b80c5cab31cac",
+      "pixelSize": [
+        778,
+        262
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-opt4.png",
+      "sha256": "5b9159f8231706348720db16ceff0ccbd1367ad784a54c853be2426406955785",
+      "pixelSize": [
+        778,
+        262
+      ]
+    },
+    {
+      "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t1-17-q.png",
+      "sha256": "058ced011a912b136f405d84014d1e4b4fd8c830a220793b8023b041ee0d411b",
+      "pixelSize": [
+        820,
+        294
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-1.png",
+      "sha256": "0bf438519f184af729cc8e1d3a17e308a1b345e7dc106c243b865e1a649e735d",
+      "pixelSize": [
+        448,
+        450
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-4.png",
+      "sha256": "f8b17e1f3dc9c87e762b5a4b0f80faef5fe13b07f43ac9fbeb55ffb6e7ffb36c",
+      "pixelSize": [
+        448,
+        450
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-2.png",
+      "sha256": "f82a112f23f3ccfe036f783dda042344c1bd2563ca06b2ee9fcdd04d463e0e2c",
+      "pixelSize": [
+        448,
+        450
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-3.png",
+      "sha256": "059ae0c83064c667cccd666216d9a18e5c1b5e8fc2919382865a9c78c57ac9a4",
+      "pixelSize": [
+        448,
+        450
+      ]
+    },
+    {
+      "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-07-option-5.png",
+      "sha256": "100e4f3c01f884afd96b8619a7a6b098d3e62084a1bad264ec8d628a65162e89",
+      "pixelSize": [
+        448,
+        450
+      ]
+    }
+  ],
+  "limits": "Restricted to the requested ten records. This report does not assert full archive correctness or add/alter official pool IDs or links."
+}

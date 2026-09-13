@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -22,14 +22,611 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-ht-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie diejenigen Blutgruppen an, die laut der abgebildeten Diagramme sowohl in Österreich als auch in Deutschland häufiger anzutreffen sind als im weltweiten Durchschnitt!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Blutgruppen: A und AB Ausschließlich diese beiden Blutgruppen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die ausschließliche Angabe der beiden Blutgruppen A und AB."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Blutgruppen: A und AB"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die ausschließliche Angabe der beiden Blutgruppen A und AB."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand argumentiert anhand der gegebenen Diagramme, dass die Blutgruppe B in Deutschland und Österreich zusammen eine relative Häufigkeit von 13 % hat.\nEntscheiden Sie, ob diese Aussage richtig ist, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Aussage ist nicht richtig, weil die Anzahl der Einwohner/innen in den beiden genannten Ländern nicht gleich groß ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe, dass die Aussage nicht richtig ist, und eine (sinngemäß) korrekte Begründung dafür."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussage ist nicht richtig, weil die Anzahl der Einwohner/innen in den beiden genannten Ländern nicht gleich groß ist."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die Aussage nicht richtig ist, und eine (sinngemäß) korrekte Begründung dafür."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine in Österreich lebende Person X hat Blutgruppe A–.\nGeben Sie anhand der in der Einleitung angeführten Daten und Informationen die Wahrscheinlichkeit an, mit der diese Person X als Blutspender/in für eine zufällig ausgewählte, in Österreich lebende Person Y geeignet ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit beträgt 48 %. Äquivalente Schreibweisen des Ergebnisses als Bruch oder Dezimalzahl sind ebenfalls richtig."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit beträgt 48 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine in Österreich lebende Person X hat Blutgruppe A–."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Wie viele von 100 zufällig ausgewählten Österreicherinnen/Österreichern kommen als Blutspender/in für die Person X in Frage? Geben Sie für die Anzahl der potenziellen Blutspender/innen näherungsweise ein um den Erwartungswert symmetrisches Intervall mit 90 % Wahrscheinlichkeit an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "n=100"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "p=0{,}15\\Rightarrow\\mu=15"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\phi(z)-1=0{,}9\\Rightarrow z=1{,}645"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "\\mu\\pm z\\cdot\\sigma=15\\pm1{,}645\\cdot\\sqrt{100\\cdot0{,}15\\cdot0{,}85}\\approx15\\pm6\\Rightarrow[9;21]"
+          },
+          {
+            "t": "text",
+            "v": ". Ein Punkt für ein korrektes Intervall. Toleranzintervall für den unteren Wert: [9; 10]. Toleranzintervall für den oberen Wert: [20; 21]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=100"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}15\\Rightarrow\\mu=15"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\phi(z)-1=0{,}9\\Rightarrow z=1{,}645"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "\\mu\\pm z\\cdot\\sigma=15\\pm1{,}645\\cdot\\sqrt{100\\cdot0{,}15\\cdot0{,}85}\\approx15\\pm6\\Rightarrow[9;21]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Toleranzintervall für den unteren Wert: [9; 10]. Toleranzintervall für den oberen Wert: [20; 21]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einer österreichischen Gemeinde, in der 1 800 Einwohner/innen Blut spenden könnten, nahmen 150 Personen an einer freiwilligen Blutspendeaktion teil. Es wird angenommen, dass die Blutspender/innen eine Zufallsstichprobe darstellen. 72 Blutspender/innen hatten Blutgruppe A.\nBerechnen Sie aufgrund dieses Stichprobenergebnisses ein symmetrisches 95-%-Konfidenzintervall für den tatsächlichen (relativen) Anteil "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " der Einwohner/innen dieser Gemeinde mit Blutgruppe A, die Blut spenden könnten!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "n=150"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h=0{,}48"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\phi(z)-1=0{,}95\\Rightarrow z=1{,}96"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "h\\pm z\\cdot\\sqrt{\\frac{h\\cdot(1-h)}n}=0{,}48\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}48\\cdot(1-0{,}48)}{150}}\\approx0{,}48\\pm0{,}08\\Rightarrow[40\\,\\%;56\\,\\%]"
+          },
+          {
+            "t": "text",
+            "v": ". Ein Punkt für ein korrektes Intervall. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [39 %; 43 %]. Toleranzintervall für den oberen Wert: [53 %; 57 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=150"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h=0{,}48"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\phi(z)-1=0{,}95\\Rightarrow z=1{,}96"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "h\\pm z\\cdot\\sqrt{\\frac{h\\cdot(1-h)}n}=0{,}48\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}48\\cdot(1-0{,}48)}{150}}\\approx0{,}48\\pm0{,}08\\Rightarrow[40\\,\\%;56\\,\\%]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [39 %; 43 %]. Toleranzintervall für den oberen Wert: [53 %; 57 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einer österreichischen Gemeinde, in der 1 800 Einwohner/innen Blut spenden könnten, nahmen 150 Personen an einer freiwilligen Blutspendeaktion teil. Es wird angenommen, dass die Blutspender/innen eine Zufallsstichprobe darstellen. 72 Blutspender/innen hatten Blutgruppe A."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Breite des Konfidenzintervalls wird vom Konfidenzniveau (Sicherheitsniveau) und vom Umfang der Stichprobe bestimmt. Geben Sie an, wie jeweils einer der beiden Parameter geändert werden müsste, um eine Verringerung der Breite des Konfidenzintervalls zu erreichen! Gehen Sie dabei von einem unveränderten (gleichbleibenden) Stichprobenergebnis aus."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bei gleichem Stichprobenergebnis führen eine größere Stichprobe und / oder ein geringeres Konfidenzniveau zu einer Verringerung der Breite des Konfidenzintervalls. Die entsprechenden Änderungen beider Parameter müssen genannt werden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Angabe der entsprechenden Änderungen beider Parameter."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei gleichem Stichprobenergebnis führen eine größere Stichprobe und / oder ein geringeres Konfidenzniveau zu einer Verringerung der Breite des Konfidenzintervalls."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Angabe der entsprechenden Änderungen beider Parameter."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Blutgruppenmerkmale werden von den Eltern an ihre Kinder weitervererbt. Dabei sind die Wahrscheinlichkeiten in der nachstehenden Tabelle angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-03-inheritance-table.png",
+          "alt": "Originaltabelle der Blutgruppenvererbung."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.wikipedia.org/wiki/AB0-System [26.11.2014]\n\nEine Frau mit Blutgruppe A und ein Mann mit Blutgruppe 0 haben zwei (gemeinsame) leibliche Kinder.\nBerechnen Sie die Wahrscheinlichkeit, dass beide Kinder die gleiche Blutgruppe haben!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "0{,}75^2+0{,}25^2=0{,}625"
+          },
+          {
+            "t": "text",
+            "v": ". Die Wahrscheinlichkeit, dass beide Kinder die gleiche Blutgruppe haben, beträgt 62,5 %. Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder in Prozenten) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,62; 0,63]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}75^2+0{,}25^2=0{,}625"
+            },
+            {
+              "t": "text",
+              "v": ". Die Wahrscheinlichkeit, dass beide Kinder die gleiche Blutgruppe haben, beträgt 62,5 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder in Prozenten) sind ebenfalls als richtig zu werten. Toleranzintervall: [0,62; 0,63]."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-03-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Blutgruppenmerkmale werden von den Eltern an ihre Kinder weitervererbt. Dabei sind die Wahrscheinlichkeiten in der nachstehenden Tabelle angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-03-inheritance-table.png",
+          "alt": "Originaltabelle der Blutgruppenvererbung."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.wikipedia.org/wiki/AB0-System [26.11.2014]\n\nEine Frau mit Blutgruppe A und ein Mann mit Blutgruppe 0 haben zwei (gemeinsame) leibliche Kinder."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ein Kind aus der Nachbarschaft dieser Familie hat Blutgruppe 0.\nGibt es eine Blutgruppe bzw. Blutgruppen, die der leibliche Vater dieses Kindes sicher nicht haben kann? Begründen Sie Ihre Antwort anhand der gegebenen Daten!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Vater kann nicht Blutgruppe AB haben, denn sobald ein Elternteil Blutgruppe AB hat, hat das Kind laut Tabelle nie Blutgruppe 0."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Antwort und eine (sinngemäß) korrekte Begründung, warum (nur) Blutgruppe AB auszuschließen ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Vater kann nicht Blutgruppe AB haben, denn sobald ein Elternteil Blutgruppe AB hat, hat das Kind laut Tabelle nie Blutgruppe 0."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Antwort und eine (sinngemäß) korrekte Begründung, warum (nur) Blutgruppe AB auszuschließen ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die wichtigsten Blutgruppensysteme beim Menschen sind das AB0-System und das Rhesussystem. Es werden dabei die vier Blutgruppen A, B, AB und 0 unterschieden. Je nach Vorliegen eines bestimmten Antikörpers, den man erstmals bei Rhesusaffen entdeckt hat, wird bei jeder Blutgruppe noch zwischen Rhesus-positiv (+) und Rhesus-negativ (–) unterschieden. A– bedeutet z. B. Blutgruppe A mit Rhesusfaktor negativ.\n\nIn den nachstehenden Diagrammen sind die relativen Häufigkeiten der vier Blutgruppen in Österreich und Deutschland und im weltweiten Durchschnitt ohne Berücksichtigung des Rhesusfaktors dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-03-blood-group-pies.png",
+      "alt": "Originale Kreisdiagramme der Blutgruppenhäufigkeiten in Österreich, Deutschland und weltweit."
+    },
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle enthält die relativen Häufigkeiten der Blutgruppen in Deutschland und Österreich zusätzlich aufgeschlüsselt nach den Rhesusfaktoren."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-03-blood-group-table.png",
+      "alt": "Originale Häufigkeitstabelle mit Rhesusfaktoren."
+    },
+    {
+      "t": "text",
+      "v": "Aufgrund von Unverträglichkeiten kann für eine Bluttransfusion nicht Blut einer beliebigen Blutgruppe verwendet werden. Jedes Kreuz (X) in der nachstehenden Tabelle bedeutet, dass eine Transfusion vom Spender zum Empfänger möglich ist."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-03-compatibility.png",
+      "alt": "Originale Verträglichkeitstabelle für Bluttransfusionen: Spender als Spalten, Empfänger als Zeilen."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: https://de.wikipedia.org/wiki/Blutgruppe [26.11.2014]"
+    }
+  ]
 }

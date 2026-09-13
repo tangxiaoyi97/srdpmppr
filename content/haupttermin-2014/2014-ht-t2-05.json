@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t2-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -22,14 +22,370 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-ht-t2-05-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-ht-t2-05-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie die Funktionsgleichung zur Berechnung der momentanen Beschleunigung "
+        },
+        {
+          "t": "math",
+          "v": "a(t)"
+        },
+        {
+          "t": "text",
+          "v": " zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "expression",
+        "canonical": "-1.5t^2+7.5t",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a(t)=v'(t)=-1{,}5\\cdot t^2+7{,}5\\cdot t"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt, wenn a(t) als 1. Ableitung der Geschwindigkeitsfunktion korrekt bestimmt wurde. Auch die Berechnung über den Differenzenquotienten mit korrektem Grenzwertübergang ist zulässig."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-05-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die momentane Beschleunigung zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=2"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a(2)=-1{,}5\\cdot2^2+7{,}5\\cdot2=9\\Rightarrow a(2)=9\\ \\mathrm{m/s^2}"
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für die korrekte Berechnung des Ergebnisses. Sollte a(t) im Ansatz richtig (aber fehlerhaft) aufgestellt worden sein, die Berechnung aber in weiterer Folge korrekt sein, dann ist dieser Punkt zu geben."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a(2)=-1{,}5\\cdot2^2+7{,}5\\cdot2=9\\Rightarrow a(2)=9\\ \\mathrm{m/s^2}"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Berechnung des Ergebnisses. Sollte a(t) im Ansatz richtig (aber fehlerhaft) aufgestellt worden sein, die Berechnung aber in weiterer Folge korrekt sein, dann ist dieser Punkt zu geben."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-05-b",
+      "label": "b",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Ausdruck zur Berechnung des in den ersten 4 Sekunden zurückgelegten Weges an! Ermitteln Sie diesen Weg "
+        },
+        {
+          "t": "math",
+          "v": "s(4)"
+        },
+        {
+          "t": "text",
+          "v": " (in Metern)!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "s(4)=\\int_0^4 v(t)\\,\\mathrm dt=\\int_0^4(-0{,}5\\cdot t^3+3{,}75\\cdot t^2)\\,\\mathrm dt=\\left[-0{,}125\\cdot t^4+1{,}25\\cdot t^3\\right]_0^4=48"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "s(4)=48\\ \\mathrm m"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ansatz mit bestimmtem Integral und richtigen Grenzen.",
+            "points": 1
+          },
+          {
+            "desc": "Richtiges Ergebnis; korrekte Folgerechnung auch bei fehlerhaftem Integralansatz anerkennen.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 2,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s(4)=\\int_0^4 v(t)\\,\\mathrm dt=\\int_0^4(-0{,}5\\cdot t^3+3{,}75\\cdot t^2)\\,\\mathrm dt=\\left[-0{,}125\\cdot t^4+1{,}25\\cdot t^3\\right]_0^4=48"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "s(4)=48\\ \\mathrm m"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt, wenn der Ansatz s(4) = ∫₀⁴ v(t) dt mit dem bestimmten Integral inklusive der richtigen Grenzen vorhanden ist. Ein Punkt für das richtige Ergebnis. Sollte das bestimmte Integral im Ansatz richtig (aber fehlerhaft) aufgestellt worden sein, die Berechnung aber in weiterer Folge korrekt sein, dann ist dieser Punkt zu geben."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-05-c",
+      "label": "c",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Angenommen, dieser Sportwagen beschleunigt – anders als ursprünglich angegeben – gleichmäßig in 4 Sekunden von 0 m/s auf 28 m/s. Nun wird mit "
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)"
+        },
+        {
+          "t": "text",
+          "v": " die Geschwindigkeit des Sportwagens nach "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " Sekunden bezeichnet.\n\nGeben Sie an, welcher funktionale Zusammenhang zwischen "
+        },
+        {
+          "t": "math",
+          "v": "v_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " vorliegt!\nErmitteln Sie die Funktionsgleichung für "
+        },
+        {
+          "t": "math",
+          "v": "v_1"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es liegt ein linearer funktionaler Zusammenhang vor. "
+          },
+          {
+            "t": "math",
+            "v": "v_1(t)=\\frac{28}{4}\\cdot t+0=7\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Linearer Zusammenhang erkannt und angegeben.",
+            "points": 1
+          },
+          {
+            "desc": "Funktionsgleichung mit korrekten Parametern aufgestellt.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 2,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es liegt ein linearer funktionaler Zusammenhang vor. "
+            },
+            {
+              "t": "math",
+              "v": "v_1(t)=\\frac{28}{4}\\cdot t+0=7\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt, wenn erkannt wurde, dass ein linearer Zusammenhang vorliegt, und dieser angegeben wurde (entweder textlich oder auch in Form einer Funktionsgleichung). Dieser Punkt ist auch zu geben, wenn zwar ein linearer Zusammenhang erkannt wurde, aber die Funktionsgleichung falsch aufgestellt wurde. Ein Punkt, wenn die Funktionsgleichung mit den korrekten Parametern aufgestellt wurde."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=12",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Sportwagen wird von 0 m/s auf 28 m/s ("
+    },
+    {
+      "t": "math",
+      "v": "\\approx100"
+    },
+    {
+      "t": "text",
+      "v": " km/h) in ca. 4 Sekunden beschleunigt. "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Geschwindigkeit in Metern/Sekunde während des Beschleunigungsvorganges in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden. Die Geschwindigkeit lässt sich durch die Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "v(t)=-0{,}5t^3+3{,}75t^2"
+    },
+    {
+      "t": "text",
+      "v": " angeben."
+    }
+  ]
 }

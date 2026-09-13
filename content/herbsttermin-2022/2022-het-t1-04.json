@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t1-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1223a",
+          "id": "1_1223",
           "baseId": "1_1223",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/753/Punkte%20und%20Vektoren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -54,7 +54,7 @@
             },
             {
               "t": "math",
-              "v": "C=B+t\\cdot w"
+              "v": "C=B+t\\cdot\\vec w"
             },
             {
               "t": "text",
@@ -62,7 +62,7 @@
             },
             {
               "t": "math",
-              "v": "C=A+t\\cdot v"
+              "v": "C=A+t\\cdot\\vec v"
             },
             {
               "t": "text",
@@ -84,6 +84,10 @@
         {
           "t": "text",
           "v": "Kreuzen Sie die beiden zutreffenden Aussagen an."
+        },
+        {
+          "t": "text",
+          "v": " [2 aus 5]"
         }
       ],
       "answer": {
@@ -92,31 +96,31 @@
           [
             {
               "t": "math",
-              "v": "A=B+t\\cdot r\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+              "v": "A=B+t\\cdot\\vec r\\ \\text{für ein}\\ t\\in\\mathbb{R}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "B=C+t\\cdot v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+              "v": "B=C+t\\cdot\\vec v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "C=B+t\\cdot w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+              "v": "C=B+t\\cdot\\vec w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "B=A+t\\cdot w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+              "v": "B=A+t\\cdot\\vec w\\ \\text{für ein}\\ t\\in\\mathbb{R}"
             }
           ],
           [
             {
               "t": "math",
-              "v": "C=A+t\\cdot v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
+              "v": "C=A+t\\cdot\\vec v\\ \\text{für ein}\\ t\\in\\mathbb{R}"
             }
           ]
         ],
@@ -146,12 +150,36 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Im nachstehenden Koordinatensystem sind die drei Punkte A, B und C sowie die drei Vektoren r, v und w eingezeichnet.\nDie Koordinaten der Punkte und die Komponenten der Vektoren sind ganzzahlig."
+      "v": "Im nachstehenden Koordinatensystem sind die drei Punkte A, B und C sowie die drei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec r"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\vec v"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec w"
+    },
+    {
+      "t": "text",
+      "v": " eingezeichnet.\nDie Koordinaten der Punkte und die Komponenten der Vektoren sind ganzzahlig."
     },
     {
       "t": "fig",
       "src": "assets/pdf/herbsttermin-2022/fig/2022-het-t1-04-q.png",
-      "alt": "Koordinatensystem mit den Punkten A(1|5), B(7|6), C(8|2) sowie den eingezeichneten Vektoren r, v und w; alle Koordinaten und Komponenten ganzzahlig."
+      "alt": "Koordinatensystem mit A(1 | 4), B(5 | 5), C(7 | 1) sowie den Vektoren r = (0 | −3), v = (2 | −1) und w = (−1 | 2)."
     }
   ]
 }

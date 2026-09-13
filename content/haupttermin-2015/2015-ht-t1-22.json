@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,95 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_400a",
+          "id": "1_400",
           "baseId": "1_400",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/108/Elfmeterschie%C3%9Fen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\binom{11}{5}"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Anzahl der Möglichkeiten an, von den elf Spielern fünf Schützen für das Elfmeterschießen – unabhängig von der Reihenfolge ihres Antretens – auszuwählen."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung, wobei die Unabhängigkeit der Reihenfolge des Antretens nicht angeführt werden muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\binom{11}{5}"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\binom{11}{5}"
+          },
+          {
+            "t": "text",
+            "v": " gibt die Anzahl der Möglichkeiten an, von den elf Spielern fünf Schützen für das Elfmeterschießen – unabhängig von der Reihenfolge ihres Antretens – auszuwählen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Deutung, wobei die Unabhängigkeit der Reihenfolge des Antretens nicht angeführt werden muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_400",
       "baseId": "1_400",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/108/Elfmeterschie%C3%9Fen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Fußballmannschaft stehen elf Spieler als Elfmeterschützen zur Verfügung."
     }
   ]
 }

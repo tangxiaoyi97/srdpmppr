@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,216 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_623a",
+          "id": "1_623",
           "baseId": "1_623",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/344/Polynomfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründungen:\nEine Polynomfunktion dritten Grades hat höchstens zwei lokale Extremstellen. (Die dargestellte Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat aber mindestens drei lokale Extremstellen.)\n\noder:\nEine Polynomfunktion dritten Grades hat genau eine Wendestelle. (Die dargestellte Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat aber mindestens zwei Wendestellen.)\n\noder:\nDie dargestellte Funktion hat bei "
+            },
+            {
+              "t": "math",
+              "v": "x_1\\approx-7"
+            },
+            {
+              "t": "text",
+              "v": " und bei "
+            },
+            {
+              "t": "math",
+              "v": "x_2\\approx5"
+            },
+            {
+              "t": "text",
+              "v": " jeweils eine Nullstelle und bei "
+            },
+            {
+              "t": "math",
+              "v": "x_3\\approx0"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle, die auch lokale Extremstelle ist. Damit kann im dargestellten Intervall die Funktionsgleichung in der Form "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot(x-x_1)\\cdot(x-x_2)\\cdot(x-x_3)^2"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a\\in\\mathbb{R}^+"
+            },
+            {
+              "t": "text",
+              "v": " angegeben werden. Der Grad von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " wäre somit zumindest vier."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum es sich bei der dargestellten Funktion nicht um eine Polynomfunktion dritten Grades handeln kann!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründungen:\nEine Polynomfunktion dritten Grades hat höchstens zwei lokale Extremstellen. (Die dargestellte Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " hat aber mindestens drei lokale Extremstellen.)\n\noder:\nEine Polynomfunktion dritten Grades hat genau eine Wendestelle. (Die dargestellte Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " hat aber mindestens zwei Wendestellen.)\n\noder:\nDie dargestellte Funktion hat bei "
+          },
+          {
+            "t": "math",
+            "v": "x_1\\approx-7"
+          },
+          {
+            "t": "text",
+            "v": " und bei "
+          },
+          {
+            "t": "math",
+            "v": "x_2\\approx5"
+          },
+          {
+            "t": "text",
+            "v": " jeweils eine Nullstelle und bei "
+          },
+          {
+            "t": "math",
+            "v": "x_3\\approx0"
+          },
+          {
+            "t": "text",
+            "v": " eine Nullstelle, die auch lokale Extremstelle ist. Damit kann im dargestellten Intervall die Funktionsgleichung in der Form "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=a\\cdot(x-x_1)\\cdot(x-x_2)\\cdot(x-x_3)^2"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "a\\in\\mathbb{R}^+"
+          },
+          {
+            "t": "text",
+            "v": " angegeben werden. Der Grad von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " wäre somit zumindest vier.\nEin Punkt für eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_623",
       "baseId": "1_623",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/344/Polynomfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-10-q.png",
+      "alt": "Graph der Polynomfunktion f mit mehreren Extremstellen."
     }
   ]
 }

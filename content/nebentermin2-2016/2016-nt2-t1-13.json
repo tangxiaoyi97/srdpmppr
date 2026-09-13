@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,122 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_457a",
+          "id": "1_457",
           "baseId": "1_457",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/166/Mittlere%20Geschwindigkeit.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die mittlere Geschwindigkeit des Körpers im Zeitintervall [2 s; 4 s] beträgt ca. 20 m/s."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit nicht angeführt sein muss. Toleranzintervall: [19 m/s; 21 m/s]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie anhand des Graphen die mittlere Geschwindigkeit des Körpers in Metern pro Sekunde im Zeitintervall [2 s; 4 s]!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Mittlere Geschwindigkeit",
+            "value": 20,
+            "tol": 1,
+            "unit": "m/s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_457",
       "baseId": "1_457",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/166/Mittlere%20Geschwindigkeit.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": ", deren Graph in der nachstehenden Abbildung dargestellt ist, beschreibt näherungsweise die Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h(t)"
+    },
+    {
+      "t": "text",
+      "v": " eines senkrecht nach oben geschossenen Körpers in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden, "
+    },
+    {
+      "t": "math",
+      "v": "h(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Metern)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-13-height-time.png",
+      "alt": "Original-Höhenverlauf mit h(2)≈80m und h(4)≈120m"
     }
   ]
 }

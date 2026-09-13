@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,135 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_601a",
+          "id": "1_601",
           "baseId": "1_601",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/310/Parameter%20einer%20Sinusfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b=1{,}5"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der korrekten Werte beider Parameter.\nToleranzintervall für a: [1,9; 2,1]\nToleranzintervall für b: [1,4; 1,6]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die für den abgebildeten Graphen passenden Parameterwerte "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 2,
+            "tol": 0.1
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1.5,
+            "tol": 0.1
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_601",
       "baseId": "1_601",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/310/Parameter%20einer%20Sinusfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-12-q.png",
+      "alt": "Graph einer Sinusfunktion f."
     }
   ]
 }

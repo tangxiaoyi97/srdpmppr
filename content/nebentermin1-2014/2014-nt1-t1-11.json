@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -24,12 +24,209 @@
     {
       "id": "2014-nt1-t1-11-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_363 (offiziell adaptierte Fassung)",
+          "baseId": "1_363",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/71/EigenschaftenlineareFunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x+1)=f(x)+k"
+            },
+            {
+              "t": "text",
+              "v": "\n\n"
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt immer genau eine Nullstelle.\n\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{f(x_2)-f(x_1)}{x_2-x_1}=k"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "x_1\\ne x_2"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDie Krümmung des Graphen der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist null."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau vier Aussagen angekreuzt sind und alle Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die für "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " kann lokale Extremstellen besitzen."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x+1)=f(x)+k"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt immer genau eine Nullstelle."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{f(x_2)-f(x_1)}{x_2-x_1}=k"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "x_1\\ne x_2"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Krümmung des Graphen der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist null."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "selectCount": 4
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=15",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_363 (offiziell adaptierte Fassung)",
+      "baseId": "1_363",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/71/EigenschaftenlineareFunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " wird durch die Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "k,d\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "k\\ne0"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-18",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_847a",
+          "id": "1_847",
           "baseId": "1_847",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/640/Wasserzufluss.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -104,11 +104,15 @@
         {
           "t": "fig",
           "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-18-q.png",
-          "alt": "Koordinatensystem mit Z(t) in Litern pro Minute (0 bis 25) über t in Minuten (0 bis 7); fallende Gerade Z von (0|30) bzw. (1|25)-Bereich linear abnehmend bis (6|10)."
+          "alt": "Graph der linear abnehmenden Zuflussrate Z(t) mit markierten Punkten (0 | 25) und (6 | 15), waagrechte Achse t in Minuten, senkrechte Achse Z(t) in Litern pro Minute."
         },
         {
           "t": "text",
           "v": "Berechnen Sie, wie viele Liter Wasser in diesen 6 Minuten in den Behälter zufließen."
+        },
+        {
+          "t": "text",
+          "v": "\n\n__________ Liter"
         }
       ],
       "answer": {
@@ -117,7 +121,7 @@
           {
             "id": "liter",
             "value": 120,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "Liter"
           }
         ]

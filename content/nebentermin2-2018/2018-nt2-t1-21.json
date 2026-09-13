@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,88 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_610a",
+          "id": "1_610",
           "baseId": "1_610",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/319/Pr%C3%BCfung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die Wahrscheinlichkeit, dass der zufällig ausgewählte Prüfungsakt ein positives Prüfungsergebnis aufweist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Prüfungsakt einer/eines angetretenen Studierenden wird zufällig ausgewählt.\n\nDeuten Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "0{,}7\\cdot0{,}9+(1-0{,}7)\\cdot0{,}8"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt die Wahrscheinlichkeit, dass der zufällig ausgewählte Prüfungsakt ein positives Prüfungsergebnis aufweist.\nEin Punkt für eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_610",
       "baseId": "1_610",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/319/Pr%C3%BCfung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Um ein Stipendium für einen Auslandsaufenthalt zu erhalten, mussten Studierende entweder in Spanisch oder in Englisch eine Prüfung ablegen.\n\nIm nachstehenden Baumdiagramm sind die Anteile der Studierenden, die sich dieser Prüfung in der jeweiligen Sprache unterzogen haben, angeführt. Zudem gibt das Baumdiagramm Auskunft über die Anteile der positiven bzw. negativen Prüfungsergebnisse."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-21-q.png",
+      "alt": "Baumdiagramm: Spanisch 0,3, Englisch 0,7; Prüfungsergebnisse positiv bzw. negativ."
     }
   ]
 }

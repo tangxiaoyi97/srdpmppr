@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,194 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_556a",
+          "id": "1_556",
           "baseId": "1_556",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/265/Lineare%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Von oben nach unten: E, F, C, D."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Graphen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Graphen jeweils die entsprechende Aussage über die Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-10-option-1.png",
+              "alt": "Graph 1 der linearen Funktion f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-10-option-2.png",
+              "alt": "Graph 2 der linearen Funktion f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-10-option-3.png",
+              "alt": "Graph 3 der linearen Funktion f."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-10-option-4.png",
+              "alt": "Graph 4 der linearen Funktion f."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "k=0,\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k>0,\\ d>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k=0,\\ d>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k<0,\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k>0,\\ d<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k<0,\\ d>0"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_556",
       "baseId": "1_556",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/265/Lineare%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Graphen von vier verschiedenen linearen Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=k\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "k,d\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

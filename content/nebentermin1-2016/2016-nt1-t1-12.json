@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,131 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_506a",
+          "id": "1_506",
           "baseId": "1_506",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/215/Periodische%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=2\\cdot\\pi\\ \\mathrm{rad}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [6,2 rad; 6,3 rad]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die kleinste Zahl "
+        },
+        {
+          "t": "math",
+          "v": "a>0"
+        },
+        {
+          "t": "text",
+          "v": " (Maßzahl für den Winkel in Radiant) so an, dass für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x+a)=f(x)"
+        },
+        {
+          "t": "text",
+          "v": " gilt!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a ="
+        },
+        {
+          "t": "text",
+          "v": " __________ rad"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "a=2\\cdot\\pi\\ \\mathrm{rad}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [6,2 rad; 6,3 rad]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_506",
       "baseId": "1_506",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/215/Periodische%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die periodische Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\sin(x)"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

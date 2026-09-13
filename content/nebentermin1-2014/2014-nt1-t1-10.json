@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,162 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_364a",
+          "id": "1_364",
           "baseId": "1_364",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/72/Vergleich%20dreier%20Geraden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k_2>k_3"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "k_3<k_1"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "k_1<k_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d_3>d_2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k_2>k_3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "k_3<k_1"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "d_1<d_3"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_364",
       "baseId": "1_364",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/72/Vergleich%20dreier%20Geraden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der untenstehenden Graphik sind drei Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g_1"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "g_2"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g_3"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Es gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "g_1:y=k_1\\cdot x+d_1"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "g_2:y=k_2\\cdot x+d_2"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "g_3:y=k_3\\cdot x+d_3"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-10-lines.png",
+      "alt": "Originalgraphik der Geraden g1, g2 und g3."
     }
   ]
 }

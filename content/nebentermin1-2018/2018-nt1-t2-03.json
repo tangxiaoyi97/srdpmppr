@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -23,8 +23,95 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt1-t2-03-a",
-      "label": "a",
+      "id": "2018-nt1-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 1.6",
+          "description": "Schnittpunkte zweier Funktionsgraphen grafisch und rechnerisch ermitteln und im Kontext interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_039a",
+          "baseId": "2_039",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie für die Lachspopulation im Skeena River für "
+        },
+        {
+          "t": "math",
+          "v": "n>0"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe der Reproduktionsfunktion die Lösung "
+        },
+        {
+          "t": "math",
+          "v": "n_0"
+        },
+        {
+          "t": "text",
+          "v": " der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "R(n)=n"
+        },
+        {
+          "t": "text",
+          "v": " in tausend Lachsen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n_0",
+            "label": "Lachsbestand (in tausend Lachsen)",
+            "value": 547.5,
+            "tol": 0.5
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n_0\\approx547"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall für den Lachsbestand: [547; 548]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-03-a2",
+      "label": "a2",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -36,20 +123,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_039a",
           "baseId": "2_039",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie für die Lachspopulation im Skeena River für "
+        },
+        {
+          "t": "math",
+          "v": "n>0"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe der Reproduktionsfunktion die Lösung "
+        },
+        {
+          "t": "math",
+          "v": "n_0"
+        },
+        {
+          "t": "text",
+          "v": " der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "R(n)=n"
+        },
+        {
+          "t": "text",
+          "v": " in tausend Lachsen!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "n_0"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Im gegebenen Kontext gibt "
+          },
+          {
+            "t": "math",
+            "v": "n_0"
+          },
+          {
+            "t": "text",
+            "v": " denjenigen Lachsbestand an, bei dem die Anzahl der Lachse der Nachfolgegeneration unverändert bleibt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für eine korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Im gegebenen Kontext gibt "
+            },
+            {
+              "t": "math",
+              "v": "n_0"
+            },
+            {
+              "t": "text",
+              "v": " denjenigen Lachsbestand an, bei dem die Anzahl der Lachse der Nachfolgegeneration unverändert bleibt."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Interpretation."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-03-b",
-      "label": "b",
+      "id": "2018-nt1-t2-03-b1",
+      "label": "b1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -67,21 +255,322 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_039b",
           "baseId": "2_039",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koordinaten des Extrempunkts "
+        },
+        {
+          "t": "math",
+          "v": "E=(n_E\\mid R(n_E))"
+        },
+        {
+          "t": "text",
+          "v": " der Reproduktionsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und zeigen Sie, dass "
+        },
+        {
+          "t": "math",
+          "v": "n_E"
+        },
+        {
+          "t": "text",
+          "v": " für alle "
+        },
+        {
+          "t": "math",
+          "v": "a,b\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": " eine Stelle eines lokalen Maximums ist!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "R'(n)=0\\Rightarrow n_E=\\frac1b"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "R\\left(\\frac1b\\right)=\\frac a{b\\cdot\\mathrm e}\\Rightarrow E=\\left(\\frac1b\\,\\middle|\\,\\frac a{b\\cdot\\mathrm e}\\right)"
+          },
+          {
+            "t": "text",
+            "v": ". Möglicher Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "R''\\left(\\frac1b\\right)=-\\frac{a\\cdot b}{\\mathrm e}<0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "a,b\\in\\mathbb R^+\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Maximumstelle."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe der richtigen Koordinaten von E und einen korrekten Nachweis."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "R'(n)=0\\Rightarrow n_E=\\frac1b"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "R\\left(\\frac1b\\right)=\\frac a{b\\cdot\\mathrm e}\\Rightarrow E=\\left(\\frac1b\\,\\middle|\\,\\frac a{b\\cdot\\mathrm e}\\right)"
+            },
+            {
+              "t": "text",
+              "v": ". Möglicher Nachweis: "
+            },
+            {
+              "t": "math",
+              "v": "R''\\left(\\frac1b\\right)=-\\frac{a\\cdot b}{\\mathrm e}<0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "a,b\\in\\mathbb R^+\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Maximumstelle."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Koordinaten von E und einen korrekten Nachweis."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-03-c",
-      "label": "c",
-      "format": "Konstruktionsformat",
+      "id": "2018-nt1-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.1",
+          "description": "einfache Terme und Formeln aufstellen, umformen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_039b",
+          "baseId": "2_039",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koordinaten des Extrempunkts "
+        },
+        {
+          "t": "math",
+          "v": "E=(n_E\\mid R(n_E))"
+        },
+        {
+          "t": "text",
+          "v": " der Reproduktionsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und zeigen Sie, dass "
+        },
+        {
+          "t": "math",
+          "v": "n_E"
+        },
+        {
+          "t": "text",
+          "v": " für alle "
+        },
+        {
+          "t": "math",
+          "v": "a,b\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": " eine Stelle eines lokalen Maximums ist!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, für welche Werte des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " der Bestand "
+        },
+        {
+          "t": "math",
+          "v": "R(n_E)"
+        },
+        {
+          "t": "text",
+          "v": " der Nachfolgegeneration stets größer als der vorherige Bestand "
+        },
+        {
+          "t": "math",
+          "v": "n_E"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\frac a{b\\cdot\\mathrm e}>\\frac1b\\Rightarrow a>\\mathrm e"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac a{b\\cdot\\mathrm e}>\\frac1b\\Rightarrow a>\\mathrm e"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 1.1",
@@ -98,26 +587,263 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_039c",
           "baseId": "2_039",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie die Daten der obigen Tabelle der beobachteten Lachsbestände (in tausend Lachsen) durch ein Histogramm dar, wobei die absoluten Häufigkeiten als Flächeninhalte von Rechtecken abgebildet werden sollen!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-03-histogram-axes.png",
+          "alt": "Originales Koordinatensystem für das Histogramm der Lachsbestände."
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Vier Rechtecke mit Breite 4 Jahre und den Höhen 274,5; 185; 178,5; 153,75. Absolute Häufigkeiten 1 098; 740; 714; 615 müssen durch die Flächeninhalte dargestellt werden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrektes Histogramm."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Histogramm mit vier aneinanderliegenden Rechtecken der Breite 4 Jahre; Höhen 274,5; 185; 178,5; 153,75, sodass die Flächeninhalte 1 098; 740; 714; 615 ergeben."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-03-histogram-solution.png",
+              "alt": "Originales Lösungshistogramm mit Häufigkeiten als Flächeninhalten."
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Histogramm."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-03-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.4",
+          "description": "aus Tabellen, Graphen und Gleichungen von Funktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_039c",
+          "baseId": "2_039",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das von Ricker entwickelte Modell zählt zu den Standardmodellen zur Beschreibung von Populationsentwicklungen. Dennoch können die mithilfe der Reproduktionsfunktion berechneten Werte mehr oder weniger stark von den beobachteten Werten abweichen.\n\nNehmen Sie den beobachteten durchschnittlichen Lachsbestand von 1 098 (im Zeitraum von 1908 bis 1911) als Ausgangswert, berechnen Sie damit für die jeweils vierjährigen Zeiträume von 1912 bis 1923 die laut Reproduktionsfunktion zu erwartenden durchschnittlichen Lachsbestände im Skeena River und tragen Sie die Werte in die nachstehende Tabelle ein!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-03-predicted-blank-table.png",
+          "alt": "Originale auszufüllende Tabelle der berechneten Lachsbestände."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "01.01.1912 – 31.12.1915: 713\n01.01.1916 – 31.12.1919: 626\n01.01.1920 – 31.12.1923: 589\nBerechneter Lachsbestand jeweils in tausend Lachsen."
+          },
+          {
+            "t": "text",
+            "v": "\nAuch korrekt berechnete ungerundete Werte der wiederholten Anwendung von R ab n = 1 098 sind richtig (ungefähr 713,3998; 626,3945; 588,7748). Die Aufgabenstellung verlangt keine Rundung auf ganze Tausend.\n\nBewertung: Ein Punkt für die Angabe der richtigen Werte in der Tabelle."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "01.01.1912 – 31.12.1915: 713\n01.01.1916 – 31.12.1919: 626\n01.01.1920 – 31.12.1923: 589\nBerechneter Lachsbestand jeweils in tausend Lachsen."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Werte in der Tabelle."
+        }
+      ]
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_039",
       "baseId": "2_039",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/389/Lachsbestand.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der kanadische Wissenschaftler W. E. Ricker untersuchte die Nachkommenanzahl von Fischen in Flüssen Nordamerikas in Abhängigkeit von der Anzahl der Fische der Elterngeneration. Er veröffentlichte 1954 das nach ihm benannte Ricker-Modell.\n"
+    },
+    {
+      "t": "text",
+      "v": "Der zu erwartende Bestand "
+    },
+    {
+      "t": "math",
+      "v": "R(n)"
+    },
+    {
+      "t": "text",
+      "v": " einer Nachfolgegeneration kann näherungsweise anhand der sogenannten Reproduktionsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "R(n)=a\\cdot n\\cdot\\mathrm e^{-b\\cdot n}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": " aus dem Bestand "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " der jeweiligen Elterngeneration ermittelt werden."
+    },
+    {
+      "t": "text",
+      "v": "\nLachse kehren spätestens vier Jahre nach dem Schlüpfen aus dem Meer an ihren „Geburtsort“ zurück, um dort zu laichen, d. h., die Fischeier abzulegen. Nach dem Laichen stirbt der Großteil der Lachse.\nRicker untersuchte unter anderem die Rotlachspopulation im Skeena River in Kanada. Die nachstehende Tabelle gibt die dortigen Lachsbestände in den Jahren von 1908 bis 1923 an, wobei die angeführten Bestände Mittelwerte der beobachteten Bestände jeweils vier aufeinanderfolgender Jahre sind."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-03-observed-table.png",
+      "alt": "Originaltabelle der beobachteten Lachsbestände von 1908 bis 1923."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: http://jmahaffy.sdsu.edu/courses/s00/math121/lectures/product_rule/product.html [01.02.2018] (adaptiert).\n\nAnhand dieser Daten für den Lachsbestand im Skeena River wurden für die Reproduktionsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " die Parameterwerte "
+    },
+    {
+      "t": "math",
+      "v": "a=1{,}535"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b=0{,}000783"
+    },
+    {
+      "t": "text",
+      "v": " ermittelt ("
+    },
+    {
+      "t": "math",
+      "v": "R(n)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " in tausend Lachsen)."
     }
   ]
 }

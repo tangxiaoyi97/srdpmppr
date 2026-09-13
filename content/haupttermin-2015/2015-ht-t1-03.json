@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -24,12 +24,83 @@
     {
       "id": "2015-ht-t1-03-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck gibt die Summe der Gehälter der 8 Mitarbeiter/innen des Kleinunternehmens an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, was der Ausdruck (das Skalarprodukt) "
+        },
+        {
+          "t": "math",
+          "v": "G\\cdot\\begin{pmatrix}1\\\\1\\\\1\\\\1\\\\1\\\\1\\\\1\\\\1\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Kontext bedeutet!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck gibt die Summe der Gehälter der 8 Mitarbeiter/innen des Kleinunternehmens an."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=7",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Gehälter der 8 Mitarbeiter/innen eines Kleinunternehmens sind im Vektor "
+    },
+    {
+      "t": "math",
+      "v": "G=\\begin{pmatrix}G_1\\\\G_2\\\\\\vdots\\\\G_8\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    }
+  ]
 }

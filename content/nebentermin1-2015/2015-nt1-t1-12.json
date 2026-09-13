@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -24,12 +24,200 @@
     {
       "id": "2015-nt1-t1-12-a",
       "label": "a",
-      "format": "",
+      "format": "Zuordnungsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_434",
+          "baseId": "1_434",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/142/Sinusfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f_1"
+            },
+            {
+              "t": "text",
+              "v": ": F, "
+            },
+            {
+              "t": "math",
+              "v": "f_2"
+            },
+            {
+              "t": "text",
+              "v": ": C, "
+            },
+            {
+              "t": "math",
+              "v": "f_3"
+            },
+            {
+              "t": "text",
+              "v": ": B, "
+            },
+            {
+              "t": "math",
+              "v": "f_4"
+            },
+            {
+              "t": "text",
+              "v": ": D."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Graphen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie jedem Graphen den dazugehörigen Funktionsterm (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-12-graph-1.png",
+              "alt": "Graph f1 der Sinusfunktion"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-12-graph-2.png",
+              "alt": "Graph f2 der Sinusfunktion"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-12-graph-3.png",
+              "alt": "Graph f3 der Sinusfunktion"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-12-graph-4.png",
+              "alt": "Graph f4 der Sinusfunktion"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "\\sin(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1{,}5\\cdot\\sin(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sin(0{,}5x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1{,}5\\cdot\\sin(2x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\sin(0{,}5x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "2\\cdot\\sin(3x)"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=16",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_434",
+      "baseId": "1_434",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/142/Sinusfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Graphen von vier Funktionen der Form "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

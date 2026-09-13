@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -58,12 +58,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "pGrande",
-            "value": 0.000771,
-            "tol": 0.00001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "1\\cdot\\left(\\tfrac{1}{6}\\right)^{4}=\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "  oder:  "
+          },
+          {
+            "t": "math",
+            "v": "6\\cdot\\left(\\tfrac{1}{6}\\right)^{5}=\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tfrac{1}{1\\,296}=0{,}0007\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Ermitteln der Wahrscheinlichkeit für ein Grande."
           }
         ]
       },
@@ -101,7 +125,7 @@
     {
       "id": "2022-het-t2-04-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.2",
@@ -138,19 +162,44 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p1",
-            "label": "p₁",
-            "value": 0.027777777777777776,
-            "tol": 0.0001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "p2",
-            "label": "p₂",
-            "value": 0.1388888888888889,
-            "tol": 0.0001
+            "t": "math",
+            "v": "p_1=\\tfrac{1}{6}\\cdot\\tfrac{1}{6}=\\tfrac{1}{36}=0{,}0277\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "p_2=5\\cdot\\tfrac{1}{6}\\cdot\\tfrac{1}{6}=\\tfrac{5}{36}=0{,}1388\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p_1=\\tfrac{1}{36}=0{,}0277\\ldots"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "p_2=\\tfrac{5}{36}=0{,}1388\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Ermitteln der zwei Wahrscheinlichkeiten p₁ und p₂, ein halber Punkt für nur eine richtige Wahrscheinlichkeit."
           }
         ]
       },
@@ -301,14 +350,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "x",
-            "label": "x",
-            "value": 2.987,
-            "tol": 0.01,
-            "unit": "Euro"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(\\text{Franz bekommt 40 Euro})=0{,}0309+0{,}0386=0{,}0695"
+          },
+          {
+            "t": "math",
+            "v": "P(\\text{Anna bekommt }x\\text{ Euro})=1-0{,}0695=0{,}9305"
+          },
+          {
+            "t": "math",
+            "v": "40\\cdot 0{,}0695=x\\cdot 0{,}9305"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "x=2{,}987\\ldots\\ \\text{Euro}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für das richtige Ermitteln von x."
           }
         ]
       },

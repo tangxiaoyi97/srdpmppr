@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -22,14 +22,920 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt1-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Am 1. Mai 1976 gelang dem US-Amerikaner Mac Wilkins der erste Diskuswurf über 70 m. Wilkins erreichte eine Wurfweite von 70,24 m, also "
+        },
+        {
+          "t": "math",
+          "v": "M=70{,}24"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nⒶ Berechnen Sie sein Punkteergebnis im Diskuswurf!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 1300,64 Punkte; Toleranzintervall [1300;1301]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [1300; 1301]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P=12{,}91\\cdot(70{,}24-4)^{1{,}1}\\approx1300{,}64"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [1300; 1301]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Bedeutung des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " der Punkteformel im Hinblick auf die erzielte Punkteanzahl für den Diskuswurf der Herren an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mindestwurfweite, die übertroffen werden muss, um Punkte zu erhalten; hier 4 m."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation. Andere korrekte Interpretationen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine mögliche Interpretation von "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": ":\n"
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die (Mindest-)Leistung (Wurfweite), die übertroffen werden muss, um Punkte zu erhalten."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation. Andere korrekte Interpretationen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Bulgarin Stefka Kostadinowa übersprang am 30. August 1987 in Rom eine Höhe von 2,09 m und hält seitdem den Hochsprung-Weltrekord. Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P:M\\mapsto P(M)"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Abhängigkeit der Punktezahl "
+        },
+        {
+          "t": "math",
+          "v": "P(M)"
+        },
+        {
+          "t": "text",
+          "v": " von der Leistung "
+        },
+        {
+          "t": "math",
+          "v": "M"
+        },
+        {
+          "t": "text",
+          "v": " bei Hochsprungleistungen.\n\nBerechnen Sie die Steigung der Tangente an die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " bei dieser Weltrekordhöhe im Hochsprung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "P′(209)≈13,68 Punkte/cm. Toleranz [13;14]; korrekter Ansatz trotz Rechenfehler akzeptieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Toleranzintervall: [13; 14]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nOffizielle Lösungserwartung / möglicher Ansatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(M)=1{,}84523\\cdot(M-75)^{1{,}348}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P'(M)=2{,}48737004\\cdot(M-75)^{0{,}348}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P'(209)\\approx13{,}68"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(M)=1{,}84523\\cdot(M-75)^{1{,}348}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P'(M)=2{,}48737004\\cdot(M-75)^{0{,}348}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P'(209)\\approx13{,}68"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [13; 14]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Bulgarin Stefka Kostadinowa übersprang am 30. August 1987 in Rom eine Höhe von 2,09 m und hält seitdem den Hochsprung-Weltrekord. Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P:M\\mapsto P(M)"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Abhängigkeit der Punktezahl "
+        },
+        {
+          "t": "math",
+          "v": "P(M)"
+        },
+        {
+          "t": "text",
+          "v": " von der Leistung "
+        },
+        {
+          "t": "math",
+          "v": "M"
+        },
+        {
+          "t": "text",
+          "v": " bei Hochsprungleistungen.\n\nBerechnen Sie die Steigung der Tangente an die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " bei dieser Weltrekordhöhe im Hochsprung!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Wert der Steigung im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Näherungsweise Änderung der Punktezahl pro Zentimeter Sprunghöhenänderung bei dieser Leistung."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation. Andere korrekte Interpretationen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert der Steigung dieser Tangente gibt näherungsweise an, um wie viel sich die Punktezahl bei dieser Leistung pro Zentimeter Sprunghöhenänderung verändert."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation. Andere korrekte Interpretationen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die folgende Grafik zeigt den funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "P_1(M)"
+        },
+        {
+          "t": "text",
+          "v": " für den 100-m-Lauf beim Zehnkampf der Männer:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-c-graph.png",
+          "alt": "100-m-Punktefunktion P₁ mit A=(9|1357,08) und B=(12|651,45)"
+        },
+        {
+          "t": "text",
+          "v": "\nNähern Sie den Graphen "
+        },
+        {
+          "t": "math",
+          "v": "P_1"
+        },
+        {
+          "t": "text",
+          "v": " durch eine lineare Funktion an, deren Graph durch die Punkte "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " geht! Geben Sie eine Gleichung dieser Näherungsfunktion an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "P_{1,\\mathrm{linear}}(M)=-235{,}21M+3473{,}97"
+          },
+          {
+            "t": "text",
+            "v": "; Toleranz k [−236;−235], d [3473;3474]; äquivalente Funktionsgleichungen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Toleranzintervall für k: [−236; −235]. Toleranzintervall für d: [3473; 3474]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P_{1,\\mathrm{linear}}(M)=-235{,}21\\cdot M+3473{,}97"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Toleranzintervall für k: [−236; −235]. Toleranzintervall für d: [3473; 3474]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die folgende Grafik zeigt den funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "P_1(M)"
+        },
+        {
+          "t": "text",
+          "v": " für den 100-m-Lauf beim Zehnkampf der Männer:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-c-graph.png",
+          "alt": "100-m-Punktefunktion P₁ mit A=(9|1357,08) und B=(12|651,45)"
+        },
+        {
+          "t": "text",
+          "v": "\nNähern Sie den Graphen "
+        },
+        {
+          "t": "math",
+          "v": "P_1"
+        },
+        {
+          "t": "text",
+          "v": " durch eine lineare Funktion an, deren Graph durch die Punkte "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " geht! Geben Sie eine Gleichung dieser Näherungsfunktion an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie viele Sekunden die Laufzeit bei dieser Näherung betragen dürfte, um Punkte zu erhalten!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Maximal ca. 14,77 s, Toleranz [14,7 s;15 s]; Einheit nicht erforderlich."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit nicht angegeben werden muss. Toleranzintervall: [14,7 s; 15 s]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P_{1,\\mathrm{linear}}(M)=0\\Rightarrow M\\approx14{,}77"
+            },
+            {
+              "t": "text",
+              "v": "\nUm Punkte zu erhalten, dürfte die Laufzeit maximal 14,77 s betragen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit nicht angegeben werden muss. Toleranzintervall: [14,7 s; 15 s]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die folgende Grafik zeigt den funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "P_2(M)"
+        },
+        {
+          "t": "text",
+          "v": " für den 800-m-Lauf beim Siebenkampf der Frauen:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-d-graph.png",
+          "alt": "800-m-Punktefunktion P₂ mit A=(100|1450,39), B=(150|693,38), C=(200|202,23)"
+        },
+        {
+          "t": "text",
+          "v": "\nBerechnen Sie die mittlere Änderungsrate von "
+        },
+        {
+          "t": "math",
+          "v": "P_2"
+        },
+        {
+          "t": "text",
+          "v": " sowohl zwischen den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "M=100"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "M=150"
+        },
+        {
+          "t": "text",
+          "v": " als auch zwischen den Stellen "
+        },
+        {
+          "t": "math",
+          "v": "M=150"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "M=200"
+        },
+        {
+          "t": "text",
+          "v": " in Punkten pro Sekunde!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Beide Werte: −15,14 und −9,82 Punkte/s. Toleranzintervalle [−16;−14] und [−10;−9]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe beider Werte. Toleranzintervalle: [−16; −14] und [−10; −9]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mittlere Änderungsrate zwischen "
+            },
+            {
+              "t": "math",
+              "v": "M=100"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "M=150"
+            },
+            {
+              "t": "text",
+              "v": ": −15,14 Punkte pro Sekunde\nmittlere Änderungsrate zwischen "
+            },
+            {
+              "t": "math",
+              "v": "M=150"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "M=200"
+            },
+            {
+              "t": "text",
+              "v": ": −9,82 Punkte pro Sekunde"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe beider Werte. Toleranzintervalle: [−16; −14] und [−10; −9]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-02-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die folgende Grafik zeigt den funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "P_2(M)"
+        },
+        {
+          "t": "text",
+          "v": " für den 800-m-Lauf beim Siebenkampf der Frauen:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-d-graph.png",
+          "alt": "800-m-Punktefunktion P₂ mit A=(100|1450,39), B=(150|693,38), C=(200|202,23)"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie anhand der Grafik, warum sich eine Änderung der Leistung bei besserer Leistung stärker auf die Punktezahl auswirkt als bei schwächerer Leistung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Funktion ist linksgekrümmt; bei kürzeren Laufzeiten sind Änderungsraten betragsmäßig größer."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Da die Funktion linksgekrümmt ist, sind die Änderungsraten bei kürzeren Laufzeiten (betragsmäßig) größer als bei längeren Laufzeiten."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für die beiden Leichtathletikwettbewerbe Zehnkampf der Männer und Siebenkampf der Frauen gibt es eine international gültige Punktewertung für Großveranstaltungen (Weltmeisterschaften, Olympische Spiele). Die Einzelbewerbe werden nach den unten angeführten Formeln bepunktet. Die Summe der Punkte der Einzelbewerbe ergibt die Gesamtpunkteanzahl, die ein Sportler bzw. eine Sportlerin beim Zehn- bzw. Siebenkampf erreicht.\n\nFür die Errechnung der Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " bei Laufwettbewerben gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "P=a\\cdot(b-M)^c"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "M<b"
+    },
+    {
+      "t": "text",
+      "v": ", sonst "
+    },
+    {
+      "t": "math",
+      "v": "P=0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nFür die Errechnung der Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " bei Sprung- und Wurfwettbewerben gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "P=a\\cdot(M-b)^c"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "M>b"
+    },
+    {
+      "t": "text",
+      "v": ", sonst "
+    },
+    {
+      "t": "math",
+      "v": "P=0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nIn beiden Formeln beschreibt "
+    },
+    {
+      "t": "math",
+      "v": "M"
+    },
+    {
+      "t": "text",
+      "v": " die erzielte Leistung. Dabei werden Läufe in Sekunden, Sprünge in Zentimetern und Würfe in Metern gemessen. Die Parameter "
+    },
+    {
+      "t": "math",
+      "v": "a,b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " sind vorgegebene Konstanten für die jeweiligen Sportarten. Die errechneten Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " werden im Allgemeinen auf zwei Dezimalstellen gerundet.\n\nAus den beiden folgenden Tabellen kann man die Werte der Parameter "
+    },
+    {
+      "t": "math",
+      "v": "a,b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " entnehmen:\n\nTabelle 1: Zehnkampf der Männer"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-mens-table.png",
+      "alt": "Tabelle 1: Parameter a,b,c für die zehn Disziplinen des Zehnkampfs der Männer"
+    },
+    {
+      "t": "text",
+      "v": "\nTabelle 2: Siebenkampf der Frauen"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-02-womens-table.png",
+      "alt": "Tabelle 2: Parameter a,b,c für die sieben Disziplinen des Siebenkampfs der Frauen"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: https://de.wikipedia.org/wiki/Punktewertung_(Leichtathletik) [26.06.2015]"
+    }
+  ]
 }

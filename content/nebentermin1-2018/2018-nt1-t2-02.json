@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -23,9 +23,9 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt1-t2-02-a",
-      "label": "a",
-      "format": "Offenes Antwortformat",
+      "id": "2018-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 6.4",
@@ -42,21 +42,244 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_038a",
           "baseId": "2_038",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für einen Ton, der mithilfe der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=\\sin(c\\cdot\\pi\\cdot t)"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb R^+"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in ms beschrieben wird, eine Formel für die Periodenlänge "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " (in ms) in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " an!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "expression",
+        "canonical": "\\frac2c",
+        "vars": [
+          "c"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T=\\frac{2\\cdot\\pi}{c\\cdot\\pi}\\Rightarrow T=\\frac2c"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-02-b",
-      "label": "b",
-      "format": "Offenes Antwortformat",
+      "id": "2018-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.4",
+          "description": "Periodizität als charakteristische Eigenschaft kennen und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 4.2",
+          "description": "einfache Regeln des Integrierens kennen und anwenden können: Potenzregel, Summenregel, Integral( k * f(x) dx), Integral (f(k * x) dx) (vgl. Inhaltsbereich Funktionale Abhängigkeiten), bestimmte Integrale von Polynomfunktionen ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_038a",
+          "baseId": "2_038",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Effektivwert "
+        },
+        {
+          "t": "math",
+          "v": "p_{\\mathrm{eff}}"
+        },
+        {
+          "t": "text",
+          "v": " des Schalldrucks einer Sinusschwingung mit der Periodenlänge "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " (in ms) kann mit der Formel "
+        },
+        {
+          "t": "math",
+          "v": "p_{\\mathrm{eff}}=\\sqrt{\\frac1T\\int_0^T p^2(t)\\,\\mathrm dt}"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden.\nBerechnen Sie den Effektivwert des Schalldrucks eines Tons, wenn "
+        },
+        {
+          "t": "math",
+          "v": "\\bar p=1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\omega=2\\cdot\\pi"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "T=\\frac{2\\cdot\\pi}{2\\cdot\\pi}=1"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "p_{\\mathrm{eff}}=\\sqrt{\\frac11\\int_0^1\\sin^2(2\\pi\\cdot t)\\,\\mathrm dt}=\\frac1{\\sqrt2}\\Rightarrow p_{\\mathrm{eff}}\\approx0{,}71\\ \\mathrm{Pa}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Berechnung des richtigen Effektivwerts des Schalldrucks, wobei die Einheit „Pa“ nicht angeführt sein muss. Toleranzintervall: [0,7 Pa; 0,71 Pa]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T=\\frac{2\\cdot\\pi}{2\\cdot\\pi}=1"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "p_{\\mathrm{eff}}=\\sqrt{\\frac11\\int_0^1\\sin^2(2\\pi\\cdot t)\\,\\mathrm dt}=\\frac1{\\sqrt2}\\Rightarrow p_{\\mathrm{eff}}\\approx0{,}71\\ \\mathrm{Pa}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Berechnung des richtigen Effektivwerts des Schalldrucks, wobei die Einheit „Pa“ nicht angeführt sein muss. Toleranzintervall: [0,7 Pa; 0,71 Pa]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 6.2",
@@ -73,20 +296,291 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_038b",
           "baseId": "2_038",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie (z. B. unter Zuhilfenahme eines geeigneten Graphen) die (kleinste) Periodenlänge "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " (in ms) der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " an!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "T",
+            "label": "Periodenlänge (ms)",
+            "value": 4,
+            "tol": 0.1,
+            "unit": "ms"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T=4\\ \\mathrm{ms}"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Periodenlänge von h, wobei die Einheit „ms“ nicht angeführt sein muss. Toleranzintervall: [3,9 ms; 4,1 ms]."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-02-c",
-      "label": "c",
+      "id": "2018-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.2",
+          "description": "aus Graphen und Gleichungen von allgemeinen Sinusfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 6.3",
+          "description": "die Wirkung der Parameter a und b kennen und die Parameter im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_038b",
+          "baseId": "2_038",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Frequenz "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in Hertz an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Frequenz von "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": ": "
+          },
+          {
+            "t": "math",
+            "v": "\\frac1{0{,}004}=250\\ \\mathrm{Hz}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Frequenz von "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": ": "
+            },
+            {
+              "t": "math",
+              "v": "\\frac1{0{,}004}=250\\ \\mathrm{Hz}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 6.1",
+          "description": "grafisch oder durch eine Gleichung (Formel) gegebene Zusammenhänge der Art f(x) = a * sin(b * x) als allgemeine Sinusfunktion erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 6.2",
+          "description": "aus Graphen und Gleichungen von allgemeinen Sinusfunktionen Werte(paare) ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_038c",
+          "baseId": "2_038",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie (z. B. unter Zuhilfenahme eines geeigneten Graphen) die Amplitude der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " und denjenigen Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t\\ge0"
+        },
+        {
+          "t": "text",
+          "v": " (in ms) an, zu dem die Amplitude erstmals erreicht wird!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Amplitude",
+            "label": "Amplitude",
+            "value": 2.9,
+            "tol": 0.05
+          },
+          {
+            "id": "t",
+            "label": "Zeitpunkt (ms)",
+            "value": 0.2,
+            "tol": 0.01,
+            "unit": "ms"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Amplitude von "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": ": ca. 2,9 nach ca. 0,2 ms"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Amplitude und den richtigen Zeitpunkt, wobei die Einheit „ms“ nicht angeführt sein muss. Toleranzintervalle: [2,85; 2,95] bzw. [0,19 ms; 0,21 ms]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-02-c2",
+      "label": "c2",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -104,21 +598,158 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_038c",
           "baseId": "2_038",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die Amplitude von "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " nicht gleich der Summe der drei Amplituden der Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "h_2"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h_3"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Amplitude von "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " ist nicht gleich der Summe der Amplituden von "
+          },
+          {
+            "t": "math",
+            "v": "h_1"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h_2"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "h_3"
+          },
+          {
+            "t": "text",
+            "v": ", da die drei Funktionen ihre maximalen Funktionswerte zu unterschiedlichen Zeitpunkten erreichen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Amplitude von "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " ist nicht gleich der Summe der Amplituden von "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h_2"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "h_3"
+            },
+            {
+              "t": "text",
+              "v": ", da die drei Funktionen ihre maximalen Funktionswerte zu unterschiedlichen Zeitpunkten erreichen."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Begründung."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-02-d",
-      "label": "d",
-      "format": "Offenes Antwortformat",
+      "id": "2018-nt1-t2-02-d1",
+      "label": "d1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AG 4.1",
@@ -135,26 +766,563 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_038d",
           "baseId": "2_038",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein angenehmes Raumklangerlebnis (z. B. in einem Heimkino) ist es günstig, wenn die fünf Lautsprecher eines Fünf-Kanal-Tonsystems wie in nachstehender linker Skizze dargestellt angeordnet sind (Ansicht von oben). Vereinfacht kann die Anordnung wie in nachstehender rechter Skizze in einem kartesischen Koordinatensystem (Einheit in Metern) dargestellt werden:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-02-speakers.png",
+          "alt": "Originale Lautsprecheranordnung und zugehörige Koordinatenskizze."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.wikipedia.org/wiki/5.1 [23.04.2018] (adaptiert).\n\nJeder der fünf Lautsprecher ("
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "L_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "L_2"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "R_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "R_2"
+        },
+        {
+          "t": "text",
+          "v": ") ist in diesem Fall 2 m vom Hörer ("
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": ") entfernt. Der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " liegt im Koordinatenursprung.\n\nⒶ Geben Sie die kartesischen Koordinaten von "
+        },
+        {
+          "t": "math",
+          "v": "R_1"
+        },
+        {
+          "t": "text",
+          "v": " an!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "R_1=(1\\mid\\sqrt3)"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "x(R_1)=2\\cdot\\cos(60^\\circ)=2\\cdot\\frac12=1"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "y(R_1)=2\\cdot\\sin(60^\\circ)=2\\cdot\\frac{\\sqrt3}2=\\sqrt3"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die Angabe der richtigen Koordinaten von R₁. Toleranzintervall für die y-Koordinate: [1,7; 1,75]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "R_1=(1\\mid\\sqrt3)"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "x(R_1)=2\\cdot\\cos(60^\\circ)=2\\cdot\\frac12=1"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "y(R_1)=2\\cdot\\sin(60^\\circ)=2\\cdot\\frac{\\sqrt3}2=\\sqrt3"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe der richtigen Koordinaten von R₁. Toleranzintervall für die y-Koordinate: [1,7; 1,75]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-02-d2",
+      "label": "d2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AG 4.1",
+          "description": "Definitionen von Sinus, Cosinus und Tangens im rechtwinkeligen Dreieck kennen und zur Auflösung rechtwinkeliger Dreiecke einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 4.2",
+          "description": "Definitionen von Sinus und Cosinus für Winkel größer als 90° kennen und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_038d",
+          "baseId": "2_038",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein angenehmes Raumklangerlebnis (z. B. in einem Heimkino) ist es günstig, wenn die fünf Lautsprecher eines Fünf-Kanal-Tonsystems wie in nachstehender linker Skizze dargestellt angeordnet sind (Ansicht von oben). Vereinfacht kann die Anordnung wie in nachstehender rechter Skizze in einem kartesischen Koordinatensystem (Einheit in Metern) dargestellt werden:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-02-speakers.png",
+          "alt": "Originale Lautsprecheranordnung und zugehörige Koordinatenskizze."
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.wikipedia.org/wiki/5.1 [23.04.2018] (adaptiert).\n\nJeder der fünf Lautsprecher ("
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "L_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "L_2"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "R_1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "R_2"
+        },
+        {
+          "t": "text",
+          "v": ") ist in diesem Fall 2 m vom Hörer ("
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": ") entfernt. Der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " liegt im Koordinatenursprung."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie die Entfernung zwischen "
+        },
+        {
+          "t": "math",
+          "v": "L_2"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "R_2"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Entfernung",
+            "label": "Entfernung (m)",
+            "value": 3.75,
+            "tol": 0.05,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Entfernung zwischen "
+            },
+            {
+              "t": "math",
+              "v": "L_2"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "R_2"
+            },
+            {
+              "t": "text",
+              "v": " "
+            },
+            {
+              "t": "math",
+              "v": "=2\\cdot x(R_2)=2\\cdot2\\cdot\\cos(20^\\circ)\\approx3{,}76\\ \\mathrm m"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Lösung. Toleranzintervall: [3,7 m; 3,8 m]."
+        }
+      ]
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_038",
       "baseId": "2_038",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/388/Ueberlagerung%20von%20Schwingungen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Ton in der Musik kann im einfachsten Fall durch eine Sinusfunktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "s(t)=a\\cdot\\sin(b\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Bei einer derartigen Sinusschwingung wird der maximale Funktionswert als Amplitude bezeichnet. Die Anzahl der Schwingungen pro Sekunde wird als Frequenz "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet und in Hertz (Hz) angegeben.\nFür die Frequenz "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " gilt: "
+    },
+    {
+      "t": "math",
+      "v": "f=\\frac1T"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden), wobei "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " die (kleinste) Periodenlänge der jeweiligen Sinusschwingung ist ("
+    },
+    {
+      "t": "math",
+      "v": "T\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": ").\n\nDrei bestimmte Töne werden mithilfe der nachstehenden Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "h_1"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "h_2"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h_3"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben. Die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t\\ge0"
+    },
+    {
+      "t": "text",
+      "v": ") wird dabei in Millisekunden (ms) gemessen.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "h_1(t)=\\sin(2\\cdot\\pi\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "h_2(t)=\\sin(2{,}5\\cdot\\pi\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "h_3(t)=\\sin(3\\cdot\\pi\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDie Überlagerung mehrerer Töne bezeichnet man als Klang. Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "h(t)=h_1(t)+h_2(t)+h_3(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt einen Klang.\n\nDer Schalldruck eines Tons ist zeitabhängig und kann durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p(t)=\\bar p\\cdot\\sin(\\omega\\cdot t)"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Dabei sind "
+    },
+    {
+      "t": "math",
+      "v": "\\bar p"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\omega"
+    },
+    {
+      "t": "text",
+      "v": " Konstanten. Der Schalldruck wird in der Einheit Pascal (Pa) angegeben."
     }
   ]
 }

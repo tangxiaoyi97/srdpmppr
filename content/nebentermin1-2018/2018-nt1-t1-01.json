@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,161 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_638a",
+          "id": "1_638",
           "baseId": "1_638",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/364/Zahlenmengen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jede rationale Zahl kann in endlicher oder periodischer Dezimalschreibweise geschrieben werden.\nJede Bruchzahl ist eine komplexe Zahl."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Irrationale Zahlen lassen sich in der Form "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{a}{b}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "a,b\\in\\mathbb{Z}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b\\ne0"
+            },
+            {
+              "t": "text",
+              "v": " darstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede rationale Zahl kann in endlicher oder periodischer Dezimalschreibweise geschrieben werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede Bruchzahl ist eine komplexe Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Menge der rationalen Zahlen besteht ausschließlich aus positiven Bruchzahlen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl ist auch eine rationale Zahl."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_638",
       "baseId": "1_638",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/364/Zahlenmengen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind Aussagen über Zahlen aus den Mengen "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{Z}"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{Q}"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{C}"
+    },
+    {
+      "t": "text",
+      "v": " angeführt."
     }
   ]
 }

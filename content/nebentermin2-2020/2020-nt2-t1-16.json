@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t1-16",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_749a",
+          "id": "1_749",
           "baseId": "1_749",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/525/Graphen%20von%20Ableitungsfunktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,7 +50,7 @@
           "result": [
             {
               "t": "text",
-              "v": "f₁ → A;  f₂ → B;  f₃ → C;  f₄ → D"
+              "v": "f₁ → D;  f₂ → C;  f₃ → F;  f₄ → A"
             }
           ],
           "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Funktionsgraphen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist. Bei zwei oder drei richtigen Zuordnungen ist ein halber Punkt zu geben."
@@ -60,6 +60,11 @@
         {
           "t": "text",
           "v": "Ordnen Sie den vier Graphen der Funktionen f₁ bis f₄ jeweils denjenigen Graphen (aus A bis F) zu, der die Ableitung dieser Funktion darstellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-16-q.png",
+          "alt": "Links die Graphen der Funktionen f₁, f₂, f₃, f₄; rechts die Graphen von sechs Ableitungsfunktionen A bis F."
         }
       ],
       "answer": {
@@ -131,19 +136,19 @@
         "pairs": [
           [
             0,
-            0
+            3
           ],
           [
             1,
-            1
-          ],
-          [
-            2,
             2
           ],
           [
+            2,
+            5
+          ],
+          [
             3,
-            3
+            0
           ]
         ]
       },
@@ -177,11 +182,6 @@
     {
       "t": "text",
       "v": "Unten stehend sind die vier Graphen der Funktionen f₁ bis f₄ sowie die Graphen von sechs Funktionen (A bis F) abgebildet."
-    },
-    {
-      "t": "fig",
-      "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t1-16-q.png",
-      "alt": "Links die Graphen der Funktionen f₁, f₂, f₃, f₄; rechts die Graphen von sechs Ableitungsfunktionen A bis F."
     }
   ]
 }

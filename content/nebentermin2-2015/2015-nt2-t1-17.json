@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,155 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_381a",
+          "id": "1_381",
           "baseId": "1_381",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/89/Funktionsgleichungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F_1(x)=x^3+2x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "F_2(x)=x^3+2x+1"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe von zwei verschiedenen korrekten Funktionsgleichungen, wobei alle Funktionen in der Form F(x) = x³ + 2x + c mit c ∈ ℝ als richtig zu werten sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Funktionsgleichungen von zwei verschiedenen Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "F_1"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "F_2"
+        },
+        {
+          "t": "text",
+          "v": " an, deren Ableitungsfunktion die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " ist!\n"
+        },
+        {
+          "t": "math",
+          "v": "F_1(x)="
+        },
+        {
+          "t": "text",
+          "v": " ______\n"
+        },
+        {
+          "t": "math",
+          "v": "F_2(x)="
+        },
+        {
+          "t": "text",
+          "v": " ______"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "F_1(x)=x^3+2x"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "F_2(x)=x^3+2x+1"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe von zwei verschiedenen korrekten Funktionsgleichungen, wobei alle Funktionen in der Form F(x) = x³ + 2x + c mit c ∈ ℝ als richtig zu werten sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_381",
       "baseId": "1_381",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/89/Funktionsgleichungen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=3x^2+2"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -104,7 +104,7 @@
     {
       "id": "2020-nt2-t2-03-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 1.7",
@@ -193,7 +193,15 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Ermitteln Sie anhand der gegebenen Abbildung näherungsweise die Höchstgeschwindigkeit v_max während der dargestellten Aufzugsfahrt."
+          "v": "Ermitteln Sie anhand der gegebenen Abbildung näherungsweise die Höchstgeschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " während der dargestellten Aufzugsfahrt."
         }
       ],
       "figures": [],
@@ -331,19 +339,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "dv",
-            "value": 1.2,
-            "tol": 0.1,
-            "unit": "m/s"
+            "t": "math",
+            "v": "\\int_{0}^{1}0{,}6\\cdot t^{2}\\cdot(3-2\\cdot t)\\,dt+\\int_{1}^{2}0{,}6\\,dt+\\int_{2}^{3}0{,}6\\cdot(t-3)^{2}\\cdot(2\\cdot t-3)\\,dt=1{,}2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Im Zeitintervall [0; 3] beträgt die Geschwindigkeitszunahme 1,2 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss. Toleranzintervall: [1,1; 1,3] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss. Toleranzintervall: [1,1; 1,3] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -387,6 +411,18 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Produzent von Aufzugsanlagen plant die Herstellung eines neuen Aufzugs.\nDie Beschleunigung dieses Aufzugs wird in den ersten 3 Sekunden durch die differenzierbare Funktion a₁: [0; 3] → ℝ mit"
+        },
+        {
+          "t": "math",
+          "v": "a_1(t)=\\begin{cases}0{,}6\\cdot t^{2}\\cdot(3-2\\cdot t) & \\text{für } 0\\le t<1\\\\[2pt] 0{,}6 & \\text{für } 1\\le t<2\\\\[2pt] 0{,}6\\cdot(t-3)^{2}\\cdot(2\\cdot t-3) & \\text{für } 2\\le t\\le 3\\end{cases}"
+        },
+        {
+          "t": "text",
+          "v": "beschrieben (t in s, a₁(t) in m/s²).\n\n"
+        },
         {
           "t": "text",
           "v": "Für den Verlauf der Fahrt müssen bestimmte Bedingungen für die Beschleunigung eingehalten werden. Der sogenannte Ruck, die momentane Änderungsrate der Beschleunigung, soll bei einer Fahrt mit einem Aufzug Werte zwischen –1 m/s³ und 1 m/s³ annehmen.\n\nÜberprüfen Sie, ob dieser Aufzug bei t = 1 die angeführten Bedingungen für den Ruck einhält."
@@ -454,7 +490,7 @@
     {
       "t": "fig",
       "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-03-q.png",
-      "alt": "Zeit-Beschleunigung-Diagramm einer 20 s dauernden Aufzugsfahrt: a(t) startet bei 0, steigt auf ca. 0,6 m/s² (Beschleunigungsphase bis ca. 3,5 s), bleibt 0 zwischen ca. 3,5 s und 17 s, und sinkt auf negative Werte (Abbremsphase) bis 20 s."
+      "alt": "Zeit-Beschleunigung-Diagramm mit dem Graphen a; horizontale Achse t von 0 bis 20 und vertikale Achse a(t) von −1 bis 1."
     }
   ]
 }

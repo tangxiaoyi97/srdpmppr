@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,124 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_525a",
+          "id": "1_525",
           "baseId": "1_525",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/234/Fl%C3%A4cheninhalt.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\int_0^2 f(x)\\,dx=7"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Inhalt der grau markierten Fläche!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Flächeninhalt beträgt 7. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_525",
       "baseId": "1_525",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/234/Fl%C3%A4cheninhalt.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Abgebildet ist ein Ausschnitt des Graphen der Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=-\\frac{x^3}8+2\\cdot x"
+    },
+    {
+      "t": "text",
+      "v": ".\nDie Fläche zwischen dem Graphen der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und der "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": "-Achse im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[-2;2]"
+    },
+    {
+      "t": "text",
+      "v": " ist grau markiert."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-17-q.png",
+      "alt": "Graph von f(x) = −x³/8 + 2x; die Fläche zwischen Graph und x-Achse für −2 bis 2 ist grau markiert."
     }
   ]
 }

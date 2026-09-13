@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,142 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_502a",
+          "id": "1_502",
           "baseId": "1_502",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/211/Differenzierbare%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f''(6)=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(11)<0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden für die gegebene Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f''(6)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(11)<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(2)<f''(10)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(6)=0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(7)<f'(10)"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_502",
       "baseId": "1_502",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/211/Differenzierbare%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Ausschnitt eines Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": ". Die Tangentensteigung an der Stelle "
+    },
+    {
+      "t": "math",
+      "v": "x=6"
+    },
+    {
+      "t": "text",
+      "v": " ist maximal."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-16-graph.png",
+      "alt": "Originalgraph der Funktion f mit maximaler Tangentensteigung bei x=6"
     }
   ]
 }

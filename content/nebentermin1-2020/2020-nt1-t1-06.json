@@ -1,6 +1,6 @@
 {
   "id": "2020-nt1-t1-06",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_787a",
+          "id": "1_787",
           "baseId": "1_787",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/571/Leiter.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -77,33 +77,40 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "min",
-            "label": "Mindestabstand",
-            "value": 1.04,
-            "tol": 0.01,
-            "unit": "m"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
           },
           {
-            "id": "max",
-            "label": "Höchstabstand",
-            "value": 1.69,
-            "tol": 0.01,
-            "unit": "m"
+            "t": "math",
+            "v": "\\cos(\\alpha)=\\tfrac{d}{4}\\ \\Rightarrow\\ d=4\\cdot\\cos(\\alpha)"
+          },
+          {
+            "t": "text",
+            "v": "\nα ... Winkel zwischen der Leiter und dem Boden\nd ... Abstand des unteren Endes der Leiter von der Hauswand"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Mindestabstand von der Hauswand: ca. 1,04 m\nHöchstabstand von der Hauswand: ca. 1,69 m"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die Angabe der beiden richtigen Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 2,
+            "desc": "Ein Punkt für die Angabe der beiden richtigen Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben.",
             "points": 1
           }
         ]

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,150 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_603a",
+          "id": "1_603",
           "baseId": "1_603",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/312/Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=\\mathrm e^{k\\cdot x}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Funktionsgleichung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für welche der gegebenen Funktionsgleichungen gilt der Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "f'(x)=k\\cdot f(x)"
+        },
+        {
+          "t": "text",
+          "v": " für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "?\nKreuzen Sie die zutreffende Funktionsgleichung an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f(x)=k"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=\\frac{k}{x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=k\\cdot x"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=x^k"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=\\mathrm e^{k\\cdot x}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=\\sin(k\\cdot x)"
+            }
+          ]
+        ],
+        "correct": [
+          4
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_603",
       "baseId": "1_603",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/312/Ableitung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind sechs Funktionsgleichungen mit einem Parameter "
+    },
+    {
+      "t": "math",
+      "v": "k"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "k\\in\\mathbb{Z}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "k\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

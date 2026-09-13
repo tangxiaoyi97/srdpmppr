@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,109 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_456a",
+          "id": "1_456",
           "baseId": "1_456",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/165/Reelle%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)=12x^2-4x+5"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung der Ableitungsfunktion f′. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Funktionsgleichung der Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f'(x) ="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "12*x^2-4*x+5",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_456",
       "baseId": "1_456",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/165/Reelle%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine reelle Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " ist durch die Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=4x^3-2x^2+5x-2"
+    },
+    {
+      "t": "text",
+      "v": " gegeben."
     }
   ]
 }

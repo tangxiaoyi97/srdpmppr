@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,178 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_343a",
+          "id": "1_343",
           "baseId": "1_343",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/55/Zerfallsprozess.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "t_H=3"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "N(t_H)=400"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "t_H=6"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "t_H=2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "t_H=3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t_H)=400"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t_H)=500"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_343",
       "baseId": "1_343",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/55/Zerfallsprozess.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der unten abgebildete Graph einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " stellt einen exponentiellen Zerfallsprozess dar; dabei bezeichnet "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " die Zeit und "
+    },
+    {
+      "t": "math",
+      "v": "N(t)"
+    },
+    {
+      "t": "text",
+      "v": " die zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " vorhandene Menge des zerfallenden Stoffes. Für die zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " vorhandene Menge gilt: "
+    },
+    {
+      "t": "math",
+      "v": "N(0)=800"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-07-decay.png",
+      "alt": "Originalgraph der exponentiell abnehmenden Menge N in Abhängigkeit von t."
+    },
+    {
+      "t": "text",
+      "v": "Mit "
+    },
+    {
+      "t": "math",
+      "v": "t_H"
+    },
+    {
+      "t": "text",
+      "v": " ist diejenige Zeitspanne gemeint, nach deren Ablauf die ursprüngliche Menge des zerfallenden Stoffes auf die Hälfte gesunken ist."
     }
   ]
 }

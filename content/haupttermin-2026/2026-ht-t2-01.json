@@ -195,7 +195,7 @@
     {
       "id": "2026-ht-t2-01-a2",
       "label": "a2",
-      "format": "Lückentext",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 1.4",
@@ -230,19 +230,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "x",
-            "value": 209.1,
-            "tol": 1,
-            "unit": "m"
+            "t": "math",
+            "v": "h_2(x)=0"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "x_1=209{,}1\\ldots\\quad(x_2=0,\\ x_3=-209{,}1\\ldots)"
+          },
+          {
+            "t": "text",
+            "v": "Der Golfball trifft in einer waagrechten Entfernung von rund 209 m vom Abschlagpunkt auf dem Boden auf."
+          },
+          {
+            "t": "text",
+            "v": "a2) Ein Punkt für das richtige Berechnen der waagrechten Entfernung vom Abschlagpunkt."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Positive Landestelle209,1…m, laut Original rund209m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -387,14 +411,10 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "z",
-            "value": 0.047619047619047616,
-            "tol": 0.000001
-          }
-        ]
+        "kind": "expression",
+        "canonical": "1/21",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",

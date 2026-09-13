@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -22,14 +22,616 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-ht-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es gibt vier Arten von Buccolam-Spritzen mit der dem jeweiligen Altersbereich entsprechenden Midazolam-Dosis:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-04-a-table.png",
+          "alt": "Altersbereiche, Midazolam-Dosis 2,5/5/7,5/10 mg und Etikettfarben Gelb/Blau/Violett/Orange."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDatenquelle: http://www.ema.europa.eu/docs/de_DE/document_library/EPAR_-_Product_Information/human/002267/WC500112310.pdf [02.12.2016].\n\nDiese Spritzen beinhalten je nach Altersbereich eine Lösung mit der entsprechenden Midazolam-Dosis. Zum Beispiel beinhalten die Spritzen mit gelbem Etikett eine Lösung mit einem Volumen von 0,5 ml.\nAllgemein besteht zwischen dem Volumen "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": " (in ml) einer Lösung und der Midazolam-Dosis "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " (in mg) ein direkt proportionaler Zusammenhang.\n\nBeschreiben Sie den Zusammenhang zwischen dem Volumen "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": " einer Lösung und der Midazolam-Dosis "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe einer Gleichung!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "V(D)=0{,}2\\cdot D"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Gleichungen sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V(D)=0{,}2\\cdot D"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es gibt vier Arten von Buccolam-Spritzen mit der dem jeweiligen Altersbereich entsprechenden Midazolam-Dosis:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-04-a-table.png",
+          "alt": "Altersbereiche, Midazolam-Dosis 2,5/5/7,5/10 mg und Etikettfarben Gelb/Blau/Violett/Orange."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDatenquelle: http://www.ema.europa.eu/docs/de_DE/document_library/EPAR_-_Product_Information/human/002267/WC500112310.pdf [02.12.2016].\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob zwischen dem Alter (in Jahren) der Patientin / des Patienten und der zu verabreichenden Midazolam-Dosis ein linearer Zusammenhang besteht, und begründen Sie Ihre Entscheidung anhand der in der obigen Tabelle angegebenen Daten!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zwischen dem Alter (in Jahren) der Patientin/des Patienten und der zu verabreichenden Midazolam-Dosis besteht kein linearer Zusammenhang.\n\nMögliche Begründung:\nBei einem linearen Zusammenhang würden z. B. 3-jährige Kinder eine niedrigere Dosis als 4-jährige Kinder erhalten. Laut Tabelle ist dies nicht der Fall."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zwischen dem Alter (in Jahren) der Patientin/des Patienten und der zu verabreichenden Midazolam-Dosis besteht kein linearer Zusammenhang.\n\nMögliche Begründung:\nBei einem linearen Zusammenhang würden z. B. 3-jährige Kinder eine niedrigere Dosis als 4-jährige Kinder erhalten. Laut Tabelle ist dies nicht der Fall."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen (z. B. mithilfe einer Skizze oder mit einem Hinweis auf das Vorliegen einer unstetigen Funktion) sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die relative Häufigkeit "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " von Nebenwirkungen nach Verabreichung eines Medikaments wird folgendermaßen klassifiziert:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-04-b-table.png",
+          "alt": "Klassifizierung von Nebenwirkungshäufigkeiten: häufig, gelegentlich, selten, sehr selten."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDatenquelle: https://www.vfa.de/de/patienten/patientenratgeber/ratgeber031.html [02.12.2016] (adaptiert).\n\nⒶ Geben Sie an, wie die relative Häufigkeit von Nebenwirkungen der Art „Übelkeit und Erbrechen“ bei der Verabreichung von Buccolam gemäß der in der Einleitung erwähnten klinischen Studie klassifiziert werden müsste!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "häufig"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Da bei 22 von 440 Kindern die Nebenwirkung „Übelkeit und Erbrechen“ auftrat, beträgt die relative Häufigkeit "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{22}{440}=0{,}05"
+            },
+            {
+              "t": "text",
+              "v": ".\nWegen "
+            },
+            {
+              "t": "math",
+              "v": "0{,}01\\leq0{,}05<0{,}1"
+            },
+            {
+              "t": "text",
+              "v": " würde sich für die Nebenwirkung „Übelkeit und Erbrechen“ die Klassifizierung „häufig“ ergeben."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Klassifizierung."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die relative Häufigkeit "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " von Nebenwirkungen nach Verabreichung eines Medikaments wird folgendermaßen klassifiziert:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-04-b-table.png",
+          "alt": "Klassifizierung von Nebenwirkungshäufigkeiten: häufig, gelegentlich, selten, sehr selten."
+        },
+        {
+          "t": "text",
+          "v": "\n\nDatenquelle: https://www.vfa.de/de/patienten/patientenratgeber/ratgeber031.html [02.12.2016] (adaptiert).\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "In der Packungsbeilage von Buccolam wird die Häufigkeit der Nebenwirkung „Hautausschlag“ mit „gelegentlich“ angegeben.\nDie Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt, bei wie vielen von den 440 im Rahmen der Studie mit Buccolam behandelten Kindern die Nebenwirkung „Hautausschlag“ auftritt, und kann als binomialverteilte Zufallsvariable mit dem Parameter "
+        },
+        {
+          "t": "math",
+          "v": "p=0{,}01"
+        },
+        {
+          "t": "text",
+          "v": " sowie dem Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "\\mu"
+        },
+        {
+          "t": "text",
+          "v": " und der Standardabweichung "
+        },
+        {
+          "t": "math",
+          "v": "\\sigma"
+        },
+        {
+          "t": "text",
+          "v": " angenommen werden.\nGeben Sie an, bei wie vielen Kindern in der erwähnten Studie die Nebenwirkung „Hautausschlag“ auftreten darf, damit die Anzahl der davon betroffenen Kinder im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[\\mu-\\sigma;\\mu+\\sigma]"
+        },
+        {
+          "t": "text",
+          "v": " liegt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mindestens 3 und höchstens 6 Kinder."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "\\mu=4{,}4"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma\\approx2{,}09\\Rightarrow[\\mu-\\sigma;\\mu+\\sigma]\\approx[2{,}31;6{,}49]"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDie Nebenwirkung „Hautausschlag“ muss demnach bei mindestens drei und darf bei höchstens sechs Kindern der erwähnten Studie auftreten."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der tatsächliche Anteil derjenigen Patientinnen/Patienten, bei denen sichtbare Zeichen der Krampfanfälle innerhalb von 10 Minuten nach der Medikamentenverabreichung verschwinden, wird mit "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\nErmitteln Sie für "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " anhand der in der Einleitung angegebenen Daten der klinischen Studie ein symmetrisches Konfidenzintervall mit dem Konfidenzniveau "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma=0{,}95"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Konfidenzintervall [0,66;0,74]. Untere Grenze toleriert [0,65;0,66], obere [0,74;0,75]; Bruch oder Prozentdarstellung zulässig. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=440,\\ h=0{,}7"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}7\\pm1{,}96\\cdot\\sqrt{\\frac{0{,}7\\cdot0{,}3}{440}}\\approx0{,}7\\pm0{,}04\\Rightarrow[0{,}66;0{,}74]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,65; 0,66]. Toleranzintervall für den oberen Wert: [0,74; 0,75]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der tatsächliche Anteil derjenigen Patientinnen/Patienten, bei denen sichtbare Zeichen der Krampfanfälle innerhalb von 10 Minuten nach der Medikamentenverabreichung verschwinden, wird mit "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet.\nErmitteln Sie für "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " anhand der in der Einleitung angegebenen Daten der klinischen Studie ein symmetrisches Konfidenzintervall mit dem Konfidenzniveau "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma=0{,}95"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "In einer anderen Studie zur Wirksamkeit von Buccolam wurden "
+        },
+        {
+          "t": "math",
+          "v": "n_1"
+        },
+        {
+          "t": "text",
+          "v": " Kinder untersucht. Die Ergebnisse führten mit derselben Methodik zu dem symmetrischen Konfidenzintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0{,}67;0{,}73]"
+        },
+        {
+          "t": "text",
+          "v": " mit dem Konfidenzniveau "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma_1"
+        },
+        {
+          "t": "text",
+          "v": ".\nBegründen Sie, warum die Werte "
+        },
+        {
+          "t": "math",
+          "v": "n_1<400"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma_1=0{,}99"
+        },
+        {
+          "t": "text",
+          "v": " nicht die Grundlage zur Berechnung dieses Konfidenzintervalls gewesen sein können!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Werte "
+          },
+          {
+            "t": "math",
+            "v": "n_1<400"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "\\gamma_1=0{,}99"
+          },
+          {
+            "t": "text",
+            "v": " würden zu einem wesentlich breiteren Konfidenzintervall führen und können daher nicht die Grundlage zur Berechnung gewesen sein."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Werte "
+            },
+            {
+              "t": "math",
+              "v": "n_1<400"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\gamma_1=0{,}99"
+            },
+            {
+              "t": "text",
+              "v": " würden zu einem wesentlich breiteren Konfidenzintervall führen und können daher nicht die Grundlage zur Berechnung gewesen sein."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=12",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Buccolam ist ein flüssiges Arzneimittel zur Behandlung akuter, länger anhaltender Krampfanfälle bei Personen, die mindestens drei Monate alt und jünger als 18 Jahre sind (im Folgenden „Kinder“). Es enthält als Wirkstoff Midazolam, ein stark wirksames Beruhigungsmittel.\nIm Rahmen einer klinischen Studie wurde Buccolam 440 Kindern mit Krampfanfällen verabreicht. Bei 22 Kindern traten dabei als Nebenwirkung Übelkeit und Erbrechen auf. Bei 308 Kindern verschwanden sichtbare Zeichen der Krampfanfälle innerhalb von 10 Minuten nach Verabreichung des Medikaments."
+    }
+  ]
 }

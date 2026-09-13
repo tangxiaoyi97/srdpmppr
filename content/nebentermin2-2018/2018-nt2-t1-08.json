@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,209 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_597a",
+          "id": "1_597",
           "baseId": "1_597",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/306/Schnittpunkte.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=-5"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=4"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "x^2-4\\cdot x-2=x-6"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "x^2-5\\cdot x+4=0\\Rightarrow a=-5,b=4"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " der quadratischen Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "x^2+a\\cdot x+b=0"
+        },
+        {
+          "t": "text",
+          "v": " so, dass die beiden Lösungen dieser Gleichung die "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Koordinaten der Schnittpunkte "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " sind!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": -5,
+            "tol": 1e-09
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 4,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_597",
       "baseId": "1_597",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/306/Schnittpunkte.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung sind der Graph der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=x^2-4\\cdot x-2"
+    },
+    {
+      "t": "text",
+      "v": " und der Graph der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "g(x)=x-6"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt sowie deren Schnittpunkte "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " gekennzeichnet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-08-q.png",
+      "alt": "Graphen f und g mit den Schnittpunkten A und B."
     }
   ]
 }

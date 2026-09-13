@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-13",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_842a",
+          "id": "1_842",
           "baseId": "1_842",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/635/Diaet.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -64,41 +64,36 @@
         {
           "t": "fig",
           "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t1-13-q.png",
-          "alt": "Diagramm Körpermasse in kg (senkrechte Achse 80 bis 92) über Zeit in Wochen (0 bis 10); fallende Punktfolge von rund 89 kg bei Woche 0 auf rund 82 kg am Ende."
+          "alt": "Punktdiagramm der Körpermasse in kg über die Zeit in Wochen von 0 bis 10; die senkrechte Achse besitzt eine Unterbrechung unterhalb von 80 kg."
         },
         {
           "t": "text",
           "v": "Geben Sie die absolute Änderung (in kg) und die relative Änderung (in %) der Körpermasse von Hannes vom Beginn bis zum Ende der zehnwöchigen Diät an."
+        },
+        {
+          "t": "text",
+          "v": "\n\nabsolute Änderung: __________ kg\nrelative Änderung: __________ %"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "abs",
-            "label": "absolute Änderung",
-            "value": -7,
-            "tol": 0.25,
-            "unit": "kg"
+            "t": "text",
+            "v": "absolute Änderung: −7 kg; relative Änderung: rund −8 %"
           },
           {
-            "id": "rel",
-            "label": "relative Änderung",
-            "value": -7.95,
-            "tol": 0.35,
-            "unit": "%"
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert. Das Vorzeichen „–“ muss nicht angegeben sein.\nToleranzintervall für die absolute Änderung: [–7,25 kg; –6,75 kg]\nToleranzintervall für die relative Änderung: [–8,3 %; –7,6 %]"
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 2,
+            "desc": "Ein Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert. Das Vorzeichen „–“ muss nicht angegeben sein.\nToleranzintervall für die absolute Änderung: [–7,25 kg; –6,75 kg]\nToleranzintervall für die relative Änderung: [–8,3 %; –7,6 %]",
             "points": 1
           }
         ]

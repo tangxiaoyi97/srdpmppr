@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,114 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_547a",
+          "id": "1_547",
           "baseId": "1_547",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/256/Wanderungsbilanz%20f%C3%BCr%20%C3%96sterreich.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Aus dem angegebenen Wert für das Jahr 2003 kann man ablesen, dass in diesem Jahr um ca. 40 000 Personen mehr zugewandert als abgewandert sind.\nIm Zeitraum 1961 bis 2012 gibt es acht Jahre, in denen die Anzahl der Zuwanderungen geringer als die Anzahl der Abwanderungen war."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die eine korrekte Interpretation der Grafik darstellen!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Aus dem angegebenen Wert für das Jahr 2003 kann man ablesen, dass in diesem Jahr um ca. 40 000 Personen mehr zugewandert als abgewandert sind."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Zuwachs der Wanderungsbilanz vom Jahr 2003 auf das Jahr 2004 beträgt ca. 50 %."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Zeitraum 1961 bis 2012 gibt es acht Jahre, in denen die Anzahl der Zuwanderungen geringer als die Anzahl der Abwanderungen war."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Zeitraum 1961 bis 2012 gibt es drei Jahre, in denen die Anzahl der Zuwanderungen gleich der Anzahl der Abwanderungen war."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wanderungsbilanz des Jahres 1981 ist annähernd doppelt so groß wie die des Jahres 1970."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_547",
       "baseId": "1_547",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/256/Wanderungsbilanz%20f%C3%BCr%20%C3%96sterreich.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Differenz aus der Anzahl der in einem bestimmten Zeitraum in ein Land zugewanderten Personen und der Anzahl der in diesem Zeitraum aus diesem Land abgewanderten Personen bezeichnet man als Wanderungsbilanz.\n\nIn der nachstehenden Grafik ist die jährliche Wanderungsbilanz für Österreich in den Jahren von 1961 bis 2012 dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-19-q.png",
+      "alt": "Balkendiagramm Wanderungsbilanz Österreich 1961–2012 in Personen; Quelle STATISTIK AUSTRIA."
+    },
+    {
+      "t": "text",
+      "v": "\n\nQuelle: STATISTIK AUSTRIA, Errechnete Wanderungsbilanz 1961–1995; Wanderungsstatistik 1996–2012; 2007–2011: revidierte Daten.\nWanderungsbilanz: Zuzüge aus dem Ausland minus Wegzüge in das Ausland (adaptiert)."
     }
   ]
 }

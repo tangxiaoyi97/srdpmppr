@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -22,14 +22,640 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-ht-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-ht-t2-03-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Ermitteln Sie anhand der Abbildung die durchschnittliche Reaktionsgeschwindigkeit des Stoffes "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[1;3]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{1{,}5}{2}=0{,}75\\ \\frac{\\mathrm{Mol}}{\\mathrm{Liter}\\cdot\\mathrm{Minute}}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für das Ermitteln der durchschnittlichen Reaktionsgeschwindigkeit. Jedes Ergebnis, das im Intervall [0,7; 0,8] liegt, ist als richtig zu werten. Die Einheit muss nicht angegeben werden. Falls ein richtiges Ergebnis mit einer falschen Einheit angegeben ist, so ist die Aufgabe als richtig gelöst zu werten."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-03-average-rate-solution.png",
+              "alt": "Originale Lösungsskizze mit Differenzendreieck: Zeitspanne 2 Minuten und Konzentrationszunahme 1,5 mol/L."
+            },
+            {
+              "t": "math",
+              "v": "\\frac{1{,}5}{2}=0{,}75\\ \\frac{\\mathrm{Mol}}{\\mathrm{Liter}\\cdot\\mathrm{Minute}}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für das Ermitteln der durchschnittlichen Reaktionsgeschwindigkeit. Jedes Ergebnis, das im Intervall [0,7; 0,8] liegt, ist als richtig zu werten. Die Einheit muss nicht angegeben werden. Falls ein richtiges Ergebnis mit einer falschen Einheit angegeben ist, so ist die Aufgabe als richtig gelöst zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die gegebene Reaktion gilt die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "c_A'(t)=-c_B'(t)"
+        },
+        {
+          "t": "text",
+          "v": ". Interpretieren Sie diese Gleichung im Hinblick auf den Reaktionsverlauf!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Konzentration von A nimmt zu jedem Zeitpunkt gleich stark ab, wie die Konzentration von B zu diesem Zeitpunkt zunimmt.\n\nOder: Die beiden Reaktionsgeschwindigkeiten sind zu jedem Zeitpunkt betragsmäßig gleich groß."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Konzentration von A nimmt zu jedem Zeitpunkt gleich stark ab, wie die Konzentration von B zu diesem Zeitpunkt zunimmt.\n\nOder: Die beiden Reaktionsgeschwindigkeiten sind zu jedem Zeitpunkt betragsmäßig gleich groß."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Deutung der momentanen Änderungsraten der Konzentrationen der Stoffe A und B."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der gegebenen Reaktion kann die Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "c_A(t)"
+        },
+        {
+          "t": "text",
+          "v": " des Stoffes "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " durch eine Funktion mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "c_A(t)=c_0\\cdot e^{k\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden.\nGeben Sie die Bedeutung der Konstante "
+        },
+        {
+          "t": "math",
+          "v": "c_0"
+        },
+        {
+          "t": "text",
+          "v": " an!\nArgumentieren Sie anhand des Verlaufs des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "c_A"
+        },
+        {
+          "t": "text",
+          "v": ", ob der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " positiv oder negativ ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c_0"
+          },
+          {
+            "t": "text",
+            "v": " ist die Anfangskonzentration des Stoffes zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=0"
+          },
+          {
+            "t": "text",
+            "v": ". Für den Ausgangsstoff "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " ist der Graph (bzw. die Funktion) streng monoton fallend, d. h., der Parameter "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": " im Exponenten der Exponentialfunktion muss negativ sein."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c_0"
+            },
+            {
+              "t": "text",
+              "v": " ist die Anfangskonzentration des Stoffes zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=0"
+            },
+            {
+              "t": "text",
+              "v": ". Für den Ausgangsstoff "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " ist der Graph (bzw. die Funktion) streng monoton fallend, d. h., der Parameter "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": " im Exponenten der Exponentialfunktion muss negativ sein."
+            }
+          ],
+          "note": "Ein Punkt für die Deutung von c₀ und eine (sinngemäß) korrekte Argumentation, warum der Parameter k negativ ist."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der gegebenen Reaktion kann die Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "c_A(t)"
+        },
+        {
+          "t": "text",
+          "v": " des Stoffes "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " durch eine Funktion mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "c_A(t)=c_0\\cdot e^{k\\cdot t}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Leiten Sie eine Formel für jene Zeit "
+        },
+        {
+          "t": "math",
+          "v": "\\tau"
+        },
+        {
+          "t": "text",
+          "v": " her, nach der sich die Konzentration des Ausgangsstoffes halbiert hat! Geben Sie auch den entsprechenden Ansatz an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Möglicher Ansatz: "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{c_0}{2}=c_0\\cdot e^{k\\cdot\\tau}"
+          },
+          {
+            "t": "text",
+            "v": " und/oder "
+          },
+          {
+            "t": "math",
+            "v": "\\frac12=e^{k\\cdot\\tau}"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "\\ln(\\frac12)=k\\cdot\\tau"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "\\tau=\\frac{\\ln(\\frac12)}{k}"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "\\tau=\\frac{-\\ln(2)}{k}"
+          },
+          {
+            "t": "text",
+            "v": ". Auch der Ansatz "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{c_0}{2}=c_0\\cdot e^{-k\\cdot\\tau}"
+          },
+          {
+            "t": "text",
+            "v": " mit der Lösung "
+          },
+          {
+            "t": "math",
+            "v": "\\tau=\\frac{\\ln(2)}{k}"
+          },
+          {
+            "t": "text",
+            "v": " ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Ansatz: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{c_0}{2}=c_0\\cdot e^{k\\cdot\\tau}"
+            },
+            {
+              "t": "text",
+              "v": " und/oder "
+            },
+            {
+              "t": "math",
+              "v": "\\frac12=e^{k\\cdot\\tau}"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "\\ln(\\frac12)=k\\cdot\\tau"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "\\tau=\\frac{\\ln(\\frac12)}{k}"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "\\tau=\\frac{-\\ln(2)}{k}"
+            },
+            {
+              "t": "text",
+              "v": ". Auch der Ansatz "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{c_0}{2}=c_0\\cdot e^{-k\\cdot\\tau}"
+            },
+            {
+              "t": "text",
+              "v": " mit der Lösung "
+            },
+            {
+              "t": "math",
+              "v": "\\tau=\\frac{\\ln(2)}{k}"
+            },
+            {
+              "t": "text",
+              "v": " ist als richtig zu werten."
+            }
+          ],
+          "note": "Ein Punkt für den richtigen Ansatz und das richtige Ergebnis für τ."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Reaktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "A\\to B+D"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt, dass ein Ausgangsstoff "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " zu den Endstoffen "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": " reagiert, wobei aus einem Molekül des Stoffes "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " jeweils ein Molekül der Stoffe "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": " gebildet wird.\nDie Konzentration eines chemischen Stoffes in einer Lösung wird in Mol pro Liter (mol/L) angegeben.\nDie Geschwindigkeit einer chemischen Reaktion ist als Konzentrationsänderung eines Stoffes pro Zeiteinheit definiert.\nDie unten stehende Abbildung zeigt den Konzentrationsverlauf der Stoffe "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " bei der gegebenen chemischen Reaktion in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": ".\n"
+    },
+    {
+      "t": "math",
+      "v": "c_A(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Konzentration des Stoffes "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "c_B(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Konzentration des Stoffes "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ". Die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " wird in Minuten angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-03-concentration.png",
+      "alt": "Originalverlauf der Konzentrationen cA und cB in Abhängigkeit von t."
+    }
+  ]
 }

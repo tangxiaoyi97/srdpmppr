@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,104 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_423a",
+          "id": "1_423",
           "baseId": "1_423",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/131/Gewinn%20beim%20Gl%C3%BCcksrad.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "G=5-\\left(\\dfrac14\\cdot5+\\dfrac18\\cdot10+\\dfrac18\\cdot15\\right)=\\dfrac58\\Rightarrow G\\approx"
+            },
+            {
+              "t": "text",
+              "v": " € 0,63"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit nicht angeführt sein muss. Toleranzintervall: [0,62; 0,63]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Glücksrad wird einmal gedreht. Berechnen Sie den entsprechenden Erwartungswert des Reingewinns "
+        },
+        {
+          "t": "math",
+          "v": "G"
+        },
+        {
+          "t": "text",
+          "v": " (in Euro) aus der Sicht des Betreibers des Glücksrades! Der Reingewinn ist die Differenz aus Einsatz und Auszahlungsbetrag."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "G=5-\\left(\\dfrac14\\cdot5+\\dfrac18\\cdot10+\\dfrac18\\cdot15\\right)=\\dfrac58\\Rightarrow G\\approx"
+          },
+          {
+            "t": "text",
+            "v": " € 0,63"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit nicht angeführt sein muss. Toleranzintervall: [0,62; 0,63]."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_423",
       "baseId": "1_423",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/131/Gewinn%20beim%20Gl%C3%BCcksrad.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das unten abgebildete Glücksrad ist in acht gleich große Sektoren unterteilt, die mit gleicher Wahrscheinlichkeit auftreten. Für einmaliges Drehen des Glücksrades muss ein Einsatz von 5 € gezahlt werden. Die Gewinne, die ausbezahlt werden, wenn das Glücksrad im entsprechenden Sektor stehen bleibt, sind auf dem Glücksrad abgebildet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-23-wheel.png",
+      "alt": "Glücksrad mit acht Sektoren: viermal 0 €, zweimal 5 €, einmal 10 €, einmal 15 €"
     }
   ]
 }

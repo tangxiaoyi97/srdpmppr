@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -52,20 +52,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "v",
-            "label": "v",
-            "value": 0.904,
-            "tol": 0.01,
-            "unit": "km/h"
+            "t": "math",
+            "v": "v=\\dfrac{96\\cdot\\pi}{20}\\cdot\\dfrac{60}{1\\,000}"
+          },
+          {
+            "t": "math",
+            "v": "v=0{,}904\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "a1) Ein Punkt für das richtige Berechnen von v."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "v=0,904…km/h, exakt0,288πkm/h.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -89,7 +104,7 @@
     {
       "id": "2026-ht-t2-03-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 6.3",
@@ -111,6 +126,10 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Es wird ein neues Riesenrad errichtet. Die Gondeln dieses Riesenrads bewegen sich im Testbetrieb modellhaft mit der konstanten Geschwindigkeit v (in km/h) entlang einer Kreisbahn mit einem Durchmesser von 96 m. Eine Gondel wird modellhaft als Punkt auf dieser Kreisbahn angenommen.\n\nFür eine volle Umdrehung benötigt eine Gondel 20 min.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Eine bestimmte Gondel befindet sich zum Zeitpunkt t = 0 auf der Höhe des Mittelpunkts ihrer Kreisbahn in der Aufwärtsbewegung.\n\nDie Höhe dieser Gondel relativ zum Mittelpunkt ihrer Kreisbahn in Abhängigkeit von der Zeit t kann durch die Funktion "
         },
         {
@@ -128,32 +147,39 @@
         {
           "t": "text",
           "v": "t ... Zeit in min\nf(t) ... Höhe der Gondel relativ zum Mittelpunkt ihrer Kreisbahn zum Zeitpunkt t in m\na, b ... positive reelle Parameter\n\nErmitteln Sie a und b."
+        },
+        {
+          "t": "math",
+          "v": "a=\\underline{\\phantom{0000}}\\ \\text{m}"
+        },
+        {
+          "t": "math",
+          "v": "b=\\underline{\\phantom{0000}}\\ \\text{rad/min}"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 48,
-            "tol": 1e-9,
-            "unit": "m"
-          },
-          {
-            "id": "b",
-            "label": "b",
-            "value": 0.3141592653589793,
-            "tol": 0.001,
-            "unit": "rad/min"
+            "t": "text",
+            "v": "Ein halber Punkt für das richtige Ermitteln von a = 48 m, ein halber Punkt für das richtige Ermitteln von b = π/10 rad/min (≈ 0,314159… rad/min). Gleichwertige exakte Ausdrücke und angemessen gerundete Zahlen sind anzuerkennen."
           }
         ]
       },
       "scoring": {
-        "mode": "perBlank",
-        "pointsPerCorrect": 0.5,
-        "max": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a = 48 m richtig ermittelt.",
+            "points": 0.5
+          },
+          {
+            "desc": "b = π/10 rad/min oder gleichwertig richtig ermittelt.",
+            "points": 0.5
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -227,7 +253,7 @@
         "rubric": [
           {
             "t": "text",
-            "v": "Der Winkel ψ wird als der von zwei benachbarten Umkreisradien (zu einer Seite a) eingeschlossene Mittelpunktswinkel eingezeichnet. Auch ein Einzeichnen von ψ an einer anderen passenden Stelle in der Abbildung ist als richtig zu werten. Das Einzeichnen von "
+            "v": "Der Winkel ψ ist der Innenwinkel an einem Eckpunkt des regelmäßigen 8-Ecks (135°), zwischen den beiden angrenzenden Seiten. Auch ein Einzeichnen von ψ an einer anderen passenden Stelle in der Abbildung ist als richtig zu werten. Das Einzeichnen von "
           },
           {
             "t": "math",
@@ -251,10 +277,24 @@
             {
               "kind": "image",
               "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-03-b-sol.png",
-              "alt": "Lösung: Winkel ψ als Mittelpunktswinkel zwischen zwei benachbarten Radien r zur Seite a eingezeichnet."
+              "alt": "Lösung: Innenwinkel ψ am unteren linken Eckpunkt des regelmäßigen 8-Ecks zwischen den beiden angrenzenden Seiten eingezeichnet."
             }
           ],
-          "note": "b1) Ein Punkt für das richtige Einzeichnen von ψ ."
+          "note": "b1) Ein Punkt für das richtige Einzeichnen von ψ .",
+          "result": [
+            {
+              "t": "text",
+              "v": "Auch ein Einzeichnen von ψ an einer anderen passenden Stelle in der Abbildung ist als richtig zu werten.\n\nDas Einzeichnen von "
+            },
+            {
+              "t": "math",
+              "v": "\\tfrac{\\psi}{2}"
+            },
+            {
+              "t": "text",
+              "v": " ist nicht als richtig zu werten.\n\nIm Hinblick auf die Punktevergabe ist die Beschriftung des Winkels mit ψ nicht erforderlich."
+            }
+          ]
         }
       ]
     },
@@ -304,7 +344,7 @@
             "id": "n",
             "label": "n",
             "value": 10,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -22,14 +22,439 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-ht-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-ht-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wendestelle der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "s''(t)=-\\frac7{75}\\cdot t+1{,}4"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "s'''(t)=-\\frac7{75}"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "s''(t)=0\\iff t=15"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "s'''(15)=-\\frac7{75}\\ne0"
+          },
+          {
+            "t": "text",
+            "v": ". Ein Punkt für die richtige Lösung, wobei der Nachweis, dass bei t = 15 eine Wendestelle vorliegt (z. B. durch s‴(15) ≠ 0), nicht angeführt werden muss. Toleranzintervall für t: [14; 16]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s''(t)=-\\frac7{75}\\cdot t+1{,}4"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "s'''(t)=-\\frac7{75}"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "s''(t)=0\\iff t=15"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "s'''(15)=-\\frac7{75}\\ne0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei der Nachweis, dass bei t = 15 eine Wendestelle vorliegt (z. B. durch s‴(15) ≠ 0), nicht angeführt werden muss. Toleranzintervall für t: [14; 16]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wendestelle der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die Bedeutung der Wendestelle in Bezug auf die Geschwindigkeit der Läuferin!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nach ca. 15 Sekunden erreicht die Läuferin ihre Höchstgeschwindigkeit.\nOder: Bis zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t=15"
+          },
+          {
+            "t": "text",
+            "v": " Sekunden nimmt die Geschwindigkeit der Läuferin zu."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Nach ca. 15 Sekunden erreicht die Läuferin ihre Höchstgeschwindigkeit.\nOder: Bis zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t=15"
+            },
+            {
+              "t": "text",
+              "v": " Sekunden nimmt die Geschwindigkeit der Läuferin zu."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Bestimmen Sie die mittlere Geschwindigkeit der Läuferin für die 200 Meter lange Laufstrecke in Metern pro Sekunde!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{200}{26{,}04}\\approx7{,}68"
+          },
+          {
+            "t": "text",
+            "v": ". Die mittlere Geschwindigkeit beträgt ca. 7,68 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit nicht angeführt werden muss. Toleranzintervall: [7,6; 7,7]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{200}{26{,}04}\\approx7{,}68"
+            },
+            {
+              "t": "text",
+              "v": ". Die mittlere Geschwindigkeit beträgt ca. 7,68 m/s."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit nicht angeführt werden muss. Toleranzintervall: [7,6; 7,7]."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Mittelwertsatz der Differenzialrechnung besagt, dass unter bestimmten Voraussetzungen in einem Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[a;b]"
+        },
+        {
+          "t": "text",
+          "v": " für eine Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mindestens ein "
+        },
+        {
+          "t": "math",
+          "v": "x_0\\in(a;b)"
+        },
+        {
+          "t": "text",
+          "v": " existiert, sodass "
+        },
+        {
+          "t": "math",
+          "v": "f'(x_0)=\\frac{f(b)-f(a)}{b-a}"
+        },
+        {
+          "t": "text",
+          "v": " gilt. Interpretieren Sie diese Aussage im vorliegenden Kontext für die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;26{,}04]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es gibt mindestens einen Zeitpunkt, für den die Momentangeschwindigkeit der Läuferin gleich der mittleren Geschwindigkeit für die gesamte Laufstrecke ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gibt mindestens einen Zeitpunkt, für den die Momentangeschwindigkeit der Läuferin gleich der mittleren Geschwindigkeit für die gesamte Laufstrecke ist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der Leichtathletik gibt es für Läufer/innen spezielle Trainingsmethoden. Dazu werden Trainingspläne erstellt. Es ist dabei sinnvoll, bei Trainingsläufen Teilzeiten zu stoppen, um Stärken und Schwächen der Läuferin/des Läufers zu analysieren.\n\nZur Erstellung eines Trainingsplans für eine Läuferin wurden die Teilzeiten während eines Trainingslaufs gestoppt. Für die 200 Meter lange Laufstrecke wurden bei diesem Trainingslauf 26,04 Sekunden gemessen. Im nachstehenden Diagramm ist der zurückgelegte Weg "
+    },
+    {
+      "t": "math",
+      "v": "s(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " für diesen Trainingslauf mithilfe einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " vom Grad 3 modellhaft dargestellt.\n\nFür die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " gilt die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "s(t)=-\\frac7{450}t^3+0{,}7t^2"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "s(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Metern, "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-01-distance.png",
+      "alt": "Originales Weg-Zeit-Diagramm des 200-m-Trainingslaufs."
+    }
+  ]
 }

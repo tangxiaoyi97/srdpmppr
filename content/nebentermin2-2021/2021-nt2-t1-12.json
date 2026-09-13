@@ -1,6 +1,6 @@
 {
   "id": "2021-nt2-t1-12",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_817a",
+          "id": "1_817",
           "baseId": "1_817",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/605/Winkelfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -68,33 +68,51 @@
         {
           "t": "text",
           "v": "Geben Sie für a und b jeweils einen passenden Wert an."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a=\\underline{\\hspace{5cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "b=\\underline{\\hspace{5cm}}"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 3
+            "t": "math",
+            "v": "a=3,\\quad b=\\tfrac{\\pi}{2}"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 1.5707963267948966,
-            "tol": 0.000001
+            "t": "text",
+            "v": "\noder: "
+          },
+          {
+            "t": "math",
+            "v": "a=-3,\\quad b=-\\tfrac{\\pi}{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die Angabe der beiden richtigen (zusammengehörigen) Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben. Bei der Angabe a = 3 sind für die Angabe von b alle Werte π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 90° + k·360° mit k ∈ ℤ als richtig zu werten. Bei der Angabe a = –3 sind für die Angabe von b alle Werte 3·π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 270° + k·360° mit k ∈ ℤ als richtig zu werten."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 2,
+            "desc": "Ein Punkt für die Angabe der beiden richtigen (zusammengehörigen) Werte. Für die Angabe von nur einem richtigen Wert ist ein halber Punkt zu geben. Bei der Angabe a = 3 sind für die Angabe von b alle Werte π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 90° + k·360° mit k ∈ ℤ als richtig zu werten. Bei der Angabe a = –3 sind für die Angabe von b alle Werte 3·π/2 + 2·k·π mit k ∈ ℤ und auch alle Werte 270° + k·360° mit k ∈ ℤ als richtig zu werten.",
             "points": 1
           }
         ]

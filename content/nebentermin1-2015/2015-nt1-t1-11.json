@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -24,12 +24,154 @@
     {
       "id": "2015-nt1-t1-11-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_435",
+          "baseId": "1_435",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/143/Exponentialfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=25\\cdot0{,}8^x"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x)=25\\cdot e^{\\ln(0{,}8)\\cdot x}"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Toleranzintervall für ln(0,8): [−0,23; −0,22]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Funktionsgleichung der dargestellten Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(x)=25\\cdot0{,}8^x"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "25e^{\\ln(0{,}8)x}"
+          },
+          {
+            "t": "text",
+            "v": "; äquivalente Gleichungen. Toleranz für ln(0,8): [−0,23;−0,22]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Toleranzintervall für ln(0,8): [−0,23; −0,22]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=15",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_435",
+      "baseId": "1_435",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/143/Exponentialfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Exponentialfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot b^x"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " durch die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "P=(0|25)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "Q=(1|20)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-11-graph.png",
+      "alt": "Exponentiell fallender Graph durch P=(0|25) und Q=(1|20)"
+    }
+  ]
 }

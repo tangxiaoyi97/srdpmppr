@@ -1,6 +1,6 @@
 {
   "id": "2023-ht-t1-15",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -14,7 +14,7 @@
   "title": "Produktionskosten",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-15-an.pdf",
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1282a",
+          "id": "1_1282",
           "baseId": "1_1282",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/821/1_1282_srdp_ma_Produktionskosten_PT1_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -59,7 +59,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Stellen Sie eine Funktionsgleichung von K auf."
+          "v": "Stellen Sie eine Funktionsgleichung von K auf.\n\n"
         },
         {
           "t": "math",
@@ -94,7 +94,7 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Die monatlichen Fixkosten eines Betriebs für die Produktion von Erfrischungsgetränken betragen € 200.000.\nDie Funktion K beschreibt modellhaft die monatlichen Gesamtkosten für diese Produktion (in Euro) in Abhängigkeit von der Produktionsmenge x.\nDie Grenzkosten für diese Produktion werden durch die Funktion K′ beschrieben."
+      "v": "Die monatlichen Fixkosten eines Betriebs für die Produktion von Erfrischungsgetränken betragen € 200.000.\nDie Funktion K beschreibt modellhaft die monatlichen Gesamtkosten für diese Produktion (in Euro) in Abhängigkeit von der Produktionsmenge x.\nDie Grenzkosten für diese Produktion werden durch die Funktion K′ beschrieben.\n\n"
     },
     {
       "t": "math",
@@ -102,7 +102,7 @@
     },
     {
       "t": "text",
-      "v": "x ... Produktionsmenge in Mengeneinheiten\nK′(x) ... Grenzkosten bei der Produktionsmenge x in Euro pro Mengeneinheit"
+      "v": "\n\nx ... Produktionsmenge in Mengeneinheiten\nK′(x) ... Grenzkosten bei der Produktionsmenge x in Euro pro Mengeneinheit"
     }
   ]
 }

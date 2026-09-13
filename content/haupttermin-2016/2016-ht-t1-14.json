@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -24,12 +24,113 @@
     {
       "id": "2016-ht-t1-14-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (2 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=18",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Frau Fröhlich zahlt jährlich € 5.000 auf ihr Kapitalsparbuch ein.\n\nDer relative jährliche Zuwachs des am Ausdruck ausgewiesenen Kapitals ist größer als 3 %."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Aussagen sind in diesem Zusammenhang korrekt?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Frau Fröhlich zahlt jährlich € 5.000 auf ihr Kapitalsparbuch ein."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Kapital auf dem Kapitalsparbuch wächst jährlich um € 5.000."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der relative jährliche Zuwachs des am Ausdruck ausgewiesenen Kapitals ist größer als 3 %."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Differenz des Kapitals zweier aufeinanderfolgender Jahre ist immer dieselbe."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Kapital auf dem Kapitalsparbuch wächst linear an."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=18",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Frau Fröhlich hat ein Kapitalsparbuch, auf welches sie jährlich am ersten Banköffnungstag des Jahres den gleichen Geldbetrag in Euro einzahlt. An diesem Tag werden in dieser Bank auch die Zinserträge des Vorjahres gutgeschrieben. Danach wird der neue Gesamtkontostand ausgedruckt.\n\nZwischen dem Kontostand "
+    },
+    {
+      "t": "math",
+      "v": "K_{i-1}"
+    },
+    {
+      "t": "text",
+      "v": " des Vorjahres und dem Kontostand "
+    },
+    {
+      "t": "math",
+      "v": "K_i"
+    },
+    {
+      "t": "text",
+      "v": " des aktuellen Jahres besteht folgender Zusammenhang:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "K_i = 1{,}03 \\cdot K_{i-1} + 5\\,000"
+    }
+  ]
 }

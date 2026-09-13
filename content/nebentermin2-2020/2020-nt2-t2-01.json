@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -128,6 +128,10 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Funktion B hat genau eine positive Extremstelle t₁.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Geben Sie an, welche Auswirkungen eine Vergrößerung von c bei gegebenem k auf die Lage der Extremstelle t₁ der Funktion B hat."
         }
       ],
@@ -189,7 +193,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Die Funktion B₁: ℝ₀⁺ → ℝ⁺ mit "
+          "v": "Die Funktion B₁: ℝ₀⁺ → ℝ mit "
         },
         {
           "t": "math",
@@ -202,20 +206,55 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "t2",
-            "label": "t₂",
-            "value": 4.45,
-            "tol": 0.05,
-            "unit": "h"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "20=20\\cdot e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "1=e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0=2\\cdot t-0{,}45\\cdot t^{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_2=4{,}\\dot{4}\\ \\text{h}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Toleranzintervall: [4,4 h; 4,5 h] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Toleranzintervall: [4,4 h; 4,5 h] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -249,7 +288,7 @@
           "result": [
             {
               "t": "math",
-              "v": "t_2=4{,}4\\ \\text{h}"
+              "v": "t_2=4{,}\\dot{4}\\ \\text{h}"
             }
           ],
           "note": "b1) Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Toleranzintervall: [4,4 h; 4,5 h] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
@@ -281,6 +320,18 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Funktion B₁: ℝ₀⁺ → ℝ mit "
+        },
+        {
+          "t": "math",
+          "v": "B_1(t)=20\\cdot e^{\\,2\\cdot t-0{,}45\\cdot t^{2}}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der Bakterien einer bestimmten Bakterienpopulation in Millionen in Abhängigkeit von der Zeit t.\n\nZum Zeitpunkt t₂ ≠ 0 erreicht die Bakterienpopulation ihre ursprüngliche Anzahl von 20 Millionen.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Deuten Sie "
         },
         {
@@ -298,7 +349,7 @@
         "rubric": [
           {
             "t": "text",
-            "v": "B₁′(t₂) gibt die (momentane) Abnahmegeschwindigkeit in Bakterien pro Stunde zum Zeitpunkt t₂ an."
+            "v": "B₁′(t₂) gibt die (momentane) Abnahmegeschwindigkeit in Millionen Bakterien pro Stunde zum Zeitpunkt t₂ an. Auch die Formulierung der ursprünglichen Klausurlösung „in Bakterien pro Stunde“ ist anzuerkennen.\n\nb2) Ein Punkt für eine richtige Deutung.\n\nHinweis zur offiziellen Überarbeitung: In der Aufgabenpool-Fassung 2_057 (2020-08-19), Lösung b2, wurde die Einheit zu „Millionen Bakterien pro Stunde“ berichtigt. Die oben wiedergegebene ursprüngliche Klausurlösung nennt „Bakterien pro Stunde“."
           }
         ],
         "grader": "ai"
@@ -321,7 +372,7 @@
               "v": "mögliche Deutung: B₁′(t₂) gibt die (momentane) Abnahmegeschwindigkeit in Bakterien pro Stunde zum Zeitpunkt t₂ an."
             }
           ],
-          "note": "b2) Ein Punkt für eine richtige Deutung."
+          "note": "b2) Ein Punkt für eine richtige Deutung.\n\nHinweis zur offiziellen Überarbeitung: In der Aufgabenpool-Fassung 2_057 (2020-08-19), Lösung b2, wurde die Einheit zu „Millionen Bakterien pro Stunde“ berichtigt. Die oben wiedergegebene ursprüngliche Klausurlösung nennt „Bakterien pro Stunde“."
         }
       ]
     },
@@ -350,7 +401,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Die Funktion B₂: ℝ₀⁺ → ℝ⁺ mit "
+          "v": "Die Funktion B₂: ℝ₀⁺ → ℝ mit "
         },
         {
           "t": "math",
@@ -363,20 +414,75 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "t3",
-            "label": "t₃",
-            "value": 5,
-            "tol": 1e-9,
-            "unit": "h"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "B_2''(t)=5\\cdot(t^{2}-8\\cdot t+15)\\cdot e^{\\,4\\cdot t-\\frac{t^{2}}{2}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t^{2}-8\\cdot t+15=0\\ \\Rightarrow\\ t_1=3;\\ t_2=5"
+          },
+          {
+            "t": "text",
+            "v": "\nEs gilt: "
+          },
+          {
+            "t": "math",
+            "v": "B_2'(3)>0"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "B_2'(5)<0"
+          },
+          {
+            "t": "text",
+            "v": " (und "
+          },
+          {
+            "t": "math",
+            "v": "B_2'''(5)\\neq 0"
+          },
+          {
+            "t": "text",
+            "v": ")."
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Zum Zeitpunkt t₃ = 5 findet die stärkste Abnahme der Bakterienpopulation statt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „h“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -462,23 +568,60 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Funktion B₂: ℝ₀⁺ → ℝ mit "
+        },
+        {
+          "t": "math",
+          "v": "B_2(t)=5\\cdot e^{\\,4\\cdot t-\\frac{t^{2}}{2}}"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der Bakterien einer anderen Bakterienpopulation in Millionen, die zum Zeitpunkt t = 4 ihr Maximum aufweist.\n\nBestimmen Sie denjenigen Zeitpunkt t₃, zu dem die stärkste Abnahme der Bakterienpopulation stattfindet."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Geben Sie an, wie viel Prozent der maximalen Anzahl an Bakterien zum Zeitpunkt t₃ noch vorhanden sind."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.605,
-            "tol": 0.005
+            "t": "math",
+            "v": "\\dfrac{B_2(5)}{B_2(4)}=0{,}60653\\ldots\\approx 0{,}6065"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Zum Zeitpunkt t₃ = 5 sind noch ca. 60,65 % der maximalen Anzahl an Bakterien vorhanden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,60; 0,61]"
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,60; 0,61]",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -513,7 +656,7 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Die Entwicklung einer Bakterienpopulation kann durch die Zufuhr von Antibiotika beeinflusst werden, was letztlich durch die Giftwirkung von Antibiotika zum Aussterben der Bakterienpopulation führen soll.\n\nIn bestimmten Fällen kann diese Entwicklung näherungsweise durch eine Funktion B: ℝ₀⁺ → ℝ⁺ beschrieben werden:"
+      "v": "Die Entwicklung einer Bakterienpopulation kann durch die Zufuhr von Antibiotika beeinflusst werden, was letztlich durch die Giftwirkung von Antibiotika zum Aussterben der Bakterienpopulation führen soll.\n\nIn bestimmten Fällen kann diese Entwicklung näherungsweise durch eine Funktion B: ℝ₀⁺ → ℝ beschrieben werden:"
     },
     {
       "t": "math",

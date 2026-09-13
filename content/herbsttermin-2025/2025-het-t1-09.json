@@ -1,6 +1,6 @@
 {
   "id": "2025-het-t1-09",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -25,7 +25,7 @@
     {
       "id": "2025-het-t1-09-a",
       "label": "a",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 2.6",
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1551a",
+          "id": "1_1551",
           "baseId": "1_1551",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1058/1_1551_srdp_ma_Direkte%20Proportionalit%C3%A4t_PT2_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,14 +67,10 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "c",
-            "label": "c",
-            "value": 7.5
-          }
-        ]
+        "kind": "expression",
+        "canonical": "\\frac{15}{2}",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",

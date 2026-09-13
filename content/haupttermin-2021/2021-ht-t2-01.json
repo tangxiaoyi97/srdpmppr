@@ -92,11 +92,15 @@
         {
           "t": "fig",
           "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-01-a-q.png",
-          "alt": "Koordinatensystem mit K(t) in mg/L (0 bis 5) über t in h (0 bis 3); der Graph K steigt zunächst an, erreicht bei rund t = 0,6 h ein Maximum von etwa 4 mg/L und fällt danach ab."
+          "alt": "Graph der Koffeinkonzentration K mit waagrechter Achse t in h von 0 bis 3 und senkrechter Achse K(t) in mg/L von 0 bis 5."
         },
         {
           "t": "text",
           "v": "Ermitteln Sie mithilfe der obigen Abbildung, wie viele Minuten nach dem Trinken des Kaffees die maximale Konzentration von Koffein im Blut auftritt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n__________ min"
         }
       ],
       "figures": [],
@@ -131,7 +135,7 @@
     {
       "id": "2021-ht-t2-01-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AN 3.3",
@@ -153,7 +157,56 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."
+          "v": "Lea trinkt eine Tasse Kaffee. In der nachstehenden Abbildung ist der Graph der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt, die modellhaft die Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " von Koffein in Leas Blut in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " nach dem Trinken des Kaffees beschreibt ("
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in h, "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " in mg/L)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-01-a-q.png",
+          "alt": "Graph der Koffeinkonzentration K mit waagrechter Achse t in h von 0 bis 3 und senkrechter Achse K(t) in mg/L von 0 bis 5."
+        },
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\n"
         },
         {
           "t": "text",
@@ -368,19 +421,15 @@
         "rubric": [
           {
             "t": "math",
-            "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}5}=f(T)\\cdot 1{,}648\\ldots"
+            "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}05\\cdot10}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot1{,}648\\ldots=f(T)\\cdot1{,}648\\ldots"
           },
           {
             "t": "text",
-            "v": " Da der Faktor "
-          },
-          {
-            "t": "math",
-            "v": "e^{0{,}5}=1{,}648\\ldots\\approx 1{,}65"
+            "v": "  ⇒ Die Behauptung ist richtig."
           },
           {
             "t": "text",
-            "v": " beträgt, ist die Behauptung richtig."
+            "v": "\nb1) Ein Punkt für das richtige rechnerische Überprüfen. Auch ein Nachweis mit konkreten Zahlen ist als richtig zu werten."
           }
         ],
         "grader": "ai"
@@ -395,7 +444,7 @@
           "result": [
             {
               "t": "math",
-              "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}05\\cdot 10}=f(T)\\cdot 1{,}648\\ldots"
+              "v": "f(T+10)=6{,}42\\cdot e^{0{,}05\\cdot(T+10)}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot e^{0{,}05\\cdot10}=6{,}42\\cdot e^{0{,}05\\cdot T}\\cdot1{,}648\\ldots=f(T)\\cdot1{,}648\\ldots"
             },
             {
               "t": "text",
@@ -429,6 +478,42 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Löslichkeit von Koffein in Wasser gibt an, wie viel Gramm Koffein pro Liter (g/L) maximal gelöst werden können. Die Löslichkeit ist temperaturabhängig. Sie lässt sich näherungsweise durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " beschreiben."
+        },
+        {
+          "t": "math",
+          "v": "f(T)=6{,}42\\cdot e^{0{,}05\\cdot T}\\ \\text{mit}\\ 0\\le T\\le 90"
+        },
+        {
+          "t": "text",
+          "v": "T … Temperatur in °C\n"
+        },
+        {
+          "t": "math",
+          "v": "f(T)"
+        },
+        {
+          "t": "text",
+          "v": " … Löslichkeit von Koffein in Wasser bei der Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " in g/L\n\n"
+        },
         {
           "t": "text",
           "v": "Folgende Gleichung wird aufgestellt:"

@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,105 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_354a",
+          "id": "1_354",
           "baseId": "1_354",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/65/Statistische%20Kennzahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Spannweite\n\nempirische Varianz"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Kennzahlen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden statistischen Kennzahlen geben Auskunft darüber, wie stark die erhobenen Daten streuen? Kreuzen Sie die beiden zutreffenden Kennzahlen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Median"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Spannweite"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Modus"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "empirische Varianz"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_354",
       "baseId": "1_354",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/65/Statistische%20Kennzahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Um Aussagen über die Daten einer statistischen Erhebung treffen zu können, gibt es bestimmte statistische Kennzahlen."
     }
   ]
 }

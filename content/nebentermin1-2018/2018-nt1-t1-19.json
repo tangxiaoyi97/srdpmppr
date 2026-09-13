@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,80 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_656a",
+          "id": "1_656",
           "baseId": "1_656",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/381/Bruttoinlandsprodukt.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die relative Änderung des (nominalen) Bruttoinlandsprodukts in Österreich kann ausschließlich anhand der gegebenen Daten nicht ermittelt werden, da die Einwohnerzahlen Österreichs der Jahre 2002 und 2012 nicht angegeben sind."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die gefragte relative Änderung nicht ermittelt werden kann, und eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob ausschließlich anhand der Daten in der gegebenen Grafik der Wert der relativen Änderung des nominalen Bruttoinlandsprodukts in Österreich von 2012 bezogen auf 2002 ermittelt werden kann, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die relative Änderung des (nominalen) Bruttoinlandsprodukts in Österreich kann ausschließlich anhand der gegebenen Daten nicht ermittelt werden, da die Einwohnerzahlen Österreichs der Jahre 2002 und 2012 nicht angegeben sind.\nEin Punkt für die Angabe, dass die gefragte relative Änderung nicht ermittelt werden kann, und eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_656",
       "baseId": "1_656",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/381/Bruttoinlandsprodukt.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das nominale Bruttoinlandsprodukt gibt den Gesamtwert aller Güter, die während eines Jahres innerhalb der Landesgrenzen einer Volkswirtschaft hergestellt wurden, in aktuellen Marktpreisen an.\nDividiert man das nominale Bruttoinlandsprodukt einer Volkswirtschaft durch die Einwohnerzahl, dann erhält man das sogenannte BIP pro Kopf.\n\nDie nachstehende Grafik zeigt die relative Veränderung des BIP pro Kopf in Österreich von 2012 bezogen auf 2002."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t1-19-q.png",
+      "alt": "BIP pro Kopf in Prozent: Österreich2002 und2012."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,169 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_582a",
+          "id": "1_582",
           "baseId": "1_582",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/291/Zeit-Weg-Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktionswerte von "
+            },
+            {
+              "t": "math",
+              "v": "s''"
+            },
+            {
+              "t": "text",
+              "v": " sind negativ.\nDer Wert des Differenzialquotienten von "
+            },
+            {
+              "t": "math",
+              "v": "s"
+            },
+            {
+              "t": "text",
+              "v": " wird immer kleiner."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden für diesen Beobachtungszeitraum zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Autos wird immer größer."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktionswerte von "
+            },
+            {
+              "t": "math",
+              "v": "s'"
+            },
+            {
+              "t": "text",
+              "v": " sind negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktionswerte von "
+            },
+            {
+              "t": "math",
+              "v": "s''"
+            },
+            {
+              "t": "text",
+              "v": " sind negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Wert des Differenzenquotienten von "
+            },
+            {
+              "t": "math",
+              "v": "s"
+            },
+            {
+              "t": "text",
+              "v": " im Beobachtungszeitraum ist negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Wert des Differenzialquotienten von "
+            },
+            {
+              "t": "math",
+              "v": "s"
+            },
+            {
+              "t": "text",
+              "v": " wird immer kleiner."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_582",
       "baseId": "1_582",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/291/Zeit-Weg-Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die geradlinige Bewegung eines Autos wird mithilfe der Zeit-Weg-Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben. Innerhalb des Beobachtungszeitraums ist die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton wachsend und rechtsgekrümmt."
     }
   ]
 }

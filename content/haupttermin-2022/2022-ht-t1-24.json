@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1202a",
+          "id": "1_1202",
           "baseId": "1_1202",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/743/Binomialverteilte%20Zufallsvariable.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -73,12 +73,28 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.0203,
-            "tol": 0.0005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "p=\\dfrac{12}{30}=0{,}4"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(18\\le X\\le 20)=0{,}0203\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
         ]
       },

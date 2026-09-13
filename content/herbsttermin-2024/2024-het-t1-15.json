@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-15",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -43,11 +43,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1378a",
+          "id": "1_1378",
           "baseId": "1_1378",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/934/1_1378_srdp_ma_Funktionswerte%20einer%20Stammfunktion_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -82,35 +82,64 @@
         {
           "t": "text",
           "v": "\n\nFür eine Stammfunktion F von f gilt: F(0) = 0\n\nGeben Sie die Werte von F(4) und F(6) an."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "F(4) = \\underline{\\hspace{2cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "F(6) = \\underline{\\hspace{2cm}}"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "F4",
-            "label": "F(4)",
-            "value": 5.333333333333333,
-            "tol": 0.000001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "F6",
-            "label": "F(6)",
-            "value": 0,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "F(4) = \\tfrac{16}{3}"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "F(6) = 0"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben der beiden richtigen Werte, ein halber Punkt für nur einen richtigen Wert."
           }
         ]
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
+            "desc": "F(4) = 16/3 (oder gleichwertig).",
             "points": 0.5
           },
           {
-            "minCorrect": 2,
-            "points": 1
+            "desc": "F(6) = 0.",
+            "points": 0.5
           }
         ]
       },

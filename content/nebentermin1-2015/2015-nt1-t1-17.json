@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,145 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_429a",
+          "id": "1_429",
           "baseId": "1_429",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/137/Integrationsregeln.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_a^b(f(x)+x)\\,\\mathrm dx=\\int_a^bf(x)\\,\\mathrm dx+\\int_a^bx\\,\\mathrm dx"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_a^b(3\\cdot f(x))\\,\\mathrm dx=3\\cdot\\int_a^bf(x)\\,\\mathrm dx"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Gleichungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Gleichungen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^b(f(x)+x)\\,\\mathrm dx=\\int_a^bf(x)\\,\\mathrm dx+\\int_a^bx\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^bf(2\\cdot x)\\,\\mathrm dx=\\dfrac12\\cdot\\int_a^bf(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^b(1-f(x))\\,\\mathrm dx=x-\\int_a^bf(x)\\,\\mathrm dx"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^b(f(x)+2)\\,\\mathrm dx=\\int_a^bf(x)\\,\\mathrm dx+2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\int_a^b(3\\cdot f(x))\\,\\mathrm dx=3\\cdot\\int_a^bf(x)\\,\\mathrm dx"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_429",
       "baseId": "1_429",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/137/Integrationsregeln.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zwei der nachstehend angeführten Gleichungen sind für alle Polynomfunktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und bei beliebiger Wahl der Integrationsgrenzen "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "a<b"
+    },
+    {
+      "t": "text",
+      "v": ") richtig."
     }
   ]
 }

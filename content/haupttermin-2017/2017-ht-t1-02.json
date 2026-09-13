@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,91 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_564a",
+          "id": "1_564",
           "baseId": "1_564",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/273/Kapital.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mithilfe dieses Terms kann der Kapitalzuwachs (die Summe der Zinsen) im Zeitraum von 5 Jahren berechnet werden."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist folgender Term:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "K\\cdot1{,}012^5-K"
+        },
+        {
+          "t": "text",
+          "v": "\n\nGeben Sie die Bedeutung dieses Terms im gegebenen Kontext an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mithilfe dieses Terms kann der Kapitalzuwachs (die Summe der Zinsen) im Zeitraum von 5 Jahren berechnet werden."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_564",
       "baseId": "1_564",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/273/Kapital.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Kapital "
+    },
+    {
+      "t": "math",
+      "v": "K"
+    },
+    {
+      "t": "text",
+      "v": " wird 5 Jahre lang mit einem jährlichen Zinssatz von 1,2 % verzinst."
     }
   ]
 }

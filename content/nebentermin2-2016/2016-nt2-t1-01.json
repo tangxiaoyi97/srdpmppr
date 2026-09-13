@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,105 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_469a",
+          "id": "1_469",
           "baseId": "1_469",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/178/Aussagen%20%C3%BCber%20Zahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl ist eine komplexe Zahl.\n\nJede natürliche Zahl ist eine reelle Zahl."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der im Folgenden angeführten Aussagen gelten? Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl ist eine irrationale Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede reelle Zahl ist eine komplexe Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede rationale Zahl ist eine ganze Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede ganze Zahl ist eine natürliche Zahl."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Jede natürliche Zahl ist eine reelle Zahl."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_469",
       "baseId": "1_469",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/178/Aussagen%20%C3%BCber%20Zahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind Aussagen über Zahlen."
     }
   ]
 }

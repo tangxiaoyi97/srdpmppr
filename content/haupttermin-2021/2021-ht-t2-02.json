@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -115,7 +115,7 @@
     {
       "id": "2021-ht-t2-02-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AG 2.1",
@@ -137,25 +137,44 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Für jeden PKW mit Benzinantrieb wird angenommen, dass pro Liter verbrauchten Benzins 2,32 kg CO₂ ausgestoßen werden. Dabei nimmt man an, dass jeder dieser Bäume in seiner gesamten Lebenszeit 500 kg CO₂ aufnimmt.\n\n"
+        },
+        {
+          "t": "text",
           "v": "PKW B legt eine Strecke von 15 000 km zurück. Um dessen CO₂-Ausstoß auszugleichen, werden 5 Bäume gepflanzt.\n\nBerechnen Sie den durchschnittlichen Benzinverbrauch (in Litern pro 100 km) von PKW B auf dieser Strecke."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "v",
-            "label": "durchschnittlicher Benzinverbrauch",
-            "value": 7.18,
-            "tol": 0.05,
-            "unit": "Liter pro 100 km"
+            "t": "math",
+            "v": "5=\\dfrac{x\\cdot 2{,}32\\cdot 15\\,000}{100\\cdot 500}\\ \\Rightarrow\\ x=7{,}18\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "durchschnittlicher Benzinverbrauch: rund 7,18 Liter pro 100 km"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Berechnen des durchschnittlichen Benzinverbrauchs."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für das richtige Berechnen des durchschnittlichen Benzinverbrauchs.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -201,11 +220,24 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Neben CO₂ verstärken auch andere Gase die Klimaerwärmung. Die Emission von diesen Gasen wird in sogenannte CO₂-Äquivalente umgerechnet.\n\nDie nachstehende Tabelle gibt für einige Staaten der EU Auskunft über die jeweilige Einwohnerzahl (in Millionen) im Jahr 2015 und die zugehörigen CO₂-Äquivalente (in Tonnen pro Person).\n\nEinwohnerzahl in Millionen | CO₂-Äquivalente in Tonnen pro Person\nBelgien: 11,2 | 11,9\nFrankreich: 66,4 | 6,8\nItalien: 60,8 | 7,0\nLuxemburg: 0,6 | 18,5\nNiederlande: 16,9 | 12,3\n\nBerechnen Sie die durchschnittlichen CO₂-Äquivalente "
+          "v": "Neben CO₂ verstärken auch andere Gase die Klimaerwärmung. Die Emission von diesen Gasen wird in sogenannte CO₂-Äquivalente umgerechnet.\n\nDie nachstehende Tabelle gibt für einige Staaten der EU Auskunft über die jeweilige Einwohnerzahl (in Millionen) im Jahr 2015 und die zugehörigen CO₂-Äquivalente (in Tonnen pro Person)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-02-b-tab.png",
+          "alt": "Tabelle mit den fünf Staaten Belgien, Frankreich, Italien, Luxemburg und Niederlande; Einwohnerzahl in Millionen sowie CO₂-Äquivalente in Tonnen pro Person."
+        },
+        {
+          "t": "text",
+          "v": "\nDatenquellen: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_and_population_change_statistics/de&oldid=320539 [24.07.2020],\nhttps://de.wikipedia.org/wiki/Liste_der_Länder_nach_Treibhausgas-Emissionen [24.07.2020].\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die durchschnittlichen CO₂-Äquivalente "
         },
         {
           "t": "math",
-          "v": "e"
+          "v": "\\bar{e}"
         },
         {
           "t": "text",
@@ -213,25 +245,40 @@
         },
         {
           "t": "math",
-          "v": "e="
+          "v": "\\bar{e}=\\underline{\\qquad}"
+        },
+        {
+          "t": "text",
+          "v": " Tonnen pro Person"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "e",
-            "label": "e",
-            "value": 7.8,
-            "tol": 0.1,
-            "unit": "Tonnen pro Person"
+            "t": "math",
+            "v": "\\bar{e}=7{,}8\\ldots"
+          },
+          {
+            "t": "text",
+            "v": " Tonnen pro Person"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Berechnen.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -239,7 +286,7 @@
           "result": [
             {
               "t": "math",
-              "v": "e=7{,}8\\ldots"
+              "v": "\\bar{e}=7{,}8\\ldots"
             },
             {
               "t": "text",
@@ -253,7 +300,7 @@
     {
       "id": "2021-ht-t2-02-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 1.4",
@@ -273,6 +320,39 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Neben CO₂ verstärken auch andere Gase die Klimaerwärmung. Die Emission von diesen Gasen wird in sogenannte CO₂-Äquivalente umgerechnet.\n\nDie nachstehende Tabelle gibt für einige Staaten der EU Auskunft über die jeweilige Einwohnerzahl (in Millionen) im Jahr 2015 und die zugehörigen CO₂-Äquivalente (in Tonnen pro Person)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2021/fig/2021-ht-t2-02-b-tab.png",
+          "alt": "Tabelle mit den fünf Staaten Belgien, Frankreich, Italien, Luxemburg und Niederlande; Einwohnerzahl in Millionen sowie CO₂-Äquivalente in Tonnen pro Person."
+        },
+        {
+          "t": "text",
+          "v": "\nDatenquellen: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_and_population_change_statistics/de&oldid=320539 [24.07.2020],\nhttps://de.wikipedia.org/wiki/Liste_der_Länder_nach_Treibhausgas-Emissionen [24.07.2020].\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die durchschnittlichen CO₂-Äquivalente "
+        },
+        {
+          "t": "math",
+          "v": "\\bar{e}"
+        },
+        {
+          "t": "text",
+          "v": " (in Tonnen pro Person) für den gesamten in der obigen Tabelle angeführten Teil der EU."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Lukas sind nur die in der obigen Tabelle angeführten Werte der CO₂-Äquivalente der einzelnen Staaten bekannt, nicht aber die jeweils zugehörige Einwohnerzahl.\nEr berechnet das arithmetische Mittel "
@@ -295,7 +375,7 @@
         },
         {
           "t": "math",
-          "v": "e"
+          "v": "\\bar{e}"
         },
         {
           "t": "text",
@@ -311,7 +391,7 @@
         },
         {
           "t": "math",
-          "v": "e"
+          "v": "\\bar{e}"
         },
         {
           "t": "text",
@@ -332,7 +412,11 @@
           },
           {
             "t": "text",
-            "v": " ist größer, weil die für die einzelnen Staaten angegebenen Werte der CO₂-Äquivalente für Staaten mit einer geringeren Einwohnerzahl größer sind als für jene mit einer höheren Einwohnerzahl. (Beim Übergang vom ungewichteten zum gewichteten arithmetischen Mittel erhöht sich das Gewicht jedes Staates mit einem Wert kleiner als "
+            "v": " ist größer, weil die für die einzelnen Staaten angegebenen Werte der CO₂-Äquivalente für Staaten mit einer geringeren Einwohnerzahl größer sind als für jene mit einer höheren Einwohnerzahl."
+          },
+          {
+            "t": "text",
+            "v": "\noder:\nWenn man die jeweilige Einwohnerzahl der einzelnen Staaten beim Übergang vom ungewichteten zum gewichteten arithmetischen Mittel berücksichtigt, erhöht sich das Gewicht jedes Staates mit einem Wert der CO₂-Äquivalente kleiner als "
           },
           {
             "t": "math",
@@ -340,7 +424,7 @@
           },
           {
             "t": "text",
-            "v": " und verringert sich das Gewicht jedes Staates mit einem Wert größer als "
+            "v": " und verringert sich das Gewicht jedes Staates mit einem Wert der CO₂-Äquivalente größer als "
           },
           {
             "t": "math",
@@ -348,7 +432,11 @@
           },
           {
             "t": "text",
-            "v": ".)"
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nb2) Ein Punkt für das richtige Erklären."
           }
         ],
         "grader": "ai"
@@ -372,6 +460,26 @@
             {
               "t": "text",
               "v": " ist größer, weil die für die einzelnen Staaten angegebenen Werte der CO₂-Äquivalente für Staaten mit einer geringeren Einwohnerzahl größer sind als für jene mit einer höheren Einwohnerzahl."
+            },
+            {
+              "t": "text",
+              "v": "\noder:\nWenn man die jeweilige Einwohnerzahl der einzelnen Staaten beim Übergang vom ungewichteten zum gewichteten arithmetischen Mittel berücksichtigt, erhöht sich das Gewicht jedes Staates mit einem Wert der CO₂-Äquivalente kleiner als "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "text",
+              "v": " und verringert sich das Gewicht jedes Staates mit einem Wert der CO₂-Äquivalente größer als "
+            },
+            {
+              "t": "math",
+              "v": "\\bar{x}"
+            },
+            {
+              "t": "text",
+              "v": "."
             }
           ],
           "note": "b2) Ein Punkt für das richtige Erklären."

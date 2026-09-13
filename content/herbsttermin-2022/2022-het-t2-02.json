@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -52,13 +52,28 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "rate",
-            "value": 0.0338,
-            "tol": 0.006,
-            "unit": "Cent/kWh pro Jahr"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{4{,}84-4{,}4}{13}=0{,}033\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die mittlere Änderungsrate der Jahresdurchschnittspreise für Pellets beträgt rund 0,03 Cent/kWh pro Jahr."
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Berechnen der mittleren Änderungsrate."
           }
         ]
       },
@@ -155,15 +170,11 @@
           "result": [
             {
               "t": "math",
-              "v": "K_{\\text{Öl}}(t)=1\\,192{,}5\\cdot t"
-            },
-            {
-              "t": "text",
-              "v": ";  "
+              "v": "K_{\\text{Öl}}(t)=15\\,000\\cdot 0{,}0795\\cdot t=1\\,192{,}5\\cdot t"
             },
             {
               "t": "math",
-              "v": "K_{\\text{Pellets}}(t)=726\\cdot t+10\\,000"
+              "v": "K_{\\text{Pellets}}(t)=15\\,000\\cdot 0{,}0484\\cdot t+10\\,000=726\\cdot t+10\\,000"
             }
           ],
           "note": "b1) Ein Punkt für das richtige Aufstellen der beiden Funktionsgleichungen KÖl und KPellets, ein halber Punkt für nur eine richtige Funktionsgleichung."
@@ -173,7 +184,7 @@
     {
       "id": "2022-het-t2-02-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 1.6",
@@ -195,18 +206,41 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Familie Buchner lebt in einem Einfamilienhaus und heizt mit Heizöl. Die Familie überlegt, auf eine Pelletsheizung umzusteigen.\nFür die geschätzten Gesamtkosten für das Heizen mit Heizöl oder mit Pellets ab dem Jahr 2019 trifft Familie Buchner folgende Annahmen:\n- Familie Buchner verbraucht pro Jahr rund 15 000 kWh Energie für das Beheizen ihres Hauses.\n- Der Jahresdurchschnittspreis für das Heizen mit Heizöl (0,0795 €/kWh) und jener für das Heizen mit Pellets (0,0484 €/kWh) bleiben ab dem Jahr 2019 gleich.\n- Der Umstieg von der Ölheizung zu einer Pelletsheizung kostet einmalig 10.000 €.\n\nt ... Zeit seit Beginn des Jahres 2019 in Jahren\nKÖl(t) ... geschätzte Gesamtkosten für das Heizen mit Heizöl bis zur Zeit t in €\nKPellets(t) ... geschätzte Gesamtkosten für das Heizen mit Pellets bis zur Zeit t in €\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Ermitteln Sie den Zeitpunkt t₁, zu dem die geschätzten Gesamtkosten für Familie Buchner für das Heizen mit Pellets gleich groß sind wie die geschätzten Gesamtkosten für das Heizen mit Heizöl."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t1",
-            "label": "t₁",
-            "value": 21.4,
-            "tol": 0.1
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "1\\,192{,}5\\cdot t_1=726\\cdot t_1+10\\,000"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_1=21{,}4\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Ermitteln von t₁."
           }
         ]
       },
@@ -267,6 +301,10 @@
         {
           "t": "text",
           "v": "t ... Zeit seit Beginn des Jahres 1997 in Jahren\nA(t) ... Anzahl der Pelletsheizungen in Österreich zur Zeit t\n\nErmitteln Sie für den Zeitraum von 1997 bis 2019 dasjenige Jahr, in dem gemäß diesem Modell die momentane Änderungsrate der Anzahl der Pelletsheizungen in Österreich am größten war."
+        },
+        {
+          "t": "text",
+          "v": "\n\n* aktualisiert am 11.11.2022"
         }
       ],
       "figures": [],
@@ -277,7 +315,7 @@
             "id": "jahr",
             "label": "Jahr",
             "value": 2009,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

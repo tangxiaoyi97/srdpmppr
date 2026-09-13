@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,217 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_605a",
+          "id": "1_605",
           "baseId": "1_605",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/314/Wendestelle.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=6"
+            },
+            {
+              "t": "text",
+              "v": " keine Wendestelle."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die Funktion f an der Stelle x = 6 keine Wendestelle hat, und eine korrekte Begründung.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(x)=24\\cdot x-4"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(6)=140\\ne0\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " kann an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=6"
+            },
+            {
+              "t": "text",
+              "v": " keine Wendestelle haben."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x=6"
+        },
+        {
+          "t": "text",
+          "v": " eine Wendestelle hat, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " hat an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x=6"
+          },
+          {
+            "t": "text",
+            "v": " keine Wendestelle.\nMögliche Begründung:\n"
+          },
+          {
+            "t": "math",
+            "v": "f''(x)=24\\cdot x-4"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f''(6)=140\\ne0\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " kann an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x=6"
+          },
+          {
+            "t": "text",
+            "v": " keine Wendestelle haben.\nEin Punkt für die Angabe, dass die Funktion f an der Stelle x = 6 keine Wendestelle hat, und eine korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_605",
       "baseId": "1_605",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/314/Wendestelle.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion dritten Grades "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " hat die Ableitungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f'(x)=12\\cdot x^2-4\\cdot x-8"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

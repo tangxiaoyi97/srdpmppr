@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,148 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_415a",
+          "id": "1_415",
           "baseId": "1_415",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/123/Volumen%20eines%20Drehkegels.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Abbildung rechts oben (zweite Abbildung in zeilenweiser Reihenfolge)."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Abbildung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine der nachstehenden Abbildungen stellt die Abhängigkeit des Volumens eines Drehkegels vom Radius bei konstanter Höhe dar.\n\nKreuzen Sie die entsprechende Abbildung an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-1.png",
+              "alt": "Originalabbildung 1 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-2.png",
+              "alt": "Originalabbildung 2 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-3.png",
+              "alt": "Originalabbildung 3 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-4.png",
+              "alt": "Originalabbildung 4 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-5.png",
+              "alt": "Originalabbildung 5 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-07-candidate-6.png",
+              "alt": "Originalabbildung 6 des Volumens V in Abhängigkeit vom Radius r."
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_415",
       "baseId": "1_415",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/123/Volumen%20eines%20Drehkegels.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Volumen "
+    },
+    {
+      "t": "math",
+      "v": "V"
+    },
+    {
+      "t": "text",
+      "v": " eines Drehkegels hängt vom Radius "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " und der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " ab. Es wird durch die Formel "
+    },
+    {
+      "t": "math",
+      "v": "V=\\frac13\\cdot r^2\\cdot\\pi\\cdot h"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben."
     }
   ]
 }

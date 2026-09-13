@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,171 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_472a",
+          "id": "1_472",
           "baseId": "1_472",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/181/Wahrschenlichkeitsverteilung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=x_2)=0{,}2"
+            },
+            {
+              "t": "text",
+              "v": "\n\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X=x_3)=0{,}4"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der korrekten Werte beider Wahrscheinlichkeiten. Andere Schreibweisen der Ergebnisse (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "P(X=x_2)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "P(X=x_3)"
+        },
+        {
+          "t": "text",
+          "v": "!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "P(X=x_2) ="
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "P(X=x_3) ="
+        },
+        {
+          "t": "text",
+          "v": " "
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X=x_2)=0{,}2"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X=x_3)=0{,}4"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe der korrekten Werte beider Wahrscheinlichkeiten. Andere Schreibweisen der Ergebnisse (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_472",
       "baseId": "1_472",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/181/Wahrschenlichkeitsverteilung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Wertebereich einer Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " besteht aus den Werten "
+    },
+    {
+      "t": "math",
+      "v": "x_1,x_2,x_3"
+    },
+    {
+      "t": "text",
+      "v": ".\nMan kennt die Wahrscheinlichkeit "
+    },
+    {
+      "t": "math",
+      "v": "P(X=x_1)=0{,}4"
+    },
+    {
+      "t": "text",
+      "v": ". Außerdem weiß man, dass "
+    },
+    {
+      "t": "math",
+      "v": "x_3"
+    },
+    {
+      "t": "text",
+      "v": " doppelt so wahrscheinlich wie "
+    },
+    {
+      "t": "math",
+      "v": "x_2"
+    },
+    {
+      "t": "text",
+      "v": " ist."
     }
   ]
 }

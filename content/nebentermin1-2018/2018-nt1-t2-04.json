@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -23,8 +23,92 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt1-t2-04-a",
-      "label": "a",
+      "id": "2018-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_040a",
+          "baseId": "2_040",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/390/Roulette.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt, wie oft die Kugel bei 80 Spielen auf eine bestimmte Zahl fällt.\nBerechnen Sie die Wahrscheinlichkeit, dass die Kugel bei 80 Spielen mindestens viermal auf eine bestimmte Zahl fällt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\ge4)\\approx0{,}171"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Toleranzintervall für P(X ≥ 4): [0,1; 0,2] bzw. [10 %; 20 %]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\ge4)\\approx0{,}171"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall für P(X ≥ 4): [0,1; 0,2] bzw. [10 %; 20 %]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-04-a2",
+      "label": "a2",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -42,20 +126,146 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_040a",
           "baseId": "2_040",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/390/Roulette.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Spieler möchte seine Gewinnchancen erhöhen und handelt wie folgt: Er notiert während einer Serie von z. B. 37 Spielen, auf welche Zahlen die Kugel fällt. Weiters geht er davon aus, dass die Kugel in den nachfolgenden Spielen auf die dabei nicht notierten Zahlen fällt, und setzt auf diese Zahlen.\n\nGeben Sie an, ob der Spieler mit dieser Strategie die Gewinnchancen erhöhen kann, und begründen Sie Ihre Antwort!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Da die Spieldurchgänge voneinander unabhängig sind und somit die Ergebnisse der vorherigen Spielrunden keine Auswirkungen auf die nachfolgenden Spielrunden haben, kann der Spieler seine Gewinnchancen mit dieser Strategie nicht beeinflussen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe, dass der Spieler seine Gewinnchancen mit dieser Strategie nicht erhöhen kann, und eine korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Da die Spieldurchgänge voneinander unabhängig sind und somit die Ergebnisse der vorherigen Spielrunden keine Auswirkungen auf die nachfolgenden Spielrunden haben, kann der Spieler seine Gewinnchancen mit dieser Strategie nicht beeinflussen."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass der Spieler seine Gewinnchancen mit dieser Strategie nicht erhöhen kann, und eine korrekte Begründung."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-04-b",
-      "label": "b",
+      "id": "2018-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 2.3",
+          "description": "Wahrscheinlichkeit unter der Verwendung der Laplace-Annahme (Laplace-Wahrscheinlichkeit) berechnen und interpretieren können, Additionsregel und Multiplikationsregel anwenden und interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.1",
+          "description": "die Begriffe Zufallsvariable, (Wahrscheinlichkeits-)Verteilung, Erwartungswert und Standardabweichung verständig deuten und einsetzen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_040b",
+          "baseId": "2_040",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/390/Roulette.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Spielerin wendet das Martingale-System an und setzt immer auf „Rot“. Die Spielserie endet, sobald die Spielerin gewinnt bzw. wenn der vom Casino festgelegte Höchsteinsatz von € 10.000 keine weitere Verdoppelung des Spieleinsatzes mehr erlaubt.\n\nDie nachstehende Tabelle zeigt, wie schnell die Einsätze ausgehend von einem Starteinsatz von € 10 bei einer Martingale-Spielserie im Falle einer „Pechsträhne“ ansteigen können."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-04-stakes-table.png",
+          "alt": "Originaltabelle der zehn aufeinanderfolgenden Spieleinsätze."
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie die Wahrscheinlichkeit, dass die Spielerin bei dieser Martingale-Spielserie alle zehn Spiele verliert!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\left(\\frac{19}{37}\\right)^{10}\\approx0{,}00128"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [0,0012; 0,0013]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\left(\\frac{19}{37}\\right)^{10}\\approx0{,}00128"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [0,0012; 0,0013]."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-04-b2",
+      "label": "b2",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -73,26 +283,117 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_040b",
           "baseId": "2_040",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/390/Roulette.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Spielerin wendet das Martingale-System an und setzt immer auf „Rot“. Die Spielserie endet, sobald die Spielerin gewinnt bzw. wenn der vom Casino festgelegte Höchsteinsatz von € 10.000 keine weitere Verdoppelung des Spieleinsatzes mehr erlaubt.\n\nDie nachstehende Tabelle zeigt, wie schnell die Einsätze ausgehend von einem Starteinsatz von € 10 bei einer Martingale-Spielserie im Falle einer „Pechsträhne“ ansteigen können."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-04-stakes-table.png",
+          "alt": "Originaltabelle der zehn aufeinanderfolgenden Spieleinsätze."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Zeigen Sie durch die Berechnung des Erwartungswerts für den Gewinn, dass trotz der sehr geringen Wahrscheinlichkeit, zehn aufeinanderfolgende Spiele zu verlieren, das beschriebene Martingale-System ungünstig für die Spielerin ist!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bei zehn aufeinanderfolgenden verlorenen Spielrunden beträgt der Verlust € 10.230. Endet die Spielserie mit einem Gewinn, so beträgt dieser € 10.\nErwartungswert für einen Gewinn: "
+          },
+          {
+            "t": "math",
+            "v": "(1-0{,}00128)\\cdot10-0{,}00128\\cdot10\\,230\\approx-3{,}11"
+          },
+          {
+            "t": "text",
+            "v": "\nEin negativer Erwartungswert zeigt, dass dieses Spiel langfristig gesehen für die Spielerin ungünstig ist. Ein anderer korrekter rechnerischer Nachweis mit ungerundeten Wahrscheinlichkeiten ist ebenfalls richtig."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten rechnerischen Nachweis."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei zehn aufeinanderfolgenden verlorenen Spielrunden beträgt der Verlust € 10.230. Endet die Spielserie mit einem Gewinn, so beträgt dieser € 10.\nErwartungswert für einen Gewinn: "
+            },
+            {
+              "t": "math",
+              "v": "(1-0{,}00128)\\cdot10-0{,}00128\\cdot10\\,230\\approx-3{,}11"
+            },
+            {
+              "t": "text",
+              "v": "\nEin negativer Erwartungswert zeigt, dass dieses Spiel langfristig gesehen für die Spielerin ungünstig ist."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis."
+        }
+      ]
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_040",
       "baseId": "2_040",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/390/Roulette.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Roulette ist ein Glücksspiel, bei dem mittels einer Kugel eine natürliche Zahl aus dem Zahlenbereich von 0 bis 36 zufällig ausgewählt wird, wobei jede der 37 Zahlen bei jedem der voneinander unabhängigen Spieldurchgänge mit derselben Wahrscheinlichkeit ausgewählt wird. Das Spielfeld mit der Zahl Null ist grün gefärbt, die Hälfte der restlichen Zahlenfelder ist rot, die andere Hälfte schwarz gefärbt.\nDie nachstehende Tabelle zeigt eine Auswahl von Setzmöglichkeiten und die im Erfolgsfall ausbezahlten Gewinne. „35-facher Gewinn“ bedeutet zum Beispiel, dass bei einem gewonnenen Spiel der Einsatz und zusätzlich der 35-fache Einsatz (also insgesamt der 36-fache Einsatz) ausbezahlt wird."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t2-04-payout-table.png",
+      "alt": "Originaltabelle der Setzmöglichkeiten und Gewinne beim Roulette."
+    },
+    {
+      "t": "text",
+      "v": "Eine der bekanntesten Spielstrategien ist das Martingale-System. Man setzt dabei stets auf dieselbe „einfache Chance“ (z. B. auf „Rot“ oder „Gerade“). Falls man verliert, verdoppelt man den Einsatz im darauffolgenden Spiel. Sollte man auch dieses Spiel verlieren, verdoppelt man den Einsatz noch einmal für das nächstfolgende Spiel und setzt diese Strategie von Spiel zu Spiel fort. Sobald man ein Spiel gewinnt, endet diese Spielserie, und man hat mit dieser Strategie den Einsatz des ersten Spiels dieser Spielserie (Starteinsatz) als Gewinn erzielt."
     }
   ]
 }

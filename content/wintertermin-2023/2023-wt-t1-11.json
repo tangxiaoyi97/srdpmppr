@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1254a",
+          "id": "1_1254",
           "baseId": "1_1254",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/786/1_1254_srdp_ma_Baumhoehe_PT3_22.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -85,14 +85,44 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "h",
-            "label": "Höhe",
-            "value": 1.46,
-            "tol": 0.05,
-            "unit": "m"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(t) = a \\cdot b^{t}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "f(10) = 2{,}2 \\text{ und } f(15) = 2{,}7"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "a = 1{,}46\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Baum war zum Zeitpunkt des Einpflanzens rund 1,5 m hoch."
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen der Höhe."
           }
         ]
       },

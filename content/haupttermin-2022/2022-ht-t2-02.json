@@ -56,16 +56,26 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "2500/v1 + 2500/v2 + 2500/v3 + 2*ts + 300/vs",
-        "vars": [
-          "v1",
-          "v2",
-          "v3",
-          "ts",
-          "vs"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "b=\\dfrac{2\\,500}{v_1}+\\dfrac{2\\,500}{v_2}+\\dfrac{2\\,500}{v_3}+2\\cdot t^{*}+\\dfrac{300}{v_S}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Aufstellen der Formel."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -160,7 +170,7 @@
     {
       "id": "2022-ht-t2-02-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AN 3.3",
@@ -180,6 +190,14 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Geschwindigkeit von Hanna in der ersten Runde kann modellhaft durch die Funktion v: [0; 440] → ℝ, t ↦ v(t) beschrieben werden (t in s, v(t) in m/s)."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Es gibt genau zwei Zeitpunkte t₁, t₂ ∈ (0 s; 440 s) mit t₁ < t₂, für die gilt:\n"
@@ -340,7 +358,16 @@
       "label": "c1",
       "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "aufgabenpool",
+          "id": "2_114",
+          "baseId": "2_114",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/745/Biathlon.pdf#page=2",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",

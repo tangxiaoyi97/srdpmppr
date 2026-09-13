@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -24,12 +24,123 @@
     {
       "id": "2015-nt1-t1-03-a",
       "label": "a",
-      "format": "",
+      "format": "Konstruktionsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_443",
+          "baseId": "1_443",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/151/Vektoren.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Darstellung:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-03-solution.png",
+              "alt": "Konstruktion von d durch Addition von a, b, −c, −c"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Darstellung des gesuchten Pfeils, wobei der Lösungspfeil auch von anderen Ausgangspunkten aus gezeichnet werden kann."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec d=\\vec a+\\vec b-2\\cdot\\vec c"
+        },
+        {
+          "t": "text",
+          "v": " als Pfeil dar!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-03-vector-grid.png",
+          "alt": "Vektoren a, b und c auf einem Raster"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Pfeil mit Verschiebung vier Rastereinheiten nach rechts und sechs nach oben; jeder Ausgangspunkt ist zulässig."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine richtige Darstellung des gesuchten Pfeils, wobei der Lösungspfeil auch von anderen Ausgangspunkten aus gezeichnet werden kann."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=7",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_443",
+      "baseId": "1_443",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/151/Vektoren.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung sind die Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "\\vec b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec c"
+    },
+    {
+      "t": "text",
+      "v": " als Pfeile dargestellt."
+    }
+  ]
 }

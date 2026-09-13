@@ -1,6 +1,6 @@
 {
   "id": "2021-nt2-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -36,12 +36,18 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097a",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097a (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -92,12 +98,18 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097a",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097a (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -108,20 +120,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "L",
-            "label": "Liter Tee mittels Teebeuteln (2026)",
-            "value": 38.2,
-            "tol": 0.1,
-            "unit": "L"
+            "t": "math",
+            "v": "33\\cdot 1{,}02^{10}\\cdot 0{,}95=38{,}21\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "In Österreich werden im Jahr 2026 pro Kopf ca. 38,2 L Tee mittels Teebeuteln zubereitet."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für die richtige Lösung, wobei die Einheit „L“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für die richtige Lösung, wobei die Einheit „L“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -156,22 +183,40 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097b",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097b (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Der weltweit größte Teeproduzent ist China. Die nachstehende Tabelle gibt die Menge des in China produzierten Tees in Millionen Tonnen für einige Jahre im Zeitraum von 2011 bis 2017 an.\n\nJahr | 2011 | 2013 | 2015 | 2017\nMenge des in China produzierten Tees in Millionen Tonnen | 1,55 | 1,85 | 2,23 | 2,55\n\nDie Menge des in China produzierten Tees soll in Abhängigkeit von der Zeit t ab dem Jahr 2011 näherungsweise durch eine lineare Funktion g beschrieben werden (t in Jahren ab dem Jahr 2011, g(t) in Millionen Tonnen).\n\nGeben Sie unter Verwendung der Daten aus den Jahren 2011 und 2017 eine Funktionsgleichung für g an."
+          "v": "Der weltweit größte Teeproduzent ist China. Die nachstehende Tabelle gibt die Menge des in China produzierten Tees in Millionen Tonnen für einige Jahre im Zeitraum von 2011 bis 2017 an."
         },
         {
           "t": "math",
-          "v": "g(t)="
+          "v": "\\begin{array}{|l|c|c|c|c|}\\hline\\text{Jahr}&2011&2013&2015&2017\\\\\\hline\\begin{array}{l}\\text{Menge des in China produzierten Tees}\\\\\\text{in Millionen Tonnen}\\end{array}&1{,}55&1{,}85&2{,}23&2{,}55\\\\\\hline\\end{array}"
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.statista.com/statistik/daten/studie/29847/umfrage/produktion-von-tee-nach-erzeugerlaendern-seit-2006/ [28.08.2018]."
+        },
+        {
+          "t": "text",
+          "v": "Die Menge des in China produzierten Tees soll in Abhängigkeit von der Zeit t ab dem Jahr 2011 näherungsweise durch eine lineare Funktion g beschrieben werden (t in Jahren ab dem Jahr 2011, g(t) in Millionen Tonnen).\n\nGeben Sie unter Verwendung der Daten aus den Jahren 2011 und 2017 eine Funktionsgleichung für g an."
+        },
+        {
+          "t": "math",
+          "v": "g(t)=\\underline{\\hspace{5cm}}"
         }
       ],
       "figures": [],
@@ -220,41 +265,105 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097b",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097b (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der weltweit größte Teeproduzent ist China. Die nachstehende Tabelle gibt die Menge des in China produzierten Tees in Millionen Tonnen für einige Jahre im Zeitraum von 2011 bis 2017 an."
+        },
+        {
+          "t": "math",
+          "v": "\\begin{array}{|l|c|c|c|c|}\\hline\\text{Jahr}&2011&2013&2015&2017\\\\\\hline\\begin{array}{l}\\text{Menge des in China produzierten Tees}\\\\\\text{in Millionen Tonnen}\\end{array}&1{,}55&1{,}85&2{,}23&2{,}55\\\\\\hline\\end{array}"
+        },
+        {
+          "t": "text",
+          "v": "Quelle: https://de.statista.com/statistik/daten/studie/29847/umfrage/produktion-von-tee-nach-erzeugerlaendern-seit-2006/ [28.08.2018]."
+        },
+        {
+          "t": "text",
+          "v": "Die Menge des in China produzierten Tees soll in Abhängigkeit von der Zeit t ab dem Jahr 2011 näherungsweise durch eine lineare Funktion g beschrieben werden (t in Jahren ab dem Jahr 2011, g(t) in Millionen Tonnen).\n\nGeben Sie unter Verwendung der Daten aus den Jahren 2011 und 2017 eine Funktionsgleichung für g an."
+        },
+        {
+          "t": "math",
+          "v": "g(t)=\\underline{\\hspace{5cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "In den Jahren 2013 und 2015 gibt es jeweils eine Abweichung zwischen den Funktionswerten von g und den Werten aus der obigen Tabelle.\n\nGeben Sie an, in welchem der Jahre 2013 und 2015 der Betrag der absoluten Abweichung zwischen dem Funktionswert von g und dem zugehörigen Wert aus der obigen Tabelle größer ist. Ermitteln Sie für das angegebene Jahr ebenso den Betrag der absoluten Abweichung."
+        },
+        {
+          "t": "text",
+          "v": "\nJahr: "
+        },
+        {
+          "t": "math",
+          "v": "\\underline{\\hspace{3cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\nBetrag der absoluten Abweichung: "
+        },
+        {
+          "t": "math",
+          "v": "\\underline{\\hspace{3cm}}"
+        },
+        {
+          "t": "text",
+          "v": " Millionen Tonnen"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "jahr",
-            "label": "Jahr",
-            "value": 2013
+            "t": "text",
+            "v": "Jahr: 2013\nBetrag der absoluten Abweichung: "
           },
           {
-            "id": "abweichung",
-            "label": "Betrag der absoluten Abweichung",
-            "value": 0.03,
-            "tol": 0.005,
-            "unit": "Millionen Tonnen"
+            "t": "math",
+            "v": "0{,}0\\dot3"
+          },
+          {
+            "t": "text",
+            "v": " Millionen Tonnen"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für die Angabe des richtigen Jahres und der richtigen Lösung."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für die Angabe des richtigen Jahres und der richtigen Lösung.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -262,7 +371,15 @@
           "result": [
             {
               "t": "text",
-              "v": "Jahr: 2013;  Betrag der absoluten Abweichung: 0,03 Millionen Tonnen"
+              "v": "Jahr: 2013\nBetrag der absoluten Abweichung: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}0\\dot3"
+            },
+            {
+              "t": "text",
+              "v": " Millionen Tonnen"
             }
           ],
           "note": "b2) Ein Punkt für die Angabe des richtigen Jahres und der richtigen Lösung."
@@ -283,12 +400,18 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097c",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097c (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -307,20 +430,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "k",
-            "label": "k",
-            "value": 0.044,
-            "tol": 0.0005,
-            "unit": "min⁻¹"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "65=70\\cdot e^{-k\\cdot 10}+20"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "k=\\dfrac{\\ln\\!\\left(\\tfrac{45}{70}\\right)}{-10}=0{,}0441\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "k\\approx 0{,}044\\ \\text{min}^{-1}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die richtige Lösung, wobei die Einheit „min–1“ nicht angegeben sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die richtige Lösung, wobei die Einheit „min–1“ nicht angegeben sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -356,7 +506,7 @@
     {
       "id": "2021-nt2-t2-01-c2",
       "label": "c2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 5.3",
@@ -367,22 +517,48 @@
       ],
       "externalRefs": [
         {
-          "system": "aufgabenpool",
-          "id": "2_097c",
+          "system": "maturaArchiv",
+          "id": "Aufgabe 25 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 2_097c (englische Übersetzung)",
           "baseId": "2_097",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Heißer Tee kühlt bei niedrigerer Umgebungstemperatur ab.\n\nDie Temperatur T(t) des Tees t Minuten nach Beginn des Abkühlungsprozesses kann bei einer Anfangstemperatur T₀ und einer konstanten Umgebungstemperatur T_U durch die nachstehende Funktionsgleichung näherungsweise beschrieben werden."
+        },
+        {
+          "t": "math",
+          "v": "T(t)=(T_0-T_U)\\cdot e^{-k\\cdot t}+T_U\\ \\text{mit}\\ k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": "(t in Minuten, T_U in °C, T₀ in °C, T(t) in °C)\n\nEine Tasse mit Tee mit der Anfangstemperatur T₀ = 90 °C wird in einen Raum mit einer konstanten Umgebungstemperatur von T_U = 20 °C gestellt. Der Tee ist nach 10 Minuten auf eine Temperatur von 65 °C abgekühlt.\n\nErmitteln Sie k."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Nehmen Sie an, dass der ermittelte Wert von k sowohl für den Abkühlungsprozess eines Tees mit einer Anfangstemperatur von 90 °C als auch für den Abkühlungsprozess eines anderen Tees mit einer Anfangstemperatur von 70 °C gilt.\n\nGeben Sie an, bei welcher Umgebungstemperatur T_U beide Tees in der gleichen Zeit auf die Hälfte des Wertes ihrer jeweiligen Anfangstemperatur (in °C) abkühlen."
         },
         {
           "t": "math",
-          "v": "T_U="
+          "v": "T_U=\\underline{\\hspace{5cm}}\\ ^\\circ\\mathrm{C}"
         }
       ],
       "figures": [],
@@ -443,12 +619,18 @@
   ],
   "externalRefs": [
     {
-      "system": "aufgabenpool",
-      "id": "2_097",
+      "system": "maturaArchiv",
+      "id": "Aufgabe 25 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=27",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 2_097 (englische Übersetzung)",
       "baseId": "2_097",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/618/2_097_srdp_ma_Tea_PT3_20_ENG.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
     }
   ],
   "prompt": [

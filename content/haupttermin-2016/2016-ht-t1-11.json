@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,95 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_483a",
+          "id": "1_483",
           "baseId": "1_483",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/192/Ausbreitung%20eines%20%C3%96lteppichs.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "1{,}5 \\cdot 1{,}05^d = 2 \\Rightarrow d = 5{,}896\\ldots \\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Nach 6 Tagen ist der Ölteppich erstmals größer als 2 km²."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Tage“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [5,89; 6]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, nach wie vielen Tagen der Ölteppich erstmals größer als 2 km² ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "1{,}5 \\cdot 1{,}05^d = 2 \\Rightarrow d = 5{,}896\\ldots \\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Nach 6 Tagen ist der Ölteppich erstmals größer als 2 km²."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „Tage“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [5,89; 6]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_483",
       "baseId": "1_483",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/192/Ausbreitung%20eines%20%C3%96lteppichs.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Flächeninhalt eines Ölteppichs beträgt momentan 1,5 km² und wächst täglich um 5 %."
     }
   ]
 }

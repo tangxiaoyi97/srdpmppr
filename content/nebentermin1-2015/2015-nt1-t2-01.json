@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -22,14 +22,936 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt1-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-nt1-t2-01-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " verläuft durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(-1|7)"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nⒶ Bestimmen Sie den Parameter "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " dieser Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": 10,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "7=(-1)^2+b\\cdot(-1)+16\\Rightarrow-10=-b"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b=10"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die korrekte Angabe des Parameters b."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " verläuft durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(-1|7)"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie die Steigung dieser Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x=-1"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Steigung",
+            "label": "Steigung",
+            "value": 8,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(-1)=2\\cdot(-1)+10=8"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe der Steigung der Funktion f an der Stelle x = −1."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, welcher allgemeine Zusammenhang zwischen der Extremstelle "
+        },
+        {
+          "t": "math",
+          "v": "x_{\\mathrm E}"
+        },
+        {
+          "t": "text",
+          "v": " einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und dem Parameter "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " besteht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "2x_{\\mathrm E}+b=0"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "x_{\\mathrm E}=-b/2"
+          },
+          {
+            "t": "text",
+            "v": "; äquivalente Beziehungen akzeptieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Zusammenhang zwischen xE und b."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)=2\\cdot x+b\\Rightarrow2\\cdot x_{\\mathrm E}+b=0"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "x_{\\mathrm E}=-\\dfrac b2"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Zusammenhang zwischen xE und b."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, welcher allgemeine Zusammenhang zwischen der Extremstelle "
+        },
+        {
+          "t": "math",
+          "v": "x_{\\mathrm E}"
+        },
+        {
+          "t": "text",
+          "v": " einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und dem Parameter "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " besteht!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie alle Werte des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": ", für die "
+        },
+        {
+          "t": "math",
+          "v": "f(x_{\\mathrm E})=-9"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "b = −10 und b = 10; beide Werte erforderlich."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe der beiden korrekten Werte für b."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f\\left(-\\dfrac b2\\right)=-9\\Rightarrow\\dfrac{b^2}{4}-\\dfrac{b^2}{2}+16=-9\\Rightarrow b=\\pm10"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden korrekten Werte für b."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für bestimmte Werte von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " liegt der Tiefpunkt des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " auf einer der Koordinatenachsen. Bestimmen Sie diese Tiefpunkte!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Alle drei Tiefpunkte T₁=(4|0), T₂=(−4|0), T₃=(0|16)."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe aller drei Tiefpunkte."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Bestimmung der Tiefpunkte:\n• Tiefpunkt des Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " liegt auf der "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": "-Achse "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt genau eine reelle Nullstelle. "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=0\\Rightarrow x_{1,2}=-\\dfrac b2\\pm\\sqrt{\\left(-\\dfrac b2\\right)^2-16}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\left(-\\dfrac b2\\right)^2-16=0\\Rightarrow b_1=-8"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b_2=8"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "x_1=4"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x_2=-4\\Rightarrow T_1=(4|0)"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "T_2=(-4|0)"
+            },
+            {
+              "t": "text",
+              "v": ".\n• Tiefpunkt des Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " liegt auf der senkrechten Achse "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow b=0\\Rightarrow T_3=(0|16)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe aller drei Tiefpunkte."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Für bestimmte Werte von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " liegt der Tiefpunkt des Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " auf einer der Koordinatenachsen. Bestimmen Sie diese Tiefpunkte!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Graph der Polynomfunktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " zweiten Grades geht durch diese Punkte. Bestimmen Sie eine Funktionsgleichung für "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-x^2+16",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g(x)=a\\cdot x^2+c"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "g(0)=16"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "c=16"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "g(4)=0\\Rightarrow16\\cdot a+16=0\\Rightarrow a=-1\\Rightarrow g(x)=-x^2+16"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe einer korrekten Funktionsgleichung der Funktion g. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-d1",
+      "label": "d1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Auf dem Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " liegt der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "Q=(2|f(2))"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nDrücken Sie den Funktionswert "
+        },
+        {
+          "t": "math",
+          "v": "f(2)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit vom Parameter "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " aus!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2*b+20",
+        "vars": [
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(2)=2^2+2\\cdot b+16=2\\cdot b+20"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe des Funktionswertes f(2) in Abhängigkeit von b."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-01-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Auf dem Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " liegt der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "Q=(2|f(2))"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Tangente im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "Q"
+        },
+        {
+          "t": "text",
+          "v": " an den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " schneidet die senkrechte Achse in einem Punkt "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": ". Zeigen Sie mittels einer Rechnung, dass die Lage dieses Punktes "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": " von der Wahl von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " unabhängig ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Korrekter rechnerischer Nachweis: Tangentensteigung 4+b, y-Achsenabschnitt "
+          },
+          {
+            "t": "math",
+            "v": "d=f(2)-2f'(2)=2b+20-2(4+b)=12"
+          },
+          {
+            "t": "text",
+            "v": ", also R=(0|12) unabhängig von b."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten rechnerischen Nachweis."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Lage der Tangente ergibt sich aus "
+            },
+            {
+              "t": "math",
+              "v": "f(2)=f'(2)\\cdot2+d"
+            },
+            {
+              "t": "text",
+              "v": ".\nDaraus folgt: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot b+20=(4+b)\\cdot2+d"
+            },
+            {
+              "t": "text",
+              "v": " und daraus "
+            },
+            {
+              "t": "math",
+              "v": "d=12"
+            },
+            {
+              "t": "text",
+              "v": ", daher ist die Lage des Punktes "
+            },
+            {
+              "t": "math",
+              "v": "R"
+            },
+            {
+              "t": "text",
+              "v": " unabhängig von "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Betrachtet werden Polynomfunktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=x^2+b\\cdot x+16"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "b\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ")."
+    }
+  ]
 }

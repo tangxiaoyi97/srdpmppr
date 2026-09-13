@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -11,7 +11,7 @@
     "nr": 16,
     "file": "[2018h1]t1-16-an.pdf"
   },
-  "title": "Beziehungen zwischen Funktion Ableitungs- und Stammfunktion",
+  "title": "Beziehungen zwischen Funktion, Ableitungs- und Stammfunktion",
   "rights": {
     "thirdPartyMaterial": true,
     "note": "* meaning unverified — see Aufgabenpool legend"
@@ -36,26 +36,196 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_629a",
+          "id": "1_629",
           "baseId": "1_629",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/350/Beziehungen%20zwischen%20Funktion_Ableitungs-%20und%20Stammfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "①: "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": "\n②: "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nDie zweite Ableitungsfunktion der Funktion ① ist die Funktion ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "f"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "F"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_629",
       "baseId": "1_629",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/350/Beziehungen%20zwischen%20Funktion_Ableitungs-%20und%20Stammfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sei "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " eine Polynomfunktion dritten Grades, "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " ihre Ableitungsfunktion und "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " eine der Stammfunktionen von "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

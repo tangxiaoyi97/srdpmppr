@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,257 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_616a",
+          "id": "1_616",
           "baseId": "1_616",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/337/L%C3%B6sungsf%C3%A4lle%20quadratischer%20Gleichungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "r"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": " verschiedene Vorzeichen haben, dann hat die gegebene Gleichung genau zwei (verschiedene) reelle Lösungen."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Anzahl und eine korrekte allgemeine Begründung.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nLösungen der Gleichung: "
+            },
+            {
+              "t": "math",
+              "v": "x_{1,2}=\\frac{-s\\pm\\sqrt{s^2-4\\cdot r\\cdot t}}{2\\cdot r}"
+            },
+            {
+              "t": "text",
+              "v": "\nHaben "
+            },
+            {
+              "t": "math",
+              "v": "r"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": " verschiedene Vorzeichen, dann ist "
+            },
+            {
+              "t": "math",
+              "v": "-4\\cdot r\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": " in jedem Fall positiv und es gilt: "
+            },
+            {
+              "t": "math",
+              "v": "s^2-4\\cdot r\\cdot t>0"
+            },
+            {
+              "t": "text",
+              "v": ".\nDaraus ergeben sich zwei verschiedene reelle Lösungen."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Anzahl der reellen Lösungen der gegebenen Gleichung an, wenn "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " verschiedene Vorzeichen haben, und begründen Sie Ihre Antwort allgemein!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Wenn "
+          },
+          {
+            "t": "math",
+            "v": "r"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": " verschiedene Vorzeichen haben, dann hat die gegebene Gleichung genau zwei (verschiedene) reelle Lösungen.\nMögliche Begründung:\nLösungen der Gleichung: "
+          },
+          {
+            "t": "math",
+            "v": "x_{1,2}=\\frac{-s\\pm\\sqrt{s^2-4\\cdot r\\cdot t}}{2\\cdot r}"
+          },
+          {
+            "t": "text",
+            "v": "\nHaben "
+          },
+          {
+            "t": "math",
+            "v": "r"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": " verschiedene Vorzeichen, dann ist "
+          },
+          {
+            "t": "math",
+            "v": "-4\\cdot r\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": " in jedem Fall positiv und es gilt: "
+          },
+          {
+            "t": "math",
+            "v": "s^2-4\\cdot r\\cdot t>0"
+          },
+          {
+            "t": "text",
+            "v": ".\nDaraus ergeben sich zwei verschiedene reelle Lösungen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=7",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_616",
       "baseId": "1_616",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/337/L%C3%B6sungsf%C3%A4lle%20quadratischer%20Gleichungen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine quadratische Gleichung der Form "
+    },
+    {
+      "t": "math",
+      "v": "r\\cdot x^2+s\\cdot x+t=0"
+    },
+    {
+      "t": "text",
+      "v": " in der Variablen "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " mit den Koeffizienten "
+    },
+    {
+      "t": "math",
+      "v": "r,s,t\\in\\mathbb{R}\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie Anzahl der reellen Lösungen der Gleichung hängt von "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ab."
     }
   ]
 }

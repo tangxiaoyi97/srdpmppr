@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,96 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_523a",
+          "id": "1_523",
           "baseId": "1_523",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/232/Mittlere%20Fehlstundenanzahl.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overline x_{\\mathrm{ges}}=\\frac{18\\cdot45{,}5+20\\cdot63{,}2+16\\cdot70{,}5+15\\cdot54{,}6}{18+20+16+15}=58{,}405\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\overline x_{\\mathrm{ges}}\\approx58{,}4\\ \\mathrm h"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „h“ nicht angegeben sein muss. Lösungsintervall: [58 h; 60 h]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie das arithmetische Mittel "
+        },
+        {
+          "t": "math",
+          "v": "\\overline x_{\\mathrm{ges}}"
+        },
+        {
+          "t": "text",
+          "v": " der versäumten Unterrichtsstunden aller Schüler/innen der vier Sportklassen für den angegebenen Zeitraum!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das arithmetische Mittel beträgt ca. 58,4 h, Lösungsintervall [58 h; 60 h], Einheit h optional. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_523",
       "baseId": "1_523",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/232/Mittlere%20Fehlstundenanzahl.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Schule gibt es vier Sportklassen: S1, S2, S3 und S4. Die nachstehende Tabelle gibt eine Übersicht über die Anzahl der Schüler/innen pro Klasse sowie das jeweilige arithmetische Mittel der während des ersten Semesters eines Schuljahres versäumten Unterrichtsstunden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-19-table.png",
+      "alt": "Sportklassen S1 bis S4: Schülerzahlen 18,20,16,15; mittlere Fehlstunden 45,5;63,2;70,5;54,6."
     }
   ]
 }

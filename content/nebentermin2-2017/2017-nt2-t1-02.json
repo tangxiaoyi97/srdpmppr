@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,116 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_540a",
+          "id": "1_540",
           "baseId": "1_540",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/249/Quadratische%20Gleichung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=1"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie jene(n) Wert(e) von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": ", für welche(n) die Gleichung genau eine reelle Lösung hat!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 1,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_540",
       "baseId": "1_540",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/249/Quadratische%20Gleichung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "a\\cdot x^2+10\\cdot x+25=0"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

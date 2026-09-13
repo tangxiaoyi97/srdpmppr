@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,222 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_455a",
+          "id": "1_455",
           "baseId": "1_455",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/164/Eigenschaften%20der%20Ableitungsfunktion%20einer%20Polynomfunktion%203%20Grades.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktionswerte der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " sind im Intervall (0; 2) negativ.\n\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=0"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Aussagen treffen auf die Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " zu?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Funktionswerte der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " sind im Intervall (0; 2) negativ."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall (–1; 0) streng monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=2"
+            },
+            {
+              "t": "text",
+              "v": " eine Wendestelle."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " ein lokales Maximum."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=0"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_455",
       "baseId": "1_455",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/164/Eigenschaften%20der%20Ableitungsfunktion%20einer%20Polynomfunktion%203%20Grades.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades.\nDie Koordinaten der hervorgehobenen Punkte des Graphen der Funktion sind ganzzahlig."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-15-graph.png",
+      "alt": "Originalgraph der kubischen Funktion f mit markierten Punkten(-1,0),(0,4),(1,2),(2,0)"
     }
   ]
 }

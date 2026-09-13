@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,185 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_413a",
+          "id": "1_413",
           "baseId": "1_413",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/121/Den%20Graphen%20einer%20Polynomfunktion%20skizzieren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Funktionsgraph gemäß der ursprünglichen Lösungsskizze."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-09-solution.png",
+              "alt": "Originale Lösungsskizze mit Hochpunkt P und Nullstelle N."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze, wobei alle in der Angabe angeführten Eigenschaften der Polynomfunktion f erkennbar sein müssen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erstellen Sie anhand der gegebenen Eigenschaften eine Skizze eines möglichen Funktionsgraphen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[-2;4]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-09-axes.png",
+          "alt": "Originales Koordinatensystem für die Skizze."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Alle angegebenen Eigenschaften der Polynomfunktion müssen in der Skizze erkennbar sein. Eine Polynomfunktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " hat folgende Eigenschaften:\n\n• Die Funktion ist für "
+          },
+          {
+            "t": "math",
+            "v": "x\\le0"
+          },
+          {
+            "t": "text",
+            "v": " streng monoton steigend.\n• Die Funktion ist im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[0;3]"
+          },
+          {
+            "t": "text",
+            "v": " streng monoton fallend.\n• Die Funktion ist für "
+          },
+          {
+            "t": "math",
+            "v": "x\\ge3"
+          },
+          {
+            "t": "text",
+            "v": " streng monoton steigend.\n• Der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "P=(0|1)"
+          },
+          {
+            "t": "text",
+            "v": " ist ein lokales Maximum (Hochpunkt).\n• Die Stelle 3 ist eine Nullstelle."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Skizze, wobei alle in der Angabe angeführten Eigenschaften der Polynomfunktion f erkennbar sein müssen."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_413",
       "baseId": "1_413",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/121/Den%20Graphen%20einer%20Polynomfunktion%20skizzieren.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " hat folgende Eigenschaften:\n\n• Die Funktion ist für "
+    },
+    {
+      "t": "math",
+      "v": "x\\le0"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton steigend.\n• Die Funktion ist im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;3]"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton fallend.\n• Die Funktion ist für "
+    },
+    {
+      "t": "math",
+      "v": "x\\ge3"
+    },
+    {
+      "t": "text",
+      "v": " streng monoton steigend.\n• Der Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(0|1)"
+    },
+    {
+      "t": "text",
+      "v": " ist ein lokales Maximum (Hochpunkt).\n• Die Stelle 3 ist eine Nullstelle."
     }
   ]
 }

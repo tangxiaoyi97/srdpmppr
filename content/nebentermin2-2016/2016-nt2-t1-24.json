@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -24,12 +24,93 @@
     {
       "id": "2016-nt2-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (2 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn man ein höheres Konfidenzniveau (eine höhere Sicherheit) gewählt hätte.\n\nDas Konfidenzintervall wäre breiter, wenn der Anteil der Befürworter/innen und der Anteil der Gegner/innen in der Stichprobe gleich groß gewesen wären."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn man einen größeren Stichprobenumfang gewählt hätte und der relative Anteil der Befürworter/innen gleich groß geblieben wäre."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn man ein höheres Konfidenzniveau (eine höhere Sicherheit) gewählt hätte."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn man die Befragung in einer größeren Stadt durchgeführt hätte."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn der Anteil der Befürworter/innen in der Stichprobe größer gewesen wäre."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Konfidenzintervall wäre breiter, wenn der Anteil der Befürworter/innen und der Anteil der Gegner/innen in der Stichprobe gleich groß gewesen wären."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer Meinungsbefragung wurden 500 zufällig ausgewählte Bewohner/innen einer Stadt zu ihrer Meinung bezüglich der Einrichtung einer Fußgängerzone im Stadtzentrum befragt. Es sprachen sich 60 % der Befragten für die Einrichtung einer solchen Fußgängerzone aus, 40 % sprachen sich dagegen aus.\nAls 95-%-Konfidenzintervall für den Anteil der Bewohner/innen dieser Stadt, die die Einrichtung einer Fußgängerzone im Stadtzentrum befürworten, erhält man mit Normalapproximation das Intervall [55,7 %; 64,3 %]."
+    }
+  ]
 }

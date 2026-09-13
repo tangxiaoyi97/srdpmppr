@@ -1,0 +1,2216 @@
+{
+  "scope": "2024 wintertermin T1 01–12 and T2 01–04 only",
+  "expectedQuestionCount": 16,
+  "completedQuestionCount": 16,
+  "contentReviewedQuestionCount": 16,
+  "remainingQuestionCount": 0,
+  "records": [
+    {
+      "questionId": "2024-wt-t1-01",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-01.json",
+      "beforeSha256": "96ddd89a6604cc2b5bc1b3de28e798d3217d19d1401d2f9864981499a4a218f2",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-1-ag.pdf",
+          "sha256": "094f5db9a4dda42935ecdcbe8d3e3704505c36d0390e5513a0e7c9d4b3ac61d0",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-1-ag.pdf",
+          "sha256": "eeccecbc5b8759777216e4b4e4453721c072240c98d9df074c637e235bb3d10a",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "64513c2dd84f863c2e1b4e11e155431c3305dac05bba958f2716fbe8764726ac",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "2x−c=0,x∈Z means exactly all even integers c; full original wording/answer set,1point and AG1.2 checked; restore empty open format and original competency footer."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1316",
+              "baseId": "1_1316",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/864/1_1316_srdp_ma_Lineare%20Gleichung_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "7f2a09a81898639a9b04289f02fd55fea9eff12ee496aeb77de6620303b4d5dc",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/7d2ffb4a92ba373bf6450822c3f5ebf4b8c7c9ca3806e60bede3708cf5927251.pdf",
+            "printedIds": [
+              "1_1316"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: 2x−c=0,x∈Z means exactly all even integers c; full original wording/answer set,1point and AG1.2 checked; restore empty open format and original competency footer.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "96ddd89a6604cc2b5bc1b3de28e798d3217d19d1401d2f9864981499a4a218f2",
+          "afterSha256": "64513c2dd84f863c2e1b4e11e155431c3305dac05bba958f2716fbe8764726ac"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "094f5db9a4dda42935ecdcbe8d3e3704505c36d0390e5513a0e7c9d4b3ac61d0",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 3
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1920",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "eeccecbc5b8759777216e4b4e4453721c072240c98d9df074c637e235bb3d10a",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 4
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1921",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-02",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-02.json",
+      "beforeSha256": "4d1332b4f21b49f8de89b985e13fe0b0fb3da0252ea553f74883f7c433784968",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-2-ag.pdf",
+          "sha256": "8cf7ed58de7b4df82fa11529140ca37dd21bbc6be170f63ae00b70bacddf70bb",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-2-ag.pdf",
+          "sha256": "dbb2690e3c322126c553915bdd9e20f399b55b056c89402d901556e3527b2ea4",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "6f40ff78cc1a60bb732d1f59a4c73e32e7c02dc0067df75fd88ab766cedd04d7",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Averageof3 donations a and5 donations a+10 is a+6.25; original equationblank asks RHS only, existingCAScanonical correct. Original both fraction and simplified solution present; restore labeled answerline/linebreaks.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1317",
+              "baseId": "1_1317",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/865/1_1317_srdp_ma_Spenden_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "a4194f6a02c25437578dea483e44af5a56851dcfae2ac33df2522bc16ac91182",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/eedc368b2407b530ada4ebf73972007d8522d88bf91e4aece9c5648f53966093.pdf",
+            "printedIds": [
+              "1_1317"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: Averageof3 donations a and5 donations a+10 is a+6.25; original equationblank asks RHS only, existingCAScanonical correct. Original both fraction and simplified solution present; restore labeled answerline/linebreaks.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "4d1332b4f21b49f8de89b985e13fe0b0fb3da0252ea553f74883f7c433784968",
+          "afterSha256": "6f40ff78cc1a60bb732d1f59a4c73e32e7c02dc0067df75fd88ab766cedd04d7"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "8cf7ed58de7b4df82fa11529140ca37dd21bbc6be170f63ae00b70bacddf70bb",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 4
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1922",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "dbb2690e3c322126c553915bdd9e20f399b55b056c89402d901556e3527b2ea4",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 5
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1923",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-03",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-03.json",
+      "beforeSha256": "3b977907b4ab92d7d887074b471d06324747377806f2370efb342659005e0a24",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-3-ag.pdf",
+          "sha256": "5994d8c560b96c2cd4f9152bfbe17bb3c39dbe50a81977561e7b7f8cb31d6fb8",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-3-ag.pdf",
+          "sha256": "86f8c65af5813078b06939218f7756fa39859b9d8d225ff6b4d2dafa669b2fca",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "51c72038c4d15eaa7ff766a2077fd579927aa010f4b5f028cad16aaf8889676a",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Same massm=8,forces5 and4 with accelerations.625 and.5; numeric4N exact, bothsourceforce equations andratio retained. Original AG2.5footer/solutionlinebreaks restored.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1318",
+              "baseId": "1_1318",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/866/1_1318_srdp_ma_Kraft%20und%20Beschleunigung_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "58fdbfdd809c50f3b47bf8acd0abe50b084b3a30e29551540b5b90a3cb1e3aeb",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/99d07d45a003a17735ccec15daa086672dd98f1b487690f7b752ba68a4ef8280.pdf",
+            "printedIds": [
+              "1_1318"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: Same massm=8,forces5 and4 with accelerations.625 and.5; numeric4N exact, bothsourceforce equations andratio retained. Original AG2.5footer/solutionlinebreaks restored.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "3b977907b4ab92d7d887074b471d06324747377806f2370efb342659005e0a24",
+          "afterSha256": "51c72038c4d15eaa7ff766a2077fd579927aa010f4b5f028cad16aaf8889676a"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "5994d8c560b96c2cd4f9152bfbe17bb3c39dbe50a81977561e7b7f8cb31d6fb8",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 5
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1924",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "86f8c65af5813078b06939218f7756fa39859b9d8d225ff6b4d2dafa669b2fca",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 6
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1925",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-04",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-04.json",
+      "beforeSha256": "da446de3785144854faa0f92d50b39b24600e3b109af95c45dfb6b23418c13d4",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-4-ag.pdf",
+          "sha256": "2da2e94ef06b455733b262bdeeaafa5e748f25d7325b716c41a2d16f26986dad",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-4-ag.pdf",
+          "sha256": "17c1e1fbfd2e20c3e17a143899a25ba73b6bdb4290cae70545ae7960f4b90daa",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "5294ca62c3a0a82c69058e60e29a0467001ed5442f7772faeb94de5150960a12",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "8:10–8:30, positions(2,3)/(10,5),5minute displacement(2,.5). Original vector arrows restored to prose-math, original2componentboxes retained as blank vector.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1319",
+              "baseId": "1_1319",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/867/1_1319_srdp_ma_Position%20eines%20Schiffes_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "10e19fb434249d13a887a3de9389f5fe55227a1193e37ac23249dda486dfb40c",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/ee4b4e446f87253c7879fcaf309b6b33a1f1c37da3f03d81e4e32e8843ff280f.pdf",
+            "printedIds": [
+              "1_1319"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: 8:10–8:30, positions(2,3)/(10,5),5minute displacement(2,.5). Original vector arrows restored to prose-math, original2componentboxes retained as blank vector.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "da446de3785144854faa0f92d50b39b24600e3b109af95c45dfb6b23418c13d4",
+          "afterSha256": "5294ca62c3a0a82c69058e60e29a0467001ed5442f7772faeb94de5150960a12"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "2da2e94ef06b455733b262bdeeaafa5e748f25d7325b716c41a2d16f26986dad",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 6
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1926",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "17c1e1fbfd2e20c3e17a143899a25ba73b6bdb4290cae70545ae7960f4b90daa",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 7
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1927",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-05",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-05.json",
+      "beforeSha256": "60165f0237e5708452eb3397e83bf55f4a17147d898693173a9478ecaf026e06",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-5-ag.pdf",
+          "sha256": "8b8c6ef31af6283712734ec369aab557ebdbf71b45be5d577b778a936d3e98cc",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-5-ag.pdf",
+          "sha256": "827b4a0a7cca1322e6252b6c2ad8e2a22feaebb868b317d3f97d628bf4e244af",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "7d5d2cef33fcc7bb90578f0dd4e4695fda080cd9fe07905203f3a2b4694970c9",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "a=(2,−1,3), b longerparallel exactly k*a with |k|>1 includingnegativek. Existingopen acceptsall; originalexample(4,−2,6) correct. Restore vectorarrows/paragraphspacing.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1320",
+              "baseId": "1_1320",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/868/1_1320_srdp_ma_Paralleler%20Vektor_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "f9bd2bcdc7ab47904ee4416a4e5f935928ef137d9c132fe31274524f5292dfb1",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/36077febf90756a5b50b23a2b547bd411e5930ba2f14da4750a38498f40e11dd.pdf",
+            "printedIds": [
+              "1_1320"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: a=(2,−1,3), b longerparallel exactly k*a with |k|>1 includingnegativek. Existingopen acceptsall; originalexample(4,−2,6) correct. Restore vectorarrows/paragraphspacing.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "60165f0237e5708452eb3397e83bf55f4a17147d898693173a9478ecaf026e06",
+          "afterSha256": "7d5d2cef33fcc7bb90578f0dd4e4695fda080cd9fe07905203f3a2b4694970c9"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "8b8c6ef31af6283712734ec369aab557ebdbf71b45be5d577b778a936d3e98cc",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 7
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1928",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "827b4a0a7cca1322e6252b6c2ad8e2a22feaebb868b317d3f97d628bf4e244af",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 8
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1929",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-06",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-06.json",
+      "beforeSha256": "94eaea4c68ff844760445102467871bc592593224db95d92c357b62ca4f36d67",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-6-ag.pdf",
+          "sha256": "41ecbc0cfc4e1cc0fa0999d42ccbe91b08a8c58b001e2658dd9be5f3ed2d0eec",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-6-ag.pdf",
+          "sha256": "8feb525b251bffda3bbb34548b05e044daea9cdf359869845325b38815100f72",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-06-q.png",
+          "sha256": "57f4c01b0f6e52eb191f68db3cad86616416fc9ae8461d0fcdefcefd84e8c348",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "e4be02032df6f95d8b674bd46fc96862899f8d67946dc3e485e3788cfc006a58",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Critical answer repair: alpha at top of sail, opposite=b,adjacent=h−d. Currentcanonical andall3solutionforms incorrectly described complementary angle. Correct to arctan(b/(h−d)),arcsin(b/sqrt(b²+(h−d)²)),arccos((h−d)/sqrt(...)); source allows inverse-trig notation. ActualPNG preciselymatchesoriginal andalpha label; preserved.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1321",
+              "baseId": "1_1321",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/869/1_1321_srdp_ma_Segelboot_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "8a83bbdc731cffc4a875dcebeb0dafa81f2fcb0d5b34082932916ce6d9f79f18",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/81bb06ec69ef66121a1db9cc811da39927de74bcd3b2182947085ed5bf3213ea.pdf",
+            "printedIds": [
+              "1_1321"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-06-q.png",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "57f4c01b0f6e52eb191f68db3cad86616416fc9ae8461d0fcdefcefd84e8c348",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-6-ag.pdf",
+            "sourcePDFSha256": "41ecbc0cfc4e1cc0fa0999d42ccbe91b08a8c58b001e2658dd9be5f3ed2d0eec",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "57f4c01b0f6e52eb191f68db3cad86616416fc9ae8461d0fcdefcefd84e8c348"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Original-source full review: Critical answer repair: alpha at top of sail, opposite=b,adjacent=h−d. Currentcanonical andall3solutionforms incorrectly described complementary angle. Correct to arctan(b/(h−d)),arcsin(b/sqrt(b²+(h−d)²)),arccos((h−d)/sqrt(...)); source allows inverse-trig notation. ActualPNG preciselymatchesoriginal andalpha label; preserved.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "94eaea4c68ff844760445102467871bc592593224db95d92c357b62ca4f36d67",
+          "afterSha256": "e4be02032df6f95d8b674bd46fc96862899f8d67946dc3e485e3788cfc006a58"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "41ecbc0cfc4e1cc0fa0999d42ccbe91b08a8c58b001e2658dd9be5f3ed2d0eec",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 8
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1930",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "8feb525b251bffda3bbb34548b05e044daea9cdf359869845325b38815100f72",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 9
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1931",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-07",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-07.json",
+      "beforeSha256": "62e587c868768f2f5f3a681a97bcc1f6c6955f6f0033bf3e2b31af824de5da69",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-7-an.pdf",
+          "sha256": "7e7224dd3b0cca0a6d9418a9166d882bf22d71c47533f4eeba2a2fa7ffa89526",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-7-an.pdf",
+          "sha256": "defc7fd90e05b4625756abc6183ad0af22d3c19bcaaabb597eb0ddad436761fc",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-07-q.png",
+          "sha256": "b5a1898b3f819a62da332e192fd127e9931c75495febfd08141519d971e5d397",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "3e2df93e895e29fccce3c99b106918f432293801665d9461cf744ebe4c7b9ec1",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Cubic maximum(−2,4),minimum(0,0),inflection(−1,2); sixoriginal groupedoptions exact,pairs[0,0],[1,4] correct. Halfpointforone correct,1forboth preserved. Actualgraphwhole/readable/correctposition."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1322",
+              "baseId": "1_1322",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/870/1_1322_srdp_ma_Monotonie-%20und%20Kr%C3%BCmmungsverhalten%20einer%20Polynomfunktion_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "6cb18ee26d0568c07381824559b891c44a326dd59e319d763c6eb298a989b1cc",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/01f324bb12e00e0a6e9df3c9aeaf17bf6b2bb796b7abca2f9e6d002cb6929b50.pdf",
+            "printedIds": [
+              "1_1322"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-07-q.png",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "b5a1898b3f819a62da332e192fd127e9931c75495febfd08141519d971e5d397",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-7-an.pdf",
+            "sourcePDFSha256": "7e7224dd3b0cca0a6d9418a9166d882bf22d71c47533f4eeba2a2fa7ffa89526",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "b5a1898b3f819a62da332e192fd127e9931c75495febfd08141519d971e5d397"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Original-source full review: Cubic maximum(−2,4),minimum(0,0),inflection(−1,2); sixoriginal groupedoptions exact,pairs[0,0],[1,4] correct. Halfpointforone correct,1forboth preserved. Actualgraphwhole/readable/correctposition.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "62e587c868768f2f5f3a681a97bcc1f6c6955f6f0033bf3e2b31af824de5da69",
+          "afterSha256": "3e2df93e895e29fccce3c99b106918f432293801665d9461cf744ebe4c7b9ec1"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "7e7224dd3b0cca0a6d9418a9166d882bf22d71c47533f4eeba2a2fa7ffa89526",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 9
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1932",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "defc7fd90e05b4625756abc6183ad0af22d3c19bcaaabb597eb0ddad436761fc",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 10
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1933",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-08",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-08.json",
+      "beforeSha256": "2267506b68bd4c565259bd94345b4498ceedb8eceac8a30cd8ae5187c094c74c",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-8-fa.pdf",
+          "sha256": "88b3bc538b967b8aa1fd8a65a93874b22d9bd73534142722fc2d981d73dbe066",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-8-fa.pdf",
+          "sha256": "9cba867ba0baa15ea9fc1b75682b1d6d6ccc2c8c7f5f3ce5f80b221dae667e32",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "8b78d1519836d549b0fa57de8cc8baee4c5b85dbc7054a4ba9f86943eeb2dfbe",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "h(t)=180−30t,t0..6h; interpret180cm initialheight anddecline30cm/h, correctunitsrequired peranswer. Restore fullsource scoringrule intoopenrubric andexplicit.5+.5criteria; originalresponseblanklines restored. Noimage."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1323",
+              "baseId": "1_1323",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/871/1_1323_srdp_ma_Swimmingpool_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "cdbf3722ece85cb071af6fe0f2caf04f0adeb7711610c7297d4297c0227bdf2f",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/7bbd55dd6040552af77617c25b160af782b3d8bac5f97a6bcd3766627b3f942a.pdf",
+            "printedIds": [
+              "1_1323"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: h(t)=180−30t,t0..6h; interpret180cm initialheight anddecline30cm/h, correctunitsrequired peranswer. Restore fullsource scoringrule intoopenrubric andexplicit.5+.5criteria; originalresponseblanklines restored. Noimage.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "2267506b68bd4c565259bd94345b4498ceedb8eceac8a30cd8ae5187c094c74c",
+          "afterSha256": "8b78d1519836d549b0fa57de8cc8baee4c5b85dbc7054a4ba9f86943eeb2dfbe"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "88b3bc538b967b8aa1fd8a65a93874b22d9bd73534142722fc2d981d73dbe066",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 10
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1934",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "9cba867ba0baa15ea9fc1b75682b1d6d6ccc2c8c7f5f3ce5f80b221dae667e32",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 11
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1935",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-09",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-09.json",
+      "beforeSha256": "68723c47ee2618f7026065071b8908c1c33438dc81b2f5b2b8dfa06d39709dcb",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-9-fa.pdf",
+          "sha256": "108efe28fcd238c2ccb207fd37f148afe6a1c804cceaa30dd7333abbaf3efc79",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-9-fa.pdf",
+          "sha256": "23da96c6b74c0284b6e72beec0a36d87cd059301598b5bc6dd51925578e456bc",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-sol.png",
+          "sha256": "5c44f2870f8f0db0b964f00d670353ef1ea4b7c14917d36f34fddb62aa8945d6",
+          "jsonPaths": [
+            "/parts/0/solution/0/figures/0/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-q.png",
+          "sha256": "a1fe675303cead65ee3f15811d987ecc91631c6538efdfcd4c52507665745490",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "9d6ca4729abdfed5236d6238386b40ca01e850d0bc17a354e324f7fc3216dec6",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Originalc<−a,d>b: gdownward,narrower,vertexonverticalabovef. SourceAUsketchandLOexample individuallyviewed; bothfullaxes/curvescorrect andquestiongraphafterdrawinginstruction,LOgraphsolutiononly. Full1pointconstraintretained."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1324",
+              "baseId": "1_1324",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/872/1_1324_srdp_ma_Graph%20einer%20quadratischen%20Funktion_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "ce2f73e36e47d2e3358ba4b60e70983fa18f7dbfad46676ec465b8171f5fa090",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/0556c89527e08bf38b8d91e7793dcf58d594c9f6a6c04ad1c3035e83961c3dbc.pdf",
+            "printedIds": [
+              "1_1324"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1,
+          2
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-sol.png",
+          "jsonPaths": [
+            "/parts/0/solution/0/figures/0/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "5c44f2870f8f0db0b964f00d670353ef1ea4b7c14917d36f34fddb62aa8945d6",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-9-fa.pdf",
+            "sourcePDFSha256": "23da96c6b74c0284b6e72beec0a36d87cd059301598b5bc6dd51925578e456bc",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "5c44f2870f8f0db0b964f00d670353ef1ea4b7c14917d36f34fddb62aa8945d6"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-q.png",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "a1fe675303cead65ee3f15811d987ecc91631c6538efdfcd4c52507665745490",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-9-fa.pdf",
+            "sourcePDFSha256": "108efe28fcd238c2ccb207fd37f148afe6a1c804cceaa30dd7333abbaf3efc79",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "a1fe675303cead65ee3f15811d987ecc91631c6538efdfcd4c52507665745490"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Original-source full review: Originalc<−a,d>b: gdownward,narrower,vertexonverticalabovef. SourceAUsketchandLOexample individuallyviewed; bothfullaxes/curvescorrect andquestiongraphafterdrawinginstruction,LOgraphsolutiononly. Full1pointconstraintretained.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "68723c47ee2618f7026065071b8908c1c33438dc81b2f5b2b8dfa06d39709dcb",
+          "afterSha256": "9d6ca4729abdfed5236d6238386b40ca01e850d0bc17a354e324f7fc3216dec6"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "108efe28fcd238c2ccb207fd37f148afe6a1c804cceaa30dd7333abbaf3efc79",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 11
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1936",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "23da96c6b74c0284b6e72beec0a36d87cd059301598b5bc6dd51925578e456bc",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 12
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1937",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-10",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-10.json",
+      "beforeSha256": "cfd77804a6afff79b3bf993917fdb02cc5e30b43c94fddcfa772130c3f77ef45",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-10-an.pdf",
+          "sha256": "659ef9ed09913fa8572da0b84513c7baea618d03688f7dff3bbcc0c90ea4048d",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-10-an.pdf",
+          "sha256": "4e5c5ccd6ea7f3ce5ae20b31eea505f1d958782e28d9203690adef8a104d2304",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "f9bcb19f44407f130de3576aeef2eab8de0b2fcb03833dfe1e4ed443466a73a9",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Allfiveexact quartic statementschecked; onlyoptions0,1possible andoriginalLOchecks0,1. Correctcount2 andall-or-nothing1point. Noimages."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1325",
+              "baseId": "1_1325",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/873/1_1325_srdp_ma_Anzahl%20von%20Nullstellen,%20Extremstellen%20und%20Wendestellen_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "cc9665b82644fc447f81615be687dfeddb08d2ddcfc693141ab74fd9a2807406",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/9efba00433b27678e670a2cb07ceadb656ded6ccc6dbf7cbecae57ccf2039175.pdf",
+            "printedIds": [
+              "1_1325"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Original-source full review: Allfiveexact quartic statementschecked; onlyoptions0,1possible andoriginalLOchecks0,1. Correctcount2 andall-or-nothing1point. Noimages.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "cfd77804a6afff79b3bf993917fdb02cc5e30b43c94fddcfa772130c3f77ef45",
+          "afterSha256": "f9bcb19f44407f130de3576aeef2eab8de0b2fcb03833dfe1e4ed443466a73a9"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "659ef9ed09913fa8572da0b84513c7baea618d03688f7dff3bbcc0c90ea4048d",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 12
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1938",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "4e5c5ccd6ea7f3ce5ae20b31eea505f1d958782e28d9203690adef8a104d2304",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 13
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1939",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-11",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-11.json",
+      "beforeSha256": "81f5b34988e0d4234f8ae57bbecfd8664a9bd341a0df9323df6fbf68a87eb8c8",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-11-fa.pdf",
+          "sha256": "b3262616666fe72154d0da0a1f1e093b577d43ecd07273ccc3dbd960fe64b373",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-11-fa.pdf",
+          "sha256": "e1e4c8d86e7b2d946629e8114804fbae9513dc745ebbc8558d4bf56edcaf1c5e",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-11-q.png",
+          "sha256": "ffa3479fc6fccef2e459c3ab29422379ee11d8818099acf95eeed38b6484a622",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "58f721f004177ac789dbc006778f36e9b502e06c1a315ff72c5eea87d2c3818d",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "Originaltable0:500,1:700,2:980,3:1372,t1:10330. Growth1.4 yields8.999849420267383h; existingnumericcenter/tolerance agreesroundedsource8.99…; addedmissinghunit andFA5.2footer. FulltablePNGactuallyviewed,allcells/headersintact.1point."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1326",
+              "baseId": "1_1326",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/874/1_1326_srdp_ma_Aufrufe%20eines%20Videos_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "70ec6f59bbb56ddb458aebe0b9e7dbc8a29eca954245d96d4ac14e98ca9178d9",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/daf7eb875f3a6fb7cf73a79b9208a3cd63a096aa4a93bb0dc78666a2fcc115c0.pdf",
+            "printedIds": [
+              "1_1326"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-11-q.png",
+          "jsonPaths": [
+            "/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "ffa3479fc6fccef2e459c3ab29422379ee11d8818099acf95eeed38b6484a622",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-11-fa.pdf",
+            "sourcePDFSha256": "b3262616666fe72154d0da0a1f1e093b577d43ecd07273ccc3dbd960fe64b373",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "ffa3479fc6fccef2e459c3ab29422379ee11d8818099acf95eeed38b6484a622"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Original-source full review: Originaltable0:500,1:700,2:980,3:1372,t1:10330. Growth1.4 yields8.999849420267383h; existingnumericcenter/tolerance agreesroundedsource8.99…; addedmissinghunit andFA5.2footer. FulltablePNGactuallyviewed,allcells/headersintact.1point.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "81f5b34988e0d4234f8ae57bbecfd8664a9bd341a0df9323df6fbf68a87eb8c8",
+          "afterSha256": "58f721f004177ac789dbc006778f36e9b502e06c1a315ff72c5eea87d2c3818d"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "b3262616666fe72154d0da0a1f1e093b577d43ecd07273ccc3dbd960fe64b373",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 13
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1940",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "e1e4c8d86e7b2d946629e8114804fbae9513dc745ebbc8558d4bf56edcaf1c5e",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 14
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1941",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t1-12",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t1-12.json",
+      "beforeSha256": "de206bae538d50b8e5dceda708f16597f08b5cf9bdf029000a414e93886c0954",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+          "sha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+          "sha256": "b31e852d1de741241aae02a43e8349f22f5586640aa024bf3876060c2873294c",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-1.png",
+          "sha256": "b7188dfc6dfe2fc018233a17940b14503bb5ef2a5b3516fedbe685fb09203489",
+          "jsonPaths": [
+            "/parts/0/answer/left/0/0/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-2.png",
+          "sha256": "f78381e216bac3dadaf85b69235229ff6fcd68488d890fcbfb3b29c27acdf810",
+          "jsonPaths": [
+            "/parts/0/answer/left/1/0/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-3.png",
+          "sha256": "d1e578672c52e313a79f447d6857ecbed87814b956b26826911d7d76847d6f06",
+          "jsonPaths": [
+            "/parts/0/answer/left/2/0/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-4.png",
+          "sha256": "eb64836171e6b47668de79242dbdf5346659a63677bae29cdbee8f3ebe0e0373",
+          "jsonPaths": [
+            "/parts/0/answer/left/3/0/src"
+          ]
+        }
+      ],
+      "afterSha256": "34503adf556e1562386326b4ffd5022da3125dde5611db939b37396cb6113cf4",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Freshly read both original source pages and all2pages of currentofficialpoolPDF; title,originalnr,data/formulas,correctanswer andscoring checked individually.",
+        "AllfouractualgraphPNGs viewed inoriginaltop-to-bottomorder: negativeamplitude/fast=B;positiveamplitude>1/slow=E;smallpositivefast=D;largepositivefast=F. Pairs[0,1],[1,4],[2,3],[3,5] andsixsourceconditionscorrect. Halfpointfor2or3matches,1for4 exact. Allaxespi ticks andcurveendscomplete; noanswersrevealedinquestionassets."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "1_1327",
+              "baseId": "1_1327",
+              "url": "https://www.aufgabenpool.at/amn/Typ-1/875/1_1327_srdp_ma_Sinusfunktionen_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "370ba73d947d7a07008a60b23e173493e5abbe88cf0c2dd1f09d80e78c815303",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/c173f7f24d72b94328a63b5e1c9c9f9465593aeb78b3d6bdd3b4a00f9a9167a3.pdf",
+            "printedIds": [
+              "1_1327"
+            ],
+            "pageCount": 2
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1,
+          2
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-1.png",
+          "jsonPaths": [
+            "/parts/0/answer/left/0/0/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "b7188dfc6dfe2fc018233a17940b14503bb5ef2a5b3516fedbe685fb09203489",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+            "sourcePDFSha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "b7188dfc6dfe2fc018233a17940b14503bb5ef2a5b3516fedbe685fb09203489"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-2.png",
+          "jsonPaths": [
+            "/parts/0/answer/left/1/0/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "f78381e216bac3dadaf85b69235229ff6fcd68488d890fcbfb3b29c27acdf810",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+            "sourcePDFSha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "f78381e216bac3dadaf85b69235229ff6fcd68488d890fcbfb3b29c27acdf810"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-3.png",
+          "jsonPaths": [
+            "/parts/0/answer/left/2/0/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "d1e578672c52e313a79f447d6857ecbed87814b956b26826911d7d76847d6f06",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+            "sourcePDFSha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "d1e578672c52e313a79f447d6857ecbed87814b956b26826911d7d76847d6f06"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-4.png",
+          "jsonPaths": [
+            "/parts/0/answer/left/3/0/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "eb64836171e6b47668de79242dbdf5346659a63677bae29cdbee8f3ebe0e0373",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t1-12-fa.pdf",
+            "sourcePDFSha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG viewed individually against original AU/LO page and current JSON position; complete graph/table/option identity, axes, labels and boundaries checked."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "eb64836171e6b47668de79242dbdf5346659a63677bae29cdbee8f3ebe0e0373"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Original-source full review: AllfouractualgraphPNGs viewed inoriginaltop-to-bottomorder: negativeamplitude/fast=B;positiveamplitude>1/slow=E;smallpositivefast=D;largepositivefast=F. Pairs[0,1],[1,4],[2,3],[3,5] andsixsourceconditionscorrect. Halfpointfor2or3matches,1for4 exact. Allaxespi ticks andcurveendscomplete; noanswersrevealedinquestionassets.",
+          "paths": [
+            "/externalRefs",
+            "/parts",
+            "/prompt"
+          ],
+          "beforeSha256": "de206bae538d50b8e5dceda708f16597f08b5cf9bdf029000a414e93886c0954",
+          "afterSha256": "34503adf556e1562386326b4ffd5022da3125dde5611db939b37396cb6113cf4"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "bb66ba8cf98be77ab05e941d5a43e5279fc80ce148972e724277b073cca7aa69",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 14
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1942",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "b31e852d1de741241aae02a43e8349f22f5586640aa024bf3876060c2873294c",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 15
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1943",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t2-01",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t2-01.json",
+      "beforeSha256": "19134ad10e68f64365f575fc950e7762e6f2657be08212ff72f99a9c82c3b38d",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-1.pdf",
+          "sha256": "89c8a8eb0c73b63c67527bf2fad8258109a0eb8bc9d939777b1ee413d0e58080",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t2-1.pdf",
+          "sha256": "742f64c487aade7402b58e155088fa7aa674e5cd862e09f6c698446f1411f4bd",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-a-tab.png",
+          "sha256": "47f5a56780d203ea27ddaf8b0080b0ecfbea0aeb2a9ffb4d4a503f6d197cc3bf",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-b-q.png",
+          "sha256": "fd041c7d0d6cbd92dc073a622b58348b3c090404f7ea1c72d3ce03379cbd222a",
+          "jsonPaths": [
+            "/parts/2/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "e5a2b2d28d6428ff26287bab4f6eef94f0a886a0cf9cb34dbd52bce7a7428980",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1,
+          2
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Every original AU/LO page freshly read and actually viewed; all referenced current poolPDFtextpages read and original printedID/data/scoring verified.",
+        "Four1pointparts. Weeklyparkingtable K/54/L/G/W/147 allcells correct; 172.222…% vsSalzburg and G=6D−K−54−L−W−147 exact; restored recurring decimal dot and sourcecitation.",
+        "a2 now repeats original a1 introduction/table/sourcecitation only, no a1 instruction/answer; correct original formula blank and halboffen format. Plane straightline(0,0)→(32,70) area1120m correct, fullgraph beforeb1instruction.",
+        "Independent binomial124 model: complement of123 and124 means höchstens122, exactsixgroupedchoices/pairs[0,0],[1,3],all-or-nothing1point. OriginalAufgabe25pages27–28; no Best-of tag."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "2_133",
+              "baseId": "2_133",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/888/2_133_srdp_ma_Flugreisen_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "a18926b71f5d59c7a8ddbc17e27a3e686b77b27b91aa49899a1d799602c13f6b",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/789195eb705feb6cdadb316302762bc67eca69f01a9e4b2d1f15cb9692b96904.pdf",
+            "printedIds": [
+              "2_133"
+            ],
+            "pageCount": 3
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1,
+          2
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-a-tab.png",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src",
+            "/parts/1/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "47f5a56780d203ea27ddaf8b0080b0ecfbea0aeb2a9ffb4d4a503f6d197cc3bf",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-1.pdf",
+            "sourcePDFSha256": "89c8a8eb0c73b63c67527bf2fad8258109a0eb8bc9d939777b1ee413d0e58080",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG individually viewed against original page: all original data/labels/table cells and boundaries intact. Rechecked current inline placement and repeated shared original context where needed."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "47f5a56780d203ea27ddaf8b0080b0ecfbea0aeb2a9ffb4d4a503f6d197cc3bf"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-b-q.png",
+          "jsonPaths": [
+            "/parts/2/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "fd041c7d0d6cbd92dc073a622b58348b3c090404f7ea1c72d3ce03379cbd222a",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-1.pdf",
+            "sourcePDFSha256": "89c8a8eb0c73b63c67527bf2fad8258109a0eb8bc9d939777b1ee413d0e58080",
+            "sourcePage": 2,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG individually viewed against original page: all original data/labels/table cells and boundaries intact. Rechecked current inline placement and repeated shared original context where needed."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "fd041c7d0d6cbd92dc073a622b58348b3c090404f7ea1c72d3ce03379cbd222a"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Full original-source review: Four1pointparts. Weeklyparkingtable K/54/L/G/W/147 allcells correct; 172.222…% vsSalzburg and G=6D−K−54−L−W−147 exact; restored recurring decimal dot and sourcecitation. a2 now repeats original a1 introduction/table/sourcecitation only, no a1 instruction/answer; correct original formula blank and halboffen format. Plane straightline(0,0)→(32,70) area1120m correct, fullgraph beforeb1instruction. Independent binomial124 model: complement of123 and124 means höchstens122, exactsixgroupedchoices/pairs[0,0],[1,3],all-or-nothing1point. OriginalAufgabe25pages27–28; no Best-of tag.",
+          "paths": [
+            "/parts",
+            "/prompt",
+            "/externalRefs"
+          ],
+          "beforeSha256": "19134ad10e68f64365f575fc950e7762e6f2657be08212ff72f99a9c82c3b38d",
+          "afterSha256": "e5a2b2d28d6428ff26287bab4f6eef94f0a886a0cf9cb34dbd52bce7a7428980"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "89c8a8eb0c73b63c67527bf2fad8258109a0eb8bc9d939777b1ee413d0e58080",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 27
+            },
+            {
+              "sourcePage": 2,
+              "officialPage": 28
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1968",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "742f64c487aade7402b58e155088fa7aa674e5cd862e09f6c698446f1411f4bd",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 28
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1969",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t2-02",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t2-02.json",
+      "beforeSha256": "219320efa250338f6e7eb23652d35ea483e2a15be8b9d581f647abb6b32f9631",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-2.pdf",
+          "sha256": "89e688f7ce5f2dd13293f547aadc00910d04d12e20f2cd7040fb8c701e3592e1",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t2-2.pdf",
+          "sha256": "ed8ecbbe0f24c866ff2b3a432de2c6bf77f5137fd464a670632bed1146f8ff15",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "9953671b3f3091a3a9012e6c4283a8495ee7079569b2ee5697e66cd0a1b8f86d",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1,
+          2
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Every original AU/LO page freshly read and actually viewed; all referenced current poolPDFtextpages read and original printedID/data/scoring verified.",
+        "Four1pointparts witha2halfpointforone. Repeatedcharactersallowed,k,n natural≥2, n^k/(3600×10^9)hour formula exact; a2constantk→power andconstantn→exponential,pairs[0,1],[1,5] correct.",
+        "a2 now repeats only original computer rate/time definition, no calculated formula; format corrected to groupedLückentext. b2 repeats independent/equiprobable36characters,26letters10digits,k8 originalpremise.",
+        "b1(26/36)^8≈.0740=7.4%, b2sum0/1digit≈.3017=30.2%; changednumeric toopenfulloriginalrubric toaccept official probability/percentage/fractionexpressions. Noinventedtolerance. Noimages. OriginalAufgabe26 Best-of-Wertung label retainedinrefs, pages29–30."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "2_134",
+              "baseId": "2_134",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "ccd654b6a9b8f0b3fbca6fd72c26b0c599ee7f47b7185a9fcd6e60636f3baaa4",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/822433f4f76b8a89311eaab97342765653ef48749e67d7e0f0b3f07717457b9a.pdf",
+            "printedIds": [
+              "2_134"
+            ],
+            "pageCount": 3
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Full original-source review: Four1pointparts witha2halfpointforone. Repeatedcharactersallowed,k,n natural≥2, n^k/(3600×10^9)hour formula exact; a2constantk→power andconstantn→exponential,pairs[0,1],[1,5] correct. a2 now repeats only original computer rate/time definition, no calculated formula; format corrected to groupedLückentext. b2 repeats independent/equiprobable36characters,26letters10digits,k8 originalpremise. b1(26/36)^8≈.0740=7.4%, b2sum0/1digit≈.3017=30.2%; changednumeric toopenfulloriginalrubric toaccept official probability/percentage/fractionexpressions. Noinventedtolerance. Noimages. OriginalAufgabe26 Best-of-Wertung label retainedinrefs, pages29–30.",
+          "paths": [
+            "/parts",
+            "/prompt",
+            "/externalRefs"
+          ],
+          "beforeSha256": "219320efa250338f6e7eb23652d35ea483e2a15be8b9d581f647abb6b32f9631",
+          "afterSha256": "9953671b3f3091a3a9012e6c4283a8495ee7079569b2ee5697e66cd0a1b8f86d"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "89e688f7ce5f2dd13293f547aadc00910d04d12e20f2cd7040fb8c701e3592e1",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 29
+            },
+            {
+              "sourcePage": 2,
+              "officialPage": 30
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1970",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "ed8ecbbe0f24c866ff2b3a432de2c6bf77f5137fd464a670632bed1146f8ff15",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 29
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1971",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t2-03",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t2-03.json",
+      "beforeSha256": "422d377e9be5ac7cd34a59641040a6e59bd0422206905a61e2156d6f827c8f1f",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-3.pdf",
+          "sha256": "6a8d71a8db80ba9b6eba3125abb6f055949b3930355bfb7f88289d6fc9c607fa",
+          "pages": 3
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t2-3.pdf",
+          "sha256": "0d0e65e958e113d21e68faecfd12b30cafeb34927132ba53a6828c76bfc79cfe",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-a-q.png",
+          "sha256": "5a96f39675dd2c05e5a1e7d509008f6b8aa26cb0896a853a9fe1be720fc82961",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-b-q.png",
+          "sha256": "04ae5f64255876cf8eeff77e4fcc55e525d3f3cd91fe742179668efb0383fbcb",
+          "jsonPaths": [
+            "/parts/1/prompt/1/src"
+          ]
+        },
+        {
+          "path": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-c-tab.png",
+          "sha256": "85e9148d586bb4120d1c50a18126ccad0cefe91a5627ccf5827b43dea7cf607f",
+          "jsonPaths": [
+            "/parts/2/prompt/1/src"
+          ]
+        }
+      ],
+      "afterSha256": "e49d29e97bcff9b4b925792a38af6a90fb8c2163e3d8a71d3931d338a8fb56a9",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1,
+          2,
+          3
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Every original AU/LO page freshly read and actually viewed; all referenced current poolPDFtextpages read and original printedID/data/scoring verified.",
+        "Four1pointparts withb1halfpointforone. Map rates sorted35,43,48,53,61,69,73,100,114 givesOberösterreich61median. Allmapdata/copyrightcaption andgraphs/table nativePNGs read; restored three omitted original citations outsidePNGcrops.",
+        "b1 mass at4months sourceaccepts[28,31]kg: correctednumeric center30→29.5,tol1.5 (previous[28.5,31.5]incorrect). Otherblank9..10months unchanged; halfpointscoring preserved.",
+        "c1minimum7kg at2months fromlinear10/13/16 at3/4/5; 3/7≈42.8%=~43% correct. c2 now repeats original labradordefinition/table/citation, no c1 calculationinstruction/answer orirrelevantlinearity. Model m(7)=20,k.228…,m(12)23.40…,deviation.59…kg; openfulloriginalrubric now accepts−.6 explicitlyperLO aswellaspositive. Priorpositiveonly numericwrong. Best-of originalAufgabe27pages31–33."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "2_135",
+              "baseId": "2_135",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/890/2_135_srdp_ma_Hunde%20in%20%C3%96sterreich_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "2778e50a45ed6130f219e50034a2e9934d5a028d6f38a8211991466a70c4ee18",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/d235fe992dc567bab9c7538637a152ddfb194c175a676819661150687179b062.pdf",
+            "printedIds": [
+              "2_135"
+            ],
+            "pageCount": 4
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [
+          1,
+          2,
+          3
+        ],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-a-q.png",
+          "jsonPaths": [
+            "/parts/0/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "5a96f39675dd2c05e5a1e7d509008f6b8aa26cb0896a853a9fe1be720fc82961",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-3.pdf",
+            "sourcePDFSha256": "6a8d71a8db80ba9b6eba3125abb6f055949b3930355bfb7f88289d6fc9c607fa",
+            "sourcePage": 1,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG individually viewed against original page: all original data/labels/table cells and boundaries intact. Rechecked current inline placement and repeated shared original context where needed."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "5a96f39675dd2c05e5a1e7d509008f6b8aa26cb0896a853a9fe1be720fc82961"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-b-q.png",
+          "jsonPaths": [
+            "/parts/1/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "04ae5f64255876cf8eeff77e4fcc55e525d3f3cd91fe742179668efb0383fbcb",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-3.pdf",
+            "sourcePDFSha256": "6a8d71a8db80ba9b6eba3125abb6f055949b3930355bfb7f88289d6fc9c607fa",
+            "sourcePage": 2,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG individually viewed against original page: all original data/labels/table cells and boundaries intact. Rechecked current inline placement and repeated shared original context where needed."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "04ae5f64255876cf8eeff77e4fcc55e525d3f3cd91fe742179668efb0383fbcb"
+        },
+        {
+          "assetPath": "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-c-tab.png",
+          "jsonPaths": [
+            "/parts/2/prompt/1/src",
+            "/parts/3/prompt/1/src"
+          ],
+          "evidence": {
+            "method": "fresh_actual_PNG_visual_inspection",
+            "assetSha256": "85e9148d586bb4120d1c50a18126ccad0cefe91a5627ccf5827b43dea7cf607f",
+            "sourcePDF": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-3.pdf",
+            "sourcePDFSha256": "6a8d71a8db80ba9b6eba3125abb6f055949b3930355bfb7f88289d6fc9c607fa",
+            "sourcePage": 3,
+            "actualImageViewed": true,
+            "conclusion": "Actual PNG individually viewed against original page: all original data/labels/table cells and boundaries intact. Rechecked current inline placement and repeated shared original context where needed."
+          },
+          "status": "fresh_visually_inspected",
+          "currentAssetSha256": "85e9148d586bb4120d1c50a18126ccad0cefe91a5627ccf5827b43dea7cf607f"
+        }
+      ],
+      "changes": [
+        {
+          "reason": "Full original-source review: Four1pointparts withb1halfpointforone. Map rates sorted35,43,48,53,61,69,73,100,114 givesOberösterreich61median. Allmapdata/copyrightcaption andgraphs/table nativePNGs read; restored three omitted original citations outsidePNGcrops. b1 mass at4months sourceaccepts[28,31]kg: correctednumeric center30→29.5,tol1.5 (previous[28.5,31.5]incorrect). Otherblank9..10months unchanged; halfpointscoring preserved. c1minimum7kg at2months fromlinear10/13/16 at3/4/5; 3/7≈42.8%=~43% correct. c2 now repeats original labradordefinition/table/citation, no c1 calculationinstruction/answer orirrelevantlinearity. Model m(7)=20,k.228…,m(12)23.40…,deviation.59…kg; openfulloriginalrubric now accepts−.6 explicitlyperLO aswellaspositive. Priorpositiveonly numericwrong. Best-of originalAufgabe27pages31–33.",
+          "paths": [
+            "/parts",
+            "/prompt",
+            "/externalRefs"
+          ],
+          "beforeSha256": "422d377e9be5ac7cd34a59641040a6e59bd0422206905a61e2156d6f827c8f1f",
+          "afterSha256": "2d18dc6affd2cf6a4c0323b5962be35fccdb97c5acbeb1997399ab7b169ec4d0"
+        },
+        {
+          "reason": "Restore original paragraph separation around exponential model after repeating original shared context",
+          "paths": [
+            "/parts/3/prompt/3/v",
+            "/parts/3/prompt/5/v"
+          ],
+          "beforeSha256": "2d18dc6affd2cf6a4c0323b5962be35fccdb97c5acbeb1997399ab7b169ec4d0",
+          "afterSha256": "e49d29e97bcff9b4b925792a38af6a90fb8c2163e3d8a71d3931d338a8fb56a9"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "6a8d71a8db80ba9b6eba3125abb6f055949b3930355bfb7f88289d6fc9c607fa",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 31
+            },
+            {
+              "sourcePage": 2,
+              "officialPage": 32
+            },
+            {
+              "sourcePage": 3,
+              "officialPage": 33
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1972",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "0d0e65e958e113d21e68faecfd12b30cafeb34927132ba53a6828c76bfc79cfe",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 30
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1973",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    },
+    {
+      "questionId": "2024-wt-t2-04",
+      "path": "/Users/tangxy/workspace/projects/qedv2/srdpmppr/content/wintertermin-2024/2024-wt-t2-04.json",
+      "beforeSha256": "6831e8fefd327ebf6ddc2aeedb6332bda971b05215917f59ff999846e9cff645",
+      "reviewStatus": "full_content_reviewed",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2024/[2024w1]t2-4.pdf",
+          "sha256": "291a7d1344c6701c0c9757ea910ad91115c8b71c21b1dcedb74bd304e56b235f",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2024/[2024w1]t2-4.pdf",
+          "sha256": "f543453028c4d33554d643ceab5be53133b5897281d47a56fcc3bd9af7cb12e3",
+          "pages": 1
+        }
+      ],
+      "assetsBefore": [],
+      "afterSha256": "d52c6064f13abf9fdddf91b8c58041aa6d3a3767a97dc99d564a39b22098ce42",
+      "originalSourcePagesActuallyViewed": {
+        "au": [
+          1,
+          2
+        ],
+        "lo": [
+          1
+        ]
+      },
+      "contentReview": [
+        "Every original AU/LO page freshly read and actually viewed; all referenced current poolPDFtextpages read and original printedID/data/scoring verified.",
+        "Four1pointparts. LogisticN0=100,N(tv)=200 gives4.904146…weeks, source4.9… andcurrentroundednumericcorrect; restored actual t_v math subscripts.",
+        "b originalgrowthrate quadraticf(0)=15,f(35)=0,f′(7)=0 gives−t²/49+2t/7+15 correctCASRHS; completeofficialtechnology method retainedandlinebreaks restored.",
+        "b2/b3 now repeat originaldefinition of f as instantaneouspopulationgrowth plusoriginalconditions, no prioranswer. b2initial50+integral0..7meanspopulation after7weeks. b3all6original expressions exact, correctoption1=integral dividedelapsedtime. Formats repaired originalopen interpretation and1aus6choice. Noimages. Best-of originalAufgabe28pages34–35."
+      ],
+      "poolReview": {
+        "references": [
+          {
+            "reference": {
+              "system": "aufgabenpool",
+              "id": "2_136",
+              "baseId": "2_136",
+              "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
+              "license": "CC-BY-4.0",
+              "verifiedAt": "2026-06-30"
+            },
+            "httpStatus": 200,
+            "pdfSha256": "fe5aa1e6d4baa8a1c371aa7407cd8c660e73e9871ac4edf11aba064e73b9d794",
+            "cachedPdf": "/tmp/qed-schema3-spotcheck/http-cache/0f316b5118e18f4a03c004bea118bd406a821d793ea10f3353b622266b3236a1.pdf",
+            "printedIds": [
+              "2_136"
+            ],
+            "pageCount": 3
+          }
+        ],
+        "textPagesActuallyRead": "all pages of each listed PDF",
+        "conclusion": "Freshly read all referenced pool PDF text pages; original data, formulas, answer and scoring agree, printed base ID agrees. Original booklet nr/title also visually checked.",
+        "poolPagesActuallyVisuallyInspected": [],
+        "visualInspectionMeaning": "Page numbers refer to the single listed PDF. These exact pages were actually rendered and viewed, including printed ID; graph/table/options correspond to the original booklet and current PNG/JSON placement. Empty list means pool text freshly read, while original booklet pages and applicable actual PNGs were visually inspected separately."
+      },
+      "assetReview": [],
+      "changes": [
+        {
+          "reason": "Full original-source review: Four1pointparts. LogisticN0=100,N(tv)=200 gives4.904146…weeks, source4.9… andcurrentroundednumericcorrect; restored actual t_v math subscripts. b originalgrowthrate quadraticf(0)=15,f(35)=0,f′(7)=0 gives−t²/49+2t/7+15 correctCASRHS; completeofficialtechnology method retainedandlinebreaks restored. b2/b3 now repeat originaldefinition of f as instantaneouspopulationgrowth plusoriginalconditions, no prioranswer. b2initial50+integral0..7meanspopulation after7weeks. b3all6original expressions exact, correctoption1=integral dividedelapsedtime. Formats repaired originalopen interpretation and1aus6choice. Noimages. Best-of originalAufgabe28pages34–35.",
+          "paths": [
+            "/parts",
+            "/prompt",
+            "/externalRefs"
+          ],
+          "beforeSha256": "6831e8fefd327ebf6ddc2aeedb6332bda971b05215917f59ff999846e9cff645",
+          "afterSha256": "205bb983e6474a4a3f238f98c886db667ea35985ec4b1f5d83ab8cebc6c71c97"
+        },
+        {
+          "reason": "Restore spaces around inline original integral expression",
+          "paths": [
+            "/parts/2/prompt/1/v",
+            "/parts/2/prompt/3/v"
+          ],
+          "beforeSha256": "205bb983e6474a4a3f238f98c886db667ea35985ec4b1f5d83ab8cebc6c71c97",
+          "afterSha256": "d52c6064f13abf9fdddf91b8c58041aa6d3a3767a97dc99d564a39b22098ce42"
+        }
+      ],
+      "currentAnswerFormatsReviewedFromOriginalLayout": true,
+      "officialOriginalBindings": [
+        {
+          "kind": "au",
+          "sourcePDFSha256": "291a7d1344c6701c0c9757ea910ad91115c8b71c21b1dcedb74bd304e56b235f",
+          "officialPdf": "/tmp/qed-official-question-pdfs/wintertermin-2024-all.pdf",
+          "officialUrl": "/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf",
+          "officialSha256": "c733f3d86b1ae5bf13bf459e8113fe3fe901cc7996e58e74d880128c9899466b",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 34
+            },
+            {
+              "sourcePage": 2,
+              "officialPage": 35
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1974",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        },
+        {
+          "kind": "lo",
+          "sourcePDFSha256": "f543453028c4d33554d643ceab5be53133b5897281d47a56fcc3bd9af7cb12e3",
+          "officialPdf": "/tmp/qed-schema3-full-review/official/wintertermin-2024-all-lo.pdf",
+          "officialUrl": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_LO.pdf",
+          "officialSha256": "9f4efc7f4c2d580282a0252ae3869b20ce251a74e8c609fa37a099fe43a7cfcf",
+          "sourceToOfficialPageMappings": [
+            {
+              "sourcePage": 1,
+              "officialPage": 31
+            }
+          ],
+          "bindingAudit": "audits/schema3-full-review-2026-09-13/official-original-source-crosscheck.json",
+          "bindingAuditSha256": "cf245c7eb531da294a50307a829878934f8c42259e9f37f869c07b0889875bdf",
+          "bindingJsonPointer": "/records/1975",
+          "evidenceMeaning": "The exact local PDF freshly read and visually reviewed in this question is bound to these official original-booklet pages. Machine page correspondence is provenance support; semantic review is separately recorded above."
+        }
+      ]
+    }
+  ],
+  "finalValidation": {
+    "completedQuestionCount": 16,
+    "freshOriginalSourcePagesActuallyViewed": 37,
+    "poolTextPagesActuallyRead": 37,
+    "poolPagesActuallyVisuallyInspected": 12,
+    "uniqueActualPNGsVisuallyInspected": 14,
+    "actualPNGPaths": [
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-06-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-07-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-09-sol.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-11-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-1.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-2.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-3.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t1-12-option-4.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-a-tab.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t2-01-b-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-a-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-b-q.png",
+      "assets/pdf/wintertermin-2024/fig/2024-wt-t2-03-c-tab.png"
+    ],
+    "currentQuestionHashesAllMatch": true,
+    "currentAssetHashesAllMatch": true,
+    "officialOriginalBindingsPresentForAllSourcePDFs": true,
+    "emptyPartFormats": [],
+    "bankValidator": {
+      "command": "node --experimental-strip-types scripts/validate-bank.mjs",
+      "exitCode": 0,
+      "questionCount": 1044,
+      "partCount": 1672,
+      "packagedAssets": 825,
+      "rootSha256": "218de151b51c699238d9a9d32b3982e3bad4cd80d16acad08cabb078c217678f"
+    },
+    "contentAndAssetWritingStopped": true,
+    "katex": {
+      "mathNodeCount": 83,
+      "errorCount": 0,
+      "errors": []
+    }
+  }
+}

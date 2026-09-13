@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,322 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_366a",
+          "id": "1_366",
           "baseId": "1_366",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/74/1_366_Eigenschaften%20von%20Funktionen%20zuordnen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zuordnung in der Reihenfolge der Funktionstypen: C, A, F, D."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn alle vier Buchstaben richtig zugeordnet sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Funktionstypen jeweils die passende Eigenschaft (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x+b"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot b^x"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b\\ne1"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wurzelfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x^{\\frac12}+b"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Sinusfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "A: Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist für "
+            },
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "0<b<1"
+            },
+            {
+              "t": "text",
+              "v": " streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "B: Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt genau drei Nullstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "C: Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt in jedem Punkt die gleiche Steigung."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "D: Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " besitzt einen Wendepunkt im Ursprung."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "E: Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist für "
+            },
+            {
+              "t": "math",
+              "v": "b=2"
+            },
+            {
+              "t": "text",
+              "v": " konstant."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "F: Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist nur für "
+            },
+            {
+              "t": "math",
+              "v": "x\\ge0"
+            },
+            {
+              "t": "text",
+              "v": " definiert."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_366",
       "baseId": "1_366",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/74/1_366_Eigenschaften%20von%20Funktionen%20zuordnen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind vier Funktionstypen. Für alle unten angeführten Funktionen gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "b\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

@@ -220,7 +220,7 @@
     {
       "id": "2025-ht-t2-01-a2",
       "label": "a2",
-      "format": "Lückentext",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -240,6 +240,34 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "In der nebenstehenden nicht maßstabgetreuen Abbildung ist ein Blumenbeet modellhaft in der Ansicht von oben dargestellt.\n\nDas Blumenbeet wird durch drei geradlinige Seiten und den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f\\colon[-3;\\,3]\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " begrenzt.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^{2}+b"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a,\\,b\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Dieses Blumenbeet soll so umgestaltet werden, dass es die Form eines Rechtecks mit der Länge 6 m und der Breite c (in m) hat (siehe nachstehende Abbildung). Der Flächeninhalt des Blumenbeets soll durch die Umgestaltung nicht verändert werden."
@@ -358,7 +386,7 @@
             "id": "G",
             "label": "G",
             "value": 31,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "m"
           }
         ]
@@ -467,15 +495,13 @@
             {
               "t": "text",
               "v": " ist als Steigungswinkel der Dachlinie gegenüber der Horizontalen einzuzeichnen. Das Markieren des rechten Winkels ist im Hinblick auf die Punktevergabe nicht erforderlich."
-            }
-          ],
-          "figures": [
+            },
             {
-              "kind": "image",
-              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-c-sol.png",
-              "alt": "Lösung: Plan des Gartenhauses mit eingezeichnetem Steigungswinkel α zwischen Horizontale und Dachlinie."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t2-01-c-sol.png"
             }
           ],
+          "figures": [],
           "note": "Ein Punkt für das Einzeichnen des richtigen Winkels."
         }
       ]

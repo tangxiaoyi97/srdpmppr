@@ -1,6 +1,6 @@
 {
   "id": "2019-nt1-t1-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_712a",
+          "id": "1_712",
           "baseId": "1_712",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/451/Darstellung%20im%20Koordinatensystem.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -59,7 +59,15 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Bestimmen Sie den Wert des Parameters t so, dass die Gleichung B = A + t · v erfüllt ist."
+          "v": "Bestimmen Sie den Wert des Parameters t so, dass die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "B=A+t\\cdot\\vec v"
+        },
+        {
+          "t": "text",
+          "v": " erfüllt ist."
         }
       ],
       "answer": {
@@ -69,7 +77,7 @@
             "id": "t",
             "label": "t",
             "value": -5,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -93,7 +101,23 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Im nachstehenden Koordinatensystem sind der Vektor v sowie die Punkte A und B dargestellt. Die Komponenten des dargestellten Vektors v und die Koordinaten der beiden Punkte A und B sind ganzzahlig."
+      "v": "Im nachstehenden Koordinatensystem sind der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec v"
+    },
+    {
+      "t": "text",
+      "v": " sowie die Punkte A und B dargestellt. Die Komponenten des dargestellten Vektors "
+    },
+    {
+      "t": "math",
+      "v": "\\vec v"
+    },
+    {
+      "t": "text",
+      "v": " und die Koordinaten der beiden Punkte A und B sind ganzzahlig."
     },
     {
       "t": "fig",

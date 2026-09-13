@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,83 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_520a",
+          "id": "1_520",
           "baseId": "1_520",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/229/Weiche%20und%20harte%20Eier.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac1{10}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (in Prozent oder Dezimalschreibweise) sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Dame entnimmt aus dem noch vollen Körbchen ein Ei, das sie zufällig auswählt.\nGeben Sie die Wahrscheinlichkeit an, dass der nächste Gast bei zufälliger Wahl eines Eies das harte Ei entnimmt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac1{10}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (in Prozent oder Dezimalschreibweise) sind ebenfalls als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_520",
       "baseId": "1_520",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/229/Weiche%20und%20harte%20Eier.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Frühstücksbuffet eines Hotels befinden sich in einem Körbchen zehn äußerlich nicht unterscheidbare Eier. Bei der Vorbereitung wurde versehentlich ein hart gekochtes Ei zu neun weich gekochten Eiern gelegt."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,139 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_385a",
+          "id": "1_385",
           "baseId": "1_385",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/93/Elektrische%20Spannung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Term gibt die relative Änderung der Spannung im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "[t_1;t_2]"
+            },
+            {
+              "t": "text",
+              "v": " an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Wert des Terms "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{U(t_2)-U(t_1)}{U(t_1)}"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Zusammenhang!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Term gibt die relative Änderung der Spannung im Zeitintervall "
+          },
+          {
+            "t": "math",
+            "v": "[t_1;t_2]"
+          },
+          {
+            "t": "text",
+            "v": " an."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_385",
       "baseId": "1_385",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/93/Elektrische%20Spannung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "U"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die elektrische Spannung während eines physikalischen Experiments in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "U(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Volt, "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden)."
     }
   ]
 }

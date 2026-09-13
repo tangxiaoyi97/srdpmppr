@@ -1,6 +1,6 @@
 {
   "id": "2019-nt2-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -52,13 +52,16 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "anzahl",
-            "value": 422500,
-            "tol": 84500,
-            "unit": "Personen"
+            "t": "text",
+            "v": "Im Jahr 2012 hatten in Österreich ca. 422 500 Personen (laut Abbildung 1: ca. 5 % der Bevölkerung) ein Vermögen von mindestens einer Million Euro."
+          },
+          {
+            "t": "text",
+            "v": "Ein Ausgleichspunkt für die richtige Lösung, wobei auch die Angabe des richtigen relativen Anteils als richtig zu werten ist. Toleranzintervalle: [338 000; 507 000] bzw. [4 %; 6 %]. Gleichwertige Schreibweisen des relativen Anteils sind zulässig."
           }
         ]
       },
@@ -138,6 +141,10 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "6\\,086+\\dfrac{34\\,731-6\\,086}{4}=13\\,247{,}25"
             }
@@ -182,12 +189,16 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "anteil",
-            "value": 0.6,
-            "tol": 0.02
+            "t": "text",
+            "v": "Die vermögensstärksten 10 % der österreichischen Bevölkerung besitzen ca. 60 % des Vermögens."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für die richtige Lösung. Toleranzintervall: [58 %; 62 %]. Gleichwertige Schreibweisen des relativen Anteils, beispielsweise 0,6 statt 60 %, sind zulässig."
           }
         ]
       },
@@ -216,7 +227,7 @@
     {
       "id": "2019-nt2-t2-03-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Konstruktionsformat",
       "competencies": [
         {
           "code": "FA 1.7",
@@ -243,7 +254,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-q.png",
-          "alt": "Abbildung mit der Lorenz-Kurve L, der 45°-Linie der absoluten Gleichverteilung und leerem Koordinatensystem (relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung) zum Einzeichnen von L*."
+          "alt": "Lorenz-Kurve L mit 45°-Linie der absoluten Gleichverteilung und markierter Fläche A; relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung, jeweils von 0 % bis 100 %, zum Einzeichnen von L*."
         }
       ],
       "figures": [],
@@ -252,7 +263,7 @@
         "rubric": [
           {
             "t": "text",
-            "v": "Eine möglicher Verlauf einer Lorenz-Kurve L*, die monoton steigend ist und deren Funktionswert an der Stelle 90 % kleiner als 42 % ist (L* verläuft unterhalb von L im rechten Bereich, da die vermögensstärksten 10 % einen größeren Anteil besitzen)."
+            "v": "Ein möglicher Verlauf einer Lorenz-Kurve L*, die monoton steigend ist und deren Funktionswert an der Stelle 90 % kleiner als 42 % ist (L* verläuft unterhalb von L im rechten Bereich, da die vermögensstärksten 10 % einen größeren Anteil besitzen)."
           }
         ],
         "grader": "ai"
@@ -270,6 +281,15 @@
       "solution": [
         {
           "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Verlauf von L*:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-b2-sol.png",
+              "alt": "Möglicher Verlauf der Lorenz-Kurve L* unterhalb der bisherigen Lorenz-Kurve L; beide verlaufen von (0 % | 0 %) nach (100 % | 100 %). 45°-Linie der absoluten Gleichverteilung und Fläche A sind dargestellt."
+            },
             {
               "t": "text",
               "v": "Möglicher Verlauf von L*: eine monoton steigende Kurve, deren Funktionswert an der Stelle 90 % kleiner als 42 % ist."
@@ -325,12 +345,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "gini",
-            "value": 0.625,
-            "tol": 0.005
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}5-\\int_{0}^{1} L_1(x)\\,dx=0{,}313\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{0{,}313\\ldots}{0{,}5}\\approx 0{,}63"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Gini-Koeffizient für das Jahr 2012 hatte für das Land S etwa den Wert 0,63."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Toleranzintervall: [0,62; 0,63]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
@@ -348,8 +392,16 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "0{,}5-\\int_{0}^{1} L_1(x)\\,dx=0{,}313\\ldots"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -389,6 +441,34 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Lorenz-Kurve wird im Intervall [0; 1] durch eine reelle Funktion in Abhängigkeit von x modelliert, wobei x den relativen Anteil der Bevölkerung angibt.\nBerechnen Sie den Gini-Koeffizienten für ein Land S, dessen Lorenz-Kurve für das Jahr 2012 durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "L_1"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "L_1(x)=0{,}9\\cdot x^{5}+0{,}08\\cdot x^{2}+0{,}02\\cdot x"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall [0; 1] beschrieben werden kann!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Vergleichen Sie Ihr Ergebnis mit dem Gini-Koeffizienten für Österreich für das Jahr 2012 und geben Sie an, ob das Gesamtvermögen in diesem Jahr in Österreich oder im Land S gleichmäßiger auf die Bevölkerung verteilt war!"
@@ -452,6 +532,10 @@
       "t": "fig",
       "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-03-abb2.png",
       "alt": "Abbildung 2: Lorenz-Kurve L (relativer Anteil des Gesamtvermögens über relativem Anteil der Bevölkerung), 45°-Linie der absoluten Gleichverteilung sowie die markierte Fläche A zwischen 45°-Linie und Lorenz-Kurve L."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: Eckerstorfer, Paul, Johannes Halak et al.: Vermögen in Österreich. Bericht zum Forschungsprojekt „Reichtum im Wandel“. Linz: Johannes-Kepler-Universität Linz 2013, S. 12–13. http://media.arbeiterkammer.at/PDF/Vermoegen_in_Oesterreich.pdf [17.10.2014] (adaptiert).\n\n"
     },
     {
       "t": "text",

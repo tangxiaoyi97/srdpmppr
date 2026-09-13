@@ -36,22 +36,28 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=29",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_134a",
           "baseId": "2_134",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Ein bestimmter Computer kann 1 Milliarde Passwörter pro Sekunde überprüfen.\nFür die Überprüfung von nᵏ Passwörtern benötigt der Computer t Stunden.\n\nStellen Sie mithilfe von k und n eine Formel zur Berechnung von t auf."
+          "v": "Ein bestimmter Computer kann 1 Milliarde Passwörter pro Sekunde überprüfen.\nFür die Überprüfung von nᵏ Passwörtern benötigt der Computer t Stunden.\n\nStellen Sie mithilfe von k und n eine Formel zur Berechnung von t auf.\n\n"
         },
         {
           "t": "math",
-          "v": "t="
+          "v": "t=\\underline{\\hspace{6cm}}"
         }
       ],
       "figures": [],
@@ -84,7 +90,7 @@
     {
       "id": "2024-wt-t2-02-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "FA 1.2",
@@ -101,15 +107,25 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=29",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_134a",
           "baseId": "2_134",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein bestimmter Computer kann 1 Milliarde Passwörter pro Sekunde überprüfen.\nFür die Überprüfung von nᵏ Passwörtern benötigt der Computer t Stunden.\n\n"
+        },
         {
           "t": "text",
           "v": "Diese Formel zur Berechnung von t kann als Funktion in Abhängigkeit von k und n aufgefasst werden.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nIst k konstant, so ist t in Abhängigkeit von n eine ① ; ist n konstant, so ist t in Abhängigkeit von k eine ②."
@@ -261,12 +277,18 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_134b",
           "baseId": "2_134",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
@@ -277,18 +299,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.074,
-            "tol": 0.001
+            "t": "math",
+            "v": "\\left(\\dfrac{26}{36}\\right)^{8}=0{,}0740\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht, beträgt rund 7,4 %."
+          },
+          {
+            "t": "text",
+            "v": "\nb1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort nur aus Buchstaben besteht.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -329,15 +368,25 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_134b",
           "baseId": "2_134",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Das Passwort für den Zugang auf eine bestimmte Website wird automatisch von einem Zufallsgenerator erzeugt. Der Zufallsgenerator wählt jedes Zeichen unabhängig von den anderen Zeichen und mit gleicher Wahrscheinlichkeit aus 26 Buchstaben und 10 Ziffern aus (n = 36). Die Passwortlänge beträgt 8 Zeichen (k = 8).\n\n"
+        },
         {
           "t": "text",
           "v": "Berechnen Sie die Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält."
@@ -345,18 +394,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.3017,
-            "tol": 0.001
+            "t": "math",
+            "v": "\\left(\\dfrac{26}{36}\\right)^{8}+8\\cdot\\left(\\dfrac{26}{36}\\right)^{7}\\cdot\\dfrac{10}{36}=0{,}3017\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält, beträgt rund 30,2 %."
+          },
+          {
+            "t": "text",
+            "v": "\nb2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass das Passwort höchstens 1 Ziffer enthält.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -380,12 +446,18 @@
   ],
   "externalRefs": [
     {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 26 (Teil 2, Best-of-Wertung)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=29",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "system": "aufgabenpool",
       "id": "2_134",
       "baseId": "2_134",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/889/2_134_srdp_ma_Passwoerter_PT3_23.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
     }
   ],
   "prompt": [

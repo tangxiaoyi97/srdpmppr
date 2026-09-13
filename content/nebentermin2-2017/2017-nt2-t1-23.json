@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_519a",
+          "id": "1_519",
           "baseId": "1_519",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/228/Zufallsexperiment.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass ein einzelnes Zufallsexperiment „günstig“ ausgeht, ist 40 %.\nWenn man das Zufallsexperiment 50-mal durchführt, dann ist der Erwartungswert für die Anzahl der „günstigen“ Ergebnisse 20."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei der nachstehenden Aussagen lassen sich aus diesen Informationen ableiten.\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "P(X=25)=10"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn man das Zufallsexperiment 25-mal durchführt, werden mit Sicherheit genau 10 Ergebnisse „günstig“ sein."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass ein einzelnes Zufallsexperiment „günstig“ ausgeht, ist 40 %."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn man das Zufallsexperiment 50-mal durchführt, dann ist der Erwartungswert für die Anzahl der „günstigen“ Ergebnisse 20."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X>10)>P(X>8)"
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_519",
       "baseId": "1_519",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/228/Zufallsexperiment.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Zufallsexperiment, das 25-mal wiederholt wird, gibt es die Ausgänge „günstig“ und „ungünstig“. Die Zufallsvariable "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt, wie oft dabei das Ergebnis „günstig“ eingetreten ist.\n"
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " ist binomialverteilt mit dem Erwartungswert 10."
     }
   ]
 }

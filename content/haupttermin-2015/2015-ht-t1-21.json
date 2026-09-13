@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,161 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_401a",
+          "id": "1_401",
           "baseId": "1_401",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/109/Mehrere%20Wahrscheinlichkeiten.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Lehrperson als erste Person einen Schüler auswählt, ist "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{10}{25}"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nDie Wahrscheinlichkeit, dass die Lehrperson drei Schüler auswählt, kann mittels "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{10}{25}\\cdot\\frac9{24}\\cdot\\frac8{23}"
+            },
+            {
+              "t": "text",
+              "v": " berechnet werden."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Lehrperson drei Schülerinnen auswählt, kann mittels "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{15}{25}\\cdot\\frac{14}{25}\\cdot\\frac{13}{25}"
+            },
+            {
+              "t": "text",
+              "v": " berechnet werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Lehrperson als erste Person einen Schüler auswählt, ist "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{10}{25}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Lehrperson bei der Wahl von drei Prüflingen als zweite Person eine Schülerin auswählt, ist "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{24}{25}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Lehrperson drei Schüler auswählt, kann mittels "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{10}{25}\\cdot\\frac9{24}\\cdot\\frac8{23}"
+            },
+            {
+              "t": "text",
+              "v": " berechnet werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass sich unter den von der Lehrperson ausgewählten Personen genau zwei Schülerinnen befinden, kann mittels "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{15}{25}\\cdot\\frac{14}{24}\\cdot\\frac{23}{23}"
+            },
+            {
+              "t": "text",
+              "v": " berechnet werden."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_401",
       "baseId": "1_401",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/109/Mehrere%20Wahrscheinlichkeiten.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Unterrichtsstunde sind 15 Schülerinnen und 10 Schüler anwesend. Die Lehrperson wählt für Überprüfungen nacheinander zufällig drei verschiedene Personen aus dieser Schulklasse aus. Jeder Prüfling wird nur einmal befragt."
     }
   ]
 }

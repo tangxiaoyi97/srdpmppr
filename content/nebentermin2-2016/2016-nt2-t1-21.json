@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,185 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_449a",
+          "id": "1_449",
           "baseId": "1_449",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/157/Augensumme.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussage ist wahr."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Beurteilung der Aussage und eine (sinngemäß) korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\n\nAugensumme 5: (1; 4), (2; 3), (3; 2), (4; 1) "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " 4 Möglichkeiten\n\nAugensumme 9: (3; 6), (4; 5), (5; 4), (6; 3) "
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " 4 Möglichkeiten\n\n"
+            },
+            {
+              "t": "math",
+              "v": "P("
+            },
+            {
+              "t": "text",
+              "v": "„Augensumme 5“"
+            },
+            {
+              "t": "math",
+              "v": ")=\\frac4{36}"
+            },
+            {
+              "t": "text",
+              "v": "\n\n"
+            },
+            {
+              "t": "math",
+              "v": "P("
+            },
+            {
+              "t": "text",
+              "v": "„Augensumme 9“"
+            },
+            {
+              "t": "math",
+              "v": ")=\\frac4{36}"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand behauptet, dass die Ereignisse „Augensumme 5“ und „Augensumme 9“ gleichwahrscheinlich sind. Geben Sie an, ob es sich hierbei um eine wahre oder eine falsche Aussage handelt, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\n\nAugensumme 5: (1; 4), (2; 3), (3; 2), (4; 1) "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " 4 Möglichkeiten\n\nAugensumme 9: (3; 6), (4; 5), (5; 4), (6; 3) "
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " 4 Möglichkeiten\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 5“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Augensumme 9“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac4{36}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Aussage ist wahr."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine richtige Beurteilung der Aussage und eine (sinngemäß) korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_449",
       "baseId": "1_449",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/157/Augensumme.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zwei unterscheidbare, faire Spielwürfel mit den Augenzahlen 1, 2, 3, 4, 5, 6 werden geworfen und die Augensumme wird ermittelt. (Ein Würfel ist „fair“, wenn die Wahrscheinlichkeit, nach einem Wurf nach oben zu zeigen, für alle sechs Seitenflächen gleich groß ist.)"
     }
   ]
 }

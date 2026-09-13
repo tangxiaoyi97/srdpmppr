@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -24,12 +24,118 @@
     {
       "id": "2016-nt2-t1-02-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_468",
+          "baseId": "1_468",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/177/Quadratische%20Gleichung.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "d=-2"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie denjenigen Wert für "
+        },
+        {
+          "t": "math",
+          "v": "d\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " an, für den die Gleichung genau eine Lösung hat!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "d ="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "d",
+            "value": -2,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=6",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_468",
+      "baseId": "1_468",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/177/Quadratische%20Gleichung.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die folgende quadratische Gleichung in der Unbekannten "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " über der Grundmenge "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ":\n\n"
+    },
+    {
+      "t": "math",
+      "v": "4x^2-d=2"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "d\\in\\mathbb{R}"
+    }
+  ]
 }

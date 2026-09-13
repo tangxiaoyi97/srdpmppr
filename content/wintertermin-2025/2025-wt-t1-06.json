@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t1-06",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1430a",
+          "id": "1_1430",
           "baseId": "1_1430",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/992/1_1430_srdp_ma_Hochstein_PT3_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -54,7 +54,7 @@
             },
             {
               "t": "math",
-              "v": "\\sin(\\alpha)=\\dfrac{FH}{4\\,000}"
+              "v": "\\sin(\\alpha)=\\dfrac{\\overline{FH}}{4\\,000}"
             },
             {
               "t": "text",
@@ -89,20 +89,55 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "alpha",
-            "label": "α",
-            "value": 19.7,
-            "tol": 0.1,
-            "unit": "°"
+            "t": "text",
+            "v": "α ... Steigungswinkel der Skipiste\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sin(\\alpha)=\\dfrac{\\overline{FH}}{4\\,000}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=\\arcsin\\!\\left(\\dfrac{2\\,023-673}{4\\,000}\\right)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=19{,}72\\ldots^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "Der Steigungswinkel beträgt rund 19,7°."
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen des Steigungswinkels."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Steigungswinkel19,72…°, laut Original rund19,7°.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

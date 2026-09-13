@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -24,12 +24,96 @@
     {
       "id": "2014-ht-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=19",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "0,03 mg\n\n2 %"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe der beiden Zahlenwerte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, wie viel Milligramm Nikotin täglich zugeführt werden und wie viel Prozent der im Körper vorhandenen Nikotinmenge täglich abgebaut werden!\n\n_____ mg\n\n_____ %"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Zufuhr",
+            "label": "Zufuhr",
+            "value": 0.03,
+            "tol": 1e-09,
+            "unit": "mg"
+          },
+          {
+            "id": "Abbau",
+            "label": "Abbau",
+            "value": 2,
+            "tol": 1e-09,
+            "unit": "%"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=19",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Nikotinmenge "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " (in mg) im Blut eines bestimmten Rauchers kann modellhaft durch die Differenzengleichung "
+    },
+    {
+      "t": "math",
+      "v": "x_{n+1}=0{,}98\\cdot x_n+0{,}03"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " in Tagen) beschrieben werden."
+    }
+  ]
 }

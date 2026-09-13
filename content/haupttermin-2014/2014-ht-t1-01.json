@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_349a",
+          "id": "1_349",
           "baseId": "1_349",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/60/Positive%20rationale%20Zahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}9\\cdot10^{-3}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{0{,}01}"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Antworten angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie jene beiden Zahlen an, die Elemente dieser Zahlenmenge sind!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{5}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "0{,}9\\cdot10^{-3}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sqrt{0{,}01}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{\\pi}{4}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "-1{,}41\\cdot10^3"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_349",
       "baseId": "1_349",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/60/Positive%20rationale%20Zahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die Zahlenmenge "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{Q}^+"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,131 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_607a",
+          "id": "1_607",
           "baseId": "1_607",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/316/Schadstoffaussto%C3%9F.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck gibt den gesamten Schadstoffausstoß (in Gramm) von 7 Uhr bis 15 Uhr an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung, wobei die Einheit „Gramm“ nicht angeführt sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\int_7^{15}A(t)\\,\\mathrm dt"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck gibt den gesamten Schadstoffausstoß (in Gramm) von 7 Uhr bis 15 Uhr an.\nEin Punkt für eine (sinngemäß) korrekte Deutung, wobei die Einheit „Gramm“ nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_607",
       "baseId": "1_607",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/316/Schadstoffaussto%C3%9F.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "An einem Wintertag wird der Schadstoffausstoß eines Kamins gemessen.\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "A:\\mathbb{R}^+\\to\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " den momentanen Schadstoffausstoß "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "A(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Gramm pro Stunde und "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Stunden ("
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " entspricht 0 Uhr) gemessen wird."
     }
   ]
 }

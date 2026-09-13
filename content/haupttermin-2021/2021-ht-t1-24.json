@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,7 +24,7 @@
     {
       "id": "2021-ht-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 4.1",
@@ -33,7 +33,14 @@
           "verifiedAt": "2026-07-01"
         }
       ],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4892&token=3d2865a48b75cf29597eeeeef1033c9650ed3a63#page=26",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -79,18 +86,49 @@
         }
       ],
       "answer": {
-        "kind": "interval",
-        "lower": 0.027,
-        "upper": 0.093,
-        "lowerClosed": true,
-        "upperClosed": true
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "0{,}06\\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}06\\cdot 0{,}94}{200}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "95-%-Konfidenzintervall: "
+          },
+          {
+            "t": "math",
+            "v": "[0{,}027;\\,0{,}093]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben des richtigen Konfidenzintervalls."
+          }
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben des richtigen Konfidenzintervalls.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4892&token=3d2865a48b75cf29597eeeeef1033c9650ed3a63#page=26",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
 }

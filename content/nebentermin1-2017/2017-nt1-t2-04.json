@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -22,14 +22,397 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt1-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Schularzt untersucht eine zufällige Stichprobe von 8-jährigen Buben aus seinem Schulbezirk und erhebt unter anderem deren Körpermassen (in kg). Anhand der Ergebnisse dieser Messung erstellt er für den Anteil der 8-jährigen Buben aus seinem Schulbezirk, deren Körpermasse im „Normalbereich“ [20 kg; 35 kg] liegt, das symmetrische Konfidenzintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0{,}8535;0{,}9465]"
+        },
+        {
+          "t": "text",
+          "v": " mit dem Konfidenzniveau "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma=0{,}95"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nGeben Sie den Unterschied des der Berechnung zugrundeliegenden Stichprobenanteils zum Anteil der 8-jährigen Buben mit einer Körpermasse im „Normalbereich“ laut Diagramm in Prozentpunkten an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Unterschied",
+            "label": "Unterschied",
+            "value": 4,
+            "tol": 1e-09,
+            "unit": "Prozentpunkte"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Stichprobenanteil: 0,9\nAnteil laut Diagramm: 0,94\nUnterschied: 4 Prozentpunkte"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Schularzt untersucht eine zufällige Stichprobe von 8-jährigen Buben aus seinem Schulbezirk und erhebt unter anderem deren Körpermassen (in kg). Anhand der Ergebnisse dieser Messung erstellt er für den Anteil der 8-jährigen Buben aus seinem Schulbezirk, deren Körpermasse im „Normalbereich“ [20 kg; 35 kg] liegt, das symmetrische Konfidenzintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0{,}8535;0{,}9465]"
+        },
+        {
+          "t": "text",
+          "v": " mit dem Konfidenzniveau "
+        },
+        {
+          "t": "math",
+          "v": "\\gamma=0{,}95"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Anzahl der bei dieser Stichprobe gemessenen 8-jährigen Buben!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 160 Buben. Toleranzintervall [155;165]. Korrekter Ansatz mit Rechenfehler ebenfalls richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "0{,}9465=0{,}9+1{,}96\\cdot\\sqrt{\\dfrac{0{,}9\\cdot(1-0{,}9)}{n}}\\Rightarrow n\\approx160"
+            },
+            {
+              "t": "text",
+              "v": " Buben."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [155 Buben; 165 Buben]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Angenommen, für ein bestimmtes Kind sind die Körperhöhen "
+        },
+        {
+          "t": "math",
+          "v": "g(1)"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "g(2)"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "g(3)"
+        },
+        {
+          "t": "text",
+          "v": ", … zum ersten, zweiten, dritten usw. Geburtstag bekannt.\nGeben Sie verbal oder als Formel an, wie sich die durchschnittliche Wachstumsgeschwindigkeit dieses Kindes in dem dreijährigen Zeitraum zwischen dem 6. und dem 9. Geburtstag bestimmen lässt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Drittel der Größenzunahme bzw. "
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{g(9)-g(6)}{3}"
+          },
+          {
+            "t": "text",
+            "v": "; äquivalente Formeln akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die durchschnittliche Wachstumsgeschwindigkeit in diesem Zeitraum entspricht einem Drittel der Größenzunahme.\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{g(9)-g(6)}{3}"
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Antwort bzw. eine richtige Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-04-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Betrachten Sie das Größenwachstum auf dem 50. Perzentil nach dem 8. Lebensjahr.\nGeben Sie das ungefähre Alter von Buben an, bei dem deren momentane Wachstumsgeschwindigkeit am größten ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Alter",
+            "label": "Alter",
+            "value": 13,
+            "tol": 1,
+            "unit": "Jahre"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Das ungefähre Alter von Buben, bei dem deren momentane Wachstumsgeschwindigkeit am größten ist, liegt bei ca. 13 Jahren."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Jahre“ nicht angeführt sein muss. Toleranzintervall: [12 Jahre; 14 Jahre]."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie an, welcher statistischen Kennzahl derjenige Wert entspricht, den man auf dem 50. Perzentil ablesen kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Median"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die statistische Kennzahl, die demjenigen Wert entspricht, den man auf dem 50. Perzentil ablesen kann, ist der Median."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für das Anführen der korrekten statistischen Kennzahl."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erläutern Sie, welche Schwierigkeiten auftreten, wenn man aus dem angegebenen Diagramm ein Kastenschaubild (Boxplot) zur Darstellung der Körperhöhen von 8-jährigen Buben erstellen möchte!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Erstes und drittes Quartil sowie Median sind ablesbar; Minimum und Maximum (und Ausreißerinformationen) fehlen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Schwierigkeiten bestehen darin, dass man zwar das 1. und das 3. Quartil sowie den Median, jedoch weder Minimum noch Maximum ablesen kann (und auch keine Informationen bezüglich Ausreißern hat)."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Erläuterung."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Um die Entwicklung der Körperhöhe und der Masse eines Kindes kontrollieren zu können, sind im Mutter-Kind-Pass die Perzentilenkurven für Körperhöhe (Größe) und Masse angegeben (Körperhöhe in cm, Masse in kg). Perzentile teilen die Körperhöhen und Massen der Kinder in Prozent-Bereiche auf. Liegt ein Wert auf dem 10. Wachstumsperzentil, so sind 10 % der Kinder des ausgewählten Alters kleiner oder gleich dem angegebenen Wert und 90 % größer oder gleich dem angegebenen Wert.\nEs ist üblich, alle Werte zwischen dem 3. und dem 97. Perzentil als „normal“ zu bezeichnen.\nDas folgende Diagramm zeigt die Wachstums- und Körpermassekurven für Buben im Alter von 0 bis 18 Jahren:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-04-percentile-chart.png",
+      "alt": "Wachstums- und Körpermassekurven für Buben: Perzentile 3, 10, 25, 50, 75, 90 und 97"
+    },
+    {
+      "t": "text",
+      "v": "\nQuelle: http://www.grosswuchs.de/WachstumTabelleJ.htm [21.05.2014]."
+    }
+  ]
 }

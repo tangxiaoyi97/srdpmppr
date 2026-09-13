@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,208 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_359a",
+          "id": "1_359",
           "baseId": "1_359",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/70/Ableitung%20einer%20Polynomfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "3x^2-4x+7"
+            },
+            {
+              "t": "text",
+              "v": "; ② "
+            },
+            {
+              "t": "math",
+              "v": "6x-4"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn für beide Lücken ausschließlich der jeweils richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nFür die 1. Ableitung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)="
+        },
+        {
+          "t": "text",
+          "v": " ① gilt: "
+        },
+        {
+          "t": "math",
+          "v": "f'(x)="
+        },
+        {
+          "t": "text",
+          "v": " ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "3x^3-4x^2+7x-3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "6x^2-4x+7"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "3x^2-4x+7"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "x^3-2x^2+7x"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "6x-4"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "6x^2-4"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_359",
       "baseId": "1_359",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/70/Ableitung%20einer%20Polynomfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind eine reelle Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und deren Ableitungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

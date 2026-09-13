@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -22,14 +22,814 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt1-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist eine rechteckige Schwimmzone ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-a-rectangle.png",
+          "alt": "Rechteckige Schwimmzone mit zwei seitlichen Seilabschnitten der Länge x"
+        },
+        {
+          "t": "text",
+          "v": "\nⒶ Zeigen Sie, dass für den Flächeninhalt "
+        },
+        {
+          "t": "math",
+          "v": "A(x)"
+        },
+        {
+          "t": "text",
+          "v": " einer derartigen Schwimmzone die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "A(x)=180\\cdot x-2\\cdot x^2"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Korrekter Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "A(x)=x(180-2x)=180x-2x^2"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A(x)=x\\cdot(180-2\\cdot x)=180\\cdot x-2\\cdot x^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für einen korrekten Nachweis. Andere korrekte Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Gegeben ist eine rechteckige Schwimmzone ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-a-rectangle.png",
+          "alt": "Rechteckige Schwimmzone mit zwei seitlichen Seilabschnitten der Länge x"
+        },
+        {
+          "t": "text",
+          "v": "\nⒶ Zeigen Sie, dass für den Flächeninhalt "
+        },
+        {
+          "t": "math",
+          "v": "A(x)"
+        },
+        {
+          "t": "text",
+          "v": " einer derartigen Schwimmzone die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "A(x)=180\\cdot x-2\\cdot x^2"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Länge, die Breite und den Flächeninhalt derjenigen Schwimmzone, die den größten Flächeninhalt aufweist!\n\nLänge = _____ m\nBreite = _____ m\nFlächeninhalt = _____ m²"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Länge",
+            "label": "Länge",
+            "value": 90,
+            "tol": 1e-09,
+            "unit": "m"
+          },
+          {
+            "id": "Breite",
+            "label": "Breite",
+            "value": 45,
+            "tol": 1e-09,
+            "unit": "m"
+          },
+          {
+            "id": "Flächeninhalt",
+            "label": "Flächeninhalt",
+            "value": 4050,
+            "tol": 1e-09,
+            "unit": "m²"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "A'(x)=180-4\\cdot x=0\\Rightarrow x=45"
+            },
+            {
+              "t": "text",
+              "v": ". ("
+            },
+            {
+              "t": "math",
+              "v": "A''(45)=-4<0\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " lokales Maximum. Aus "
+            },
+            {
+              "t": "math",
+              "v": "A''(x)<0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " folgt, dass "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " rechtsgekrümmt ist und das lokale Maximum daher ein globales Maximum ist.)\nLänge = 90 m\nBreite = 45 m\nFlächeninhalt = 4050 m²"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe aller drei richtigen Werte. Der Nachweis für das Vorliegen eines Maximums ist nicht erforderlich."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind trapezförmige Schwimmzonen ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-b-trapezoid.png",
+          "alt": "Trapezförmige Schwimmzone mit seitlichen Seilabschnitten x und Höhe h"
+        },
+        {
+          "t": "text",
+          "v": "\nUm den Flächeninhalt einer solchen trapezförmigen Schwimmzone berechnen zu können, kann die Formel "
+        },
+        {
+          "t": "math",
+          "v": "A(x,h)=h\\cdot\\left(180-2\\cdot x+\\sqrt{x^2-h^2}\\right)"
+        },
+        {
+          "t": "text",
+          "v": " herangezogen werden."
+        },
+        {
+          "t": "text",
+          "v": "\n\nGeben Sie alle Werte an, die "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " annehmen darf, wenn "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " 40 m lang ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "x\\in[40;90]"
+          },
+          {
+            "t": "text",
+            "v": ". Auch offen/halboffen, korrekte formale oder verbale Beschreibung akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "alle Werte, die "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " bei "
+            },
+            {
+              "t": "math",
+              "v": "h=40"
+            },
+            {
+              "t": "text",
+              "v": " m annehmen darf: "
+            },
+            {
+              "t": "math",
+              "v": "x\\in[40;90]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe eines korrekten Intervalls für x. Andere Schreibweisen des Intervalls (offen oder halboffen) sowie korrekte formale oder verbale Beschreibungen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind trapezförmige Schwimmzonen ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-b-trapezoid.png",
+          "alt": "Trapezförmige Schwimmzone mit seitlichen Seilabschnitten x und Höhe h"
+        },
+        {
+          "t": "text",
+          "v": "\nUm den Flächeninhalt einer solchen trapezförmigen Schwimmzone berechnen zu können, kann die Formel "
+        },
+        {
+          "t": "math",
+          "v": "A(x,h)=h\\cdot\\left(180-2\\cdot x+\\sqrt{x^2-h^2}\\right)"
+        },
+        {
+          "t": "text",
+          "v": " herangezogen werden."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie alle Werte an, die "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " annehmen darf, wenn "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " 50 m lang ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "h\\in[0;50]"
+          },
+          {
+            "t": "text",
+            "v": ". Auch offen/halboffen, korrekte formale oder verbale Beschreibung akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "alle Werte, die "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " bei "
+            },
+            {
+              "t": "math",
+              "v": "x=50"
+            },
+            {
+              "t": "text",
+              "v": " m annehmen darf: "
+            },
+            {
+              "t": "math",
+              "v": "h\\in[0;50]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe eines korrekten Intervalls für h. Andere Schreibweisen des Intervalls (offen oder halboffen) sowie korrekte formale oder verbale Beschreibungen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind trapezförmige Schwimmzonen, bei denen alle drei Seilabschnitte gleich lang sind ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-c-trapezoid.png",
+          "alt": "Trapez mit drei gleich langen Seilabschnitten x, Höhe h und Winkel α zwischen linkem Seil und Höhe"
+        },
+        {
+          "t": "text",
+          "v": "\nDer Flächeninhalt "
+        },
+        {
+          "t": "math",
+          "v": "A(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " einer derartigen Schwimmzone kann in Abhängigkeit vom Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden ("
+        },
+        {
+          "t": "math",
+          "v": "A(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " in m², "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " in Grad).\nStellen Sie eine Formel auf, mit deren Hilfe der Flächeninhalt einer solchen Schwimmzone in Abhängigkeit vom Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "A(\\alpha)="
+        },
+        {
+          "t": "text",
+          "v": " _____"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "A(\\alpha)=3600\\cos(\\alpha)+3600\\cos(\\alpha)\\sin(\\alpha)"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "3600\\cos(\\alpha)+1800\\sin(2\\alpha)"
+          },
+          {
+            "t": "text",
+            "v": ", α in Grad. Äquivalente Formeln akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A(\\alpha)=3600\\cdot\\cos(\\alpha)+3600\\cdot\\cos(\\alpha)\\cdot\\sin(\\alpha)"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "A(\\alpha)=3600\\cdot\\cos(\\alpha)+1800\\cdot\\sin(2\\cdot\\alpha)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Andere korrekte Formeln sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt1-t2-02-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind trapezförmige Schwimmzonen, bei denen alle drei Seilabschnitte gleich lang sind ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in Metern)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-c-trapezoid.png",
+          "alt": "Trapez mit drei gleich langen Seilabschnitten x, Höhe h und Winkel α zwischen linkem Seil und Höhe"
+        },
+        {
+          "t": "text",
+          "v": "\nDer Flächeninhalt "
+        },
+        {
+          "t": "math",
+          "v": "A(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " einer derartigen Schwimmzone kann in Abhängigkeit vom Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden ("
+        },
+        {
+          "t": "math",
+          "v": "A(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " in m², "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " in Grad).\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "In der nachstehenden Abbildung sind die Werte der Flächeninhalte für den jeweiligen Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-c-area-graph.png",
+          "alt": "Flächeninhalt gegen Winkel α in Grad, Maximum bei etwa 30°"
+        },
+        {
+          "t": "text",
+          "v": "\nEs soll eine Schwimmzone mit größtmöglichem Flächeninhalt angelegt werden. Berechnen Sie unter Zuhilfenahme der obigen Abbildung diejenige Länge, die sich dabei für den Strandabschnitt, von dem aus man die Schwimmzone betreten kann, ergibt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Länge",
+            "label": "Länge",
+            "value": 120,
+            "tol": 5,
+            "unit": "m"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: größtmöglicher Flächeninhalt: bei "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=30^\\circ"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "30+60+30=120"
+            },
+            {
+              "t": "text",
+              "v": ". Der Strandabschnitt ist dabei 120 m lang."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss. Toleranzintervall: [115 m; 125 m]."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2158&token=2b8b8709e4972e0123d9c0fdf3c4bcd209c054b4#page=7",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Wegen der großen Anzahl an Motorbooten, Jetskis etc. hat man an einigen Stränden spezielle Schwimmzonen eingerichtet.\nAlle in dieser Aufgabe beschriebenen Schwimmzonen sind mit je zwei Bojen und einem 180 Meter langem Seil an einem nahezu geraden Strand angelegt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t2-02-overview.png",
+      "alt": "Schwimmzone zwischen geradem Strand und einem über zwei Bojen gespannten Seil"
+    }
+  ]
 }

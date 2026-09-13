@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-12",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_841a",
+          "id": "1_841",
           "baseId": "1_841",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/634/Funktionsterm.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -123,16 +123,39 @@
         }
       ],
       "answer": {
-        "kind": "expression",
-        "canonical": "2\\cdot 1{,}5^{x}",
-        "vars": [
-          "x"
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(x)=2\\cdot 1{,}5^{x}"
+          },
+          {
+            "t": "text",
+            "v": "  oder:  "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=3\\cdot 1{,}5^{x-1}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben des richtigen Funktionsterms."
+          },
+          {
+            "t": "text",
+            "v": "\nAuch andere Funktionsterme sind richtig, wenn sie für alle reellen x positive Funktionswerte besitzen, f(1) = 3 erfüllen und f(x + 1) = 1,5 · f(x) für alle reellen x gilt."
+          }
         ],
-        "checker": "cas"
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das Angeben des richtigen Funktionsterms.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

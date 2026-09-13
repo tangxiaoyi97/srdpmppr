@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,133 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_360a",
+          "id": "1_360",
           "baseId": "1_360",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/334/Beschleunigungsfunktion%20bestimmen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a(t)=t+10"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn eine richtige Gleichung der Funktion a angegeben ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " an, die die Beschleunigung dieses Körpers in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a(t)="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "t+10",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_360",
       "baseId": "1_360",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/334/Beschleunigungsfunktion%20bestimmen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Weg "
+    },
+    {
+      "t": "math",
+      "v": "s(t)"
+    },
+    {
+      "t": "text",
+      "v": ", den ein Körper in der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " zurücklegt, wird in einem bestimmten Zeitintervall durch\n"
+    },
+    {
+      "t": "math",
+      "v": "s(t)=\\frac{t^3}{6}+5\\cdot t^2+5\\cdot t"
+    },
+    {
+      "t": "text",
+      "v": "\nbeschrieben ("
+    },
+    {
+      "t": "math",
+      "v": "s(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Metern, "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden)."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,167 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_478a",
+          "id": "1_478",
           "baseId": "1_478",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/187/Nachweis%20eines%20lokalen%20Minimums.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher rechnerischer Nachweis: "
+            },
+            {
+              "t": "math",
+              "v": "p''(x)=6x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "p''(1)=6>0\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " An der Stelle 1 liegt ein lokales Minimum vor."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie rechnerisch, dass "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " an dieser Stelle ein lokales Minimum (d. h. ihr Graph dort einen Tiefpunkt) hat!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Möglicher rechnerischer Nachweis: "
+          },
+          {
+            "t": "math",
+            "v": "p''(x)=6x"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p''(1)=6>0\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " An der Stelle 1 liegt ein lokales Minimum vor."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten rechnerischen Nachweis. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_478",
       "baseId": "1_478",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/187/Nachweis%20eines%20lokalen%20Minimums.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p(x) = x^3 - 3 \\cdot x + 2"
+    },
+    {
+      "t": "text",
+      "v": ". Die erste Ableitung "
+    },
+    {
+      "t": "math",
+      "v": "p'"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p'(x) = 3 \\cdot x^2 - 3"
+    },
+    {
+      "t": "text",
+      "v": " hat an der Stelle "
+    },
+    {
+      "t": "math",
+      "v": "x = 1"
+    },
+    {
+      "t": "text",
+      "v": " den Wert null."
     }
   ]
 }

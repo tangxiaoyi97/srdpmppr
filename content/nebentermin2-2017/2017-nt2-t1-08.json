@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,297 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_534a",
+          "id": "1_534",
           "baseId": "1_534",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/243/Steigende%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "lineare Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x+b"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>0,b>0"
+            },
+            {
+              "t": "text",
+              "v": ")\nExponentialfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=c\\cdot a^x"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>1,c>0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Funktionen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " sind in jedem Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[x_1;x_2]"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "0<x_1<x_2"
+        },
+        {
+          "t": "text",
+          "v": " streng monoton steigend? Kreuzen Sie die beiden zutreffenden Funktionen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x+b"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>0,b>0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Potenzfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x^n"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a<0,n\\in\\mathbb N,n>0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Sinusfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>0,b>0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot e^{k\\cdot x}"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>0,k<0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit Funktionsgleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=c\\cdot a^x"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "a>1,c>0"
+            },
+            {
+              "t": "text",
+              "v": ")"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_534",
       "baseId": "1_534",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/243/Steigende%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind fünf Funktionen."
     }
   ]
 }

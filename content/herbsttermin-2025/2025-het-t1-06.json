@@ -1,6 +1,6 @@
 {
   "id": "2025-het-t1-06",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -25,7 +25,7 @@
     {
       "id": "2025-het-t1-06-a",
       "label": "a",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AG 4.1",
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1548a",
+          "id": "1_1548",
           "baseId": "1_1548",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1055/1_1548_srdp_ma_Bewegung%20eines%20Objekts_PT2_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,7 +50,7 @@
           "result": [
             {
               "t": "math",
-              "v": "\\beta=90^\\circ-\\arctan\\!\\left(\\tfrac{a+c}{b}\\right)"
+              "v": "\\beta=90^\\circ-\\arctan\\!\\left(\\tfrac{b}{a+c}\\right)"
             },
             {
               "t": "text",
@@ -58,7 +58,7 @@
             },
             {
               "t": "math",
-              "v": "\\beta=\\arctan\\!\\left(\\tfrac{b}{a+c}\\right)"
+              "v": "\\beta=\\arctan\\!\\left(\\tfrac{a+c}{b}\\right)"
             }
           ],
           "note": "Ein Punkt für das richtige Aufstellen der Gleichung."
@@ -76,7 +76,7 @@
       ],
       "answer": {
         "kind": "expression",
-        "canonical": "\\arctan\\frac{b}{a+c}",
+        "canonical": "\\arctan\\frac{a+c}{b}",
         "vars": [
           "a",
           "b",

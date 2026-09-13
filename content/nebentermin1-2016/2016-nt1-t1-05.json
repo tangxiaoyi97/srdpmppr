@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,134 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_513a",
+          "id": "1_513",
           "baseId": "1_513",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/222/Aufw%C3%B6lbung%20des%20Bodensees.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Aufwölbung: 83 Meter"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [82 Meter; 84 Meter] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "6\\,370-6\\,370\\cdot\\cos\\left(\\frac{0{,}5846}{2}\\right)\\approx0{,}083\\,\\mathrm{km}\\mathrel{\\widehat{=}}83\\,\\mathrm{m}"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Aufwölbung des Bodensees (siehe obige Abbildung) in Metern!\n\nAufwölbung: __________ Meter"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "6\\,370-6\\,370\\cdot\\cos\\left(\\frac{0{,}5846}{2}\\right)\\approx0{,}083\\,\\mathrm{km}\\mathrel{\\widehat{=}}83\\,\\mathrm{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Aufwölbung: 83 Meter"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Toleranzintervall: [82 Meter; 84 Meter] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_513",
       "baseId": "1_513",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/222/Aufw%C3%B6lbung%20des%20Bodensees.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Aufgrund der Erdkrümmung ist die Oberfläche des Bodensees gewölbt. Wird die Erde modellhaft als Kugel mit dem Radius "
+    },
+    {
+      "t": "math",
+      "v": "R=6\\,370"
+    },
+    {
+      "t": "text",
+      "v": " km und dem Mittelpunkt "
+    },
+    {
+      "t": "math",
+      "v": "M"
+    },
+    {
+      "t": "text",
+      "v": " angenommen und aus der Länge der Südost-Nordwest-Ausdehnung des Bodensees der Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\varphi=0{,}5846^\\circ"
+    },
+    {
+      "t": "text",
+      "v": " ermittelt, so lässt sich die Aufwölbung des Bodensees näherungsweise berechnen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-05-lake.png",
+      "alt": "Kreissektor: Radius R, Mittelpunktswinkel φ, Sehne unterhalb des Bodenseebogens; Aufwölbung zwischen Sehne und Bogen."
     }
   ]
 }

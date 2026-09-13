@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,170 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_625a",
+          "id": "1_625",
           "baseId": "1_625",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/346/Sinusfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=3"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b=2"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 3,
+            "tol": 1e-09
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 2,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_625",
       "baseId": "1_625",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/346/Sinusfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " sei die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f:\\mathbb{R}\\to\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gegeben.\n\nDie beiden nachstehenden Eigenschaften der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " sind bekannt:\n• Die (kleinste) Periode der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " ist "
+    },
+    {
+      "t": "math",
+      "v": "\\pi"
+    },
+    {
+      "t": "text",
+      "v": ".\n• Die Differenz zwischen dem größten und dem kleinsten Funktionswert von "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " beträgt 6."
     }
   ]
 }

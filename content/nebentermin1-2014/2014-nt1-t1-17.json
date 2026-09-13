@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,313 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_357a",
+          "id": "1_357",
           "baseId": "1_357",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/68/Extremstelle.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " bei "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " das Monotonieverhalten ändert, dann liegt bei "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nWenn "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, dann ist "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die stets zutreffend sind!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, dann wechselt die Funktion an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " das Krümmungsverhalten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, dann ist "
+            },
+            {
+              "t": "math",
+              "v": "f''(x_0)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " bei "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " das Monotonieverhalten ändert, dann liegt bei "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, dann ist "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0)=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " eine lokale Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, dann ist "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "x<x_0"
+            },
+            {
+              "t": "text",
+              "v": " immer negativ und für "
+            },
+            {
+              "t": "math",
+              "v": "x>x_0"
+            },
+            {
+              "t": "text",
+              "v": " immer positiv."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_357",
       "baseId": "1_357",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/68/Extremstelle.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Ermittlung lokaler Extremstellen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " erfolgt häufig mithilfe der Differenzialrechnung."
     }
   ]
 }

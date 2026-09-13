@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,134 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_431a",
+          "id": "1_431",
           "baseId": "1_431",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/139/Stammfunktion%20einer%20konstanten%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Graph der Stammfunktion:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-15-solution.png",
+              "alt": "Stammfunktion F als Gerade mit Steigung −2 durch P=(1|1)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn die lineare Stammfunktion F durch den Punkt P = (1|1) verläuft und die Steigung −2 hat."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph einer Stammfunktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " verläuft durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P=(1|1)"
+        },
+        {
+          "t": "text",
+          "v": ".\nZeichnen Sie den Graphen der Stammfunktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " im nachstehenden Koordinatensystem ein!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-15-grid.png",
+          "alt": "Leeres Koordinatensystem für die Stammfunktion F"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Gerade F(x)=−2x+3, durch P=(1|1) mit Steigung −2."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt ist genau dann zu geben, wenn die lineare Stammfunktion F durch den Punkt P = (1|1) verläuft und die Steigung −2 hat."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_431",
       "baseId": "1_431",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/139/Stammfunktion%20einer%20konstanten%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer konstanten Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-15-function.png",
+      "alt": "Graph der konstanten Funktion f(x)=−2"
     }
   ]
 }

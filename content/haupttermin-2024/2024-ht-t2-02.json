@@ -59,7 +59,7 @@
         },
         {
           "t": "math",
-          "v": "h(t)=a\\cdot e^{-0{,}03\\cdot t}\\cdot\\left(\\cos\\!\\left(\\tfrac{\\pi}{6}\\cdot t\\right)+1\\right)"
+          "v": "h(t)=a\\cdot\\left(e^{-0{,}03\\cdot t}\\cdot\\cos\\!\\left(\\frac{\\pi\\cdot t}{6}\\right)+1\\right)"
         },
         {
           "t": "text",
@@ -74,7 +74,7 @@
             "id": "a",
             "label": "a",
             "value": 45,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -88,7 +88,7 @@
           "steps": [
             {
               "t": "math",
-              "v": "h(0)=a\\cdot e^{-0{,}03\\cdot 0}\\cdot\\left(\\cos\\!\\left(\\tfrac{\\pi}{6}\\cdot 0\\right)+1\\right)=90"
+              "v": "h(0)=a\\cdot\\left(e^{-0{,}03\\cdot0}\\cdot\\cos\\!\\left(\\frac{\\pi\\cdot0}{6}\\right)+1\\right)=90"
             },
             {
               "t": "math",
@@ -130,25 +130,64 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Sabine unternimmt einen Bungeesprung. Dabei schwingt sie am Seil mehrmals auf und ab.\n\nIhre Höhe über dem Boden in Abhängigkeit von der Zeit t wird modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h\\!:\\mathbb{R}_0^{+}\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben."
+        },
+        {
+          "t": "math",
+          "v": "h(t)=a\\cdot\\left(e^{-0{,}03\\cdot t}\\cdot\\cos\\!\\left(\\frac{\\pi\\cdot t}{6}\\right)+1\\right)"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit nach dem Absprung in s\nh(t) ... Höhe über dem Boden zum Zeitpunkt t in m\na ... positiver Parameter\n\nZum Zeitpunkt t = 0 springt Sabine von der Absprungplattform in 90 m Höhe über dem Boden in die Tiefe.\n\nBerechnen Sie den Parameter a."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Die gesamte Zeitdauer, in der sich Sabine während des Bungeesprungs in einer Höhe von mehr als 70 m über dem Boden befindet, wird mit d bezeichnet.\n\nErmitteln Sie d in Sekunden."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "d",
-            "label": "d",
-            "value": 4.289,
-            "tol": 0.05,
-            "unit": "s"
+            "t": "text",
+            "v": "Die gesamte Zeitdauer ist die Summe der Intervalle oberhalb70m. "
+          },
+          {
+            "t": "math",
+            "v": "d=t_1+(t_3-t_2)=4{,}289\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "mit t₁=1,803…,t₂=10,663…,t₃=13,149… als Lösungen von h(t)=70. Ein Punkt für das richtige Ermitteln von d; die originale Rundung oder ein genauerer Wert ist richtig, keine zusätzliche±0,05s-Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Gesamtdauer d=4,289…s, richtige Rundung oder genauer.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -206,25 +245,60 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Sabine unternimmt einen Bungeesprung. Dabei schwingt sie am Seil mehrmals auf und ab.\n\nIhre Höhe über dem Boden in Abhängigkeit von der Zeit t wird modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h\\!:\\mathbb{R}_0^{+}\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben."
+        },
+        {
+          "t": "math",
+          "v": "h(t)=a\\cdot\\left(e^{-0{,}03\\cdot t}\\cdot\\cos\\!\\left(\\frac{\\pi\\cdot t}{6}\\right)+1\\right)"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit nach dem Absprung in s\nh(t) ... Höhe über dem Boden zum Zeitpunkt t in m\na ... positiver Parameter\n\nZum Zeitpunkt t = 0 springt Sabine von der Absprungplattform in 90 m Höhe über dem Boden in die Tiefe.\n\nBerechnen Sie den Parameter a."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Nach Erreichen des tiefsten Punktes wird Sabine vom Seil wieder nach oben gezogen, bevor sie erneut fällt.\n\nBerechnen Sie, wie viele Meter Sabine dabei nach oben gezogen wird."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "dh",
-            "label": "Höhendifferenz",
-            "value": 69.1,
-            "tol": 0.5,
-            "unit": "m"
+            "t": "math",
+            "v": "76{,}446\\ldots-7{,}351\\ldots=69{,}095\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Sabine wird rund69,1m nach oben gezogen. Ein Punkt für das richtige Berechnen; originale Rundung oder genauerer Wert, keine zusätzliche±0,5m-Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Anstieg69,095…m, rund69,1m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -272,7 +346,7 @@
     {
       "id": "2024-ht-t2-02-a4",
       "label": "a4",
-      "format": "Offenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AN 3.3",
@@ -292,6 +366,34 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Sabine unternimmt einen Bungeesprung. Dabei schwingt sie am Seil mehrmals auf und ab.\n\nIhre Höhe über dem Boden in Abhängigkeit von der Zeit t wird modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h\\!:\\mathbb{R}_0^{+}\\to\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben."
+        },
+        {
+          "t": "math",
+          "v": "h(t)=a\\cdot\\left(e^{-0{,}03\\cdot t}\\cdot\\cos\\!\\left(\\frac{\\pi\\cdot t}{6}\\right)+1\\right)"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit nach dem Absprung in s\nh(t) ... Höhe über dem Boden zum Zeitpunkt t in m\na ... positiver Parameter\n\nZum Zeitpunkt t = 0 springt Sabine von der Absprungplattform in 90 m Höhe über dem Boden in die Tiefe.\n\nBerechnen Sie den Parameter a."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Zum Zeitpunkt t₁ ist Sabines (vertikale) Fallgeschwindigkeit maximal.\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."

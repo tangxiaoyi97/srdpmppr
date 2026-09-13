@@ -1,6 +1,6 @@
 {
   "id": "2023-het-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -133,12 +133,12 @@
           {
             "id": "c",
             "value": 260.875,
-            "tol": 0.01
+            "tol": 1e-09
           },
           {
             "id": "d",
             "value": 26063,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -238,7 +238,7 @@
     {
       "id": "2023-het-t2-03-c2",
       "label": "c2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 5.5",
@@ -260,18 +260,45 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Niedrige Temperaturen führen zu einer Wintersterblichkeit von Bienenvölkern. Die Anzahl der Bienenvölker würde ohne eine erneute Aufzucht durch die Imker/innen jährlich um durchschnittlich 16 % abnehmen.\n\nDie Anzahl der Bienenvölker in Österreich, die es ohne eine erneute Aufzucht geben würde, wird durch die Exponentialfunktion g beschrieben.\n\nEs gilt:\nt ... Zeit in Jahren mit t = 0 für das Jahr 2015\ng(t) ... Anzahl der Bienenvölker in Österreich zur Zeit t"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Berechnen Sie, nach welcher Zeitdauer sich die Anzahl der Bienenvölker in Österreich gemäß der Exponentialfunktion g halbiert."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t",
-            "value": 3.9,
-            "tol": 0.1,
-            "unit": "Jahre"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}5 = 0{,}84^{t}"
+          },
+          {
+            "t": "math",
+            "v": "t = 3{,}9\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Zeitdauer beträgt rund 4 Jahre."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc2) Ein Punkt für das richtige Berechnen der Zeitdauer."
           }
         ]
       },
@@ -321,6 +348,10 @@
     {
       "t": "text",
       "v": "Jahr | Anzahl der Imker/innen | Anzahl der Bienenvölker\n2015 | 26 063 | 347 128\n2016 | 26 609 | 354 080\n2017 | 27 580 | 353 267\n2018 | 28 432 | 373 412\n2019 | 30 237 | 390 607"
+    },
+    {
+      "t": "text",
+      "v": "\nQuelle: https://www.biene-oesterreich.at/daten-und-zahlen+2500++1000247 [10.08.2020]."
     }
   ]
 }

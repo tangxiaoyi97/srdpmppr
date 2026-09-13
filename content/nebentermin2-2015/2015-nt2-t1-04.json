@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,157 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_394a",
+          "id": "1_394",
           "baseId": "1_394",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/102/Lineares%20Gleichungssystem.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "L=\\{\\}"
+            },
+            {
+              "t": "text",
+              "v": "\nÜber der gegebenen Grundmenge "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb N\\times\\mathbb N"
+            },
+            {
+              "t": "text",
+              "v": " ist die Lösungsmenge für das angegebene Gleichungssystem leer."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der korrekten Lösungsmenge. Die Lösungsmenge kann sowohl verbal formuliert als auch symbolisch angegeben sein. Die Werte für die beiden Variablen müssen nicht angegeben sein.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "x=\\frac35\\notin\\mathbb N"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "y=\\frac{24}5\\notin\\mathbb N"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Lösungsmenge des Gleichungssystems über der Grundmenge "
+        },
+        {
+          "t": "math",
+          "v": "G"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "x=\\frac35\\notin\\mathbb N"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "y=\\frac{24}5\\notin\\mathbb N"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "L=\\{\\}"
+          },
+          {
+            "t": "text",
+            "v": "\nÜber der gegebenen Grundmenge "
+          },
+          {
+            "t": "math",
+            "v": "\\mathbb N\\times\\mathbb N"
+          },
+          {
+            "t": "text",
+            "v": " ist die Lösungsmenge für das angegebene Gleichungssystem leer."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe der korrekten Lösungsmenge. Die Lösungsmenge kann sowohl verbal formuliert als auch symbolisch angegeben sein. Die Werte für die beiden Variablen müssen nicht angegeben sein."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_394",
       "baseId": "1_394",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/102/Lineares%20Gleichungssystem.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist das folgende lineare Gleichungssystem über der Grundmenge "
+    },
+    {
+      "t": "math",
+      "v": "G=\\mathbb N\\times\\mathbb N"
+    },
+    {
+      "t": "text",
+      "v": ":\n"
+    },
+    {
+      "t": "math",
+      "v": "\\begin{aligned}\\mathrm I:&\\;2x+y=6\\\\\\mathrm{II}:&\\;3x-y=-3\\end{aligned}"
     }
   ]
 }

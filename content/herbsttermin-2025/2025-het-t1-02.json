@@ -1,6 +1,6 @@
 {
   "id": "2025-het-t1-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1544a",
+          "id": "1_1544",
           "baseId": "1_1544",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1051/1_1544_srdp_ma_Preisreduktion_PT2_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -59,7 +59,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Kreuzen Sie die auf jeden Fall zutreffende Formel zur Berechnung von b an."
+          "v": "Kreuzen Sie die auf jeden Fall zutreffende Formel zur Berechnung von b an. [1 aus 6]"
         }
       ],
       "answer": {
@@ -98,7 +98,7 @@
           [
             {
               "t": "math",
-              "v": "b=a-a\\cdot\\left(\\tfrac{p}{100}\\right)^{2}"
+              "v": "b=a-\\left(a\\cdot\\tfrac{p}{100}\\right)^2"
             }
           ]
         ],

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t2-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -22,14 +22,495 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt2-t2-05-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der Qualitätskontrolle gelten Schokoladeneier, deren Masse um mehr als 0,5 g vom Sollwert 20 g abweichen, als Ausschuss. Bei einer Kontrolle wurden nach dem Zufallsprinzip 500 Schokoladeneier einer Produktionsserie ausgewählt und überprüft. Dabei wurden 15 als Ausschuss aussortiert.\n\nGeben Sie ein symmetrisches 90-%-Konfidenzintervall für den relativen Anteil "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " an Ausschusseiern in der gesamten Produktionsserie an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "h=0{,}03"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}03\\pm1{,}645\\cdot\\sqrt{\\frac{0{,}03\\cdot(1-0{,}03)}{500}}\\approx0{,}03\\pm0{,}013\\Rightarrow[0{,}017;0{,}043]"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "[0{,}017;0{,}043]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,017; 0,02] Toleranzintervall für den oberen Wert: [0,042; 0,05] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}017;0{,}043]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,017; 0,02] Toleranzintervall für den oberen Wert: [0,042; 0,05] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "h=0{,}03"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "0{,}03\\pm1{,}645\\cdot\\sqrt{\\frac{0{,}03\\cdot(1-0{,}03)}{500}}\\approx0{,}03\\pm0{,}013\\Rightarrow[0{,}017;0{,}043]"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt2-t2-05-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der Qualitätskontrolle gelten Schokoladeneier, deren Masse um mehr als 0,5 g vom Sollwert 20 g abweichen, als Ausschuss. Bei einer Kontrolle wurden nach dem Zufallsprinzip 500 Schokoladeneier einer Produktionsserie ausgewählt und überprüft. Dabei wurden 15 als Ausschuss aussortiert.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, durch welche Maßnahme man die Breite des Konfidenzintervalls bei vorgegebenem Konfidenzniveau (Sicherheit) verringern kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Maßnahme:\nDurch eine Erhöhung der Anzahl der kontrollierten Schokoladeneier auf mehr als 500 kann eine Verringerung der Breite des Konfidenzintervalls erreicht werden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Angabe der entsprechenden Änderung. Andere angeführte korrekte Maßnahmen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Maßnahme:\nDurch eine Erhöhung der Anzahl der kontrollierten Schokoladeneier auf mehr als 500 kann eine Verringerung der Breite des Konfidenzintervalls erreicht werden."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Angabe der entsprechenden Änderung. Andere angeführte korrekte Maßnahmen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "id": "2016-nt2-t2-05-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Hersteller überlegt, die gelbe Kapsel in Zukunft nur in Form eines Drehzylinders ohne aufgesetzte Halbkugeln zu produzieren. Das Volumen "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": " der Kapsel soll dabei unverändert bleiben, ebenso wie die Form des Schokoladeneies. Die Oberfläche "
+        },
+        {
+          "t": "math",
+          "v": "O(r)"
+        },
+        {
+          "t": "text",
+          "v": " des angedachten Drehzylinders kann in Abhängigkeit vom Radius "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "O"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "O(r)=2r^2\\pi+2\\cdot V\\cdot r^{-1}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden. Der Radius "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " darf dabei nur Werte im Bereich (0 cm; 1,9 cm] annehmen, damit der Zylinder in das Schokoladenei passt.\n\nBerechnen Sie die minimal mögliche Oberfläche der geplanten zylindrischen Kapsel!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "O'(r)=4r\\pi-72\\cdot r^{-2}=4r\\pi-\\frac{72}{r^2}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "4r\\pi-\\frac{72}{r^2}=0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "r^3=\\frac{18}{\\pi}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "r=\\sqrt[3]{\\frac{18}{\\pi}}\\Rightarrow r\\approx1{,}79\\,\\mathrm{cm}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "O(1{,}79)\\approx60{,}4\\,\\mathrm{cm}^2"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Berechnung der minimalen Oberfläche, wobei die Einheit „cm²“ nicht angeführt sein muss. Toleranzintervall: [60 cm²; 61 cm²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "O(1{,}79)\\approx60{,}4\\,\\mathrm{cm}^2"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung der minimalen Oberfläche, wobei die Einheit „cm²“ nicht angeführt sein muss. Toleranzintervall: [60 cm²; 61 cm²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "O'(r)=4r\\pi-72\\cdot r^{-2}=4r\\pi-\\frac{72}{r^2}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "4r\\pi-\\frac{72}{r^2}=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "r^3=\\frac{18}{\\pi}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "r=\\sqrt[3]{\\frac{18}{\\pi}}\\Rightarrow r\\approx1{,}79\\,\\mathrm{cm}"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt2-t2-05-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Hersteller überlegt, die gelbe Kapsel in Zukunft nur in Form eines Drehzylinders ohne aufgesetzte Halbkugeln zu produzieren. Das Volumen "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": " der Kapsel soll dabei unverändert bleiben, ebenso wie die Form des Schokoladeneies. Die Oberfläche "
+        },
+        {
+          "t": "math",
+          "v": "O(r)"
+        },
+        {
+          "t": "text",
+          "v": " des angedachten Drehzylinders kann in Abhängigkeit vom Radius "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "O"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "O(r)=2r^2\\pi+2\\cdot V\\cdot r^{-1}"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden. Der Radius "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " darf dabei nur Werte im Bereich (0 cm; 1,9 cm] annehmen, damit der Zylinder in das Schokoladenei passt.\n\nBerechnen Sie die minimal mögliche Oberfläche der geplanten zylindrischen Kapsel!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Weisen Sie durch Differenzialrechnung nach, dass an der berechneten Stelle tatsächlich ein Minimum vorliegt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "O''(r)=4\\pi+144\\cdot r^{-3}=4\\pi+\\frac{144}{r^3}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "O''(1{,}79)\\approx37{,}7>0"
+          },
+          {
+            "t": "text",
+            "v": ", daher liegt ein lokales Minimum vor."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Nachweis. Andere angeführte korrekte Nachweise sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "O''(r)=4\\pi+144\\cdot r^{-3}=4\\pi+\\frac{144}{r^3}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "O''(1{,}79)\\approx37{,}7>0"
+            },
+            {
+              "t": "text",
+              "v": ", daher liegt ein lokales Minimum vor."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Nachweis. Andere angeführte korrekte Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "id": "2016-nt2-t2-05-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein italienischer Süßwarenhersteller erzeugt das Produkt Kinder Überraschung (auch als „Überraschungsei“ bekannt). Das Ei soll aus 20 g Schokolade bestehen. Im Inneren des Eies befindet sich in einer gelben Kapsel ein Spielzeug. Diese Kapsel hat näherungsweise die Form eines Drehzylinders, auf dessen Grund- und Deckfläche Halbkugeln aufgesetzt werden. Das Volumen der Kapsel beträgt ungefähr 36 cm³ und deren Oberfläche 55 cm²."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-05-surprise-egg.png",
+      "alt": "Originalfoto des Überraschungseis mit Schokolade,gelberKapselundSpielzeug"
+    },
+    {
+      "t": "text",
+      "v": "\nBildquelle: https://de.wikipedia.org/wiki/Datei:Überraschungsei.jpg [01.06.2015] (Urheber: A. Kniesel, Lizenz: CC BY-SA 3.0)"
+    }
+  ]
 }

@@ -14,7 +14,7 @@
   "title": "Fitnessuhren",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-2.pdf",
@@ -61,14 +61,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 39.5,
-            "tol": 0.6,
-            "unit": "%"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sqrt{3100^2-1140^2}=2882{,}7\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "a=\\dfrac{1140}{2882{,}7\\ldots}=0{,}395\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=39{,}5\\ldots\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln von a."
           }
         ]
       },
@@ -343,7 +365,7 @@
     {
       "id": "2023-ht-t2-02-c2",
       "label": "c2",
-      "format": "Konstruktionsformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 1.3",
@@ -363,6 +385,19 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Fitnessuhren zeigen unter anderem den Kalorienverbrauch bei einer sportlichen Aktivität an.\n\nIm Rahmen einer Studie wird bei 60 Personen die prozentuelle Abweichung des tatsächlichen Kalorienverbrauchs bei einer sportlichen Aktivität vom jeweiligen Messergebnis ihrer Fitnessuhren untersucht.\n\nDiese Abweichungen mit den jeweils zugehörigen absoluten Häufigkeiten sind in der nachstehenden Tabelle nach Klassen zusammengefasst."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-02-c-tab.png",
+          "alt": "Tabelle: Abweichung in % | absolute Häufigkeit — [0;20):24, [20;30):30, [30;50]:6"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Begründen Sie, warum der Median der Datenliste (die der obigen Tabelle zugrunde liegt) im Intervall [20; 30) liegen muss."

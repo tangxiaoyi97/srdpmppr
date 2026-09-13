@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_864a",
+          "id": "1_864",
           "baseId": "1_864",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/673/Medikament.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,20 +69,35 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "t",
-            "label": "t",
-            "value": 23.3,
-            "tol": 0.1,
-            "unit": "h"
+            "t": "math",
+            "v": "100=700\\cdot 0{,}92^{t}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t=23{,}3\\ldots\\ \\text{h}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln der Anzahl an Stunden."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Ermitteln der Anzahl an Stunden.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -22,14 +22,964 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt2-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2018-nt2-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "LEI=\\frac{81{,}1-20}{85-20}=0{,}94"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "EI\\approx\\frac{\\ln(45\\,400)-\\ln(100)}{\\ln(75\\,000)-\\ln(100)}\\approx0{,}924"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "HDI_{2013}=\\sqrt[3]{0{,}94\\cdot0{,}819\\cdot0{,}924}\\approx0{,}893"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.\nToleranzintervall: [0,88; 0,91]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für Österreich wurde im Human Development Report für das Jahr 2013 die Lebenserwartung mit "
+        },
+        {
+          "t": "math",
+          "v": "LE=81{,}1"
+        },
+        {
+          "t": "text",
+          "v": " Jahren und der Bildungsindex mit "
+        },
+        {
+          "t": "math",
+          "v": "BI=0{,}819"
+        },
+        {
+          "t": "text",
+          "v": " angegeben.\n\nDie nachstehende Abbildung zeigt für die Jahre 2000 bis 2013 (jeweils zu Jahresbeginn) das Bruttonationaleinkommen Österreichs pro Kopf in US-Dollar."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-03-a1-q.png",
+          "alt": "Bruttonationaleinkommen Österreichs pro Kopf in US-Dollar, 2000 bis 2013."
+        },
+        {
+          "t": "text",
+          "v": "\nDatenquelle: http://www.factfish.com/de/statistik/bruttonationaleinkommen [08.06.2017].\n\nErmitteln Sie für das Jahr 2013 den "
+        },
+        {
+          "t": "math",
+          "v": "HDI"
+        },
+        {
+          "t": "text",
+          "v": " von Österreich ("
+        },
+        {
+          "t": "math",
+          "v": "=HDI_{2013}"
+        },
+        {
+          "t": "text",
+          "v": ")!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "LEI=\\frac{81{,}1-20}{85-20}=0{,}94"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "EI\\approx\\frac{\\ln(45\\,400)-\\ln(100)}{\\ln(75\\,000)-\\ln(100)}\\approx0{,}924"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "HDI_{2013}=\\sqrt[3]{0{,}94\\cdot0{,}819\\cdot0{,}924}\\approx0{,}893"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung.\nToleranzintervall: [0,88; 0,91]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "HDI_{2013}=HDI_{2008}\\cdot1{,}025"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "HDI_{2008}\\approx0{,}871"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung und die richtige Lösung. Äquivalente Gleichungen sind als richtig zu werten.\nToleranzintervall: [0,85; 0,89]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für Österreich wurde im Human Development Report für das Jahr 2013 die Lebenserwartung mit "
+        },
+        {
+          "t": "math",
+          "v": "LE=81{,}1"
+        },
+        {
+          "t": "text",
+          "v": " Jahren und der Bildungsindex mit "
+        },
+        {
+          "t": "math",
+          "v": "BI=0{,}819"
+        },
+        {
+          "t": "text",
+          "v": " angegeben.\n\nDie nachstehende Abbildung zeigt für die Jahre 2000 bis 2013 (jeweils zu Jahresbeginn) das Bruttonationaleinkommen Österreichs pro Kopf in US-Dollar."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-03-a1-q.png",
+          "alt": "Bruttonationaleinkommen Österreichs pro Kopf in US-Dollar, 2000 bis 2013."
+        },
+        {
+          "t": "text",
+          "v": "\nDatenquelle: http://www.factfish.com/de/statistik/bruttonationaleinkommen [08.06.2017]."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Der "
+        },
+        {
+          "t": "math",
+          "v": "HDI"
+        },
+        {
+          "t": "text",
+          "v": " von Österreich für das Jahr 2013 ("
+        },
+        {
+          "t": "math",
+          "v": "HDI_{2013}"
+        },
+        {
+          "t": "text",
+          "v": ") war um ca. 2,5 % größer als der "
+        },
+        {
+          "t": "math",
+          "v": "HDI"
+        },
+        {
+          "t": "text",
+          "v": " von Österreich für das Jahr 2008 ("
+        },
+        {
+          "t": "math",
+          "v": "HDI_{2008}"
+        },
+        {
+          "t": "text",
+          "v": "). Geben Sie eine Gleichung an, die diesen Zusammenhang beschreibt, und berechnen Sie den "
+        },
+        {
+          "t": "math",
+          "v": "HDI_{2008}"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "HDI_{2013}=HDI_{2008}\\cdot1{,}025"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "HDI_{2008}\\approx0{,}871"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Gleichung und die richtige Lösung. Äquivalente Gleichungen sind als richtig zu werten.\nToleranzintervall: [0,85; 0,89]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k=\\frac{0{,}64-0{,}44}{30}=0{,}006\\dot6"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "d=0{,}44"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden korrekten Werte.\nToleranzintervall für k: [0,005; 0,01]\nToleranzintervall für d: [0,43; 0,45]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die jährliche Entwicklung des "
+        },
+        {
+          "t": "math",
+          "v": "HDI"
+        },
+        {
+          "t": "text",
+          "v": " der Region „arabische Staaten“ kann im Zeitraum von 1980 bis 2010 näherungsweise durch eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "H"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "H(t)=k\\cdot t+d"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "k,d\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Jahren beschrieben werden, wobei "
+        },
+        {
+          "t": "math",
+          "v": "H(0)"
+        },
+        {
+          "t": "text",
+          "v": " dem Wert des Jahres 1980 entspricht.\n\nBestimmen Sie die Werte der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "k=\\frac{0{,}64-0{,}44}{30}=0{,}006\\dot6"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "d=0{,}44"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der beiden korrekten Werte.\nToleranzintervall für k: [0,005; 0,01]\nToleranzintervall für d: [0,43; 0,45]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "In der Region „Südasien“ entsprach die mittlere jährliche Zunahme des "
+            },
+            {
+              "t": "math",
+              "v": "HDI"
+            },
+            {
+              "t": "text",
+              "v": " im Zeitraum 1980 bis 2010 am ehesten jener der Region „arabische Staaten“."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der Region „Südasien“ und für eine (sinngemäß) korrekte Begründung.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nDie Sekanten durch die Punkte "
+            },
+            {
+              "t": "math",
+              "v": "(1980\\mid0{,}44)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "(2010\\mid0{,}64)"
+            },
+            {
+              "t": "text",
+              "v": " sowie "
+            },
+            {
+              "t": "math",
+              "v": "(1980\\mid0{,}36)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "(2010\\mid0{,}54)"
+            },
+            {
+              "t": "text",
+              "v": " verlaufen annähernd parallel zueinander."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie anhand der entsprechenden Abbildung, in welcher Region / in welchen Regionen die mittlere jährliche Zunahme des "
+        },
+        {
+          "t": "math",
+          "v": "HDI"
+        },
+        {
+          "t": "text",
+          "v": " im Zeitraum von 1980 bis 2010 am ehesten jener der Region „arabische Staaten“ entsprach!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\nDie Sekanten durch die Punkte "
+          },
+          {
+            "t": "math",
+            "v": "(1980\\mid0{,}44)"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "(2010\\mid0{,}64)"
+          },
+          {
+            "t": "text",
+            "v": " sowie "
+          },
+          {
+            "t": "math",
+            "v": "(1980\\mid0{,}36)"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "(2010\\mid0{,}54)"
+          },
+          {
+            "t": "text",
+            "v": " verlaufen annähernd parallel zueinander."
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "In der Region „Südasien“ entsprach die mittlere jährliche Zunahme des "
+          },
+          {
+            "t": "math",
+            "v": "HDI"
+          },
+          {
+            "t": "text",
+            "v": " im Zeitraum 1980 bis 2010 am ehesten jener der Region „arabische Staaten“."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der Region „Südasien“ und für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-03-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ab dem Jahr 2004 weist die Region „Lateinamerika und Karibik“ die Entwicklungskategorie "
+            },
+            {
+              "t": "math",
+              "v": "E_2"
+            },
+            {
+              "t": "text",
+              "v": " auf."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung.\nToleranzintervall: [2003; 2005]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Ermitteln Sie aus der entsprechenden Abbildung diejenige Jahreszahl, ab der die Region „Lateinamerika und Karibik“ die Entwicklungskategorie "
+        },
+        {
+          "t": "math",
+          "v": "E_2"
+        },
+        {
+          "t": "text",
+          "v": " aufweist!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "value": 2004,
+            "tol": 1
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Nein, es gilt nicht als sicher, dass ab diesem Zeitpunkt ungefähr die Hälfte der zu dieser Region zählenden Länder die Entwicklungskategorie "
+            },
+            {
+              "t": "math",
+              "v": "E_2"
+            },
+            {
+              "t": "text",
+              "v": " aufweist."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Antwort und eine korrekte Begründung. Andere korrekte Begründungen (z. B. anhand sinnvoller Zahlenbeispiele oder mit der Feststellung, dass das arithmetische Mittel nicht notwendigerweise der Median sein muss) sind ebenfalls als richtig zu werten.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nWenn eine sehr kleine Anzahl an Ländern mit sehr hohen "
+            },
+            {
+              "t": "math",
+              "v": "HDI"
+            },
+            {
+              "t": "text",
+              "v": "-Werten einer großen Anzahl an Ländern mit niedrigen "
+            },
+            {
+              "t": "math",
+              "v": "HDI"
+            },
+            {
+              "t": "text",
+              "v": "-Werten ("
+            },
+            {
+              "t": "math",
+              "v": "<0{,}7"
+            },
+            {
+              "t": "text",
+              "v": ") gegenübersteht, kann dennoch das arithmetische Mittel der "
+            },
+            {
+              "t": "math",
+              "v": "HDI"
+            },
+            {
+              "t": "text",
+              "v": "s größer als 0,7 sein, ohne dass ungefähr die Hälfte der zu dieser Region zählenden Länder die Entwicklungskategorie "
+            },
+            {
+              "t": "math",
+              "v": "E_2"
+            },
+            {
+              "t": "text",
+              "v": " aufweist."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Ermitteln Sie aus der entsprechenden Abbildung diejenige Jahreszahl, ab der die Region „Lateinamerika und Karibik“ die Entwicklungskategorie "
+        },
+        {
+          "t": "math",
+          "v": "E_2"
+        },
+        {
+          "t": "text",
+          "v": " aufweist!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Gilt ab diesem Zeitpunkt sicher, dass ungefähr die Hälfte der zu dieser Region zählenden Länder eine Entwicklungskategorie "
+        },
+        {
+          "t": "math",
+          "v": "E_2"
+        },
+        {
+          "t": "text",
+          "v": " aufweist? Begründen Sie Ihre Antwort!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\nWenn eine sehr kleine Anzahl an Ländern mit sehr hohen "
+          },
+          {
+            "t": "math",
+            "v": "HDI"
+          },
+          {
+            "t": "text",
+            "v": "-Werten einer großen Anzahl an Ländern mit niedrigen "
+          },
+          {
+            "t": "math",
+            "v": "HDI"
+          },
+          {
+            "t": "text",
+            "v": "-Werten ("
+          },
+          {
+            "t": "math",
+            "v": "<0{,}7"
+          },
+          {
+            "t": "text",
+            "v": ") gegenübersteht, kann dennoch das arithmetische Mittel der "
+          },
+          {
+            "t": "math",
+            "v": "HDI"
+          },
+          {
+            "t": "text",
+            "v": "s größer als 0,7 sein, ohne dass ungefähr die Hälfte der zu dieser Region zählenden Länder die Entwicklungskategorie "
+          },
+          {
+            "t": "math",
+            "v": "E_2"
+          },
+          {
+            "t": "text",
+            "v": " aufweist."
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Nein, es gilt nicht als sicher, dass ab diesem Zeitpunkt ungefähr die Hälfte der zu dieser Region zählenden Länder die Entwicklungskategorie "
+          },
+          {
+            "t": "math",
+            "v": "E_2"
+          },
+          {
+            "t": "text",
+            "v": " aufweist."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine richtige Antwort und eine korrekte Begründung. Andere korrekte Begründungen (z. B. anhand sinnvoller Zahlenbeispiele oder mit der Feststellung, dass das arithmetische Mittel nicht notwendigerweise der Median sein muss) sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Human Development Index ("
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": ") der Vereinten Nationen ist ein Wohlstandsindikator für Länder, der eine Messung des Entwicklungsstandes des jeweiligen Landes ermöglichen sollte.\nDer "
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": " beinhaltet drei dimensionslose Größen (Lebenserwartungsindex ("
+    },
+    {
+      "t": "math",
+      "v": "LEI"
+    },
+    {
+      "t": "text",
+      "v": "), Bildungsindex ("
+    },
+    {
+      "t": "math",
+      "v": "BI"
+    },
+    {
+      "t": "text",
+      "v": ") und Einkommensindex ("
+    },
+    {
+      "t": "math",
+      "v": "EI"
+    },
+    {
+      "t": "text",
+      "v": ")) und wird mit der Formel "
+    },
+    {
+      "t": "math",
+      "v": "HDI=\\sqrt[3]{LEI\\cdot BI\\cdot EI}"
+    },
+    {
+      "t": "text",
+      "v": " berechnet.\nDimensionslos bedeutet, dass diese Größen keine Einheiten haben.\n\nFür die Berechnung der Indizes "
+    },
+    {
+      "t": "math",
+      "v": "LEI"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "EI"
+    },
+    {
+      "t": "text",
+      "v": " gilt seit 2010:\n"
+    },
+    {
+      "t": "math",
+      "v": "LEI=\\frac{LE-20}{85-20}"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "LE"
+    },
+    {
+      "t": "text",
+      "v": " die Lebenserwartung zum Zeitpunkt der Geburt in Jahren beschreibt\n"
+    },
+    {
+      "t": "math",
+      "v": "EI=\\frac{\\ln(B)-\\ln(100)}{\\ln(75\\,000)-\\ln(100)}"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " das Bruttonationaleinkommen pro Kopf in US-Dollar (immer zu Jahresbeginn) beschreibt\n\nDas Entwicklungsprogramm der Vereinten Nationen unterteilt die Länder nach dem Wert des "
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": " seit 2009 in vier Entwicklungskategorien:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-03-table.png",
+      "alt": "Entwicklungskategorien E1 bis E4 und ihre HDI-Grenzen."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: Deutsche Gesellschaft für die Vereinten Nationen (Hrsg.): Bericht über die menschliche Entwicklung 2015. Arbeit und menschliche Entwicklung. Berlin: Berliner Wissenschafts-Verlag 2015, S. 240.\n\nDer "
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": " einer Region in einem bestimmten Jahr ergibt sich aus dem arithmetischen Mittel der "
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": "s der zu dieser Region zählenden Länder.\n\nDie Entwicklung des "
+    },
+    {
+      "t": "math",
+      "v": "HDI"
+    },
+    {
+      "t": "text",
+      "v": " verschiedener Regionen zwischen 1980 und 2011 ist nachstehend abgebildet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-03-q.png",
+      "alt": "HDI-Zeitreihen verschiedener Regionen zwischen 1980 und 2011."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: https://de.wikipedia.org/wiki/Index_der_menschlichen_Entwicklung#/media/File:Human-Development-Index-Trends-2011.svg [08.06.2017]."
+    }
+  ]
 }

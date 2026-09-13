@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,268 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_389a",
+          "id": "1_389",
           "baseId": "1_389",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/97/Parabeln%20zuordnen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "D; B; E; C"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Aussagen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den folgenden Eigenschaften jeweils den entsprechenden Graphen der dargestellten Funktionen zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a<0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "a>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "b>0"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-1.png",
+              "alt": "Originalgraph A der Parabelzuordnung."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-2.png",
+              "alt": "Originalgraph B der Parabelzuordnung."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-3.png",
+              "alt": "Originalgraph C der Parabelzuordnung."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-4.png",
+              "alt": "Originalgraph D der Parabelzuordnung."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-5.png",
+              "alt": "Originalgraph E der Parabelzuordnung."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-09-graph-6.png",
+              "alt": "Originalgraph F der Parabelzuordnung."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_389",
       "baseId": "1_389",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/97/Parabeln%20zuordnen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Graphen von sechs Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f_1"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f_2"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f_3"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f_4"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f_5"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f_6"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f_i(x)=ax^2+b"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "i"
+    },
+    {
+      "t": "text",
+      "v": " von 1 bis 6)."
     }
   ]
 }

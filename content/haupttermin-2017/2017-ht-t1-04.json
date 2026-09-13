@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,144 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_562a",
+          "id": "1_562",
           "baseId": "1_562",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/271/Quader%20mit%20quadratischer%20Grundfl%C3%A4che.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\overrightarrow{HB}=\\begin{pmatrix}5\\\\5\\\\-10\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Vektors sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Koordinaten (Komponenten) des Vektors "
+        },
+        {
+          "t": "math",
+          "v": "\\overrightarrow{HB}"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\overrightarrow{HB}=\\begin{pmatrix}5\\\\5\\\\-10\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Vektors sind ebenfalls als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_562",
       "baseId": "1_562",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/271/Quader%20mit%20quadratischer%20Grundfl%C3%A4che.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt einen Quader, dessen quadratische Grundfläche in der "
+    },
+    {
+      "t": "math",
+      "v": "xy"
+    },
+    {
+      "t": "text",
+      "v": "-Ebene liegt. Die Länge einer Grundkante beträgt 5 Längeneinheiten, die Körperhöhe beträgt 10 Längeneinheiten. Der Eckpunkt "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": " liegt im Koordinatenursprung, der Eckpunkt "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " liegt auf der positiven "
+    },
+    {
+      "t": "math",
+      "v": "y"
+    },
+    {
+      "t": "text",
+      "v": "-Achse.\n\nDer Eckpunkt "
+    },
+    {
+      "t": "math",
+      "v": "E"
+    },
+    {
+      "t": "text",
+      "v": " hat somit die Koordinaten "
+    },
+    {
+      "t": "math",
+      "v": "E=(5|0|10)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-04-q.png",
+      "alt": "Quader ABCDEFGH mit quadratischer Grundfläche in der xy-Ebene, D im Ursprung, Kantenlängen 5, 5 und 10."
     }
   ]
 }

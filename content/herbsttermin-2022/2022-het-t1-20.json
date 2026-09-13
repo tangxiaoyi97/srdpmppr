@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t1-20",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1239a",
+          "id": "1_1239",
           "baseId": "1_1239",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/769/Schularbeitspunkte.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -77,12 +77,28 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "mittel",
-            "value": 39.11,
-            "tol": 0.01
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x}=\\dfrac{38{,}5\\cdot 16+41+47}{18}=39{,}11\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\bar{x}=39{,}11\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des arithmetischen Mittels x̄.\nGrundkompetenz: WS 1.3"
           }
         ]
       },

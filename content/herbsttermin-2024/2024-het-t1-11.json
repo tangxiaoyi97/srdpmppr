@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1374a",
+          "id": "1_1374",
           "baseId": "1_1374",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/930/1_1374_srdp_ma_Gammastrahlung_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -129,7 +129,15 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Bei einem Experiment mit einem radioaktiven Präparat wurde die Intensität der Gammastrahlung nach der Durchdringung durch drei Bleiplatten unterschiedlicher Dicke (2 cm, 5 cm bzw. 7 cm) gemessen. Die Ergebnisse sind in der nachstehenden Tabelle ersichtlich.\n\nPlattendicke (in cm) | 2 | 5 | 7\nIntensität (in %) | 38,94 | 9,46 | 3,69\n\nJulian behauptet: „Die Daten lassen darauf schließen, dass die Intensität in Abhängigkeit von der Plattendicke annähernd exponentiell abnimmt.“"
+      "v": "Bei einem Experiment mit einem radioaktiven Präparat wurde die Intensität der Gammastrahlung nach der Durchdringung durch drei Bleiplatten unterschiedlicher Dicke (2 cm, 5 cm bzw. 7 cm) gemessen. Die Ergebnisse sind in der nachstehenden Tabelle ersichtlich.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{c|ccc}\\text{Plattendicke (in cm)}&2&5&7\\\\\\hline\\text{Intensität (in \\%)}&38{,}94&9{,}46&3{,}69\\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nJulian behauptet: „Die Daten lassen darauf schließen, dass die Intensität in Abhängigkeit von der Plattendicke annähernd exponentiell abnimmt.“"
     }
   ]
 }

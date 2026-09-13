@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -22,14 +22,463 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-nt1-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-nt1-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie den durchschnittlichen Kostenanstieg pro zusätzlich produzierter Mengeneinheit im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[10;14]"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "K(10)=400"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "K(14)=800"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{K(14)-K(10)}{14-10}=100"
+          },
+          {
+            "t": "text",
+            "v": ". Der durchschnittliche Kostenanstieg beträgt im Intervall [10 ME; 14 ME] 100 GE/ME."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für eine korrekte Berechnung des Differenzenquotienten."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(10)=400"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "K(14)=800"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{K(14)-K(10)}{14-10}=100"
+            },
+            {
+              "t": "text",
+              "v": ". Der durchschnittliche Kostenanstieg beträgt im Intervall [10 ME; 14 ME] 100 GE/ME."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Berechnung des Differenzenquotienten."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie dasjenige Intervall an, in dem ein degressiver Kostenverlauf vorliegt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "[0;4)"
+          },
+          {
+            "t": "text",
+            "v": "; offene, geschlossene und halboffene Intervalle sind zulässig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Kostendegression im Intervall: "
+            },
+            {
+              "t": "math",
+              "v": "[0;4)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe des korrekten Intervalls (es sind sowohl offene, geschlossene als auch halboffene Intervalle zulässig)."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Verkaufspreis pro Mengeneinheit an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Verkaufspreis",
+            "label": "Verkaufspreis",
+            "value": 80,
+            "tol": 1e-09,
+            "unit": "GE/ME"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Verkaufspreis beträgt 80 GE pro ME."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe des Verkaufspreises."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Gleichung der Erlösfunktion "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " auf!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "80x",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(x)=80\\cdot x"
+            }
+          ],
+          "note": "Ein Punkt, wenn E(x) richtig angegeben ist."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die x-Koordinaten der Schnittpunkte des Graphen der Kostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " mit dem Graphen der Erlösfunktion "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " und geben Sie die Bedeutung des Bereichs zwischen den beiden Schnittpunkten für das Unternehmen an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Kosten und der Erlös sind gleich hoch, daher wird kein Gewinn erzielt. Die x-Koordinaten der Schnittpunkte geben die Gewinnschwellen an. Bei einer Menge x, die sich zwischen den beiden Gewinnschwellen befindet, macht das Unternehmen Gewinn."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Kosten und der Erlös sind gleich hoch, daher wird kein Gewinn erzielt. Die x-Koordinaten der Schnittpunkte geben die Gewinnschwellen an. Bei einer Menge x, die sich zwischen den beiden Gewinnschwellen befindet, macht das Unternehmen Gewinn."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Interpretation der Schnittpunkte und des Bereiches zwischen den Stellen der Schnittpunkte. Sinngemäß gleichwertige Aussagen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-02-c2",
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Gewinn an, wenn 10 Mengeneinheiten produziert und verkauft werden!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "Gewinn",
+            "label": "Gewinn",
+            "value": 400,
+            "tol": 1e-09,
+            "unit": "GE"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(10)=400"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "E(10)=800"
+            },
+            {
+              "t": "text",
+              "v": "; das Unternehmen macht einen Gewinn von 400 GE."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Berechnung des Gewinns."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=7",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die für einen Betrieb anfallenden Gesamtkosten bei der Produktion einer Ware können annähernd durch eine Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "K"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Die lineare Funktion "
+    },
+    {
+      "t": "math",
+      "v": "E"
+    },
+    {
+      "t": "text",
+      "v": " gibt den Erlös (Umsatz) in Abhängigkeit von der Stückzahl "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " an.\nDie Stückzahl "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " wird in Mengeneinheiten [ME] angegeben, die Produktionskosten "
+    },
+    {
+      "t": "math",
+      "v": "K(x)"
+    },
+    {
+      "t": "text",
+      "v": " und der Erlös "
+    },
+    {
+      "t": "math",
+      "v": "E(x)"
+    },
+    {
+      "t": "text",
+      "v": " werden in Geldeinheiten [GE] angegeben."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-02-cost-revenue.png",
+      "alt": "Originalgraphen von E und K mit markierter Kostenkehre."
+    },
+    {
+      "t": "text",
+      "v": "Man spricht von einer Kostendegression, wenn der Produktionskostenzuwachs bei einer Erhöhung der Anzahl der erzeugten Mengeneinheiten immer kleiner wird.\nMan spricht von einer Kostenprogression, wenn der Produktionskostenzuwachs bei einer Erhöhung der Anzahl der erzeugten Mengeneinheiten immer größer wird."
+    }
+  ]
 }

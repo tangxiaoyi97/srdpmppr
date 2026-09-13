@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -23,8 +23,8 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-ht-t2-02-a",
-      "label": "a",
+      "id": "2018-ht-t2-02-a1",
+      "label": "a1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -42,20 +42,205 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_034a",
           "baseId": "2_034",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "möglicher Ausdruck: "
+            },
+            {
+              "t": "math",
+              "v": "h(t_1)-h(0)"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für einen korrekten Ausdruck. Andere korrekte Ausdrücke sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie unter Verwendung der Modellfunktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " einen Ausdruck an, mit dem berechnet werden kann, um wie viele Meter die Hopfenpflanze im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;t_1]"
+        },
+        {
+          "t": "text",
+          "v": " gewachsen ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "möglicher Ausdruck: "
+          },
+          {
+            "t": "math",
+            "v": "h(t_1)-h(0)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für einen korrekten Ausdruck. Andere korrekte Ausdrücke sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     },
     {
-      "id": "2018-ht-t2-02-b",
-      "label": "b",
+      "id": "2018-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 1.1",
+          "description": "absolute und relative (prozentuelle) Änderungsmaße unterscheiden und angemessen verwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_034a",
+          "baseId": "2_034",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h(10)-h(0)\\approx6{,}45"
+            },
+            {
+              "t": "text",
+              "v": "\nDie Pflanze ist in den ersten 10 Wochen um ca. 6,45 m gewachsen.\nDie mit der Modellfunktion "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " berechnete Zunahme der Höhe der Pflanze im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "[0;10]"
+            },
+            {
+              "t": "text",
+              "v": " ist um ca. 0,8 % größer als die in diesem Zeitintervall tatsächlich beobachtete Zunahme (6,4 m)."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe des richtigen Wertes und der richtigen prozentuellen Abweichung.\nToleranzintervall für den Wert: [6,4 m; 6,5 m]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie unter Verwendung der Modellfunktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe Ihres Ausdrucks, wie viele Meter die Pflanze in den ersten 10 Wochen gewachsen ist, und geben Sie die prozentuelle Abweichung vom tatsächlich gemessenen Wert an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "h(10)-h(0)\\approx6{,}45"
+          },
+          {
+            "t": "text",
+            "v": "\nDie Pflanze ist in den ersten 10 Wochen um ca. 6,45 m gewachsen.\nDie mit der Modellfunktion "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " berechnete Zunahme der Höhe der Pflanze im Zeitintervall "
+          },
+          {
+            "t": "math",
+            "v": "[0;10]"
+          },
+          {
+            "t": "text",
+            "v": " ist um ca. 0,8 % größer als die in diesem Zeitintervall tatsächlich beobachtete Zunahme (6,4 m)."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe des richtigen Wertes und der richtigen prozentuellen Abweichung.\nToleranzintervall für den Wert: [6,4 m; 6,5 m]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-02-b1",
+      "label": "b1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -73,21 +258,244 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_034b",
           "baseId": "2_034",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Gleichung:\n"
+            },
+            {
+              "t": "math",
+              "v": "h''(t)=0\\Rightarrow t_2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "t_2\\approx5{,}9"
+            },
+            {
+              "t": "text",
+              "v": " Wochen"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung und die Angabe des richtigen Zeitpunkts, wobei die Einheit „Wochen“ nicht angeführt sein muss.\nToleranzintervall: [5,4 Wochen; 6,3 Wochen]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wird das Wachstum der Pflanze mithilfe der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " modelliert, gibt es einen Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": ", zu dem sie am schnellsten wächst. Geben Sie eine Gleichung an, mit der dieser Zeitpunkt berechnet werden kann, und ermitteln Sie diesen Zeitpunkt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Gleichung:\n"
+          },
+          {
+            "t": "math",
+            "v": "h''(t)=0\\Rightarrow t_2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_2\\approx5{,}9"
+          },
+          {
+            "t": "text",
+            "v": " Wochen"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Gleichung und die Angabe des richtigen Zeitpunkts, wobei die Einheit „Wochen“ nicht angeführt sein muss.\nToleranzintervall: [5,4 Wochen; 6,3 Wochen]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     },
     {
-      "id": "2018-ht-t2-02-c",
-      "label": "c",
-      "format": "Halboffenes Antwortformat",
+      "id": "2018-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_034b",
+          "baseId": "2_034",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h'(t_2)\\approx0{,}92"
+            },
+            {
+              "t": "text",
+              "v": "\nDie maximale Wachstumsgeschwindigkeit beträgt ca. 0,92 Meter pro Woche."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-02-b2-sol.png",
+              "alt": "Wachstumsgeschwindigkeit g mit einem Maximum bei etwa 5,9 Wochen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Meter pro Woche“ nicht angeführt sein muss, und eine korrekte Skizze des Graphen von g.\nToleranzintervall: [0,90 Meter pro Woche; 1 Meter pro Woche]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wird das Wachstum der Pflanze mithilfe der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " modelliert, gibt es einen Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": ", zu dem sie am schnellsten wächst."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die zugehörige maximale Wachstumsgeschwindigkeit und skizzieren Sie im nachstehenden Koordinatensystem unter Berücksichtigung des von Ihnen ermittelten Maximums den Verlauf des Graphen derjenigen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": ", die basierend auf der Modellfunktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " die Wachstumsgeschwindigkeit der Hopfenpflanze in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-02-b2-q.png",
+          "alt": "Leeres Koordinatensystem für die Wachstumsgeschwindigkeit."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "h'(t_2)\\approx0{,}92"
+          },
+          {
+            "t": "text",
+            "v": "\nDie maximale Wachstumsgeschwindigkeit beträgt ca. 0,92 Meter pro Woche.\nEin Punkt für die richtige Lösung, wobei die Einheit „Meter pro Woche“ nicht angeführt sein muss, und eine korrekte Skizze des Graphen von g.\nToleranzintervall: [0,90 Meter pro Woche; 1 Meter pro Woche]"
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 2.2",
@@ -104,20 +512,281 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_034c",
           "baseId": "2_034",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Funktionsgleichung von "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": ":\n"
+            },
+            {
+              "t": "math",
+              "v": "h_1(t)=0{,}58\\dot3\\cdot t+0{,}6"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Interpretation:\nDie Pflanze wächst in den ersten 12 Wochen durchschnittlich um ca. 58 cm pro Woche."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Funktionsgleichung und eine korrekte Interpretation unter Verwendung korrekter Einheiten. Äquivalente Funktionsgleichungen sind als richtig zu werten.\nToleranzintervall für die Steigung: [0,58; 0,59]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": ", deren Werte bei "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t=12"
+        },
+        {
+          "t": "text",
+          "v": " mit den gemessenen Höhen aus der angegebenen Tabelle übereinstimmen, und interpretieren Sie die Steigung dieser linearen Funktion im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Funktionsgleichung von "
+          },
+          {
+            "t": "math",
+            "v": "h_1"
+          },
+          {
+            "t": "text",
+            "v": ":\n"
+          },
+          {
+            "t": "math",
+            "v": "h_1(t)=0{,}58\\dot3\\cdot t+0{,}6"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Interpretation:\nDie Pflanze wächst in den ersten 12 Wochen durchschnittlich um ca. 58 cm pro Woche."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Funktionsgleichung und eine korrekte Interpretation unter Verwendung korrekter Einheiten. Äquivalente Funktionsgleichungen sind als richtig zu werten.\nToleranzintervall für die Steigung: [0,58; 0,59]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     },
     {
-      "id": "2018-ht-t2-02-d",
-      "label": "d",
+      "id": "2018-ht-t2-02-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "FA 2.2",
+          "description": "aus Tabellen, Graphen und Gleichungen linearer Funktionen Werte(paare) sowie die Parameter k und d ermitteln und im Kontext deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 1.2",
+          "description": "den Zusammenhang Differenzenquotient (mittlere Änderungsrate) – Differenzialquotient („momentane“ Änderungsrate) auf der Grundlage eines intuitiven Grenzwertbegriffes kennen und damit (verbal sowie in formaler Schreibweise) auch kontextbezogen anwenden können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_034c",
+          "baseId": "2_034",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\nDie Steigung von "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " ist anfangs kleiner als jene von "
+            },
+            {
+              "t": "math",
+              "v": "h_1"
+            },
+            {
+              "t": "text",
+              "v": ", dann größer und dann wieder kleiner. Es gibt daher mindestens zwei Zeitpunkte, in denen sie gleich ist."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": ", deren Werte bei "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t=12"
+        },
+        {
+          "t": "text",
+          "v": " mit den gemessenen Höhen aus der angegebenen Tabelle übereinstimmen, und interpretieren Sie die Steigung dieser linearen Funktion im gegebenen Kontext!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie anhand des Verlaufs der Graphen von "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": ", warum es mindestens zwei Zeitpunkte gibt, in denen die Wachstumsgeschwindigkeit der Pflanze denselben Wert hat wie die Steigung von "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\nDie Steigung von "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " ist anfangs kleiner als jene von "
+          },
+          {
+            "t": "math",
+            "v": "h_1"
+          },
+          {
+            "t": "text",
+            "v": ", dann größer und dann wieder kleiner. Es gibt daher mindestens zwei Zeitpunkte, in denen sie gleich ist."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-02-d1",
+      "label": "d1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -135,26 +804,480 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_034d",
           "baseId": "2_034",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Möglicher Nachweis:\nFür alle "
+            },
+            {
+              "t": "math",
+              "v": "k<0"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\lim_{t\\to\\infty}\\mathrm e^{k\\cdot t}=0\\Rightarrow\\lim_{t\\to\\infty}h(t)=\\frac{a}{1+b\\cdot0}=a"
+            },
+            {
+              "t": "text",
+              "v": ", also ist "
+            },
+            {
+              "t": "math",
+              "v": "h_{\\max}"
+            },
+            {
+              "t": "text",
+              "v": " unabhängig von "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": ".\n"
+            },
+            {
+              "t": "math",
+              "v": "h_{\\max}=a"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten rechnerischen Nachweis und die richtige Lösung. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für größer werdende "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " nähert sich "
+        },
+        {
+          "t": "math",
+          "v": "h(t)"
+        },
+        {
+          "t": "text",
+          "v": " einem Wert an, der als "
+        },
+        {
+          "t": "math",
+          "v": "h_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet wird.\nWeisen Sie anhand der gegebenen Funktionsgleichung der Modellfunktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " rechnerisch nach, dass der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " (mit "
+        },
+        {
+          "t": "math",
+          "v": "k<0"
+        },
+        {
+          "t": "text",
+          "v": ") keinen Einfluss auf "
+        },
+        {
+          "t": "math",
+          "v": "h_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " hat, und geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "h_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Möglicher Nachweis:\nFür alle "
+          },
+          {
+            "t": "math",
+            "v": "k<0"
+          },
+          {
+            "t": "text",
+            "v": " gilt: "
+          },
+          {
+            "t": "math",
+            "v": "\\lim_{t\\to\\infty}\\mathrm e^{k\\cdot t}=0\\Rightarrow\\lim_{t\\to\\infty}h(t)=\\frac{a}{1+b\\cdot0}=a"
+          },
+          {
+            "t": "text",
+            "v": ", also ist "
+          },
+          {
+            "t": "math",
+            "v": "h_{\\max}"
+          },
+          {
+            "t": "text",
+            "v": " unabhängig von "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": ".\n"
+          },
+          {
+            "t": "math",
+            "v": "h_{\\max}=a"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen korrekten rechnerischen Nachweis und die richtige Lösung. Andere korrekte rechnerische Nachweise sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-02-d2",
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_034d",
+          "baseId": "2_034",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für das beschriebene Pflanzenwachstum muss "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " vergrößert und "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": " verkleinert werden."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Beschreibung der Veränderung der beiden Werte von a und k."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für größer werdende "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " nähert sich "
+        },
+        {
+          "t": "math",
+          "v": "h(t)"
+        },
+        {
+          "t": "text",
+          "v": " einem Wert an, der als "
+        },
+        {
+          "t": "math",
+          "v": "h_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " bezeichnet wird."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Günstige Witterungsverhältnisse können dazu führen, dass die Hopfenpflanze schneller und höher wächst, d. h., dass sie sich früher einem größeren Wert von "
+        },
+        {
+          "t": "math",
+          "v": "h_{\\max}"
+        },
+        {
+          "t": "text",
+          "v": " annähert.\nGeben Sie für ein derartiges Pflanzenwachstum an, wie "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " verändert werden müssen!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für das beschriebene Pflanzenwachstum muss "
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": " vergrößert und "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": " verkleinert werden."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Beschreibung der Veränderung der beiden Werte von a und k."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_034",
       "baseId": "2_034",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/360/Hopfen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Hopfen ist eine schnell wachsende Kletterpflanze. Die Modellfunktion "
+    },
+    {
+      "t": "math",
+      "v": "h:\\mathbb{R}_0^+\\to\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "h(t)=\\frac{a}{1+b\\cdot\\mathrm e^{k\\cdot t}}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "k\\in\\mathbb{R}^-"
+    },
+    {
+      "t": "text",
+      "v": " gibt näherungsweise die Pflanzenhöhe einer bestimmten Hopfensorte zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " an, wobei "
+    },
+    {
+      "t": "math",
+      "v": "h(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Metern und "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Wochen angegeben wird.\n\nIn der nachstehenden Tabelle sind die gemessenen Höhen einer Hopfenpflanze ab Anfang April ("
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": ") zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-02-data.png",
+      "alt": "Messwerte: Wochen 0, 2, 4, 6, 8, 10, 12; Höhe in m 0,6; 1,2; 2,3; 4,2; 5,9; 7,0; 7,6."
+    },
+    {
+      "t": "text",
+      "v": "\n\nAnhand dieser Messwerte wurden für die Modellfunktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " die Parameterwerte "
+    },
+    {
+      "t": "math",
+      "v": "a=8"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "b=15"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "k=-0{,}46"
+    },
+    {
+      "t": "text",
+      "v": " ermittelt."
     }
   ]
 }

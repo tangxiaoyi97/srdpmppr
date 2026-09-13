@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,225 @@
     {
       "id": "2015-nt2-t1-12-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (3 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_386 (offiziell adaptierte Fassung)",
+          "baseId": "1_386",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/94/ParameterSinusfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen 1, 3 und 4 sind richtig."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Amplitude von "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": " ist dreimal so groß wie die Amplitude von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Würde man die Kreisfrequenz von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " verdreifachen, so wäre der neue Graph mit jenem von "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": " deckungsgleich."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Kreisfrequenz von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " beträgt 1."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Kreisfrequenz von "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": " ist doppelt so groß wie die Kreisfrequenz von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Eine Veränderung des Parameters "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " bewirkt eine Verschiebung des Graphen der Funktion in senkrechter Richtung."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=16",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_386 (offiziell adaptierte Fassung)",
+      "baseId": "1_386",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/94/ParameterSinusfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt die Graphen von zwei Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": ", deren Gleichungen den Funktionsterm "
+    },
+    {
+      "t": "math",
+      "v": "a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " haben ("
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R^+\\setminus\\{0\\}"
+    },
+    {
+      "t": "text",
+      "v": "). Dabei wird "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " als Amplitude und "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " als Kreisfrequenz bezeichnet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-12-oscillations.png",
+      "alt": "Graphen der Schwingungsfunktionen f und g mit Amplituden 1 und 3."
+    }
+  ]
 }

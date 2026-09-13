@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -22,14 +22,494 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-ht-t2-02-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Bestimmen Sie die relative (prozentuelle) Änderung des Luftdrucks bei einem Anstieg des Wetterballons von 1 000 m auf 2 000 m!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{800-906}{906}\\approx-0{,}117"
+          },
+          {
+            "t": "text",
+            "v": "\nDer Luftdruck nimmt bei diesem Anstieg um ca. 11,7 % ab."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [–0,12; –0,115] bzw. [–12 %; –11,5 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{800-906}{906}\\approx-0{,}117"
+            },
+            {
+              "t": "text",
+              "v": "\nDer Luftdruck nimmt bei diesem Anstieg um ca. 11,7 % ab."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [–0,12; –0,115] bzw. [–12 %; –11,5 %]"
+        }
+      ],
+      "id": "2016-ht-t2-02-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Abhängigkeit des Luftdrucks von der Höhe kann näherungsweise durch eine Exponentialfunktion beschrieben werden. Beschreiben Sie, wie dies anhand obiger Tabelle begründet werden kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Eine Exponentialfunktion eignet sich in diesem Fall, da eine gleiche Zunahme der Höhe "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " stets eine Verminderung des Luftdrucks um den annähernd gleichen Prozentsatz vom jeweiligen Ausgangswert bewirkt (z. B. Höhenzunahme um 1 000 m ↔ Luftdruckabnahme um ca. 12 %)."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine Exponentialfunktion eignet sich in diesem Fall, da eine gleiche Zunahme der Höhe "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " stets eine Verminderung des Luftdrucks um den annähernd gleichen Prozentsatz vom jeweiligen Ausgangswert bewirkt (z. B. Höhenzunahme um 1 000 m ↔ Luftdruckabnahme um ca. 12 %)."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "id": "2016-ht-t2-02-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Temperatur in Abhängigkeit von der Höhe lässt sich im Höhenintervall [5 000 m; 8 000 m] durch eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " beschreiben.\n\nBegründen Sie dies anhand der in der obigen Tabelle angegebenen Werte!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Eine lineare Funktion eignet sich in diesem Fall, da eine gleiche Zunahme der Höhe "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " stets eine gleiche Verminderung der Temperatur vom jeweiligen Ausgangswert bewirkt (z. B. Höhenzunahme um 1 000 m ↔ Temperaturverminderung um 8,8 °C)."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine lineare Funktion eignet sich in diesem Fall, da eine gleiche Zunahme der Höhe "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " stets eine gleiche Verminderung der Temperatur vom jeweiligen Ausgangswert bewirkt (z. B. Höhenzunahme um 1 000 m ↔ Temperaturverminderung um 8,8 °C)."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ],
+      "id": "2016-ht-t2-02-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Temperatur in Abhängigkeit von der Höhe lässt sich im Höhenintervall [5 000 m; 8 000 m] durch eine lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " beschreiben.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie für diese Funktion "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "T(h)=k\\cdot h+d"
+        },
+        {
+          "t": "text",
+          "v": " die Werte der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "k",
+            "label": "k",
+            "value": -0.0089,
+            "tol": 0.0001,
+            "unit": "°C/m"
+          },
+          {
+            "id": "d",
+            "label": "d",
+            "value": 22.1,
+            "tol": 1e-09,
+            "unit": "°C"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "k=-0{,}0088"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "d=22{,}1"
+            }
+          ],
+          "note": "Ein Punkt die korrekte Angabe beider Parameterwerte k und d. Toleranzintervall für k: [–0,009; –0,0088]"
+        }
+      ],
+      "id": "2016-ht-t2-02-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Volumen des Wetterballons ist näherungsweise indirekt proportional zum Luftdruck "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ". In 1 000 Metern Höhe hat der Wetterballon ein Volumen von 3 m³.\n\nBeschreiben Sie die funktionale Abhängigkeit des Volumens (in m³) vom Luftdruck (in hPa) durch eine Gleichung!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "V(p) ="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2718/p",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V(p)=\\frac{2\\,718}{p}"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "id": "2016-ht-t2-02-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Volumen des Wetterballons ist näherungsweise indirekt proportional zum Luftdruck "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ". In 1 000 Metern Höhe hat der Wetterballon ein Volumen von 3 m³.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die absolute Änderung des Ballonvolumens im Höhenintervall [1 000 m; 2 000 m]!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Volumenänderung",
+            "value": 0.395,
+            "tol": 0.005,
+            "unit": "m³"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V(800)-V(906)=0{,}3975"
+            },
+            {
+              "t": "text",
+              "v": "\nDie absolute Änderung des Ballonvolumens in diesem Höhenintervall beträgt 0,3975 m³."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m³“ nicht angeführt sein muss. Toleranzintervall: [0,39 m³; 0,4 m³]"
+        }
+      ],
+      "id": "2016-ht-t2-02-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Wetterballon ist ein mit Helium oder Wasserstoff befüllter Ballon, der in der Meteorologie zum Transport von Radiosonden (Messgeräten) verwendet wird. Die Zentralanstalt für Meteorologie und Geodynamik (ZAMG) lässt an 365 Tagen im Jahr zwei Mal am Tag einen Wetterballon von der Wetterstation Hohe Warte aufsteigen. Während des Aufstiegs werden kontinuierlich Messungen von Temperatur, Luftfeuchtigkeit, Luftdruck, Windrichtung und Windgeschwindigkeit durchgeführt.\n\nDie bei einem konkreten Aufstieg eines Wetterballons gemessenen Werte für den Luftdruck und die Temperatur in der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " über dem Meeresspiegel liegen in der nachstehenden Tabelle vor."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-02-measurements.png",
+      "alt": "Messwerte für Höhe1000bis8000m,Luftdruck906,800,704,618,544,479,421,370hPa,Temperatur1.9,−3.3,−8.3,−14.5,−21.9,−30.7,−39.5,−48.3°C"
+    }
+  ]
 }

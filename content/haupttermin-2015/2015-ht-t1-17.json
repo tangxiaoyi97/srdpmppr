@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,270 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_405a",
+          "id": "1_405",
           "baseId": "1_405",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/113/Graph%20einer%20Ableitungsfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-4;5]"
+            },
+            {
+              "t": "text",
+              "v": " zwei lokale Extremstellen.\n\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " eine Wendestelle."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Aussagen über die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " sind richtig?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-4;5]"
+            },
+            {
+              "t": "text",
+              "v": " zwei lokale Extremstellen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[1;2]"
+            },
+            {
+              "t": "text",
+              "v": " monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-4;-2]"
+            },
+            {
+              "t": "text",
+              "v": " monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-4;0]"
+            },
+            {
+              "t": "text",
+              "v": " linksgekrümmt (d. h. "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)>0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in[-4;0]"
+            },
+            {
+              "t": "text",
+              "v": ")."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " eine Wendestelle."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=21",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_405",
       "baseId": "1_405",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/113/Graph%20einer%20Ableitungsfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Ableitungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f'(x)=\\frac14\\cdot x^2-\\frac12\\cdot x-2"
+    },
+    {
+      "t": "text",
+      "v": " einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-17-derivative.png",
+      "alt": "Originalgraph der Ableitungsfunktion f′."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,91 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_396a",
+          "id": "1_396",
           "baseId": "1_396",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/104/Praxisgemeinschaft.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "6\\cdot40=(6-x)\\cdot60"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Alle Gleichungen, die den gegebenen Text der Fragestellung entsprechend korrekt wiedergeben, sind als richtig zu werten!"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie anhand des gegebenen Textes eine Gleichung auf, mit der die Anzahl derjenigen Mitglieder, die die Praxisgemeinschaft verlassen, berechnet werden kann!\nBezeichnen Sie dabei die Anzahl derjenigen Mitglieder, die die Praxisgemeinschaft verlassen, mit der Variablen "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "6\\cdot40=(6-x)\\cdot60"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Gleichung. Alle Gleichungen, die den gegebenen Text der Fragestellung entsprechend korrekt wiedergeben, sind als richtig zu werten!"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_396",
       "baseId": "1_396",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/104/Praxisgemeinschaft.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Gemeinschaftspraxis teilen sich sechs Therapeutinnen und Therapeuten die anfallende Monatsmiete zu gleichen Teilen auf.\nAm Ende des Jahres verlassen Mitglieder die Praxisgemeinschaft. Daher muss der Mietanteil für die Verbleibenden um jeweils € 20 erhöht werden und beträgt ab dem neuen Jahr nun monatlich € 60."
     }
   ]
 }

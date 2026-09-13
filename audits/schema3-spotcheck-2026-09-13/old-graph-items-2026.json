@@ -1,0 +1,904 @@
+{
+  "audit": "Independent complete original-au/lo review of eight 2026 tail image choice/matching questions",
+  "date": "2026-09-13",
+  "reviewer": "convert_2016",
+  "scope": {
+    "questionCount": 8,
+    "partCount": 14,
+    "uniquePNGCount": 10,
+    "originalAuPages": 11,
+    "originalLoPages": 8,
+    "choiceMatchingAnswerKeysChecked": 8
+  },
+  "method": [
+    "Read every original au and lo page for all eight assigned questions; independently compared all actual PNGs and current JSON.",
+    "Checked all question/subquestion conditions, math, original candidate contents and order, keys, point rules and solution calculations.",
+    "Reviewed shared premises required when subparts are independently selected; copied original conditions without inserting prior standard answers.",
+    "Repaired logo recrop rendered from original PDF and visually re-read. Schema and KaTeX validation plus expected-original-key checks passed.",
+    "Pool URL/ID verification is handled by the root audit; no externalRefs or rights metadata changed here."
+  ],
+  "result": {
+    "PNGFilesChanged": 1,
+    "JSONFilesChanged": 2,
+    "answerKeysChanged": 0,
+    "solutionMathCorrections": 1,
+    "sharedContextRepairs": 2,
+    "formatCorrections": 2,
+    "remainingConfirmedIssues": 0
+  },
+  "records": [
+    {
+      "questionId": "2026-ht-t1-14",
+      "title": "Differenzen- und Differenzialquotient",
+      "questionFile": "content/haupttermin-2026/2026-ht-t1-14.json",
+      "jsonSha256Before": "44798c003883682ac5ee0fb8fc561884c8afd99065cfbb9d78f99f35eff7eef9",
+      "jsonSha256After": "44798c003883682ac5ee0fb8fc561884c8afd99065cfbb9d78f99f35eff7eef9",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2026/[2026h1]t1-14-an.pdf",
+          "sha256": "aaaeee378fbcbd3118efca2ebd716f44ff2f74c9f3130c36d6ed983352117bde",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]haupttermin-2026/[2026h1]t1-14-an.pdf",
+          "sha256": "5fe4a8be1c538264fadee18e4de81470ea6c24f11bae1a2d6df5e5d47aff7e7b",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-14-q.png",
+          "sha256Before": "7f426cafc9ca93d84e70914c4821a2f8e6c8d470de1d137c3a33e63567755f64",
+          "sha256After": "7f426cafc9ca93d84e70914c4821a2f8e6c8d470de1d137c3a33e63567755f64",
+          "jsonPaths": [
+            "$.prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "aaaeee378fbcbd3118efca2ebd716f44ff2f74c9f3130c36d6ed983352117bde",
+          "sourceRegionAt950PixelWidth": [
+            290,
+            193,
+            657,
+            505
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-ht-t1-14",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Original convex increasing graph, x1/x2 projection lines, f(x), x and origin complete; graph precedes difference/derivative definitions exactly as in au.",
+          "All three limit/difference formulas and both candidate groups match original; correct a<b and b=c; 0.5 point per correct blank."
+        ],
+        "verifiedAnswerMapping": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-ht-t1-14-a",
+          "kind": "matching",
+          "correct": null,
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "points": 1,
+          "scoring": {
+            "mode": "tiered",
+            "tiers": [
+              {
+                "minCorrect": 1,
+                "points": 0.5
+              },
+              {
+                "minCorrect": 2,
+                "points": 1
+              }
+            ]
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-ht-t1-24",
+      "title": "Binomialverteilung",
+      "questionFile": "content/haupttermin-2026/2026-ht-t1-24.json",
+      "jsonSha256Before": "08896fc582ebd06b4645018ae4b6e22d359c481ac683e00577957870bde1d931",
+      "jsonSha256After": "08896fc582ebd06b4645018ae4b6e22d359c481ac683e00577957870bde1d931",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2026/[2026h1]t1-24-ws.pdf",
+          "sha256": "eef55148fc1becb1d9fddcd58b28f8cc14715aec1cbd0a08838e608211e5b23b",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]haupttermin-2026/[2026h1]t1-24-ws.pdf",
+          "sha256": "de6e9b3dd321f136765e89de8dc1c1d3d4c2aaa55a8f9f72871bc13c6b7e62b9",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/haupttermin-2026/fig/2026-ht-t1-24-q.png",
+          "sha256Before": "a30bf3df14f73ed4172cc797a0631cc54793cbc543008f6404d33ac3a7cb5dbe",
+          "sha256After": "a30bf3df14f73ed4172cc797a0631cc54793cbc543008f6404d33ac3a7cb5dbe",
+          "jsonPaths": [
+            "$.prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "eef55148fc1becb1d9fddcd58b28f8cc14715aec1cbd0a08838e608211e5b23b",
+          "sourceRegionAt950PixelWidth": [
+            102,
+            215,
+            852,
+            436
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-ht-t1-24",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Full n=40 binomial histogram, axes, all tail bars and labels preserved; distribution shown before instruction.",
+          "All five original expressions match; correct p<0.5 and P(X>40)=0; 1 point all-or-nothing."
+        ],
+        "verifiedAnswerMapping": [
+          2,
+          4
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-ht-t1-24-a",
+          "kind": "choice",
+          "correct": [
+            2,
+            4
+          ],
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-ht-t2-04",
+      "title": "Pistazien",
+      "questionFile": "content/haupttermin-2026/2026-ht-t2-04.json",
+      "jsonSha256Before": "e2a864610443d7488f67f0d28305b2215060c7990c551f176dafb62cbfec2c05",
+      "jsonSha256After": "5eabcdddfd984e259248443a051913ce37fd2b0f4e1bde6030dcdb47d390bf5d",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2026/[2026h1]t2-4.pdf",
+          "sha256": "2802c7d193ac27420df9162767f092d9c3ed35745183fee5f2e00a76c0291680",
+          "pages": 2
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]haupttermin-2026/[2026h1]t2-4.pdf",
+          "sha256": "0f7fbca21cc871d5353a6b1760db7ad2bfa85765ca970f8712b9aeb0efdab614",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-04-b.png",
+          "sha256Before": "5dd738c95ac6aca8fc53417f02ef407691009d720ceb9e972c86a545b75f6136",
+          "sha256After": "e14ba443a8b85a6f68c40f0bd80587916de5496ab2e55e5d652ba996b5ce2ef3",
+          "jsonPaths": [
+            "$.parts[2].prompt[1]",
+            "$.parts[3].prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 2,
+          "originalSourceSha256": "2802c7d193ac27420df9162767f092d9c3ed35745183fee5f2e00a76c0291680",
+          "sourceRegionAt950PixelWidth": [
+            550,
+            8,
+            920,
+            400
+          ],
+          "result": "repaired-and-visually-reverified",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-ht-t2-04",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Full au pages 1–2 and lo page 1 read. Logo recropped to graph only and freshly re-viewed; original axes, g1/g2/f, LE, shaded patch and semicircle intact.",
+          "b1 formula corrected from 2*integral−12 to 2*(integral−12), official 40/3 retained.",
+          "a2/b2 shared original conditions restored without adding preceding standard answers."
+        ],
+        "verifiedAnswerMapping": {
+          "a1": "p=3.75",
+          "a2": "both official vertical-shift / derivative arguments accepted",
+          "b1": "40/3; pA=9.39...%",
+          "b2": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        }
+      },
+      "changes": [
+        {
+          "kind": "original_pdf_crop",
+          "assetPath": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-04-b.png",
+          "sha256Before": "5dd738c95ac6aca8fc53417f02ef407691009d720ceb9e972c86a545b75f6136",
+          "sha256After": "e14ba443a8b85a6f68c40f0bd80587916de5496ab2e55e5d652ba996b5ce2ef3",
+          "sourcePdf": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]haupttermin-2026/[2026h1]t2-4.pdf",
+          "sourceSha256": "2802c7d193ac27420df9162767f092d9c3ed35745183fee5f2e00a76c0291680",
+          "sourcePage": 2,
+          "sourceRegionAt950PixelWidth": [
+            550,
+            8,
+            920,
+            400
+          ],
+          "outputDimensions": [
+            740,
+            784
+          ]
+        },
+        {
+          "kind": "json_edit",
+          "reason": "Restore original b1 solution parentheses; shared a2/b2 conditions; exact b1 answer format; both official a2 explanations.",
+          "paths": [
+            {
+              "field": "parts[2].solution[0].steps[1]",
+              "before": "2\\cdot\\int_{0}^{2} f(x)\\,dx-12=\\tfrac{40}{3}",
+              "after": "2\\cdot\\left(\\int_{0}^{2} f(x)\\,dx-12\\right)=\\tfrac{40}{3}",
+              "source": "lo page 1, b1 first line; original factor 2 multiplies the entire parenthesized difference"
+            },
+            {
+              "field": "parts[2].format",
+              "before": "Lückentext",
+              "after": "Offenes Antwortformat",
+              "source": "au page 2 b1: Berechnen Sie ... Prozent; no choice boxes belong to b1"
+            },
+            {
+              "field": "parts[1].prompt",
+              "copiedFrom": "parts[0].prompt, ending before Berechnen Sie p.",
+              "source": "au page 1 shared a condition block",
+              "reason": "Restore polynomial cost/linear revenue model and unchanged prior profit-maximization condition needed by a2 when independently selected. No standard p answer inserted."
+            },
+            {
+              "field": "parts[3].prompt",
+              "copiedFrom": "parts[2].prompt, ending before Berechnen Sie den Anteil",
+              "source": "au page 2 shared b condition block and original logo",
+              "reason": "Restore g1/g2 definitions, coordinate graph and geometric premises required by the two matching blanks; no b1 area answer copied."
+            },
+            {
+              "field": "parts[1].solution[0].result",
+              "source": "lo page 1 a2",
+              "reason": "Expose both original alternative explanations already present in the rubric."
+            }
+          ],
+          "sha256Before": "e2a864610443d7488f67f0d28305b2215060c7990c551f176dafb62cbfec2c05",
+          "sha256After": "5eabcdddfd984e259248443a051913ce37fd2b0f4e1bde6030dcdb47d390bf5d"
+        }
+      ],
+      "partsReviewed": [
+        {
+          "id": "2026-ht-t2-04-a1",
+          "kind": "numeric",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-ht-t2-04-a2",
+          "kind": "open",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "rubric",
+            "criteria": [
+              {
+                "desc": "Ein Punkt für das richtige Begründen.",
+                "points": 1
+              }
+            ]
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-ht-t2-04-b1",
+          "kind": "numeric",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-ht-t2-04-b2",
+          "kind": "matching",
+          "correct": null,
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "points": 1,
+          "scoring": {
+            "mode": "tiered",
+            "tiers": [
+              {
+                "minCorrect": 1,
+                "points": 0.5
+              },
+              {
+                "minCorrect": 2,
+                "points": 1
+              }
+            ]
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-wt-t1-07",
+      "title": "Längenausdehnung",
+      "questionFile": "content/wintertermin-2026/2026-wt-t1-07.json",
+      "jsonSha256Before": "23186eead907ae929fbc4a45190a435a88c468c08e802a367dcd1136e2c0cebb",
+      "jsonSha256After": "23186eead907ae929fbc4a45190a435a88c468c08e802a367dcd1136e2c0cebb",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2026/[2026w1]t1-7-fa.pdf",
+          "sha256": "d1826fbe06f74841ce08bdedf90c55d799bcfb8610d2bd966e5ad1b18c7399f2",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2026/[2026w1]t1-7-fa.pdf",
+          "sha256": "cf6101054885fe35761c71a6e852a9afa1f3e28e87d6cf8709423f7a3c93049a",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-07-q.png",
+          "sha256Before": "24fa85aa8a032e87021ee125ab20d1863c5a8c5986f1646bbcdba4454899ecbf",
+          "sha256After": "24fa85aa8a032e87021ee125ab20d1863c5a8c5986f1646bbcdba4454899ecbf",
+          "jsonPaths": [
+            "$.prompt[3]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "d1826fbe06f74841ce08bdedf90c55d799bcfb8610d2bd966e5ad1b18c7399f2",
+          "sourceRegionAt950PixelWidth": [
+            172,
+            260,
+            771,
+            600
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-wt-t1-07",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "All three aluminium/copper/iron expansion lines, names, degree and millimetre axes complete; source order before choice instruction preserved.",
+          "All five original assertions including false metre-unit statement preserved; statements 1 and 4 selected as in lo."
+        ],
+        "verifiedAnswerMapping": [
+          0,
+          3
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-wt-t1-07-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            3
+          ],
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-wt-t1-17",
+      "title": "Abschätzung eines bestimmten Integrals",
+      "questionFile": "content/wintertermin-2026/2026-wt-t1-17.json",
+      "jsonSha256Before": "058076cbb09a88af3d9e4638c235239e89201ccdfe1ab4a74a925fbc03bb4327",
+      "jsonSha256After": "058076cbb09a88af3d9e4638c235239e89201ccdfe1ab4a74a925fbc03bb4327",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2026/[2026w1]t1-17-an.pdf",
+          "sha256": "ac8c0fde951596e0fb6b0666eb44e643fb4bab80013a10ba1f030492c0f58fe8",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2026/[2026w1]t1-17-an.pdf",
+          "sha256": "76e5792feb2fc805a28946b3e79f22eb8c8e5ae9661d7a84276937f1b4720a0e",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-17-q.png",
+          "sha256Before": "5a76bc1184683ff27edb21e58d80cb554fcfa1078b493eb5b8326e97897431c1",
+          "sha256After": "5a76bc1184683ff27edb21e58d80cb554fcfa1078b493eb5b8326e97897431c1",
+          "jsonPaths": [
+            "$.prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "ac8c0fde951596e0fb6b0666eb44e643fb4bab80013a10ba1f030492c0f58fe8",
+          "sourceRegionAt950PixelWidth": [
+            395,
+            200,
+            559,
+            441
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-wt-t1-17",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Complete x/f(x) table 0→1,1→3,2→5,3→8,4→9,5→11; original strict-monotonicity premise follows the table.",
+          "All five integral inequalities faithfully reproduced; statements 2 and 5 selected as in lo."
+        ],
+        "verifiedAnswerMapping": [
+          1,
+          4
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-wt-t1-17-a",
+          "kind": "choice",
+          "correct": [
+            1,
+            4
+          ],
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-wt-t1-19",
+      "title": "Körpergröße",
+      "questionFile": "content/wintertermin-2026/2026-wt-t1-19.json",
+      "jsonSha256Before": "388b79393c615b3cca50bbf03f7d43c0c6e92a15369c00e38414efd0dc365179",
+      "jsonSha256After": "388b79393c615b3cca50bbf03f7d43c0c6e92a15369c00e38414efd0dc365179",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2026/[2026w1]t1-19-ws.pdf",
+          "sha256": "6261c760bc900cd0c5b22c583149c6553d749cb8c197d50278a507d9da1af9ed",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2026/[2026w1]t1-19-ws.pdf",
+          "sha256": "3660b196cf3404754d1583aaab101381be7cce4555c5c1f07e17c83da59dff02",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-19-q.png",
+          "sha256Before": "3413a5d50270c5d222da607e89d4d80618395544dc99571bad3127185ee29208",
+          "sha256After": "3413a5d50270c5d222da607e89d4d80618395544dc99571bad3127185ee29208",
+          "jsonPaths": [
+            "$.prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "6261c760bc900cd0c5b22c583149c6553d749cb8c197d50278a507d9da1af9ed",
+          "sourceRegionAt950PixelWidth": [
+            116,
+            218,
+            838,
+            433
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-wt-t1-19",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Boxplot has coincident minimum/Q1=118, median=120, Q3=127, maximum=135; no missing left whisker (it has zero length in original). All axis labels complete.",
+          "All five assertions preserved; correct first two statements and 1-point grading agree with original."
+        ],
+        "verifiedAnswerMapping": [
+          0,
+          1
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-wt-t1-19-a",
+          "kind": "choice",
+          "correct": [
+            0,
+            1
+          ],
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-wt-t1-24",
+      "title": "Wahrscheinlichkeitsverteilungen",
+      "questionFile": "content/wintertermin-2026/2026-wt-t1-24.json",
+      "jsonSha256Before": "98aae4342d84ff1770e65f37fa072499980f8d9bc84108e40dd1de72f76840dd",
+      "jsonSha256After": "98aae4342d84ff1770e65f37fa072499980f8d9bc84108e40dd1de72f76840dd",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2026/[2026w1]t1-24-ws.pdf",
+          "sha256": "e312a5f19c4400120288086f6f06b12a0e30f3ededbb4f63a77b3405340802c9",
+          "pages": 1
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2026/[2026w1]t1-24-ws.pdf",
+          "sha256": "9c8d2a7920539a97710421c86a20f3cf9ac09a8982a596c30738dd2820448d7b",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t1-24-q.png",
+          "sha256Before": "c6de5aa9b3d0e642aa4f3b4f12742e7b4128461cbea9257b636bc1d289a85a8f",
+          "sha256After": "c6de5aa9b3d0e642aa4f3b4f12742e7b4128461cbea9257b636bc1d289a85a8f",
+          "jsonPaths": [
+            "$.prompt[2]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "e312a5f19c4400120288086f6f06b12a0e30f3ededbb4f63a77b3405340802c9",
+          "sourceRegionAt950PixelWidth": [
+            163,
+            411,
+            783,
+            648
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-wt-t1-24",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Both binomial spike plots with reflected mass functions complete; preceding P(X=k)=P(Y=12−k) premise and following moment definitions in source order.",
+          "Six candidate relations match original grouped layout; E(X)<E(Y) and equal standard deviations, 0.5 point per blank."
+        ],
+        "verifiedAnswerMapping": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "changes": [],
+      "partsReviewed": [
+        {
+          "id": "2026-wt-t1-24-a",
+          "kind": "matching",
+          "correct": null,
+          "pairs": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "points": 1,
+          "scoring": {
+            "mode": "tiered",
+            "tiers": [
+              {
+                "minCorrect": 1,
+                "points": 0.5
+              },
+              {
+                "minCorrect": 2,
+                "points": 1
+              }
+            ]
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    },
+    {
+      "questionId": "2026-wt-t2-01",
+      "title": "Hallenbad",
+      "questionFile": "content/wintertermin-2026/2026-wt-t2-01.json",
+      "jsonSha256Before": "e7da8b2a82f4d1f7806eec439b43e7c592d9a5ae2bf80287c7379c384f01c881",
+      "jsonSha256After": "5367cce5827b153cd114737e5fe6b3b7b4ee3d5af90c974d231e917a90e8d992",
+      "sourcePDFs": [
+        {
+          "kind": "au",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[au]wintertermin-2026/[2026w1]t2-1.pdf",
+          "sha256": "c574972587f506daf9b7c64afed76dae55d13de4fd758c597c6a4e715d585c05",
+          "pages": 3
+        },
+        {
+          "kind": "lo",
+          "path": "/tmp/qed-bank-audit-srdpmppr-src/library/[lo]wintertermin-2026/[2026w1]t2-1.pdf",
+          "sha256": "87b2ff7dbc6c92a96bf02fb39ac1cffe908b5b4512543b5eb2733b0144b18ff2",
+          "pages": 1
+        }
+      ],
+      "assets": [
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-a-tab.png",
+          "sha256Before": "088f7870648846926d289e608516b3c91c8620161dff2e6da274efe92ff96682",
+          "sha256After": "088f7870648846926d289e608516b3c91c8620161dff2e6da274efe92ff96682",
+          "jsonPaths": [
+            "$.parts[0].prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 1,
+          "originalSourceSha256": "c574972587f506daf9b7c64afed76dae55d13de4fd758c597c6a4e715d585c05",
+          "sourceRegionAt950PixelWidth": [
+            270,
+            583,
+            679,
+            721
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        },
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-b-q.png",
+          "sha256Before": "b8a97e7800bd0c3419adfb39f8929cd00267c29779aba432294034ef5d36a1c3",
+          "sha256After": "b8a97e7800bd0c3419adfb39f8929cd00267c29779aba432294034ef5d36a1c3",
+          "jsonPaths": [
+            "$.parts[1].prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 2,
+          "originalSourceSha256": "c574972587f506daf9b7c64afed76dae55d13de4fd758c597c6a4e715d585c05",
+          "sourceRegionAt950PixelWidth": [
+            194,
+            80,
+            789,
+            321
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        },
+        {
+          "asset": "assets/pdf/wintertermin-2026/fig/2026-wt-t2-01-c-q.png",
+          "sha256Before": "ba6d38911e554a87f0ba87da2f1790d20c517631b20264d79e6c104ecba5a795",
+          "sha256After": "ba6d38911e554a87f0ba87da2f1790d20c517631b20264d79e6c104ecba5a795",
+          "jsonPaths": [
+            "$.parts[3].prompt[1]"
+          ],
+          "originalSourceKind": "au",
+          "originalSourcePage": 3,
+          "originalSourceSha256": "c574972587f506daf9b7c64afed76dae55d13de4fd758c597c6a4e715d585c05",
+          "sourceRegionAt950PixelWidth": [
+            285,
+            78,
+            700,
+            362
+          ],
+          "result": "pass",
+          "inspection": "Entire actual PNG visually compared with the original source page: data/labels/edges, original ordering, and question-versus-solution role checked."
+        }
+      ],
+      "review": {
+        "id": "2026-wt-t2-01",
+        "status": "independently_visually_reviewed",
+        "observations": [
+          "Full au pages 1–3 and lo page 1 read. All three original images complete and correctly positioned.",
+          "b2 defines W3/W7 independently and requires no preceding geometry to answer.",
+          "a1, b1 expression formulas, b2 candidate groups and c1 integral/area all agree with official solution."
+        ],
+        "verifiedAnswerMapping": {
+          "a1": "p*e1+0.7*p*e2+0.6*p*k1+0.42*p*k2",
+          "b1": "arctan((h2−h1)/(a−2*x))",
+          "b2": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "c1": "23.94...; official rounded 23.9 m²"
+        }
+      },
+      "changes": [
+        {
+          "kind": "json_edit",
+          "reason": "Correct Whirlpool figure alt to its two straight boundary segments and b2 answer format to the original two candidate groups.",
+          "paths": [
+            {
+              "field": "parts[3].prompt[1].alt",
+              "before": "Koordinatensystem (x in m von 0 bis 6, f(x) in m bis 4): die grau markierte Fläche wird oben durch die waagrechte Gerade auf Höhe 4, an den Seiten durch zwei achsenparallele Strecken und unten durch den Graphen der Funktion f begrenzt.",
+              "after": "Koordinatensystem mit x in m und f(x) in m: Die grau markierte Fläche wird durch die waagrechte Strecke von (0 | 4) bis (6 | 4), die senkrechte Strecke bei x = 6 und den Graphen von f begrenzt.",
+              "source": "au page 3"
+            },
+            {
+              "field": "parts[2].format",
+              "before": "Halboffenes Antwortformat",
+              "after": "Lückentext",
+              "source": "au page 2 b2 two blank candidate groups"
+            }
+          ],
+          "sha256Before": "e7da8b2a82f4d1f7806eec439b43e7c592d9a5ae2bf80287c7379c384f01c881",
+          "sha256After": "5367cce5827b153cd114737e5fe6b3b7b4ee3d5af90c974d231e917a90e8d992"
+        }
+      ],
+      "partsReviewed": [
+        {
+          "id": "2026-wt-t2-01-a1",
+          "kind": "expression",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-wt-t2-01-b1",
+          "kind": "expression",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-wt-t2-01-b2",
+          "kind": "matching",
+          "correct": null,
+          "pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "points": 1,
+          "scoring": {
+            "mode": "tiered",
+            "tiers": [
+              {
+                "minCorrect": 1,
+                "points": 0.5
+              },
+              {
+                "minCorrect": 2,
+                "points": 1
+              }
+            ]
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        },
+        {
+          "id": "2026-wt-t2-01-c1",
+          "kind": "numeric",
+          "correct": null,
+          "pairs": null,
+          "points": 1,
+          "scoring": {
+            "mode": "allOrNothing",
+            "points": 1
+          },
+          "answerAndSolutionResult": "pass after listed repairs"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "questionCount": 8,
+    "partCount": 14,
+    "mathNodes": 75,
+    "originalAnswerKeyChecks": 8,
+    "errors": []
+  }
+}

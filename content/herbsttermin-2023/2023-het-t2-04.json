@@ -1,6 +1,6 @@
 {
   "id": "2023-het-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -61,7 +61,7 @@
           {
             "id": "T",
             "value": 3.75,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "h"
           }
         ]
@@ -154,7 +154,7 @@
     {
       "id": "2023-het-t2-04-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -176,11 +176,19 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Der vollständig entleerte Teich wird wieder mit 129 m³ Wasser befüllt.\n\nDie Funktion d: ℝ⁺ → ℝ⁺ gibt die Fülldauer d(z) in Abhängigkeit von der konstanten Zuflussgeschwindigkeit z an (z in m³/h, d(z) in h)."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die Funktion h beschreibt in Abhängigkeit von der Zeit t die Höhe der Wasseroberfläche über dem tiefsten Punkt des Teiches bei der konstanten Zuflussgeschwindigkeit z = 6 m³/h (t in h, h(t) in m).\n\nFür die momentane Änderungsrate der Höhe der Wasseroberfläche gilt:"
         },
         {
           "t": "math",
-          "v": "h'(t) = \\frac{15}{2\\,738 \\cdot \\pi \\cdot t}\\quad \\text{mit } t > 0"
+          "v": "h'(t) = \\frac{15}{\\sqrt{2\\,738 \\cdot \\pi \\cdot t}}\\quad \\text{mit } t > 0"
         },
         {
           "t": "text",
@@ -189,13 +197,32 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "dh",
-            "value": 0.4,
-            "tol": 0.05,
-            "unit": "m"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "d(6) = 21{,}5"
+          },
+          {
+            "t": "math",
+            "v": "\\int_{11,5}^{21,5} h'(t)\\,dt = 0{,}40\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Höhe der Wasseroberfläche steigt in den letzten 10 h der Befüllung um rund 0,4 m an."
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Ermitteln des Anstiegs der Höhe der Wasseroberfläche."
           }
         ]
       },

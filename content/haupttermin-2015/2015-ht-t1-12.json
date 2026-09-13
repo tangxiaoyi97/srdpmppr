@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,232 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_410a",
+          "id": "1_410",
           "baseId": "1_410",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/118/Sinusfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=0{,}5"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=3"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "a=-0{,}5"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=-3"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Angabe beider Parameterwerte. Toleranzintervall für a: [0,48; 0,52] bzw. [–0,52; –0,48] Toleranzintervall für b: [2,9; 3,1] bzw. [–3,1; –2,9]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die für den abgebildeten Graphen passenden Parameterwerte von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a="
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "b="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a=0{,}5"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "b=3"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "a=-0{,}5"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "b=-3"
+          },
+          {
+            "t": "text",
+            "v": ". Toleranzintervall für "
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": ": "
+          },
+          {
+            "t": "math",
+            "v": "[0{,}48;0{,}52]"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "[-0{,}52;-0{,}48]"
+          },
+          {
+            "t": "text",
+            "v": "; für "
+          },
+          {
+            "t": "math",
+            "v": "b"
+          },
+          {
+            "t": "text",
+            "v": ": "
+          },
+          {
+            "t": "math",
+            "v": "[2{,}9;3{,}1]"
+          },
+          {
+            "t": "text",
+            "v": " bzw. "
+          },
+          {
+            "t": "math",
+            "v": "[-3{,}1;-2{,}9]"
+          },
+          {
+            "t": "text",
+            "v": ". Die Vorzeichen müssen zusammenpassen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Angabe beider Parameterwerte. Toleranzintervall für a: [0,48; 0,52] bzw. [–0,52; –0,48] Toleranzintervall für b: [2,9; 3,1] bzw. [–3,1; –2,9]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_410",
       "baseId": "1_410",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/118/Sinusfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-12-sinus.png",
+      "alt": "Originalgraph der Sinusfunktion f mit markierten Winkelwerten."
     }
   ]
 }

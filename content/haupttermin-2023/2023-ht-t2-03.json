@@ -1,6 +1,6 @@
 {
   "id": "2023-ht-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "reviewed",
   "lang": "de",
   "source": {
@@ -14,7 +14,7 @@
   "title": "Sauerstoffverbrauch von Säugetieren",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-3.pdf",
@@ -68,14 +68,28 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "prozent",
-            "label": "Prozentsatz",
-            "value": 68.2,
-            "tol": 0.5,
-            "unit": "%"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "2^{0{,}75}=1{,}6817\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Sauerstoffverbrauch dieses Hundes ist um rund 68,2 % höher als der dieser Katze."
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des Prozentsatzes."
           }
         ]
       },
@@ -105,7 +119,7 @@
     {
       "id": "2023-ht-t2-03-b",
       "label": "b",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AN 1.3",
@@ -157,6 +171,10 @@
           "t": "fig",
           "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-03-b.png",
           "alt": "Graph von I(m): fallende Kurve; Punkt Ratte bei (mR | 1), Punkt Katze bei (mK | ~0,48)"
+        },
+        {
+          "t": "text",
+          "v": "\nQuelle: Sadava, David E., David M. Hillis et al.: Purves Biologie. Herausgegeben von Jürgen Markl. 10. Auflage. Berlin u. a.: Springer 2019, S. 1 201 (adaptiert).\n\n"
         },
         {
           "t": "text",
@@ -347,14 +365,26 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "(ut1 + d) * t1 / 2",
-        "vars": [
-          "ut1",
-          "t1",
-          "d"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{t_1} u(t)\\,dt=\\dfrac{(u(t_1)+d)\\cdot t_1}{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Aufstellen der Formel."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -376,7 +406,7 @@
     {
       "id": "2023-ht-t2-03-c2",
       "label": "c2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -396,6 +426,51 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Für ein Säugetier, das sich bewegt, wird die momentane Änderungsrate des Sauerstoffverbrauchs in Abhängigkeit von der Zeit t näherungsweise durch die lineare Funktion "
+        },
+        {
+          "t": "math",
+          "v": "u:[0;\\,t_1]\\to\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "t_1\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben (t in min, u(t) in L/min).\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "u(0)=d"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "d\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDer Graph von u ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-03-c.png",
+          "alt": "Graph der linearen Funktion u auf [0; t1]: steigende Gerade mit u(0)=d"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Interpretieren Sie "

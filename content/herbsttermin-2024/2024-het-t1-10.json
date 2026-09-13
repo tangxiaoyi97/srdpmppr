@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-10",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1373a",
+          "id": "1_1373",
           "baseId": "1_1373",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/929/1_1373_srdp_ma_Sauerstoff_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -81,14 +81,40 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "T1",
-            "label": "T_1",
-            "value": 29.3,
-            "tol": 0.3,
-            "unit": "°C"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "S(0) = 14,6;  S(20) = 9,1. Berechnung mittels Technologieeinsatz: "
+          },
+          {
+            "t": "math",
+            "v": "S(T)=14{,}6 \\cdot 0{,}9766\\ldots^{\\,T}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "S(T_1)=\\tfrac{S(0)}{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "T_1 = 29{,}3\\ldots\\ ^\\circ\\text{C}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen von T1."
           }
         ]
       },
@@ -112,7 +138,15 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Die Funktion S ordnet der Temperatur T von Wasser die maximale Aufnahmefähigkeit S(T) von reinem Sauerstoff zu (T in °C, S(T) in mg/L). Nachstehend ist eine Wertetabelle von S gegeben.\n\nTemperatur T (in °C) | maximale Aufnahmefähigkeit S(T) (in mg/L)\n0 | 14,6\n20 | 9,1\n\nEs wird angenommen, dass S eine Exponentialfunktion ist."
+      "v": "Die Funktion S ordnet der Temperatur T von Wasser die maximale Aufnahmefähigkeit S(T) von reinem Sauerstoff zu (T in °C, S(T) in mg/L). Nachstehend ist eine Wertetabelle von S gegeben.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{c|c}\\text{Temperatur }T\\text{ (in °C)}&\\text{maximale Aufnahmefähigkeit }S(T)\\text{ (in mg/L)}\\\\\\hline 0&14{,}6\\\\20&9{,}1\\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nEs wird angenommen, dass S eine Exponentialfunktion ist."
     }
   ]
 }

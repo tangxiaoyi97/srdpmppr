@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,132 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_553a",
+          "id": "1_553",
           "baseId": "1_553",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/262/Leistungsverbesserung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "erste Person: Person B\nzweite Person: Person A"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Auswahl."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wählen Sie aus den Personen "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": " die beiden aus, die die nachstehenden Bedingungen erfüllen!\n\n• Bei der ersten Person ist die absolute Änderung der Punktezahl größer als bei der zweiten.\n• Bei der zweiten Person ist die relative Änderung der Punktezahl größer als bei der ersten Person.\n\nerste Person: __________\n\nzweite Person: __________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "erste Person: Person B; zweite Person: Person A"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_553",
       "baseId": "1_553",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/262/Leistungsverbesserung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Drei Personen "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " absolvieren jeweils vor und nach einem Spezialtraining denselben Koordinationstest. In der nachstehenden Tabelle sind die dabei erreichten Punkte angeführt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-13-table.png",
+      "alt": "Punkte vor/nach dem Spezialtraining: A 5/8, B 15/19, C 20/35."
+    },
+    {
+      "t": "text",
+      "v": "\n\nGute Leistungen sind durch hohe Punktezahlen gekennzeichnet. Wie aus der Tabelle ersichtlich ist, erreichen alle drei Personen nach dem Spezialtraining mehr Punkte als vorher."
     }
   ]
 }

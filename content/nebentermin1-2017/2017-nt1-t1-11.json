@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,93 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_576a",
+          "id": "1_576",
           "baseId": "1_576",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/285/Dicke%20einer%20Bleischicht.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "d=1{,}2\\ \\mathrm{cm}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie diejenige Dicke "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": ", die eine Bleischicht haben muss, damit die Intensität auf 12,5 % der ursprünglichen Intensität gesunken ist!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "d="
+        },
+        {
+          "t": "text",
+          "v": " ____________________ cm"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "d",
+            "label": "d",
+            "value": 1.2,
+            "tol": 1e-09,
+            "unit": "cm"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_576",
       "baseId": "1_576",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/285/Dicke%20einer%20Bleischicht.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Intensität elektromagnetischer Strahlung nimmt bei Durchdringung eines Körpers exponentiell ab.\n\nDie Halbwertsdicke eines Materials ist diejenige Dicke, nach deren Durchdringung die Intensität der Strahlung auf die Hälfte gesunken ist. Die Halbwertsdicke von Blei liegt für die beobachtete Strahlung bei 0,4 cm."
     }
   ]
 }

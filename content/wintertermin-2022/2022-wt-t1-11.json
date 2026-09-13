@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_888a",
+          "id": "1_888",
           "baseId": "1_888",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/715/Koerperliche_Leistungsfaehigkeitn.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -97,14 +97,56 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "alter",
-            "label": "Alter",
-            "value": 78.3,
-            "tol": 1,
-            "unit": "Jahre"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "t … Jahre ab dem Alter von 55 Jahren\n"
+          },
+          {
+            "t": "math",
+            "v": "1\\,650 = 1\\,800 \\cdot a^{5}"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "a = 0{,}9827\\ldots"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "1\\,200 = 1\\,800 \\cdot 0{,}9827\\ldots^{\\,t}"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "t = 23{,}29\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Ab einem Alter von rund 78,3 Jahren wird Lena voraussichtlich höchstens 1 200 Punkte erreichen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln des Alters, wobei auch „78 Jahre“ bzw. „79 Jahre“ als richtig zu werten ist."
           }
         ]
       },
@@ -128,7 +170,11 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Im Rahmen einer Studie wird jährlich die körperliche Leistungsfähigkeit bestimmter Personen untersucht. Das Ergebnis wird in Punkten angegeben. Modellhaft wird angenommen, dass diese Punktzahl mit zunehmendem Alter exponentiell abnimmt.\n\nLena ist eine dieser Personen. Von ihr sind folgende Daten bekannt:\n\nAlter in Jahren: 55 | 60\nPunktzahl: 1 800 | 1 650"
+      "v": "Im Rahmen einer Studie wird jährlich die körperliche Leistungsfähigkeit bestimmter Personen untersucht. Das Ergebnis wird in Punkten angegeben. Modellhaft wird angenommen, dass diese Punktzahl mit zunehmendem Alter exponentiell abnimmt.\n\nLena ist eine dieser Personen. Von ihr sind folgende Daten bekannt:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{l|r|r}\\text{Alter in Jahren}&55&60\\\\\\hline\\text{Punktzahl}&1\\,800&1\\,650\\end{array}"
     }
   ]
 }

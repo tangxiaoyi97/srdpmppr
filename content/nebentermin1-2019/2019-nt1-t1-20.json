@@ -1,6 +1,6 @@
 {
   "id": "2019-nt1-t1-20",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_729a",
+          "id": "1_729",
           "baseId": "1_729",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/468/Datenliste.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -62,6 +62,10 @@
           "v": "Geben Sie den Wert k so an, dass das arithmetische Mittel der gesamten Datenliste den Wert 6 annimmt."
         },
         {
+          "t": "text",
+          "v": "\n"
+        },
+        {
           "t": "math",
           "v": "k="
         }
@@ -73,7 +77,7 @@
             "id": "k",
             "label": "k",
             "value": 6,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -100,8 +104,12 @@
       "v": "Gegeben ist die nachstehende geordnete Datenliste. Einer der Werte ist k mit k ∈ ℝ."
     },
     {
+      "t": "text",
+      "v": "\n\n"
+    },
+    {
       "t": "math",
-      "v": "1\\quad 2\\quad 3\\quad 5\\quad k\\quad 8\\quad 8\\quad 8\\quad 9\\quad 10"
+      "v": "\\begin{array}{|c|c|c|c|c|c|c|c|c|c|}\\hline 1&2&3&5&k&8&8&8&9&10\\\\\\hline\\end{array}"
     }
   ]
 }

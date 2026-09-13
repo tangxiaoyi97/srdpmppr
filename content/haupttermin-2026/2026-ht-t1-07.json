@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-07",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1597a",
+          "id": "1_1597",
           "baseId": "1_1597",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1117/1_1597_Orangensaft_PT1_26.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -81,11 +81,18 @@
         }
       ],
       "answer": {
-        "kind": "interval",
-        "lower": 1050.8,
-        "upper": 1100,
-        "lowerClosed": true,
-        "upperClosed": true
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "G(x)\\ge 16\\,000"
+          },
+          {
+            "t": "text",
+            "v": "Berechnung mittels Technologieeinsatz: 1050,8… ≤ x ≤ 1162,0…\nUnter Berücksichtigung der höchstens 1100 hl ist das größtmögliche Intervall [1050,8…; 1100]. Ein Punkt für das richtige Ermitteln des größtmöglichen Intervalls. Die untere Grenze darf mit angemessener Genauigkeit angegeben werden; äquivalente Schreibweisen des geschlossenen Intervalls sind zulässig."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",

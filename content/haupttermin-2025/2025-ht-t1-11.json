@@ -1,6 +1,6 @@
 {
   "id": "2025-ht-t1-11",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1459a",
+          "id": "1_1459",
           "baseId": "1_1459",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1029/1_1459_srdp_ma_Exponentialfunktion_PT1_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -68,11 +68,10 @@
       ],
       "answer": {
         "kind": "expression",
-        "canonical": "a*(c/a)^(x/3)",
+        "canonical": "\\sqrt[3]{\\dfrac{c}{a}}",
         "vars": [
           "a",
-          "c",
-          "x"
+          "c"
         ],
         "checker": "cas"
       },
@@ -133,7 +132,7 @@
     {
       "t": "fig",
       "src": "assets/pdf/haupttermin-2025/fig/2025-ht-t1-11-q.png",
-      "alt": "Graph einer steigenden Exponentialfunktion f; der Punkt P = (3 | c) liegt auf dem Graphen, c ist auf der vertikalen Achse markiert."
+      "alt": "Graph einer fallenden Exponentialfunktion f; der Punkt P = (3 | c) liegt auf dem Graphen, c ist auf der vertikalen Achse markiert."
     }
   ]
 }

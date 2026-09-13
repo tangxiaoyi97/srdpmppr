@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,113 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_615a",
+          "id": "1_615",
           "baseId": "1_615",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/336/Solaranlagen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Gesamtausgaben der Gemeinde zur Unterstützung der Haushalte bei den Anschaffungskosten für neue Solaranlagen an."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Interpretation.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretation:"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Term "
+        },
+        {
+          "t": "math",
+          "v": "h\\cdot e\\cdot\\frac{p}{100}"
+        },
+        {
+          "t": "text",
+          "v": " im angegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Term gibt die Gesamtausgaben der Gemeinde zur Unterstützung der Haushalte bei den Anschaffungskosten für neue Solaranlagen an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_615",
       "baseId": "1_615",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/336/Solaranlagen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Gemeinde unterstützt den Neubau von Solaranlagen in "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " Haushalten mit jeweils "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " % der Anschaffungskosten, wobei das arithmetische Mittel der Anschaffungskosten für eine Solaranlage für einen Haushalt in dieser Gemeinde "
+    },
+    {
+      "t": "math",
+      "v": "e"
+    },
+    {
+      "t": "text",
+      "v": " Euro beträgt."
     }
   ]
 }

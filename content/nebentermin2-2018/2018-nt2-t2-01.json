@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -22,14 +22,974 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt2-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2018-nt2-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=2\\cdot a\\cdot x+b"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(0)=b"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "x_P=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "f(x_P)=c\\Rightarrow P=(0\\mid c)"
+            },
+            {
+              "t": "text",
+              "v": "\n\nSteigung der Tangente: "
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": "\nAbschnitt auf der senkrechten Achse: "
+            },
+            {
+              "t": "math",
+              "v": "c"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow t(x)=b\\cdot x+c"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Koordinaten von P und einer korrekten Gleichung von t. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koordinaten desjenigen Punktes "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " des Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ", in dem der Anstieg der Tangente an den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " den Wert "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " hat, und geben Sie weiters eine (allgemeine) Gleichung dieser Tangente "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f'(x)=2\\cdot a\\cdot x+b"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f'(0)=b"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "x_P=0"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "f(x_P)=c\\Rightarrow P=(0\\mid c)"
+          },
+          {
+            "t": "text",
+            "v": "\n\nSteigung der Tangente: "
+          },
+          {
+            "t": "math",
+            "v": "b"
+          },
+          {
+            "t": "text",
+            "v": "\nAbschnitt auf der senkrechten Achse: "
+          },
+          {
+            "t": "math",
+            "v": "c"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow t(x)=b\\cdot x+c"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der richtigen Koordinaten von P und einer korrekten Gleichung von t. Äquivalente Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=25"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "b=9"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "c=4"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Werte von a, b und c.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "b=9"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "c=4"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f(-1)=a-9+4=20\\Rightarrow a=25"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koordinaten desjenigen Punktes "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " des Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ", in dem der Anstieg der Tangente an den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " den Wert "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " hat, und geben Sie weiters eine (allgemeine) Gleichung dieser Tangente "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Graph einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " verläuft durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "A=(-1\\mid20)"
+        },
+        {
+          "t": "text",
+          "v": " und hat im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " eine Tangente "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "t(x)=9\\cdot x+4"
+        },
+        {
+          "t": "text",
+          "v": ". Geben Sie für diese Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " die Werte von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "b=9"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "c=4"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f(-1)=a-9+4=20\\Rightarrow a=25"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=25"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "b=9"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "c=4"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der richtigen Werte von a, b und c."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-01-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\frac{b^2}{4\\cdot c}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "b^2-4\\cdot a\\cdot c=0\\Rightarrow a=\\frac{b^2}{4\\cdot c}"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " genau eine Nullstelle hat!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "b^2-4\\cdot a\\cdot c=0\\Rightarrow a=\\frac{b^2}{4\\cdot c}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=\\frac{b^2}{4\\cdot c}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-01-b2",
+      "label": "b2",
+      "format": "Konstruktionsformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Skizze:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-01-b2-sol.png",
+              "alt": "Nach oben geöffnete Parabel mit Scheitel auf der negativen x-Achse."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze, wobei der Scheitel erkennbar auf der negativen x-Achse liegen und die Parabel nach oben geöffnet sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Skizzieren Sie im nachstehenden Koordinatensystem einen möglichen Graphen einer solchen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit genau einer Nullstelle und "
+        },
+        {
+          "t": "math",
+          "v": "a>0"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "b>0"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "c>0"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-01-b2-q.png",
+          "alt": "Leeres Koordinatensystem für den Graphen einer quadratischen Funktion."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine korrekte Skizze, wobei der Scheitel erkennbar auf der negativen x-Achse liegen und die Parabel nach oben geöffnet sein muss."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=16\\cdot x^2+b\\cdot x+9"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=32\\cdot x+b=0\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Stelle des lokalen Extremums: "
+            },
+            {
+              "t": "math",
+              "v": "x_E=-\\frac b{32}"
+            },
+            {
+              "t": "text",
+              "v": "\nFunktionswert an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_E"
+            },
+            {
+              "t": "text",
+              "v": ": "
+            },
+            {
+              "t": "math",
+              "v": "f\\left(-\\frac b{32}\\right)=9-\\frac{b^2}{64}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe der beiden korrekten Werte."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie für "
+        },
+        {
+          "t": "math",
+          "v": "a=16"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c=9"
+        },
+        {
+          "t": "text",
+          "v": " sowohl die Stelle des lokalen Extremums der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " als auch den zugehörigen Funktionswert in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f(x)=16\\cdot x^2+b\\cdot x+9"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f'(x)=32\\cdot x+b=0\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Stelle des lokalen Extremums: "
+          },
+          {
+            "t": "math",
+            "v": "x_E=-\\frac b{32}"
+          },
+          {
+            "t": "text",
+            "v": "\nFunktionswert an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "x_E"
+          },
+          {
+            "t": "text",
+            "v": ": "
+          },
+          {
+            "t": "math",
+            "v": "f\\left(-\\frac b{32}\\right)=9-\\frac{b^2}{64}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die Angabe der beiden korrekten Werte."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g\\left(-\\frac b{32}\\right)=9-16\\cdot\\frac{b^2}{32^2}=9-\\frac{b^2}{64}"
+            },
+            {
+              "t": "text",
+              "v": ", dieser Ausdruck stimmt mit dem Funktionswert an der Stelle des lokalen Extremums der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " überein."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Nachweis. Andere korrekte Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie für "
+        },
+        {
+          "t": "math",
+          "v": "a=16"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c=9"
+        },
+        {
+          "t": "text",
+          "v": " sowohl die Stelle des lokalen Extremums der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " als auch den zugehörigen Funktionswert in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Zeigen Sie, dass dieser Extrempunkt unabhängig von der Wahl von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " auf dem Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "g(x)=9-16\\cdot x^2"
+        },
+        {
+          "t": "text",
+          "v": " liegt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "g\\left(-\\frac b{32}\\right)=9-16\\cdot\\frac{b^2}{32^2}=9-\\frac{b^2}{64}"
+          },
+          {
+            "t": "text",
+            "v": ", dieser Ausdruck stimmt mit dem Funktionswert an der Stelle des lokalen Extremums der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " überein."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für einen korrekten Nachweis. Andere korrekte Nachweise sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine quadratische Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^2+b\\cdot x+c"
+    },
+    {
+      "t": "text",
+      "v": " mit den Koeffizienten "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2020-ht-t1-17",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_774a",
+          "id": "1_774",
           "baseId": "1_774",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/558/Kurvenverlauf.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,7 +69,7 @@
             {
               "t": "fig",
               "src": "assets/pdf/haupttermin-2020/fig/2020-ht-t1-17-abb1.png",
-              "alt": "Abbildung 1: Graph von f mit Tangente t in P; der Graph steigt durch P, P ist einziger gemeinsamer Punkt (steigende Tangente, lokaler Verlauf nach oben gekrümmt)."
+              "alt": "Abbildung 1: Steigender Graph von f mit steigender Tangente t im markierten Punkt P; der Graph verläuft vor P unterhalb und nach P oberhalb der Tangente."
             }
           ],
           [
@@ -204,7 +204,31 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Die unten links stehenden Abbildungen zeigen jeweils die Tangente t in einem Punkt P = (xₚ | f(xₚ)) des Graphen einer Polynomfunktion f. Dabei ist P der einzige gemeinsame Punkt des Graphen von f und der Tangente t. In der unten rechts stehenden Tabelle sind Aussagen über f′(xₚ) und f″(xₚ) gegeben."
+      "v": "Die unten links stehenden Abbildungen zeigen jeweils die Tangente t in einem Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(x_P\\mid f(x_P))"
+    },
+    {
+      "t": "text",
+      "v": " des Graphen einer Polynomfunktion f. Dabei ist P der einzige gemeinsame Punkt des Graphen von f und der Tangente t. In der unten rechts stehenden Tabelle sind Aussagen über "
+    },
+    {
+      "t": "math",
+      "v": "f'(x_P)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f''(x_P)"
+    },
+    {
+      "t": "text",
+      "v": " gegeben."
     }
   ]
 }

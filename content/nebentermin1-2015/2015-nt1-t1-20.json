@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_426a",
+          "id": "1_426",
           "baseId": "1_426",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/134/Statistische%20Kennzahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Standardabweichung\nSpannweite"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche statistischen Kennzahlen der Liste bleiben gleich, wenn jeder Wert der Liste um 1 erhöht wird? Kreuzen Sie die beiden zutreffenden Antworten an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Standardabweichung"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Spannweite"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Median"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Modus"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_426",
       "baseId": "1_426",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/134/Statistische%20Kennzahlen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Liste mit "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " natürlichen Zahlen "
+    },
+    {
+      "t": "math",
+      "v": "a_1,a_2,\\ldots,a_n"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

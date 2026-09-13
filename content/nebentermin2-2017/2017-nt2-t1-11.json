@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,147 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_531a",
+          "id": "1_531",
           "baseId": "1_531",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/240/Wachstum%20einer%20Population.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p\\approx12{,}6\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [12 %; 13 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie denjenigen Prozentsatz "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ", um den die Population pro Stunde wächst!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "p\\approx"
+        },
+        {
+          "t": "text",
+          "v": " __________ %"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "p ≈ 12,6 %, Toleranzintervall: [12 %; 13 %]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_531",
       "baseId": "1_531",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/240/Wachstum%20einer%20Population.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Größe einer Population wird in Abhängigkeit von der Zeit mithilfe der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot e^{0{,}1188\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben, wobei die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Stunden angegeben wird. Dabei bezeichnet "
+    },
+    {
+      "t": "math",
+      "v": "N_0"
+    },
+    {
+      "t": "text",
+      "v": " die Größe der Population zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "N(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Größe der Population zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t\\geq0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

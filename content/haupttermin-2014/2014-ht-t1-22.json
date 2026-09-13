@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,129 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_328a",
+          "id": "1_328",
           "baseId": "1_328",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/40/Haus%C3%BCbungskontrolle.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P("
+            },
+            {
+              "t": "text",
+              "v": "„2 Burschen, 1 Mädchen“"
+            },
+            {
+              "t": "math",
+              "v": ")=\\frac{12}{20}\\cdot\\frac{11}{19}\\cdot\\frac8{18}\\cdot3=\\frac{44}{95}\\approx0{,}46=46\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen des Ergebnisses (als Bruch, Dezimalzahl oder in Prozenten) ist als richtig zu werten. Toleranzintervall: [0,46; 0,47] bzw. [46 %; 47 %]. Sollte als Lösungsmethode die hypergeometrische Verteilung gewählt werden, ist dies auch als richtig zu werten.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Alternativ: "
+            },
+            {
+              "t": "math",
+              "v": "P(E)=\\frac{\\binom{12}{2}\\cdot\\binom81}{\\binom{20}{3}}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit, dass für das Erklären der Lösungsansätze 2 Burschen und 1 Mädchen ausgewählt werden!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Alternativ: "
+          },
+          {
+            "t": "math",
+            "v": "P(E)=\\frac{\\binom{12}{2}\\cdot\\binom81}{\\binom{20}{3}}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„2 Burschen, 1 Mädchen“"
+          },
+          {
+            "t": "math",
+            "v": ")=\\frac{12}{20}\\cdot\\frac{11}{19}\\cdot\\frac8{18}\\cdot3=\\frac{44}{95}\\approx0{,}46=46\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen des Ergebnisses (als Bruch, Dezimalzahl oder in Prozenten) ist als richtig zu werten. Toleranzintervall: [0,46; 0,47] bzw. [46 %; 47 %]. Sollte als Lösungsmethode die hypergeometrische Verteilung gewählt werden, ist dies auch als richtig zu werten."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_328",
       "baseId": "1_328",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/40/Haus%C3%BCbungskontrolle.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Lehrerin wählt am Beginn der Mathematikstunde nach dem Zufallsprinzip 3 Schüler/innen aus, die an der Tafel die Lösungsansätze der Hausübungsaufgaben erklären müssen. Es sind 12 Burschen und 8 Mädchen anwesend."
     }
   ]
 }

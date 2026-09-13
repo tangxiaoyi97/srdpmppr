@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,120 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_368a",
+          "id": "1_368",
           "baseId": "1_368",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/76/Steigungswinkel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac7{100}"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=\\arctan\\left(\\frac7{100}\\right)"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha=\\tan^{-1}\\left(\\frac7{100}\\right)"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Formel. Korrekte äquivalente Schreibweisen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel zur Berechnung des Gradmaßes des Steigungswinkels "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " dieser Straße an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac7{100}"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=\\arctan\\left(\\frac7{100}\\right)"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=\\tan^{-1}\\left(\\frac7{100}\\right)"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_368",
       "baseId": "1_368",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/76/Steigungswinkel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das nachstehend abgebildete Verkehrszeichen besagt, dass eine Straße auf einer horizontalen Entfernung von 100 m um 7 m an Höhe gewinnt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-06-sign.png",
+      "alt": "Originales Verkehrszeichen mit 7 % Steigung."
     }
   ]
 }

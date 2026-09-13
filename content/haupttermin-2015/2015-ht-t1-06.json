@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,151 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_416a",
+          "id": "1_416",
           "baseId": "1_416",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/124/Sehwinkel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g=2\\cdot r\\cdot\\tan\\left(\\frac\\alpha2\\right)"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha\\in(0;180^\\circ)"
+            },
+            {
+              "t": "text",
+              "v": " bzw. "
+            },
+            {
+              "t": "math",
+              "v": "\\alpha\\in(0;\\pi)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel, wobei der Definitionsbereich von α nicht angegeben werden muss. Äquivalente Ausdrücke sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel an, mit der die reale Ausdehnung "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " dieses Objekts mithilfe von "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "r"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "g="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2r\\tan\\left(\\frac{\\alpha}{2}\\right)",
+        "vars": [
+          "r",
+          "alpha"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_416",
       "baseId": "1_416",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/124/Sehwinkel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Sehwinkel ist derjenige Winkel, unter dem ein Objekt von einem Beobachter wahrgenommen wird. Die nachstehende Abbildung verdeutlicht den Zusammenhang zwischen dem Sehwinkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha"
+    },
+    {
+      "t": "text",
+      "v": ", der Entfernung "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " und der realen („wahren“) Ausdehnung "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " eines Objekts in zwei Dimensionen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-06-visual-angle.png",
+      "alt": "Originalskizze von Sehwinkel α, Entfernung r und Objektausdehnung g."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://upload.wikimedia.org/wikipedia/commons/d/d3/ScheinbareGroesse.png [22.01.2015] (adaptiert)"
     }
   ]
 }

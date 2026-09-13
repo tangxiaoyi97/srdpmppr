@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -24,12 +24,93 @@
     {
       "id": "2017-ht-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Ein anhand der erhobenen Daten ermitteltes 90-%-Konfidenzintervall hätte eine geringere Intervallbreite.\nUnter der Voraussetzung, dass der Anteil der Partei-A-Wähler/innen in der Stichprobe gleich bleibt, würde eine Vergrößerung der Stichprobe zu einer Verkleinerung des 95-%-Konfidenzintervalls führen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Aussagen sind in diesem Zusammenhang auf jeden Fall korrekt?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass eine zufällig ausgewählte wahlberechtigte Person die Partei A wählt, liegt sicher zwischen 9,8 % und 12,2 %."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ein anhand der erhobenen Daten ermitteltes 90-%-Konfidenzintervall hätte eine geringere Intervallbreite."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Unter der Voraussetzung, dass der Anteil der Partei-A-Wähler/innen in der Stichprobe gleich bleibt, würde eine Vergrößerung der Stichprobe zu einer Verkleinerung des 95-%-Konfidenzintervalls führen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "95 von 100 Personen geben an, die Partei A mit einer Wahrscheinlichkeit von 11 % zu wählen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Partei A einen Stimmenanteil von mehr als 12,2 % erhält, beträgt 5 %."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Um den Stimmenanteil einer bestimmten Partei A in der Grundgesamtheit zu schätzen, wird eine zufällig aus allen Wahlberechtigten ausgewählte Personengruppe befragt.\nDie Umfrage ergibt für den Stimmenanteil ein 95-%-Konfidenzintervall von [9,8 %; 12,2 %]."
+    }
+  ]
 }

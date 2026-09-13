@@ -80,7 +80,8 @@
             "id": "p",
             "label": "p",
             "value": 3.75,
-            "tol": 1e-9
+            "tol": 1e-09,
+            "unit": "Euro"
           }
         ]
       },
@@ -144,6 +145,30 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Das Unternehmen Pistazienwunder füllt Pistazien in Packungen ab und verkauft sie.\n\nDie Kosten für die Produktion dieser Packungen werden durch die Polynomfunktion K modellhaft beschrieben. Der Erlös aus dem Verkauf dieser Packungen wird durch die lineare Funktion E modellhaft beschrieben.\n\nEs wird angenommen, dass alle produzierten Packungen auch verkauft werden.\n\nEs gilt:\n"
+        },
+        {
+          "t": "math",
+          "v": "K(x)=\\tfrac{x^{3}}{10^{6}}-\\tfrac{15\\cdot x^{2}}{10^{4}}+1{,}5\\cdot x+1\\,000"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "E(x)=p\\cdot x"
+        },
+        {
+          "t": "text",
+          "v": "\nx ... Anzahl der produzierten und verkauften Packungen\nK(x) ... Kosten für die Produktion von x Packungen in Euro\nE(x) ... Erlös aus dem Verkauf von x Packungen in Euro\np ... Verkaufspreis in Euro pro Packung\n\nDer maximale Gewinn wird beim Verkauf von 1 500 Packungen erzielt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Dem Unternehmen Pistazienwunder gelingt es, die Fixkosten für die Produktion der Packungen zu senken. Alle anderen Rahmenbedingungen bleiben unverändert.\n\nLisa behauptet: „Obwohl die Fixkosten geringer sind, wird weiterhin bei einem Verkauf von 1 500 Pistazien-Packungen der maximale Gewinn erzielt.“\n\nBegründen Sie, warum Lisas Behauptung richtig ist."
         }
       ],
@@ -173,7 +198,7 @@
           "result": [
             {
               "t": "text",
-              "v": "Der Funktionsgraph der Kostenfunktion und der Funktionsgraph der Gewinnfunktion werden durch die (Änderung der) Fixkosten nur in vertikaler Richtung verschoben. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.)"
+              "v": "Der Funktionsgraph der Kostenfunktion und der Funktionsgraph der Gewinnfunktion werden durch die (Änderung der) Fixkosten nur in vertikaler Richtung verschoben. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.) oder: Beim Ableiten der Gewinnfunktion fällt derjenige Koeffizient weg, der sich aus den Fixkosten ergibt. (Daher ist die Maximumstelle der Gewinnfunktion unabhängig von den Fixkosten.)"
             }
           ],
           "note": "a2) Ein Punkt für das richtige Begründen."
@@ -183,7 +208,7 @@
     {
       "id": "2026-ht-t2-04-b1",
       "label": "b1",
-      "format": "Lückentext",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 2.2",
@@ -243,20 +268,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "pA",
-            "label": "pA",
-            "value": 9.39,
-            "tol": 0.1,
-            "unit": "%"
+            "t": "text",
+            "v": "Flächeninhalt der grau markierten Fläche: "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\left(\\int_{0}^{2} f(x)\\,dx-12\\right)=\\tfrac{40}{3}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "p_A=\\dfrac{\\tfrac{40}{3}}{\\tfrac{40}{3}+18\\cdot\\pi+72}"
+          },
+          {
+            "t": "math",
+            "v": "p_A=9{,}39\\ldots\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "b1) Ein Punkt für das richtige Berechnen von pA."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "FlächenanteilpA=9,39…%; Prozentangabe wie verlangt.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -268,7 +320,7 @@
             },
             {
               "t": "math",
-              "v": "2\\cdot\\int_{0}^{2} f(x)\\,dx-12=\\tfrac{40}{3}"
+              "v": "2\\cdot\\left(\\int_{0}^{2} f(x)\\,dx-12\\right)=\\tfrac{40}{3}"
             },
             {
               "t": "text",
@@ -312,6 +364,47 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Das Logo des Unternehmens Pistazienwunder hat die Form einer Pistazie in der Ansicht von der Seite (siehe nebenstehende Abbildung)."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-04-b.png",
+          "alt": "Koordinatensystem mit dem Logo: Graph von f (nach unten geöffnete Parabel, grau markierter kleinerer Teil), die Geraden g₁ (links) und g₂ (rechts) sowie ein Halbkreis mit Mittelpunkt M = (0 | 0) und Radius r = 6 begrenzen den größeren Teil."
+        },
+        {
+          "t": "text",
+          "v": "Es gilt:\n"
+        },
+        {
+          "t": "math",
+          "v": "g_1(x)=k_1\\cdot x+d_1\\ \\text{mit}\\ -6\\le x\\le -3"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "g_2(x)=k_2\\cdot x+d_2\\ \\text{mit}\\ 3\\le x\\le 6"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}5\\cdot x^{2}+10\\ \\text{mit}\\ -2\\le x\\le 2"
+        },
+        {
+          "t": "text",
+          "v": "\nx, f(x), g₁(x), g₂(x) ... Maße in Längeneinheiten (LE)\nk₁, k₂, d₁, d₂ ... reelle Parameter\n\nDer größere Teil des Logos wird von den Graphen der Funktionen g₁ und g₂ und zwei weiteren Strecken sowie von einem Halbkreis mit dem Mittelpunkt M = (0 | 0) und dem Radius r = 6 LE begrenzt.\n\nDer kleinere Teil des Logos wird vom Graphen der Funktion f und von zwei Strecken begrenzt und ist in der Abbildung grau markiert dargestellt.\n\nDie Eckpunkte des größeren Teils des Logos haben ganzzahlige Koordinaten."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Ergänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht."

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -24,12 +24,83 @@
     {
       "id": "2018-nt1-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n>500"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie alle "
+        },
+        {
+          "t": "math",
+          "v": "n\\in\\mathbb{N}"
+        },
+        {
+          "t": "text",
+          "v": " an, für die dieser Fall unter der angegebenen Bedingung eintritt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "n>500"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Spielzeuge produzierendes Unternehmen führt in einer Gemeinde in 500 zufällig ausgewählten Haushalten eine Befragung durch und erhält ein 95-%-Konfidenzintervall für den unbekannten Anteil aller Haushalte dieser Gemeinde, die die Spielzeuge dieses Unternehmens kennen.\n\nBei einer anderen Befragung von "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " zufällig ausgewählten Haushalten ergab sich derselbe Wert für die relative Häufigkeit. Das aus dieser Befragung mit derselben Berechnungsmethode ermittelte symmetrische 95-%-Konfidenzintervall hatte aber eine geringere Breite als jenes aus der ersten Befragung."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -24,12 +24,177 @@
     {
       "id": "2018-nt2-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Somit liegt die Sicherheit dieses Konfidenzintervalls bei ca. 93,56 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [93 %; 94 %]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "n=1\\,000"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h=\\frac{30}{1\\,000}=0{,}03"
+            },
+            {
+              "t": "text",
+              "v": "   Intervallbreite des Konfidenzintervalls = 0,02\naus "
+            },
+            {
+              "t": "math",
+              "v": "z\\cdot\\sqrt{\\frac{h\\cdot(1-h)}n}=0{,}01"
+            },
+            {
+              "t": "text",
+              "v": " folgt: "
+            },
+            {
+              "t": "math",
+              "v": "z\\approx1{,}85"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\phi(1{,}85)\\approx0{,}9678"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\Rightarrow\\gamma=2\\cdot\\phi(1{,}85)-1\\approx0{,}9356"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie unter Verwendung einer die Binomialverteilung approximierenden Normalverteilung die Sicherheit dieses Konfidenzintervalls!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Somit liegt die Sicherheit dieses Konfidenzintervalls bei ca. 93,56 %.\nMögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "n=1\\,000"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h=\\frac{30}{1\\,000}=0{,}03"
+          },
+          {
+            "t": "text",
+            "v": "   Intervallbreite des Konfidenzintervalls = 0,02\naus "
+          },
+          {
+            "t": "math",
+            "v": "z\\cdot\\sqrt{\\frac{h\\cdot(1-h)}n}=0{,}01"
+          },
+          {
+            "t": "text",
+            "v": " folgt: "
+          },
+          {
+            "t": "math",
+            "v": "z\\approx1{,}85"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "\\phi(1{,}85)\\approx0{,}9678"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\Rightarrow\\gamma=2\\cdot\\phi(1{,}85)-1\\approx0{,}9356"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [93 %; 94 %]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Abfüllanlagen eines Betriebes müssen in bestimmten Zeitabständen überprüft und eventuell neu eingestellt werden.\n\nNach der Einstellung einer Abfüllanlage sind von 1 000 überprüften Packungen 30 nicht ordnungsgemäß befüllt. Für den unbekannten relativen Anteil "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " der nicht ordnungsgemäß befüllten Packungen wird vom Betrieb das symmetrische Konfidenzintervall "
+    },
+    {
+      "t": "math",
+      "v": "[0{,}02;0{,}04]"
+    },
+    {
+      "t": "text",
+      "v": " angegeben."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t1-06",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_691a",
+          "id": "1_691",
           "baseId": "1_691",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/424/Dreieck.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -79,12 +79,24 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "rt",
-            "value": 0.35,
-            "tol": 0.05
+            "t": "math",
+            "v": "\\frac{r}{t}=\\cos(70^\\circ)"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{r}{t}\\approx 0{,}34"
+          },
+          {
+            "t": "text",
+            "v": "\n[0 / 1 Punkt] Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall: [0,3; 0,4] Grundkompetenz: AG 4.1"
           }
         ]
       },

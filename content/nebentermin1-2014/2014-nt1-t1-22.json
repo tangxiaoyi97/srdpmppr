@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_352a",
+          "id": "1_352",
           "baseId": "1_352",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/63/Binomialkoeffizient.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Gegeben sind sechs verschiedene Punkte einer Ebene, von denen nie mehr als zwei auf einer Geraden liegen. Wie viele Möglichkeiten gibt es, zwei Punkte auszuwählen, um jeweils eine Gerade durchzulegen?\n\nVon sechs Kugeln sind vier rot und zwei blau. Sie unterscheiden sich nur durch ihre Farbe. Wie viele Möglichkeiten gibt es, die Kugeln in einer Reihe anzuordnen?"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aufgabenstellungen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aufgabenstellungen an, die mit der Rechnung "
+        },
+        {
+          "t": "math",
+          "v": "\\binom62=15"
+        },
+        {
+          "t": "text",
+          "v": " gelöst werden können!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Gegeben sind sechs verschiedene Punkte einer Ebene, von denen nie mehr als zwei auf einer Geraden liegen. Wie viele Möglichkeiten gibt es, zwei Punkte auszuwählen, um jeweils eine Gerade durchzulegen?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "An einem Wettrennen nehmen sechs Personen teil. Wie viele Möglichkeiten gibt es für den Zieleinlauf, wenn nur die ersten beiden Plätze relevant sind?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Von sechs Kugeln sind vier rot und zwei blau. Sie unterscheiden sich nur durch ihre Farbe. Wie viele Möglichkeiten gibt es, die Kugeln in einer Reihe anzuordnen?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Sechs Mädchen einer Schulklasse kandidieren für das Amt der Klassensprecherin. Die Siegerin der Wahl soll Klassensprecherin werden, die Zweitplatzierte deren Stellvertreterin. Wie viele Möglichkeiten gibt es für die Vergabe der beiden Ämter?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wie viele sechsstellige Zahlen können aus den Ziffern 6 und 2 gebildet werden?"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_352",
       "baseId": "1_352",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/63/Binomialkoeffizient.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Betrachtet wird der Binomialkoeffizient "
+    },
+    {
+      "t": "math",
+      "v": "\\binom62"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

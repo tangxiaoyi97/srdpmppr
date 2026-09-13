@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,24 @@
     {
       "id": "2020-nt2-t2-02-a1",
       "label": "a1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058a",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -38,24 +53,52 @@
         },
         {
           "t": "text",
-          "v": " beschreibt eine Bahnkurve eines Tennisballs bis zu derjenigen Stelle, an der der Tennisball erstmals den Boden berührt. Dabei gibt x die waagrechte Entfernung des Tennisballs vom Abschlagpunkt und f(x) die Flughöhe des Tennisballs über dem Boden an (x und f(x) in m). Die Flugbahn des Tennisballs startet zwischen den Seitenlinien an der Grundlinie und die Ebene, in der die Flugbahn liegt, verläuft parallel zur Seitenlinie des Tennisfelds.\n\nGeben Sie an, in welcher waagrechten Entfernung vom Abschlagpunkt der Tennisball seine maximale Höhe erreicht.\n\nwaagrechte Entfernung vom Abschlagpunkt:"
+          "v": " beschreibt eine Bahnkurve eines Tennisballs bis zu derjenigen Stelle, an der der Tennisball erstmals den Boden berührt. Dabei gibt x die waagrechte Entfernung des Tennisballs vom Abschlagpunkt und f(x) die Flughöhe des Tennisballs über dem Boden an (x und f(x) in m). Die Flugbahn des Tennisballs startet zwischen den Seitenlinien an der Grundlinie und die Ebene, in der die Flugbahn liegt, verläuft parallel zur Seitenlinie des Tennisfelds.\n\nGeben Sie an, in welcher waagrechten Entfernung vom Abschlagpunkt der Tennisball seine maximale Höhe erreicht.\n\nwaagrechte Entfernung vom Abschlagpunkt: __________ m"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "x",
-            "value": 12.45,
-            "tol": 0.05,
-            "unit": "m"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f'(x)=0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "-0{,}0021\\cdot x^{2}+0{,}01\\cdot x+0{,}2=0\\ \\Rightarrow\\ x_1=12{,}42\\ldots\\ (x_2=-7{,}66\\ldots)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "waagrechte Entfernung vom Abschlagpunkt: ca. 12,4 m"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [12,4 m; 12,5 m] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [12,4 m; 12,5 m] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -91,10 +134,41 @@
     {
       "id": "2020-nt2-t2-02-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058a",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion f: ℝ₀⁺ → ℝ mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}0007\\cdot x^{3}+0{,}005\\cdot x^{2}+0{,}2\\cdot x+0{,}4"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt eine Bahnkurve eines Tennisballs bis zu derjenigen Stelle, an der der Tennisball erstmals den Boden berührt. Dabei gibt x die waagrechte Entfernung des Tennisballs vom Abschlagpunkt und f(x) die Flughöhe des Tennisballs über dem Boden an (x und f(x) in m). Die Flugbahn des Tennisballs startet zwischen den Seitenlinien an der Grundlinie und die Ebene, in der die Flugbahn liegt, verläuft parallel zur Seitenlinie des Tennisfelds."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Überprüfen Sie rechnerisch, ob der Tennisball im gegnerischen Spielfeld oder hinter der Grundlinie landet."
@@ -142,9 +216,24 @@
     {
       "id": "2020-nt2-t2-02-b1",
       "label": "b1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058b",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -201,31 +290,97 @@
     {
       "id": "2020-nt2-t2-02-b2",
       "label": "b2",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058b",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
-          "v": "Ein Tennisball trifft mit der Geschwindigkeit v₁ = 4,4 m/s lotrecht auf dem Boden auf. Der Restitutionskoeffizient beträgt für diesen Tennisball r = 0,6. Die Kontaktzeit mit dem Boden beträgt 0,01 s.\n\nBerechnen Sie die durchschnittliche Beschleunigung a (in m/s²) des Tennisballs in vertikaler Richtung beim Aufprall (während der Kontaktzeit).\n\na ="
+          "v": "Fällt ein Tennisball lotrecht (ohne Drehung) auf den Boden, so springt er wieder lotrecht zurück. Der Restitutionskoeffizient r ist ein Maß für die Sprungfähigkeit des Tennisballs.\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "r=\\dfrac{v_2}{v_1}"
+        },
+        {
+          "t": "text",
+          "v": ", wobei v₁ der Betrag der Geschwindigkeit des Tennisballs vor und v₂ der Betrag der Geschwindigkeit des Tennisballs nach dem Aufprall ist.\n\nDie Differenz der vertikalen Geschwindigkeiten unmittelbar vor und nach dem Aufprall ist aufgrund der unterschiedlichen Bewegungsrichtungen des Tennisballs definiert durch: "
+        },
+        {
+          "t": "math",
+          "v": "\\Delta v=v_2-(-v_1)"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ein Tennisball trifft mit der Geschwindigkeit v₁ = 4,4 m/s lotrecht auf dem Boden auf. Der Restitutionskoeffizient beträgt für diesen Tennisball r = 0,6. Die Kontaktzeit mit dem Boden beträgt 0,01 s.\n\nBerechnen Sie die durchschnittliche Beschleunigung a (in m/s²) des Tennisballs in vertikaler Richtung beim Aufprall (während der Kontaktzeit).\n\na = __________ m/s²"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 705,
-            "tol": 5,
-            "unit": "m/s²"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\Delta v=v_1\\cdot(1+r)=4{,}4\\cdot(1+0{,}6)=7{,}04"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=7{,}04:0{,}01=704"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=704\\ \\text{m/s}^{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für die richtige Lösung. Toleranzintervall für a: [700 m/s²; 710 m/s²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für die richtige Lösung. Toleranzintervall für a: [700 m/s²; 710 m/s²] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -261,9 +416,24 @@
     {
       "id": "2020-nt2-t2-02-c1",
       "label": "c1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058c",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -317,10 +487,42 @@
     {
       "id": "2020-nt2-t2-02-c2",
       "label": "c2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_058c",
+          "baseId": "2_058",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Fünf-Satz-Tennismatch gewinnt ein Spieler, sobald er drei Sätze gewonnen hat. Für einen Satzgewinn müssen in der Regel sechs Games gewonnen werden, wobei es für jedes gewonnene Game einen Punkt gibt.\n\nFür unterschiedliche Wahrscheinlichkeiten p für ein gewonnenes Game wurden die daraus resultierenden Wahrscheinlichkeiten m für einen Matchgewinn bei einem Fünf-Satz-Match ermittelt. In der nachstehenden Tabelle sind diese Wahrscheinlichkeiten angeführt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2020/fig/2020-nt2-t2-02-c-tab.png",
+          "alt": "Tabelle: p | m — 0,5 | 0,5; 0,51 | 0,6302; 0,55 | 0,9512; 0,6 | 0,9995; 0,7 | 1,000."
+        },
+        {
+          "t": "text",
+          "v": "Die Wahrscheinlichkeit, dass Spieler A ein Game gewinnt, ist um 2 Prozentpunkte höher als die Wahrscheinlichkeit, dass sein Gegenspieler B ein Game gewinnt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Gegenüber einem anderen, schwächeren Gegenspieler C hat Spieler A einen Vorteil von 10 Prozentpunkten, ein Game zu gewinnen.\n\nZeigen Sie, dass die Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Gegenspieler C gewinnt, um 50,94 Prozent höher ist als bei einem Fünf-Satz-Match gegen B."
@@ -333,6 +535,10 @@
           {
             "t": "text",
             "v": "Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler C gewinnt: 0,9512. Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler B gewinnt: 0,6302. 0,9512 / 0,6302 = 1,50936… ≈ 1,5094 ⇒ 0,9512 ist um ca. 50,94 Prozent höher als 0,6302."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc2) Ein Punkt für einen richtigen rechnerischen Nachweis. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ],
         "grader": "ai"
@@ -341,7 +547,7 @@
         "mode": "rubric",
         "criteria": [
           {
-            "desc": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis.",
+            "desc": "c2) Ein Punkt für einen richtigen rechnerischen Nachweis. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
             "points": 1
           }
         ]
@@ -352,7 +558,7 @@
           "steps": [
             {
               "t": "text",
-              "v": "Wahrscheinlichkeit gegen C: 0,9512; Wahrscheinlichkeit gegen B: 0,6302\n"
+              "v": "Wahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler C gewinnt: 0,9512\nWahrscheinlichkeit, dass Spieler A ein Fünf-Satz-Match gegen Spieler B gewinnt: 0,6302\n"
             },
             {
               "t": "math",
@@ -370,11 +576,30 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 26 (Teil 2)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=28",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "2_058",
+      "baseId": "2_058",
+      "url": "https://www.aufgabenpool.at/amn/Typ-2/535/Tennis.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",
       "v": "Tennis ist ein Rückschlagspiel zwischen zwei oder vier Personen, bei dem ein Tennisball über ein Netz geschlagen werden muss. Das Spielfeld ist rechteckig und wird durch ein Netz in zwei Hälften geteilt (siehe Abbildung 1). Für ein Spiel zwischen zwei Personen ist der Platz 23,77 m lang und 8,23 m breit. Das Spielfeld wird durch die Grundlinien und die Seitenlinien begrenzt. Das Netz weist eine maximale Höhe von 1,07 m auf."
+    },
+    {
+      "t": "text",
+      "v": "\n\nAbbildung 1:\n"
     },
     {
       "t": "fig",

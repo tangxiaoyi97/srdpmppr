@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -22,14 +22,459 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-ht-t2-01-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Daten eines Beschleunigungstests vom Stillstand bis zur Höchstgeschwindigkeit (die Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)"
+        },
+        {
+          "t": "text",
+          "v": " ist in Metern pro Sekunde und die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden angegeben) sind im nachstehenden Zeit-Geschwindigkeit-Diagramm näherungsweise dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-01-velocity.png",
+          "alt": "Original-Zeit-Geschwindigkeitsdiagramm des ICE-Beschleunigungstests"
+        },
+        {
+          "t": "text",
+          "v": "\nBestimmen Sie die mittlere Änderungsrate der Geschwindigkeit im Zeitintervall [0 s; 700 s] und geben Sie einen Zeitpunkt an, zu dem die momentane Änderungsrate der Geschwindigkeit größer ist als die ermittelte mittlere Änderungsrate!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "rate",
+            "label": "mittlere Änderungsrate (m/s²)",
+            "value": 0.1315,
+            "tol": 0.0015,
+            "unit": "m/s²"
+          },
+          {
+            "id": "time",
+            "label": "Zeitpunkt (s)",
+            "value": 115,
+            "tol": 115,
+            "unit": "s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mittlere Änderungsrate: 0,131 m/s²\nmöglicher Zeitpunkt für die momentane Änderungsrate: "
+            },
+            {
+              "t": "math",
+              "v": "t=150"
+            },
+            {
+              "t": "text",
+              "v": " s"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe sowohl einer korrekten mittleren Änderungsrate als auch eines entsprechenden Zeitpunkts, wobei die Einheiten „m/s²“ bzw. „s“ nicht angeführt sein müssen. Toleranzintervall für die mittlere Änderungsrate: [0,130 m/s²; 0,133 m/s²] Toleranzintervall für den Zeitpunkt: [0 s; 230 s]"
+        }
+      ],
+      "id": "2016-ht-t2-01-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Daten eines Beschleunigungstests vom Stillstand bis zur Höchstgeschwindigkeit (die Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_1(t)"
+        },
+        {
+          "t": "text",
+          "v": " ist in Metern pro Sekunde und die Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden angegeben) sind im nachstehenden Zeit-Geschwindigkeit-Diagramm näherungsweise dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-01-velocity.png",
+          "alt": "Original-Zeit-Geschwindigkeitsdiagramm des ICE-Beschleunigungstests"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Interpretieren Sie das bestimmte Integral "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^{700}v_1(t)\\,\\mathrm{d}t"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Wert des angegebenen bestimmten Integrals entspricht dem im Zeitintervall [0 s; 700 s] zurückgelegten Weg (in Metern)."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Wert des angegebenen bestimmten Integrals entspricht dem im Zeitintervall [0 s; 700 s] zurückgelegten Weg (in Metern)."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "id": "2016-ht-t2-01-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Bremstest werden Daten aufgezeichnet. Diesen Daten kann man für den zurückgelegten Weg "
+        },
+        {
+          "t": "math",
+          "v": "s(t)"
+        },
+        {
+          "t": "text",
+          "v": " entnehmen: "
+        },
+        {
+          "t": "math",
+          "v": "s(t)=70\\cdot t-0{,}25\\cdot t^2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden und "
+        },
+        {
+          "t": "math",
+          "v": "s(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Metern ab Bremsbeginn.\n\nGeben Sie die Zeit-Geschwindigkeit-Funktion "
+        },
+        {
+          "t": "math",
+          "v": "v_2"
+        },
+        {
+          "t": "text",
+          "v": " für den Bremstest in Form von "
+        },
+        {
+          "t": "math",
+          "v": "v_2(t)=k\\cdot t+d"
+        },
+        {
+          "t": "text",
+          "v": " an und deuten Sie die auftretenden Parameter "
+        },
+        {
+          "t": "math",
+          "v": "k"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "v_2(t)=70-0{,}5\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Deutungen von "
+          },
+          {
+            "t": "math",
+            "v": "k"
+          },
+          {
+            "t": "text",
+            "v": ":\nDie Geschwindigkeit nimmt während des Bremsvorgangs in jeder Sekunde (konstant) um 0,5 m/s ab.\n\noder:\nDie Beschleunigung (ist konstant und) beträgt –0,5 m/s².\n\noder:\nDie Verzögerung durch das Bremsen (ist konstant und) beträgt 0,5 m/s².\n\nMögliche Deutung von "
+          },
+          {
+            "t": "math",
+            "v": "d"
+          },
+          {
+            "t": "text",
+            "v": ":\nDie Geschwindigkeit zu Beginn des Bremsvorgangs beträgt 70 m/s."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Gleichung und eine (sinngemäß) korrekte Deutung beider Parameter. Äquivalente Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_2(t)=70-0{,}5\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Deutungen von "
+            },
+            {
+              "t": "math",
+              "v": "k"
+            },
+            {
+              "t": "text",
+              "v": ":\nDie Geschwindigkeit nimmt während des Bremsvorgangs in jeder Sekunde (konstant) um 0,5 m/s ab.\n\noder:\nDie Beschleunigung (ist konstant und) beträgt –0,5 m/s².\n\noder:\nDie Verzögerung durch das Bremsen (ist konstant und) beträgt 0,5 m/s².\n\nMögliche Deutung von "
+            },
+            {
+              "t": "math",
+              "v": "d"
+            },
+            {
+              "t": "text",
+              "v": ":\nDie Geschwindigkeit zu Beginn des Bremsvorgangs beträgt 70 m/s."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung und eine (sinngemäß) korrekte Deutung beider Parameter. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "id": "2016-ht-t2-01-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Bremstest werden Daten aufgezeichnet. Diesen Daten kann man für den zurückgelegten Weg "
+        },
+        {
+          "t": "math",
+          "v": "s(t)"
+        },
+        {
+          "t": "text",
+          "v": " entnehmen: "
+        },
+        {
+          "t": "math",
+          "v": "s(t)=70\\cdot t-0{,}25\\cdot t^2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden und "
+        },
+        {
+          "t": "math",
+          "v": "s(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Metern ab Bremsbeginn.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Länge derjenigen Strecke, die der ICE vom Bremsbeginn bis zum Stillstand zurücklegt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Strecke",
+            "value": 4900,
+            "tol": 1e-09,
+            "unit": "m"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_2(t)=0\\Rightarrow t=140\\,\\mathrm{s}\\Rightarrow s(140)=4\\,900\\,\\mathrm{m}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss."
+        }
+      ],
+      "id": "2016-ht-t2-01-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Als ICE werden verschiedene Baureihen von Hochgeschwindigkeitszügen der Deutschen Bahn bezeichnet. Mit einer Höchstgeschwindigkeit von bis zu 330 km/h (rund 91,7 m/s) handelt es sich dabei um die schnellsten Züge Deutschlands. Sie sind ca. 200 Meter lang und ca. 400 Tonnen schwer und bestehen aus jeweils acht Wagen. Im Rahmen von Zulassungsfahrten müssen Beschleunigungs- und Bremstests absolviert werden. Ergebnisse dieser Tests können grafisch dargestellt werden."
+    }
+  ]
 }

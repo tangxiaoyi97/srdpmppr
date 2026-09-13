@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,119 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_441a",
+          "id": "1_441",
           "baseId": "1_441",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/149/Normalvektor.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec n=\\begin{pmatrix}2\\\\5\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Jeder Vektor n⃗ mit n⃗ = c · (2,5)ᵀ mit c ∈ ℝ, c ≠ 0 ist ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec n"
+        },
+        {
+          "t": "text",
+          "v": " an, der auf den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\overrightarrow{AB}"
+        },
+        {
+          "t": "text",
+          "v": " normal steht!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Jeder Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n=c\\cdot\\begin{pmatrix}2\\\\5\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": " mit reellem c≠0."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Jeder Vektor n⃗ mit n⃗ = c · (2,5)ᵀ mit c ∈ ℝ, c ≠ 0 ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_441",
       "baseId": "1_441",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/149/Normalvektor.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die beiden Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A=(-2|1)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(3|-1)"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

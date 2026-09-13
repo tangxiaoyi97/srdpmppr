@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,183 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_536a",
+          "id": "1_536",
           "baseId": "1_536",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/245/Rhombus%20Raute.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f=2\\cdot a\\cdot\\cos\\left(\\frac\\beta2\\right)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben sind die Seitenlänge "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": ".\nGeben Sie eine Formel an, mit der "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "f="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "2*a*cos(beta/2)",
+        "vars": [
+          "a",
+          "beta"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_536",
       "baseId": "1_536",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/245/Rhombus%20Raute.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Rhombus mit der Seite "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " halbieren die Diagonalen "
+    },
+    {
+      "t": "math",
+      "v": "e=AC"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f=BD"
+    },
+    {
+      "t": "text",
+      "v": " einander. Die Diagonale "
+    },
+    {
+      "t": "math",
+      "v": "e"
+    },
+    {
+      "t": "text",
+      "v": " halbiert den Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha=\\measuredangle DAB"
+    },
+    {
+      "t": "text",
+      "v": " und die Diagonale "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " halbiert den Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\beta=\\measuredangle ABC"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-06-q.png",
+      "alt": "Rhombus ABCD, Seite a, Diagonalen e und f, Winkel α und β."
     }
   ]
 }

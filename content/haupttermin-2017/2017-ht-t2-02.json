@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -22,14 +22,676 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-ht-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie mithilfe der Grafik den Wert "
+        },
+        {
+          "t": "math",
+          "v": "F(0)"
+        },
+        {
+          "t": "text",
+          "v": " und dessen Bedeutung im gegebenen Kontext an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "F(0)\\approx2900\\ \\mathrm N"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "F(0)"
+          },
+          {
+            "t": "text",
+            "v": " gibt den Wert derjenigen Kraft an, die der Muskel bei einer Kontraktionsgeschwindigkeit von "
+          },
+          {
+            "t": "math",
+            "v": "v=0"
+          },
+          {
+            "t": "text",
+            "v": " aufbringt. Toleranzintervall [2 750 N; 3 000 N], Einheit Newton optional."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "F(0)\\approx2900\\ \\mathrm N"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "F(0)"
+            },
+            {
+              "t": "text",
+              "v": " gibt den Wert derjenigen Kraft an, die der Muskel bei einer Kontraktionsgeschwindigkeit von "
+            },
+            {
+              "t": "math",
+              "v": "v=0"
+            },
+            {
+              "t": "text",
+              "v": " aufbringt."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine (sinngemäß) korrekte Deutung, wobei die Einheit „Newton“ nicht angeführt sein muss. Toleranzintervall: [2 750 N; 3 000 N]"
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " eine indirekte Proportionalität zwischen "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben wird, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Zwischen "
+          },
+          {
+            "t": "math",
+            "v": "F"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "v"
+          },
+          {
+            "t": "text",
+            "v": " wird keine indirekte Proportionalität beschrieben.\n\nMögliche Begründung:\nEine Verdoppelung der Kontraktionsgeschwindigkeit "
+          },
+          {
+            "t": "math",
+            "v": "v"
+          },
+          {
+            "t": "text",
+            "v": " führt nicht zu einer Halbierung der Muskelkraft "
+          },
+          {
+            "t": "math",
+            "v": "F"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Zwischen "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "v"
+            },
+            {
+              "t": "text",
+              "v": " wird keine indirekte Proportionalität beschrieben.\n\nMögliche Begründung:\nEine Verdoppelung der Kontraktionsgeschwindigkeit "
+            },
+            {
+              "t": "math",
+              "v": "v"
+            },
+            {
+              "t": "text",
+              "v": " führt nicht zu einer Halbierung der Muskelkraft "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass keine indirekte Proportionalität beschrieben wird, und eine korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-02-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Leistung, die ein Muskel aufbringen kann, gilt die Formel "
+        },
+        {
+          "t": "math",
+          "v": "P=F\\cdot v"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nDiese Formel kann bei konstanter Kraft "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " als Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " aufgefasst werden, durch die die Leistung "
+        },
+        {
+          "t": "math",
+          "v": "P(v)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " der Muskelkontraktion beschrieben wird ("
+        },
+        {
+          "t": "math",
+          "v": "P(v)"
+        },
+        {
+          "t": "text",
+          "v": " in W, "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " in m/s und "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " in N).\n\nIn der nachstehenden Abbildung sind für einen bestimmten Muskel die Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " und der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " jeweils in Abhängigkeit von der Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " der Muskelkontraktion dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-02-b-q.png",
+          "alt": "Muskelkraft F(v) und Leistung P(v) als Funktionen der Kontraktionsgeschwindigkeit."
+        },
+        {
+          "t": "text",
+          "v": "\n\nⒶ Ermitteln Sie mithilfe der Grafik näherungsweise den Wert derjenigen Kraft (in N), die zu einer maximalen Leistung dieses Muskels führt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "F",
+            "label": "F",
+            "value": 800,
+            "tol": 150,
+            "unit": "N"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei ungefähr 800 N erreicht der Muskel seine maximale Leistung."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-02-b-sol.png",
+              "alt": "Maximale Leistung bei v ≈ 0,7 m/s und zugehöriger Kraft von etwa 800 N."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „Newton“ nicht angeführt sein muss. Toleranzintervall: [650 N; 950 N]"
+        }
+      ]
+    },
+    {
+      "id": "2017-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für die Leistung, die ein Muskel aufbringen kann, gilt die Formel "
+        },
+        {
+          "t": "math",
+          "v": "P=F\\cdot v"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nDiese Formel kann bei konstanter Kraft "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " als Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " aufgefasst werden, durch die die Leistung "
+        },
+        {
+          "t": "math",
+          "v": "P(v)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " der Muskelkontraktion beschrieben wird ("
+        },
+        {
+          "t": "math",
+          "v": "P(v)"
+        },
+        {
+          "t": "text",
+          "v": " in W, "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " in m/s und "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " in N).\n\nIn der nachstehenden Abbildung sind für einen bestimmten Muskel die Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "P"
+        },
+        {
+          "t": "text",
+          "v": " und der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "F"
+        },
+        {
+          "t": "text",
+          "v": " jeweils in Abhängigkeit von der Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v"
+        },
+        {
+          "t": "text",
+          "v": " der Muskelkontraktion dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-02-b-q.png",
+          "alt": "Muskelkraft F(v) und Leistung P(v) als Funktionen der Kontraktionsgeschwindigkeit."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie mithilfe der Grafik näherungsweise den Wert der Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_1"
+        },
+        {
+          "t": "text",
+          "v": " der Muskelkontraktion, für den "
+        },
+        {
+          "t": "math",
+          "v": "P'(v_1)=0"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "v₁ ≈ 0,7 m/s, Toleranzintervall: [0,6 m/s; 0,9 m/s], Einheit optional."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "v_1\\approx0{,}7\\ \\mathrm{m/s}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m/s“ nicht angeführt sein muss. Toleranzintervall: [0,6 m/s; 0,9 m/s]"
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1951&token=91061e069085842449070af2f502c1c7ea885910#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Muskeln werden in ihrer Funktion oft mit (metallischen) Federn verglichen. Im Gegensatz zur Federkraft hängt die Muskelkraft auch von der Geschwindigkeit ab, mit der ein Muskel kontrahiert (d. h. aktiv verkürzt bzw. angespannt) wird.\n\nDiese Beziehung kann modellhaft durch die Formel "
+    },
+    {
+      "t": "math",
+      "v": "F=\\frac c{v+b}-a"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden.\n\nDabei beschreibt "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " den unter idealen Bedingungen möglichen Betrag (in Newton) der Muskelkraft bei vorgegebener Kontraktionsgeschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v"
+    },
+    {
+      "t": "text",
+      "v": " (in Metern pro Sekunde). Die Parameter "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " (in N), "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " (in m/s) und "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " (in Watt) sind positive reelle Größen, die die Eigenschaften eines Muskels beschreiben.\n\nDie oben angeführte Formel kann als Funktionsgleichung einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " aufgefasst werden, durch die die Kraft "
+    },
+    {
+      "t": "math",
+      "v": "F(v)"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v"
+    },
+    {
+      "t": "text",
+      "v": " der Muskelkontraktion beschrieben wird. Die Werte von "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c"
+    },
+    {
+      "t": "text",
+      "v": " sind dabei für einen bestimmten Muskel konstant.\n\nDer Graph der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " ist nachstehend abgebildet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t2-02-q.png",
+      "alt": "Muskelkraft F(v) in N gegen Kontraktionsgeschwindigkeit v in m/s."
+    }
+  ]
 }

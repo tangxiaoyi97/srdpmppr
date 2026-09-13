@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_595a",
+          "id": "1_595",
           "baseId": "1_595",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/304/Winkel%20im%20Einheitskreis.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-06-sol.png",
+              "alt": "Einheitskreis mit korrekt eingezeichnetem Winkel β."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Ergänzung des Winkels β.\nToleranzintervall: [140°; 146°]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der Grafik denjenigen Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " aus dem Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0^\\circ;360^\\circ]"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "\\beta\\ne\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " ein, für den "
+        },
+        {
+          "t": "math",
+          "v": "\\cos(\\beta)=\\cos(\\alpha)"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-06-q.png",
+          "alt": "Winkel α im Einheitskreis."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine korrekte Ergänzung des Winkels β.\nToleranzintervall: [140°; 146°]"
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_595",
       "baseId": "1_595",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/304/Winkel%20im%20Einheitskreis.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Grafik ist ein Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha"
+    },
+    {
+      "t": "text",
+      "v": " im Einheitskreis dargestellt."
     }
   ]
 }

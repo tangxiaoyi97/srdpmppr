@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,155 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_640a",
+          "id": "1_640",
           "baseId": "1_640",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/365/Erdgasanbieter.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x>15\\,000"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Interpretation:\nBei einem Jahresverbrauch von mehr als 15 000 kWh ist Anbieter "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " günstiger als Anbieter "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Interpretation, wobei die Einheit „kWh“ nicht angeführt sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lösen Sie die oben angeführte Ungleichung und interpretieren Sie das Ergebnis im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "x>15\\,000"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Interpretation:\nBei einem Jahresverbrauch von mehr als 15 000 kWh ist Anbieter "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " günstiger als Anbieter "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": ".\nEin Punkt für die richtige Lösung und eine korrekte Interpretation, wobei die Einheit „kWh“ nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=7",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_640",
       "baseId": "1_640",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/365/Erdgasanbieter.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Haushalt möchte seinen Erdgaslieferanten wechseln und schwankt noch bei der Wahl zwischen dem Anbieter "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und dem Anbieter "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDer Energiegehalt des verbrauchten Erdgases wird in Kilowattstunden (kWh) gemessen.\n\nAnbieter "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " verrechnet jährlich eine fixe Gebühr von 340 Euro und 2,9 Cent pro kWh.\nAnbieter "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " verrechnet jährlich eine fixe Gebühr von 400 Euro und 2,5 Cent pro kWh.\n\nDie Ungleichung "
+    },
+    {
+      "t": "math",
+      "v": "0{,}025\\cdot x+400<0{,}029\\cdot x+340"
+    },
+    {
+      "t": "text",
+      "v": " dient dem Vergleich der zu erwartenden Kosten bei den beiden Anbietern."
     }
   ]
 }

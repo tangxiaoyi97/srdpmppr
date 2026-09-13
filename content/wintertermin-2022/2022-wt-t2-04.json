@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -62,14 +62,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t1",
-            "label": "t_1",
-            "value": 3.76,
-            "tol": 0.05,
-            "unit": "s"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_1 = \\dfrac{6 \\cdot \\pi}{5} = 3{,}76\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Ermitteln von t₁."
           }
         ]
       },
@@ -130,14 +140,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t2",
-            "label": "t_2",
-            "value": 5.02,
-            "tol": 0.05,
-            "unit": "s"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t_2 = \\dfrac{8 \\cdot \\pi}{5} = 5{,}02\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Ermitteln von t₂."
           }
         ]
       },
@@ -221,7 +241,7 @@
     {
       "id": "2022-wt-t2-04-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 1.7",
@@ -258,13 +278,13 @@
             "id": "k",
             "label": "Faktor im Argument",
             "value": 1.25,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "c",
             "label": "Konstante",
             "value": 0.4,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

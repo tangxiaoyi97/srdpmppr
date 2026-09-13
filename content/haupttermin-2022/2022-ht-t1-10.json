@@ -1,6 +1,6 @@
 {
   "id": "2022-ht-t1-10",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1188a",
+          "id": "1_1188",
           "baseId": "1_1188",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/729/Ungerade%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -63,12 +63,26 @@
         }
       ],
       "answer": {
-        "kind": "expression",
-        "canonical": "-w",
-        "vars": [
-          "w"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "v=-w"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben der richtigen Gleichung."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",

@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t1-09",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1252a",
+          "id": "1_1252",
           "baseId": "1_1252",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/784/1_1252_srdp_ma_Fallender%20Ball_PT3_22.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -77,14 +77,36 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t",
-            "label": "t",
-            "value": 2.3,
-            "tol": 0.05,
-            "unit": "s"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "30 - 4{,}9 \\cdot t^{2} = 4"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "t = 2{,}30\\ldots\\ \\text{s}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Nach rund 2,3 s befindet sich der Ball 4 m über dem Boden."
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des Zeitpunkts."
           }
         ]
       },

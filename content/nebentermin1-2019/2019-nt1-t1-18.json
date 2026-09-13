@@ -1,6 +1,6 @@
 {
   "id": "2019-nt1-t1-18",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_727a",
+          "id": "1_727",
           "baseId": "1_727",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/466/Wurfh%C3%B6he%20eines%20K%C3%B6rpers.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -53,20 +53,40 @@
               "v": "mögliche Vorgehensweise:\n"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "v(t)=15-10\\cdot t"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
               "v": "s(t)=15\\cdot t-5\\cdot t^{2}+h_0"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "s(0)=1=h_0"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "s(t)=15\\cdot t-5\\cdot t^{2}+1"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -79,7 +99,7 @@
               "v": "Der Körper befindet sich nach 2 s in einer Höhe von 11 m über dem Erdboden."
             }
           ],
-          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: AN 4.3"
         }
       ],
       "prompt": [
@@ -89,19 +109,75 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "h",
-            "value": 11,
-            "tol": 1e-9,
-            "unit": "m"
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "v(t)=15-10\\cdot t"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s(t)=15\\cdot t-5\\cdot t^{2}+h_0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s(0)=1=h_0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s(t)=15\\cdot t-5\\cdot t^{2}+1"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "s(2)=30-20+1=11"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Körper befindet sich nach 2 s in einer Höhe von 11 m über dem Erdboden."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: AN 4.3"
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angeführt sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Grundkompetenz: AN 4.3",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

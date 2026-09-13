@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,159 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_657a",
+          "id": "1_657",
           "baseId": "1_657",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/382/Aenderung%20einer%20Datenliste.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\frac{x_{n+1}+x_{n+2}}2"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für diesen Fall einen Zusammenhang zwischen "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+1}"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "x_{n+2}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe einer Formel an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a=\\frac{x_{n+1}+x_{n+2}}2"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_657",
       "baseId": "1_657",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/382/Aenderung%20einer%20Datenliste.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Datenliste "
+    },
+    {
+      "t": "math",
+      "v": "x_1,x_2,\\ldots,x_n"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " Werten und dem arithmetischen Mittel "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": ". Diese Datenliste wird um zwei Werte "
+    },
+    {
+      "t": "math",
+      "v": "x_{n+1}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "x_{n+2}"
+    },
+    {
+      "t": "text",
+      "v": " ergänzt, wobei das arithmetische Mittel der neuen Datenliste "
+    },
+    {
+      "t": "math",
+      "v": "x_1,x_2,\\ldots,x_n,x_{n+1},x_{n+2}"
+    },
+    {
+      "t": "text",
+      "v": " ebenfalls "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " ist."
     }
   ]
 }

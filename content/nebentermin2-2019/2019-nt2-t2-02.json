@@ -1,6 +1,6 @@
 {
   "id": "2019-nt2-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -138,7 +138,7 @@
     {
       "id": "2019-nt2-t2-02-a2",
       "label": "a2",
-      "format": "Konstruktionsformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -158,6 +158,34 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Kondensator mit einer bestimmten Kapazität C wird bis zur Ladungsmenge "
+        },
+        {
+          "t": "math",
+          "v": "Q_1"
+        },
+        {
+          "t": "text",
+          "v": " aufgeladen, die gemessene Spannung "
+        },
+        {
+          "t": "math",
+          "v": "U(Q_1)"
+        },
+        {
+          "t": "text",
+          "v": " hat dann den Wert "
+        },
+        {
+          "t": "math",
+          "v": "U_1"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
         {
           "t": "text",
           "v": "Die in diesem Kondensator gespeicherte Energie W kann mithilfe der Formel "
@@ -288,29 +316,37 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Ladezeit: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
-            "v": "t=-\\tau\\cdot\\ln(0{,}01)"
+            "v": "0{,}99\\cdot U^{*}=U^{*}\\cdot\\left(1-e^{-\\frac{t}{\\tau}}\\right)"
           },
           {
             "t": "text",
-            "v": " bzw. "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "t=\\tau\\cdot\\ln(100)"
+            "v": "0{,}01=e^{-\\frac{t}{\\tau}}"
           },
           {
             "t": "text",
-            "v": "."
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t=-\\tau\\cdot\\ln(0{,}01)\\ \\text{bzw.}\\ t=\\tau\\cdot\\ln(100)"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Äquivalente Schreibweisen der Lösung sind als richtig zu werten."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -326,8 +362,16 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "0{,}99\\cdot U^{*}=U^{*}\\cdot\\left(1-e^{-\\frac{t}{\\tau}}\\right)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -369,16 +413,53 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Bei einem Ladevorgang kann die Spannung zwischen den Kondensatorplatten als Funktion U in Abhängigkeit von der Zeit t durch "
+        },
+        {
+          "t": "math",
+          "v": "U(t)=U^{*}\\cdot\\left(1-e^{-\\frac{t}{\\tau}}\\right)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden. Dabei ist "
+        },
+        {
+          "t": "math",
+          "v": "U^{*}>0"
+        },
+        {
+          "t": "text",
+          "v": " die an den Kondensator angelegte Spannung und "
+        },
+        {
+          "t": "math",
+          "v": "\\tau>0"
+        },
+        {
+          "t": "text",
+          "v": " eine für den Ladevorgang charakteristische Konstante. Der Ladevorgang beginnt zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t=0"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
           "v": "Geben Sie eine Formel für die momentane Änderungsrate der Spannung zwischen den Kondensatorplatten in Abhängigkeit von t an und zeigen Sie mithilfe dieser Formel, dass die Spannung während des Ladevorgangs ständig steigt!"
         }
       ],
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Momentane Änderungsrate: "
+            "v": "Mögliche Vorgehensweise:\n"
           },
           {
             "t": "math",
@@ -386,42 +467,25 @@
           },
           {
             "t": "text",
-            "v": ". Es gilt "
+            "v": "\n"
           },
           {
             "t": "math",
-            "v": "U^{*}>0,\\ \\tau>0,\\ e^{-\\frac{t}{\\tau}}>0 \\Rightarrow U'(t)>0"
+            "v": "U^{*}>0,\\ \\tau>0,\\ e^{-\\frac{t}{\\tau}}>0 \\Rightarrow U'(t)>0\\ \\text{für alle}\\ t\\geq 0"
           },
           {
             "t": "text",
-            "v": " für alle "
-          },
-          {
-            "t": "math",
-            "v": "t\\geq 0"
+            "v": "\n"
           },
           {
             "t": "text",
-            "v": ". Da "
-          },
-          {
-            "t": "math",
-            "v": "U'(t)>0"
+            "v": "Da U′(t) > 0 für alle t ≥ 0 gilt, ist U während des Ladevorgangs streng monoton steigend."
           },
           {
             "t": "text",
-            "v": " für alle "
-          },
-          {
-            "t": "math",
-            "v": "t\\geq 0"
-          },
-          {
-            "t": "text",
-            "v": " gilt, ist U während des Ladevorgangs streng monoton steigend."
+            "v": "\nEin Punkt für eine richtige Formel und eine (sinngemäß) korrekte Begründung. Äquivalente Formeln sind als richtig zu werten."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -437,8 +501,16 @@
         {
           "steps": [
             {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
               "t": "math",
               "v": "U'(t)=\\dfrac{e^{-\\frac{t}{\\tau}}\\cdot U^{*}}{\\tau}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",

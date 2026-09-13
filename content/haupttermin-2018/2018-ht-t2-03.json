@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -23,8 +23,8 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-ht-t2-03-a",
-      "label": "a",
+      "id": "2018-ht-t2-03-a1",
+      "label": "a1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -42,20 +42,221 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_035a",
           "baseId": "2_035",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "q_1=0{,}9"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "q_3=2{,}1"
+            },
+            {
+              "t": "text",
+              "v": "\nEtwa die Hälfte der kontrollierten Fahrzeuge halten einen Tiefenabstand von mindestens 0,9 Sekunden und höchstens 2,1 Sekunden ein."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe der beiden richtigen Werte und eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie das erste Quartil "
+        },
+        {
+          "t": "math",
+          "v": "q_1"
+        },
+        {
+          "t": "text",
+          "v": " und das dritte Quartil "
+        },
+        {
+          "t": "math",
+          "v": "q_3"
+        },
+        {
+          "t": "text",
+          "v": " der Tiefenabstände an und deuten Sie den Bereich von "
+        },
+        {
+          "t": "math",
+          "v": "q_1"
+        },
+        {
+          "t": "text",
+          "v": " bis "
+        },
+        {
+          "t": "math",
+          "v": "q_3"
+        },
+        {
+          "t": "text",
+          "v": " im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "q_1=0{,}9"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "q_3=2{,}1"
+          },
+          {
+            "t": "text",
+            "v": "\nEtwa die Hälfte der kontrollierten Fahrzeuge halten einen Tiefenabstand von mindestens 0,9 Sekunden und höchstens 2,1 Sekunden ein."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für die Angabe der beiden richtigen Werte und eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     },
     {
-      "id": "2018-ht-t2-03-b",
-      "label": "b",
+      "id": "2018-ht-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.1",
+          "description": "Werte aus tabellarischen und elementaren grafischen Darstellungen ablesen (bzw. zusammengesetzte Werte ermitteln) und im jeweiligen Kontext angemessen interpretieren können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 1.4",
+          "description": "Definition und wichtige Eigenschaften des arithmetischen Mittels und des Medians angeben und nutzen, Quartile ermitteln und interpretieren können, die Entscheidung für die Verwendung einer bestimmten Kennzahl begründen können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_035a",
+          "baseId": "2_035",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die im Kastenschaubild dargestellten Daten bestätigen in etwa diese Erfahrungswerte.\nMögliche Begründung:\n"
+            },
+            {
+              "t": "math",
+              "v": "130\\,\\mathrm{km/h}=36{,}\\dot1\\,\\mathrm{m/s}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "36{,}\\dot1\\,\\mathrm{m/s}\\cdot0{,}9\\,\\mathrm s=32{,}5\\,\\mathrm m\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Mindestens drei Viertel der Kraftfahrer/innen halten einen Abstand von 30 m und mehr ein."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nach den Erfahrungswerten eines österreichischen Autofahrerclubs halten ungefähr drei Viertel der Kraftfahrer/innen bei einer mittleren Fahrgeschwindigkeit von ca. 130 km/h einen Abstand von mindestens 30 Metern zum voranfahrenden Fahrzeug ein. Geben Sie an, ob die im Kastenschaubild dargestellten Daten in etwa diese Erfahrungswerte bestätigen oder nicht, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die im Kastenschaubild dargestellten Daten bestätigen in etwa diese Erfahrungswerte.\nMögliche Begründung:\n"
+          },
+          {
+            "t": "math",
+            "v": "130\\,\\mathrm{km/h}=36{,}\\dot1\\,\\mathrm{m/s}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "36{,}\\dot1\\,\\mathrm{m/s}\\cdot0{,}9\\,\\mathrm s=32{,}5\\,\\mathrm m\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Mindestens drei Viertel der Kraftfahrer/innen halten einen Abstand von 30 m und mehr ein."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-03-b1",
+      "label": "b1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -73,21 +274,202 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_035b",
           "baseId": "2_035",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "ein möglicher größerer Prozentsatz: 25 %\n\nMögliche Begründung:\nDer Tiefenabstand von zwei Sekunden liegt zwischen dem Median und dem dritten Quartil."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe eines richtigen Wertes und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten.\nToleranzintervall: (20 %; 25 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Einer üblichen Faustregel zufolge wird auf Autobahnen generell ein Tiefenabstand von mindestens zwei Sekunden empfohlen. Jemand behauptet, dass aus dem dargestellten Kastenschaubild ablesbar ist, dass mindestens 20 % der Kraftfahrer/innen diesen Tiefenabstand eingehalten haben. Geben Sie einen größeren Prozentsatz an, der aus dem Kastenschaubild mit Sicherheit abgelesen werden kann, und begründen Sie Ihre Wahl!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "ein möglicher größerer Prozentsatz: 25 %\n\nMögliche Begründung:\nDer Tiefenabstand von zwei Sekunden liegt zwischen dem Median und dem dritten Quartil."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe eines richtigen Wertes und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten.\nToleranzintervall: (20 %; 25 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     },
     {
-      "id": "2018-ht-t2-03-c",
-      "label": "c",
+      "id": "2018-ht-t2-03-b2",
+      "label": "b2",
       "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "WS 1.3",
+          "description": "statistische Kennzahlen (absolute und relative Häufigkeiten; arithmetisches Mittel, Median, Modus, Quartile, Spannweite, empirische Varianz/Standardabweichung) im jeweiligen Kontext interpretieren können; die angeführten Kennzahlen für einfache Datensätze ermitteln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "WS 3.2",
+          "description": "Binomialverteilung als Modell einer diskreten Verteilung kennen – Erwartungswert sowie Varianz/Standardabweichung binomialverteilter Zufallsgrößen ermitteln können, Wahrscheinlichkeitsverteilung binomialverteilter Zufallsgrößen angeben können, Arbeiten mit der Binomialverteilung in anwendungsorientierten Bereichen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_035b",
+          "baseId": "2_035",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\nZufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " = Anzahl der Kraftfahrlenker/innen, die den empfohlenen Mindestabstand eingehalten haben\n"
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}25"
+            },
+            {
+              "t": "text",
+              "v": " … Wahrscheinlichkeit, dass der empfohlene Mindestabstand eingehalten wurde\n"
+            },
+            {
+              "t": "math",
+              "v": "n=10"
+            },
+            {
+              "t": "text",
+              "v": " … Anzahl der ausgewählten Messungen\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\ge6)\\approx0{,}0197"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Lösung für den von der Kandidatin / vom Kandidaten gewählten Wert richtig sein muss. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Einer üblichen Faustregel zufolge wird auf Autobahnen generell ein Tiefenabstand von mindestens zwei Sekunden empfohlen. Jemand behauptet, dass aus dem dargestellten Kastenschaubild ablesbar ist, dass mindestens 20 % der Kraftfahrer/innen diesen Tiefenabstand eingehalten haben. Geben Sie einen größeren Prozentsatz an, der aus dem Kastenschaubild mit Sicherheit abgelesen werden kann, und begründen Sie Ihre Wahl!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Nehmen Sie den von Ihnen ermittelten Prozentsatz als Wahrscheinlichkeit an, dass der empfohlene Tiefenabstand eingehalten wird.\nGeben Sie an, wie hoch die Wahrscheinlichkeit ist, dass bei zehn zufällig und unabhängig voneinander ausgewählten Messungen dieser Schwerpunktkontrolle zumindest sechs Mal der empfohlene Tiefenabstand von mindestens zwei Sekunden eingehalten wurde!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\nZufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " = Anzahl der Kraftfahrlenker/innen, die den empfohlenen Mindestabstand eingehalten haben\n"
+          },
+          {
+            "t": "math",
+            "v": "p=0{,}25"
+          },
+          {
+            "t": "text",
+            "v": " … Wahrscheinlichkeit, dass der empfohlene Mindestabstand eingehalten wurde\n"
+          },
+          {
+            "t": "math",
+            "v": "n=10"
+          },
+          {
+            "t": "text",
+            "v": " … Anzahl der ausgewählten Messungen\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\ge6)\\approx0{,}0197"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Lösung für den von der Kandidatin / vom Kandidaten gewählten Wert richtig sein muss. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-03-c1",
+      "label": "c1",
+      "format": "Konstruktionsformat",
       "competencies": [
         {
           "code": "FA 2.1",
@@ -104,26 +486,260 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_035c",
           "baseId": "2_035",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Fahrzeug "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " fährt mit einer Geschwindigkeit von 120 km/h."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-03-c-sol.png",
+              "alt": "Geradliniger Graph s_A und konkaver Graph s_B von (0,0) nach (9,300)."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Darstellung von s_A."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer anderen Abstandsmessung wird ein kontrolliertes Fahrzeug auf den letzten 300 Metern vor der Messung zusätzlich gefilmt, damit die Messung nicht verfälscht wird, wenn sich ein anderes Fahrzeug vor das kontrollierte Fahrzeug drängt.\n\nFahrzeug "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " fährt während des Messvorgangs mit konstanter Geschwindigkeit und benötigt für die gefilmten 300 Meter eine Zeit von neun Sekunden. Stellen Sie den zurückgelegten Weg "
+        },
+        {
+          "t": "math",
+          "v": "s_A(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " im unten stehenden Zeit-Weg-Diagramm dar ("
+        },
+        {
+          "t": "math",
+          "v": "s_A(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Metern, "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden) und geben Sie an, mit welcher Geschwindigkeit in km/h das Fahrzeug unterwegs ist!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-03-c-q.png",
+          "alt": "Zeit-Weg-Diagramm für Fahrzeuge A und B."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Fahrzeug "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " fährt mit einer Geschwindigkeit von 120 km/h.\nGerade durch (0,0) und (9,300).\nEin Punkt für die richtige Lösung und eine korrekte Darstellung von s_A."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-ht-t2-03-c2",
+      "label": "c2",
+      "format": "Konstruktionsformat",
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "description": "verbal, tabellarisch, grafisch oder durch eine Gleichung (Formel) gegebene lineare Zusammenhänge als lineare Funktionen erkennen bzw. betrachten können; zwischen diesen Darstellungsformen wechseln können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.7",
+          "description": "Funktionen als mathematische Modelle verstehen und damit verständig arbeiten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_035c",
+          "baseId": "2_035",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-03-c-sol.png",
+              "alt": "Geradliniger Graph s_A und konkaver Graph s_B von (0,0) nach (9,300)."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze eines möglichen Graphen von s_B."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Fahrzeug "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " legt die 300 Meter ebenfalls in neun Sekunden zurück, verringert dabei aber kontinuierlich seine Geschwindigkeit. Skizzieren Sie ausgehend vom Ursprung einen möglichen Graphen der entsprechenden Zeit-Weg-Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s_B"
+        },
+        {
+          "t": "text",
+          "v": " in das unten stehende Zeit-Weg-Diagramm!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-03-c-q.png",
+          "alt": "Zeit-Weg-Diagramm für Fahrzeuge A und B."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein möglicher Graph von s_B verläuft vom Ursprung zu (9,300), steigt und hat kontinuierlich abnehmende Steigung.\nEin Punkt für eine korrekte Skizze eines möglichen Graphen von s_B."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2491&token=1dcc329525878122940ca345b306b240c771cbd4#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_035",
       "baseId": "2_035",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/361/Abstandsmessung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Rahmen der polizeilichen Kontrollmaßnahmen des öffentlichen Verkehrs werden Abstandsmessungen vorgenommen. Im Folgenden beschreibt der Begriff Abstand eine Streckenlänge und der Begriff Tiefenabstand eine Zeitspanne.\n\nBeträgt der Abstand zwischen dem hinteren Ende des voranfahrenden Fahrzeugs und dem vorderen Ende des nachfahrenden Fahrzeugs "
+    },
+    {
+      "t": "math",
+      "v": "\\Delta s"
+    },
+    {
+      "t": "text",
+      "v": " Meter, so versteht man unter dem Tiefenabstand diejenige Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden, in der das nachfahrende Fahrzeug die Strecke der Länge "
+    },
+    {
+      "t": "math",
+      "v": "\\Delta s"
+    },
+    {
+      "t": "text",
+      "v": " zurücklegt.\n\nNachstehend sind Tiefenabstände, die im Rahmen einer Schwerpunktkontrolle von 1 000 Fahrzeugen ermittelt wurden, in einem Kastenschaubild (Boxplot) dargestellt. Alle kontrollierten Fahrzeuge waren mit einer Geschwindigkeit von ca. 130 km/h unterwegs."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t2-03-q.png",
+      "alt": "Boxplot der Tiefenabstände in Sekunden."
     }
   ]
 }

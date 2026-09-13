@@ -1,6 +1,6 @@
 {
   "id": "2020-nt2-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,7 +24,7 @@
     {
       "id": "2020-nt2-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 4.1",
@@ -33,7 +33,14 @@
           "verifiedAt": "2026-07-01"
         }
       ],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=26",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -71,30 +78,59 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "lower",
-            "label": "Untergrenze",
-            "value": 0.515,
-            "tol": 0.005
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
           },
           {
-            "id": "upper",
-            "label": "Obergrenze",
-            "value": 0.605,
-            "tol": 0.005
+            "t": "math",
+            "v": "h=\\dfrac{252}{450}=0{,}56"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "0{,}56\\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}56\\cdot(1-0{,}56)}{450}}=0{,}56\\pm 0{,}0458\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "[0{,}514;\\ 0{,}606]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall für die Untergrenze: [0,51; 0,52] Toleranzintervall für die Obergrenze: [0,60; 0,61]"
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten. Toleranzintervall für die Untergrenze: [0,51; 0,52] Toleranzintervall für die Obergrenze: [0,60; 0,61]",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2018-19/MA/PT3/KL19_PT3_AHS_MAT_00_DE_AU.pdf#page=26",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

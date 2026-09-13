@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,84 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_626a",
+          "id": "1_626",
           "baseId": "1_626",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/347/Wertsch%C3%B6pfung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Anteil des Überschusses im Jahr 2007: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{37\\,133}{92\\,258}\\approx0{,}4025=40{,}25\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.\nToleranzintervall: [40 %; 41 %] bzw. [0,40; 0,41]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie für das Jahr 2007 den Anteil dieses Überschusses (in Prozent) gemessen an der Pro-Kopf-Wertschöpfung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für die richtige Lösung.\nToleranzintervall: [40 %; 41 %] bzw. [0,40; 0,41]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_626",
       "baseId": "1_626",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/347/Wertsch%C3%B6pfung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-13-q.png",
+      "alt": "AK-Wertschöpfungsbarometer: Überschuss, Personalaufwand und Wertschöpfung pro Beschäftigtem 2003 bis 2009, mit Daten und Quelle."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: Arbeiterkammer Oberösterreich (Hrsg.): AK Wertschöpfungsbarometer: Trotz Krise: Eigentümer profitierten, April 2011, S. 3.\nhttps://media.arbeiterkammer.at/ooe/betriebsraete/PKU_2011_Wertschoepfungsbarometer.pdf [12.09.2017].\n\nDer AK-Wertschöpfungsbarometer zeigt die Entwicklung desjenigen Wertes auf, den österreichische Mittel- und Großbetriebe im Durchschnitt an jeder Mitarbeiterin / jedem Mitarbeiter pro Jahr verdienen.\n\nKonkret ermittelt wird dabei der Überschuss pro Beschäftigtem, also die Differenz zwischen der durchschnittlichen Wertschöpfung pro Beschäftigtem und dem durchschnittlichen Personalaufwand pro Beschäftigtem."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -22,14 +22,839 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt2-t2-01-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt2-t2-01-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wie viele lokale Extremstellen kann "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " höchstens haben? Geben Sie die Anzahl an und begründen Sie Ihre Antwort mithilfe der Ableitungsfunktion von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Höchstens zwei: "
+          },
+          {
+            "t": "math",
+            "v": "f'"
+          },
+          {
+            "t": "text",
+            "v": " ist quadratisch und hat daher höchstens zwei Nullstellen; lokale Extremstellen können nur dort liegen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung: Nur an denjenigen Stellen, an denen "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=0"
+            },
+            {
+              "t": "text",
+              "v": " ist, können lokale Extremstellen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " liegen. Die Ableitungsfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " ist eine Polynomfunktion zweiten Grades. Da die quadratische Gleichung "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=0"
+            },
+            {
+              "t": "text",
+              "v": " maximal zwei Lösungen hat, kann die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " höchstens zwei Extremstellen haben."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Zeigen Sie für den Spezialfall "
+        },
+        {
+          "t": "math",
+          "v": "a=1"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "b=-3"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "c=3"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "d=0"
+        },
+        {
+          "t": "text",
+          "v": ", dass die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " keine lokale Extremstelle hat!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f'(x)=3(x-1)^2"
+          },
+          {
+            "t": "text",
+            "v": " ist außer bei x=1 positiv und hat keinen Vorzeichenwechsel. f ist streng monoton wachsend, keine Extremstelle. Andere korrekte Nachweise akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: Die 1. Ableitung "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=3x^2-6x+3"
+            },
+            {
+              "t": "text",
+              "v": " hat genau eine Nullstelle bei "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": " und hat sowohl links als auch rechts von der Nullstelle positive Werte. Damit ist die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " auf ihrem gesamten Definitionsbereich streng monoton wachsend und hat keine Extremstelle."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für einen korrekten Nachweis. Andere korrekte Nachweise sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-01-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wenn für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " die Beziehung "
+        },
+        {
+          "t": "math",
+          "v": "f(-x)=-f(x)"
+        },
+        {
+          "t": "text",
+          "v": " gilt, dann ist der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " symmetrisch bezüglich des Ursprungs.\n\nGeben Sie diejenigen Werte an, die die Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " annehmen müssen, damit der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^3+b\\cdot x^2+c\\cdot x+d"
+        },
+        {
+          "t": "text",
+          "v": " symmetrisch bezüglich des Ursprungs ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "b",
+            "label": "b",
+            "value": 0,
+            "tol": 1e-09
+          },
+          {
+            "id": "d",
+            "label": "d",
+            "value": 0,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=0"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "d=0"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden korrekten Werte."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-01-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Wenn für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " die Beziehung "
+        },
+        {
+          "t": "math",
+          "v": "f(-x)=-f(x)"
+        },
+        {
+          "t": "text",
+          "v": " gilt, dann ist der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " symmetrisch bezüglich des Ursprungs.\n\nGeben Sie diejenigen Werte an, die die Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "d"
+        },
+        {
+          "t": "text",
+          "v": " annehmen müssen, damit der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit der Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=a\\cdot x^3+b\\cdot x^2+c\\cdot x+d"
+        },
+        {
+          "t": "text",
+          "v": " symmetrisch bezüglich des Ursprungs ist!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie für eine solche Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " den Wert des Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-x_1}^{x_1}f(x)\\,\\mathrm{d}x"
+        },
+        {
+          "t": "text",
+          "v": " für ein beliebiges "
+        },
+        {
+          "t": "math",
+          "v": "x_1>0"
+        },
+        {
+          "t": "text",
+          "v": " und geben Sie eine Begründung für Ihre Lösung an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Integral null; wegen Punktsymmetrie heben sich die positiven und negativen Flächenbeiträge auf. Wert und korrekte Begründung erforderlich."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{-x_1}^{x_1}f(x)\\,\\mathrm{d}x=0"
+            },
+            {
+              "t": "text",
+              "v": "\nMögliche Begründung: Wegen der Symmetrie des Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " bezüglich des Ursprungs begrenzt der Graph von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " mit der "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": "-Achse in den Intervallen "
+            },
+            {
+              "t": "math",
+              "v": "[-x_1;0]"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "[0;x_1]"
+            },
+            {
+              "t": "text",
+              "v": " zwei gleich große Flächenstücke, von denen eines oberhalb und eines unterhalb der "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": "-Achse liegt."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-01-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " hat auf jeden Fall einen Wendepunkt.\nWelcher der Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "a,b,c,d"
+        },
+        {
+          "t": "text",
+          "v": " ist ausschlaggebend dafür, dass der Wendepunkt der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " auf der senkrechten Koordinatenachse liegt?\nGeben Sie diesen Koeffizienten und die zugehörige Bedingung an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Koeffizient b, Bedingung "
+          },
+          {
+            "t": "math",
+            "v": "b=0"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f''(x)=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "6a\\cdot x+2b=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x=-\\dfrac{b}{3a}"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "x=0\\Rightarrow b=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " hat auf jeden Fall einen Wendepunkt.\nWelcher der Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "a,b,c,d"
+        },
+        {
+          "t": "text",
+          "v": " ist ausschlaggebend dafür, dass der Wendepunkt der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " auf der senkrechten Koordinatenachse liegt?\nGeben Sie diesen Koeffizienten und die zugehörige Bedingung an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie eine zusätzliche Bedingung dafür an, dass der Graph von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im Wendepunkt "
+        },
+        {
+          "t": "math",
+          "v": "W=(0|f(0))"
+        },
+        {
+          "t": "text",
+          "v": " eine zur "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse parallele Tangente hat!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c=0"
+          },
+          {
+            "t": "text",
+            "v": ". Auch ein korrekter Ansatz "
+          },
+          {
+            "t": "math",
+            "v": "f'(0)=0"
+          },
+          {
+            "t": "text",
+            "v": " ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)=3a\\cdot x^2+c"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "f'(0)=0\\Rightarrow c=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Aufgabe auch bei korrektem Ansatz als richtig gelöst zu werten ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Verlauf des Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades mit der Funktionsgleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^3+b\\cdot x^2+c\\cdot x+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c,d\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "a\\neq0"
+    },
+    {
+      "t": "text",
+      "v": " hängt von den Werten der Koeffizienten "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c,d"
+    },
+    {
+      "t": "text",
+      "v": " ab.\n\nJe nach Wahl der Werte für die Koeffizienten ergibt sich unter anderem die Anzahl und Lage der Nullstellen, Extremstellen und Wendestellen von "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

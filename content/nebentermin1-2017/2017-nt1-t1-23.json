@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,81 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_588a",
+          "id": "1_588",
           "baseId": "1_588",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/297/Reifen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "1-\\left(1-\\frac p{100}\\right)^{80}"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Ausdruck. Äquivalente Ausdrücke sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Ausdruck an, mit dem man die Wahrscheinlichkeit, dass mindestens einer dieser Reifen innerhalb der ersten 10 000 Kilometer Fahrt durch einen Materialfehler defekt wird, berechnen kann!"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1-(1-p/100)^80",
+        "vars": [
+          "p"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_588",
       "baseId": "1_588",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/297/Reifen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Wahrscheinlichkeit, dass ein neuer Autoreifen einer bestimmten Marke innerhalb der ersten 10 000 Kilometer Fahrt durch einen Materialfehler defekt wird, liegt bei "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " %.\n\nEine Zufallsstichprobe von 80 neuen Reifen dieser Marke wird getestet."
     }
   ]
 }

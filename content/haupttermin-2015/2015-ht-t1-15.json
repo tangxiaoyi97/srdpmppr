@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -24,12 +24,93 @@
     {
       "id": "2015-ht-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=19",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "y_3=1{,}05\\cdot y_2-20\\,000"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "math",
+          "v": "y_2"
+        },
+        {
+          "t": "text",
+          "v": " stellt die Restschuld nach Bezahlung der zweiten Rate zwei Jahre nach Kreditaufnahme dar, "
+        },
+        {
+          "t": "math",
+          "v": "y_3"
+        },
+        {
+          "t": "text",
+          "v": " die Restschuld nach Bezahlung der dritten Rate ein Jahr später.\nStellen Sie "
+        },
+        {
+          "t": "math",
+          "v": "y_3"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "y_2"
+        },
+        {
+          "t": "text",
+          "v": " dar!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "y_3="
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1.05y_2-20000",
+        "vars": [
+          "y_2"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=19",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein langfristiger Kredit soll mit folgenden Bedingungen getilgt werden: Der offene Betrag wird am Ende eines jeden Jahres mit 5 % verzinst, danach wird jeweils eine Jahresrate von € 20.000 zurückgezahlt."
+    }
+  ]
 }

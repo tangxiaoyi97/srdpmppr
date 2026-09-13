@@ -102,7 +102,7 @@
     {
       "id": "2024-het-t2-04-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Multiple-Choice-Format",
       "competencies": [
         {
           "code": "AN 3.2",
@@ -124,6 +124,22 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Eine Regenwassertonne fängt das von einem Hausdach herabfließende Regenwasser auf. Ab Beginn eines mehrstündigen Regens kann die momentane Änderungsrate der Wassermenge in der Regenwassertonne modellhaft durch die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f: [0; 6] \\to \\mathbb{R}_0^{+},\\ t \\mapsto f(t)"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (t seit Beginn des Regens in h, f(t) in L/h). Zu Beginn des Regens sind bereits 400 L Wasser in der Regenwassertonne.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Der Graph der Funktion f ist in der nachstehenden Abbildung dargestellt. Die Funktion f hat bei t₁ = 1,4 eine lokale Maximumstelle und bei t₂ = 2,9 eine Wendestelle."
         },
         {
@@ -142,6 +158,10 @@
         {
           "t": "text",
           "v": " mit F(0) = 400 ist eine Stammfunktion von f (t in h, F(t) in L).\n\nKreuzen Sie die beiden zutreffenden Aussagen an."
+        },
+        {
+          "t": "text",
+          "v": " [2 aus 5]"
         }
       ],
       "figures": [],
@@ -287,7 +307,7 @@
     {
       "id": "2024-het-t2-04-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Lückentext",
       "competencies": [
         {
           "code": "AG 3.4",

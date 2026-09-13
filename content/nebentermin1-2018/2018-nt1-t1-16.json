@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,254 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_653a",
+          "id": "1_653",
           "baseId": "1_653",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/378/Zweite%20Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-1;1]"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)<0"
+            },
+            {
+              "t": "text",
+              "v": ".\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(2)=0"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nachstehend sind fünf Aussagen über die zweite Ableitung von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " gegeben.\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[-1;1]"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[1;3]"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für alle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " aus dem Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[3;5]"
+            },
+            {
+              "t": "text",
+              "v": " gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)<0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(0)=f''(4)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f''(2)=0"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_653",
       "baseId": "1_653",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/378/Zweite%20Ableitung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Graph einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t1-16-q.png",
+      "alt": "Graph einer Polynomfunktion dritten Grades mit H, W und T."
+    },
+    {
+      "t": "text",
+      "v": "Die eingezeichneten Punkte sind der Hochpunkt "
+    },
+    {
+      "t": "math",
+      "v": "H=(0|f(0))"
+    },
+    {
+      "t": "text",
+      "v": ", der Wendepunkt "
+    },
+    {
+      "t": "math",
+      "v": "W=(2|f(2))"
+    },
+    {
+      "t": "text",
+      "v": " und der Tiefpunkt "
+    },
+    {
+      "t": "math",
+      "v": "T=(4|f(4))"
+    },
+    {
+      "t": "text",
+      "v": " des Graphen."
     }
   ]
 }

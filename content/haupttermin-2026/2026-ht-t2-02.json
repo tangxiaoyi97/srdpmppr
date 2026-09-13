@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -61,20 +61,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "alpha",
-            "label": "α",
-            "value": 36.74,
-            "tol": 0.5,
-            "unit": "°"
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\dfrac{8-2{,}4}{8-0{,}5}=\\dfrac{5{,}6}{7{,}5}"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=36{,}74\\ldots^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "a1) Ein Punkt für das richtige Berechnen von α ."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Tiefenwinkelα=36,74…°.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -118,6 +133,23 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "In der nebenstehenden (nicht maßstabgetreuen) Abbildung wird eine Situation beim Blobbing modelliert."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-02-a.png",
+          "alt": "Nicht maßstabgetreue Skizze: Jumper im Punkt J auf dem Sprungturm, Blobber im Punkt B auf dem Luftkissen über der Wasseroberfläche; der Jumper sieht den Blobber unter dem Tiefenwinkel α, h ist die Höhe."
+        },
+        {
+          "t": "text",
+          "v": "Unmittelbar vor dem Absprung befindet sich der Jumper im Punkt J = (0,5 | 8) und der Blobber im Punkt B = (8 | 2,4). Der Jumper sieht den Blobber unter dem Tiefenwinkel α."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Die Funktion h mit "
@@ -227,19 +259,43 @@
             },
             {
               "t": "text",
-              "v": ";  II: "
+              "v": "\nII: "
             },
             {
               "t": "math",
-              "v": "h(10{,}5)=5{,}2"
+              "v": "h(10{,}5)=8\\cdot 0{,}65\\ (=5{,}2)"
             },
             {
               "t": "text",
-              "v": ";  III: "
+              "v": "\nIII: "
             },
             {
               "t": "math",
               "v": "h'(10{,}5)=0"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\nI: "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot 8^{2}+b\\cdot 8+c=2{,}4"
+            },
+            {
+              "t": "text",
+              "v": "\nII: "
+            },
+            {
+              "t": "math",
+              "v": "a\\cdot 10{,}5^{2}+b\\cdot 10{,}5+c=5{,}2"
+            },
+            {
+              "t": "text",
+              "v": "\nIII: "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot a\\cdot 10{,}5+b=0"
             }
           ],
           "note": "a2) Ein halber Punkt für das richtige Aufstellen der Gleichungen I und II, ein halber Punkt für das richtige Aufstellen der Gleichung III."
@@ -271,24 +327,89 @@
       "prompt": [
         {
           "t": "text",
+          "v": "In der nebenstehenden (nicht maßstabgetreuen) Abbildung wird eine Situation beim Blobbing modelliert."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2026/fig/2026-ht-t2-02-a.png",
+          "alt": "Nicht maßstabgetreue Skizze: Jumper im Punkt J auf dem Sprungturm, Blobber im Punkt B auf dem Luftkissen über der Wasseroberfläche; der Jumper sieht den Blobber unter dem Tiefenwinkel α, h ist die Höhe."
+        },
+        {
+          "t": "text",
+          "v": "Unmittelbar vor dem Absprung befindet sich der Jumper im Punkt J = (0,5 | 8) und der Blobber im Punkt B = (8 | 2,4). Der Jumper sieht den Blobber unter dem Tiefenwinkel α."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Funktion h mit "
+        },
+        {
+          "t": "math",
+          "v": "h(x)=a\\cdot x^{2}+b\\cdot x+c\\ \\text{mit}\\ a,\\,b,\\,c\\in\\mathbb{R}\\ \\text{und}\\ a\\neq 0"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt modellhaft die Flugbahn des Blobbers vom Wegschleudern bis zum Auftreffen auf die Wasseroberfläche.\nx ... waagrechte Entfernung des Blobbers vom Sprungturm in m\nh(x) ... Höhe des Blobbers über der Wasseroberfläche an der Stelle x in m\n\nDie maximale Höhe des Blobbers entspricht 65 % der Absprunghöhe des Jumpers und wird in einer waagrechten Entfernung von 10,5 m vom Sprungturm erreicht."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Gemäß diesem Modell trifft der Blobber in einer bestimmten waagrechten Entfernung vom Sprungturm auf die Wasseroberfläche.\n\nBerechnen Sie diese Entfernung."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "x",
-            "value": 13.9,
-            "tol": 0.1,
-            "unit": "m"
+            "t": "math",
+            "v": "h(x)=-0{,}448\\cdot x^{2}+9{,}408\\cdot x-44{,}192"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "h(x)=0"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "x_1=13{,}90\\ldots\\quad(x_2=7{,}09\\ldots)"
+          },
+          {
+            "t": "text",
+            "v": "Der Blobber trifft in einer waagrechten Entfernung von rund 13,9 m vom Sprungturm auf die Wasseroberfläche."
+          },
+          {
+            "t": "text",
+            "v": "a3) Ein Punkt für das richtige Berechnen der Entfernung."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Landestelle13,90…m, rund13,9m; die frühere Nullstelle7,09…ist nicht richtig.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -350,7 +471,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Bei einem bestimmten Blobbing-Wettbewerb werden die erreichten Höhen von 20 am Wettbewerb teilnehmenden Blobbern auf Dezimeter genau gemessen.\n\nFolgende Ergebnisse werden veröffentlicht:\n- Die geringste erreichte Höhe beträgt 1,2 m und die größte erreichte Höhe beträgt 7,9 m.\n- Genau 7 Blobber erreichten eine Höhe von höchstens 3 m.\n- Genau 10 Blobber überschritten eine Höhe von 3 m und erreichten eine Höhe von höchstens 4,5 m.\n\nKreuzen Sie die beiden auf jeden Fall zutreffenden Aussagen an."
+          "v": "Bei einem bestimmten Blobbing-Wettbewerb werden die erreichten Höhen von 20 am Wettbewerb teilnehmenden Blobbern auf Dezimeter genau gemessen.\n\nFolgende Ergebnisse werden veröffentlicht:\n- Die geringste erreichte Höhe beträgt 1,2 m und die größte erreichte Höhe beträgt 7,9 m.\n- Genau 7 Blobber erreichten eine Höhe von höchstens 3 m.\n- Genau 10 Blobber überschritten eine Höhe von 3 m und erreichten eine Höhe von höchstens 4,5 m.\n\nKreuzen Sie die beiden auf jeden Fall zutreffenden Aussagen an. [2 aus 5]"
         }
       ],
       "figures": [],

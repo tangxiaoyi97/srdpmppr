@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -22,14 +22,382 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt2-t2-02-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zur Modellierung der parabelförmigen Träger wurde, wie in der folgenden Grafik dargestellt, ein Koordinatensystem durch die Frontansicht des Design-Centers gelegt:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-02-front-view.png",
+          "alt": "Frontansicht mit Koordinatensystem:Scheitelaufy-Achse,Bodenaufx-Achse"
+        },
+        {
+          "t": "text",
+          "v": "\nⒶ Geben Sie eine Gleichung der Polynomfunktion zweiten Grades "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an, welche diese Parabel beschreibt!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "f(x)=-\\frac{13}{1\\,296}\\cdot x^2+13"
+          },
+          {
+            "t": "text",
+            "v": "\n\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(x)\\approx-0{,}01\\cdot x^2+13"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für das Aufstellen einer korrekten Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=-\\frac{13}{1\\,296}\\cdot x^2+13"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x)\\approx-0{,}01\\cdot x^2+13"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für das Aufstellen einer korrekten Funktionsgleichung. Äquivalente Funktionsgleichungen sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "id": "2016-nt2-t2-02-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Zur Modellierung der parabelförmigen Träger wurde, wie in der folgenden Grafik dargestellt, ein Koordinatensystem durch die Frontansicht des Design-Centers gelegt:"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-02-front-view.png",
+          "alt": "Frontansicht mit Koordinatensystem:Scheitelaufy-Achse,Bodenaufx-Achse"
+        },
+        {
+          "t": "text",
+          "v": "\nⒶ Geben Sie eine Gleichung der Polynomfunktion zweiten Grades "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an, welche diese Parabel beschreibt!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, was durch "
+        },
+        {
+          "t": "math",
+          "v": "200\\cdot2\\cdot\\int_0^{36}f(x)\\,\\mathrm{d}x"
+        },
+        {
+          "t": "text",
+          "v": " in Bezug auf das Design-Center berechnet wird!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Durch den angegebenen Term wird das (umbaute) Volumen des Design-Centers berechnet."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Durch den angegebenen Term wird das (umbaute) Volumen des Design-Centers berechnet."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "id": "2016-nt2-t2-02-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Baukosten für das Design-Center betrugen zur Zeit der Baufertigstellung (1993) umgerechnet ca. € 66 Mio.\nDer Baukostenindex ist ein Maß für die Entwicklung derjenigen Kosten, die Bauunternehmern bei der Ausführung von Bauleistungen durch Veränderungen der Kostengrundlagen (Material und Arbeit) entstehen. Er gibt z. B. an, wie stark die Kosten für Hochbauten pro Jahr steigen.\nBerechnen Sie unter der Annahme, dass der Baukostenindex für Österreich 3,5 % pro Jahr beträgt, die Höhe der Baukosten für das Design-Center, wenn es erst 10 Jahre später gebaut worden wäre!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "2003 würden die Baukosten für das Design-Center ca. € 93,1 Mio. betragen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Berechnung. Toleranzintervall: [€ 93 Mio.; € 94 Mio.]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "2003 würden die Baukosten für das Design-Center ca. € 93,1 Mio. betragen."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Berechnung. Toleranzintervall: [€ 93 Mio.; € 94 Mio.]"
+        }
+      ],
+      "id": "2016-nt2-t2-02-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Baukostenindex ist ein Maß für die Entwicklung derjenigen Kosten, die Bauunternehmern bei der Ausführung von Bauleistungen durch Veränderungen der Kostengrundlagen (Material und Arbeit) entstehen. Er gibt z. B. an, wie stark die Kosten für Hochbauten pro Jahr steigen.\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Die nachstehende Tabelle gibt Auskunft über die Entwicklung des Baukostenindex der Gesamtbaukosten für den Wohnhaus- und Siedlungsbau im Zeitraum von fünf aufeinanderfolgenden Jahren."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-02-cost-index.png",
+          "alt": "Baukostenindex2010bis2014:3.2%,2.3%,2.1%,1.9%,1.1%"
+        },
+        {
+          "t": "text",
+          "v": "\nQuelle: http://www.statistik.at/web_de/statistiken/wirtschaft/preise/baukostenindex/index.html [30.10.2015]\n\nJemand interessiert sich für den durchschnittlichen Baukostenindex in diesen fünf Jahren. Zur Abschätzung führt er die folgende Rechnung aus:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\frac{3{,}2+2{,}3+2{,}1+1{,}9+1{,}1}{5}=2{,}12"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDie Vorgehensweise ist für die Berechnung des durchschnittlichen Baukostenindex allerdings nicht ganz korrekt. Geben Sie an, wie diese Berechnung korrekt zu erfolgen hätte!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Korrekte Vorgehensweise: "
+          },
+          {
+            "t": "math",
+            "v": "K\\cdot1{,}032\\cdot1{,}023\\cdot1{,}021\\cdot1{,}019\\cdot1{,}011=K\\cdot a^5\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=\\sqrt[5]{1{,}032\\cdot1{,}023\\cdot1{,}021\\cdot1{,}019\\cdot1{,}011}\\Rightarrow a\\approx1{,}02118"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe einer korrekten Vorgehensweise. Die numerische Berechnung des Wertes muss dabei nicht erfolgen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Korrekte Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "K\\cdot1{,}032\\cdot1{,}023\\cdot1{,}021\\cdot1{,}019\\cdot1{,}011=K\\cdot a^5\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "a=\\sqrt[5]{1{,}032\\cdot1{,}023\\cdot1{,}021\\cdot1{,}019\\cdot1{,}011}\\Rightarrow a\\approx1{,}02118"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe einer korrekten Vorgehensweise. Die numerische Berechnung des Wertes muss dabei nicht erfolgen."
+        }
+      ],
+      "id": "2016-nt2-t2-02-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Design-Center ist eines der modernen Wahrzeichen der Stadt Linz. Erbaut wurde es von Juli 1991 bis Ende Oktober 1993. Im Jänner 1994 wurde es als Veranstaltungs- und Messezentrum in Betrieb genommen.\nDie Träger der Konstruktion lassen sich in guter Näherung durch Parabelbögen beschreiben. Die Spannweite der Bögen beträgt ungefähr 72 m, die maximale Höhe der Bögen liegt bei ca. 13 m. Die Grundfläche des Design-Centers ist ein Rechteck mit 200 m Länge und 72 m Breite."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t2-02-building-photo.png",
+      "alt": "Originalfoto des Design-Centers Linz"
+    },
+    {
+      "t": "text",
+      "v": "\nBildquelle: http://www.linz.at/images/dc_druck.jpg [09.09.2015]"
+    }
+  ]
 }

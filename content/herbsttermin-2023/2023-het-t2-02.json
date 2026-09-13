@@ -1,6 +1,6 @@
 {
   "id": "2023-het-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -56,12 +56,28 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "value": 0.00202,
-            "tol": 0.0001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{4}{12} \\cdot \\frac{3}{11} \\cdot \\frac{2}{10} \\cdot \\frac{1}{9} = \\frac{1}{495} = 0{,}0020\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit, dass alle 4 gezogenen Spielfiguren rot sind, beträgt rund 0,2 %."
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit, dass alle 4 gezogenen Spielfiguren rot sind."
           }
         ]
       },
@@ -91,7 +107,7 @@
     {
       "id": "2023-het-t2-02-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "WS 2.3",
@@ -130,17 +146,32 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "u",
-            "value": 0.05714285714285714,
-            "tol": 0.000001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "v",
-            "value": 0.5,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "u = \\tfrac{4}{70} = \\tfrac{2}{35}"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "v = \\tfrac{35}{70} = \\tfrac{1}{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Berechnen von u und v."
           }
         ]
       },
@@ -316,7 +347,7 @@
     {
       "id": "2023-het-t2-02-b2",
       "label": "b2",
-      "format": "Zuordnungsformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.2",
@@ -338,6 +369,14 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Isabella gewinnt gegen ihre Freundin Fatima durchschnittlich 3 von 5 Partien „Mensch ärgere Dich nicht“. In den bevorstehenden Sommerferien werden die beiden Mädchen n Partien gegeneinander spielen (n gerade, n > 2).\nDie binomialverteilte Zufallsvariable Y gibt an, wie viele der n Partien von Isabella gewonnen werden.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Der Erwartungswert von Y wird mit μ, die Standardabweichung von Y mit σ bezeichnet."
         },
         {
@@ -347,12 +386,40 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "P",
-            "value": 0.7255,
-            "tol": 0.001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "p = 0{,}6,\\quad n = 14"
+          },
+          {
+            "t": "math",
+            "v": "\\mu = 8{,}4,\\quad \\sigma = 1{,}83\\ldots"
+          },
+          {
+            "t": "math",
+            "v": "[\\mu - \\sigma;\\ \\mu + \\sigma] = [6{,}56\\ldots;\\ 10{,}23\\ldots]"
+          },
+          {
+            "t": "math",
+            "v": "P(7 \\le Y \\le 10) = 0{,}7255\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(\\mu - \\sigma < Y < \\mu + \\sigma) = 0{,}7255\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit."
           }
         ]
       },

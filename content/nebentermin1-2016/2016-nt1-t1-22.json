@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,188 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_496a",
+          "id": "1_496",
           "baseId": "1_496",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/205/Zufallsvariable.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " kann die Werte "
+            },
+            {
+              "t": "math",
+              "v": "x_1=0"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "x_2=1"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x_3=2"
+            },
+            {
+              "t": "text",
+              "v": " annehmen.\n\nEs gilt:\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X=0)=\\frac16,\\quad P(X=1)=\\frac36,\\quad P(X=2)=\\frac26"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe aller möglichen Werte, die die Zufallsvariable X annehmen kann, und der jeweils zugehörigen Wahrscheinlichkeit. Andere Schreibweisen der Ergebnisse sind ebenfalls als richtig zu werten. Eine korrekte grafische Darstellung der Wahrscheinlichkeitsverteilung ist ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Zufallsversuch wird der Würfel einmal geworfen. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der Sterne auf der nach oben zeigenden Seitenfläche.\nGeben Sie die Wahrscheinlichkeitsverteilung von "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " an, d. h. die möglichen Werte von "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " samt zugehöriger Wahrscheinlichkeiten!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " kann die Werte "
+          },
+          {
+            "t": "math",
+            "v": "x_1=0"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "x_2=1"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "x_3=2"
+          },
+          {
+            "t": "text",
+            "v": " annehmen.\n\nEs gilt:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X=0)=\\frac16,\\quad P(X=1)=\\frac36,\\quad P(X=2)=\\frac26"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe aller möglichen Werte, die die Zufallsvariable X annehmen kann, und der jeweils zugehörigen Wahrscheinlichkeit. Andere Schreibweisen der Ergebnisse sind ebenfalls als richtig zu werten. Eine korrekte grafische Darstellung der Wahrscheinlichkeitsverteilung ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_496",
       "baseId": "1_496",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/205/Zufallsvariable.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nachstehend sind die sechs Seitenflächen eines fairen Spielwürfels abgebildet. Auf jeder Seitenfläche sind drei Symbole dargestellt. (Ein Würfel ist „fair“, wenn die Wahrscheinlichkeit, nach einem Wurf nach oben zu zeigen, für alle sechs Seitenflächen gleich groß ist.)"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-22-die-faces.png",
+      "alt": "Sechs Würfelseiten mit jeweils drei Symbolen: Sternanzahlen1,1,1,2,0,2."
     }
   ]
 }

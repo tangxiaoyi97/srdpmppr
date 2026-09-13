@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,99 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_552a",
+          "id": "1_552",
           "baseId": "1_552",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/261/Finanzschulden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck beschreibt die durchschnittliche jährliche Zunahme (durchschnittliche jährliche Änderung) der Finanzschulden Österreichs (in Milliarden Euro im angegebenen Zeitraum)."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{F_1-F_0}{10}"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf die Entwicklung der Finanzschulden Österreichs!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Ausdruck beschreibt die durchschnittliche jährliche Zunahme (durchschnittliche jährliche Änderung) der Finanzschulden Österreichs (in Milliarden Euro im angegebenen Zeitraum)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_552",
       "baseId": "1_552",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/261/Finanzschulden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Finanzschulden Österreichs haben im Zeitraum 2000 bis 2010 zugenommen. Im Jahr 2000 betrugen die Finanzschulden Österreichs "
+    },
+    {
+      "t": "math",
+      "v": "F_0"
+    },
+    {
+      "t": "text",
+      "v": ", zehn Jahre später betrugen sie "
+    },
+    {
+      "t": "math",
+      "v": "F_1"
+    },
+    {
+      "t": "text",
+      "v": " (jeweils in Milliarden Euro)."
     }
   ]
 }

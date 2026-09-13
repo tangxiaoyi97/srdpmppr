@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,176 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_622a",
+          "id": "1_622",
           "baseId": "1_622",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/343/Graphen%20quadratischer%20Funktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a_3<a_1<a_2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b_3<b_2<b_1"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie die Parameterwerte "
+        },
+        {
+          "t": "math",
+          "v": "a_i"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b_i"
+        },
+        {
+          "t": "text",
+          "v": " jeweils der Größe nach, beginnend mit dem kleinsten!\n\nParameterwerte "
+        },
+        {
+          "t": "math",
+          "v": "a_i"
+        },
+        {
+          "t": "text",
+          "v": ": _______ < _______ < _______\nParameterwerte "
+        },
+        {
+          "t": "math",
+          "v": "b_i"
+        },
+        {
+          "t": "text",
+          "v": ": _______ < _______ < _______"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "a_3<a_1<a_2"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "b_3<b_2<b_1"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_622",
       "baseId": "1_622",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/343/Graphen%20quadratischer%20Funktionen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Graphen quadratischer Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f_1"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "f_2"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "f_3"
+    },
+    {
+      "t": "text",
+      "v": " mit den Gleichungen "
+    },
+    {
+      "t": "math",
+      "v": "f_i(x)=a_i\\cdot x^2+b_i"
+    },
+    {
+      "t": "text",
+      "v": ", wobei gilt: "
+    },
+    {
+      "t": "math",
+      "v": "a_i,b_i\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "i\\in\\{1,2,3\\}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-09-q.png",
+      "alt": "Graphen der quadratischen Funktionen f₁, f₂ und f₃."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,104 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_464a",
+          "id": "1_464",
           "baseId": "1_464",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/173/Standseilbahn%20Salzburg.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sin(\\alpha)=\\frac{96{,}6}{198{,}5}\\Rightarrow\\alpha\\approx29{,}12^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit Grad nicht angeführt sein muss. Eine korrekte Angabe in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [29°; 30°]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie den Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": ", unter dem die Gleise der Bahn gegen die Horizontale geneigt sind!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\sin(\\alpha)=\\frac{96{,}6}{198{,}5}\\Rightarrow\\alpha\\approx29{,}12^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit Grad nicht angeführt sein muss. Eine korrekte Angabe in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [29°; 30°]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_464",
       "baseId": "1_464",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/173/Standseilbahn%20Salzburg.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Festungsbahn Salzburg ist eine Standseilbahn in der Stadt Salzburg mit konstanter Steigung. Die Bahn auf den dortigen Festungsberg ist die älteste in Betrieb befindliche Seilbahn dieser Art in Österreich. Die Standseilbahn legt eine Wegstrecke von 198,5 m zurück und überwindet dabei einen Höhenunterschied von 96,6 m."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-06-funicular.png",
+      "alt": "Originalfoto der Festungsbahn Salzburg von Herbert Ortner,CCBY3.0"
+    },
+    {
+      "t": "text",
+      "v": "\nBildquelle: https://de.wikipedia.org/wiki/Festungsbahn_Salzburg#/media/File:Festungsbahn_salzburg_20100720.jpg [27.05.2015]\n(Urheber: Herbert Ortner, Lizenz: CC BY 3.0)"
     }
   ]
 }

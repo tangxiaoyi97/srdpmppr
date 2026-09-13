@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,160 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_358a",
+          "id": "1_358",
           "baseId": "1_358",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/69/Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "An den Stellen "
+            },
+            {
+              "t": "math",
+              "v": "x_1=-4"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x_2=4"
+            },
+            {
+              "t": "text",
+              "v": " hat "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " lokale Extrema."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn beide Stellen richtig angegeben sind. Eine Schreibweise wie z. B. x = ± 4 ist auch zulässig. Die Aufgabe ist falsch gelöst, wenn nur eine der beiden lokalen Extremstellen angegeben ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie, an welchen Stellen die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "(-5;5)"
+        },
+        {
+          "t": "text",
+          "v": " jedenfalls lokale Extrema hat! Die für die Bestimmung relevanten Punkte mit ganzzahligen Koordinaten können der Abbildung entnommen werden."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "An den Stellen "
+          },
+          {
+            "t": "math",
+            "v": "x_1=-4"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "x_2=4"
+          },
+          {
+            "t": "text",
+            "v": " hat "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " lokale Extrema."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_358",
       "baseId": "1_358",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/69/Ableitung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph der 1. Ableitungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-16-derivative.png",
+      "alt": "Originalgraph der Ableitungsfunktion f′."
     }
   ]
 }

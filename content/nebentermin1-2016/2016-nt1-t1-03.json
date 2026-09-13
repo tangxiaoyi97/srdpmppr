@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,185 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_515a",
+          "id": "1_515",
           "baseId": "1_515",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/224/Vektoren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "D=(9\\mid11{,}5)"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe beider Koordinaten des gesuchten Punktes D. Andere Schreibweisen der Koordinaten sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AC}=\\begin{pmatrix}4\\\\7\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "D=C+\\frac{1}{2}\\cdot\\overrightarrow{AC}\\Rightarrow D=(9\\mid11{,}5)"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Koordinaten von "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": "!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "D=(\\underline{\\qquad}\\mid\\underline{\\qquad})"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "\\overrightarrow{AC}=\\begin{pmatrix}4\\\\7\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "D=C+\\frac{1}{2}\\cdot\\overrightarrow{AC}\\Rightarrow D=(9\\mid11{,}5)"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "D=(9\\mid11{,}5)"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe beider Koordinaten des gesuchten Punktes D. Andere Schreibweisen der Koordinaten sind ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=7",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_515",
       "baseId": "1_515",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/224/Vektoren.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der Ebene werden auf einer Geraden in gleichen Abständen nacheinander die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A,B,C"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "D"
+    },
+    {
+      "t": "text",
+      "v": " markiert.\n\nEs gilt also:\n"
+    },
+    {
+      "t": "math",
+      "v": "\\overrightarrow{AB}=\\overrightarrow{BC}=\\overrightarrow{CD}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDie Koordinaten der Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " sind bekannt.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "A=(3\\mid1)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "C=(7\\mid8)"
     }
   ]
 }

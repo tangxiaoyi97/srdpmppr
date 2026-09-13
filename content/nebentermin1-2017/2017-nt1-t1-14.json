@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,135 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_579a",
+          "id": "1_579",
           "baseId": "1_579",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/288/Schwimmbad.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Wasserhöhe nimmt im Zeitintervall "
+            },
+            {
+              "t": "math",
+              "v": "[2;5]"
+            },
+            {
+              "t": "text",
+              "v": " um durchschnittlich 4 dm pro Stunde zu."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie das Ergebnis der folgenden Berechnung im gegebenen Kontext!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\frac{h(5)-h(2)}{5-2}=4"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Wasserhöhe nimmt im Zeitintervall "
+          },
+          {
+            "t": "math",
+            "v": "[2;5]"
+          },
+          {
+            "t": "text",
+            "v": " um durchschnittlich 4 dm pro Stunde zu."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_579",
       "baseId": "1_579",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/288/Schwimmbad.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In ein Schwimmbad wird ab dem Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " Wasser eingelassen.\n\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Höhe des Wasserspiegels zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": ". Die Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird dabei in dm gemessen, die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Stunden."
     }
   ]
 }

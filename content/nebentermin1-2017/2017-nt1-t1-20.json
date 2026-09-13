@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -24,12 +24,104 @@
     {
       "id": "2017-nt1-t1-20-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=24",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=\\frac{13}{300}=0{,}04\\dot3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,04; 0,05] bzw. [4 %; 5 %]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen möglichst zuverlässigen Schätzwert für die Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " an, dass ein von der neu eingestellten Maschine erzeugtes Stück fehlerhaft ist!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "p="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "p=\\frac{13}{300}=0{,}04\\dot3"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,04; 0,05] bzw. [4 %; 5 %]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=24",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Fabrik wird mithilfe einer Maschine ein Produkt erzeugt, von dem jeweils 100 Stück in eine Packung kommen.\n\nIm Anschluss an eine Neueinstellung der Maschine werden drei Packungen erzeugt. Diese Packungen werden kontrolliert und es wird die jeweilige Anzahl darin enthaltener defekter Stücke ermittelt. Die Ergebnisse dieser Kontrollen sind in der nachstehenden Tabelle zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-20-table.png",
+      "alt": "Erste Packung: 6 defekte Stücke; zweite: 3; dritte: 4."
+    },
+    {
+      "t": "text",
+      "v": "Die Fabriksleitung benötigt einen auf dem vorliegenden Datenmaterial basierenden Schätzwert für die Wahrscheinlichkeit "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": ", dass ein von der neu eingestellten Maschine erzeugtes Stück fehlerhaft ist."
+    }
+  ]
 }

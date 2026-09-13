@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-13",
+  "questionId": "2023-ht-t2-01",
+  "partId": "2023-ht-t2-01-b2",
+  "beforeSha256": "37316456f9be723297310be942cd2f1f2a96ccbe53ce51de6b0c0fc80c10ec77",
+  "afterSha256": "6457d6361e051c993dbba92fb28bd3e3cfe64cbefc9e828439e959c6ed8fdc5d",
+  "sourceLibraryPath": "library/[lo]haupttermin-2023/[2023h1]t2-1.pdf",
+  "sourcePage": 1,
+  "sourceSha256": "ed94688b170884b1493a98e247f05c3db1e155f4cd94a6d88e024d65f60c8984",
+  "beforeAnswer": {
+    "kind": "numeric",
+    "blanks": [
+      {
+        "id": "abnahme",
+        "label": "Abnahme der Wassermenge",
+        "value": 11.625,
+        "tol": 0.01,
+        "unit": "m³"
+      }
+    ]
+  },
+  "afterAnswer": {
+    "kind": "open",
+    "rubric": [
+      {
+        "t": "text",
+        "v": "Die Abnahme der Wassermenge beträgt 11,625 m³. Nach dem offiziellen Lösungsschlüssel ist ebenso −11,625 m³ als richtig zu werten. Beide Vorzeichen sind ausdrücklich zulässig."
+      }
+    ],
+    "grader": "ai"
+  },
+  "reason": "Official solution explicitly accepts either +11.625 or -11.625 m³. Schema 3 numeric blanks allow one value/tolerance only; use its existing rubric-based open answer to preserve both accepted signs, without widening tolerance to accept incorrect intermediate values or changing schema. Original one-point score retained."
+}

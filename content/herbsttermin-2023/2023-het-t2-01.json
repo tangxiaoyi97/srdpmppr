@@ -1,6 +1,6 @@
 {
   "id": "2023-het-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -52,7 +52,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/herbsttermin-2023/fig/2023-het-t2-01-a-q.png",
-          "alt": "Koordinatensystem (x in m, y in m) mit dem Verlauf der Schwimmstrecke. Punkte B1 (links), B2 (oben), B3 (rechts oben), S = (600 | 0) auf der x-Achse und Z (rechts auf der x-Achse)."
+          "alt": "Koordinatensystem (x in m, y in m) mit dem Verlauf der Schwimmstrecke. B₁ liegt auf der positiven y-Achse; B₂ liegt oberhalb rechts davon, B₃ rechts oberhalb von S. S liegt auf der x-Achse, Z rechts von S knapp oberhalb der x-Achse."
         },
         {
           "t": "text",
@@ -69,13 +69,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "y",
-            "value": 360.5,
-            "tol": 1,
-            "unit": "m"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "B_1 = (0\\ |\\ 360{,}5\\ldots)"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Berechnen der y-Koordinate von B1."
           }
         ]
       },
@@ -194,13 +205,32 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "v",
-            "value": 17.5,
-            "tol": 0.1,
-            "unit": "km/h"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Zeitdifferenz: 2 h 24 min 18 s = 2,405 h"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{42{,}195}{2{,}405} = 17{,}54\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Michaels Durchschnittsgeschwindigkeit im Laufbewerb beträgt rund 17,5 km/h."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für das richtige Berechnen der Durchschnittsgeschwindigkeit."
           }
         ]
       },
@@ -264,7 +294,7 @@
         },
         {
           "t": "text",
-          "v": " beschreibt in Abhängigkeit von der Zeit t für den Zeitraum von 1978 bis 2018 modellhaft die Anzahl der Personen, die an diesem Bewerb teilnehmen (t in Jahren mit t = 0 für das Jahr 1978).\n\nDie Anzahl der Personen, die an diesem Bewerb teilnehmen, ist im Zeitraum von 1978 bis 2018 im Mittel um n Personen pro Jahr gestiegen."
+          "v": " beschreibt in Abhängigkeit von der Zeit t für den Zeitraum von 1978 bis 2018 modellhaft die Anzahl der Personen, die an diesem Bewerb teilnehmen (t in Jahren mit t = 0 für das Jahr 1978).\n\nQuelle: https://www.tri226.de/ironman-ergebnisse.php?language=ge&table=start_finish [09.08.2022].\n\nDie Anzahl der Personen, die an diesem Bewerb teilnehmen, ist im Zeitraum von 1978 bis 2018 im Mittel um n Personen pro Jahr gestiegen."
         },
         {
           "t": "text",
@@ -278,7 +308,7 @@
           {
             "id": "n",
             "value": 61.425,
-            "tol": 0.01
+            "tol": 1e-09
           }
         ]
       },

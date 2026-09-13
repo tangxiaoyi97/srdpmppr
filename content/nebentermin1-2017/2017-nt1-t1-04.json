@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,144 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_569a",
+          "id": "1_569",
           "baseId": "1_569",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/278/W%C3%BCrstelstand.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Gesamtgewinn "
+            },
+            {
+              "t": "math",
+              "v": "=A\\cdot(B-C)"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Ausdruck. Äquivalente Ausdrücke sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Ausdruck mithilfe der Vektoren "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": " an, der den an diesem Tag erzielten Gesamtgewinn des Würstelstandbesitzers bezogen auf den Verkauf der Würstel beschreibt!\n\nGesamtgewinn = ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Gesamtgewinn "
+          },
+          {
+            "t": "math",
+            "v": "=A\\cdot(B-C)"
+          },
+          {
+            "t": "text",
+            "v": ", wobei das Skalarprodukt gemeint ist. Äquivalente Ausdrücke sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_569",
       "baseId": "1_569",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/278/W%C3%BCrstelstand.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Würstelstandbesitzer führt Aufzeichnungen über die Anzahl der täglich verkauften Würstel.\nDie Aufzeichnung eines bestimmten Tages ist nachstehend angegeben:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-04-table.png",
+      "alt": "Verkaufte Portionen, Verkaufspreise und Einkaufspreise für Frankfurter, Debreziner, Burenwurst, Käsekrainer und Bratwurst."
+    },
+    {
+      "t": "text",
+      "v": "Die mit Zahlenwerten ausgefüllten Spalten der Tabelle können als Vektoren angeschrieben werden. Dabei gibt der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der verkauften Portionen, der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " die Verkaufspreise pro Portion (in Euro) und der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " die Einkaufspreise pro Portion (in Euro) an."
     }
   ]
 }

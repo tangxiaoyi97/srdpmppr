@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,180 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_341a",
+          "id": "1_341",
           "baseId": "1_341",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/53/Gleichung%20einer%20quadratischen%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=\\frac14"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "a=0{,}25"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "b=2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei beide Parameter richtig angegeben sein müssen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Werte der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": "! Die für die Berechnung relevanten Punkte mit ganzzahligen Koordinaten können dem Diagramm entnommen werden.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a="
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "b="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "a=\\frac14"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "a=0{,}25"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "b=2"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei beide Parameter richtig angegeben sein müssen."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_341",
       "baseId": "1_341",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/53/Gleichung%20einer%20quadratischen%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im nachfolgenden Koordinatensystem ist der Graph einer quadratischen Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^2+b"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": ") dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-09-parabola.png",
+      "alt": "Originalgraph der quadratischen Funktion f mit ganzzahlig skalierten Achsen."
     }
   ]
 }

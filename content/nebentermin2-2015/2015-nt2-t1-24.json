@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,115 @@
     {
       "id": "2015-nt2-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (2 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_374 (offiziell adaptierte Fassung)",
+          "baseId": "1_374",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/82/Wuerfeln.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, höchstens acht Sechser zu werfen.\nDer Term gibt die Wahrscheinlichkeit an, weniger als neun Sechser zu werfen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche Wahrscheinlichkeit wird durch den Term "
+        },
+        {
+          "t": "math",
+          "v": "1-\\left[\\binom{10}9\\cdot\\left(\\frac16\\right)^9\\cdot\\frac56+\\left(\\frac16\\right)^{10}\\right]"
+        },
+        {
+          "t": "text",
+          "v": " angegeben?\nKreuzen Sie die zutreffende(n) Antwort(en) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, höchstens acht Sechser zu werfen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, mehr als zweimal keinen Sechser zu werfen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, mindestens einmal keinen Sechser zu werfen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, weniger als neun Sechser zu werfen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Term gibt die Wahrscheinlichkeit an, mehr als acht Sechser zu werfen."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=28",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_374 (offiziell adaptierte Fassung)",
+      "baseId": "1_374",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/82/Wuerfeln.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein fairer Würfel wird zehnmal geworfen."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,136 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_560a",
+          "id": "1_560",
           "baseId": "1_560",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/269/Koordinaten%20eines%20Punktes.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\tan(\\varphi-180^\\circ)=\\frac23\\Rightarrow\\varphi\\approx213{,}69^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angeführt sein muss. Toleranzintervall: [213°; 214°]. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Größe des Winkels "
+        },
+        {
+          "t": "math",
+          "v": "\\varphi"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\varphi\\approx213{,}69^\\circ"
+          },
+          {
+            "t": "text",
+            "v": ". Toleranzintervall: "
+          },
+          {
+            "t": "math",
+            "v": "[213^\\circ;214^\\circ]"
+          },
+          {
+            "t": "text",
+            "v": ". Die Einheit Grad muss nicht angeführt sein. Eine korrekte Angabe in einer anderen Einheit gilt ebenfalls. Bei korrektem Ansatz gilt die Aufgabe trotz Rechenfehlers als richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_560",
       "baseId": "1_560",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/269/Koordinaten%20eines%20Punktes.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der unten stehenden Abbildung ist der Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(-3|-2)"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt.\n\nDie Lage des Punktes "
+    },
+    {
+      "t": "math",
+      "v": "P"
+    },
+    {
+      "t": "text",
+      "v": " kann auch durch die Angabe des Abstands "
+    },
+    {
+      "t": "math",
+      "v": "r=\\overline{OP}"
+    },
+    {
+      "t": "text",
+      "v": " und die Größe des Winkels "
+    },
+    {
+      "t": "math",
+      "v": "\\varphi"
+    },
+    {
+      "t": "text",
+      "v": " eindeutig festgelegt werden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-06-q.png",
+      "alt": "Punkt P = (−3|−2), Abstand r vom Ursprung und Winkel φ gegen den Uhrzeigersinn von der positiven x-Achse."
     }
   ]
 }

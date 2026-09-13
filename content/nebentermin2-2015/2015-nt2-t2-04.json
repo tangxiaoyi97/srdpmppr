@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -22,14 +22,312 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt2-t2-04-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Periodenlänge der gegebenen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "L"
+        },
+        {
+          "t": "text",
+          "v": "!\nDie Periodenlänge beträgt ______ Sekunden."
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Periodenlänge",
+            "value": 4,
+            "tol": 1e-09,
+            "unit": "s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Periodenlänge beträgt 4 Sekunden."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Ermittlung der Periodenlänge. Es genügt dabei die Angabe des gesuchten Wertes, eine Rechnung oder Zeichnung ist nicht erforderlich."
+        }
+      ],
+      "id": "2015-nt2-t2-04-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erklären Sie die Bedeutung der Periodenlänge in Bezug auf den Atemvorgang!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Periodenlänge gibt die Zeitdauer eines Atemzyklus (= einmal Einatmen und einmal Ausatmen) an."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Deutung der Periodenlänge. Zulässig sind auch andere sinngemäß richtige Antworten, die auf den Atemvorgang konkret Bezug nehmen. Ohne konkreten Bezug zum gegebenen Kontext ist die Antwort nicht als korrekt zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Periodenlänge gibt die Zeitdauer eines Atemzyklus (= einmal Einatmen und einmal Ausatmen) an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung der Periodenlänge. Zulässig sind auch andere sinngemäß richtige Antworten, die auf den Atemvorgang konkret Bezug nehmen. Ohne konkreten Bezug zum gegebenen Kontext ist die Antwort nicht als korrekt zu werten."
+        }
+      ],
+      "id": "2015-nt2-t2-04-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^2L(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " und runden Sie das Ergebnis auf zwei Nachkommastellen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^2L(t)\\,dt=\\int_0^2 0{,}6\\cdot\\sin\\left(\\frac\\pi2\\cdot t\\right)dt=\\left[-0{,}6\\cdot\\frac2\\pi\\cdot\\cos\\left(\\frac\\pi2\\cdot t\\right)\\right]_0^2\\approx0{,}76"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [0,76; 0,80]. Die Einheit muss beim Ergebnis nicht zwingend angeführt werden."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_0^2L(t)\\,dt=\\int_0^2 0{,}6\\cdot\\sin\\left(\\frac\\pi2\\cdot t\\right)dt=\\left[-0{,}6\\cdot\\frac2\\pi\\cdot\\cos\\left(\\frac\\pi2\\cdot t\\right)\\right]_0^2\\approx0{,}76"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Toleranzintervall: [0,76; 0,80]. Die Einheit muss beim Ergebnis nicht zwingend angeführt werden."
+        }
+      ],
+      "id": "2015-nt2-t2-04-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^2L(t)\\,dt"
+        },
+        {
+          "t": "text",
+          "v": " und runden Sie das Ergebnis auf zwei Nachkommastellen!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Beschreiben Sie für das in Diskussion stehende Problem, was mit dem oben stehenden mathematischen Ausdruck berechnet wird!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Durch das bestimmte Integral wird das gesamte Luftvolumen (in Litern) berechnet, das während des Einatmens (in den ersten beiden Sekunden) in die Lunge strömt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation. Zulässig sind auch andere sinngemäß richtige Antworten, die auf den Atemvorgang konkret Bezug nehmen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Durch das bestimmte Integral wird das gesamte Luftvolumen (in Litern) berechnet, das während des Einatmens (in den ersten beiden Sekunden) in die Lunge strömt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation. Zulässig sind auch andere sinngemäß richtige Antworten, die auf den Atemvorgang konkret Bezug nehmen."
+        }
+      ],
+      "id": "2015-nt2-t2-04-b2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim Ein- bzw. Ausatmen wird Luft in unsere Lungen gesaugt bzw. wieder aus ihnen herausgepresst. Ein Atemzyklus erstreckt sich über den gesamten Vorgang des einmaligen Einatmens und anschließenden Ausatmens. Während des Atemvorganges lässt sich das bewegte Luftvolumen messen. Der Luftstrom wird in Litern pro Sekunde angegeben.\nDer Luftstrom "
+    },
+    {
+      "t": "math",
+      "v": "L(t)"
+    },
+    {
+      "t": "text",
+      "v": " kann in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden) näherungsweise durch die Sinusfunktion "
+    },
+    {
+      "t": "math",
+      "v": "L"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden. Ein Atemzyklus beginnt zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " mit dem Einatmen.\nNach einer Messung kann der Atemvorgang einer bestimmten Person modellhaft durch folgende Sinusfunktion beschrieben werden:\n"
+    },
+    {
+      "t": "math",
+      "v": "L(t)=0{,}6\\cdot\\sin\\left(\\frac\\pi2\\cdot t\\right)"
+    }
+  ]
 }

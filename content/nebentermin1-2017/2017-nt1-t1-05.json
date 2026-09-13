@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,121 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_570a",
+          "id": "1_570",
           "baseId": "1_570",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/279/Vektoren%20in%20der%20Ebene.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec c=-\\vec a-\\vec b"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-05-sol.png",
+              "alt": "Lösungsvektor c zeigt 3 Gittereinheiten nach rechts und eine nach oben."
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Darstellung von c, wobei der gesuchte Vektor auch von anderen Ausgangspunkten aus gezeichnet werden kann."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in die Abbildung einen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec c"
+        },
+        {
+          "t": "text",
+          "v": " so ein, dass die Summe der drei Vektoren den Nullvektor ergibt, also "
+        },
+        {
+          "t": "math",
+          "v": "\\vec a+\\vec b+\\vec c=\\begin{pmatrix}0\\\\0\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-05-q.png",
+          "alt": "Vektoren a und b auf einem quadratischen Gitter: a zeigt 3 Einheiten nach unten, b 3 nach links und 2 nach oben."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\vec c=-\\vec a-\\vec b"
+          },
+          {
+            "t": "text",
+            "v": ": drei Gittereinheiten nach rechts und eine nach oben. Andere Ausgangspunkte sind erlaubt."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_570",
       "baseId": "1_570",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/279/Vektoren%20in%20der%20Ebene.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die unten stehende Abbildung zeigt zwei Vektoren "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec b"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

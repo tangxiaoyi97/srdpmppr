@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,146 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_504a",
+          "id": "1_504",
           "baseId": "1_504",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/213/Ableitungsregeln.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g'(x)=3\\cdot f'(x)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Aussage angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Aussagen ist jedenfalls für alle "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " wahr? Kreuzen Sie die zutreffende Aussage an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=f'(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=f'(x)-2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=3\\cdot f'(x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=3\\cdot f'(x)-2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=3\\cdot f'(x)-2\\cdot x"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "g'(x)=-2\\cdot f'(x)"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_504",
       "baseId": "1_504",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/213/Ableitungsregeln.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Über zwei Polynomfunktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " ist bekannt, dass für alle "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "g(x)=3\\cdot f(x)-2"
     }
   ]
 }

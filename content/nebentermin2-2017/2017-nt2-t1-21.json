@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,110 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_521a",
+          "id": "1_521",
           "baseId": "1_521",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/230/Online-Gl%C3%BCcksspiel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "21,1 %"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich der laut Lösungserwartung richtige Schätzwert angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Mit welcher ungefähren Wahrscheinlichkeit wird er das nächste Spiel gewinnen?\nKreuzen Sie den zutreffenden Schätzwert für diese Wahrscheinlichkeit an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "0,162 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "4,74 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "16,2 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "21,1 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "7,68 %"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "76,6 %"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_521",
       "baseId": "1_521",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/230/Online-Gl%C3%BCcksspiel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Mann spielt über einen längeren Zeitraum regelmäßig dasselbe Online-Glücksspiel mit konstanter Gewinnwahrscheinlichkeit. Von 768 Spielen gewinnt er 162."
     }
   ]
 }

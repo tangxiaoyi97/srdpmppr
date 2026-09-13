@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -24,12 +24,306 @@
     {
       "id": "2014-ht-t2-01-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie für jede Partei eine passende Botschaft an, die mit dem jeweiligen Diagramm bezogen auf die Entwicklung der Besucherzahlen transportiert werden soll!\n\nPartei A:\n\nPartei B:"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Partei A: Das Hallenbad muss renoviert werden, da die Besucherzahlen über die letzten Jahre annähernd konstant geblieben sind.\n\nPartei B: Das Hallenbad soll nicht renoviert werden, da die Besucherzahlen in den letzten Jahren stark abgenommen haben."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Richtige Aussage zu Partei A.",
+            "points": 1
+          },
+          {
+            "desc": "Richtige Aussage zu Partei B.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 2,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Partei A: Das Hallenbad muss renoviert werden, da die Besucherzahlen über die letzten Jahre annähernd konstant geblieben sind.\n\nPartei B: Das Hallenbad soll nicht renoviert werden, da die Besucherzahlen in den letzten Jahren stark abgenommen haben."
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Aussage zu Partei A. Ein Punkt für eine richtige Aussage zu Partei B. Zulässig sind auch andere Formulierungen, die den Kern der Aussagen treffen."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-01-b",
+      "label": "b",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Partei B hat bei der grafischen Darstellung verschiedene Manipulationen eingesetzt, um die Entwicklung der Besucherzahlen aus ihrer Sicht darzustellen.\n\nBeschreiben Sie zwei dieser angewandten Manipulationen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "1) Die senkrechte Achse beginnt bei null, allerdings ist der erste Abschnitt bis zum ersten Skalierungswert verkürzt dargestellt.\n2) Änderung/„Verfeinerung“ der Skalierung\n3) Die x-Achsen-Skala beginnt mit 2002, daher fällt „der ansteigende Teil“ in der Graphik weg (vgl. Anstieg der Besucherzahlen lt. Partei A)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Erste sinngemäß korrekt angeführte Manipulation.",
+            "points": 1
+          },
+          {
+            "desc": "Zweite sinngemäß korrekt angeführte Manipulation.",
+            "points": 1
+          }
+        ]
+      },
+      "points": 2,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "1) Die senkrechte Achse beginnt bei null, allerdings ist der erste Abschnitt bis zum ersten Skalierungswert verkürzt dargestellt.\n2) Änderung/„Verfeinerung“ der Skalierung\n3) Die x-Achsen-Skala beginnt mit 2002, daher fällt „der ansteigende Teil“ in der Graphik weg (vgl. Anstieg der Besucherzahlen lt. Partei A)."
+            }
+          ],
+          "note": "Zwei Punkte: je ein Punkt für eine (sinngemäß) korrekt angeführte Manipulation."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-01-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Ermitteln Sie die Besucherzahlen pro Öffnungstag (gerundet auf eine Nachkommastelle) für die entsprechenden Jahre!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-01-daily-visitors-blank-table.png",
+          "alt": "Originale auszufüllende Tabelle der Besucherzahlen pro Öffnungstag von 2000 bis 2007."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "2000",
+            "label": "2000",
+            "value": 168.5,
+            "tol": 1e-09
+          },
+          {
+            "id": "2001",
+            "label": "2001",
+            "value": 169.3,
+            "tol": 1e-09
+          },
+          {
+            "id": "2002",
+            "label": "2002",
+            "value": 170,
+            "tol": 1e-09
+          },
+          {
+            "id": "2003",
+            "label": "2003",
+            "value": 171.8,
+            "tol": 1e-09
+          },
+          {
+            "id": "2004",
+            "label": "2004",
+            "value": 172,
+            "tol": 1e-09
+          },
+          {
+            "id": "2005",
+            "label": "2005",
+            "value": 174.2,
+            "tol": 1e-09
+          },
+          {
+            "id": "2006",
+            "label": "2006",
+            "value": 176.9,
+            "tol": 1e-09
+          },
+          {
+            "id": "2007",
+            "label": "2007",
+            "value": 180.6,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "2000: 168,5; 2001: 169,3; 2002: 170,0; 2003: 171,8; 2004: 172,0; 2005: 174,2; 2006: 176,9; 2007: 180,6."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtigen Werte in der Tabelle. Die Angabe einer Null nach dem Komma (z. B.: 170,0) kann entfallen."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Ermitteln Sie die Besucherzahlen pro Öffnungstag (gerundet auf eine Nachkommastelle) für die entsprechenden Jahre!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-01-daily-visitors-blank-table.png",
+          "alt": "Originale auszufüllende Tabelle der Besucherzahlen pro Öffnungstag von 2000 bis 2007."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Formulieren Sie eine dazu passende Aussage in Bezug auf die bevorstehende Entscheidung im Gemeinderat!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Investitionen in das Hallenbad lohnen sich, denn in den letzten acht Jahren stieg die Zahl der täglichen Besucher/innen jedes Jahr an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Investitionen in das Hallenbad lohnen sich, denn in den letzten acht Jahren stieg die Zahl der täglichen Besucher/innen jedes Jahr an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Antwort."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das örtliche Hallenbad einer kleinen Gemeinde veröffentlicht Anfang 2008 in der Gemeindezeitschrift eine Statistik über die jährlichen Besucherzahlen und die Anzahl der offenen Tage für die letzten acht Jahre:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-01-table.png",
+      "alt": "Tabelle der jährlichen Besucherzahlen und offenen Tage von 2000 bis 2007."
+    },
+    {
+      "t": "text",
+      "v": "Das Hallenbad bedarf einer Renovierung. Im Gemeinderat steht nun die Entscheidung an, ob Geld in das Hallenbad investiert oder das Hallenbad geschlossen werden soll.\nIm Vorfeld der Entscheidung veröffentlichen zwei örtliche Gemeinderatsparteien – Partei A und Partei B – folgende Diagramme in ihren Parteizeitschriften:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-01-party-a.png",
+      "alt": "Originaldiagramm von Partei A."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-01-party-b.png",
+      "alt": "Originaldiagramm von Partei B."
+    }
+  ]
 }

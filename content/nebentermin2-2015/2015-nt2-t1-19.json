@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,118 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_379a",
+          "id": "1_379",
           "baseId": "1_379",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/87/Temperaturaufzeichnungen%20von%20Braunschweig.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen 1 und 4 sind richtig."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Im Zeitraum 2002 – 2006 lag der Median der jeweiligen Tagesmitteltemperaturen jeweils im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[7\\,{}^\\circ\\mathrm C;13\\,{}^\\circ\\mathrm C]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Jahr 2006 lagen mehr als 25 % der Tagesmitteltemperaturen unter 0 °C."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Jahr 2002 wies den größten Median der Tagesmitteltemperaturen auf."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Das Jahr 2003 wies die größte Spannweite der Tagesmitteltemperaturen auf."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Jahr 2004 betrug die Spannweite der Tagesmitteltemperaturen 10 °C."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_379",
       "baseId": "1_379",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/87/Temperaturaufzeichnungen%20von%20Braunschweig.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Grafik veranschaulicht die jährlichen Temperaturaufzeichnungen der Tagesmitteltemperaturen von Braunschweig (Deutschland) im Zeitraum 2002 – 2006 mithilfe von Kastenschaubildern (Boxplots)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-19-temperature-boxplots.png",
+      "alt": "Boxplots der Tagesmitteltemperaturen von Braunschweig in den Jahren 2002 bis 2006, Temperaturachse in °C."
     }
   ]
 }

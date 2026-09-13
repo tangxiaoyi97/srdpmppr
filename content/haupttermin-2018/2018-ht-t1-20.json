@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,158 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_633a",
+          "id": "1_633",
           "baseId": "1_633",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/354/Spenden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "F; D; A; C"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Fragen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jede der vier Fragen in der linken Tabelle kann unter Kenntnis einer der statistischen Kennzahlen aus der rechten Tabelle korrekt beantwortet werden.\n\nOrdnen Sie den vier Fragen jeweils die entsprechende statistische Kennzahl (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Ist die Spende von Frau Müller eine der fünf größten Spenden?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ist die Spende von Frau Müller eine der zehn größten Spenden?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Ist die Spende von Frau Müller die kleinste Spende?"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wie viel Euro spenden die 20 Personen insgesamt?"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "Minimum"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Maximum"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "arithmetisches Mittel"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Median"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "unteres Quartil"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "oberes Quartil"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_633",
       "baseId": "1_633",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/354/Spenden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Für einen guten Zweck spenden 20 Personen Geld, wobei jede Person einen anderen Betrag spendet. Diese 20 Geldbeträge (in Euro) bilden den Datensatz "
+    },
+    {
+      "t": "math",
+      "v": "x_1,x_2,\\ldots,x_{20}"
+    },
+    {
+      "t": "text",
+      "v": ". Von diesem Datensatz ermittelt man Minimum, Maximum, arithmetisches Mittel, Median sowie unteres (erstes) und oberes (drittes) Quartil.\n\nFrau Müller ist eine dieser 20 Personen und spendet 50 Euro."
     }
   ]
 }

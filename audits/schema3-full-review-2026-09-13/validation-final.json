@@ -1,0 +1,47 @@
+{
+  "completedAtUtc": "2026-09-13T22:06:01.162108+00:00",
+  "localDate": "2026-09-14",
+  "auditStartedDate": "2026-09-13",
+  "questions": 1044,
+  "parts": 1672,
+  "packagedAssets": 825,
+  "bankValidation": {
+    "exitCode": 0,
+    "output": "$ node --experimental-strip-types scripts/validate-bank.mjs\n[bank:validate] 1044 questions, 1672 parts, 825 packaged assets; sha256 root 218de151b51c699238d9a9d32b3982e3bad4cd80d16acad08cabb078c217678f\n"
+  },
+  "testsPassed": 19,
+  "testFailureCount": 0,
+  "repositoryTests": {
+    "exitCode": 0,
+    "output": "$ node --experimental-strip-types --test test/*.test.mjs\n✔ schema rejects unknown keys at every contract object (3.269625ms)\n✔ schema rejects invalid matching indices and candidateGroups (0.4415ms)\n✔ schema requires every matching left entry exactly once (0.201708ms)\n✔ schema rejects scoring totals that disagree with part points (0.138667ms)\n✔ schema rejects duplicate and out-of-range choice indices (0.260792ms)\n✔ schema rejects an empty interval encoded with equal open bounds (0.192667ms)\n✔ schema accepts a strict valid v3 question (0.098459ms)\n✔ schema v4 accepts strict, versioned learning metadata and grounded solution alternatives (0.614291ms)\n✔ schema keeps v4 learning fields out of immutable v2/v3 records (0.210375ms)\n✔ schema requires a complete ordered three-level hint ladder with stable unique ids (0.2195ms)\n✔ grader ai requires grounded solution text but keeps valid all-or-nothing scoring (0.394125ms)\n✔ validator verifies content and deterministic asset manifest (55.604791ms)\n✔ validator fails closed on asset tampering (14.354583ms)\n✔ validator rejects an asset whose bytes do not match its MIME type (7.424625ms)\n✔ validator enforces globally unique part ids (12.831334ms)\n✔ validator rejects missing resources and source/file drift (6.982291ms)\n✔ validator rejects a schema symlink before executing it (2.261833ms)\n✔ 2019 legacy papers retain their original numbers without colliding with regular papers (9.829125ms)\n✔ validator rejects symbolic content roots and traversal entries (2.253834ms)\nℹ tests 19\nℹ suites 0\nℹ pass 19\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 153.339584\n"
+  },
+  "mathNodes": 10094,
+  "mathErrors": [],
+  "schemaRecords": 1044,
+  "assetRootSha256": "218de151b51c699238d9a9d32b3982e3bad4cd80d16acad08cabb078c217678f",
+  "finalValidationRepairs": "Three strict KaTeX failures for the original euro glyph resolved by placing it in adjacent rich text; values unchanged. Cache indexing now resolves archive-relative official URLs against https://www.matura.gv.at. Both checks passed after repair. Ten correct subtask links target continuation pages without repeated question headers; they passed exact original-document/page binding, opening-page ID/title and linked-page subtask-group checks.",
+  "schema4WorkPerformed": false,
+  "referenceVerification": {
+    "questions": 1044,
+    "officialReferenceOccurrences": 3515,
+    "uniqueCurrentPdfUrls": 980,
+    "allCurrentUrlsDownloaded": true,
+    "questionsWithMatchingPoolReference": 913,
+    "questionsWithOriginalArchiveReference": 469,
+    "questionsWithExplicitVariantReference": 21,
+    "questionsUsingOriginalOnly": 110,
+    "unresolvedErrors": 0,
+    "documentedOfficialFooterIdExceptions": 3,
+    "scannedIdPagesManuallyVerified": 2,
+    "verifiedContinuationReferences": 10
+  },
+  "allFinalChecksPassed": true,
+  "manifestFileSha256": "a57f66df80f8219e6c7849a5173652c0d7050a3065f31624aec8296381977ed9",
+  "auditReportConsistency": {
+    "reportHashesChecked": 9,
+    "currentQuestionHashesChecked": 1044,
+    "errors": 0,
+    "readmeRelativeLinksChecked": 14,
+    "officialFooterExceptionRecordsExplicitlySeparated": 15
+  }
+}

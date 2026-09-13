@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,193 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_481a",
+          "id": "1_481",
           "baseId": "1_481",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/190/Mittlere%20%C3%84nderungsrate%20interpretieren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x_2)>f(x_1)"
+            },
+            {
+              "t": "text",
+              "v": "\n\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x_2)-f(x_1)=5\\cdot(x_2-x_1)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der nachstehenden Aussagen können über die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " sicher getroffen werden?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[x_1;x_2]"
+            },
+            {
+              "t": "text",
+              "v": " gibt es mindestens eine Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=5"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x_2)>f(x_1)"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[x_1;x_2]"
+            },
+            {
+              "t": "text",
+              "v": " monoton steigend."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f'(x)=5"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in[x_1;x_2]"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x_2)-f(x_1)=5\\cdot(x_2-x_1)"
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_481",
       "baseId": "1_481",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/190/Mittlere%20%C3%84nderungsrate%20interpretieren.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dritten Grades. Die mittlere Änderungsrate von "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " hat im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[x_1;x_2]"
+    },
+    {
+      "t": "text",
+      "v": " den Wert 5."
     }
   ]
 }

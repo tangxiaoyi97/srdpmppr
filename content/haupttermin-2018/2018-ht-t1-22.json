@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,166 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_635a",
+          "id": "1_635",
           "baseId": "1_635",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/356/Vergleich%20zweier%20Wahrscheinlichkeitsverteilungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=E(Y)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "P(X\\le3)<P(Y\\le3)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "E(X)=E(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sigma(X)>\\sigma(Y)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le3)<P(Y\\le3)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(3\\le X\\le7)=P(3\\le Y\\le7)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "P(X\\le5)=0{,}3"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_635",
       "baseId": "1_635",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/356/Vergleich%20zweier%20Wahrscheinlichkeitsverteilungen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den nachstehenden Diagrammen sind die Wahrscheinlichkeitsverteilungen zweier Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "Y"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Die Erwartungswerte der Zufallsvariablen werden mit "
+    },
+    {
+      "t": "math",
+      "v": "E(X)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "E(Y)"
+    },
+    {
+      "t": "text",
+      "v": ", die Standardabweichungen mit "
+    },
+    {
+      "t": "math",
+      "v": "\\sigma(X)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\sigma(Y)"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-22-q.png",
+      "alt": "Wahrscheinlichkeitsverteilungen der Zufallsvariablen X und Y."
     }
   ]
 }

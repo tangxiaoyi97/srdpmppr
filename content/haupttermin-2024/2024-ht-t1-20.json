@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t1-20",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1359a",
+          "id": "1_1359",
           "baseId": "1_1359",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/911/1_1359_srdp_ma_Arithmetisches%20Mittel_PT1_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -77,15 +77,10 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "x1",
-            "label": "x̄₁",
-            "value": 16.25,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "65/4",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",

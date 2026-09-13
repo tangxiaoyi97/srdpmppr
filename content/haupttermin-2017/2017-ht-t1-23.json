@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -24,12 +24,108 @@
     {
       "id": "2017-ht-t1-23-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=27",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\geq64)"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n\nDer Flächeninhalt der dargestellten Fläche beschreibt die Wahrscheinlichkeit, dass die Zufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " mindestens den Wert 64 annimmt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung, wobei auch die Deutungen P(X > 64) bzw. P(X ≥ 65) oder P(64 ≤ X ≤ b) mit b ≥ 85 als richtig zu werten sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Deuten Sie den Flächeninhalt der grau markierten Fläche im Hinblick auf die Berechnung einer Wahrscheinlichkeit!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "P(X\\geq64)"
+          },
+          {
+            "t": "text",
+            "v": "\n\noder:\n\nDer Flächeninhalt der dargestellten Fläche beschreibt die Wahrscheinlichkeit, dass die Zufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " mindestens den Wert 64 annimmt. Ein Punkt für eine (sinngemäß) korrekte Deutung, wobei auch die Deutungen P(X > 64) bzw. P(X ≥ 65) oder P(64 ≤ X ≤ b) mit b ≥ 85 als richtig zu werten sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=27",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In nachstehender Abbildung ist die Dichtefunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " der approximierenden Normalverteilung einer binomialverteilten Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-23-q.png",
+      "alt": "Dichtefunktion der Normalapproximation; die Fläche rechts von 64 ist grau markiert."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,169 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_503a",
+          "id": "1_503",
           "baseId": "1_503",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/212/Graphen%20von%20Ableitungsfunktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Abbildung in der mittleren Zeile links."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-3.png",
+              "alt": "Originalabbildung 3 (zeilenweise von links nach rechts)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Abbildung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einer der sechs Abbildungen ist "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " die erste Ableitung von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " die zweite Ableitung von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ".\nKreuzen Sie diese Abbildung an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-1.png",
+              "alt": "Originalabbildung 1 (zeilenweise von links nach rechts)"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-2.png",
+              "alt": "Originalabbildung 2 (zeilenweise von links nach rechts)"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-3.png",
+              "alt": "Originalabbildung 3 (zeilenweise von links nach rechts)"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-4.png",
+              "alt": "Originalabbildung 4 (zeilenweise von links nach rechts)"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-5.png",
+              "alt": "Originalabbildung 5 (zeilenweise von links nach rechts)"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-15-option-6.png",
+              "alt": "Originalabbildung 6 (zeilenweise von links nach rechts)"
+            }
+          ]
+        ],
+        "correct": [
+          2
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_503",
       "baseId": "1_503",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/212/Graphen%20von%20Ableitungsfunktionen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In den unten stehenden Abbildungen sind jeweils die Graphen der Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f,g"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,139 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_392a",
+          "id": "1_392",
           "baseId": "1_392",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/100/Geradengleichung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h:\\;2x-5y=0"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "h:\\;y=\\frac25\\cdot x"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Alle äquivalenten Gleichungen sind als richtig zu werten. Auch die Angabe einer korrekten Parameterdarstellung der Geraden h ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Gleichung der Geraden "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " an, die durch den Punkt "
+        },
+        {
+          "t": "math",
+          "v": "(0|0)"
+        },
+        {
+          "t": "text",
+          "v": " geht und zur Geraden "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " parallel ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "h:\\;2x-5y=0"
+          },
+          {
+            "t": "text",
+            "v": "\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "h:\\;y=\\frac25\\cdot x"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Alle äquivalenten Gleichungen sind als richtig zu werten. Auch die Angabe einer korrekten Parameterdarstellung der Geraden h ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_392",
       "baseId": "1_392",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/100/Geradengleichung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Gerade "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "2\\cdot x-5\\cdot y=-6"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

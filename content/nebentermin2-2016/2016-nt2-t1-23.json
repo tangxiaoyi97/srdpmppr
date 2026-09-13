@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,105 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_447a",
+          "id": "1_447",
           "baseId": "1_447",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/155/Erwartungswert.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=2{,}8"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [2,65; 2,95]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "E(X)"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "E(X)",
+            "value": 2.8,
+            "tol": 0.15
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_447",
       "baseId": "1_447",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/155/Erwartungswert.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Wahrscheinlichkeitsverteilung einer Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": ", die die Werte "
+    },
+    {
+      "t": "math",
+      "v": "k=1,2,3,4,5"
+    },
+    {
+      "t": "text",
+      "v": " annehmen kann."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-23-distribution.png",
+      "alt": "Wahrscheinlichkeitsverteilung P(X=k) für k=1,2,3,4,5 mit0.1,0.3,0.4,0.1,0.1"
     }
   ]
 }

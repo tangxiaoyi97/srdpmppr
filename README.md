@@ -1,6 +1,6 @@
 # SRDP – Mathematics Past Papers, Refactored (`sdrpmppr`)
 
-A machine-readable, structured refactoring of the Austrian **Standardisierte Reife- und Diplomprüfung (SRDP)** mathematics past exam tasks. The official task PDFs have been restructured into one JSON file per question — with the prompt as Markdown + KaTeX, typed answers, scoring, worked solutions, official Grundkompetenz tags, and figure references — all conforming to a single schema.
+A machine-readable, structured refactoring of the Austrian **Standardisierte Reife- und Diplomprüfung (SRDP)** mathematics past exam tasks. The official task PDFs have been restructured into one JSON file per question — with typed rich text and KaTeX mathematics, typed answers, scoring, worked solutions, official Grundkompetenz tags, and figure references — all conforming to a single schema.
 
 Past Papers collection in **original pdf**: visit [github srdpmppr-src](https://github.com/tangxiaoyi97/srdpmppr-src)
 
@@ -21,9 +21,13 @@ manifest/assets.v1.json        Deterministic size/MIME/SHA-256 inventory of pack
 
 ```
 
-Each question record holds: the prompt (Markdown + KaTeX), its parts, a typed answer (`choice` / `numeric` / `matching` / `expression` / `interval` / `open`), the scoring rule, the worked solution, figure references, and official metadata (Grundkompetenz codes, Aufgabenpool IDs, Antwortformat).
+Each question record holds: the prompt (rich text + KaTeX), its parts, a typed answer (`choice` / `numeric` / `matching` / `expression` / `interval` / `open`), the scoring rule, the worked solution, figure references, and official metadata (Grundkompetenz codes, Aufgabenpool IDs, Antwortformat).
 
 Suites are named `<termin>-<year>`, e.g. `haupttermin-2026`, `wintertermin-2022`, `herbsttermin-2024`, `nebentermin1-2019`, `nebentermin2-2020`.
+
+The five additional 2019 tasks for **Erstantritt vor Mai 2018** use the suite suffix
+`-erstantritt-vor-mai-2018` and IDs such as `2019-ht-alt-t2-02`. Their original task numbers
+and `[2019h1-alt]t2-2.pdf` source filenames are preserved separately from the regular edition.
 
 ## Validate locally
 
@@ -45,10 +49,43 @@ they are not packaged files. Figure `src` values are packaged and must exist in 
 
 ## Status
 
-- **2019–2026** — 628 questions converted to full structured content.
-- **2014–2018** — 395 questions present as schema records linked to their official metadata, **not yet converted**.
+- **2014–2018** — 395 questions converted to structured prompts, answers, scoring and solutions.
+- **2019–2026, regular editions** — 644 questions with structured content.
+- **2019, Erstantritt vor Mai 2018** — 5 additional tasks, including the distinct version of “Vornamen in Österreich”.
+- **Total: 1,044 questions, all schema version 3; no linked-only records.**
 
-This is an evolving dataset; conversion of the earlier years is ongoing.
+The September 2026 conversion follows the original examination papers. Original figures and solution
+figures are separate cropped assets, placed inline at the relevant question or solution position.
+Official archive references identify the original paper and physical PDF page. A later adapted
+Aufgabenpool version must not replace the historical examination content.
+
+Records retain their review lifecycle (`converted` or `reviewed`); schema version 3 does not imply
+that every record has been independently reviewed. The initial conversion preserved the 644 previously
+structured regular-edition records while raising schema version 2 to 3. A subsequent image and
+identity audit repaired confirmed errors in older content and source references.
+
+The [conversion audit](audits/schema3-2026-09-13/README.md) records all 400 newly converted tasks,
+source-document hashes, original examination links, review findings and validation results.
+Among these tasks, 305 have verified matching Aufgabenpool references. For 17 others, only an
+officially adapted version was established: these references use `system: "other"` with an explicit
+adapted-version label. The remaining 78 use verified original examination references without an
+unproven pool number. Every newly converted task keeps its original examination reference first.
+
+Where a later subtask needs conditions or figures introduced earlier, its prompt repeats those
+original givens so that it can be practiced independently. Necessary earlier instructions are
+explicitly labeled as context; earlier answers are never included in the question prompt.
+
+The historical [subsequent image and identity audit](audits/schema3-spotcheck-2026-09-13/README.md) records
+601 visually reviewed current PNGs, all 105 older graph-choice/matching questions, corrected answer
+keys, and verification of all 978 official PDF links at that stage. Its final manifest contained 808 assets.
+The report distinguishes reviewed content from machine checks and lists the remaining review limits.
+
+The later [full-bank official-source review](audits/schema3-full-review-2026-09-13/README.md) covers
+all 1,044 questions and 1,672 parts with fresh semantic review, plus visual evidence for all
+825 current PNGs (404 newly viewed and 421 verified by exact prior-view hashes).
+It repairs 385 records in this round and verifies current official IDs, links, source pages and
+packaged assets. Official errata, adapted versions and remaining source-archive PDF clipping
+are distinguished from corrected structured content.
 
 ## Source & Attribution
 

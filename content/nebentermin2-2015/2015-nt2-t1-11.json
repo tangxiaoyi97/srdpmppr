@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,149 @@
     {
       "id": "2015-nt2-t1-11-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_387",
+          "baseId": "1_387",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/95/Exponentialfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b=\\frac14=0{,}25"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!\n"
+        },
+        {
+          "t": "math",
+          "v": "b="
+        },
+        {
+          "t": "text",
+          "v": " ______"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "b=\\frac14=0{,}25"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) ist als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=15",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_387",
+      "baseId": "1_387",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/95/Exponentialfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von einer Exponentialfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=25\\cdot b^x"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "b\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "b\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "b\\ne1"
+    },
+    {
+      "t": "text",
+      "v": ") ist folgende Eigenschaft bekannt:\n\nWenn "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " um 1 erhöht wird, sinkt der Funktionswert auf 25 % des Ausgangswertes."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -83,7 +83,7 @@
     {
       "id": "2025-wt-t2-02-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 5.5",
@@ -105,25 +105,52 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Im Jahr 2018 betrug der weltweite Umsatz aus dem Verkauf von E-Bikes 7,68 Milliarden US-Dollar (USD). Es wird prognostiziert, dass dieser weltweite Umsatz im Zeitraum von 2018 bis 2026 um jährlich 24,5 % steigen wird.\n\nDie Funktion u beschreibt modellhaft den jährlichen weltweiten Umsatz aus dem Verkauf von E-Bikes in Abhängigkeit von der Zeit t (t ab 2018 in Jahren, u(t) in Milliarden USD).\n\n"
+        },
+        {
+          "t": "text",
           "v": "Ermitteln Sie mithilfe von u, wie viele Jahre nach 2018 der Umsatz doppelt so hoch wie im Jahr 2018 ist."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t",
-            "label": "t",
-            "value": 3.16,
-            "tol": 0.05,
-            "unit": "Jahre"
+            "t": "math",
+            "v": "15{,}36=7{,}68\\cdot 1{,}245^{t}"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "t=3{,}16\\ldots\\ \\text{Jahre}"
+          },
+          {
+            "t": "text",
+            "v": "Der Umsatz ist rund 3,16 Jahre nach 2018 doppelt so hoch wie im Jahr 2018."
+          },
+          {
+            "t": "text",
+            "v": "a2) Ein Punkt für das richtige Ermitteln."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Verdoppelungszeitt=3,16…Jahre.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -195,8 +222,8 @@
         "blanks": [
           {
             "id": "diff",
-            "value": 87,
-            "tol": 9,
+            "value": 84,
+            "tol": 12,
             "unit": "m"
           }
         ]
@@ -227,7 +254,7 @@
     {
       "id": "2025-wt-t2-02-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -266,18 +293,39 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "\\frac{r}{k}\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}",
-        "vars": [
-          "r",
-          "k",
-          "t"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die drei Kästchen werden der Reihe nach mit "
+          },
+          {
+            "t": "math",
+            "v": "r,\\quad\\frac{r}{k},\\quad\\frac{r}{k}"
+          },
+          {
+            "t": "text",
+            "v": " ergänzt. Gleichwertige Ausdrücke sind richtig. Die vollständig angegebene äquivalente Funktionsgleichung ist ebenfalls richtig: "
+          },
+          {
+            "t": "math",
+            "v": "s_1(t)=r\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}"
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für alle drei richtigen Ergänzungen; keine Teilpunkte."
+          }
+        ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Antwort gemäß dem offiziellen Lösungsschlüssel.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -285,7 +333,7 @@
           "result": [
             {
               "t": "math",
-              "v": "s_1(t)=\\frac{r}{k}\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}"
+              "v": "s_1(t)=r\\cdot t+\\frac{r}{k}\\cdot e^{-k\\cdot t}-\\frac{r}{k}"
             }
           ],
           "note": "b2) Ein Punkt für das richtige Ergänzen."

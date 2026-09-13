@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t1-23",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1362a",
+          "id": "1_1362",
           "baseId": "1_1362",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/914/1_1362_srdp_ma_Wahrscheinlichkeitsverteilung_PT1_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,15 +50,11 @@
           "result": [
             {
               "t": "text",
-              "v": "Zutreffend ist die Abbildung mit "
+              "v": "Zutreffend ist die Abbildung rechts oben."
             },
             {
-              "t": "math",
-              "v": "P(X=0)=\\tfrac{25}{36},\\ P(X=1)=\\tfrac{10}{36},\\ P(X=2)=\\tfrac{1}{36}"
-            },
-            {
-              "t": "text",
-              "v": " (links oben)."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-4.png"
             }
           ],
           "note": "Ein Punkt für das richtige Ankreuzen."
@@ -67,12 +63,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Kreuzen Sie diejenige Abbildung an, die die Wahrscheinlichkeitsverteilung von X richtig darstellt."
-        },
-        {
-          "t": "fig",
-          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-q.png",
-          "alt": "Sechs Abbildungen mit Stabdiagrammen P(X = k) für k = 0, 1, 2 als mögliche Wahrscheinlichkeitsverteilungen."
+          "v": "Kreuzen Sie diejenige Abbildung an, die die Wahrscheinlichkeitsverteilung von X richtig darstellt. [1 aus 6]"
         }
       ],
       "answer": {
@@ -80,43 +71,43 @@
         "options": [
           [
             {
-              "t": "text",
-              "v": "Abbildung 1: Stäbe bei k = 0, 1, 2 mit P(0) ≈ 0,69, P(1) ≈ 0,28, P(2) ≈ 0,03 (streng fallend)."
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-1.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Abbildung 2"
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-2.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Abbildung 3"
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-3.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Abbildung 4"
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-4.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Abbildung 5"
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-5.png"
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Abbildung 6"
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t1-23-option-6.png"
             }
           ]
         ],
         "correct": [
-          0
+          3
         ],
         "selectCount": 1
       },

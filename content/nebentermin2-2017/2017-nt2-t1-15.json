@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,273 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_527a",
+          "id": "1_527",
           "baseId": "1_527",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/236/Ableitungs-%20und%20Stammfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " definiert ist, gibt "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0)"
+            },
+            {
+              "t": "text",
+              "v": " die Steigung der Tangente an den Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " an dieser Stelle an.\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat unendlich viele Stammfunktionen, die sich nur durch eine additive Konstante unterscheiden."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Eine Funktion "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": " heißt Stammfunktion der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": ", wenn gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=F(x)+c"
+            },
+            {
+              "t": "text",
+              "v": " ("
+            },
+            {
+              "t": "math",
+              "v": "c\\in\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": ")."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Eine Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " heißt Ableitungsfunktion von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": ", wenn gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\int f(x)\\,dx=f'(x)"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_0"
+            },
+            {
+              "t": "text",
+              "v": " definiert ist, gibt "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_0)"
+            },
+            {
+              "t": "text",
+              "v": " die Steigung der Tangente an den Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " an dieser Stelle an."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat unendlich viele Stammfunktionen, die sich nur durch eine additive Konstante unterscheiden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wenn man die Stammfunktion "
+            },
+            {
+              "t": "math",
+              "v": "F"
+            },
+            {
+              "t": "text",
+              "v": " einmal integriert, dann erhält man die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_527",
       "baseId": "1_527",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/236/Ableitungs-%20und%20Stammfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Es sei "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " eine Polynomfunktion und "
+    },
+    {
+      "t": "math",
+      "v": "F"
+    },
+    {
+      "t": "text",
+      "v": " eine ihrer Stammfunktionen."
     }
   ]
 }

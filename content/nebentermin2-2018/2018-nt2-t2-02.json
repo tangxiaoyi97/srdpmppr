@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -22,14 +22,1039 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt2-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2018-nt2-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{h(60)-h(0)}{60-0}=\\frac{10-0}{60}=\\frac16=0{,}1\\dot6\\approx0{,}17"
+            },
+            {
+              "t": "text",
+              "v": "\n\nMögliche Interpretation:\nDie Straße steigt von "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " pro Meter in waagrechter Richtung im Mittel um ca. 17 cm in senkrechter Richtung an."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine korrekte Interpretation. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,16; 0,17] bzw. [16 %; 17 %]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des Differenzenquotienten der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;60]"
+        },
+        {
+          "t": "text",
+          "v": " an und interpretieren Sie diesen Wert im gegebenen Kontext!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\frac{h(60)-h(0)}{60-0}=\\frac{10-0}{60}=\\frac16=0{,}1\\dot6\\approx0{,}17"
+          },
+          {
+            "t": "text",
+            "v": "\n\nMögliche Interpretation:\nDie Straße steigt von "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " nach "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " pro Meter in waagrechter Richtung im Mittel um ca. 17 cm in senkrechter Richtung an."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine korrekte Interpretation. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,16; 0,17] bzw. [16 %; 17 %]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Behauptung trifft nicht zu.\nMögliche Begründungen:\nDie Wendestelle einer Funktion 3. Grades kann auch derjenigen Stelle entsprechen, an der der Anstieg minimal ist."
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-02-a2-sol.png",
+              "alt": "Beispiele für einen Wendepunkt mit maximaler bzw. minimaler Tangentensteigung."
+            },
+            {
+              "t": "math",
+              "v": "W_f"
+            },
+            {
+              "t": "text",
+              "v": " … Wendepunkt der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": ", in dem die Steigung der Tangente maximal ist\n"
+            },
+            {
+              "t": "math",
+              "v": "W_g"
+            },
+            {
+              "t": "text",
+              "v": " … Wendepunkt der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "g"
+            },
+            {
+              "t": "text",
+              "v": ", in dem die Steigung der Tangente minimal ist\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "f(x)=x^3"
+            },
+            {
+              "t": "text",
+              "v": " … Die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " hat eine Wendestelle, an der die Steigung der Tangente minimal ist."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine Person behauptet: „Wenn ein (beliebiger) ansteigender Straßenabschnitt durch eine Polynomfunktion dritten Grades modelliert werden kann, deren Wendestelle im betreffenden Abschnitt liegt, so handelt es sich bei dieser Wendestelle um diejenige Stelle, an der die Straße am steilsten verläuft.“\n\nGeben Sie an, ob diese Behauptung mit Sicherheit zutrifft, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Behauptung trifft nicht zu.\nMögliche Begründungen:\nDie Wendestelle einer Funktion 3. Grades kann auch derjenigen Stelle entsprechen, an der der Anstieg minimal ist."
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-02-a2-sol.png",
+            "alt": "Beispiele für einen Wendepunkt mit maximaler bzw. minimaler Tangentensteigung."
+          },
+          {
+            "t": "math",
+            "v": "W_f"
+          },
+          {
+            "t": "text",
+            "v": " … Wendepunkt der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": ", in dem die Steigung der Tangente maximal ist\n"
+          },
+          {
+            "t": "math",
+            "v": "W_g"
+          },
+          {
+            "t": "text",
+            "v": " … Wendepunkt der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "g"
+          },
+          {
+            "t": "text",
+            "v": ", in dem die Steigung der Tangente minimal ist\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(x)=x^3"
+          },
+          {
+            "t": "text",
+            "v": " … Die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " hat eine Wendestelle, an der die Steigung der Tangente minimal ist."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h_1(x)=\\frac16\\cdot x"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte Gleichung. Äquivalente Gleichungen sind als richtig zu werten.\nToleranzintervall für den Wert der Steigung der linearen Funktion h₁: [0,16; 0,17]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Neubau der Straße ist geplant, wobei die Straße zwischen "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " nach dem Neubau eine konstante Steigung aufweisen soll.\n\nⒶ Bestimmen Sie eine Gleichung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h_1"
+        },
+        {
+          "t": "text",
+          "v": ", die den Verlauf der neuen Straße zwischen "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt, wobei "
+        },
+        {
+          "t": "math",
+          "v": "h_1(x)"
+        },
+        {
+          "t": "text",
+          "v": " wieder die Höhe (in m) der Position des Autos über dem Niveau des Punktes "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "h_1(x)=\\frac16\\cdot x"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für eine korrekte Gleichung. Äquivalente Gleichungen sind als richtig zu werten.\nToleranzintervall für den Wert der Steigung der linearen Funktion h₁: [0,16; 0,17]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac16\\Rightarrow\\alpha\\approx9{,}5^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angeführt sein muss.\nToleranzintervall: [9°; 10°]\nEine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Neubau der Straße ist geplant, wobei die Straße zwischen "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " nach dem Neubau eine konstante Steigung aufweisen soll."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie denjenigen Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": ", unter dem die neu gebaute Straße (bezüglich der Horizontalen) ansteigt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac16\\Rightarrow\\alpha\\approx9{,}5^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angeführt sein muss.\nToleranzintervall: [9°; 10°]\nEine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Fahrt von "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " dauert 5 Sekunden."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angeführt sein muss.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "g(t)=10\\Leftrightarrow t^2+5\\cdot t-50=0\\Rightarrow t_1=5"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "(t_2=-10)"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer Fahrt ins Gebirge entsteht ein unangenehmer Druck auf das Trommelfell, den viele Menschen als ein „Verschlagen“ der Ohren beschreiben. Man kann annehmen, dass bei einer Person im Auto dieses unangenehme Druckgefühl auftritt, wenn die momentane Änderungsrate der Höhe einen Wert von 4 m/s überschreitet.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=\\frac15\\cdot t^2+t"
+        },
+        {
+          "t": "text",
+          "v": " modelliert die Position des Autos über dem Niveau von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " während der Fahrt von "
+        },
+        {
+          "t": "math",
+          "v": "A=(0\\mid0)"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B=(60\\mid10)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit. Dabei beschreibt "
+        },
+        {
+          "t": "math",
+          "v": "g(t)"
+        },
+        {
+          "t": "text",
+          "v": ", in welcher Höhe sich das Auto zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " befindet ("
+        },
+        {
+          "t": "math",
+          "v": "g(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Metern; "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden gemessen ab dem Zeitpunkt, in dem sich das Auto im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " befindet).\n\nBerechnen Sie, wie viele Sekunden die Fahrt von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " dauert!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "g(t)=10\\Leftrightarrow t^2+5\\cdot t-50=0\\Rightarrow t_1=5"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "(t_2=-10)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Fahrt von "
+          },
+          {
+            "t": "math",
+            "v": "A"
+          },
+          {
+            "t": "text",
+            "v": " nach "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " dauert 5 Sekunden."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Einheit „s“ nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
+    },
+    {
+      "id": "2018-nt2-t2-02-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "figures": [],
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die maximale momentane Änderungsrate der Höhe im Zeitintervall [0 s; 5 s] beträgt 3 m/s, also überschreitet die momentane Änderungsrate der Höhe während dieser Zeitspanne einen Wert von 4 m/s nicht."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung:\n"
+            },
+            {
+              "t": "math",
+              "v": "g'(t)=0{,}4\\cdot t+1"
+            },
+            {
+              "t": "text",
+              "v": "\nDie momentane Änderungsrate der Höhe ist im Intervall [0 s; 5 s] streng monoton steigend, also liegt ihr maximaler Wert an der Stelle "
+            },
+            {
+              "t": "math",
+              "v": "t=5"
+            },
+            {
+              "t": "text",
+              "v": ".\n"
+            },
+            {
+              "t": "math",
+              "v": "g'(5)=3"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einer Fahrt ins Gebirge entsteht ein unangenehmer Druck auf das Trommelfell, den viele Menschen als ein „Verschlagen“ der Ohren beschreiben. Man kann annehmen, dass bei einer Person im Auto dieses unangenehme Druckgefühl auftritt, wenn die momentane Änderungsrate der Höhe einen Wert von 4 m/s überschreitet.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=\\frac15\\cdot t^2+t"
+        },
+        {
+          "t": "text",
+          "v": " modelliert die Position des Autos über dem Niveau von "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " während der Fahrt von "
+        },
+        {
+          "t": "math",
+          "v": "A=(0\\mid0)"
+        },
+        {
+          "t": "text",
+          "v": " nach "
+        },
+        {
+          "t": "math",
+          "v": "B=(60\\mid10)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit. Dabei beschreibt "
+        },
+        {
+          "t": "math",
+          "v": "g(t)"
+        },
+        {
+          "t": "text",
+          "v": ", in welcher Höhe sich das Auto zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " befindet ("
+        },
+        {
+          "t": "math",
+          "v": "g(t)"
+        },
+        {
+          "t": "text",
+          "v": " in Metern; "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Sekunden gemessen ab dem Zeitpunkt, in dem sich das Auto im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " befindet)."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob die momentane Änderungsrate der Höhe während dieser Zeitspanne einen Wert von 4 m/s überschreitet, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Begründung:\n"
+          },
+          {
+            "t": "math",
+            "v": "g'(t)=0{,}4\\cdot t+1"
+          },
+          {
+            "t": "text",
+            "v": "\nDie momentane Änderungsrate der Höhe ist im Intervall [0 s; 5 s] streng monoton steigend, also liegt ihr maximaler Wert an der Stelle "
+          },
+          {
+            "t": "math",
+            "v": "t=5"
+          },
+          {
+            "t": "text",
+            "v": ".\n"
+          },
+          {
+            "t": "math",
+            "v": "g'(5)=3"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die maximale momentane Änderungsrate der Höhe im Zeitintervall [0 s; 5 s] beträgt 3 m/s, also überschreitet die momentane Änderungsrate der Höhe während dieser Zeitspanne einen Wert von 4 m/s nicht."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Entscheidung und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2305&token=20cfb20f69c570c5f591158a45ad6843899c6be2#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Auto legt auf einem ansteigenden, kurvenfreien Straßenabschnitt in einem bestimmten Zeitintervall den Weg zwischen den Punkten "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " zurück. Der Höhenverlauf dieses Straßenabschnitts zwischen "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " bezogen auf das Niveau des Punktes "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " wird durch den Graphen einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " modelliert. Dabei ist "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " die waagrechte Entfernung des (punktförmig modellierten) Autos vom Ausgangspunkt "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h(x)"
+    },
+    {
+      "t": "text",
+      "v": " die jeweilige Höhe der Position des Autos über dem Niveau des Punktes "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "h(x)"
+    },
+    {
+      "t": "text",
+      "v": " in m, "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " in m). In diesem Modell haben die Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " die Koordinaten "
+    },
+    {
+      "t": "math",
+      "v": "A=(0\\mid0)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(60\\mid10)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t2-02-q.png",
+      "alt": "Höhenverlauf h der ansteigenden Straße zwischen A=(0,0) und B=(60,10)."
+    },
+    {
+      "t": "text",
+      "v": "Eine Gleichung der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " lautet:\n"
+    },
+    {
+      "t": "math",
+      "v": "h(x)=\\frac1{64\\,800}\\cdot(-x^3+120\\cdot x^2+7\\,200\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " für "
+    },
+    {
+      "t": "math",
+      "v": "x\\in[0;60]"
+    }
+  ]
 }

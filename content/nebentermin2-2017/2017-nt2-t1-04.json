@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,184 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=8",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_538a",
+          "id": "1_538",
           "baseId": "1_538",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/247/Trapez.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\overrightarrow{AB}\\parallel\\overrightarrow{CD}\\Rightarrow\\overrightarrow{AB}=t\\cdot\\overrightarrow{CD}\\Leftrightarrow\\begin{pmatrix}8\\\\4\\end{pmatrix}=t\\cdot\\begin{pmatrix}-6\\\\y-2\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "8=-6\\cdot t\\Rightarrow t=-\\frac43"
+            },
+            {
+              "t": "text",
+              "v": "\n\nsomit:\n"
+            },
+            {
+              "t": "math",
+              "v": "4=-\\frac43\\cdot(y-2)\\Rightarrow y=-1"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert der Koordinate "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " des Punkts "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "y="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "y=-1"
+          },
+          {
+            "t": "text",
+            "v": ". Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=8",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_538",
       "baseId": "1_538",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/247/Trapez.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von einem Trapez "
+    },
+    {
+      "t": "math",
+      "v": "ABCD"
+    },
+    {
+      "t": "text",
+      "v": " sind die Koordinaten der Eckpunkte gegeben:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "A=(2|-6)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "B=(10|-2)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "C=(9|2)"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "D=(3|y)"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDie Seiten "
+    },
+    {
+      "t": "math",
+      "v": "a=AB"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "c=CD"
+    },
+    {
+      "t": "text",
+      "v": " sind zueinander parallel."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-04-q.png",
+      "alt": "Trapez ABCD mit den parallelen Seiten a und c."
     }
   ]
 }

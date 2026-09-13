@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,262 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_621a",
+          "id": "1_621",
           "baseId": "1_621",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/342/Radfahrer.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " startet zwei Minuten später als der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "text",
+              "v": "Der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " holt den Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach einer Fahrstrecke von 2,4 Kilometern ein."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden Aussagen an, die der obigen Abbildung entnommen werden können!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " startet zwei Minuten später als der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Radfahrers "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " beträgt 200 Meter pro Minute."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " holt den Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " nach einer Fahrstrecke von 2,4 Kilometern ein."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Acht Minuten nach dem Start von Radfahrer "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " sind die beiden Radfahrer gleich weit vom Startpunkt entfernt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Vier Minuten nach der Abfahrt des Radfahrers "
+            },
+            {
+              "t": "math",
+              "v": "A"
+            },
+            {
+              "t": "text",
+              "v": " sind die beiden Radfahrer 200 Meter voneinander entfernt."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_621",
       "baseId": "1_621",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/342/Radfahrer.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zwei Radfahrer "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " fahren mit Elektrofahrrädern vom gleichen Startpunkt aus mit jeweils konstanter Geschwindigkeit auf einer geradlinigen Straße in dieselbe Richtung.\n\nIn der nachstehenden Abbildung sind die Graphen der Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "s_A"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "s_B"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt, die den von den Radfahrern zurückgelegten Weg in Abhängigkeit von der Fahrzeit beschreiben.\nDie markierten Punkte haben die Koordinaten "
+    },
+    {
+      "t": "math",
+      "v": "(0|0)"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "(2|0)"
+    },
+    {
+      "t": "text",
+      "v": " bzw. "
+    },
+    {
+      "t": "math",
+      "v": "(8|2\\,400)"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2018/fig/2018-ht-t1-08-q.png",
+      "alt": "Weg-Zeit-Diagramm der Radfahrer A und B mit markierten Punkten."
     }
   ]
 }

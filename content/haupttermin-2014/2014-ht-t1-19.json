@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,114 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_331a",
+          "id": "1_331",
           "baseId": "1_331",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/43/Schulstatistik.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "In Kärnten ist der Anteil an AHS-Schülerinnen und -Schülern größer als in Tirol.\n\nDer Anteil an AHS-Schülerinnen und -Schülern ist in Wien höher als in allen anderen Bundesländern."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie jene beiden Aussagen an, die aus dem Diagramm gefolgert werden können!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "In Kärnten ist der Anteil an AHS-Schülerinnen und -Schülern größer als in Tirol."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In Wien gibt es die meisten Schüler/innen in den 1.–4. Klassen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Anteil an AHS-Schülerinnen und -Schülern ist in Wien höher als in allen anderen Bundesländern."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gehen in Salzburg mehr Schüler/innen in die AHS als im Burgenland in die 1.–4. Klasse insgesamt."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In Niederösterreich gehen ca. 3-mal so viele Schüler/innen in die Hauptschule wie in die AHS."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_331",
       "baseId": "1_331",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/43/Schulstatistik.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das nachstehende Diagramm stellt für das Schuljahr 2009/10 folgende Daten dar:\n\n– die Anzahl der Schüler/innen **nur** aus der AHS-Unterstufe\n– die Gesamtanzahl der Schüler/innen der 1.–4. Klasse (Hauptschule **und** AHS-Unterstufe)"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-19-schools.png",
+      "alt": "Balkendiagramm: AHS-Unterstufe und Gesamtzahl der Schülerinnen und Schüler der 1.–4. Klassen nach Bundesland."
+    },
+    {
+      "t": "text",
+      "v": "Quelle: http://www.bmukk.gv.at/schulstatistik"
     }
   ]
 }

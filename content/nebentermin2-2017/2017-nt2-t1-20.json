@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,99 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_522a",
+          "id": "1_522",
           "baseId": "1_522",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/231/M%C3%BCnzwurf.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Ausfälle (Ausgänge): "
+            },
+            {
+              "t": "math",
+              "v": "\\{(W,W),(W,Z),(Z,W),(Z,Z)\\}"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe aller möglichen Ausfälle (Ausgänge)."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie alle möglichen Ausfälle (Ausgänge) dieses Zufallsversuchs an! Wappen kann dabei mit "
+        },
+        {
+          "t": "math",
+          "v": "W"
+        },
+        {
+          "t": "text",
+          "v": ", Zahl mit "
+        },
+        {
+          "t": "math",
+          "v": "Z"
+        },
+        {
+          "t": "text",
+          "v": " abgekürzt werden."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Ausfälle (Ausgänge): "
+          },
+          {
+            "t": "math",
+            "v": "\\{(W,W),(W,Z),(Z,W),(Z,Z)\\}"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_522",
       "baseId": "1_522",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/231/M%C3%BCnzwurf.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Zufallsversuch wird eine Münze, die auf einer Seite eine Zahl und auf der anderen Seite ein Wappen zeigt, zweimal geworfen."
     }
   ]
 }

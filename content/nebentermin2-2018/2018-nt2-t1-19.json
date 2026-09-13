@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,86 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_608a",
+          "id": "1_608",
           "baseId": "1_608",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/317/Statistische%20Darstellungen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-19-sol.png",
+              "alt": "Boxplot mit Minimum 19, unterem Quartil 26, Median 27, oberem Quartil 33 und Maximum 40 °C."
+            }
+          ],
+          "note": "Ein Punkt für ein korrekt dargestelltes Kastenschaubild."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie die aufgezeichneten Tageshöchsttemperaturen in einem Kastenschaubild (Boxplot) dar!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-19-q.png",
+          "alt": "Leere Achse für das Kastenschaubild der Temperaturen."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für ein korrekt dargestelltes Kastenschaubild."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_608",
       "baseId": "1_608",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/317/Statistische%20Darstellungen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer meteorologischen Messstelle wurden die Tageshöchsttemperaturen für den Zeitraum von einem Monat in einem sehr heißen Sommer aufgezeichnet. Die Messwerte in Grad Celsius können dem nachstehenden Stängel-Blatt-Diagramm entnommen werden."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2018/fig/2018-nt2-t1-19-data.png",
+      "alt": "Stängel-Blatt-Diagramm der Tageshöchsttemperaturen."
     }
   ]
 }

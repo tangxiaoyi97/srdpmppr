@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,118 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_471a",
+          "id": "1_471",
           "baseId": "1_471",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/180/Verschiedenf%C3%A4rbige%20Kugeln.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es werden genau zwei schwarze Kugeln gezogen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Aussage angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist der folgende Ausdruck:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "3\\cdot0{,}8^2\\cdot0{,}2"
+        },
+        {
+          "t": "text",
+          "v": "\n\nKreuzen Sie dasjenige Ereignis an, dessen Wahrscheinlichkeit durch diesen Ausdruck berechnet wird!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es wird höchstens eine schwarze Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es werden genau zwei schwarze Kugeln gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es werden zwei rote Kugeln und eine schwarze Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es werden nur rote Kugeln gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird mindestens eine rote Kugel gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es wird keine rote Kugel gezogen."
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_471",
       "baseId": "1_471",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/180/Verschiedenf%C3%A4rbige%20Kugeln.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Auf einem Tisch steht eine Schachtel mit drei roten und zwölf schwarzen Kugeln. Nach dem Zufallsprinzip werden nacheinander drei Kugeln aus der Schachtel gezogen, wobei die gezogene Kugel jeweils wieder zurückgelegt wird."
     }
   ]
 }

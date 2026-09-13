@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -36,26 +36,119 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_499a",
+          "id": "1_499",
           "baseId": "1_499",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/208/Verurteilung%20Jugendlicher.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "387 000"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Anzahl angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wie viele Jugendliche insgesamt gab es in Österreich in etwa im Jahr 2010?\nKreuzen Sie die zutreffende Anzahl an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "792 000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "3 063 000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "3 863 000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "387 000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "258 000"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "2 580 000"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=333&token=5c5771caafa8846591bc1f50cd6f5bcfb31c4722#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_499",
       "baseId": "1_499",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/208/Verurteilung%20Jugendlicher.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Jugendliche sind laut Jugendschutzgesetz 1988 (Fassung vom 23.3.2016) Personen, die das 14. Lebensjahr, aber noch nicht das 18. Lebensjahr vollendet haben. Die nachstehende Grafik zeigt für den Zeitraum von 1950 bis 2010 sowohl die absolute Anzahl der Verurteilungen Jugendlicher als auch die Anzahl der Verurteilungen Jugendlicher bezogen auf 100 000 Jugendliche."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t1-19-convictions.png",
+      "alt": "Zeitreihe der Verurteilungen Jugendlicher;2010:3063absolut,792je100000Jugendliche."
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://derstandard.at/1371171382188/Jugendkriminalitaet-auf-Rekordtief [04.07.2013]."
     }
   ]
 }

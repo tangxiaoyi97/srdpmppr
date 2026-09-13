@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -25,7 +25,7 @@
     {
       "id": "2023-wt-t2-01-a1",
       "label": "a1",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "FA 4.3",
@@ -133,6 +133,35 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Höhe einer bestimmten Sonnenblume lässt sich in Abhängigkeit von der Zeit t näherungsweise durch die zwei quadratischen Funktionen f und g beschreiben. Die Graphen dieser beiden Funktionen gehen im Punkt P mit gleicher Steigung ineinander über. (Siehe unten stehende Abbildung.)\n"
+        },
+        {
+          "t": "math",
+          "v": "f(t) = \\tfrac{1}{15} \\cdot t^{2} + 0{,}2 \\cdot t + 5 \\quad \\text{mit } 0 \\le t \\le 21"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "g(t) = a \\cdot t^{2} + b \\cdot t + c \\quad \\text{mit } 21 \\le t \\le 42"
+        },
+        {
+          "t": "text",
+          "v": "\nt ∈ [0; 42] ... Zeit ab dem Beobachtungsbeginn in Tagen\nf(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm\ng(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-01-a-q.png",
+          "alt": "Graph von f(t), g(t) in cm über t in Tagen (0 bis 42): f steigt von der senkrechten Achse bis zum Punkt P bei t = 21 (Höhe 38,6), g setzt mit gleicher Steigung fort bis 72,2 bei t = 42. Am linken Achsenende ist ein Kästchen für den fehlenden Achsenbeschriftungswert vorgesehen."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Erstellen Sie ein Gleichungssystem zur Berechnung der Koeffizienten a, b und c der Funktion g."
@@ -258,6 +287,35 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Höhe einer bestimmten Sonnenblume lässt sich in Abhängigkeit von der Zeit t näherungsweise durch die zwei quadratischen Funktionen f und g beschreiben. Die Graphen dieser beiden Funktionen gehen im Punkt P mit gleicher Steigung ineinander über. (Siehe unten stehende Abbildung.)\n"
+        },
+        {
+          "t": "math",
+          "v": "f(t) = \\tfrac{1}{15} \\cdot t^{2} + 0{,}2 \\cdot t + 5 \\quad \\text{mit } 0 \\le t \\le 21"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "g(t) = a \\cdot t^{2} + b \\cdot t + c \\quad \\text{mit } 21 \\le t \\le 42"
+        },
+        {
+          "t": "text",
+          "v": "\nt ∈ [0; 42] ... Zeit ab dem Beobachtungsbeginn in Tagen\nf(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm\ng(t) ... Höhe der Sonnenblume zum Zeitpunkt t in cm"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-01-a-q.png",
+          "alt": "Graph von f(t), g(t) in cm über t in Tagen (0 bis 42): f steigt von der senkrechten Achse bis zum Punkt P bei t = 21 (Höhe 38,6), g setzt mit gleicher Steigung fort bis 72,2 bei t = 42. Am linken Achsenende ist ein Kästchen für den fehlenden Achsenbeschriftungswert vorgesehen."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Interpretieren Sie den nachstehenden Term im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.\n\nEs gilt: t₁ = 2 Tage, t₂ = 42 Tage"
         },
         {
@@ -336,13 +394,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 1.1135,
-            "tol": 0.0005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "38{,}6 = 6{,}2 \\cdot a^{17}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "a = \\sqrt[17]{\\tfrac{38{,}6}{6{,}2}} = 1{,}1135\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a = 1{,}1135\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen von a."
           }
         ]
       },

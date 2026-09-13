@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -124,7 +124,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-01-a1-q.png",
-          "alt": "Koordinatensystem (x in kn, y in kn): der Geschwindigkeitsvektor k zeigt vom Ursprung nach rechts oben, der Vektor a ist im dritten/zweiten Quadranten dargestellt."
+          "alt": "Koordinatensystem (x und y in kn): k zeigt vom Ursprung nach (5 | 16), a vom Ursprung nach (−5 | −2)."
         },
         {
           "t": "text",
@@ -217,7 +217,7 @@
         {
           "t": "fig",
           "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-01-b1-q.png",
-          "alt": "Seitenansicht eines Containerschiffs: vom Punkt S (Höhe 11 m über C) geht eine Sichtlinie über die Containerkante C (mit Winkel α, horizontale Strecke 133 m) hinab zum Wasser; auf Höhe der Wasseroberfläche Strecke 39 m und Winkel α im Punkt W bis zum Punkt B."
+          "alt": "Seitenansicht des Containerschiffs: C liegt senkrecht 39 m über B; S liegt 11 m höher als C und horizontal 133 m davon entfernt. W, C und S liegen auf der Sichtlinie. α ist der Winkel dieser Linie zur Horizontalen."
         },
         {
           "t": "text",
@@ -226,14 +226,36 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "BW",
-            "label": "\\overline{BW}",
-            "value": 471.54,
-            "tol": 0.5,
-            "unit": "m"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha) = \\tfrac{11}{133}"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha) = \\tfrac{39}{\\overline{BW}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\overline{BW} = 471{,}54\\ldots\\ \\text{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Punkt für das richtige Berechnen der Länge der Strecke BW."
           }
         ]
       },
@@ -306,19 +328,48 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 0.0116,
-            "tol": 0.0001
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 78.376,
-            "tol": 0.01
+            "t": "math",
+            "v": "f(10) = 90"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "f(25) = 260"
+          },
+          {
+            "t": "text",
+            "v": ". Berechnung mittels Technologieeinsatz:"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a = 0{,}0116\\ldots"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "b = 78{,}3760\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für das richtige Berechnen von a und b."
           }
         ]
       },
@@ -390,7 +441,31 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Bei jeder Fahrt eines bestimmten Containerschiffs werden sowohl befüllte als auch leere Container transportiert.\n\nDie jeweilige Anzahl an befüllten sowie leeren Containern ist für 10 bestimmte Fahrten in der nachstehenden Tabelle angegeben.\n\nFahrt | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10\nbefüllte Container | 6 800 | 7 100 | 7 600 | 6 900 | 7 000 | 6 800 | 6 600 | 7 800 | 8 000 | c\nleere Container | 1 200 | 1 000 | 500 | 1 200 | 1 500 | 1 300 | 1 100 | 300 | 200 | d\n\nDas arithmetische Mittel der Anzahl an befüllten Containern dieser 10 Fahrten zusammen beträgt 7 200.\n\nDer Median der Anzahl an leeren Containern dieser 10 Fahrten ist gleich dem Median der Anzahl an leeren Containern der ersten 9 dieser 10 Fahrten.\n\nErmitteln Sie c und d."
+          "v": "Bei jeder Fahrt eines bestimmten Containerschiffs werden sowohl befüllte als auch leere Container transportiert.\n\nDie jeweilige Anzahl an befüllten sowie leeren Containern ist für 10 bestimmte Fahrten in der nachstehenden Tabelle angegeben.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\begin{array}{c|rrrrrrrrrr}\\text{Fahrt}&1&2&3&4&5&6&7&8&9&10\\\\\\hline\\text{befüllte Container}&6\\,800&7\\,100&7\\,600&6\\,900&7\\,000&6\\,800&6\\,600&7\\,800&8\\,000&c\\\\\\text{leere Container}&1\\,200&1\\,000&500&1\\,200&1\\,500&1\\,300&1\\,100&300&200&d\\end{array}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDas arithmetische Mittel der Anzahl an befüllten Containern dieser 10 Fahrten zusammen beträgt 7 200.\n\nDer Median der Anzahl an leeren Containern dieser 10 Fahrten ist gleich dem Median der Anzahl an leeren Containern der ersten 9 dieser 10 Fahrten.\n\nErmitteln Sie c und d."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "c = \\underline{\\hspace{2cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "d = \\underline{\\hspace{2cm}}"
         }
       ],
       "figures": [],

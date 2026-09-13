@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -22,14 +22,318 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt1-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-nt1-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine nicht geimpfte Person wird in einem Risikogebiet von einer Zecke gebissen.\n\nGeben Sie die Wahrscheinlichkeit, dass diese Person Krankheitserscheinungen zeigt, in Prozent an; gehen Sie dazu bei den angegebenen Wahrscheinlichkeiten immer von dem Fall aus, der für die gebissene Person am ungünstigsten ist!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "0,45 %; Toleranz [0,4 %;0,5 %] bzw. [0,004;0,005], äquivalente Schreibweisen als Bruch/Dezimalzahl akzeptieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervalle: [0,4 %; 0,5 %] bzw. [0,004; 0,005]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}05\\cdot0{,}3\\cdot0{,}3=0{,}0045"
+            },
+            {
+              "t": "text",
+              "v": "\nDie Wahrscheinlichkeit beträgt 0,45 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervalle: [0,4 %; 0,5 %] bzw. [0,004; 0,005]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Eine nicht geimpfte Person wird in einem Risikogebiet von einer Zecke gebissen.\n\nGeben Sie die Wahrscheinlichkeit, dass diese Person Krankheitserscheinungen zeigt, in Prozent an; gehen Sie dazu bei den angegebenen Wahrscheinlichkeiten immer von dem Fall aus, der für die gebissene Person am ungünstigsten ist!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, mit welchem Faktor sich die berechnete Wahrscheinlichkeit für eine FSME-Erkrankung verändert, wenn der Zeckenbiss nicht in einem Risikogebiet erfolgt ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Faktor 1/1000. Mit sinngemäß korrekter Begründung (1000-mal geringer) ist Faktor 1000 ebenfalls richtig. Korrekte Lösung und Begründung laut Lösungsschlüssel."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung sowie eine (sinngemäß) korrekte Begründung. Bei einer entsprechenden (sinngemäß) korrekten Begründung ist der Faktor 1000 ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "In einem Risikogebiet ist schlimmstenfalls jede zwanzigste Zecke mit FSME infiziert, d. h., der Anteil infizierter Zecken ist bis zu 1000-mal höher als in einem Nichtrisikogebiet.\nDaher ändert sich die berechnete Wahrscheinlichkeit für eine FSME-Erkrankung um den Faktor "
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac1{1000}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung sowie eine (sinngemäß) korrekte Begründung. Bei einer entsprechenden (sinngemäß) korrekten Begründung ist der Faktor 1000 ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Im Jahr 2011 gab es in Österreich vier FSME-bedingte Todesfälle.\nWaren dies weniger oder mehr Todesfälle, als bei 113 Erkrankungen zu erwarten waren? Begründen Sie Ihre Antwort auf Basis der gegebenen Daten!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mehr: bei 1 % von 113 etwa 1 Todesfall erwartet, tatsächlich 4."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Antwort sowie eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Da im Durchschnitt 1 % der Erkrankungen tödlich verlaufen, war nur ein Todesfall (1 % von 113) zu erwarten. Vier Todesfälle sind daher mehr, als zu erwarten war."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Antwort sowie eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem österreichischen Risikogebiet nahmen 400 Personen an einer Umfrage teil. Es wird angenommen, dass die Personen, die an dieser Umfrage teilnahmen, eine Zufallsstichprobe darstellen. Von den befragten Personen gaben 64 Personen an, schon einmal von einer Zecke gebissen worden zu sein.\nBerechnen Sie auf Basis dieses Umfrageergebnisses ein symmetrisches 95-%-Konfidenzintervall für den tatsächlichen (relativen) Anteil "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " der Personen in diesem Gebiet, die schon einmal von einer Zecke gebissen worden sind!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Intervall ca. [0,124;0,196]. Unterer Wert Toleranz [0,12;0,13], oberer [0,19;0,2]; äquivalente Schreibweisen und korrekter Ansatz mit Rechenfehler akzeptieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,12; 0,13]. Toleranzintervall für den oberen Wert: [0,19; 0,2]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nOffizielle Lösungserwartung / möglicher Ansatz:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "n=400"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h=0{,}16"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\phi(z)-1=0{,}95\\Rightarrow z=1{,}96"
+          },
+          {
+            "t": "text",
+            "v": ".\n"
+          },
+          {
+            "t": "math",
+            "v": "h\\pm z\\cdot\\sqrt{\\dfrac{h\\cdot(1-h)}{n}}=0{,}16\\pm1{,}96\\cdot\\sqrt{\\dfrac{0{,}16\\cdot(1-0{,}16)}{400}}\\approx0{,}16\\pm0{,}036\\Rightarrow[0{,}124;0{,}196]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "n=400"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h=0{,}16"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\phi(z)-1=0{,}95\\Rightarrow z=1{,}96"
+            },
+            {
+              "t": "text",
+              "v": ".\n"
+            },
+            {
+              "t": "math",
+              "v": "h\\pm z\\cdot\\sqrt{\\dfrac{h\\cdot(1-h)}{n}}=0{,}16\\pm1{,}96\\cdot\\sqrt{\\dfrac{0{,}16\\cdot(1-0{,}16)}{400}}\\approx0{,}16\\pm0{,}036\\Rightarrow[0{,}124;0{,}196]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,12; 0,13]. Toleranzintervall für den oberen Wert: [0,19; 0,2]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Frühsommer-Meningoenzephalitis (FSME) ist eine durch das FSME-Virus ausgelöste Erkrankung, die mit grippeähnlichen Symptomen und bei einem Teil der Patientinnen und Patienten mit einer Entzündung von Gehirn und Hirnhäuten verläuft.\nDie FSME wird durch den Biss einer infizierten Zecke übertragen, wobei die Übertragungswahrscheinlichkeit bei einem Biss 30 % beträgt. Nur bei 10 % bis 30 % der mit dem FSME-Virus infizierten Personen treten Krankheitserscheinungen auf. Im Durchschnitt verläuft 1 % der Erkrankungen tödlich.\nIn Risikogebieten liegt der Anteil der FSME-infizierten Zecken bei etwa 0,5 % bis 5 %, während man sonst davon ausgeht, dass nur jede 20000. Zecke das FSME-Virus in sich trägt."
+    }
+  ]
 }

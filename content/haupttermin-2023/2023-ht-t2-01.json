@@ -14,7 +14,7 @@
   "title": "Schwimmbecken",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-1.pdf",
@@ -55,7 +55,7 @@
         },
         {
           "t": "text",
-          "v": " berechnet werden (a … Seitenlänge der quadratischen Grundfläche, h … Tiefe). Betrachtet werden die Funktion "
+          "v": " berechnet werden.\na ... Seitenlänge der quadratischen Grundfläche\nh ... Tiefe des Schwimmbeckens\n\nBetrachtet werden die Funktion "
         },
         {
           "t": "math",
@@ -63,7 +63,15 @@
         },
         {
           "t": "text",
-          "v": " bei konstantem h und die Funktion "
+          "v": " bei konstantem "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " und die Funktion "
         },
         {
           "t": "math",
@@ -71,7 +79,31 @@
         },
         {
           "t": "text",
-          "v": " bei konstantem a. Ergänzen Sie die Textlücken durch Ankreuzen des jeweils zutreffenden Satzteils: „Die Funktion V ist eine ①, die Funktion h ist eine ②.“"
+          "v": " bei konstantem "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nErgänzen Sie die Textlücken im nachstehenden Satz durch Ankreuzen des jeweils zutreffenden Satzteils so, dass eine richtige Aussage entsteht.\n\nDie Funktion "
+        },
+        {
+          "t": "math",
+          "v": "V"
+        },
+        {
+          "t": "text",
+          "v": " ist eine ①, die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " ist eine ②."
         }
       ],
       "figures": [],
@@ -233,7 +265,47 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Zum Füllen eines anderen Schwimmbeckens werden p Pumpen verwendet, die pro Stunde jeweils die gleiche Wassermenge pumpen. Für p = 2 beträgt die Fülldauer 19 h. Stellen Sie unter Verwendung der Anzahl p der Pumpen eine Formel zur Berechnung der Fülldauer T (in h) auf."
+          "v": "Zum Füllen eines anderen Schwimmbeckens werden "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " Pumpen verwendet, die pro Stunde jeweils die gleiche Wassermenge in das Schwimmbecken pumpen. Für "
+        },
+        {
+          "t": "math",
+          "v": "p=2"
+        },
+        {
+          "t": "text",
+          "v": " beträgt die Fülldauer 19 h.\n\nStellen Sie unter Verwendung der Anzahl "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " der Pumpen eine Formel zur Berechnung der Fülldauer "
+        },
+        {
+          "t": "math",
+          "v": "T"
+        },
+        {
+          "t": "text",
+          "v": " (in h) auf.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "T="
+        },
+        {
+          "t": "text",
+          "v": " ______"
         }
       ],
       "figures": [],
@@ -265,7 +337,7 @@
     {
       "id": "2023-ht-t2-01-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -287,33 +359,68 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Die Wassermenge in diesem Schwimmbecken nimmt durch Verdunstung und betriebsbedingte Ursachen ab. Die Funktion "
+          "v": "Die Wassermenge in diesem Schwimmbecken nimmt durch Verdunstung und durch betriebsbedingte Ursachen ab. Dabei beschreibt die Funktion "
         },
         {
           "t": "math",
-          "v": "W:[0;10]\\to\\mathbb{R},\\ W(t)=-\\tfrac{1}{96}t^3+\\tfrac{1}{4}t^2-\\tfrac{35}{24}t"
+          "v": "W:[0;10]\\to\\mathbb{R}"
         },
         {
           "t": "text",
-          "v": " beschreibt die momentane Änderungsrate der Wassermenge (t in h, W(t) in m³/h). Ermitteln Sie die Abnahme der Wassermenge (in m³) im Zeitintervall [0; 6]."
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "W(t)=-\\frac1{96}\\cdot t^3+\\frac14\\cdot t^2-\\frac{35}{24}\\cdot t"
+        },
+        {
+          "t": "text",
+          "v": " modellhaft die momentane Änderungsrate der Wassermenge zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " an einem bestimmten Tag ("
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in h, "
+        },
+        {
+          "t": "math",
+          "v": "W(t)"
+        },
+        {
+          "t": "text",
+          "v": " in m³/h).\n\nErmitteln Sie die Abnahme der Wassermenge (in m³) im Zeitintervall [0; 6]."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "abnahme",
-            "label": "Abnahme der Wassermenge",
-            "value": 11.625,
-            "tol": 0.01,
-            "unit": "m³"
+            "t": "text",
+            "v": "Die Abnahme der Wassermenge beträgt 11,625 m³. Nach dem offiziellen Lösungsschlüssel ist ebenso −11,625 m³ als richtig zu werten. Beide Vorzeichen sind ausdrücklich zulässig."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Ermitteln der Abnahme der Wassermenge, wobei −11,625 m³ ebenso als richtig zu werten ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -359,7 +466,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "In der nachstehenden Abbildung ist das seitliche Profil einer bestimmten Wasserrutsche modellhaft dargestellt."
+          "v": "In der nachstehenden Abbildung ist das seitliche Profil einer bestimmten Wasserrutsche modellhaft dargestellt.\n"
         },
         {
           "t": "fig",
@@ -368,15 +475,39 @@
         },
         {
           "t": "text",
-          "v": "Das seitliche Profil einer bestimmten Wasserrutsche ist durch den Graphen der Funktion "
+          "v": "\nDas seitliche Profil der Wasserrutsche ist durch den Graphen der Funktion "
         },
         {
           "t": "math",
-          "v": "f:[0;5]\\to\\mathbb{R},\\ f(x)=\\tfrac{8}{125}x^3-\\tfrac{12}{25}x^2+4"
+          "v": "f:[0;5]\\to\\mathbb{R}"
         },
         {
           "t": "text",
-          "v": " gegeben (x in m, f(x) in m). Ermitteln Sie die Stelle "
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=\\frac8{125}\\cdot x^3-\\frac{12}{25}\\cdot x^2+4"
+        },
+        {
+          "t": "text",
+          "v": " gegeben ("
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " in m, "
+        },
+        {
+          "t": "math",
+          "v": "f(x)"
+        },
+        {
+          "t": "text",
+          "v": " in m).\n\nErmitteln Sie die Stelle "
         },
         {
           "t": "math",
@@ -395,7 +526,7 @@
             "id": "x1",
             "label": "x₁",
             "value": 2.5,
-            "tol": 0.01,
+            "tol": 1e-09,
             "unit": "m"
           }
         ]

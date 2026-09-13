@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,135 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_420a",
+          "id": "1_420",
           "baseId": "1_420",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/128/Fahrenheit%20und%20Celsius.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T_C=(T_F-32)\\cdot\\frac59"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "T_F=\\frac95\\cdot T_C+32"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung an, die den Zusammenhang zwischen der Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T_F"
+        },
+        {
+          "t": "text",
+          "v": " (°F, Grad Fahrenheit) und der Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T_C"
+        },
+        {
+          "t": "text",
+          "v": " (°C, Grad Celsius) beschreibt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "T_C=(T_F-32)\\cdot\\frac59"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "T_F=\\frac95\\cdot T_C+32"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_420",
       "baseId": "1_420",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/128/Fahrenheit%20und%20Celsius.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Während man in Europa die Temperatur in Grad Celsius (°C) angibt, verwendet man in den USA die Einheit Grad Fahrenheit (°F). Zwischen der Temperatur "
+    },
+    {
+      "t": "math",
+      "v": "T_F"
+    },
+    {
+      "t": "text",
+      "v": " in °F und der Temperatur "
+    },
+    {
+      "t": "math",
+      "v": "T_C"
+    },
+    {
+      "t": "text",
+      "v": " in °C besteht ein linearer Zusammenhang.\n\nFür die Umrechnung von °F in °C gelten folgende Regeln:\n• 32 °F entsprechen 0 °C.\n• Eine Temperaturzunahme um 1 °F entspricht einer Zunahme der Temperatur um "
+    },
+    {
+      "t": "math",
+      "v": "\\frac59"
+    },
+    {
+      "t": "text",
+      "v": " °C."
     }
   ]
 }

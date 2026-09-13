@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t1-24",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1363a",
+          "id": "1_1363",
           "baseId": "1_1363",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/915/1_1363_srdp_ma_Computerspiel_PT1_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -89,19 +89,27 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "P(X ≥ 3)",
-            "value": 0.10351,
-            "tol": 0.0005
+            "t": "math",
+            "v": "P(X\\geq3)=\\frac{53}{512}=0{,}103515625"
+          },
+          {
+            "t": "text",
+            "v": "Die Wahrscheinlichkeit beträgt rund 10,35 %. Ein Punkt für das richtige Berechnen der Wahrscheinlichkeit; gleichwertige Bruch-, Dezimal- und Prozentdarstellungen sowie die angegebene Rundung sind richtig. Keine im Original nicht genannte zusätzliche Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Wahrscheinlichkeit 53/512 = 0,103515625, rund 10,35 %, oder gleichwertig.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

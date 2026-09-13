@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -24,12 +24,252 @@
     {
       "id": "2017-nt2-t1-09-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_533 (offiziell adaptierte Fassung)",
+          "baseId": "1_533",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/242/ElektrischerWiderstand.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "R(l)=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\rho,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant\n"
+            },
+            {
+              "t": "math",
+              "v": "l(R)=\\frac R\\rho\\cdot r^2\\cdot\\pi"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\rho,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant\n"
+            },
+            {
+              "t": "math",
+              "v": "R(\\rho)=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "l,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Gleichungen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nachstehend werden Zusammenhänge angeführt, die aus der Formel für den elektrischen Widerstand hergeleitet werden können.\nWelche der nachstehend angeführten Gleichungen bestimmt/bestimmen eine lineare Funktion?\nKreuzen Sie die zutreffende(n) Gleichung(en) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "R(l)=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\rho,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "l(R)=\\frac R\\rho\\cdot r^2\\cdot\\pi"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\rho,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "R(\\rho)=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "l,r"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "R(r)=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\rho,l"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "l(r)=\\frac R\\rho\\cdot r^2\\cdot\\pi"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "R,\\rho"
+            },
+            {
+              "t": "text",
+              "v": " konstant"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=13",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_533 (offiziell adaptierte Fassung)",
+      "baseId": "1_533",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/242/ElektrischerWiderstand.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der elektrische Widerstand "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " eines zylinderförmigen Leiters mit dem Radius "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " und der Länge "
+    },
+    {
+      "t": "math",
+      "v": "l"
+    },
+    {
+      "t": "text",
+      "v": " kann mithilfe der Formel "
+    },
+    {
+      "t": "math",
+      "v": "R=\\rho\\cdot\\frac l{r^2\\cdot\\pi}"
+    },
+    {
+      "t": "text",
+      "v": " berechnet werden. Der spezifische Widerstand "
+    },
+    {
+      "t": "math",
+      "v": "\\rho"
+    },
+    {
+      "t": "text",
+      "v": " ist eine vom Material und von der Temperatur des Leiters abhängige Größe."
+    }
+  ]
 }

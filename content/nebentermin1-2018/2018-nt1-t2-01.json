@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -23,8 +23,8 @@
   "figures": [],
   "parts": [
     {
-      "id": "2018-nt1-t2-01-a",
-      "label": "a",
+      "id": "2018-nt1-t2-01-a1",
+      "label": "a1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -42,20 +42,645 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_037a",
           "baseId": "2_037",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie an, ob "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " größer als null, gleich null oder kleiner als null sein muss, und begründen Sie Ihre Entscheidung!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c>0"
+          },
+          {
+            "t": "text",
+            "v": ". Der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "A=(0\\mid y_A)"
+          },
+          {
+            "t": "text",
+            "v": " liegt auf der positiven senkrechten Achse, daher ist "
+          },
+          {
+            "t": "math",
+            "v": "y_A=f(0)>0"
+          },
+          {
+            "t": "text",
+            "v": ". Da "
+          },
+          {
+            "t": "math",
+            "v": "c=f(0)"
+          },
+          {
+            "t": "text",
+            "v": " ist, muss "
+          },
+          {
+            "t": "math",
+            "v": "c>0"
+          },
+          {
+            "t": "text",
+            "v": " sein.\nOder: Der Parameter "
+          },
+          {
+            "t": "math",
+            "v": "c"
+          },
+          {
+            "t": "text",
+            "v": " legt fest, in welchem Punkt der Graph von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " die senkrechte Achse schneidet. Da dieser Schnittpunkt auf der positiven senkrechten Achse liegt, muss "
+          },
+          {
+            "t": "math",
+            "v": "c>0"
+          },
+          {
+            "t": "text",
+            "v": " gelten."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die Angabe von c > 0 und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c>0"
+            },
+            {
+              "t": "text",
+              "v": ". Der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "A=(0\\mid y_A)"
+            },
+            {
+              "t": "text",
+              "v": " liegt auf der positiven senkrechten Achse, daher ist "
+            },
+            {
+              "t": "math",
+              "v": "y_A=f(0)>0"
+            },
+            {
+              "t": "text",
+              "v": ". Da "
+            },
+            {
+              "t": "math",
+              "v": "c=f(0)"
+            },
+            {
+              "t": "text",
+              "v": " ist, muss "
+            },
+            {
+              "t": "math",
+              "v": "c>0"
+            },
+            {
+              "t": "text",
+              "v": " sein.\nOder: Der Parameter "
+            },
+            {
+              "t": "math",
+              "v": "c"
+            },
+            {
+              "t": "text",
+              "v": " legt fest, in welchem Punkt der Graph von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " die senkrechte Achse schneidet. Da dieser Schnittpunkt auf der positiven senkrechten Achse liegt, muss "
+            },
+            {
+              "t": "math",
+              "v": "c>0"
+            },
+            {
+              "t": "text",
+              "v": " gelten."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe von c > 0 und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-01-b",
-      "label": "b",
+      "id": "2018-nt1-t2-01-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "FA 1.5",
+          "description": "Eigenschaften von Funktionen erkennen, benennen, im Kontext deuten und zum Erstellen von Funktionsgraphen einsetzen können: Monotonie, Monotoniewechsel (lokale Extrema), Wendepunkte, Periodizität, Achsensymmetrie, asymptotisches Verhalten, Schnittpunkte mit den Achsen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_037a",
+          "baseId": "2_037",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " größer als null, gleich null oder kleiner als null sein muss, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "b<0"
+          },
+          {
+            "t": "text",
+            "v": ". Der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " ist ein Extrempunkt von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": ". Da "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " auf der positiven x-Achse liegt, muss seine x-Koordinate "
+          },
+          {
+            "t": "math",
+            "v": "x_B"
+          },
+          {
+            "t": "text",
+            "v": " positiv sein. Die Extremstelle "
+          },
+          {
+            "t": "math",
+            "v": "x_E=x_B"
+          },
+          {
+            "t": "text",
+            "v": " der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " ergibt sich aus dem Ansatz: "
+          },
+          {
+            "t": "math",
+            "v": "f'(x_E)=0\\iff x_E=-2\\cdot b"
+          },
+          {
+            "t": "text",
+            "v": ". Wegen "
+          },
+          {
+            "t": "math",
+            "v": "x_E=-2\\cdot b>0"
+          },
+          {
+            "t": "text",
+            "v": " muss "
+          },
+          {
+            "t": "math",
+            "v": "b<0"
+          },
+          {
+            "t": "text",
+            "v": " gelten.\nOder: Da aus "
+          },
+          {
+            "t": "math",
+            "v": "f'(x)=\\frac12\\cdot x+b"
+          },
+          {
+            "t": "text",
+            "v": " folgt, dass "
+          },
+          {
+            "t": "math",
+            "v": "f'(0)=b"
+          },
+          {
+            "t": "text",
+            "v": " ist, und da "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " für "
+          },
+          {
+            "t": "math",
+            "v": "(-\\infty;x_E)"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "x_E>0"
+          },
+          {
+            "t": "text",
+            "v": " streng monoton fallend ist, folgt "
+          },
+          {
+            "t": "math",
+            "v": "f'(0)<0"
+          },
+          {
+            "t": "text",
+            "v": " und somit gilt: "
+          },
+          {
+            "t": "math",
+            "v": "f'(0)=b<0"
+          },
+          {
+            "t": "text",
+            "v": ".\nOder: Angenommen, es würde "
+          },
+          {
+            "t": "math",
+            "v": "b\\ge0"
+          },
+          {
+            "t": "text",
+            "v": " gelten. Wegen "
+          },
+          {
+            "t": "math",
+            "v": "c>0"
+          },
+          {
+            "t": "text",
+            "v": " ergibt sich: "
+          },
+          {
+            "t": "math",
+            "v": "\\frac14\\cdot x^2+c>0"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "x\\in\\mathbb R"
+          },
+          {
+            "t": "text",
+            "v": ". Somit würde für alle "
+          },
+          {
+            "t": "math",
+            "v": "x>0"
+          },
+          {
+            "t": "text",
+            "v": " auch "
+          },
+          {
+            "t": "math",
+            "v": "\\frac14\\cdot x^2+b\\cdot x+c>0"
+          },
+          {
+            "t": "text",
+            "v": " gelten. Dies stellt aber einen Widerspruch dazu dar, dass ein Berührpunkt mit der positiven x-Achse existiert. Folglich muss "
+          },
+          {
+            "t": "math",
+            "v": "b<0"
+          },
+          {
+            "t": "text",
+            "v": " gelten."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe von b < 0 und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": ". Der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " ist ein Extrempunkt von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": ". Da "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " auf der positiven x-Achse liegt, muss seine x-Koordinate "
+            },
+            {
+              "t": "math",
+              "v": "x_B"
+            },
+            {
+              "t": "text",
+              "v": " positiv sein. Die Extremstelle "
+            },
+            {
+              "t": "math",
+              "v": "x_E=x_B"
+            },
+            {
+              "t": "text",
+              "v": " der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ergibt sich aus dem Ansatz: "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_E)=0\\iff x_E=-2\\cdot b"
+            },
+            {
+              "t": "text",
+              "v": ". Wegen "
+            },
+            {
+              "t": "math",
+              "v": "x_E=-2\\cdot b>0"
+            },
+            {
+              "t": "text",
+              "v": " muss "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": " gelten.\nOder: Da aus "
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=\\frac12\\cdot x+b"
+            },
+            {
+              "t": "text",
+              "v": " folgt, dass "
+            },
+            {
+              "t": "math",
+              "v": "f'(0)=b"
+            },
+            {
+              "t": "text",
+              "v": " ist, und da "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " für "
+            },
+            {
+              "t": "math",
+              "v": "(-\\infty;x_E)"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "x_E>0"
+            },
+            {
+              "t": "text",
+              "v": " streng monoton fallend ist, folgt "
+            },
+            {
+              "t": "math",
+              "v": "f'(0)<0"
+            },
+            {
+              "t": "text",
+              "v": " und somit gilt: "
+            },
+            {
+              "t": "math",
+              "v": "f'(0)=b<0"
+            },
+            {
+              "t": "text",
+              "v": ".\nOder: Angenommen, es würde "
+            },
+            {
+              "t": "math",
+              "v": "b\\ge0"
+            },
+            {
+              "t": "text",
+              "v": " gelten. Wegen "
+            },
+            {
+              "t": "math",
+              "v": "c>0"
+            },
+            {
+              "t": "text",
+              "v": " ergibt sich: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac14\\cdot x^2+c>0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": ". Somit würde für alle "
+            },
+            {
+              "t": "math",
+              "v": "x>0"
+            },
+            {
+              "t": "text",
+              "v": " auch "
+            },
+            {
+              "t": "math",
+              "v": "\\frac14\\cdot x^2+b\\cdot x+c>0"
+            },
+            {
+              "t": "text",
+              "v": " gelten. Dies stellt aber einen Widerspruch dazu dar, dass ein Berührpunkt mit der positiven x-Achse existiert. Folglich muss "
+            },
+            {
+              "t": "math",
+              "v": "b<0"
+            },
+            {
+              "t": "text",
+              "v": " gelten."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe von b < 0 und eine korrekte Begründung. Andere korrekte Begründungen sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-01-b1",
+      "label": "b1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -73,20 +698,443 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_037b",
           "baseId": "2_037",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Gegeben ist folgende Aussage: „Der Punkt "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " ist ein Schnittpunkt der Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und ihrer Ableitungsfunktion "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": ".“ Geben Sie an, ob diese Aussage wahr oder falsch ist, und begründen Sie Ihre Entscheidung!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die Aussage ist wahr. Da "
+          },
+          {
+            "t": "math",
+            "v": "B=(x_B\\mid0)"
+          },
+          {
+            "t": "text",
+            "v": " ein Extrempunkt von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " ist, gilt "
+          },
+          {
+            "t": "math",
+            "v": "f'(x_B)=0"
+          },
+          {
+            "t": "text",
+            "v": ". Weil auch "
+          },
+          {
+            "t": "math",
+            "v": "f(x_B)=0"
+          },
+          {
+            "t": "text",
+            "v": " ist, ist der Punkt "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " ein Schnittpunkt der Graphen von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "f'"
+          },
+          {
+            "t": "text",
+            "v": ".\nOder: An einer Stelle, wo die Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " eine Extremstelle hat, weist "
+          },
+          {
+            "t": "math",
+            "v": "f'"
+          },
+          {
+            "t": "text",
+            "v": " eine Nullstelle auf. Da die Extremstelle von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " im gegebenen Fall eine Nullstelle ist, haben "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "f'"
+          },
+          {
+            "t": "text",
+            "v": " die gleiche Nullstelle und somit im Punkt "
+          },
+          {
+            "t": "math",
+            "v": "B"
+          },
+          {
+            "t": "text",
+            "v": " einen Schnittpunkt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe, dass die Aussage wahr ist, und eine korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussage ist wahr. Da "
+            },
+            {
+              "t": "math",
+              "v": "B=(x_B\\mid0)"
+            },
+            {
+              "t": "text",
+              "v": " ein Extrempunkt von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, gilt "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_B)=0"
+            },
+            {
+              "t": "text",
+              "v": ". Weil auch "
+            },
+            {
+              "t": "math",
+              "v": "f(x_B)=0"
+            },
+            {
+              "t": "text",
+              "v": " ist, ist der Punkt "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " ein Schnittpunkt der Graphen von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": ".\nOder: An einer Stelle, wo die Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " eine Extremstelle hat, weist "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " eine Nullstelle auf. Da die Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " im gegebenen Fall eine Nullstelle ist, haben "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " die gleiche Nullstelle und somit im Punkt "
+            },
+            {
+              "t": "math",
+              "v": "B"
+            },
+            {
+              "t": "text",
+              "v": " einen Schnittpunkt."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die Aussage wahr ist, und eine korrekte Begründung."
+        }
+      ]
     },
     {
-      "id": "2018-nt1-t2-01-c",
-      "label": "c",
+      "id": "2018-nt1-t2-01-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AN 3.2",
+          "description": "den Zusammenhang zwischen Funktion und Ableitungsfunktion (bzw. Funktion und Stammfunktion) in deren grafischer Darstellung (er)kennen und beschreiben können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_037b",
+          "baseId": "2_037",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es gibt für alle Werte von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " genau eine Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_t"
+        },
+        {
+          "t": "text",
+          "v": " mit folgender Eigenschaft: An der Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_t"
+        },
+        {
+          "t": "text",
+          "v": " haben "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "f'"
+        },
+        {
+          "t": "text",
+          "v": " die gleiche Steigung. Geben Sie diese Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x_t"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "1-2b",
+        "vars": [
+          "b"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x)=\\frac12\\cdot x+b\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Die Steigung der Ableitungsfunktion "
+            },
+            {
+              "t": "math",
+              "v": "f'"
+            },
+            {
+              "t": "text",
+              "v": " ist "
+            },
+            {
+              "t": "math",
+              "v": "\\frac12"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "f'(x_t)=\\frac12\\cdot x_t+b=\\frac12\\Rightarrow x_t=1-2\\cdot b"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Ausdrücke sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-01-c1",
+      "label": "c1",
       "format": "Offenes Antwortformat",
       "competencies": [
         {
@@ -104,26 +1152,391 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_037c",
           "baseId": "2_037",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, welcher Zusammenhang zwischen "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " bestehen muss, damit die Extremstelle "
+        },
+        {
+          "t": "math",
+          "v": "x_B"
+        },
+        {
+          "t": "text",
+          "v": " von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " auch Nullstelle von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " ist!"
         }
       ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Wenn die Extremstelle von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " auch Nullstelle von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " ist, hat die Gleichung "
+          },
+          {
+            "t": "math",
+            "v": "\\frac14\\cdot x^2+b\\cdot x+c=0"
+          },
+          {
+            "t": "text",
+            "v": " genau eine Lösung. "
+          },
+          {
+            "t": "math",
+            "v": "x_{1,2}=\\frac{-b\\pm\\sqrt{b^2-4\\cdot0{,}25\\cdot c}}{0{,}5}\\Rightarrow c=b^2"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Zusammenhang zwischen b und c. Andere korrekte Zusammenhänge sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Wenn die Extremstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " auch Nullstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist, hat die Gleichung "
+            },
+            {
+              "t": "math",
+              "v": "\\frac14\\cdot x^2+b\\cdot x+c=0"
+            },
+            {
+              "t": "text",
+              "v": " genau eine Lösung. "
+            },
+            {
+              "t": "math",
+              "v": "x_{1,2}=\\frac{-b\\pm\\sqrt{b^2-4\\cdot0{,}25\\cdot c}}{0{,}5}\\Rightarrow c=b^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Zusammenhang zwischen b und c. Andere korrekte Zusammenhänge sind ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2018-nt1-t2-01-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [
+        {
+          "code": "AN 3.3",
+          "description": "Eigenschaften von Funktionen mithilfe der Ableitung(sfunktion) beschreiben können: Monotonie, lokale Extrema, Links- und Rechtskrümmung, Wendestellen",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        },
+        {
+          "code": "AG 2.5",
+          "description": "lineare Gleichungssysteme in zwei Variablen aufstellen, interpretieren, umformen/lösen, über Lösungsfälle Bescheid wissen, Lösungen und Lösungsfälle (auch geometrisch) deuten können",
+          "source": "aufgabenpool",
+          "verifiedAt": "2026-06-30"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "2_037c",
+          "baseId": "2_037",
+          "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Koeffizienten "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von "
+        },
+        {
+          "t": "math",
+          "v": "x_B"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f'(x_B)=\\frac12\\cdot x_B+b=0\\Rightarrow b=-\\frac{x_B}2"
+          },
+          {
+            "t": "text",
+            "v": ". Aus "
+          },
+          {
+            "t": "math",
+            "v": "c=b^2"
+          },
+          {
+            "t": "text",
+            "v": " folgt: "
+          },
+          {
+            "t": "math",
+            "v": "c=\\frac{x_B^2}4"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe der Koeffizienten b und c in Abhängigkeit von xB."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f'(x_B)=\\frac12\\cdot x_B+b=0\\Rightarrow b=-\\frac{x_B}2"
+            },
+            {
+              "t": "text",
+              "v": ". Aus "
+            },
+            {
+              "t": "math",
+              "v": "c=b^2"
+            },
+            {
+              "t": "text",
+              "v": " folgt: "
+            },
+            {
+              "t": "math",
+              "v": "c=\\frac{x_B^2}4"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe der Koeffizienten b und c in Abhängigkeit von xB."
+        }
+      ]
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2762&token=84a052d39ebbc9d961bba65a3091f98d52f0a962#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "2_037",
       "baseId": "2_037",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/387/Quadratische%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Graph einer Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " zweiten Grades schneidet die positive senkrechte Achse im Punkt "
+    },
+    {
+      "t": "math",
+      "v": "A=(0\\mid y_A)"
+    },
+    {
+      "t": "text",
+      "v": " und hat mit der positiven x-Achse den Punkt "
+    },
+    {
+      "t": "math",
+      "v": "B=(x_B\\mid0)"
+    },
+    {
+      "t": "text",
+      "v": " gemeinsam, wobei "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " ein Extrempunkt von "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " ist.\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " ist von der Form "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=\\frac14\\cdot x^2+b\\cdot x+c"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "b,c\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

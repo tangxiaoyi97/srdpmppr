@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-08",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,171 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 8 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=12",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_390a",
+          "id": "1_390",
           "baseId": "1_390",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/98/Wasserkosten.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " gibt die Fixkosten an.\n"
+            },
+            {
+              "t": "math",
+              "v": "b"
+            },
+            {
+              "t": "text",
+              "v": " gibt die (variablen) Kosten pro "
+            },
+            {
+              "t": "math",
+              "v": "\\mathrm{m^3}"
+            },
+            {
+              "t": "text",
+              "v": " Wasser an."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Beide Parameter müssen richtig gedeutet sein, damit die Lösung als richtig gewertet wird."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erklären Sie, welche Bedeutung die Parameter "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " in diesem Zusammenhang haben!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": " gibt die Fixkosten an.\n"
+          },
+          {
+            "t": "math",
+            "v": "b"
+          },
+          {
+            "t": "text",
+            "v": " gibt die (variablen) Kosten pro "
+          },
+          {
+            "t": "math",
+            "v": "\\mathrm{m^3}"
+          },
+          {
+            "t": "text",
+            "v": " Wasser an."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Beide Parameter müssen richtig gedeutet sein, damit die Lösung als richtig gewertet wird."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 8 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=12",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_390",
       "baseId": "1_390",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/98/Wasserkosten.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die monatlichen Wasserkosten eines Haushalts bei einem Verbrauch von "
+    },
+    {
+      "t": "math",
+      "v": "x\\ \\mathrm{m^3}"
+    },
+    {
+      "t": "text",
+      "v": " Wasser können durch eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "K"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "K(x)=a+b\\cdot x"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden."
     }
   ]
 }

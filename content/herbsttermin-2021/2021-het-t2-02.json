@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,16 @@
     {
       "id": "2021-het-t2-02-a1",
       "label": "a1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5171&token=e5f5bd7e20cb6fdaa94a81a22f173a8d6d397be5#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -47,20 +54,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "tstar",
-            "label": "t*",
-            "value": 28.9,
-            "tol": 0.1,
-            "unit": "min"
+            "t": "math",
+            "v": "37=70\\cdot e^{-0{,}045\\cdot t^{*}}+18"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "t^{*}=28{,}9\\ldots\\ \\text{min}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Berechnen von t*."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für das richtige Berechnen von t*.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -84,10 +106,29 @@
     {
       "id": "2021-het-t2-02-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5171&token=e5f5bd7e20cb6fdaa94a81a22f173a8d6d397be5#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Das Abkühlen von Tee in einer Teekanne kann durch die Funktion g mit "
+        },
+        {
+          "t": "math",
+          "v": "g(t)=70\\cdot e^{-0{,}045\\cdot t}+18"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden.\n\n"
+        },
         {
           "t": "text",
           "v": "Berechnen Sie die mittlere Änderungsrate von g im Intervall [10 min; 12 min]. Interpretieren Sie das Ergebnis unter Angabe der zugehörigen Einheit im gegebenen Sachzusammenhang."
@@ -98,29 +139,29 @@
         "kind": "open",
         "rubric": [
           {
-            "t": "text",
-            "v": "Mittlere Änderungsrate "
-          },
-          {
             "t": "math",
             "v": "\\tfrac{g(12)-g(10)}{12-10}=-1{,}92\\ldots"
           },
           {
             "t": "text",
-            "v": ". Interpretation: Die Temperatur des Tees sinkt im Intervall [10 min; 12 min] durchschnittlich um rund 1,9 °C/min."
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Temperatur des Tees sinkt im Intervall [10 min; 12 min] durchschnittlich um rund 1,9 °C/min."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein halber Punkt für das richtige Berechnen der mittleren Änderungsrate, ein halber Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit."
           }
         ],
         "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 2,
+            "desc": "a2) Ein halber Punkt für das richtige Berechnen der mittleren Änderungsrate, ein halber Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang unter Angabe der zugehörigen Einheit.",
             "points": 1
           }
         ]
@@ -147,9 +188,16 @@
     {
       "id": "2021-het-t2-02-b1",
       "label": "b1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5171&token=e5f5bd7e20cb6fdaa94a81a22f173a8d6d397be5#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -157,7 +205,7 @@
         },
         {
           "t": "math",
-          "v": "T_{t+1}=T_t+\\boxed{\\phantom{0}}\\quad\\text{mit}\\quad T_0=5"
+          "v": "T_{t+1}=T_t+\\underline{\\hspace{5cm}}\\quad\\text{mit}\\quad T_0=5"
         }
       ],
       "figures": [],
@@ -189,10 +237,21 @@
     {
       "id": "2021-het-t2-02-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5171&token=e5f5bd7e20cb6fdaa94a81a22f173a8d6d397be5#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein bestimmter gekühlter Wein in einem Weinglas hat eine Anfangstemperatur von T₀ = 5 °C.\nDie Umgebungstemperatur beträgt konstant U = 25 °C.\nDie Temperatur des Weines wird in regelmäßigen Abständen gemessen. Zum Zeitpunkt t hat sie den Wert Tₜ.\n\nPro Minute nimmt die Temperatur des Weines um 8 % der Differenz zwischen der Umgebungstemperatur U und der zum Zeitpunkt t gemessenen Temperatur des Weines Tₜ zu. Die Temperatur des Weines steigt dabei auf den Wert Tₜ₊₁.\n\n"
+        },
         {
           "t": "text",
           "v": "Berechnen Sie die Temperatur des Weines zum Zeitpunkt t = 3 min."
@@ -200,20 +259,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "T3",
-            "label": "T₃",
-            "value": 9.42624,
-            "tol": 0.1,
-            "unit": "°C"
+            "t": "math",
+            "v": "T_1=5+0{,}08\\cdot(25-5)=6{,}6"
+          },
+          {
+            "t": "math",
+            "v": "T_2=6{,}6+0{,}08\\cdot(25-6{,}6)=8{,}072"
+          },
+          {
+            "t": "math",
+            "v": "T_3=8{,}072+0{,}08\\cdot(25-8{,}072)=9{,}42624"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "T_3=9{,}4\\ldots\\ \\text{°C}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Berechnen der Temperatur zum Zeitpunkt t = 3 min."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für das richtige Berechnen der Temperatur zum Zeitpunkt t = 3 min.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -243,7 +325,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 26 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5171&token=e5f5bd7e20cb6fdaa94a81a22f173a8d6d397be5#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

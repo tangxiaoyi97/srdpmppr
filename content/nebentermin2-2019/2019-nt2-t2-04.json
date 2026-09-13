@@ -1,6 +1,6 @@
 {
   "id": "2019-nt2-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,16 @@
     {
       "id": "2019-nt2-t2-04-a1",
       "label": "a1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -39,7 +46,7 @@
         "blanks": [
           {
             "id": "stimmen",
-            "value": 509,
+            "value": 505,
             "tol": 5,
             "unit": "Stimmen"
           }
@@ -76,9 +83,16 @@
     {
       "id": "2019-nt2-t2-04-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -128,9 +142,16 @@
     {
       "id": "2019-nt2-t2-04-b1",
       "label": "b1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -160,7 +181,7 @@
         "blanks": [
           {
             "id": "stimmen5",
-            "value": 533,
+            "value": 535,
             "tol": 5,
             "unit": "Stimmen"
           }
@@ -197,10 +218,38 @@
     {
       "id": "2019-nt2-t2-04-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Tabelle zeigt das Ergebnis einer Vergleichswahl."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2019/fig/2019-nt2-t2-04-tab2.png",
+          "alt": "Tabelle 2: Vergleichswahl. Kandidat A: 390, 416, 409, 383, 478, gesamt 2 076. Kandidat B: 385, 483, 519, 187, 500, gesamt 2 074. Wahlberechtigte: 775, 899, 928, 570, 978, gesamt 4 150 (1.–5. Wahlbezirk)."
+        },
+        {
+          "t": "text",
+          "v": "Die Variable x sei die Anzahl der Stimmen für Kandidat A bei der Vergleichswahl, die Variable y die Anzahl der Stimmen für Kandidat A bei der Bürgermeisterwahl. Damit erhält man für den Kandidaten A für die Ergebnisse aus dem 1., 2., 3. und 4. Wahlbezirk vier Punkte in einem kartesischen Koordinatensystem.\nDie Regressionsgerade "
+        },
+        {
+          "t": "math",
+          "v": "g: y=1{,}5462\\cdot x-205{,}71"
+        },
+        {
+          "t": "text",
+          "v": " verläuft nun durch diese „Punktwolke“ so, dass ein linearer Zusammenhang zwischen den beiden Variablen x und y gut beschrieben wird.\n\n"
+        },
         {
           "t": "text",
           "v": "Interpretieren Sie den Wert der Steigung der Regressionsgeraden g im gegebenen Kontext!"
@@ -209,13 +258,25 @@
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
-            "v": "Mögliche Interpretation: Der Wert der Steigung von g gibt an, dass Kandidat A pro zusätzlicher Stimme bei der Vergleichswahl ca. 1,55 Stimmen mehr bei der Bürgermeisterwahl erwarten kann."
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Interpretation:\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Wert der Steigung von g gibt an, dass Kandidat A pro zusätzlicher Stimme bei der Vergleichswahl ca. 1,55 Stimmen mehr bei der Bürgermeisterwahl erwarten kann."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Interpretation."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
@@ -232,6 +293,10 @@
           "result": [
             {
               "t": "text",
+              "v": "Mögliche Interpretation:\n"
+            },
+            {
+              "t": "text",
               "v": "Der Wert der Steigung von g gibt an, dass Kandidat A pro zusätzlicher Stimme bei der Vergleichswahl ca. 1,55 Stimmen mehr bei der Bürgermeisterwahl erwarten kann."
             }
           ],
@@ -242,9 +307,16 @@
     {
       "id": "2019-nt2-t2-04-c1",
       "label": "c1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -253,19 +325,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "unten",
-            "label": "untere Grenze",
-            "value": 0.5015,
-            "tol": 0.0015
+            "t": "math",
+            "v": "0{,}52 \\pm 1{,}96\\cdot\\sqrt{\\dfrac{0{,}52\\cdot 0{,}48}{3\\,172}}\\approx 0{,}52 \\pm 0{,}017"
           },
           {
-            "id": "oben",
-            "label": "obere Grenze",
-            "value": 0.538,
-            "tol": 0.002
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "[0{,}503;\\ 0{,}537]"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für ein richtiges Intervall. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,500; 0,503]. Toleranzintervall für den oberen Wert: [0,536; 0,540]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
@@ -300,10 +377,29 @@
     {
       "id": "2019-nt2-t2-04-c2",
       "label": "c2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Bei einer österreichweiten Wahl kann ein Kandidat C gewählt werden. Aus einer vorhergehenden Wahl ist bekannt, dass der Stimmenanteil h für Kandidat A bei der Bürgermeisterwahl in den Wahlbezirken 1 bis 4 repräsentativ für den Stimmenanteil für Kandidat C bei der österreichweiten Wahl ist.\nErmitteln Sie anhand des Stimmenanteils h ein symmetrisches 95-%-Konfidenzintervall für den unbekannten Stimmenanteil für Kandidat C!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Nach Auszählung aller Stimmen bei der österreichweiten Wahl hat der Kandidat C 61 % der Stimmen erhalten. Damit liegt dieser Stimmenanteil außerhalb des davor ermittelten symmetrischen 95-%-Konfidenzintervalls.\nHätte man als Konfidenzniveau 90 % gewählt, so hätte man ein Konfidenzintervall mit einer anderen Breite erhalten.\nGeben Sie an, ob der tatsächliche Stimmenanteil für Kandidat C in diesem Konfidenzintervall enthalten wäre, und begründen Sie Ihre Entscheidung!"
@@ -343,7 +439,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2994&token=a512c9839d89efb97bd779d3d574be0018f6ffe9#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

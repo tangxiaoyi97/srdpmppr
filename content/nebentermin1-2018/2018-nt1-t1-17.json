@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-17",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -24,12 +24,123 @@
     {
       "id": "2018-nt1-t1-17-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 17 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_654",
+          "baseId": "1_654",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/379/Bestimmtes%20Integral.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_0^7 f(x)\\,\\mathrm{d}x=6"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Wert des bestimmten Integrals "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^7 f(x)\\,\\mathrm{d}x"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "value": 6,
+            "tol": 1e-09,
+            "label": "∫₀⁷ f(x) dx"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 17 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=21",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_654",
+      "baseId": "1_654",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/379/Bestimmtes%20Integral.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer abschnittsweise linearen Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt. Die Koordinaten der Punkte "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "B"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "C"
+    },
+    {
+      "t": "text",
+      "v": " des Graphen der Funktion sind ganzzahlig."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t1-17-q.png",
+      "alt": "Graph einer abschnittsweise linearen Funktion mit den Punkten A, B und C."
+    }
+  ]
 }

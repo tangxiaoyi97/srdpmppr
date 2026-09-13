@@ -1,6 +1,6 @@
 {
   "id": "2023-wt-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -129,20 +129,40 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Ein bestimmtes Fahrzeug wird durch eine Vollbremsung bis zum Stillstand abgebremst. Der Weg, den ein Fahrzeug während der Vollbremsung zurücklegt, wird als Bremsweg bezeichnet.\n\nIn der nachstehenden Abbildung ist das Zeit-Geschwindigkeit-Diagramm für eine 5 s dauernde Vollbremsung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2023/fig/2023-wt-t2-04-a1-q.png",
+          "alt": "Zeit-Geschwindigkeit-Diagramm: v(t) in m/s über t in s (0 bis 5); eine fallende Gerade v von 20 m/s bei t = 0 auf 0 m/s bei t = 5."
+        },
+        {
+          "t": "text",
+          "v": "Für die Zeit-Geschwindigkeit-Funktion v gilt:"
+        },
+        {
+          "t": "math",
+          "v": "v(t) = -4 \\cdot t + 20 \\quad \\text{mit } t \\in [0;\\,5]"
+        },
+        {
+          "t": "text",
+          "v": "t ... Zeit in s\nv(t) ... Geschwindigkeit zum Zeitpunkt t in m/s\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Die Länge des Bremswegs des Fahrzeugs bei dieser Vollbremsung wird mit s_B bezeichnet. Wird die Anfangsgeschwindigkeit halbiert, so beträgt bei gleichbleibender negativer Beschleunigung die Länge des Bremswegs k · s_B mit k ∈ ℝ.\n\nErmitteln Sie k."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "k",
-            "label": "k",
-            "value": 0.25,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "1/4",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -244,7 +264,7 @@
     {
       "id": "2023-wt-t2-04-b2",
       "label": "b2",
-      "format": "Konstruktionsformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -264,6 +284,14 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Ein Fahrzeug fährt mit einer konstanten Geschwindigkeit von 25 m/s. Zum Zeitpunkt t = 0 sieht der Fahrzeuglenker ein Hindernis auf der Straße.\n\nEs gilt:\n- Der Fahrzeuglenker benötigt eine bestimmte Zeit, um zu reagieren. Während dieser Zeit fährt das Fahrzeug mit der konstanten Geschwindigkeit von 25 m/s weiter.\n- Der Bremsvorgang beginnt zum Zeitpunkt t₁ mit einer konstanten Bremsverzögerung (negative Beschleunigung).\n- Zum Zeitpunkt t₂ kommt das Fahrzeug zum Stillstand.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Der Weg, den das Fahrzeug im Zeitintervall [0; t₂] zurücklegt, wird Anhalteweg s_A genannt (s_A in m).\n\nStellen Sie unter Verwendung von t₁ und t₂ eine Formel zur Berechnung von s_A auf."

@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,164 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_572a",
+          "id": "1_572",
           "baseId": "1_572",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/281/Funktionstypen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Von oben nach unten: E, A, F, B."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier Funktionsgleichungen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier Funktionsgleichungen jeweils den passenden Graphen (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot\\sin(b\\cdot x)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot b^x"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot\\sqrt x+b"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=a\\cdot x+b"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-1.png",
+              "alt": "Funktionsgraph A."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-2.png",
+              "alt": "Funktionsgraph B."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-3.png",
+              "alt": "Funktionsgraph C."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-4.png",
+              "alt": "Funktionsgraph D."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-5.png",
+              "alt": "Funktionsgraph E."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2017/fig/2017-nt1-t1-07-option-6.png",
+              "alt": "Funktionsgraph F."
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_572",
       "baseId": "1_572",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/281/Funktionstypen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Folgenden sind vier Funktionsgleichungen (mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b\\in\\mathbb R^+"
+    },
+    {
+      "t": "text",
+      "v": ") angeführt und die Graphen von sechs reellen Funktionen dargestellt."
     }
   ]
 }

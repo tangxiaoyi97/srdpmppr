@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -22,14 +22,464 @@
   "figures": [],
   "parts": [
     {
-      "id": "2017-nt2-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2017-nt2-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie in der nachstehenden Grafik ein Diagramm, das die Medianeinkommen der 20- bis 59-Jährigen darstellt! Verwenden Sie dafür die auf die Hunderterstelle gerundeten Medianeinkommen."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-03-a-grid.png",
+          "alt": "Leeres Koordinatensystem für Medianeinkommen der Altersklassen 20–29, 30–39, 40–49, 50–59"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Korrektes Diagramm mit Werten 1500 Euro (20–29), 1800 Euro (30–39), 1900 Euro (40–49), 2000 Euro (50–59)."
+          }
+        ],
+        "grader": "self"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliches Diagramm:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-03-a-solution.png",
+              "alt": "Diagramm mit Medianeinkommen 1500, 1800, 1900 und 2000 Euro"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Diagramm."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ist es anhand der Daten in der gegebenen Tabelle möglich, die Nettomonatseinkommen der 20- bis 29-Jährigen und der 30- bis 39-Jährigen in Boxplots (Kastenschaubildern) gegenüberzustellen? Begründen Sie Ihre Antwort!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nein, Minimum und Maximum fehlen."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Gegenüberstellung der Nettomonatseinkommen in Boxplots (Kastenschaubildern) ist anhand der gegebenen Daten nicht möglich, da die niedrigsten und die höchsten Nettomonatseinkommen (Minimum und Maximum) in der Tabelle nicht angegeben sind."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand hat das arithmetische Mittel aller Nettomonatseinkommen anhand der arithmetischen Mittel der sechs Altersklassen folgendermaßen berechnet:\n"
+        },
+        {
+          "t": "math",
+          "v": "\\dfrac{799{,}4+1487{,}0+1885{,}7+2086{,}1+2205{,}0+2144{,}7}{6}\\approx1768{,}0"
+        },
+        {
+          "t": "text",
+          "v": "\n\nIn der gegebenen Tabelle ist allerdings für das arithmetische Mittel aller Einkommen der Wert 1872,7 angegeben.\nBegründen Sie, warum die oben angeführte Rechnung nicht das richtige Ergebnis liefert, und geben Sie den richtigen Ansatz für die Berechnung an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Altersklassen unterschiedlich groß; Mittel müssen mit Erwerbstätigenanzahlen gewichtet werden. Korrekten gewichteten Mittelwertansatz angeben."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung: Die angeführte Rechnung ist falsch, da die Anzahl der Erwerbstätigen in den einzelnen Altersklassen nicht berücksichtigt ist.\nEin richtiger Ansatz lautet:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{799{,}4\\cdot173{,}5+1487\\cdot705{,}1+1885{,}7\\cdot803{,}1+2086{,}1\\cdot1020{,}4+2205\\cdot632{,}8+2144{,}7\\cdot73}{3407{,}9}"
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung und einen korrekten Ansatz."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei der Altersklasse 60+ ist das arithmetische Mittel der Nettomonatseinkommen deutlich (um fast € 500) größer als das Medianeinkommen dieser Altersklasse. Geben Sie eine daraus ableitbare Schlussfolgerung im Hinblick auf sehr niedrige bzw. sehr hohe Nettomonatseinkommen in dieser Altersklasse an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Sehr hohe Einkommen weichen stärker vom Median ab als sehr niedrige."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründung: In der Altersklasse 60+ weichen die sehr hohen Nettomonatseinkommen viel stärker vom Medianeinkommen ab als die sehr niedrigen Einkommen."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-c1",
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Geben Sie die Werte des 1. und des 3. Quartils der Nettomonatseinkommen der unselbständig Erwerbstätigen mit Pflichtschulabschluss als höchste abgeschlossene Schulbildung an!\n\n1. Quartil: _____\n3. Quartil: _____"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "1. Quartil",
+            "label": "1. Quartil",
+            "value": 677,
+            "tol": 1e-09,
+            "unit": "€"
+          },
+          {
+            "id": "3. Quartil",
+            "label": "3. Quartil",
+            "value": 1564,
+            "tol": 1e-09,
+            "unit": "€"
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "1. Quartil: € 677,0\n3. Quartil: € 1.564,0"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die Angabe beider korrekten Werte."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Interquartilsabstand ist die Differenz von 3. und 1. Quartil.\nEin Experte behauptet: „Mit zunehmender höchster abgeschlossener Schulbildung, die über einen Pflichtschulabschluss hinausgeht, nimmt auch der Interquartilsabstand der Nettomonatseinkommen zu.“ Verifizieren oder widerlegen Sie diese Behauptung und verwenden Sie dazu die Daten in der gegebenen Tabelle!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Richtig: Interquartilsabstände Lehre 840 €, BMS 1032 €, höhere Schule 1406 €, Universität 1618 €; steigen mit Schulbildung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Behauptung ist richtig, wie die folgenden Interquartilsabstände zeigen:\nLehrabschluss: € 840\nBMS-Abschluss: € 1.032\nAbschluss einer höheren Schule: € 1.406\nUniversitätsabschluss: € 1.618"
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-d1",
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Daten in der gegebenen Tabelle zeigen, dass ungefähr 53 % der unselbständig Erwerbstätigen Angestellte und ungefähr 30 % Arbeiter/innen sind.\nIn einem Kommentar zum Arbeitsmarktbericht ist zu lesen: „Der relative Anteil der Angestellten ist um ungefähr 23 % höher als der relative Anteil der Arbeiter/innen.“\nIst diese Aussage richtig? Begründen Sie Ihre Antwort!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Nein. Prozentpunkte mit Prozent verwechselt; relative Zunahme muss auf Arbeiteranteil bezogen werden. Korrekte Berechnung ca. 75 % mehr Angestellte ebenfalls akzeptieren."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussage ist nicht richtig.\nMögliche Begründungen: Für diesen Vergleich muss der relative Anteil (in Prozent) der Arbeiter/innen als Grundwert verwendet werden.\noder:\nIn der Aussage wurde ein relativer Zuwachs (in Prozent) mit einem Zuwachs von Prozentpunkten verwechselt."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe, dass die Aussage nicht richtig ist, und eine (sinngemäß) richtige Begründung. Eine richtige Berechnung des relativen Anteils (ca. 75 % mehr Angestellte) ist auch als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2017-nt2-t2-03-d2",
+      "label": "d2",
+      "format": "Multiple Choice",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Überprüfen Sie folgende Aussagen über Nettomonatseinkommen anhand der Daten in der gegebenen Tabelle!\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Angestellte verdienen im Durchschnitt um über € 500 mehr als Arbeiter/innen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens ein Viertel der Arbeiter/innen verdient mehr als € 1.922."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Spannweite des Nettomonatseinkommens kann anhand der Daten in der Tabelle nicht exakt angegeben werden."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Drei Viertel der Lehrlinge verdienen mindestens € 930."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Genau die Hälfte der Beamten und Vertragsbediensteten verdient exakt € 1.800."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Höchstens ein Viertel der Arbeiter/innen verdient mehr als € 1.922.\nDie Spannweite des Nettomonatseinkommens kann anhand der Daten in der Tabelle nicht exakt angegeben werden."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1650&token=ea527254d3f1bfb988ab586e355a0e046caa8d7f#page=7",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Nettomonatseinkommen erwerbstätiger Personen hängt von sozioökonomischen Faktoren wie Alter, Staatsangehörigkeit, Schulbildung, Beschäftigungsausmaß und beruflicher Stellung ab.\nDie nachstehende Tabelle zeigt Daten zu den Nettomonatseinkommen unselbständig Erwerbstätiger in Österreich im Jahresdurchschnitt 2010 in Abhängigkeit von sozioökonomischen Faktoren.\nAlle folgenden Aufgabenstellungen beziehen sich auf diese Daten des Jahres 2010."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t2-03-income-table.png",
+      "alt": "Tabelle der Nettomonatseinkommen 2010 nach Alter, höchster abgeschlossener Schulbildung und beruflicher Stellung, mit Anzahl, arithmetischem Mittel, 10., 25., 50., 75. und 90. Perzentil"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: Statistik Austria (Hrsg.) (2012). Arbeitsmarktstatistik. Jahresergebnisse 2011. Mikrozensus-Arbeitskräfteerhebung. Wien: Statistik Austria. S. 81 (adaptiert)."
+    }
+  ]
 }

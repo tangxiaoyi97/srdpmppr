@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -24,12 +24,122 @@
     {
       "id": "2014-nt1-t1-03-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_371",
+          "baseId": "1_371",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/79/Quadratische%20Gleichung.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c=-3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Wert des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass diese quadratische Gleichung in "
+        },
+        {
+          "t": "math",
+          "v": "\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": " genau eine Lösung hat!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "c="
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "c",
+            "label": "c",
+            "value": -3,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=7",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_371",
+      "baseId": "1_371",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/79/Quadratische%20Gleichung.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "(x-7)^2=3+c"
+    },
+    {
+      "t": "text",
+      "v": " mit der Variablen "
+    },
+    {
+      "t": "math",
+      "v": "x\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " und dem Parameter "
+    },
+    {
+      "t": "math",
+      "v": "c\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

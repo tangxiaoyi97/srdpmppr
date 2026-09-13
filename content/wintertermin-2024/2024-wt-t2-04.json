@@ -1,6 +1,6 @@
 {
   "id": "2024-wt-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -36,18 +36,24 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=34",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_136a",
           "baseId": "2_136",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Die Populationsgröße (Anzahl der Individuen) einer bestimmten Tierart kann modellhaft durch die Funktion N: ℝ₀⁺ → ℝ⁺ in Abhängigkeit von der Zeit t beschrieben werden.\n\nDabei gilt:"
+          "v": "Die Populationsgröße (Anzahl der Individuen) einer bestimmten Tierart kann modellhaft durch die Funktion N: ℝ₀⁺ → ℝ⁺ in Abhängigkeit von der Zeit t beschrieben werden.\n\nDabei gilt:\n"
         },
         {
           "t": "math",
@@ -55,7 +61,23 @@
         },
         {
           "t": "text",
-          "v": "t ... Zeit in Wochen\nN(t) ... Populationsgröße zum Zeitpunkt t\n\nZum Zeitpunkt t_v ist die Population auf das Doppelte ihrer Größe zum Zeitpunkt t = 0 angewachsen.\n\nBerechnen Sie t_v."
+          "v": "\nt ... Zeit in Wochen\nN(t) ... Populationsgröße zum Zeitpunkt t\n\nZum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_v"
+        },
+        {
+          "t": "text",
+          "v": " ist die Population auf das Doppelte ihrer Größe zum Zeitpunkt t = 0 angewachsen.\n\nBerechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "t_v"
+        },
+        {
+          "t": "text",
+          "v": "."
         }
       ],
       "figures": [],
@@ -85,7 +107,7 @@
             },
             {
               "t": "text",
-              "v": ";  "
+              "v": "\n"
             },
             {
               "t": "math",
@@ -126,22 +148,28 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=35",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_136b",
           "baseId": "2_136",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Die Wachstumsgeschwindigkeit einer anderen Tierpopulation lässt sich durch die Polynomfunktion f mit f(t) = a ∙ t² + b ∙ t + c mit a, b, c ∈ ℝ und a ≠ 0 modellieren. Dabei gibt f(t) die momentane Änderungsrate der Anzahl der Individuen in Abhängigkeit von der Zeit t an (t in Wochen, f(t) in Individuen pro Woche).\n\nDie Wachstumsgeschwindigkeit zum Zeitpunkt t = 0 beträgt 15 Individuen pro Woche und erreicht nach 7 Wochen ihr Maximum. Nach 35 Wochen beträgt die Wachstumsgeschwindigkeit 0 Individuen pro Woche.\n\nStellen Sie eine Funktionsgleichung von f auf."
+          "v": "Die Wachstumsgeschwindigkeit einer anderen Tierpopulation lässt sich durch die Polynomfunktion f mit f(t) = a ∙ t² + b ∙ t + c mit a, b, c ∈ ℝ und a ≠ 0 modellieren. Dabei gibt f(t) die momentane Änderungsrate der Anzahl der Individuen in Abhängigkeit von der Zeit t an (t in Wochen, f(t) in Individuen pro Woche).\n\nDie Wachstumsgeschwindigkeit zum Zeitpunkt t = 0 beträgt 15 Individuen pro Woche und erreicht nach 7 Wochen ihr Maximum. Nach 35 Wochen beträgt die Wachstumsgeschwindigkeit 0 Individuen pro Woche.\n\nStellen Sie eine Funktionsgleichung von f auf.\n\n"
         },
         {
           "t": "math",
-          "v": "f(t)="
+          "v": "f(t)=\\underline{\\hspace{6cm}}"
         }
       ],
       "figures": [],
@@ -167,7 +195,7 @@
             },
             {
               "t": "text",
-              "v": ";  "
+              "v": "\n"
             },
             {
               "t": "math",
@@ -191,7 +219,7 @@
     {
       "id": "2024-wt-t2-04-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 4.3",
@@ -202,18 +230,28 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=35",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_136b",
           "baseId": "2_136",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Es wird angenommen, dass die Tierpopulation zu Beginn der Beobachtungen aus 50 Individuen besteht.\n\nInterpretieren Sie"
+          "v": "Die Wachstumsgeschwindigkeit einer anderen Tierpopulation lässt sich durch die Polynomfunktion f mit f(t) = a ∙ t² + b ∙ t + c mit a, b, c ∈ ℝ und a ≠ 0 modellieren. Dabei gibt f(t) die momentane Änderungsrate der Anzahl der Individuen in Abhängigkeit von der Zeit t an (t in Wochen, f(t) in Individuen pro Woche).\n\nDie Wachstumsgeschwindigkeit zum Zeitpunkt t = 0 beträgt 15 Individuen pro Woche und erreicht nach 7 Wochen ihr Maximum. Nach 35 Wochen beträgt die Wachstumsgeschwindigkeit 0 Individuen pro Woche.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Es wird angenommen, dass die Tierpopulation zu Beginn der Beobachtungen aus 50 Individuen besteht.\n\nInterpretieren Sie "
         },
         {
           "t": "math",
@@ -221,25 +259,33 @@
         },
         {
           "t": "text",
-          "v": "im gegebenen Sachzusammenhang."
+          "v": " im gegebenen Sachzusammenhang."
         }
       ],
       "figures": [],
       "answer": {
         "kind": "open",
+        "grader": "ai",
         "rubric": [
           {
             "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
             "v": "Der Ausdruck gibt die Größe der Tierpopulation (Anzahl der Individuen) nach 7 Wochen an."
+          },
+          {
+            "t": "text",
+            "v": "\nb2) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang."
           }
-        ],
-        "grader": "ai"
+        ]
       },
       "scoring": {
         "mode": "rubric",
         "criteria": [
           {
-            "desc": "Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
+            "desc": "b2) Ein Punkt für das richtige Interpretieren im gegebenen Sachzusammenhang.",
             "points": 1
           }
         ]
@@ -260,7 +306,7 @@
     {
       "id": "2024-wt-t2-04-b3",
       "label": "b3",
-      "format": "Halboffenes Antwortformat",
+      "format": "Multiple Choice (1 aus 6)",
       "competencies": [
         {
           "code": "FA 4.3",
@@ -271,15 +317,25 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2, Best-of-Wertung)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=35",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
           "id": "2_136b",
           "baseId": "2_136",
           "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Die Wachstumsgeschwindigkeit einer anderen Tierpopulation lässt sich durch die Polynomfunktion f mit f(t) = a ∙ t² + b ∙ t + c mit a, b, c ∈ ℝ und a ≠ 0 modellieren. Dabei gibt f(t) die momentane Änderungsrate der Anzahl der Individuen in Abhängigkeit von der Zeit t an (t in Wochen, f(t) in Individuen pro Woche).\n\nDie Wachstumsgeschwindigkeit zum Zeitpunkt t = 0 beträgt 15 Individuen pro Woche und erreicht nach 7 Wochen ihr Maximum. Nach 35 Wochen beträgt die Wachstumsgeschwindigkeit 0 Individuen pro Woche.\n\n"
+        },
         {
           "t": "text",
           "v": "Einer der nachstehenden Ausdrücke beschreibt die mittlere Änderungsrate der Größe der Tierpopulation im Zeitintervall [t₁; t₂] mit t₁ < t₂.\n\nKreuzen Sie den jedenfalls zutreffenden Ausdruck an. [1 aus 6]"
@@ -355,18 +411,19 @@
   ],
   "externalRefs": [
     {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 28 (Teil 2, Best-of-Wertung)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=34",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "system": "aufgabenpool",
       "id": "2_136",
       "baseId": "2_136",
       "url": "https://www.aufgabenpool.at/amn/Typ-2/891/2_136_srdp_ma_Wachstum%20von%20Tierpopulationen_PT3_23.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
     }
   ],
-  "prompt": [
-    {
-      "t": "text",
-      "v": "Wachstum von Tierpopulationen"
-    }
-  ]
+  "prompt": []
 }

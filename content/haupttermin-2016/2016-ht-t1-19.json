@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -24,12 +24,101 @@
     {
       "id": "2016-ht-t1-19-a",
       "label": "a",
-      "format": "",
+      "format": "Konstruktionsformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_475",
+          "baseId": "1_475",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/184/Beladung%20von%20Lkw.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-19-histogram.png",
+              "alt": "Histogramm mit Höhen30,25,20 über den Klassen[0,1),[1,3),[3,6)."
+            }
+          ],
+          "note": "Ein Punkt für ein korrekt dargestelltes Diagramm."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie die Daten der obigen Tabelle durch ein Histogramm dar! Dabei sollen die absoluten Häufigkeiten als Flächeninhalte von Rechtecken abgebildet werden."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-19-axes.png",
+          "alt": "Leeres Koordinatensystem für das Histogramm"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-19-histogram.png",
+            "alt": "Histogramm mit Höhen30,25,20 über den Klassen[0,1),[1,3),[3,6)."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrekt dargestelltes Diagramm."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=23",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_475",
+      "baseId": "1_475",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/184/Beladung%20von%20Lkw.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einer Verkehrskontrolle wurde die Beladung von LKW überprüft. 140 der überprüften LKW waren überladen. Details der Kontrolle sind in der nachstehenden Tabelle zusammengefasst."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-19-table.png",
+      "alt": "Überladungsklassen: unter1t,1bisunter3t,3bisunter6t; LKW-Anzahlen30,50,60."
+    }
+  ]
 }

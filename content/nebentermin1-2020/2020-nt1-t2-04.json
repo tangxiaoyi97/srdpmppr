@@ -1,6 +1,6 @@
 {
   "id": "2020-nt1-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -63,52 +63,27 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "d1",
-            "label": "d (1)",
-            "value": 15,
-            "tol": 1e-9,
-            "unit": "s"
+            "t": "math",
+            "v": "\\begin{array}{c|ccc}d&15&30&330\\\\\\hline P(X=d)&0{,}9&0{,}1\\cdot0{,}6=0{,}06&0{,}1\\cdot0{,}4=0{,}04\\end{array}"
           },
           {
-            "id": "d2",
-            "label": "d (2)",
-            "value": 30,
-            "tol": 1e-9,
-            "unit": "s"
-          },
-          {
-            "id": "d3",
-            "label": "d (3)",
-            "value": 330,
-            "tol": 1e-9,
-            "unit": "s"
-          },
-          {
-            "id": "p1",
-            "label": "P(X = 15)",
-            "value": 0.9,
-            "tol": 1e-9
-          },
-          {
-            "id": "p2",
-            "label": "P(X = 30)",
-            "value": 0.06,
-            "tol": 1e-9
-          },
-          {
-            "id": "p3",
-            "label": "P(X = 330)",
-            "value": 0.04,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für die Ergänzung der richtigen Werte in der Tabelle."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für die Ergänzung der richtigen Werte in der Tabelle.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -116,15 +91,7 @@
           "result": [
             {
               "t": "math",
-              "v": "d\\in\\{15,\\ 30,\\ 330\\}"
-            },
-            {
-              "t": "text",
-              "v": ";  "
-            },
-            {
-              "t": "math",
-              "v": "P(X=15)=0{,}9,\\quad P(X=30)=0{,}1\\cdot 0{,}6=0{,}06,\\quad P(X=330)=0{,}1\\cdot 0{,}4=0{,}04"
+              "v": "\\begin{array}{c|ccc}d&15&30&330\\\\\\hline P(X=d)&0{,}9&0{,}1\\cdot0{,}6=0{,}06&0{,}1\\cdot0{,}4=0{,}04\\end{array}"
             }
           ],
           "note": "a1) Ein Punkt für die Ergänzung der richtigen Werte in der Tabelle."
@@ -134,7 +101,7 @@
     {
       "id": "2020-nt1-t2-04-a2",
       "label": "a2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 2.3",
@@ -162,6 +129,10 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die Zufallsvariable X beschreibt die Dauer d (in s) der Sicherheitskontrolle bei einer Person. Wartezeiten, die eventuell auftreten können, werden nicht berücksichtigt.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Ermitteln Sie den Erwartungswert E(X)."
         }
       ],
@@ -173,7 +144,7 @@
             "id": "EX",
             "label": "E(X)",
             "value": 28.5,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "s"
           }
         ]
@@ -231,19 +202,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.31622776601683794,
-            "tol": 0.0005
+            "t": "math",
+            "v": "p^{2}=0{,}1\\ \\Rightarrow\\ p=0{,}31622\\ldots\\approx 0{,}3162"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p\\approx 0{,}3162"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nGrundkompetenz: WS 2.3"
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b1) Ein Ausgleichspunkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.\nGrundkompetenz: WS 2.3",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -289,23 +276,56 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Der Wert p gibt die Wahrscheinlichkeit an, dass eine Person einen unzulässigen Gegenstand mit sich führt. Die Wahrscheinlichkeit, dass von 2 zufällig und unabhängig voneinander ausgewählten Personen beide einen unzulässigen Gegenstand mit sich führen, beträgt 10 %.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Ermitteln Sie die Wahrscheinlichkeit, dass von 10 zufällig und unabhängig voneinander ausgewählten Personen mindestens 5 Personen einen unzulässigen Gegenstand mit sich führen."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "P",
-            "value": 0.179,
-            "tol": 0.001
+            "t": "text",
+            "v": "Y ... Anzahl der Personen, die einen unzulässigen Gegenstand mit sich führen\nY ist binomialverteilt mit "
+          },
+          {
+            "t": "math",
+            "v": "n=10,\\ p=0{,}31622\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(Y\\ge 5)=0{,}1794\\ldots\\approx 0{,}179"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(Y\\ge 5)\\approx 0{,}179"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -382,31 +402,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": -0.007407407407407408,
-            "tol": 0.00001
+            "t": "math",
+            "v": "A(0)=0,\\quad A(45)=15,\\quad A'(45)=0"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 0.6666666666666666,
-            "tol": 0.0001
+            "t": "text",
+            "v": "\n"
           },
           {
-            "id": "c",
-            "label": "c",
-            "value": 0,
-            "tol": 1e-9
+            "t": "math",
+            "v": "a=-\\tfrac{1}{135},\\quad b=\\tfrac{2}{3},\\quad c=0"
+          },
+          {
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die Angabe der drei richtigen Werte."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die Angabe der drei richtigen Werte.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -458,6 +482,18 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Die momentane Änderungsrate der Anzahl der Personen im Stadion kann mithilfe der Funktion A mit "
+        },
+        {
+          "t": "math",
+          "v": "A(t)=a\\cdot t^{2}+b\\cdot t+c\\ \\text{mit}\\ a,b,c\\in\\mathbb{R}\\ \\text{und}\\ 0\\le t\\le 90"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit t beschrieben werden, wobei zum Zeitpunkt t = 0 der Einlass ins Stadion beginnt (t in Minuten, A(t) in Personen pro Minute).\n\nZum Zeitpunkt t = 0 kommt keine Person ins Stadion, 45 min nach Einlassbeginn kommen 15 Personen pro Minute ins Stadion. Zu diesem Zeitpunkt ist die momentane Änderungsrate der Anzahl der ins Stadion kommenden Personen pro Minute am größten.\n\n"
+        },
+        {
+          "t": "text",
           "v": "Geben Sie die Anzahl der Personen an, die insgesamt bis zum Zeitpunkt t = 90 ins Stadion gekommen sind."
         }
       ],
@@ -468,7 +504,7 @@
           {
             "id": "n",
             "value": 900,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "Personen"
           }
         ]

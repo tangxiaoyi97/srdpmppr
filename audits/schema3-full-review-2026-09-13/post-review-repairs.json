@@ -1,0 +1,32 @@
+{
+  "method": "Independent-review and final-validation findings repaired after primary review; before/after SHA256 chains bind original reviews to final content.",
+  "records": [
+    {
+      "questionId": "2024-het-t1-05",
+      "file": "content/herbsttermin-2024/2024-het-t1-05.json",
+      "beforeSha256": "dc85e23d8326989a2ad7a866f41b8ba551c7c7d378379b550c3be3905a0a8cfb",
+      "afterSha256": "1e383c1d2b60b37443ced9e892c60b3bbda6c1179ef5f547918e7cbe823d33c5",
+      "repair": "Independent review found missing original two-component blank-vector template; restored from official AU page7.",
+      "reviewer": "convert_2016",
+      "fixedBy": "root"
+    },
+    {
+      "questionId": "2022-wt-t2-03",
+      "file": "content/wintertermin-2022/2022-wt-t2-03.json",
+      "beforeSha256": "2a643f24f373def9490ffae573da6069ae6132045d44a47bb9b59c6f2c81a5ac",
+      "afterSha256": "964a7d8c15e89b75ebc0e78ea5d801753f233a183e1fbbd80c6d1304da016da2",
+      "repair": "Independent review found missing original n/m answer lines; restored from official AU page30.",
+      "reviewer": "convert_2016",
+      "fixedBy": "root"
+    },
+    {
+      "questionId": "2021-nt2-t2-04",
+      "file": "content/nebentermin2-2021/2021-nt2-t2-04.json",
+      "beforeSha256": "284bca60fe4fdf2547e8a0df93ed50ab08bd533fc9e30b6c1074173a5034a1d7",
+      "afterSha256": "744b6d3b2a8a60bd29c106d7b9fd80c683db0f52475fdd2f7c158693ffd556b4",
+      "repair": "Preserved original euro glyph as adjacent rich-text currency unit instead of unsupported strict KaTeX text{€}; three nodes corrected, mathematical values unchanged.",
+      "reviewer": "root-final-validation",
+      "fixedBy": "root"
+    }
+  ]
+}

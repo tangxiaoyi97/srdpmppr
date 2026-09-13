@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -24,12 +24,109 @@
     {
       "id": "2017-nt2-t1-24-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=28",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n\\approx400"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [385; 415]"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Schätzen Sie anhand der obigen Abbildung den Stichprobenumfang "
+        },
+        {
+          "t": "math",
+          "v": "n"
+        },
+        {
+          "t": "text",
+          "v": " dieser Untersuchung!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "n\\approx"
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "n",
+            "label": "n",
+            "value": 400,
+            "tol": 15
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=28",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In Europa beträgt die Wahrscheinlichkeit, mit Blutgruppe B geboren zu werden, ca. 0,14. Für eine Untersuchung wurden "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " in Europa geborene Personen zufällig ausgewählt. Die Zufallsvariable "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Anzahl der Personen mit Blutgruppe B. Die Verteilung von "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " kann durch eine Normalverteilung approximiert werden, deren Dichtefunktion in der nachstehenden Abbildung dargestellt ist."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-24-q.png",
+      "alt": "Approximierende Normalverteilung von X mit Maximum bei 56."
+    }
+  ]
 }

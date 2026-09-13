@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,96 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_402a",
+          "id": "1_402",
           "baseId": "1_402",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/110/Nettojahreseinkommen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "14\\,062\\cdot0{,}4+24\\,141\\cdot0{,}47+22\\,853\\cdot0{,}08+35\\,708\\cdot0{,}05=20\\,584{,}71"
+            },
+            {
+              "t": "text",
+              "v": ". Das durchschnittliche Nettojahreseinkommen beträgt € 20.584,71."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit Euro nicht angeführt werden muss. Toleranzintervall: [20 580; 20 590] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie das durchschnittliche Nettojahreseinkommen (arithmetisches Mittel) aller in Österreich unselbstständig Erwerbstätigen (ohne Lehrlinge)!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "14\\,062\\cdot0{,}4+24\\,141\\cdot0{,}47+22\\,853\\cdot0{,}08+35\\,708\\cdot0{,}05=20\\,584{,}71"
+          },
+          {
+            "t": "text",
+            "v": ". Das durchschnittliche Nettojahreseinkommen beträgt € 20.584,71. Toleranzintervall: [20 580; 20 590]. Bei korrektem Ansatz ist auch ein falsches Ergebnis aufgrund eines Rechenfehlers richtig zu werten."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit Euro nicht angeführt werden muss. Toleranzintervall: [20 580; 20 590] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_402",
       "baseId": "1_402",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/110/Nettojahreseinkommen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Jahre 2012 gab es in Österreich unter den etwas mehr als 4 Millionen unselbstständig Erwerbstätigen (ohne Lehrlinge) 40 % Arbeiterinnen und Arbeiter, 47 % Angestellte, 8 % Vertragsbedienstete und 5 % Beamtinnen und Beamte (Prozentzahlen gerundet).\n\nDie folgende Tabelle zeigt deren durchschnittliches Nettojahreseinkommen (arithmetisches Mittel)."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-20-income-table.png",
+      "alt": "Originaltabelle der durchschnittlichen Nettojahreseinkommen 2012."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: Statistik Austria (Hrsg.) (2014). Statistisches Jahrbuch Österreichs 2015. Wien: Verlag Österreich. S. 246."
     }
   ]
 }

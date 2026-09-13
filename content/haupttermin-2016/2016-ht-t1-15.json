@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,236 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=19",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_479a",
+          "id": "1_479",
           "baseId": "1_479",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/188/Funktionen%20und%20Ableitungsfunktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f_1"
+            },
+            {
+              "t": "text",
+              "v": ": E; "
+            },
+            {
+              "t": "math",
+              "v": "f_2"
+            },
+            {
+              "t": "text",
+              "v": ": A; "
+            },
+            {
+              "t": "math",
+              "v": "f_3"
+            },
+            {
+              "t": "text",
+              "v": ": F; "
+            },
+            {
+              "t": "math",
+              "v": "f_4"
+            },
+            {
+              "t": "text",
+              "v": ": D."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Graphen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den Polynomfunktionen "
+        },
+        {
+          "t": "math",
+          "v": "f_1"
+        },
+        {
+          "t": "text",
+          "v": " bis "
+        },
+        {
+          "t": "math",
+          "v": "f_4"
+        },
+        {
+          "t": "text",
+          "v": " ihre jeweilige Ableitungsfunktion aus den Funktionen "
+        },
+        {
+          "t": "math",
+          "v": "g_1"
+        },
+        {
+          "t": "text",
+          "v": " bis "
+        },
+        {
+          "t": "math",
+          "v": "g_6"
+        },
+        {
+          "t": "text",
+          "v": " (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-f1.png",
+              "alt": "Originalgraph f1"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-f2.png",
+              "alt": "Originalgraph f2"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-f3.png",
+              "alt": "Originalgraph f3"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-f4.png",
+              "alt": "Originalgraph f4"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g1.png",
+              "alt": "Originalgraph g1"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g2.png",
+              "alt": "Originalgraph g2"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g3.png",
+              "alt": "Originalgraph g3"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g4.png",
+              "alt": "Originalgraph g4"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g5.png",
+              "alt": "Originalgraph g5"
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-15-g6.png",
+              "alt": "Originalgraph g6"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=19",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_479",
       "baseId": "1_479",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/188/Funktionen%20und%20Ableitungsfunktionen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Links sind die Graphen von vier Polynomfunktionen ("
+    },
+    {
+      "t": "math",
+      "v": "f_1,f_2,f_3,f_4"
+    },
+    {
+      "t": "text",
+      "v": ") abgebildet, rechts die Graphen sechs weiterer Funktionen ("
+    },
+    {
+      "t": "math",
+      "v": "g_1,g_2,g_3,g_4,g_5,g_6"
+    },
+    {
+      "t": "text",
+      "v": ")."
     }
   ]
 }

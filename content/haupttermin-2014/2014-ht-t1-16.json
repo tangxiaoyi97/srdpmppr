@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,246 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=20",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_334a",
+          "id": "1_334",
           "baseId": "1_334",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/46/Eigenschaften%20einer%20Funktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Tangente an den Graphen der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " im Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(0|f(0))"
+            },
+            {
+              "t": "text",
+              "v": " hat die Steigung 2.\n\nDie Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_2=2"
+            },
+            {
+              "t": "text",
+              "v": " ist eine lokale Maximumstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_1=0"
+            },
+            {
+              "t": "text",
+              "v": " ist eine Wendestelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[0;1]"
+            },
+            {
+              "t": "text",
+              "v": " ist "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " streng monoton fallend."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Tangente an den Graphen der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " im Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(0|f(0))"
+            },
+            {
+              "t": "text",
+              "v": " hat die Steigung 2."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Stelle "
+            },
+            {
+              "t": "math",
+              "v": "x_2=2"
+            },
+            {
+              "t": "text",
+              "v": " ist eine lokale Maximumstelle von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " weist im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[2;3]"
+            },
+            {
+              "t": "text",
+              "v": " eine Linkskrümmung (positive Krümmung) auf."
+            }
+          ]
+        ],
+        "correct": [
+          2,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=20",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_334",
       "baseId": "1_334",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/46/Eigenschaften%20einer%20Funktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Von einer reellen Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " sind der Graph und die Funktionsgleichung der Ableitungsfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f'"
+    },
+    {
+      "t": "text",
+      "v": " gegeben: "
+    },
+    {
+      "t": "math",
+      "v": "f'(x)=-x+2"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-16-derivative.png",
+      "alt": "Originalgraph der Ableitungsfunktion f′."
     }
   ]
 }

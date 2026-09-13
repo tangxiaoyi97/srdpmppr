@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -26,7 +26,22 @@
       "label": "a",
       "format": "2 aus 5",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4892&token=3d2865a48b75cf29597eeeeef1033c9650ed3a63#page=3",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_830",
+          "baseId": "1_830",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/623/RationaleZahlen.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -90,7 +105,7 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Nachstehend sind Aussagen über rationale Zahlen gegeben.\n\nKreuzen Sie die beiden zutreffenden Aussagen an."
+          "v": "Nachstehend sind Aussagen über rationale Zahlen gegeben.\n\nKreuzen Sie die beiden zutreffenden Aussagen an. [2 aus 5]"
         }
       ],
       "answer": {
@@ -268,5 +283,20 @@
       "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4892&token=3d2865a48b75cf29597eeeeef1033c9650ed3a63#page=3",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_830",
+      "baseId": "1_830",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/623/RationaleZahlen.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
 }

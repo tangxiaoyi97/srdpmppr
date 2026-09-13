@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,235 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=6",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_492a",
+          "id": "1_492",
           "baseId": "1_492",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/201/Aequivalenzumformung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Erklärungen: Die Gleichung "
+            },
+            {
+              "t": "math",
+              "v": "x^2 - 5x = 0"
+            },
+            {
+              "t": "text",
+              "v": " hat die Lösungen "
+            },
+            {
+              "t": "math",
+              "v": "x_1 = 5"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "x_2 = 0"
+            },
+            {
+              "t": "text",
+              "v": " (die Lösungsmenge "
+            },
+            {
+              "t": "math",
+              "v": "L = \\{0;5\\}"
+            },
+            {
+              "t": "text",
+              "v": "). Die Gleichung "
+            },
+            {
+              "t": "math",
+              "v": "x - 5 = 0"
+            },
+            {
+              "t": "text",
+              "v": " hat aber nur mehr die Lösung "
+            },
+            {
+              "t": "math",
+              "v": "x = 5"
+            },
+            {
+              "t": "text",
+              "v": " (die Lösungsmenge "
+            },
+            {
+              "t": "math",
+              "v": "L = \\{5\\}"
+            },
+            {
+              "t": "text",
+              "v": "). Durch die durchgeführte Umformung wurde die Lösungsmenge verändert, daher ist dies keine Äquivalenzumformung.\n\noder: Bei der Division durch "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " würde im Fall "
+            },
+            {
+              "t": "math",
+              "v": "x = 0"
+            },
+            {
+              "t": "text",
+              "v": " durch null dividiert werden, was keine zulässige Rechenoperation ist."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Erklärung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erklären Sie konkret auf das unten angegebene Beispiel bezogen, warum es sich bei der durchgeführten Umformung um keine Äquivalenzumformung handelt! Die Grundmenge ist die Menge der reellen Zahlen.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\begin{aligned} x^2 - 5x &= 0 &&|:x\\\\ x-5&=0\\end{aligned}"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Erklärungen: Die Gleichung "
+          },
+          {
+            "t": "math",
+            "v": "x^2 - 5x = 0"
+          },
+          {
+            "t": "text",
+            "v": " hat die Lösungen "
+          },
+          {
+            "t": "math",
+            "v": "x_1 = 5"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "x_2 = 0"
+          },
+          {
+            "t": "text",
+            "v": " (die Lösungsmenge "
+          },
+          {
+            "t": "math",
+            "v": "L = \\{0;5\\}"
+          },
+          {
+            "t": "text",
+            "v": "). Die Gleichung "
+          },
+          {
+            "t": "math",
+            "v": "x - 5 = 0"
+          },
+          {
+            "t": "text",
+            "v": " hat aber nur mehr die Lösung "
+          },
+          {
+            "t": "math",
+            "v": "x = 5"
+          },
+          {
+            "t": "text",
+            "v": " (die Lösungsmenge "
+          },
+          {
+            "t": "math",
+            "v": "L = \\{5\\}"
+          },
+          {
+            "t": "text",
+            "v": "). Durch die durchgeführte Umformung wurde die Lösungsmenge verändert, daher ist dies keine Äquivalenzumformung.\n\noder: Bei der Division durch "
+          },
+          {
+            "t": "math",
+            "v": "x"
+          },
+          {
+            "t": "text",
+            "v": " würde im Fall "
+          },
+          {
+            "t": "math",
+            "v": "x = 0"
+          },
+          {
+            "t": "text",
+            "v": " durch null dividiert werden, was keine zulässige Rechenoperation ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Erklärung."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=6",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_492",
       "baseId": "1_492",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/201/Aequivalenzumformung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Nicht jede Umformung einer Gleichung ist eine Äquivalenzumformung."
     }
   ]
 }

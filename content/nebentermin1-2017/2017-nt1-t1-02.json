@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -24,12 +24,115 @@
     {
       "id": "2017-nt1-t1-02-a",
       "label": "a",
-      "format": "",
+      "format": "Lückentext",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① keine reelle Lösung; ② "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{p^2}4+3<0"
+            },
+            {
+              "t": "text",
+              "v": "\n\n* Anmerkung zum Lösungsschlüssel: Die konkrete Form der Diskriminante lässt einen negativen Wert nicht auftreten. Formal-logisch folgt daraus, dass alle drei Satzteile aus der ersten Tabelle mit dem mittleren Satzteil der zweiten Tabelle vereinbar sind. Diese drei Kombinationen sind daher als korrekt zu werten."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist.* Anmerkung zum Lösungsschlüssel: Die konkrete Form der Diskriminante lässt einen negativen Wert nicht auftreten. Formal-logisch folgt daraus, dass alle drei Satzteile aus der ersten Tabelle mit dem mittleren Satzteil der zweiten Tabelle vereinbar sind. Diese drei Kombinationen sind daher als korrekt zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nDiese Gleichung hat ①, wenn ② gilt.\n\n①\n□ unendlich viele reelle Lösungen\n□ genau eine reelle Lösung\n□ keine reelle Lösung\n\n②\n□ "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{p^2}4+3>0"
+        },
+        {
+          "t": "text",
+          "v": "\n□ "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{p^2}4+3<0"
+        },
+        {
+          "t": "text",
+          "v": "\n□ "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{p^2}4+3>1"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für ② muss ausschließlich "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{p^2}4+3<0"
+          },
+          {
+            "t": "text",
+            "v": " gewählt sein. Für ① ist jeder der drei Satzteile einzeln zulässig: unendlich viele reelle Lösungen; genau eine reelle Lösung; keine reelle Lösung. Alle drei Kombinationen sind gemäß offizieller Anmerkung korrekt. Anmerkung zum Lösungsschlüssel: Die konkrete Form der Diskriminante lässt einen negativen Wert nicht auftreten. Formal-logisch folgt daraus, dass alle drei Satzteile aus der ersten Tabelle mit dem mittleren Satzteil der zweiten Tabelle vereinbar sind. Diese drei Kombinationen sind daher als korrekt zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "x^2+p\\cdot x-3=0"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -22,14 +22,1265 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt2-t2-02-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie ein exponentielles Wachstumsgesetz der Form "
+        },
+        {
+          "t": "math",
+          "v": "K(t)=K_0\\cdot a^t"
+        },
+        {
+          "t": "text",
+          "v": " auf, das die "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in der Atmosphäre wiedergibt! Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die seit 1950 vergangene Zeit in Jahren an; "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " wird in ppm und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Jahren gemessen. Lesen Sie zur Bestimmung der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "K_0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " die auf Zehner gerundeten Konzentrationen der Jahre 1950 und 1980 (Endpunkt der Aufzeichnungen) aus der entsprechenden Grafik ab!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "K(t)=310\\cdot\\left(\\sqrt[30]{\\frac{350}{310}}\\right)^t"
+          },
+          {
+            "t": "text",
+            "v": "\noder:\n"
+          },
+          {
+            "t": "math",
+            "v": "K(t)=310\\cdot1{,}004^t"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für das korrekte Aufstellen von K(t). Toleranzintervall für a: [1,004; 1,0041]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(t)=310\\cdot\\left(\\sqrt[30]{\\frac{350}{310}}\\right)^t"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "K(t)=310\\cdot1{,}004^t"
+            }
+          ],
+          "note": "Ein Punkt für das korrekte Aufstellen von K(t). Toleranzintervall für a: [1,004; 1,0041]."
+        }
+      ],
+      "id": "2015-nt2-t2-02-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Multiple-Choice-Format",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie ein exponentielles Wachstumsgesetz der Form "
+        },
+        {
+          "t": "math",
+          "v": "K(t)=K_0\\cdot a^t"
+        },
+        {
+          "t": "text",
+          "v": " auf, das die "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in der Atmosphäre wiedergibt! Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die seit 1950 vergangene Zeit in Jahren an; "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " wird in ppm und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Jahren gemessen. Lesen Sie zur Bestimmung der Parameter "
+        },
+        {
+          "t": "math",
+          "v": "K_0"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " die auf Zehner gerundeten Konzentrationen der Jahre 1950 und 1980 (Endpunkt der Aufzeichnungen) aus der entsprechenden Grafik ab!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die "
+            },
+            {
+              "t": "math",
+              "v": "\\mathrm{CO_2}"
+            },
+            {
+              "t": "text",
+              "v": "-Konzentration steigt im beobachteten Zeitraum um ca. 0,4 % pro Jahr."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die "
+            },
+            {
+              "t": "math",
+              "v": "\\mathrm{CO_2}"
+            },
+            {
+              "t": "text",
+              "v": "-Konzentration steigt im beobachteten Zeitraum um ca. 4 ppm pro Jahr."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wäre der Wert von "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": " (bei gleichbleibendem Wert von "
+            },
+            {
+              "t": "math",
+              "v": "K_0"
+            },
+            {
+              "t": "text",
+              "v": ") doppelt so groß, so wäre auch der jährliche prozentuelle Zuwachs doppelt so groß."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Für das Jahr 2010 werden nach diesem Wachstumsgesetz ca. 395 ppm prognostiziert."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Wäre der Wert von "
+            },
+            {
+              "t": "math",
+              "v": "K_0"
+            },
+            {
+              "t": "text",
+              "v": " (bei gleichbleibendem Wert von "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": ") doppelt so groß, so wäre auch die Verdopplungszeit doppelt so groß."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen 1 und 4 sind richtig."
+            }
+          ],
+          "note": "Multiple-Choice-Aufgabe: Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "id": "2015-nt2-t2-02-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Von 1800 bis 1900 ist der "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Gehalt der Atmosphäre annähernd linear gewachsen. Stellen Sie einen funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " zwischen der "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in ppm) und der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in Jahren) auf! Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die seit 1800 vergangene Zeit in Jahren an. Lesen Sie die auf Zehner gerundeten notwendigen Daten aus der Grafik ab!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.2*t+280",
+        "vars": [
+          "t"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(t)=0{,}2\\cdot t+280"
+            }
+          ],
+          "note": "Ein Punkt für das korrekte Aufstellen von K(t).",
+          "steps": [
+            {
+              "t": "text",
+              "v": "1800: 280 ppm; 1900: 300 ppm.\n"
+            },
+            {
+              "t": "math",
+              "v": "K(t)=k\\cdot t+d"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "300=k\\cdot100+280\\;\\Rightarrow\\;k=0{,}2"
+            }
+          ]
+        }
+      ],
+      "id": "2015-nt2-t2-02-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe b1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Von 1800 bis 1900 ist der "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Gehalt der Atmosphäre annähernd linear gewachsen. Stellen Sie einen funktionalen Zusammenhang "
+        },
+        {
+          "t": "math",
+          "v": "K(t)"
+        },
+        {
+          "t": "text",
+          "v": " zwischen der "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Konzentration "
+        },
+        {
+          "t": "math",
+          "v": "K"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in ppm) und der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " (gemessen in Jahren) auf! Dabei gibt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " die seit 1800 vergangene Zeit in Jahren an. Lesen Sie die auf Zehner gerundeten notwendigen Daten aus der Grafik ab!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Weisen Sie nach, dass der im Jahr 2010 tatsächlich gemessene "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Wert von 390 ppm nicht das Ergebnis einer linearen Zunahme der historischen "
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{CO_2}"
+        },
+        {
+          "t": "text",
+          "v": "-Werte sein kann!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "K(210)=322\\ \\mathrm{ppm}\\ne390\\ \\mathrm{ppm}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Nachweis."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "K(210)=322\\ \\mathrm{ppm}\\ne390\\ \\mathrm{ppm}"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Nachweis."
+        }
+      ],
+      "id": "2015-nt2-t2-02-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Sauerstoffgehalt der Atmosphäre ist in den letzten 1 000 Mio. Jahren massiven Schwankungen unterworfen gewesen. Von 300 Mio. Jahren vor unserer Zeit bis 250 Mio. Jahren vor unserer Zeit hat der Sauerstoffgehalt annähernd linear abgenommen (siehe Abb. 2).\n\nⒶ Berechnen Sie den Ausdruck "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{35-15}{300-250}"
+        },
+        {
+          "t": "text",
+          "v": " und deuten Sie das Ergebnis in diesem Zusammenhang!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Der Ausdruck besagt, dass im angegebenen Zeitraum der Sauerstoffgehalt um 0,4 Prozentpunkte pro 1 Million Jahre abnimmt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung und eine (sinngemäß) korrekte Deutung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Ausdruck besagt, dass im angegebenen Zeitraum der Sauerstoffgehalt um 0,4 Prozentpunkte pro 1 Million Jahre abnimmt."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung und eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "id": "2015-nt2-t2-02-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Multiple-Choice-Format",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Sauerstoffgehalt der Atmosphäre ist in den letzten 1 000 Mio. Jahren massiven Schwankungen unterworfen gewesen. Von 300 Mio. Jahren vor unserer Zeit bis 250 Mio. Jahren vor unserer Zeit hat der Sauerstoffgehalt annähernd linear abgenommen (siehe Abb. 2).\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die zutreffende(n) Aussage(n) an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "In den letzten 1 000 Mio. Jahren war der Sauerstoffgehalt der Atmosphäre meistens niedriger als heute."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Vor 250 Mio. Jahren war der Sauerstoffgehalt am absolut geringsten."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In den letzten 600 Mio. Jahren ist der Sauerstoffgehalt der Atmosphäre nie unter 5 Volumsprozent gefallen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Vor 200 Mio. Jahren war der Sauerstoffgehalt der Atmosphäre etwa so groß wie heute."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Vor 900 Mio. Jahren lag der Sauerstoffgehalt der Atmosphäre um 15 Volumsprozent niedriger als heute."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Aussagen 1, 3 und 4 sind richtig."
+            }
+          ],
+          "note": "Multiple-Choice-Aufgabe: Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "id": "2015-nt2-t2-02-c2"
+    },
+    {
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktionsgleichung "
+        },
+        {
+          "t": "math",
+          "v": "y(t)=0{,}000128\\cdot t^3+0{,}01344\\cdot t^2+0{,}2304\\cdot t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die absoluten Schwankungen des Sauerstoffgehalts bezogen auf den heutigen Wert "
+        },
+        {
+          "t": "math",
+          "v": "y(0)=0"
+        },
+        {
+          "t": "text",
+          "v": " in der Atmosphäre in den letzten 100 Mio. Jahren. Dabei wird "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Mio. Jahren und "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " in Volumsprozent angegeben. Berechnen Sie, wann in diesem Zeitraum ein lokales Maximum des Sauerstoffgehaltes aufgetreten ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "y'(t)=0{,}000384t^2+0{,}02688t+0{,}2304"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "y'(t)=0\\;\\Rightarrow\\;t_1=-60,\\ t_2=-10"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Vor 60 Millionen Jahren ist ein lokales Maximum des Sauerstoffgehaltes aufgetreten."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Berechnung der Jahreszahl (es genügt, als Lösung –60 Mio. Jahre anzugeben)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Vor 60 Millionen Jahren ist ein lokales Maximum des Sauerstoffgehaltes aufgetreten."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Berechnung der Jahreszahl (es genügt, als Lösung –60 Mio. Jahre anzugeben).",
+          "steps": [
+            {
+              "t": "math",
+              "v": "y'(t)=0{,}000384t^2+0{,}02688t+0{,}2304"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "y'(t)=0\\;\\Rightarrow\\;t_1=-60,\\ t_2=-10"
+            }
+          ]
+        }
+      ],
+      "id": "2015-nt2-t2-02-d1"
+    },
+    {
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe d1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Funktionsgleichung "
+        },
+        {
+          "t": "math",
+          "v": "y(t)=0{,}000128\\cdot t^3+0{,}01344\\cdot t^2+0{,}2304\\cdot t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die absoluten Schwankungen des Sauerstoffgehalts bezogen auf den heutigen Wert "
+        },
+        {
+          "t": "math",
+          "v": "y(0)=0"
+        },
+        {
+          "t": "text",
+          "v": " in der Atmosphäre in den letzten 100 Mio. Jahren. Dabei wird "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " in Mio. Jahren und "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " in Volumsprozent angegeben. Berechnen Sie, wann in diesem Zeitraum ein lokales Maximum des Sauerstoffgehaltes aufgetreten ist!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Weisen Sie nach, dass es sich wirklich um ein lokales Maximum handelt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Alternative Möglichkeiten des Maximumnachweises:\n\nEs wird nachgewiesen, dass die Ableitungsfunktion "
+          },
+          {
+            "t": "math",
+            "v": "y'(x)"
+          },
+          {
+            "t": "text",
+            "v": " links vom lokalen Maximum positiv ist und dass sie rechts vom lokalen Maximum negativ ist.\n\noder:\nEs wird nachgewiesen, dass gilt: "
+          },
+          {
+            "t": "math",
+            "v": "y(-60-a)<y(-60)"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "y(-60+a)<y(-60)"
+          },
+          {
+            "t": "text",
+            "v": " für eine reelle Zahl "
+          },
+          {
+            "t": "math",
+            "v": "a"
+          },
+          {
+            "t": "text",
+            "v": ".\n\noder:\nEs wird argumentiert, dass bei einer Polynomfunktion dritten Grades mit positiven Koeffizienten die kleinere Nullstelle der ersten Ableitung eine lokale Maximumstelle ist.\n\noder:\nWeil "
+          },
+          {
+            "t": "math",
+            "v": "y(-60)>y(-10)"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "y"
+          },
+          {
+            "t": "text",
+            "v": " ein Polynom 3. Grades ist, muss das lokale Maximum bei "
+          },
+          {
+            "t": "math",
+            "v": "t=-60"
+          },
+          {
+            "t": "text",
+            "v": " liegen.\n\noder:\nEs gilt: "
+          },
+          {
+            "t": "math",
+            "v": "\\lim_{t\\to-\\infty}y(t)=-\\infty"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "\\lim_{t\\to\\infty}y(t)=\\infty"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "y(-60)\\approx6{,}91"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "y(-10)\\approx-1{,}09"
+          },
+          {
+            "t": "text",
+            "v": ". Deshalb ist bei "
+          },
+          {
+            "t": "math",
+            "v": "t=-60"
+          },
+          {
+            "t": "text",
+            "v": " ein lokales Maximum des Sauerstoffgehaltes."
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "y''(t)=0{,}000768t+0{,}02688"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "y''(-10)>0\\;\\Rightarrow\\;\\text{Minimum}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "y''(-60)<0\\;\\Rightarrow\\;\\text{Maximum bei }-60\\text{ Mio. Jahren}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen (sinngemäß) korrekten Nachweis."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "y''(t)=0{,}000768t+0{,}02688"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "y''(-10)>0\\;\\Rightarrow\\;\\text{Minimum}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "y''(-60)<0\\;\\Rightarrow\\;\\text{Maximum bei }-60\\text{ Mio. Jahren}"
+            }
+          ],
+          "note": "Ein Punkt für einen (sinngemäß) korrekten Nachweis.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Alternative Möglichkeiten des Maximumnachweises:\n\nEs wird nachgewiesen, dass die Ableitungsfunktion "
+            },
+            {
+              "t": "math",
+              "v": "y'(x)"
+            },
+            {
+              "t": "text",
+              "v": " links vom lokalen Maximum positiv ist und dass sie rechts vom lokalen Maximum negativ ist.\n\noder:\nEs wird nachgewiesen, dass gilt: "
+            },
+            {
+              "t": "math",
+              "v": "y(-60-a)<y(-60)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "y(-60+a)<y(-60)"
+            },
+            {
+              "t": "text",
+              "v": " für eine reelle Zahl "
+            },
+            {
+              "t": "math",
+              "v": "a"
+            },
+            {
+              "t": "text",
+              "v": ".\n\noder:\nEs wird argumentiert, dass bei einer Polynomfunktion dritten Grades mit positiven Koeffizienten die kleinere Nullstelle der ersten Ableitung eine lokale Maximumstelle ist.\n\noder:\nWeil "
+            },
+            {
+              "t": "math",
+              "v": "y(-60)>y(-10)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "y"
+            },
+            {
+              "t": "text",
+              "v": " ein Polynom 3. Grades ist, muss das lokale Maximum bei "
+            },
+            {
+              "t": "math",
+              "v": "t=-60"
+            },
+            {
+              "t": "text",
+              "v": " liegen.\n\noder:\nEs gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\lim_{t\\to-\\infty}y(t)=-\\infty"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "\\lim_{t\\to\\infty}y(t)=\\infty"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "y(-60)\\approx6{,}91"
+            },
+            {
+              "t": "text",
+              "v": "; "
+            },
+            {
+              "t": "math",
+              "v": "y(-10)\\approx-1{,}09"
+            },
+            {
+              "t": "text",
+              "v": ". Deshalb ist bei "
+            },
+            {
+              "t": "math",
+              "v": "t=-60"
+            },
+            {
+              "t": "text",
+              "v": " ein lokales Maximum des Sauerstoffgehaltes."
+            }
+          ]
+        }
+      ],
+      "id": "2015-nt2-t2-02-d2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=885&token=94e998cc8e72cf6e1ed5ae031698cc8536a5f987#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Atmosphäre besteht zu ca. 78 % aus Stickstoff und zu ca. 21 % aus Sauerstoff. Kohlendioxid ("
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{CO_2}"
+    },
+    {
+      "t": "text",
+      "v": ") ist nur in Spuren vorhanden. Dennoch ist "
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{CO_2}"
+    },
+    {
+      "t": "text",
+      "v": " zusammen mit Wasserdampf der Hauptverursacher des natürlichen Treibhauseffektes. Seit 250 Jahren ist der "
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{CO_2}"
+    },
+    {
+      "t": "text",
+      "v": "-Gehalt der Atmosphäre massiv gestiegen (siehe Abb. 1). Man vermutet, dass dadurch der Treibhauseffekt verstärkt wird."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t2-02-co2.png",
+      "alt": "Kohlendioxidkonzentration in ppm von 1760 bis 1980."
+    },
+    {
+      "t": "text",
+      "v": "Abb. 1: Aufzeichnungen der mittleren "
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{CO_2}"
+    },
+    {
+      "t": "text",
+      "v": "-Konzentration in der Atmosphäre von 1760 bis 1980"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t2-02-oxygen.png",
+      "alt": "Sauerstoffanteil der Erdatmosphäre in Volumsprozent im Verlauf der letzten 1000 Millionen Jahre."
+    },
+    {
+      "t": "text",
+      "v": "Abb. 2: Darstellung des Sauerstoffgehaltes in der Atmosphäre im Verlauf der letzten Milliarden Jahre"
+    }
+  ]
 }

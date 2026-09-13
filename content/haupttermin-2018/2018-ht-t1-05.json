@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,159 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_618a",
+          "id": "1_618",
           "baseId": "1_618",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/339/Rechter%20Winkel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "möglicher Vektor: "
+            },
+            {
+              "t": "math",
+              "v": "\\vec n=\\begin{pmatrix}3\\\\-5\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Lösung. Jeder von null verschiedene Vektor n mit n · (5, 3) = 0 ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen möglichen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec n\\in\\mathbb{R}^2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "\\vec n\\ne\\begin{pmatrix}0\\\\0\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " an, der mit der Strecke "
+        },
+        {
+          "t": "math",
+          "v": "AB"
+        },
+        {
+          "t": "text",
+          "v": " einen rechten Winkel einschließt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für eine richtige Lösung. Jeder Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n\\in\\mathbb{R}^2"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n\\ne\\begin{pmatrix}0\\\\0\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": ", für den "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n\\cdot\\begin{pmatrix}5\\\\3\\end{pmatrix}=0"
+          },
+          {
+            "t": "text",
+            "v": " gilt, ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_618",
       "baseId": "1_618",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/339/Rechter%20Winkel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Strecke "
+    },
+    {
+      "t": "math",
+      "v": "AB"
+    },
+    {
+      "t": "text",
+      "v": " im "
+    },
+    {
+      "t": "math",
+      "v": "\\mathbb{R}^2"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "A=(3|4)"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "B=(-2|1)"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

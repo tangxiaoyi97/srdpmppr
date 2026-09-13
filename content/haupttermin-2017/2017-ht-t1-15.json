@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -24,12 +24,143 @@
     {
       "id": "2017-ht-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=19",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a=2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "b=1"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Werte von a und b."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die Werte der (reellen) Parameter "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "b"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass damit das in der Tabelle angegebene zeitliche Verhalten beschrieben wird!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "a="
+        },
+        {
+          "t": "text",
+          "v": " __________\n\n"
+        },
+        {
+          "t": "math",
+          "v": "b="
+        },
+        {
+          "t": "text",
+          "v": " __________"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "a",
+            "label": "a",
+            "value": 2,
+            "tol": 1e-09
+          },
+          {
+            "id": "b",
+            "label": "b",
+            "value": 1,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=19",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Tabelle enthält Werte einer Größe zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "n\\in\\mathbb N"
+    },
+    {
+      "t": "text",
+      "v": ")."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2017/fig/2017-ht-t1-15-table.png",
+      "alt": "Tabelle: n = 0, 1, 2, 3; x_n = 10, 21, 43, 87."
+    },
+    {
+      "t": "text",
+      "v": "Die zeitliche Entwicklung dieser Größe kann durch eine Differenzengleichung der Form "
+    },
+    {
+      "t": "math",
+      "v": "x_{n+1}=a\\cdot x_n+b"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben werden."
+    }
+  ]
 }

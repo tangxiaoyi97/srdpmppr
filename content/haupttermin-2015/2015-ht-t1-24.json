@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,87 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_398a",
+          "id": "1_398",
           "baseId": "1_398",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/106/Tennisspiel.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Dieser Wert gibt die Wahrscheinlichkeit an, mit der Helmut 3 von 5 Sätzen im Training gewinnt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Es wird folgender Wert berechnet:\n"
+        },
+        {
+          "t": "math",
+          "v": "\\binom53\\cdot0{,}4^3\\cdot0{,}6^2=0{,}2304"
+        },
+        {
+          "t": "text",
+          "v": "\nGeben Sie an, was dieser Wert im Zusammenhang mit der Angabe aussagt!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Dieser Wert gibt die Wahrscheinlichkeit an, mit der Helmut 3 von 5 Sätzen im Training gewinnt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=28",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_398",
       "baseId": "1_398",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/106/Tennisspiel.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Stefan und Helmut spielen im Training 5 Sätze Tennis. Stefan hat eine konstante Gewinnwahrscheinlichkeit von 60 % für jeden gespielten Satz."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,81 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_474a",
+          "id": "1_474",
           "baseId": "1_474",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/183/Eishockeytore.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Median der Datenliste ist 6."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie den Median der Datenliste, die dem Säulendiagramm zugrunde liegt!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Median",
+            "value": 6,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_474",
       "baseId": "1_474",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/183/Eishockeytore.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der österreichischen Eishockeyliga werden die Ergebnisse aller Spiele statistisch ausgewertet. In der Saison 2012/13 wurde über einen bestimmten Zeitraum erfasst, in wie vielen Spielen jeweils eine bestimmte Anzahl an Toren erzielt wurde. Das nachstehende Säulendiagramm stellt das Ergebnis dieser Auswertung dar."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-20-bar-chart.png",
+      "alt": "Säulendiagramm:3Tore2Spiele,4Tore2Spiele,5Tore6Spiele,6Tore3Spiele,7Tore8Spiele,9Tore2Spiele."
     }
   ]
 }

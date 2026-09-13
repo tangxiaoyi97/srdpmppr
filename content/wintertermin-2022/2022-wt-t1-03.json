@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t1-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_880a",
+          "id": "1_880",
           "baseId": "1_880",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/707/Parameter_quadratischen_Gleichung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -84,22 +84,55 @@
         {
           "t": "text",
           "v": " von k, für die die gegebene Gleichung genau eine Lösung hat."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "k_1="
+        },
+        {
+          "t": "text",
+          "v": " ______\n"
+        },
+        {
+          "t": "math",
+          "v": "k_2="
+        },
+        {
+          "t": "text",
+          "v": " ______"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "k1",
-            "label": "k_1",
-            "value": 0,
-            "tol": 1e-9
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "k2",
-            "label": "k_2",
-            "value": 16,
-            "tol": 1e-9
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "k_1 = 0"
+          },
+          {
+            "t": "text",
+            "v": ";  "
+          },
+          {
+            "t": "math",
+            "v": "k_2 = 16"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln der beiden Werte, ein halber Punkt für nur einen richtigen Wert."
           }
         ]
       },

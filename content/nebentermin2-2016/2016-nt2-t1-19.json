@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,110 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_451a",
+          "id": "1_451",
           "baseId": "1_451",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/159/K%C3%B6rpergr%C3%B6%C3%9Fen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mindestens eine Schülerin bzw. ein Schüler ist genau 185 cm groß.\n\nHöchstens 50 % der Schüler/innen sind kleiner als 170 cm."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Aussagen angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zur Interpretation dieses Kastenschaubilds werden verschiedene Aussagen getätigt.\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "60 % der Schüler/innen sind genau 172 cm groß."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens eine Schülerin bzw. ein Schüler ist genau 185 cm groß."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens 50 % der Schüler/innen sind kleiner als 170 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens 75 % der Schüler/innen sind größer als 178 cm."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens 50 % der Schüler/innen sind mindestens 164 cm und höchstens 178 cm groß."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          2
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_451",
       "baseId": "1_451",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/159/K%C3%B6rpergr%C3%B6%C3%9Fen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Körpergrößen der 450 Schüler/innen einer Schulstufe einer Gemeinde wurden in Zentimetern gemessen und deren Verteilung wurde in einem Kastenschaubild (Boxplot) grafisch dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-19-boxplot.png",
+      "alt": "Originalboxplot der Körpergrößen mit Minimum und Q1=164cm,Median170cm,Q3=178cm,Maximum185cm."
     }
   ]
 }

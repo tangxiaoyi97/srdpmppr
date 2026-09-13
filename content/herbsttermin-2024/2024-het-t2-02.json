@@ -218,7 +218,7 @@
     {
       "id": "2024-het-t2-02-a2",
       "label": "a2",
-      "format": "Lückentext",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AG 4.1",
@@ -240,19 +240,66 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Beim Slacklinen wird ein elastisches Band horizontal über dem Boden befestigt.\n\nTheo steht exakt in der Mitte des Bandes, wodurch ein bestimmter Durchhang d entsteht.\n\nDie Situation ist in der nachstehenden Abbildung dargestellt."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2024/fig/2024-het-t2-02-a1-q.png",
+          "alt": "Abbildung: Band zwischen Mast 1 (Punkt A) und Mast 2 (Punkt B); Theo steht in der Mitte, der Durchhang d ist eingezeichnet, der Winkel β liegt an der tiefsten Stelle."
+        },
+        {
+          "t": "text",
+          "v": "Für die Größe der auftretenden Kraft F (in N) in einem Aufhängungspunkt gilt:"
+        },
+        {
+          "t": "math",
+          "v": "F = \\tfrac{10 \\cdot e}{4 \\cdot d} \\cdot m"
+        },
+        {
+          "t": "text",
+          "v": "e ... horizontale Entfernung der Aufhängungspunkte A und B (in m)\nm ... Körpermasse (in kg)\nd ... Durchhang (in m)\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Theo hat eine Körpermasse m von m = 80 kg.\n\nErmitteln Sie für β = 160° die Größe der auftretenden Kraft F (in N) in einem Aufhängungspunkt."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "F",
-            "label": "F",
-            "value": 2268.5,
-            "tol": 1,
-            "unit": "N"
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "d = \\tfrac{6}{\\tan(80^\\circ)} = 1{,}057\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "F = \\tfrac{10 \\cdot 12}{4 \\cdot 1{,}057\\ldots} \\cdot 80"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "F = 2\\,268{,}5\\ldots\\ \\text{N}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für das richtige Ermitteln der Größe der auftretenden Kraft F."
           }
         ]
       },
@@ -290,7 +337,7 @@
     {
       "id": "2024-het-t2-02-a3",
       "label": "a3",
-      "format": "Lückentext",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.3",
@@ -317,13 +364,32 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.504,
-            "tol": 0.005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "1 - (1-p)^{10} - 10 \\cdot p \\cdot (1-p)^{9} = 0{,}99"
+          },
+          {
+            "t": "text",
+            "v": ". Berechnung mittels Technologieeinsatz:"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p = 0{,}504\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\na3) Ein Punkt für das richtige Ermitteln von p."
           }
         ]
       },

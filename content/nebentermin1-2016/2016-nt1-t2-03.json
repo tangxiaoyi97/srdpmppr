@@ -1,7 +1,7 @@
 {
   "id": "2016-nt1-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2016",
@@ -22,14 +22,642 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt1-t2-03-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einer konkreten Spielsituation hat der Ball beim Aufprall auf den oberen Spielfeldrand einen Geschwindigkeitsvektor von "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}=\\begin{pmatrix}4\\\\7\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " Pixeln pro Bildaufbau.\n\nⒶ Geben Sie denjenigen Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " an, unter dem der Ball auf den Spielfeldrand trifft!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\alpha="
+        },
+        {
+          "t": "text",
+          "v": " ______________________"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac74=1{,}75"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha\\approx60{,}26^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angegeben sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [60°; 60,3°]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac74=1{,}75"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\alpha\\approx60{,}26^\\circ"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angegeben sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [60°; 60,3°]"
+        }
+      ],
+      "id": "2016-nt1-t2-03-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Komponenten des Geschwindigkeitsvektors sind immer ganzzahlig. Nehmen Sie an, dass die Summe der Beträge der Komponenten nicht größer als 20 sein darf.\n\nDer Ball wird am oberen Spielfeldrand unter dem Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " reflektiert. Welchen kleinstmöglichen Wert "
+        },
+        {
+          "t": "math",
+          "v": "\\beta_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": " kann unter diesen Voraussetzungen der Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " annehmen? Geben Sie "
+        },
+        {
+          "t": "math",
+          "v": "\\beta_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": " an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\beta_{\\min}="
+        },
+        {
+          "t": "text",
+          "v": " ______________________"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Unter diesen Bedingungen lautet der Geschwindigkeitsvektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec{v}=\\begin{pmatrix}\\pm19\\\\\\pm1\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": " Pixel pro Bildaufbau. Für den Winkel "
+          },
+          {
+            "t": "math",
+            "v": "\\beta_{\\min}"
+          },
+          {
+            "t": "text",
+            "v": " gibt das in jedem Fall:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\beta_{\\min})=\\frac1{19}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\beta_{\\min}\\approx3{,}01^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angegeben sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [3°; 3,02°]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\beta_{\\min}\\approx3{,}01^\\circ"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „Grad“ nicht angegeben sein muss. Eine korrekte Angabe der Lösung in einer anderen Einheit ist ebenfalls als richtig zu werten. Toleranzintervall: [3°; 3,02°]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Unter diesen Bedingungen lautet der Geschwindigkeitsvektor "
+            },
+            {
+              "t": "math",
+              "v": "\\vec{v}=\\begin{pmatrix}\\pm19\\\\\\pm1\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": " Pixel pro Bildaufbau. Für den Winkel "
+            },
+            {
+              "t": "math",
+              "v": "\\beta_{\\min}"
+            },
+            {
+              "t": "text",
+              "v": " gibt das in jedem Fall:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\tan(\\beta_{\\min})=\\frac1{19}"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-03-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem anderen Spielverlauf befindet sich der Ball im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "(401\\mid301)"
+        },
+        {
+          "t": "text",
+          "v": " und sein Geschwindigkeitsvektor ist dabei "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}=\\begin{pmatrix}2\\\\-3\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " Pixel pro Bildaufbau.\n\nGeben Sie an, wie viele Sekunden es dauert, bis der Ball am unteren Spielfeldrand reflektiert wird!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Zeit",
+            "value": 2.01,
+            "tol": 0.01,
+            "unit": "s"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es dauert zwei Sekunden, bis der Ball am unteren Spielfeldrand reflektiert wird."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [2 s; 2,02 s]",
+          "steps": [
+            {
+              "t": "math",
+              "v": "301-3n=1\\Rightarrow n=100"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "100\\cdot0{,}02=2"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-03-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In einem anderen Spielverlauf befindet sich der Ball im Punkt "
+        },
+        {
+          "t": "math",
+          "v": "(401\\mid301)"
+        },
+        {
+          "t": "text",
+          "v": " und sein Geschwindigkeitsvektor ist dabei "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{v}=\\begin{pmatrix}2\\\\-3\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " Pixel pro Bildaufbau.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Nach dieser Reflexion bewegt sich der Ball entlang einer Geraden bis zum nächsten Auftreffen auf den Schläger oder den Spielfeldrand.\n\nGeben Sie eine Parameterdarstellung dieser Geraden an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "g:X=\\begin{pmatrix}601\\\\1\\end{pmatrix}+s\\cdot\\begin{pmatrix}2\\\\3\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Parameterdarstellung bzw. Gleichung der Geraden. Äquivalente Parameterdarstellungen bzw. Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g:X=\\begin{pmatrix}601\\\\1\\end{pmatrix}+s\\cdot\\begin{pmatrix}2\\\\3\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Parameterdarstellung bzw. Gleichung der Geraden. Äquivalente Parameterdarstellungen bzw. Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "id": "2016-nt1-t2-03-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei Kinder, Nicola und Florian, spielen über einen längeren Zeitraum oft gegeneinander Pong. Von 45 Spielen gewinnt Nicola 31-mal, Florian gewinnt 14-mal.\n\nGeben Sie auf Basis dieser Information ein symmetrisches 95-%-Konfidenzintervall für Nicolas Gewinnwahrscheinlichkeit an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "n=45,\\ h=\\frac{31}{45}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{31}{45}\\pm1{,}96\\cdot\\sqrt{\\frac{\\frac{31}{45}\\cdot\\frac{14}{45}}{45}}\\approx0{,}689\\pm0{,}135\\Rightarrow[0{,}554;0{,}824]"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "[0{,}554;0{,}824]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,54; 0,56] Toleranzintervall für den oberen Wert: [0,81; 0,83] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "[0{,}554;0{,}824]"
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Andere Schreibweisen des Ergebnisses (als Bruch oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervall für den unteren Wert: [0,54; 0,56] Toleranzintervall für den oberen Wert: [0,81; 0,83] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "math",
+              "v": "n=45,\\ h=\\frac{31}{45}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{31}{45}\\pm1{,}96\\cdot\\sqrt{\\frac{\\frac{31}{45}\\cdot\\frac{14}{45}}{45}}\\approx0{,}689\\pm0{,}135\\Rightarrow[0{,}554;0{,}824]"
+            }
+          ]
+        }
+      ],
+      "id": "2016-nt1-t2-03-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zwei Kinder, Nicola und Florian, spielen über einen längeren Zeitraum oft gegeneinander Pong. Von 45 Spielen gewinnt Nicola 31-mal, Florian gewinnt 14-mal.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Erklären Sie, wieso es nicht sinnvoll ist, ein 100-%-Konfidenzintervall zu bestimmen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Erklärungen:\nEs ist nicht sinnvoll, ein 100-%-Konfidenzintervall zu bilden, da die Intervallgrenzen dann 0 % bis 100 % wären, man hätte also keinen Informationsgewinn.\n\noder:\nEin 100-%-Konfidenzintervall erstreckt sich über den gesamten Definitionsbereich."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Erklärung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Erklärungen:\nEs ist nicht sinnvoll, ein 100-%-Konfidenzintervall zu bilden, da die Intervallgrenzen dann 0 % bis 100 % wären, man hätte also keinen Informationsgewinn.\n\noder:\nEin 100-%-Konfidenzintervall erstreckt sich über den gesamten Definitionsbereich."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Erklärung."
+        }
+      ],
+      "id": "2016-nt1-t2-03-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=330&token=043f7e87d276761a7cc7282b9fb9167240d963ca#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das 1972 vom Unternehmen Atari veröffentlichte Pong wurde zum ersten weltweit populären Videospiel. (Quelle: http://de.wikipedia.org/wiki/Pong)\n\nDas Spielprinzip von Pong ist wie folgt: Ein Punkt („Ball“) bewegt sich auf dem Bildschirm entlang geradliniger Bahnen hin und her. Jede/r der beiden Spieler/innen steuert einen senkrechten Strich („Schläger“), den sie/er mit einem Drehknopf („Joystick“) nach oben und unten verschieben kann. Lässt man den Ball am Schläger vorbei, erhält die Gegnerin / der Gegner einen Punkt.\n\nDas Spielfeld, in dem sich der Ball und die Schläger bewegen, hat eine Breite von 800 Pixeln und eine Höhe von 600 Pixeln (ein Pixel ist ein quadratischer Bildpunkt). Vereinfachend wird angenommen, dass der Ball als Pixel dargestellt wird.\n\nWenn der Ball den oberen bzw. unteren Spielfeldrand oder einen Schläger berührt, dann wird er von dort reflektiert. Dabei gilt das Reflexionsgesetz; dieses besagt: "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha=\\beta"
+    },
+    {
+      "t": "text",
+      "v": " (vgl. die unten abgebildete Grafik).\n\nMan kann sich das Spielfeld als Ebene mit Koordinatensystem vorstellen. Der Bildpunkt "
+    },
+    {
+      "t": "math",
+      "v": "(1\\mid1)"
+    },
+    {
+      "t": "text",
+      "v": " liegt dann in der linken unteren Ecke, der Bildpunkt "
+    },
+    {
+      "t": "math",
+      "v": "(800\\mid600)"
+    },
+    {
+      "t": "text",
+      "v": " in der rechten oberen Ecke.\n\nAuf dem Schirm wird das Bild alle 0,02 Sekunden neu generiert. Der Geschwindigkeitsvektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{v}=\\begin{pmatrix}v_x\\\\v_y\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " des Balls gibt an, um wie viele Pixel sich der Ball von einem Bildaufbau zum nächsten in horizontaler Richtung ("
+    },
+    {
+      "t": "math",
+      "v": "v_x"
+    },
+    {
+      "t": "text",
+      "v": ") und in vertikaler Richtung ("
+    },
+    {
+      "t": "math",
+      "v": "v_y"
+    },
+    {
+      "t": "text",
+      "v": ") weiterbewegt hat."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-03-pong.png",
+      "alt": "Original-Pong-Spielbildschirm"
+    },
+    {
+      "t": "text",
+      "v": "\nBildquelle: http://www.overclockers.at/games_forum/euer-erstes-computerspiel_237146/page_2 [15.10.2015]."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2016/fig/2016-nt1-t2-03-reflection.png",
+      "alt": "Reflexion am horizontalen Rand;EinfallswinkelαgleichAusfallswinkelβ."
+    }
+  ]
 }

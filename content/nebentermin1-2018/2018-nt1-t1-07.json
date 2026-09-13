@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,145 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_644a",
+          "id": "1_644",
           "baseId": "1_644",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/369/Grafisches%20L%C3%B6sen%20einer%20quadratischen%20Gleichung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t1-07-sol.png",
+              "alt": "Lösung mit dem ergänzten Graphen von g."
+            }
+          ],
+          "note": "Ein Punkt für die Ergänzung eines korrekten Graphen von g."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die nachstehende Abbildung zeigt den Graphen der quadratischen Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ", wobei gilt: "
+        },
+        {
+          "t": "math",
+          "v": "f(x)\\in\\mathbb{Z}"
+        },
+        {
+          "t": "text",
+          "v": " für jedes "
+        },
+        {
+          "t": "math",
+          "v": "x\\in\\mathbb{Z}"
+        },
+        {
+          "t": "text",
+          "v": ". Zeichnen Sie in dieser Abbildung den Graphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " ein!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2018/fig/2018-nt1-t1-07-q.png",
+          "alt": "Koordinatensystem mit dem Graphen von f."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für die Ergänzung eines korrekten Graphen von g."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_644",
       "baseId": "1_644",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/369/Grafisches%20L%C3%B6sen%20einer%20quadratischen%20Gleichung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist die quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "x^2+x-2=0"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nMan kann die gegebene Gleichung geometrisch mithilfe der Graphen zweier Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " lösen, indem man die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=g(x)"
+    },
+    {
+      "t": "text",
+      "v": " betrachtet."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-12",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,150 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 12 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=16",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_458a",
+          "id": "1_458",
           "baseId": "1_458",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/167/Parameter%20einer%20Sinusfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-12-sine-solution.png",
+              "alt": "Originalskizze der Lösung s₁(x)=2sin(x)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze, wobei der Verlauf des Graphen der Funktion s₁ mit der Funktionsgleichung s₁(x) = 2 · sin(x) erkennbar sein muss."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Erstellen Sie im obigen Koordinatensystem eine Skizze eines möglichen Funktionsgraphen der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s_1"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "s_1(x)=2c\\cdot\\sin(2d\\cdot x)"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[-2\\pi;2\\pi]"
+        },
+        {
+          "t": "text",
+          "v": "."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "fig",
+            "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-12-sine-solution.png",
+            "alt": "Originalskizze der Lösung s₁(x)=2sin(x)"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Skizze, wobei der Verlauf des Graphen der Funktion s₁ mit der Funktionsgleichung s₁(x) = 2 · sin(x) erkennbar sein muss."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 12 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=16",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_458",
       "baseId": "1_458",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/167/Parameter%20einer%20Sinusfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " mit der Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "s(x)=c\\cdot\\sin(d\\cdot x)"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "c,d\\in\\mathbb{R}^+"
+    },
+    {
+      "t": "text",
+      "v": " im Intervall "
+    },
+    {
+      "t": "math",
+      "v": "[-2\\pi;2\\pi]"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2016/fig/2016-nt2-t1-12-sine.png",
+      "alt": "Originalgraph s(x)=sin(x/2) im Intervall[-2π,2π]"
     }
   ]
 }

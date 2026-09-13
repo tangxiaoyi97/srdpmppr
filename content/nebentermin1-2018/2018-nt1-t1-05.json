@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,155 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_642a",
+          "id": "1_642",
           "baseId": "1_642",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/367/Zur%20x-Achse%20parallele%20Gerade.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\vec a=\\begin{pmatrix}1\\\\0\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Vektor a. Jeder Vektor (a₁, 0) mit a₁ ≠ 0 ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec a\\in\\mathbb{R}^2"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "\\vec a\\ne\\begin{pmatrix}0\\\\0\\end{pmatrix}"
+        },
+        {
+          "t": "text",
+          "v": " so an, dass die Gerade "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " parallel zur "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse verläuft!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ein Punkt für einen korrekten Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec a"
+          },
+          {
+            "t": "text",
+            "v": ". Jeder Vektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec a=\\begin{pmatrix}a_1\\\\0\\end{pmatrix}"
+          },
+          {
+            "t": "text",
+            "v": " mit "
+          },
+          {
+            "t": "math",
+            "v": "a_1\\in\\mathbb{R}\\setminus\\{0\\}"
+          },
+          {
+            "t": "text",
+            "v": " ist als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_642",
       "baseId": "1_642",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/367/Zur%20x-Achse%20parallele%20Gerade.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine Gerade "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " mit der Parameterdarstellung "
+    },
+    {
+      "t": "math",
+      "v": "g:X=\\begin{pmatrix}2\\\\1\\end{pmatrix}+t\\cdot\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

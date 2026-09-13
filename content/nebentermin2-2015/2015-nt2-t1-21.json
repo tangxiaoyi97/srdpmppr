@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,115 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_377a",
+          "id": "1_377",
           "baseId": "1_377",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/85/Grundraum%20eines%20Zufallsversuchs.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\Omega=\\{(0;0;0),(0;0;1),(0;1;0),(1;0;0),(1;1;0),(1;0;1),(0;1;1),(1;1;1)\\}"
+            }
+          ],
+          "note": "Die Lösung ist dann als richtig zu werten, wenn die in der Lösungserwartung angegebenen Zahlentripel korrekt angeführt sind. Die Trennzeichensetzung zwischen den Zahlen 0 und 1 kann beliebig erfolgen. Die Beschriftung der Menge mit „Ω =“ ist nicht notwendig. Die Reihenfolge der Tripel ist nicht vorgegeben."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Grundraum dieses Zufallsversuchs vollständig durch Zahlentripel "
+        },
+        {
+          "t": "math",
+          "v": "(x;y;z)"
+        },
+        {
+          "t": "text",
+          "v": " an!\n"
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": ", "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "z"
+        },
+        {
+          "t": "text",
+          "v": " nehmen dabei jeweils die Werte 0 oder 1 an."
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\Omega=\\{(0;0;0),(0;0;1),(0;1;0),(1;0;0),(1;1;0),(1;0;1),(0;1;1),(1;1;1)\\}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Die Lösung ist dann als richtig zu werten, wenn die in der Lösungserwartung angegebenen Zahlentripel korrekt angeführt sind. Die Trennzeichensetzung zwischen den Zahlen 0 und 1 kann beliebig erfolgen. Die Beschriftung der Menge mit „Ω =“ ist nicht notwendig. Die Reihenfolge der Tripel ist nicht vorgegeben."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_377",
       "baseId": "1_377",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/85/Grundraum%20eines%20Zufallsversuchs.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Urne befinden sich zwei Kugeln, die mit den Zahlen 0 bzw. 1 beschriftet sind. Die Kugeln sind – abgesehen von ihrer Beschriftung – nicht unterscheidbar. Aus dieser Urne wird dreimal zufällig eine Kugel gezogen, wobei diese nach jedem Zug wieder in die Urne zurückgelegt wird."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t1-22",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,17 +37,21 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_875a",
+          "id": "1_875",
           "baseId": "1_875",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/684/Auswahlmoeglichkeiten.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
       "solution": [
         {
           "result": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Auswahlmöglichkeiten beträgt: "
+            },
             {
               "t": "math",
               "v": "\\binom{1\\,000}{2}=499\\,500"
@@ -59,18 +63,14 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Bei einem bestimmten Preisausschreiben kann man Jahrestickets für den Zoo gewinnen.\nBei diesem Preisausschreiben haben 1 000 Personen jeweils 1-mal teilgenommen.\nAls Gewinner/innen werden 2 Personen nach dem Zufallsprinzip ausgewählt.\n\nGeben Sie die Anzahl der Möglichkeiten an, diese 2 Personen aus den 1 000 Teilnehmerinnen und Teilnehmern nach dem Zufallsprinzip auszuwählen.\n\nDie Anzahl der Auswahlmöglichkeiten beträgt:"
+          "v": "Bei einem bestimmten Preisausschreiben kann man Jahrestickets für den Zoo gewinnen.\nBei diesem Preisausschreiben haben 1 000 Personen jeweils 1-mal teilgenommen.\nAls Gewinner/innen werden 2 Personen nach dem Zufallsprinzip ausgewählt.\n\nGeben Sie die Anzahl der Möglichkeiten an, diese 2 Personen aus den 1 000 Teilnehmerinnen und Teilnehmern nach dem Zufallsprinzip auszuwählen.\n\nDie Anzahl der Auswahlmöglichkeiten beträgt: ____________________"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "n",
-            "value": 499500,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "499500",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",

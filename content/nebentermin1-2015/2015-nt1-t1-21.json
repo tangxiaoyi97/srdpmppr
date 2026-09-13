@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,212 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_425a",
+          "id": "1_425",
           "baseId": "1_425",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/133/Rote%20und%20blaue%20Kugeln.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "① "
+            },
+            {
+              "t": "math",
+              "v": "G=\\{(r,r),(r,b),(b,r),(b,b)\\}"
+            },
+            {
+              "t": "text",
+              "v": "\n② jede Teilmenge des Grundraumes"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nEin Grundraum "
+        },
+        {
+          "t": "math",
+          "v": "G"
+        },
+        {
+          "t": "text",
+          "v": " für dieses Zufallsexperiment lautet _____ ① _____, und _____ ② _____ ist ein Ereignis."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "G=\\{r,b\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G=\\{(r,r),(r,b),(b,b)\\}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "G=\\{(r,r),(r,b),(b,r),(b,b)\\}"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "die Wahrscheinlichkeit, dass genau eine blaue Kugel gezogen wird,"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "jede Teilmenge des Grundraumes"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "b"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "label": [
+              {
+                "t": "text",
+                "v": "①"
+              }
+            ],
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "label": [
+              {
+                "t": "text",
+                "v": "②"
+              }
+            ],
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_425",
       "baseId": "1_425",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/133/Rote%20und%20blaue%20Kugeln.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einem Behälter befinden sich 15 rote Kugeln und 18 blaue Kugeln. Die Kugeln sind bis auf ihre Farbe nicht unterscheidbar. Es sollen nun in einem Zufallsexperiment zwei Kugeln nacheinander gezogen werden, wobei die erste Kugel nach dem Ziehen nicht zurückgelegt wird und es auf die Reihenfolge der Ziehung ankommt.\n\nDie Buchstaben "
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " haben folgende Bedeutung:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "r"
+    },
+    {
+      "t": "text",
+      "v": " ... das Ziehen einer roten Kugel\n"
+    },
+    {
+      "t": "math",
+      "v": "b"
+    },
+    {
+      "t": "text",
+      "v": " ... das Ziehen einer blauen Kugel"
     }
   ]
 }

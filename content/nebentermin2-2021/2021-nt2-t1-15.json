@@ -24,9 +24,16 @@
     {
       "id": "2021-nt2-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Lückentext",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=17",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -164,11 +171,22 @@
       "points": 1
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=17",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",
-      "v": "Die Höhe einer bestimmten Sonnenblume wurde über einige Wochen jeweils zu Wochenbeginn gemessen.\n\nZum Messbeginn t = 0 hatte die Sonnenblume die Höhe H₀ = 5 cm.\nFür jeden Zeitpunkt t (mit 0 ≤ t ≤ 5) gibt Hₜ die Höhe der Sonnenblume an.\n\nDie nachstehende Tabelle zeigt die (gerundeten) Messergebnisse für die Höhe der Sonnenblume für die ersten 5 Wochen.\n\nZeit t (in Wochen nach Messbeginn) | Höhe der Sonnenblume Hₜ (in cm)\n1 | 36\n2 | 68\n3 | 98\n4 | 128\n5 | 159"
+      "v": "Die Höhe einer bestimmten Sonnenblume wurde über einige Wochen jeweils zu Wochenbeginn gemessen.\n\nZum Messbeginn t = 0 hatte die Sonnenblume die Höhe H₀ = 5 cm.\nFür jeden Zeitpunkt t (mit 0 ≤ t ≤ 5) gibt Hₜ die Höhe der Sonnenblume an.\n\nDie nachstehende Tabelle zeigt die (gerundeten) Messergebnisse für die Höhe der Sonnenblume für die ersten 5 Wochen."
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{|c|c|}\\hline\\text{Zeit }t&\\text{Höhe der Sonnenblume }H_t\\\\\\text{(in Wochen nach Messbeginn)}&\\text{(in cm)}\\\\\\hline1&36\\\\\\hline2&68\\\\\\hline3&98\\\\\\hline4&128\\\\\\hline5&159\\\\\\hline\\end{array}"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1592a",
+          "id": "1_1592",
           "baseId": "1_1592",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1139/1_1592_Punkt%20auf%20einer%20Geraden_PT1_26.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,14 +67,10 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "z",
-            "value": 1.6666666666666667,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "5/3",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",
@@ -116,7 +112,7 @@
     },
     {
       "t": "math",
-      "v": "\\overrightarrow{RS}"
+      "v": "RS"
     },
     {
       "t": "text",

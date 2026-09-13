@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,271 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_345a",
+          "id": "1_345",
           "baseId": "1_345",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/57/Parallele%20Geraden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Parallele Geraden haben die gleiche Steigung bzw. parallele Richtungsvektoren. "
+            },
+            {
+              "t": "math",
+              "v": "k_g=-\\frac14"
+            },
+            {
+              "t": "text",
+              "v": ". Der Richtungsvektor "
+            },
+            {
+              "t": "math",
+              "v": "\\vec a_h=\\binom{4}{-1}"
+            },
+            {
+              "t": "text",
+              "v": " ist parallel zu "
+            },
+            {
+              "t": "math",
+              "v": "\\binom{1}{-\\frac14}"
+            },
+            {
+              "t": "text",
+              "v": "; daraus folgt "
+            },
+            {
+              "t": "math",
+              "v": "k_h=k_g"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nOder: "
+            },
+            {
+              "t": "math",
+              "v": "g:X=\\binom47+t\\binom4{-1},\\ t\\in\\mathbb R"
+            },
+            {
+              "t": "text",
+              "v": ". Somit ist "
+            },
+            {
+              "t": "math",
+              "v": "\\vec a_g=\\vec a_h"
+            },
+            {
+              "t": "text",
+              "v": ".\n\nAuch eine Begründung mit Normalvektoren ist möglich: "
+            },
+            {
+              "t": "math",
+              "v": "g:x+4y=32"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "h:x+4y=16"
+            },
+            {
+              "t": "text",
+              "v": ". Somit ist "
+            },
+            {
+              "t": "math",
+              "v": "\\vec n_g\\parallel\\vec n_h"
+            },
+            {
+              "t": "text",
+              "v": ", oder "
+            },
+            {
+              "t": "math",
+              "v": "\\vec n_g\\cdot\\vec a_h=0"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt wird vergeben, wenn eine Begründung vorhanden und mathematisch korrekt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum diese beiden Geraden parallel zueinander liegen!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Parallele Geraden haben die gleiche Steigung bzw. parallele Richtungsvektoren. "
+          },
+          {
+            "t": "math",
+            "v": "k_g=-\\frac14"
+          },
+          {
+            "t": "text",
+            "v": ". Der Richtungsvektor "
+          },
+          {
+            "t": "math",
+            "v": "\\vec a_h=\\binom{4}{-1}"
+          },
+          {
+            "t": "text",
+            "v": " ist parallel zu "
+          },
+          {
+            "t": "math",
+            "v": "\\binom{1}{-\\frac14}"
+          },
+          {
+            "t": "text",
+            "v": "; daraus folgt "
+          },
+          {
+            "t": "math",
+            "v": "k_h=k_g"
+          },
+          {
+            "t": "text",
+            "v": ".\n\nOder: "
+          },
+          {
+            "t": "math",
+            "v": "g:X=\\binom47+t\\binom4{-1},\\ t\\in\\mathbb R"
+          },
+          {
+            "t": "text",
+            "v": ". Somit ist "
+          },
+          {
+            "t": "math",
+            "v": "\\vec a_g=\\vec a_h"
+          },
+          {
+            "t": "text",
+            "v": ".\n\nAuch eine Begründung mit Normalvektoren ist möglich: "
+          },
+          {
+            "t": "math",
+            "v": "g:x+4y=32"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "h:x+4y=16"
+          },
+          {
+            "t": "text",
+            "v": ". Somit ist "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n_g\\parallel\\vec n_h"
+          },
+          {
+            "t": "text",
+            "v": ", oder "
+          },
+          {
+            "t": "math",
+            "v": "\\vec n_g\\cdot\\vec a_h=0"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_345",
       "baseId": "1_345",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/57/Parallele%20Geraden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind Gleichungen der Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": ". Die beiden Geraden sind nicht ident.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "g:y=-\\frac{x}{4}+8"
+    },
+    {
+      "t": "text",
+      "v": "\n\n"
+    },
+    {
+      "t": "math",
+      "v": "h:X=\\binom43+s\\cdot\\binom4{-1}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "s\\in\\mathbb R"
     }
   ]
 }

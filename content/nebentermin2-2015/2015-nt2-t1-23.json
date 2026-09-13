@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -36,26 +36,136 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_375a",
+          "id": "1_375",
           "baseId": "1_375",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/83/Erwartungswert.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "E(X)=1\\cdot0{,}1+2\\cdot0{,}3+3\\cdot0{,}4+4\\cdot0{,}1+5\\cdot0{,}1=\\frac{14}5=2{,}8"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen (als Bruch oder Dezimalzahl) ist als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie den Erwartungswert "
+        },
+        {
+          "t": "math",
+          "v": "E(X)"
+        },
+        {
+          "t": "text",
+          "v": " der Zufallsvariablen "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "E(X)=1\\cdot0{,}1+2\\cdot0{,}3+3\\cdot0{,}4+4\\cdot0{,}1+5\\cdot0{,}1=\\frac{14}5=2{,}8"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Jede der angeführten Schreibweisen (als Bruch oder Dezimalzahl) ist als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_375",
       "baseId": "1_375",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/83/Erwartungswert.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt die Wahrscheinlichkeitsverteilung einer diskreten Zufallsvariablen "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": ", bei der jedem Wert "
+    },
+    {
+      "t": "math",
+      "v": "k"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "k=1,2,3,4,5"
+    },
+    {
+      "t": "text",
+      "v": ") die Wahrscheinlichkeit "
+    },
+    {
+      "t": "math",
+      "v": "P(X=k)"
+    },
+    {
+      "t": "text",
+      "v": " zugeordnet wird."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2015/fig/2015-nt2-t1-23-probability-distribution.png",
+      "alt": "Wahrscheinlichkeitsverteilung: P(X=1)=0,1; P(X=2)=0,3; P(X=3)=0,4; P(X=4)=0,1; P(X=5)=0,1."
     }
   ]
 }

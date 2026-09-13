@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,107 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_424a",
+          "id": "1_424",
           "baseId": "1_424",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/132/Augensumme%20beim%20W%C3%BCrfeln.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(E)=\\dfrac7{36}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (als Dezimalzahl oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervalle: [0,19; 0,20] bzw. [19 %; 20 %]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit des Ereignisses "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": "!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "P(E)="
+        },
+        {
+          "t": "text",
+          "v": " _____"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "7/36"
+          },
+          {
+            "t": "text",
+            "v": ". Andere Schreibweisen als Dezimalzahl oder Prozent; Toleranz [0,19;0,20] bzw. [19 %;20 %]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses (als Dezimalzahl oder in Prozent) sind ebenfalls als richtig zu werten. Toleranzintervalle: [0,19; 0,20] bzw. [19 %; 20 %]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_424",
       "baseId": "1_424",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/132/Augensumme%20beim%20W%C3%BCrfeln.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zwei unterscheidbare, faire Würfel mit den Augenzahlen 1, 2, 3, 4, 5, 6 werden gleichzeitig geworfen und die Augensumme wird ermittelt. Das Ereignis, dass die Augensumme durch 5 teilbar ist, wird mit "
+    },
+    {
+      "t": "math",
+      "v": "E"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet. (Ein Würfel ist „fair“, wenn die Wahrscheinlichkeit, nach einem Wurf nach oben zu zeigen, für alle sechs Seitenflächen gleich groß ist.)"
     }
   ]
 }

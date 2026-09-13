@@ -1,6 +1,6 @@
 {
   "id": "2021-nt2-t1-23",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,7 +24,7 @@
     {
       "id": "2021-nt2-t1-23-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.2",
@@ -33,7 +33,14 @@
           "verifiedAt": "2026-07-01"
         }
       ],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=25",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
@@ -63,24 +70,51 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "label": "P(X ≤ 2)",
-            "value": 0.1233,
-            "tol": 0.001
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\nX ... Anzahl der fehlerhaften Schokoladefiguren\n\nDie Zufallsvariable X ist binomialverteilt mit den Parametern n = 500 und p = 0,01:\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le 2)=P(X=0)+P(X=1)+P(X=2)=0{,}1233\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X\\le 2)=0{,}1233\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=4650&token=99f03851f5666d51ff217a331b01072917969995#page=25",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

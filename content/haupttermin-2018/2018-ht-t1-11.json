@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-11",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,174 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 11 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=15",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_624a",
+          "id": "1_624",
           "baseId": "1_624",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/345/Zellkulturen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "F; E; A; B"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jeder der vier beschriebenen Veränderungen ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier beschriebenen Veränderungen jeweils die zugehörige Funktionsgleichung (aus A bis F) zu!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Zellen verdoppelt sich pro Tag."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Zellen nimmt pro Tag um 85 % zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Zellen nimmt pro Tag um 85 % ab."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der Zellen nimmt pro Tag um die Hälfte ab."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "N_1(t)=N_1(0)\\cdot 0{,}15^t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_2(t)=N_2(0)\\cdot 0{,}5^t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_3(t)=N_3(0)\\cdot 0{,}85^t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_4(t)=N_4(0)\\cdot 1{,}5^t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_5(t)=N_5(0)\\cdot 1{,}85^t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N_6(t)=N_6(0)\\cdot 2^t"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 11 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=15",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_624",
       "baseId": "1_624",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/345/Zellkulturen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Im Rahmen eines biologischen Experiments werden sechs Zellkulturen günstigen und ungünstigen äußeren Bedingungen ausgesetzt, wodurch die Anzahl der Zellen entweder exponentiell zunimmt oder exponentiell abnimmt.\nDabei gibt "
+    },
+    {
+      "t": "math",
+      "v": "N_i(t)"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der Zellen in der jeweiligen Zellkultur "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Tage nach Beginn des Experiments an ("
+    },
+    {
+      "t": "math",
+      "v": "i=1,2,3,4,5,6"
+    },
+    {
+      "t": "text",
+      "v": ")."
     }
   ]
 }

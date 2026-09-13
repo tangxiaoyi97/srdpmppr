@@ -1,6 +1,6 @@
 {
   "id": "2023-ht-t2-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "reviewed",
   "lang": "de",
   "source": {
@@ -14,7 +14,7 @@
   "title": "Flugreisen",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t2-4.pdf",
@@ -76,19 +76,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "a",
-            "label": "a",
-            "value": 0.14,
-            "tol": 0.005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "b",
-            "label": "b",
-            "value": 1.089,
-            "tol": 0.002
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a=0{,}14;\\quad b=\\sqrt[62]{\\dfrac{28{,}95}{0{,}14}}=1{,}089\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen von a und b."
           }
         ]
       },
@@ -132,6 +137,42 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die jährliche Anzahl aller Fluggäste in Österreich ist von 0,14 Millionen im Jahr 1955 auf 28,95 Millionen im Jahr 2017 gestiegen.\n\nDiese zeitliche Entwicklung der Anzahl der Fluggäste in Österreich kann näherungsweise durch die Exponentialfunktion "
+        },
+        {
+          "t": "math",
+          "v": "N:\\mathbb{R}_0^+\\to\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "N(t)=a\\cdot b^{t}"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a,\\,b\\in\\mathbb{R}^+"
+        },
+        {
+          "t": "text",
+          "v": " beschrieben werden (t in Jahren mit t = 0 für das Jahr 1955, N(t) in Millionen Fluggästen).\n\nBerechnen Sie a und b."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Im Jahr 2018 gab es in Österreich 31,73 Millionen Fluggäste.\n\nWeisen Sie rechnerisch nach, dass die mit N ermittelte Anzahl der Fluggäste für das Jahr 2018 um weniger als 1 % von der tatsächlichen Anzahl der Fluggäste abweicht."
@@ -213,13 +254,24 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "n",
-            "label": "n",
-            "value": 6.29,
-            "tol": 0.1
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "n=\\dfrac{36\\,206\\,642}{319\\,945}-\\dfrac{31\\,725\\,019}{296\\,852}=6{,}29\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen von n."
           }
         ]
       },
@@ -265,16 +317,19 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Die unten stehende Abbildung zeigt für das Jahr 2019 die Anzahl der angebotenen Sitzplätze sowie die Anzahl der Fluggäste für Flüge von bzw. nach Wien. Die Prozentsätze geben jeweils den relativen Anteil der durch die Fluggäste besetzten Sitzplätze an.\n\nOrdnen Sie den vier Aussagen jeweils die passende Flugstrecke aus A bis F zu."
-        }
-      ],
-      "figures": [
+          "v": "Die unten stehende Abbildung zeigt für das Jahr 2019 die Anzahl der angebotenen Sitzplätze sowie die Anzahl der Fluggäste für Flüge von bzw. nach Wien. Die Prozentsätze geben jeweils den relativen Anteil der durch die Fluggäste besetzten Sitzplätze an."
+        },
         {
-          "kind": "image",
+          "t": "fig",
           "src": "assets/pdf/haupttermin-2023/fig/2023-ht-t2-04-c.png",
           "alt": "Säulendiagramm 2019: angebotene Sitzplätze und beförderte Fluggäste je Flugstrecke ab/nach Wien, mit Auslastungsprozentsätzen"
+        },
+        {
+          "t": "text",
+          "v": "\n\nOrdnen Sie den vier Aussagen für das Jahr 2019 jeweils die passende Flugstrecke aus A bis F zu."
         }
       ],
+      "figures": [],
       "answer": {
         "kind": "matching",
         "left": [
@@ -401,6 +456,10 @@
     {
       "t": "text",
       "v": "An den österreichischen Flughäfen werden die Anzahl der Flüge, die Anzahl der Fluggäste sowie die Flugstrecken der Reisenden erfasst."
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: https://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/verkehr/luftfahrt/personenverkehr/index.html [19.12.2020]."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_850a",
+          "id": "1_850",
           "baseId": "1_850",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/643/Muenzwurf.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -50,7 +50,15 @@
           "steps": [
             {
               "t": "math",
-              "v": "\\binom{4}{3}\\cdot\\left(\\tfrac{1}{2}\\right)^{3}\\cdot\\left(\\tfrac{1}{2}\\right)^{1}+\\binom{4}{4}\\cdot\\left(\\tfrac{1}{2}\\right)^{4}=\\tfrac{5}{16}"
+              "v": "\\frac12\\cdot\\frac12\\cdot\\frac12\\cdot\\frac12+\\frac12\\cdot\\frac12\\cdot\\frac12\\cdot\\frac12\\cdot4=\\frac5{16}=0{,}3125"
+            },
+            {
+              "t": "text",
+              "v": "\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\binom40\\cdot\\left(\\frac12\\right)^0\\cdot\\left(\\frac12\\right)^4+\\binom41\\cdot\\left(\\frac12\\right)^1\\cdot\\left(\\frac12\\right)^3=0{,}3125"
             }
           ],
           "result": [
@@ -69,14 +77,10 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
-          {
-            "id": "p",
-            "value": 0.3125,
-            "tol": 1e-9
-          }
-        ]
+        "kind": "expression",
+        "canonical": "5/16",
+        "vars": [],
+        "checker": "cas"
       },
       "scoring": {
         "mode": "allOrNothing",

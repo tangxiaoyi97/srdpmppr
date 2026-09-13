@@ -1,6 +1,6 @@
 {
   "id": "2020-ht-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,9 +24,16 @@
     {
       "id": "2020-ht-t2-03-a1",
       "label": "a1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -66,10 +73,21 @@
     {
       "id": "2020-ht-t2-03-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Spieldurchgang ist das Quiz zu Ende, wenn die Spielfigur auf dem Feld mit der Zahl 2 zu stehen kommt.\n\nMit A wird das Ereignis bezeichnet, dass die Spielfigur nach höchstens 4 Fragen auf dem Feld mit der Zahl 2 steht.\n\nMaria beantwortet jede Frage unabhängig von den anderen Fragen mit der gleichen Wahrscheinlichkeit p richtig.\n\n"
+        },
         {
           "t": "text",
           "v": "Wird p erhöht, so vergrößert sich die Wahrscheinlichkeit P(A).\n\nGeben Sie dasjenige p ∈ [0; 1] an, bei dem die Wahrscheinlichkeit P(A) am stärksten wächst (also die lokale Änderungsrate von P(A) am größten ist)."
@@ -77,19 +95,71 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.632,
-            "tol": 0.001
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "f(p)=p^{2}+2\\cdot p^{3}\\cdot(1-p)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f'(p)=2\\cdot p+6\\cdot p^{2}-8\\cdot p^{3}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f''(p)=2+12\\cdot p-24\\cdot p^{2}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "f''(p)=0\\ \\Rightarrow\\ p_1=0{,}6318\\ldots\\approx 0{,}632\\quad(p_2=-0{,}1318\\ldots)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\bigl(f'''(0{,}6318\\ldots)\\ne 0\\bigr)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Bei p ≈ 0,632 wächst die Wahrscheinlichkeit P(A) am stärksten."
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für die richtige Lösung. Andere Schreibweisen der Lösung sind ebenfalls als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -126,6 +196,14 @@
             {
               "t": "math",
               "v": "f''(p)=0\\ \\Rightarrow\\ p_1=0{,}6318\\ldots\\approx 0{,}632\\quad(p_2=-0{,}1318\\ldots)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\bigl(f'''(0{,}6318\\ldots)\\ne 0\\bigr)"
             }
           ],
           "result": [
@@ -141,9 +219,16 @@
     {
       "id": "2020-ht-t2-03-b1",
       "label": "b1",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -186,10 +271,21 @@
     {
       "id": "2020-ht-t2-03-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem anderen Spieldurchgang werden Maria genau 100 Fragen gestellt. Sie beantwortet dabei jede Frage unabhängig von den anderen Fragen mit der Wahrscheinlichkeit 0,8 richtig. Die Zufallsvariable Y gibt die Zahl desjenigen Feldes an, auf dem die Spielfigur nach der Beantwortung der 100 Fragen steht.\n\n"
+        },
         {
           "t": "text",
           "v": "Die Zufallsvariable Y wird durch eine normalverteilte Zufallsvariable Z angenähert. Dabei gilt: E(Y) = E(Z) und die Standardabweichung σ von Z ist 8.\n\nErmitteln Sie das um den Erwartungswert E(Z) symmetrische Intervall [z₁; z₂], für das P(z₁ ≤ Z ≤ z₂) = 95,4 % gilt."
@@ -251,7 +347,7 @@
     {
       "id": "2020-ht-t2-03-c1",
       "label": "c1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.1",
@@ -260,7 +356,14 @@
           "verifiedAt": "2026-07-01"
         }
       ],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -311,13 +414,32 @@
     {
       "id": "2020-ht-t2-03-c2",
       "label": "c2",
-      "format": "",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 27 (Teil 2)",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
-          "v": "Für jede gerade Anzahl n an Fragen mit n ≥ 10 kann M(n) durch"
+          "v": "Bei einem anderen Spieldurchgang beantwortet Maria alle Fragen durch Raten. Sie beantwortet somit jede Frage unabhängig von den anderen Fragen mit der Wahrscheinlichkeit 0,5 richtig.\nFür jede gerade Anzahl n an Fragen mit n ≥ 2 gilt:"
+        },
+        {
+          "t": "math",
+          "v": "M(n)=\\binom{n}{\\frac{n}{2}}\\cdot 0{,}5^{n}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Für jede gerade Anzahl n an Fragen mit n ≥ 10 kann M(n) durch "
         },
         {
           "t": "math",
@@ -325,7 +447,7 @@
         },
         {
           "t": "text",
-          "v": "näherungsweise berechnet werden.\nFür jedes gerade n ≥ 10 gibt es ein n*, sodass gilt: "
+          "v": " näherungsweise berechnet werden.\nFür jedes gerade n ≥ 10 gibt es ein n*, sodass gilt: "
         },
         {
           "t": "math",
@@ -359,6 +481,14 @@
           "steps": [
             {
               "t": "math",
+              "v": "\\widetilde{M}(n^{*})=\\frac{1}{2}\\cdot\\sqrt{\\frac{2}{\\pi\\cdot n}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
               "v": "\\sqrt{\\frac{2}{\\pi\\cdot n^{*}}}=\\frac{1}{2}\\cdot\\sqrt{\\frac{2}{\\pi\\cdot n}}\\ \\Rightarrow\\ n^{*}=4\\cdot n"
             }
           ],
@@ -373,7 +503,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 27 (Teil 2)",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2019-20/MA/PT1/KL20_PT1_AHS_MAT_00_DE_AU.pdf#page=30",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

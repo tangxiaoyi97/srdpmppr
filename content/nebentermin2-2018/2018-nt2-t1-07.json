@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,228 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_596a",
+          "id": "1_596",
           "baseId": "1_596",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/305/Stefan-Boltzmann-Gesetz.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "①: der Oberflächentemperatur "
+            },
+            {
+              "t": "math",
+              "v": "T"
+            },
+            {
+              "t": "text",
+              "v": "\n②: Potenzfunktion"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn für jede der beiden Lücken ausschließlich der laut Lösungserwartung richtige Satzteil angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Textlücken im folgenden Satz durch Ankreuzen der jeweils richtigen Satzteile so, dass eine korrekte Aussage entsteht!\n\nFür verschiedene Sterne mit gleichem, bekanntem Sternradius "
+        },
+        {
+          "t": "math",
+          "v": "R"
+        },
+        {
+          "t": "text",
+          "v": " ist die Leuchtkraft "
+        },
+        {
+          "t": "math",
+          "v": "L"
+        },
+        {
+          "t": "text",
+          "v": " eine Funktion ①; es handelt sich dabei um eine ②."
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "①"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "②"
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "text",
+              "v": "des Sternradius "
+            },
+            {
+              "t": "math",
+              "v": "R"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "der Oberflächentemperatur "
+            },
+            {
+              "t": "math",
+              "v": "T"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "der Konstanten "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "lineare Funktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Potenzfunktion"
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Exponentialfunktion"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "candidateGroups": [
+          {
+            "leftIndices": [
+              0
+            ],
+            "rightIndices": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "leftIndices": [
+              1
+            ],
+            "rightIndices": [
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_596",
       "baseId": "1_596",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/305/Stefan-Boltzmann-Gesetz.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Leuchtkraft "
+    },
+    {
+      "t": "math",
+      "v": "L"
+    },
+    {
+      "t": "text",
+      "v": " eines Sterns wird durch folgende Formel beschrieben:\n\n"
+    },
+    {
+      "t": "math",
+      "v": "L=4\\cdot\\pi\\cdot R^2\\cdot T^4\\cdot\\sigma"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDabei ist "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " der Sternradius und "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " die Oberflächentemperatur des Sterns; "
+    },
+    {
+      "t": "math",
+      "v": "\\sigma"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Konstante (die sogenannte Stefan-Boltzmann-Konstante)."
     }
   ]
 }

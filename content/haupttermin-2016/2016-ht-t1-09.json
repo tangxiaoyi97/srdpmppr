@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,120 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_485a",
+          "id": "1_485",
           "baseId": "1_485",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/194/Erw%C3%A4rmung%20von%20Wasser.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "T(t) = 0{,}19 \\cdot t + 35{,}6"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Äquivalente Lösungen wie z. B. T(t) = ((41,3 − 35,6)/30) · t + 35,6 sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ergänzen Sie die Gleichung der zugehörigen linearen Funktion, die die Temperatur "
+        },
+        {
+          "t": "math",
+          "v": "T(t)"
+        },
+        {
+          "t": "text",
+          "v": " zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "T(t) = \\underline{\\qquad} \\cdot t + 35{,}6"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für die Lücke ist der Koeffizient 0,19 bzw. (41,3 − 35,6)/30 anzugeben. Auch die vollständig korrekt ergänzte Funktionsgleichung erfüllt die Aufgabe.\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "T(t) = 0{,}19 \\cdot t + 35{,}6"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Äquivalente Lösungen wie z. B. T(t) = ((41,3 − 35,6)/30) · t + 35,6 sind als richtig zu werten."
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=13",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_485",
       "baseId": "1_485",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/194/Erw%C3%A4rmung%20von%20Wasser.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Bei einem Versuch ist eine bestimmte Wassermenge für eine Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " auf konstanter Energiestufe in einem Mikrowellengerät zu erwärmen. Die Ausgangstemperatur des Wassers und die Temperatur des Wassers nach 30 Sekunden werden gemessen."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-09-table.png",
+      "alt": "Messwerte: t=0 Sekunden,35,6°C; t=30 Sekunden,41,3°C"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2015-nt2-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2015",
@@ -24,12 +24,140 @@
     {
       "id": "2015-nt2-t1-05-a",
       "label": "a",
-      "format": "",
+      "format": "Multiple Choice (3 aus 5)",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_393 (offiziell adaptierte Fassung)",
+          "baseId": "1_393",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/101/Normalvektoren.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}0\\\\5\\\\-3\\end{pmatrix}"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}5\\\\0\\\\1\\end{pmatrix}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich alle laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche(r) der unten stehenden Vektoren steht/stehen normal auf den Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec a"
+        },
+        {
+          "t": "text",
+          "v": "?\nKreuzen Sie den / die zutreffende(n) Vektor(en) an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}2\\\\-1\\\\1\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}0\\\\0\\\\-5\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}0\\\\5\\\\-3\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}5\\\\0\\\\1\\end{pmatrix}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\begin{pmatrix}-1\\\\3\\\\0\\end{pmatrix}"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ],
+        "selectCount": 3
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=883&token=b904106146565176471e12b7f2d78cfd6f9adaba#page=9",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_393 (offiziell adaptierte Fassung)",
+      "baseId": "1_393",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/101/Normalvektoren.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist der Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a=\\begin{pmatrix}-1\\\\3\\\\5\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

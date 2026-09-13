@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -22,14 +22,577 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-ht-t2-03-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie mithilfe der 2015 geltenden Steuersätze das Jahresnettoeinkommen einer Person, deren steuerpflichtiges Jahreseinkommen € 20.000 beträgt!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "value",
+            "label": "Jahresnettoeinkommen",
+            "value": 16710,
+            "tol": 10,
+            "unit": "€"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "20\\,000-9\\,000\\cdot0{,}365=16\\,715\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " € 16.715"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit „€“ nicht angegeben sein muss. Toleranzintervall: [€ 16.700; € 16.720]"
+        }
+      ],
+      "id": "2016-ht-t2-03-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie (für das Jahr 2015) eine Formel für das Jahresnettoeinkommen "
+        },
+        {
+          "t": "math",
+          "v": "N"
+        },
+        {
+          "t": "text",
+          "v": " einer Person an, deren steuerpflichtiges Jahreseinkommen "
+        },
+        {
+          "t": "math",
+          "v": "E"
+        },
+        {
+          "t": "text",
+          "v": " zwischen € 11.000 und € 25.000 liegt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "E-(E-11000)*0.365",
+        "vars": [
+          "E"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Formeln: "
+            },
+            {
+              "t": "math",
+              "v": "N=E-(E-11\\,000)\\cdot0{,}365"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n"
+            },
+            {
+              "t": "math",
+              "v": "N=11\\,000+(E-11\\,000)\\cdot0{,}635"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe einer korrekten Formel für das Jahresnettoeinkommen. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "id": "2016-ht-t2-03-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der sogenannte Durchschnittssteuersatz ist wie folgt definiert:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\text{Durchschnittssteuersatz}=\\frac{\\text{gezahlte Einkommensteuer}}{\\text{steuerpflichtiges Jahreseinkommen}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nJemand bezog im Jahr 2015 ein steuerpflichtiges Jahreseinkommen von € 40.000.\nBerechnen Sie für diese Person für das Jahr 2015 den Durchschnittssteuersatz!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{14\\,000\\cdot0{,}365+15\\,000\\cdot0{,}432}{40\\,000}\\approx0{,}29"
+          },
+          {
+            "t": "text",
+            "v": ", d. h. ca. 29 % Durchschnittssteuersatz"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Toleranzintervall: [0,28; 0,29] bzw. [28 %; 29 %]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{14\\,000\\cdot0{,}365+15\\,000\\cdot0{,}432}{40\\,000}\\approx0{,}29"
+            },
+            {
+              "t": "text",
+              "v": ", d. h. ca. 29 % Durchschnittssteuersatz"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,28; 0,29] bzw. [28 %; 29 %]"
+        }
+      ],
+      "id": "2016-ht-t2-03-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der sogenannte Durchschnittssteuersatz ist wie folgt definiert:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\text{Durchschnittssteuersatz}=\\frac{\\text{gezahlte Einkommensteuer}}{\\text{steuerpflichtiges Jahreseinkommen}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\nJemand bezog im Jahr 2015 ein steuerpflichtiges Jahreseinkommen von € 40.000.\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Interpretieren Sie unter Verwendung der gegebenen Grafik, was für diese Person mit dem Term "
+        },
+        {
+          "t": "math",
+          "v": "7\\,000\\cdot0{,}115+7\\,000\\cdot0{,}015+6\\,000\\cdot0{,}082+9\\,000\\cdot0{,}012"
+        },
+        {
+          "t": "text",
+          "v": " berechnet wird!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mit dem Term wird die Steuerersparnis (in Euro) dieser Person durch das neue Steuermodell (im Vergleich zum 2015 gültigen Modell) berechnet."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) richtige Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mit dem Term wird die Steuerersparnis (in Euro) dieser Person durch das neue Steuermodell (im Vergleich zum 2015 gültigen Modell) berechnet."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Interpretation."
+        }
+      ],
+      "id": "2016-ht-t2-03-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Jemand behauptet:\n(1) „Bei einem steuerpflichtigen Jahreseinkommen von € 100.000 tritt trotz der Gesetzesänderung keine Veränderung hinsichtlich der abzuführenden Einkommensteuer ein.“\n(2) „Der Steuersatz für steuerpflichtige Jahreseinkommen von über € 11.000 bis € 18.000 ändert sich um 11,5 Prozent.“\n\nSind diese Behauptungen richtig? Formulieren Sie jeweils eine mathematisch begründete Antwort!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Beide Behauptungen sind falsch.\n\n(1) Auch Bezieher/innen von einem steuerpflichtigen Jahreseinkommen von € 100.000 bezahlen beim neuen Steuermodell weniger Einkommensteuer, nämlich für die Einkommensanteile unter € 90.000.\n\n(2) Tatsächlich ändert sich der Steuersatz für das steuerpflichtige Jahreseinkommen um 11,5 Prozentpunkte, das sind "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{11{,}5}{36{,}5}\\approx31{,}5"
+          },
+          {
+            "t": "text",
+            "v": " Prozent."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) richtige Begründung, warum die Behauptung (1) falsch ist. Ein Punkt für eine (sinngemäß) richtige Begründung, warum die Behauptung (2) falsch ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 2,
+      "scoring": {
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Behauptung (1) falsch mit korrekter Begründung.",
+            "points": 1
+          },
+          {
+            "desc": "Behauptung (2) falsch mit korrekter Begründung.",
+            "points": 1
+          }
+        ]
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Beide Behauptungen sind falsch.\n\n(1) Auch Bezieher/innen von einem steuerpflichtigen Jahreseinkommen von € 100.000 bezahlen beim neuen Steuermodell weniger Einkommensteuer, nämlich für die Einkommensanteile unter € 90.000.\n\n(2) Tatsächlich ändert sich der Steuersatz für das steuerpflichtige Jahreseinkommen um 11,5 Prozentpunkte, das sind "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{11{,}5}{36{,}5}\\approx31{,}5"
+            },
+            {
+              "t": "text",
+              "v": " Prozent."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Begründung, warum die Behauptung (1) falsch ist. Ein Punkt für eine (sinngemäß) richtige Begründung, warum die Behauptung (2) falsch ist."
+        }
+      ],
+      "id": "2016-ht-t2-03-c1"
+    },
+    {
+      "label": "d1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Bundesministerium für Finanzen gibt auf seiner Website die Berechnung der Einkommensteuer 2015 (ESt) für die Einkommensklasse über € 25.000 bis € 60.000 steuerpflichtiger Jahreseinkommen mit folgender Formel an:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{ESt}=\\frac{(\\text{steuerpflichtiges Jahreseinkommen}-25\\,000)\\cdot15\\,125}{35\\,000}+5\\,110"
+        },
+        {
+          "t": "text",
+          "v": "\n\nDeuten Sie den Faktor "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{15\\,125}{35\\,000}"
+        },
+        {
+          "t": "text",
+          "v": " und den Summanden "
+        },
+        {
+          "t": "math",
+          "v": "5\\,110"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf die Berechnung der Einkommensteuer!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\frac{15\\,125}{35\\,000}\\approx0{,}432"
+          },
+          {
+            "t": "text",
+            "v": " ist der Steuersatz für diese Einkommensklasse.\n5 110 ist die Einkommensteuer für die ersten € 25.000 an steuerpflichtigem Jahreseinkommen."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) richtige Interpretation beider Zahlenwerte."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{15\\,125}{35\\,000}\\approx0{,}432"
+            },
+            {
+              "t": "text",
+              "v": " ist der Steuersatz für diese Einkommensklasse.\n5 110 ist die Einkommensteuer für die ersten € 25.000 an steuerpflichtigem Jahreseinkommen."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) richtige Interpretation beider Zahlenwerte."
+        }
+      ],
+      "id": "2016-ht-t2-03-d1"
+    },
+    {
+      "label": "d2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Das Bundesministerium für Finanzen gibt auf seiner Website die Berechnung der Einkommensteuer 2015 (ESt) für die Einkommensklasse über € 25.000 bis € 60.000 steuerpflichtiger Jahreseinkommen mit folgender Formel an:\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{ESt}=\\frac{(\\text{steuerpflichtiges Jahreseinkommen}-25\\,000)\\cdot15\\,125}{35\\,000}+5\\,110"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel zur Berechnung der Einkommensteuer ("
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{ESt}_{\\mathrm{neu}}"
+        },
+        {
+          "t": "text",
+          "v": ") für ein steuerpflichtiges Jahreseinkommen von über € 31.000 bis € 60.000 für das ab 2016 gültige Steuermodell auf!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\mathrm{ESt}_{\\mathrm{neu}}="
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\mathrm{ESt}_{\\mathrm{neu}}=(\\text{steuerpflichtiges Jahreseinkommen}-31\\,000)\\cdot0{,}42+6\\,300"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\mathrm{ESt}_{\\mathrm{neu}}=(\\text{steuerpflichtiges Jahreseinkommen}-31\\,000)\\cdot0{,}42+6\\,300"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "id": "2016-ht-t2-03-d2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Erwerbstätige Personen müssen einen Teil ihrer Einkünfte in Form von Einkommensteuer an den Staat abführen. Im Steuermodell für das Kalenderjahr 2015 unterscheidet man vier Steuerklassen mit den sogenannten Steuersätzen: 0 %, 36,5 %, 43,2 % und 50 %.\n\nModellhaft wird angenommen:\nJahresnettoeinkommen = steuerpflichtiges Jahreseinkommen – Einkommensteuer\n\nDie Berechnung der Einkommensteuer bezieht sich auf das steuerpflichtige Jahreseinkommen und unterliegt für das Kalenderjahr 2015 den folgenden Regeln:\n\n• Einkommen bzw. Einkommensteile bis € 11.000 sind steuerfrei.\n• Einkommensteile über € 11.000 bis € 25.000 werden mit 36,5 % besteuert. Das heißt: Liegt das Einkommen über € 11.000, sind die ersten verdienten € 11.000 steuerfrei, die darüber hinausgehenden Einkommensteile bis € 25.000 werden mit 36,5 % besteuert.\n• Einkommensteile über € 25.000 bis € 60.000 werden mit 43,2 % (genau: "
+    },
+    {
+      "t": "math",
+      "v": "43\\frac3{14}"
+    },
+    {
+      "t": "text",
+      "v": " %) besteuert.\n• Einkommensteile über € 60.000 werden mit 50 % besteuert.\n\nAm 7. Juli 2015 wurde vom Nationalrat das Steuerreformgesetz 2015/2016 beschlossen. Das ab dem 1. Jänner 2016 gültige Steuermodell ist ein Modell mit sieben Steuersätzen.\nDas 2015 gültige Modell (mit vier Steuerklassen) und das ab 2016 gültige Modell (mit sieben Steuerklassen) sind in der nachstehenden Grafik dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-03-tax-rates.png",
+      "alt": "Originaldiagramm der progressiven Steuersätze2015und2016"
+    },
+    {
+      "t": "text",
+      "v": "\nDatenquelle: http://www.parlament.gv.at/ZUSD/BUDGET/BD_-_Steuerreform_2015_und_2016.pdf, S. 15 [11.11.2015]"
+    }
+  ]
 }

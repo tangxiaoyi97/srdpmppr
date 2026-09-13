@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-09",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -24,12 +24,165 @@
     {
       "id": "2015-nt1-t1-09-a",
       "label": "a",
-      "format": "",
+      "format": "1 aus 6",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 9 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=13",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "other",
+          "id": "Aufgabenpool 1_437 (offiziell adaptierte Fassung)",
+          "baseId": "1_437",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/145/Potenzfunktion.pdf",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=-x^{-2}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Gleichung angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine der nachstehenden Gleichungen ist eine Gleichung dieser Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": ".\nKreuzen Sie die zutreffende Gleichung an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "f(x)=2x^{-4}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=-x^{-2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=-x^2"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=-x^{-1}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=x^{-2}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "f(x)=x^{-1}"
+            }
+          ]
+        ],
+        "correct": [
+          1
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 9 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=13",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "other",
+      "id": "Aufgabenpool 1_437 (offiziell adaptierte Fassung)",
+      "baseId": "1_437",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/145/Potenzfunktion.pdf",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In der nachstehenden Abbildung ist der Graph einer Potenzfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " vom Typ "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=a\\cdot x^z"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "a\\neq0"
+    },
+    {
+      "t": "text",
+      "v": "; "
+    },
+    {
+      "t": "math",
+      "v": "z\\in\\mathbb{Z}"
+    },
+    {
+      "t": "text",
+      "v": " dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-09-graph.png",
+      "alt": "Graph einer Potenzfunktion mit zwei negativen, zur y-Achse symmetrischen Ästen"
+    }
+  ]
 }

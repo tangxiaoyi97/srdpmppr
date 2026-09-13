@@ -1,6 +1,6 @@
 {
   "id": "2026-ht-t1-20",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1610a",
+          "id": "1_1610",
           "baseId": "1_1610",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1130/1_1610_Falsche%20Alarme_PT1_26.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -85,12 +85,12 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "anteil",
-            "value": 0.24489795918367346,
-            "tol": 0.001
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen des relativen Anteils. Der Anteil beträgt 12/49 = 0,244897959… . Die Angabe von 24,48… % ist ebenfalls als richtig zu werten. Mathematisch gleichwertige Brüche und angemessen gerundete Dezimal- oder Prozentangaben sind anzuerkennen."
           }
         ]
       },

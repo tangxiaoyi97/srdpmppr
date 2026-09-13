@@ -1,6 +1,6 @@
 {
   "id": "2025-het-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -130,24 +130,76 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Die Polynomfunktion f ist durch die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=-0{,}0002\\cdot x^{3}+0{,}013\\cdot x^{2}+c\\cdot x+d"
+        },
+        {
+          "t": "text",
+          "v": " mit c, d ∈ ℝ⁺ gegeben.\n\nErmitteln Sie c und d."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Das Grundstück soll in zwei Grundstücke mit gleich großem Flächeninhalt geteilt werden. Die Teilungslinie verläuft parallel zur senkrechten Achse durch die Stelle x₀.\n\nErmitteln Sie x₀."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "x0",
-            "label": "x₀",
-            "value": 27.43,
-            "tol": 0.5
+            "t": "math",
+            "v": "\\int_{0}^{50} f(x)\\,dx=1\\,516{,}66\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_{0}^{x_{0}} f(x)\\,dx=\\dfrac{1\\,516{,}66\\ldots}{2}"
+          },
+          {
+            "t": "text",
+            "v": "\nBerechnung mittels Technologieeinsatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "x_{0}=27{,}43\\ldots"
+          },
+          {
+            "t": "math",
+            "v": "x_{0}=27{,}43\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "a2) Ein Punkt für das richtige Ermitteln von x₀."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Teilungsstellex₀=27,43…m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -301,20 +353,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "alpha",
-            "label": "α",
-            "value": 46.67,
-            "tol": 0.5,
-            "unit": "°"
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\dfrac{2{,}5-2\\cdot\\cos(80^\\circ)}{4-2\\cdot\\sin(80^\\circ)}"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=46{,}67\\ldots^{\\circ}"
+          },
+          {
+            "t": "text",
+            "v": "b2) Ein Punkt für das richtige Berechnen von α."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Winkelα=46,67…°.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

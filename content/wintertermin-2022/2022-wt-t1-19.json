@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t1-19",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -11,7 +11,7 @@
     "nr": 19,
     "file": "[2022w1]t1-19-ws.pdf"
   },
-  "title": "Bei einem Test sollen 16 Schülerinnen",
+  "title": "Vokabeltest",
   "rights": {
     "thirdPartyMaterial": false
   },
@@ -19,37 +19,31 @@
     "questionPdf": "assets/pdf/wintertermin-2022/[2022w1]t1-19-ws.pdf",
     "solutionPdf": "assets/pdf/wintertermin-2022/lo/[2022w1]t1-19-ws.pdf"
   },
-  "figures": [
-    {
-      "kind": "image",
-      "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-q.png",
-      "alt": "Säulendiagramm des Vokabeltests von 16 Schülerinnen und Schülern: Anzahl der korrekt übersetzten Vokabel (x von 0 bis 10) gegen Anzahl der Schülerinnen und Schüler. Säulenhöhen: 3→2, 4→3, 5→1, 6→4, 7→3, 8→2, 10→1."
-    }
-  ],
   "parts": [
     {
       "id": "2022-wt-t1-19-a",
       "label": "a",
       "format": "1 aus 6",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5292&token=67d998258d11a712e7d17b4dc462fc8cd3d61640#page=21",
+          "verifiedAt": "2026-09-13"
+        },
+        {
+          "system": "aufgabenpool",
+          "id": "1_896",
+          "baseId": "1_896",
+          "url": "https://www.aufgabenpool.at/amn/Typ-1/698/Vokabeltest.pdf",
+          "license": "CC-BY-4.0",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
       "solution": [
         {
-          "steps": [
-            {
-              "t": "text",
-              "v": "Geordnete Datenliste (16 Werte): 3, 3, 4, 4, 4, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 10.\nMinimum = 3, Maximum = 10; Median = "
-            },
-            {
-              "t": "math",
-              "v": "\\tfrac{6+6}{2}=6"
-            },
-            {
-              "t": "text",
-              "v": "; unteres Quartil = 4, oberes Quartil = 7."
-            }
-          ],
           "result": [
             {
               "t": "text",
@@ -72,6 +66,10 @@
         {
           "t": "text",
           "v": "Kreuzen Sie denjenigen Boxplot an, der die Daten aus dem Säulendiagramm passend wiedergibt."
+        },
+        {
+          "t": "text",
+          "v": " [1 aus 6]"
         }
       ],
       "answer": {
@@ -79,38 +77,44 @@
         "options": [
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 3, unteres Quartil 4, Median 6, oberes Quartil 7, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt1.png",
+              "alt": "Boxplot 1 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 3, unteres Quartil 3, Median 6, oberes Quartil 10, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt2.png",
+              "alt": "Boxplot 2 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 3, unteres Quartil 4, Median 6, oberes Quartil 8, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt3.png",
+              "alt": "Boxplot 3 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 3, unteres Quartil 5, Median 6, oberes Quartil 7, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt4.png",
+              "alt": "Boxplot 4 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 1, unteres Quartil 4, Median 5, oberes Quartil 7, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt5.png",
+              "alt": "Boxplot 5 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ],
           [
             {
-              "t": "text",
-              "v": "Boxplot: Minimum 0, unteres Quartil 0, Median 5, oberes Quartil 10, Maximum 10."
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2022/fig/2022-wt-t1-19-opt6.png",
+              "alt": "Boxplot 6 aus der ursprünglichen Auswahl, mit der Achse „Anzahl der korrekt übersetzten Vokabel“."
             }
           ]
         ],
@@ -126,5 +130,20 @@
       "points": 1
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=5292&token=67d998258d11a712e7d17b4dc462fc8cd3d61640#page=21",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "system": "aufgabenpool",
+      "id": "1_896",
+      "baseId": "1_896",
+      "url": "https://www.aufgabenpool.at/amn/Typ-1/698/Vokabeltest.pdf",
+      "license": "CC-BY-4.0",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
 }

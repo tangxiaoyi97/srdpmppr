@@ -1,6 +1,6 @@
 {
   "id": "2021-ht-t1-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_831a",
+          "id": "1_831",
           "baseId": "1_831",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/624/Kleidungsstueck.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -69,20 +69,35 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "betrag",
-            "label": "Geldbetrag",
-            "value": 7.54,
-            "tol": 0.01,
-            "unit": "€"
+            "t": "math",
+            "v": "49{,}9-\\dfrac{49{,}9}{1{,}178}=7{,}540\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Geldbetrag: rund € 7,54"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Berechnen des Geldbetrags."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für das richtige Berechnen des Geldbetrags.",
+            "points": 1
+          }
+        ]
       },
       "points": 1
     }

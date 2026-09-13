@@ -1,6 +1,6 @@
 {
   "id": "2022-het-t1-15",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1234a",
+          "id": "1_1234",
           "baseId": "1_1234",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/764/Erste%20Ableitung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,13 +67,26 @@
         }
       ],
       "answer": {
-        "kind": "expression",
-        "canonical": "2\\cdot a\\cdot k",
-        "vars": [
-          "a",
-          "k"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "g'(0)=2\\cdot a\\cdot k=f'(0)\\cdot a\\cdot k"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Aufstellen der Formel."
+          }
+        ]
       },
       "scoring": {
         "mode": "allOrNothing",

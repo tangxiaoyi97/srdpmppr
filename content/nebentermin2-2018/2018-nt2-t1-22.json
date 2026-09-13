@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-22",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,119 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 22 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=26",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_611a",
+          "id": "1_611",
           "baseId": "1_611",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/320/Wahrscheinlichkeit.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X\\ge2)=1-(P(X=0)+P(X=1))=0{,}27"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Wahrscheinlichkeit "
+        },
+        {
+          "t": "math",
+          "v": "P(X\\ge2)"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "P(X\\ge2)=1-(P(X=0)+P(X=1))=0{,}27"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 22 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=26",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_611",
       "baseId": "1_611",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/320/Wahrscheinlichkeit.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Zufallsvariable "
+    },
+    {
+      "t": "math",
+      "v": "X"
+    },
+    {
+      "t": "text",
+      "v": " hat den Wertebereich "
+    },
+    {
+      "t": "math",
+      "v": "\\{0,1,\\ldots,9,10\\}"
+    },
+    {
+      "t": "text",
+      "v": ".\nGegeben sind die beiden Wahrscheinlichkeiten "
+    },
+    {
+      "t": "math",
+      "v": "P(X=0)=0{,}35"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "P(X=1)=0{,}38"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

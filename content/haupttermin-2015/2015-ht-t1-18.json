@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,136 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_404a",
+          "id": "1_404",
           "baseId": "1_404",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/112/Integral%20einer%20Funktion%20f.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A=\\int_1^2 f(x)\\,\\mathrm dx-\\int_{-2}^1 f(x)\\,\\mathrm dx"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "A=\\int_{-2}^2|f(x)|\\,\\mathrm dx"
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Ausdruck für A, wobei äquivalente Darstellungen sowie Schreibweisen wie ∫₁² f dx − ∫₋₂¹ f dx und Schreibweisen ohne „dx“ (wie etwa ∫₁² f − ∫₋₂¹ f) ebenfalls als richtig zu werten sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie einen korrekten Ausdruck für "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe der Integralschreibweise an!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "A="
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "A=\\int_1^2 f(x)\\,\\mathrm dx-\\int_{-2}^1 f(x)\\,\\mathrm dx"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "A=\\int_{-2}^2|f(x)|\\,\\mathrm dx"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Ausdruck für A, wobei äquivalente Darstellungen sowie Schreibweisen wie ∫₁² f dx − ∫₋₂¹ f dx und Schreibweisen ohne „dx“ (wie etwa ∫₁² f − ∫₋₂¹ f) ebenfalls als richtig zu werten sind."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_404",
       "baseId": "1_404",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/112/Integral%20einer%20Funktion%20f.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen der Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": ". Alle Nullstellen sind ganzzahlig. Die Fläche, die vom Graphen der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und der x-Achse begrenzt wird, ist schraffiert dargestellt. "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet die Summe der beiden schraffierten Flächeninhalte."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t1-18-areas.png",
+      "alt": "Originalgraph mit den beiden schraffierten Flächen."
     }
   ]
 }

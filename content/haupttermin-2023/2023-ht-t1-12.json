@@ -1,6 +1,6 @@
 {
   "id": "2023-ht-t1-12",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "reviewed",
   "lang": "de",
   "source": {
@@ -14,7 +14,7 @@
   "title": "Windrad",
   "rights": {
     "thirdPartyMaterial": true,
-    "note": "Aufgabenpool \"*\": contains third-party copyrighted material (texts/images/audio) outside the pool's CC-BY licence — clarify rights before commercial redistribution."
+    "note": "Legacy thirdPartyMaterial flag is unverified. The Aufgabenpool \"*\" marker alone does not establish the presence of third-party material."
   },
   "assets": {
     "questionPdf": "assets/pdf/haupttermin-2023/[2023h1]t1-12-fa.pdf",
@@ -43,11 +43,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1279a",
+          "id": "1_1279",
           "baseId": "1_1279",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/818/1_1279_srdp_ma_Windrad_PT1_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -89,14 +89,14 @@
             "id": "rotordurchmesser",
             "label": "Rotordurchmesser",
             "value": 120,
-            "tol": 0.5,
+            "tol": 1e-09,
             "unit": "m"
           },
           {
             "id": "umlaufzeit",
             "label": "Zeit für eine volle Umdrehung",
             "value": 12,
-            "tol": 0.1,
+            "tol": 1e-09,
             "unit": "s"
           }
         ]

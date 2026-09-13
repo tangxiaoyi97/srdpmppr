@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,129 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_460a",
+          "id": "1_460",
           "baseId": "1_460",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/169/Eigenschaften%20von%20Polynomfunktionen%203%20Grades.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die keine lokale Extremstelle haben.\n\nEs gibt Polynomfunktionen 3. Grades, die genau zwei verschiedene reelle Nullstellen haben."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die beiden laut Lösungserwartung richtigen Antwortmöglichkeiten angekreuzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welche der folgenden Eigenschaften treffen für Polynomfunktionen 3. Grades zu?\nKreuzen Sie die beiden zutreffenden Antworten an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die keine lokale Extremstelle haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die keine Nullstelle haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die mehr als eine Wendestelle haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die keine Wendestelle haben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Es gibt Polynomfunktionen 3. Grades, die genau zwei verschiedene reelle Nullstellen haben."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_460",
       "baseId": "1_460",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/169/Eigenschaften%20von%20Polynomfunktionen%203%20Grades.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Eine Polynomfunktion 3. Grades hat allgemein die Form "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=ax^3+bx^2+cx+d"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "a,b,c,d\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "a\\ne0"
+    },
+    {
+      "t": "text",
+      "v": "."
     }
   ]
 }

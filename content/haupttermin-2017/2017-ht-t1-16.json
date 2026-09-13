@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-16",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -24,12 +24,171 @@
     {
       "id": "2017-ht-t1-16-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 16 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=20",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "g(t)=3\\cdot t^2+12\\cdot t+12"
+            },
+            {
+              "t": "text",
+              "v": "\n\noder:\n\n"
+            },
+            {
+              "t": "math",
+              "v": "g(t)=f'(t)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Gleichung der Funktion "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " an, die die momentane Änderungsrate der Wassertiefe des Gerinnes (in dm pro Tag) in Abhängigkeit von der Zeit "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "g(t)="
+        },
+        {
+          "t": "text",
+          "v": " ____________________"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "g(t)=3\\cdot t^2+12\\cdot t+12"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "g(t)=f'(t)"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Gleichungen sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 16 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=20",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Zur Vorbeugung vor Hochwässern wurde in einer Stadt ein Gerinne (Wasserlauf) angelegt.\n\nDie Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Wassertiefe dieses Gerinnes bei einer Hochwasserentwicklung in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " an einer bestimmten Messstelle für das Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;2]"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDie Gleichung der Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " lautet "
+    },
+    {
+      "t": "math",
+      "v": "f(t)=t^3+6\\cdot t^2+12\\cdot t+8"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t\\in[0;2]"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nDabei wird "
+    },
+    {
+      "t": "math",
+      "v": "f(t)"
+    },
+    {
+      "t": "text",
+      "v": " in dm und "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Tagen gemessen."
+    }
+  ]
 }

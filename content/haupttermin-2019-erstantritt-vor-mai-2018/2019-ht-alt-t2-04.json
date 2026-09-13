@@ -1,0 +1,1014 @@
+{
+  "id": "2019-ht-alt-t2-04",
+  "schemaVersion": 3,
+  "status": "converted",
+  "lang": "de",
+  "source": {
+    "suite": "haupttermin-2019-erstantritt-vor-mai-2018",
+    "year": 2019,
+    "term": "haupttermin",
+    "part": "t2",
+    "nr": 4,
+    "file": "[2019h1-alt]t2-4.pdf"
+  },
+  "title": "Körper mit rechteckigen Querschnittsflächen",
+  "rights": {
+    "thirdPartyMaterial": false
+  },
+  "assets": {
+    "questionPdf": "assets/pdf/haupttermin-2019-erstantritt-vor-mai-2018/[2019h1-alt]t2-4.pdf",
+    "solutionPdf": "assets/pdf/haupttermin-2019-erstantritt-vor-mai-2018/lo/[2019h1-alt]t2-4.pdf"
+  },
+  "figures": [],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehenden Abbildungen 1 und 2 stellen einen Körper mit ebenen Seitenflächen im Schrägriss bzw. eine Schnittfläche dar."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2019-erstantritt-vor-mai-2018/fig/2019-ht-alt-t2-04-q.png",
+      "alt": "Abbildung 1: Schrägriss des Körpers. Abbildung 2: Schnittfläche IJKL mit Winkel α."
+    },
+    {
+      "t": "text",
+      "v": "Die vordere Seitenfläche "
+    },
+    {
+      "t": "math",
+      "v": "ABFE"
+    },
+    {
+      "t": "text",
+      "v": " steht normal auf die horizontale Grundfläche "
+    },
+    {
+      "t": "math",
+      "v": "ABCD"
+    },
+    {
+      "t": "text",
+      "v": " und auf die horizontale Deckfläche "
+    },
+    {
+      "t": "math",
+      "v": "EFGH"
+    },
+    {
+      "t": "text",
+      "v": ", während die hintere Seitenfläche "
+    },
+    {
+      "t": "math",
+      "v": "DCGH"
+    },
+    {
+      "t": "text",
+      "v": " zur Grundfläche unter dem Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "0^\\circ<\\alpha<90^\\circ"
+    },
+    {
+      "t": "text",
+      "v": ") geneigt ist.\n\nDie beiden Seitenflächen "
+    },
+    {
+      "t": "math",
+      "v": "ADHE"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "BCGF"
+    },
+    {
+      "t": "text",
+      "v": " weisen gegenüber der Grundfläche den gleichen Neigungswinkel "
+    },
+    {
+      "t": "math",
+      "v": "\\beta"
+    },
+    {
+      "t": "text",
+      "v": " (mit "
+    },
+    {
+      "t": "math",
+      "v": "\\beta\\approx76^\\circ"
+    },
+    {
+      "t": "text",
+      "v": ") auf.\n\nDie horizontalen Querschnittsflächen des Körpers sind in jeder Höhe rechteckig. Die Längen "
+    },
+    {
+      "t": "math",
+      "v": "a(h)"
+    },
+    {
+      "t": "text",
+      "v": " und die Breiten "
+    },
+    {
+      "t": "math",
+      "v": "b(h)"
+    },
+    {
+      "t": "text",
+      "v": " dieser Rechtecke ändern sich linear in Abhängigkeit von der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": ". Die Grundfläche hat eine Länge von 10 cm und eine Breite von 6 cm, die Deckfläche hat eine Länge von 20 cm und eine Breite von 3 cm. Die Höhe des Körpers beträgt 20 cm."
+    }
+  ],
+  "parts": [
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "Q:[0;20]\\to\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Größe der Querschnittsfläche "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " (mit "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)"
+        },
+        {
+          "t": "text",
+          "v": " in cm², "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in cm).\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)=s\\cdot h^2+1{,}5\\cdot h+t"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "s,t\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBestimmen Sie die Werte von "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "Q(0)=60\\Rightarrow t=60"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "Q(20)=60\\Rightarrow60=400\\cdot s+90\\Rightarrow s=-\\frac3{40}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe der beiden richtigen Werte.\nToleranzintervall für s: [−0,08; −0,07]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "Q(0)=60\\Rightarrow t=60"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "Q(20)=60\\Rightarrow60=400\\cdot s+90\\Rightarrow s=-\\frac3{40}"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden richtigen Werte.\nToleranzintervall für s: [−0,08; −0,07]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "Q:[0;20]\\to\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Größe der Querschnittsfläche "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)"
+        },
+        {
+          "t": "text",
+          "v": " in Abhängigkeit von der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " (mit "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)"
+        },
+        {
+          "t": "text",
+          "v": " in cm², "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in cm).\n\nEs gilt: "
+        },
+        {
+          "t": "math",
+          "v": "Q(h)=s\\cdot h^2+1{,}5\\cdot h+t"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "s,t\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie das Volumen des Körpers und geben Sie das Ergebnis inklusive Einheit an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "V=\\int_0^{20}Q(h)\\,\\mathrm dh=-\\frac1{40}\\cdot20^3+0{,}75\\cdot20^2+60\\cdot20=1\\,300\\,\\mathrm{cm}^3"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung unter Angabe einer richtigen Einheit.\nToleranzintervall: [1 280 cm³; 1 320 cm³]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "V=\\int_0^{20}Q(h)\\,\\mathrm dh=-\\frac1{40}\\cdot20^3+0{,}75\\cdot20^2+60\\cdot20=1\\,300\\,\\mathrm{cm}^3"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung unter Angabe einer richtigen Einheit.\nToleranzintervall: [1 280 cm³; 1 320 cm³]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die lokale Änderungsrate der Breite "
+        },
+        {
+          "t": "math",
+          "v": "b(h)"
+        },
+        {
+          "t": "text",
+          "v": " nimmt für jedes "
+        },
+        {
+          "t": "math",
+          "v": "h\\in[0;20]"
+        },
+        {
+          "t": "text",
+          "v": " einen konstanten Wert "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": " an.\n\nBerechnen Sie "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "c=\\frac{3-6}{20}=-\\frac3{20}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung.\nToleranzintervall: [−0,2; −0,1]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "c=\\frac{3-6}{20}=-\\frac3{20}"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung.\nToleranzintervall: [−0,2; −0,1]"
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die lokale Änderungsrate der Breite "
+        },
+        {
+          "t": "math",
+          "v": "b(h)"
+        },
+        {
+          "t": "text",
+          "v": " nimmt für jedes "
+        },
+        {
+          "t": "math",
+          "v": "h\\in[0;20]"
+        },
+        {
+          "t": "text",
+          "v": " einen konstanten Wert "
+        },
+        {
+          "t": "math",
+          "v": "c\\in\\mathbb R"
+        },
+        {
+          "t": "text",
+          "v": " an."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Beschreiben Sie den Zusammenhang zwischen "
+        },
+        {
+          "t": "math",
+          "v": "c"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "\\alpha"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe einer Gleichung!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=-\\frac1c"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=-\\frac1c"
+            }
+          ],
+          "note": "Ein Punkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "competencies": [
+        {
+          "code": "FA 2.1",
+          "source": "printed",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Länge "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " in der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in cm.\n\nⒶ Geben Sie eine Funktionsgleichung von "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "a(h)=\\frac{a(20)-a(0)}{20}\\cdot h+a(0)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "a(h)=\\frac12\\cdot h+10"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Ausgleichspunkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten.\nGrundkompetenz: FA 2.1"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "a(h)=\\frac12\\cdot h+10"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine richtige Gleichung. Äquivalente Gleichungen sind als richtig zu werten.\nGrundkompetenz: FA 2.1",
+          "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "a(h)=\\frac{a(20)-a(0)}{20}\\cdot h+a(0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 28 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "id": "2019-ht-alt-t2-04-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "figures": [],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "a"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Länge "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " in der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a(h)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in cm."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ändert man den Winkel "
+        },
+        {
+          "t": "math",
+          "v": "\\beta"
+        },
+        {
+          "t": "text",
+          "v": " auf 45° und lässt die Länge der Grundlinie "
+        },
+        {
+          "t": "math",
+          "v": "AB"
+        },
+        {
+          "t": "text",
+          "v": " und die Körperhöhe unverändert, so erhält man eine neue vordere Seitenfläche "
+        },
+        {
+          "t": "math",
+          "v": "ABF_1E_1"
+        },
+        {
+          "t": "text",
+          "v": ", bei der die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "a_1"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "a_1(h)=2\\cdot h+10"
+        },
+        {
+          "t": "text",
+          "v": " die Länge "
+        },
+        {
+          "t": "math",
+          "v": "a_1(h)"
+        },
+        {
+          "t": "text",
+          "v": " in der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt ("
+        },
+        {
+          "t": "math",
+          "v": "a_1(h)"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " in cm).\n\nGeben Sie das Verhältnis "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^{20}a_1(h)\\,\\mathrm dh:\\int_0^{20}a(h)\\,\\mathrm dh"
+        },
+        {
+          "t": "text",
+          "v": " an und interpretieren Sie das Ergebnis in Bezug auf die neue vordere Seitenfläche "
+        },
+        {
+          "t": "math",
+          "v": "ABF_1E_1"
+        },
+        {
+          "t": "text",
+          "v": " und die ursprüngliche vordere Seitenfläche "
+        },
+        {
+          "t": "math",
+          "v": "ABFE"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{20}a_1(h)\\,\\mathrm dh=\\int_0^{20}(2\\cdot h+10)\\,\\mathrm dh=600"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{20}a(h)\\,\\mathrm dh=\\int_0^{20}\\left(\\frac12\\cdot h+10\\right)\\,\\mathrm dh=300"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_0^{20}a_1(h)\\,\\mathrm dh:\\int_0^{20}a(h)\\,\\mathrm dh=600:300=2:1"
+          },
+          {
+            "t": "text",
+            "v": "\nDas Verhältnis des Flächeninhalts der neuen Seitenwand "
+          },
+          {
+            "t": "math",
+            "v": "ABF_1E_1"
+          },
+          {
+            "t": "text",
+            "v": " zum Flächeninhalt der ursprünglichen Seitenwand "
+          },
+          {
+            "t": "math",
+            "v": "ABFE"
+          },
+          {
+            "t": "text",
+            "v": " ist "
+          },
+          {
+            "t": "math",
+            "v": "2:1"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine richtige Interpretation.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{20}a_1(h)\\,\\mathrm dh=\\int_0^{20}(2\\cdot h+10)\\,\\mathrm dh=600"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{20}a(h)\\,\\mathrm dh=\\int_0^{20}\\left(\\frac12\\cdot h+10\\right)\\,\\mathrm dh=300"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\int_0^{20}a_1(h)\\,\\mathrm dh:\\int_0^{20}a(h)\\,\\mathrm dh=600:300=2:1"
+            },
+            {
+              "t": "text",
+              "v": "\nDas Verhältnis des Flächeninhalts der neuen Seitenwand "
+            },
+            {
+              "t": "math",
+              "v": "ABF_1E_1"
+            },
+            {
+              "t": "text",
+              "v": " zum Flächeninhalt der ursprünglichen Seitenwand "
+            },
+            {
+              "t": "math",
+              "v": "ABFE"
+            },
+            {
+              "t": "text",
+              "v": " ist "
+            },
+            {
+              "t": "math",
+              "v": "2:1"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung und eine richtige Interpretation.\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    }
+  ],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 28 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3082&token=c43c36ddd4725fe756064982a0299981d2ed29ff#page=34",
+      "verifiedAt": "2026-09-13"
+    }
+  ]
+}

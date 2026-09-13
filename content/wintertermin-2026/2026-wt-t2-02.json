@@ -52,20 +52,43 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "alpha",
-            "label": "α",
-            "value": 81.86,
-            "tol": 0.1,
-            "unit": "°"
+            "t": "math",
+            "v": "y=2-7\\cdot x"
+          },
+          {
+            "t": "text",
+            "v": "; "
+          },
+          {
+            "t": "math",
+            "v": "\\arctan(-7)=-81{,}86\\ldots^\\circ"
+          },
+          {
+            "t": "math",
+            "v": "\\alpha=81{,}86\\ldots^\\circ"
+          },
+          {
+            "t": "text",
+            "v": "a1) Ein Punkt für das richtige Berechnen von α."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Spitzer Winkelα=81,86…°.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -97,7 +120,7 @@
     {
       "id": "2026-wt-t2-02-a2",
       "label": "a2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AG 3.5",
@@ -128,17 +151,12 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "v1",
-            "value": 7,
-            "tol": 1e-9
-          },
-          {
-            "id": "v2",
-            "value": 1,
-            "tol": 1e-9
+            "t": "text",
+            "v": "Ein Punkt für das Eintragen der beiden richtigen Zahlen. Ein Richtungsvektor ist (7, 1). Das k-Fache dieses Richtungsvektors (k ≠ 0), also (7k, k), ist ebenfalls als richtig zu werten. Beide Komponenten müssen zum selben von null verschiedenen Faktor gehören."
           }
         ]
       },
@@ -203,13 +221,13 @@
             "id": "wx",
             "label": "x_W",
             "value": 1,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "wy",
             "label": "y_W",
             "value": -5,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

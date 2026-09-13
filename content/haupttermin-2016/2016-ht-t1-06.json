@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -36,26 +36,214 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_488a",
+          "id": "1_488",
           "baseId": "1_488",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/197/Vermessung%20einer%20unzug%C3%A4nglichen%20Steilwand.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Höhe "
+            },
+            {
+              "t": "math",
+              "v": "h"
+            },
+            {
+              "t": "text",
+              "v": " ist ca. 2,02 m."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [2 m; 2,1 m]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise: "
+            },
+            {
+              "t": "math",
+              "v": "\\tan(\\alpha)=\\frac{\\overline{BC}}{e}\\Rightarrow\\overline{BC}\\approx2{,}67\\,\\mathrm{m}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\tan(\\beta)=\\frac{\\overline{BD}}{e}\\Rightarrow\\overline{BD}\\approx4{,}69\\,\\mathrm{m}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h=\\overline{BD}-\\overline{BC}\\approx2{,}02\\,\\mathrm{m}"
+            }
+          ]
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " des unzugänglichen Steilwandstücks in Metern!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise: "
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\alpha)=\\frac{\\overline{BC}}{e}\\Rightarrow\\overline{BC}\\approx2{,}67\\,\\mathrm{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tan(\\beta)=\\frac{\\overline{BD}}{e}\\Rightarrow\\overline{BD}\\approx4{,}69\\,\\mathrm{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h=\\overline{BD}-\\overline{BC}\\approx2{,}02\\,\\mathrm{m}"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Höhe "
+          },
+          {
+            "t": "math",
+            "v": "h"
+          },
+          {
+            "t": "text",
+            "v": " ist ca. 2,02 m."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „m“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [2 m; 2,1 m]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=774&token=a24ba2124ad43f62a489dd4ad6810d271e5557b1#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_488",
       "baseId": "1_488",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/197/Vermessung%20einer%20unzug%C3%A4nglichen%20Steilwand.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Steilwandstück "
+    },
+    {
+      "t": "math",
+      "v": "CD"
+    },
+    {
+      "t": "text",
+      "v": " mit der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h = \\overline{CD}"
+    },
+    {
+      "t": "text",
+      "v": " ist unzugänglich. Um "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " bestimmen zu können, werden die Entfernung "
+    },
+    {
+      "t": "math",
+      "v": "e = 6"
+    },
+    {
+      "t": "text",
+      "v": " Meter und zwei Winkel "
+    },
+    {
+      "t": "math",
+      "v": "\\alpha = 24^\\circ"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\beta = 38^\\circ"
+    },
+    {
+      "t": "text",
+      "v": " gemessen. Der Sachverhalt wird durch die nachstehende (nicht maßstabgetreue) Abbildung veranschaulicht."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t1-06-wall.png",
+      "alt": "Steilwand CD mit Höhe h; AB=e; Winkel α=BAC und β=BAD; rechter Winkel bei B."
     }
   ]
 }

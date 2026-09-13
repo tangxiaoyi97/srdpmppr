@@ -1,7 +1,7 @@
 {
   "id": "2017-ht-t1-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2017",
@@ -36,26 +36,174 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=9",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_561a",
+          "id": "1_561",
           "baseId": "1_561",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/270/Parallelit%C3%A4t%20von%20geraden.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "h_y=-2"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "h_z=-4"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Werte von h_y und h_z."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Koordinaten "
+        },
+        {
+          "t": "math",
+          "v": "h_y"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "h_z"
+        },
+        {
+          "t": "text",
+          "v": " des Richtungsvektors der Geraden "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " so, dass die Gerade "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " zur Geraden "
+        },
+        {
+          "t": "math",
+          "v": "g"
+        },
+        {
+          "t": "text",
+          "v": " parallel ist!"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "h_y",
+            "label": "h_y",
+            "value": -2,
+            "tol": 1e-09
+          },
+          {
+            "id": "h_z",
+            "label": "h_z",
+            "value": -4,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1950&token=e48982ce03934232ce45aae0aa1b5e83ea4c5b21#page=9",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_561",
       "baseId": "1_561",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/270/Parallelit%C3%A4t%20von%20geraden.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind folgende Parameterdarstellungen der Geraden "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": ":\n\n"
+    },
+    {
+      "t": "math",
+      "v": "g:\\ X=\\begin{pmatrix}1\\\\1\\\\1\\end{pmatrix}+t\\cdot\\begin{pmatrix}-3\\\\1\\\\2\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "t\\in\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": "\n\n"
+    },
+    {
+      "t": "math",
+      "v": "h:\\ X=\\begin{pmatrix}3\\\\1\\\\1\\end{pmatrix}+s\\cdot\\begin{pmatrix}6\\\\h_y\\\\h_z\\end{pmatrix}"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "s\\in\\mathbb R"
     }
   ]
 }

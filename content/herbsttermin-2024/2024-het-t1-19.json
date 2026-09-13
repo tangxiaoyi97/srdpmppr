@@ -1,6 +1,6 @@
 {
   "id": "2024-het-t1-19",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1382a",
+          "id": "1_1382",
           "baseId": "1_1382",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/938/1_1382_srdp_ma_Mailadressen_PT2_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -68,35 +68,64 @@
         {
           "t": "text",
           "v": "Ermitteln Sie p und q."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "p = \\underline{\\hspace{2cm}}"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "math",
+          "v": "q = \\underline{\\hspace{2cm}}"
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.43,
-            "tol": 0.005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
           },
           {
-            "id": "q",
-            "label": "q",
-            "value": 0.59,
-            "tol": 0.005
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "p = 0{,}43\\ (= 43\\,\\%)"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "q = 0{,}59\\ (= 59\\,\\%)"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das richtige Ermitteln von p und q, ein halber Punkt für nur einen richtigen Wert."
           }
         ]
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
+            "desc": "p = 0,43 oder 43 %.",
             "points": 0.5
           },
           {
-            "minCorrect": 2,
-            "points": 1
+            "desc": "q = 0,59 oder 59 %.",
+            "points": 0.5
           }
         ]
       },
@@ -116,7 +145,15 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Bei einer Umfrage wurden Jugendliche und Erwachsene dazu befragt, wie viele Mailadressen sie verwenden. Die Antworten sind in der nachstehenden Tabelle zusammengefasst.\n\n | höchstens 2 Mailadressen | mehr als 2 Mailadressen\nJugendliche | 205 | 295\nErwachsene | 935 | 565\n\nDer relative Anteil aller befragten Personen (Jugendliche und Erwachsene), die mehr als 2 Mailadressen verwenden, wird mit p bezeichnet.\n\nDer relative Anteil der befragten Jugendlichen, die mehr als 2 Mailadressen verwenden, wird mit q bezeichnet."
+      "v": "Bei einer Umfrage wurden Jugendliche und Erwachsene dazu befragt, wie viele Mailadressen sie verwenden. Die Antworten sind in der nachstehenden Tabelle zusammengefasst.\n\n"
+    },
+    {
+      "t": "math",
+      "v": "\\begin{array}{c|cc}&\\text{höchstens 2 Mailadressen}&\\text{mehr als 2 Mailadressen}\\\\\\hline\\text{Jugendliche}&205&295\\\\\\text{Erwachsene}&935&565\\end{array}"
+    },
+    {
+      "t": "text",
+      "v": "\n\nDer relative Anteil aller befragten Personen (Jugendliche und Erwachsene), die mehr als 2 Mailadressen verwenden, wird mit p bezeichnet.\n\nDer relative Anteil der befragten Jugendlichen, die mehr als 2 Mailadressen verwenden, wird mit q bezeichnet."
     }
   ]
 }

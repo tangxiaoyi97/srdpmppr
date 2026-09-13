@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-21",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -36,26 +36,87 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 21 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=25",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_634a",
+          "id": "1_634",
           "baseId": "1_634",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/355/Gummib%C3%A4ren.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "1-\\frac{30}{50}\\cdot\\frac{29}{49}\\cdot\\frac{28}{48}=\\frac{111}{140}\\approx79{,}3\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,79; 0,80] bzw. [79 %; 80 %]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie unter der Voraussetzung, dass jeder Gummibär mit der gleichen Wahrscheinlichkeit entnommen wird, die Wahrscheinlichkeit an, dass mindestens einer der drei entnommenen Gummibären rot ist!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "1-\\frac{30}{50}\\cdot\\frac{29}{49}\\cdot\\frac{28}{48}=\\frac{111}{140}\\approx79{,}3\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten.\nToleranzintervall: [0,79; 0,80] bzw. [79 %; 80 %]\nDie Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 21 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=25",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_634",
       "baseId": "1_634",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/355/Gummib%C3%A4ren.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Packung befinden sich 50 Gummibären. Von diesen sind 20 rot, 16 weiß und 14 grün.\nEin Kind entnimmt mit einem Griff drei Gummibären, ohne dabei auf die Farbe zu achten."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2025-wt-t1-18",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1442a",
+          "id": "1_1442",
           "baseId": "1_1442",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1004/1_1442_srdp_ma_Zeichnen%20eines%20Funktionsgraphen_PT3_24.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -53,20 +53,34 @@
               "v": "Jeder Graph einer abschnittsweise linearen Funktion, bei dem das bestimmte Integral im Intervall [0; 4] den Wert 6 ergibt, ist als richtig zu werten."
             }
           ],
-          "figures": [
+          "note": "Ein Punkt für das richtige Vervollständigen des Graphen von f.",
+          "steps": [
             {
-              "kind": "image",
+              "t": "fig",
+              "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-18-sol1.png",
+              "alt": "Erste offizielle Lösung: f(x)=x von 0 bis 2 und f(x)=2 von 2 bis 4."
+            },
+            {
+              "t": "text",
+              "v": "oder:\n"
+            },
+            {
+              "t": "fig",
               "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-18-sol.png",
               "alt": "Offizielle Lösungsabbildung zu „Zeichnen eines Funktionsgraphen“: die eingezeichnete bzw. markierte Lösung."
             }
-          ],
-          "note": "Ein Punkt für das richtige Vervollständigen des Graphen von f."
+          ]
         }
       ],
       "prompt": [
         {
           "t": "text",
           "v": "Vervollständigen Sie im Intervall [0; 4] einen möglichen Graphen von f."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-18-q.png",
+          "alt": "Koordinatensystem mit dem im Intervall [-4; 0] eingezeichneten Graphen der abschnittsweise linearen Funktion f; x von -4 bis 4, f(x) von -4 bis 4."
         }
       ],
       "answer": {
@@ -104,11 +118,6 @@
     {
       "t": "math",
       "v": "\\int_{-4}^{4} f(x)\\,\\mathrm{d}x=2{,}5"
-    },
-    {
-      "t": "fig",
-      "src": "assets/pdf/wintertermin-2025/fig/2025-wt-t1-18-q.png",
-      "alt": "Koordinatensystem mit dem im Intervall [-4; 0] eingezeichneten Graphen der abschnittsweise linearen Funktion f; x von -4 bis 4, f(x) von -4 bis 4."
     }
   ]
 }

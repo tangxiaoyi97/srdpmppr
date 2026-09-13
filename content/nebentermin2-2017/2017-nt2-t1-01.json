@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,95 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=5",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_541a",
+          "id": "1_541",
           "baseId": "1_541",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/250/Mehrwertsteuer%20f%C3%BCr%20H%C3%B6rb%C3%BCcher.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "y=\\frac x{1{,}19}\\cdot1{,}07"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel. Äquivalente Formeln sind als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie eine Formel auf, mit deren Hilfe für ein Hörbuch, das ursprünglich inklusive 19 % MWSt. € "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " kostete, der ermäßigte Preis € "
+        },
+        {
+          "t": "math",
+          "v": "y"
+        },
+        {
+          "t": "text",
+          "v": " inklusive 7 % MWSt. berechnet werden kann!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "y=\\frac x{1{,}19}\\cdot1{,}07"
+          },
+          {
+            "t": "text",
+            "v": ". Äquivalente Formeln sind richtig."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=5",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_541",
       "baseId": "1_541",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/250/Mehrwertsteuer%20f%C3%BCr%20H%C3%B6rb%C3%BCcher.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Seit 2015 werden in Deutschland bestimmte Hörbücher statt mit 19 % Mehrwertsteuer (MWSt.) mit dem ermäßigten Mehrwertsteuersatz von 7 % belegt."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,126 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_602a",
+          "id": "1_602",
           "baseId": "1_602",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/311/Radioaktiver%20Zerfall.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\frac{m(3)-m(0)}{m(0)}"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich der laut Lösungserwartung richtige Ausdruck angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Einer der nachstehend angeführten Ausdrücke beschreibt die relative Änderung der Menge des radioaktiven Stoffes innerhalb der ersten drei Tage.\nKreuzen Sie den zutreffenden Ausdruck an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "m(3)-m(0)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{m(3)-m(0)}3"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{m(0)}{m(3)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{m(3)-m(0)}{m(0)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\frac{m(3)-m(0)}{m(0)-m(3)}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "m'(3)"
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_602",
       "baseId": "1_602",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/311/Radioaktiver%20Zerfall.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der Wert "
+    },
+    {
+      "t": "math",
+      "v": "m(t)"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet die nach "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Tagen vorhandene Menge eines radioaktiven Stoffes."
     }
   ]
 }

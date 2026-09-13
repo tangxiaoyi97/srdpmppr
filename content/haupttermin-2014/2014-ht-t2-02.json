@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -22,14 +22,390 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-ht-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Führen Sie alle Möglichkeiten an, die zu einer Verdopplung des Drucks führen, wenn jeweils eine der Zustandsgrößen verändert wird und die anderen Größen konstant bleiben!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Volumen halbieren oder Temperatur verdoppeln."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Volumen halbieren oder Temperatur verdoppeln."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe beider Möglichkeiten, die zu einer Verdoppelung des Drucks führen, wobei beide Möglichkeiten angegeben werden müssen."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-02-a2",
+      "label": "a2",
+      "format": "2 aus 5",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Genau zwei der folgenden Graphen stellen die Abhängigkeit zweier Zustandsgrößen gemäß dem oben genannten Zusammenhang richtig dar. Kreuzen Sie diese beiden Graphen an!\nBeachten Sie: Die im Diagramm nicht angeführten Größen sind jeweils konstant."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-02-candidate-1.png",
+              "alt": "Erster Originalgraph: p(V)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-02-candidate-2.png",
+              "alt": "Zweiter Originalgraph: V(T)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-02-candidate-3.png",
+              "alt": "Dritter Originalgraph: p(V)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-02-candidate-4.png",
+              "alt": "Vierter Originalgraph: V(p)."
+            }
+          ],
+          [
+            {
+              "t": "fig",
+              "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t2-02-candidate-5.png",
+              "alt": "Fünfter Originalgraph: p(T)."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der erste und der fünfte Graph."
+            }
+          ],
+          "note": "Ein Punkt für das ausschließliche Ankreuzen der beiden richtigen Graphen."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei gleichbleibender Stoffmenge und gleichbleibender Temperatur kann das Volumen des Gases durch Änderung des Drucks variiert werden.\n\nBegründen Sie, warum die mittlere Änderung des Drucks in Abhängigkeit vom Volumen "
+        },
+        {
+          "t": "math",
+          "v": "\\frac{p(V_2)-p(V_1)}{V_2-V_1}"
+        },
+        {
+          "t": "text",
+          "v": " für jedes Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[V_1;V_2]"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "V_1\\ne V_2"
+        },
+        {
+          "t": "text",
+          "v": " ein negatives Ergebnis liefert!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Druck nimmt mit steigendem Volumen ab. Die Funktion ist streng monoton fallend. "
+          },
+          {
+            "t": "math",
+            "v": "p(V_2)<p(V_1)"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "V_2>V_1"
+          },
+          {
+            "t": "text",
+            "v": ": Daher ist der Quotient negativ."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Druck nimmt mit steigendem Volumen ab. Die Funktion ist streng monoton fallend. "
+            },
+            {
+              "t": "math",
+              "v": "p(V_2)<p(V_1)"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "V_2>V_1"
+            },
+            {
+              "t": "text",
+              "v": ": Daher ist der Quotient negativ."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=8",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei gleichbleibender Stoffmenge und gleichbleibender Temperatur kann das Volumen des Gases durch Änderung des Drucks variiert werden."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie jene Funktionsgleichung, die die momentane Änderung des Druckes in Abhängigkeit vom Volumen des Gases beschreibt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "expression",
+        "canonical": "-\\frac{n\\cdot R\\cdot T}{V^2}",
+        "vars": [
+          "n",
+          "R",
+          "T",
+          "V"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p'(V)=-\\frac{n\\cdot R\\cdot T}{V^2}"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die momentane Druckänderung."
+            }
+          ],
+          "note": "Ein Punkt für die Ermittlung der Funktionsgleichung für die Druckänderung. Die Schreibweise p′(V) muss nicht verwendet werden. Wichtig ist, dass der Funktionsterm stimmt und eine funktionale Schreibweise verwendet wird."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=8",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Formel "
+    },
+    {
+      "t": "math",
+      "v": "p\\cdot V=n\\cdot R\\cdot T"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt modellhaft den Zusammenhang zwischen dem Druck "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": ", dem Volumen "
+    },
+    {
+      "t": "math",
+      "v": "V"
+    },
+    {
+      "t": "text",
+      "v": ", der Stoffmenge "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " und der absoluten Temperatur "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " eines idealen Gases und wird thermische Zustandsgleichung idealer Gase genannt. "
+    },
+    {
+      "t": "math",
+      "v": "R"
+    },
+    {
+      "t": "text",
+      "v": " ist eine Konstante.\nDas Gas befindet sich in einem geschlossenen Gefäß, in dem die Zustandsgrößen "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "V"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " verändert werden können. Die Stoffmenge "
+    },
+    {
+      "t": "math",
+      "v": "n"
+    },
+    {
+      "t": "text",
+      "v": " bleibt konstant."
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t2-01",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -22,14 +22,1112 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-nt2-t2-01-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lässt sich die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "x^2+p\\cdot x+q=0"
+        },
+        {
+          "t": "text",
+          "v": " in der Form "
+        },
+        {
+          "t": "math",
+          "v": "(x-z)\\cdot\\left(x-\\frac1z\\right)=0"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "z\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "z\\ne0"
+        },
+        {
+          "t": "text",
+          "v": " schreiben, dann spricht man von einer reziproken quadratischen Gleichung.\n\nGeben Sie mithilfe von Gleichungen an, wie die Parameter "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "q"
+        },
+        {
+          "t": "text",
+          "v": " jeweils von "
+        },
+        {
+          "t": "math",
+          "v": "z"
+        },
+        {
+          "t": "text",
+          "v": " abhängen!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "p=-\\left(\\frac1z+z\\right)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "q=\\frac1z\\cdot z=1"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "q"
+          },
+          {
+            "t": "text",
+            "v": " ist somit unabhängig von "
+          },
+          {
+            "t": "math",
+            "v": "z"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe beider Parameter p und q in Abhängigkeit von z. Äquivalente Gleichungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "p=-\\left(\\frac1z+z\\right)"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "q=\\frac1z\\cdot z=1"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "q"
+            },
+            {
+              "t": "text",
+              "v": " ist somit unabhängig von "
+            },
+            {
+              "t": "math",
+              "v": "z"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe beider Parameter p und q in Abhängigkeit von z. Äquivalente Gleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "id": "2016-nt2-t2-01-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Lässt sich die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "x^2+p\\cdot x+q=0"
+        },
+        {
+          "t": "text",
+          "v": " in der Form "
+        },
+        {
+          "t": "math",
+          "v": "(x-z)\\cdot\\left(x-\\frac1z\\right)=0"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "z\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "z\\ne0"
+        },
+        {
+          "t": "text",
+          "v": " schreiben, dann spricht man von einer reziproken quadratischen Gleichung.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Bestimmen Sie die Werte für "
+        },
+        {
+          "t": "math",
+          "v": "z"
+        },
+        {
+          "t": "text",
+          "v": ", für die die reziproke quadratische Gleichung genau eine Lösung besitzt. Geben Sie für jeden dieser Werte von "
+        },
+        {
+          "t": "math",
+          "v": "z"
+        },
+        {
+          "t": "text",
+          "v": " jeweils die lokalen Minimumstellen von "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die reziproke quadratische Gleichung hat genau eine Lösung, wenn "
+          },
+          {
+            "t": "math",
+            "v": "z=1"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "z=-1"
+          },
+          {
+            "t": "text",
+            "v": " ist.\nMinimumstelle für "
+          },
+          {
+            "t": "math",
+            "v": "z=1"
+          },
+          {
+            "t": "text",
+            "v": ": bei "
+          },
+          {
+            "t": "math",
+            "v": "x=1"
+          },
+          {
+            "t": "text",
+            "v": "\nMinimumstelle für "
+          },
+          {
+            "t": "math",
+            "v": "z=-1"
+          },
+          {
+            "t": "text",
+            "v": ": bei "
+          },
+          {
+            "t": "math",
+            "v": "x=-1"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe der richtigen Werte von z und der jeweils richtigen Minimumstelle."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die reziproke quadratische Gleichung hat genau eine Lösung, wenn "
+            },
+            {
+              "t": "math",
+              "v": "z=1"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "z=-1"
+            },
+            {
+              "t": "text",
+              "v": " ist.\nMinimumstelle für "
+            },
+            {
+              "t": "math",
+              "v": "z=1"
+            },
+            {
+              "t": "text",
+              "v": ": bei "
+            },
+            {
+              "t": "math",
+              "v": "x=1"
+            },
+            {
+              "t": "text",
+              "v": "\nMinimumstelle für "
+            },
+            {
+              "t": "math",
+              "v": "z=-1"
+            },
+            {
+              "t": "text",
+              "v": ": bei "
+            },
+            {
+              "t": "math",
+              "v": "x=-1"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der richtigen Werte von z und der jeweils richtigen Minimumstelle."
+        }
+      ],
+      "id": "2016-nt2-t2-01-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wählt man in der gegebenen Funktionsgleichung den Wert "
+        },
+        {
+          "t": "math",
+          "v": "q=-1"
+        },
+        {
+          "t": "text",
+          "v": ", dann erhält man eine Polynomfunktion zweiten Grades "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=x^2+p\\cdot x-1"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nⒶ Begründen Sie rechnerisch, warum die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=0"
+        },
+        {
+          "t": "text",
+          "v": " genau zwei verschiedene Lösungen in "
+        },
+        {
+          "t": "math",
+          "v": "\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " haben muss!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "x^2+p\\cdot x-1=0\\Rightarrow x_{1,2}=-\\frac p2\\pm\\sqrt{\\frac{p^2}4+1}"
+          },
+          {
+            "t": "text",
+            "v": "\nDa der Ausdruck "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{p^2}4"
+          },
+          {
+            "t": "text",
+            "v": " für alle "
+          },
+          {
+            "t": "math",
+            "v": "p\\in\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": " größer oder gleich null ist, ist der Ausdruck unter der Wurzel (die Diskriminante) positiv. Somit gibt es genau zwei Lösungen in "
+          },
+          {
+            "t": "math",
+            "v": "\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für eine korrekte rechnerische Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "x^2+p\\cdot x-1=0\\Rightarrow x_{1,2}=-\\frac p2\\pm\\sqrt{\\frac{p^2}4+1}"
+            },
+            {
+              "t": "text",
+              "v": "\nDa der Ausdruck "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{p^2}4"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "p\\in\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": " größer oder gleich null ist, ist der Ausdruck unter der Wurzel (die Diskriminante) positiv. Somit gibt es genau zwei Lösungen in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für eine korrekte rechnerische Begründung."
+        }
+      ],
+      "id": "2016-nt2-t2-01-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Wählt man in der gegebenen Funktionsgleichung den Wert "
+        },
+        {
+          "t": "math",
+          "v": "q=-1"
+        },
+        {
+          "t": "text",
+          "v": ", dann erhält man eine Polynomfunktion zweiten Grades "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=x^2+p\\cdot x-1"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Begründen Sie, warum die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " eine positive und eine negative Nullstelle haben muss!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Begründungen: Jeder mögliche Funktionsgraph von "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " verläuft durch den Punkt "
+          },
+          {
+            "t": "math",
+            "v": "(0\\mid-1)"
+          },
+          {
+            "t": "text",
+            "v": " und ist eine nach oben offene Parabel. Somit hat jede Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " genau eine positive und eine negative Nullstelle. Diese Werte entsprechen genau den Lösungen der quadratischen Gleichung "
+          },
+          {
+            "t": "math",
+            "v": "f(x)=0"
+          },
+          {
+            "t": "text",
+            "v": ".\n\noder:\nEs gilt: "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{p^2}4+1>\\frac{p^2}4"
+          },
+          {
+            "t": "text",
+            "v": " und somit auch "
+          },
+          {
+            "t": "math",
+            "v": "\\sqrt{\\frac{p^2}4+1}>\\frac p2"
+          },
+          {
+            "t": "text",
+            "v": ".\nDaraus folgt: "
+          },
+          {
+            "t": "math",
+            "v": "-\\frac p2+\\sqrt{\\frac{p^2}4+1}>0"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "-\\frac p2-\\sqrt{\\frac{p^2}4+1}<0\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Es gibt immer genau eine positive und eine negative Lösung in "
+          },
+          {
+            "t": "math",
+            "v": "\\mathbb{R}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung dafür, dass die Parabel genau eine positive und eine negative Nullstelle hat."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Begründungen: Jeder mögliche Funktionsgraph von "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " verläuft durch den Punkt "
+            },
+            {
+              "t": "math",
+              "v": "(0\\mid-1)"
+            },
+            {
+              "t": "text",
+              "v": " und ist eine nach oben offene Parabel. Somit hat jede Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " genau eine positive und eine negative Nullstelle. Diese Werte entsprechen genau den Lösungen der quadratischen Gleichung "
+            },
+            {
+              "t": "math",
+              "v": "f(x)=0"
+            },
+            {
+              "t": "text",
+              "v": ".\n\noder:\nEs gilt: "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{p^2}4+1>\\frac{p^2}4"
+            },
+            {
+              "t": "text",
+              "v": " und somit auch "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{\\frac{p^2}4+1}>\\frac p2"
+            },
+            {
+              "t": "text",
+              "v": ".\nDaraus folgt: "
+            },
+            {
+              "t": "math",
+              "v": "-\\frac p2+\\sqrt{\\frac{p^2}4+1}>0"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "-\\frac p2-\\sqrt{\\frac{p^2}4+1}<0\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Es gibt immer genau eine positive und eine negative Lösung in "
+            },
+            {
+              "t": "math",
+              "v": "\\mathbb{R}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung dafür, dass die Parabel genau eine positive und eine negative Nullstelle hat."
+        }
+      ],
+      "id": "2016-nt2-t2-01-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Für "
+        },
+        {
+          "t": "math",
+          "v": "q=p-\\frac13"
+        },
+        {
+          "t": "text",
+          "v": " erhält man eine Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=x^2+p\\cdot x+p-\\frac13"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBestimmen Sie für diese Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " denjenigen Wert für "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ", für den "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-1}^1 f(x)\\,\\mathrm{d}x=-6"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "\\int_{-1}^1\\left(x^2+p\\cdot x+p-\\frac13\\right)\\,\\mathrm{d}x=\\left.\\left(\\frac{x^3}3+\\frac{px^2}2+px-\\frac x3\\right)\\right|_{-1}^1=-6\\Rightarrow p=-3"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für den korrekten Wert von p. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\int_{-1}^1\\left(x^2+p\\cdot x+p-\\frac13\\right)\\,\\mathrm{d}x=\\left.\\left(\\frac{x^3}3+\\frac{px^2}2+px-\\frac x3\\right)\\right|_{-1}^1=-6\\Rightarrow p=-3"
+            }
+          ],
+          "note": "Ein Punkt für den korrekten Wert von p. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "id": "2016-nt2-t2-01-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 1 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Für "
+        },
+        {
+          "t": "math",
+          "v": "q=p-\\frac13"
+        },
+        {
+          "t": "text",
+          "v": " erhält man eine Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " mit "
+        },
+        {
+          "t": "math",
+          "v": "f(x)=x^2+p\\cdot x+p-\\frac13"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nBestimmen Sie für diese Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " denjenigen Wert für "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": ", für den "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-1}^1 f(x)\\,\\mathrm{d}x=-6"
+        },
+        {
+          "t": "text",
+          "v": " gilt!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, ob für dieses "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " die Gleichung "
+        },
+        {
+          "t": "math",
+          "v": "\\int_{-1}^0 f(x)\\,\\mathrm{d}x=\\int_0^1 f(x)\\,\\mathrm{d}x"
+        },
+        {
+          "t": "text",
+          "v": " eine wahre Aussage ergibt, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Für "
+          },
+          {
+            "t": "math",
+            "v": "p=-3"
+          },
+          {
+            "t": "text",
+            "v": " ergibt die gegebene Gleichung keine wahre Aussage, weil für eine solche Funktion der Graph der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " achsensymmetrisch liegen müsste, damit die Gleichung eine wahre Aussage ergibt, und das ist nur für "
+          },
+          {
+            "t": "math",
+            "v": "p=0"
+          },
+          {
+            "t": "text",
+            "v": " der Fall."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die korrekte Angabe, ob die Aussage zutrifft, und eine korrekte Begründung. Andere korrekte Begründungen, zum Beispiel durch Rechnung, sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für "
+            },
+            {
+              "t": "math",
+              "v": "p=-3"
+            },
+            {
+              "t": "text",
+              "v": " ergibt die gegebene Gleichung keine wahre Aussage, weil für eine solche Funktion der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " achsensymmetrisch liegen müsste, damit die Gleichung eine wahre Aussage ergibt, und das ist nur für "
+            },
+            {
+              "t": "math",
+              "v": "p=0"
+            },
+            {
+              "t": "text",
+              "v": " der Fall."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe, ob die Aussage zutrifft, und eine korrekte Begründung. Andere korrekte Begründungen, zum Beispiel durch Rechnung, sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "id": "2016-nt2-t2-01-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 1 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=858&token=3cc68ce3f9832b1db68950150c6ff2a3333e8001#page=5",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind eine (normierte) quadratische Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "x^2+p\\cdot x+q=0"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "p,q\\in\\mathbb{R}"
+    },
+    {
+      "t": "text",
+      "v": " und die zugehörige Polynomfunktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit "
+    },
+    {
+      "t": "math",
+      "v": "f(x)=x^2+p\\cdot x+q"
+    },
+    {
+      "t": "text",
+      "v": "."
+    }
+  ]
 }

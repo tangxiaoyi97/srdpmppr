@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-24",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,145 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 24 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=28",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_350a",
+          "id": "1_350",
           "baseId": "1_350",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/61/Binomialverteilte%20Zufallsvariable.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der roten Kugeln bei dreimaligem Ziehen, wenn jede entnommene Kugel wieder zurückgelegt wird.\n\n"
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der weißen Kugeln bei fünfmaligem Ziehen, wenn jede entnommene Kugel wieder zurückgelegt wird."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "In welchen der folgenden Fälle ist die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " binomialverteilt?\nKreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der roten Kugeln bei dreimaligem Ziehen, wenn jede entnommene Kugel wieder zurückgelegt wird."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der weißen Kugeln bei viermaligem Ziehen, wenn die entnommenen Kugeln nicht zurückgelegt werden."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der weißen Kugeln bei fünfmaligem Ziehen, wenn jede entnommene Kugel wieder zurückgelegt wird."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der Züge, bis die erste rote Kugel gezogen wird, wenn jede entnommene Kugel wieder zurückgelegt wird."
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die Anzahl der Züge, bis alle weißen Kugeln gezogen wurden, wenn die entnommenen Kugeln nicht zurückgelegt werden."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          2
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 24 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=28",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_350",
       "baseId": "1_350",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/61/Binomialverteilte%20Zufallsvariable.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "In einer Urne befinden sich sieben weiße und drei rote Kugeln, die gleich groß und durch Tasten nicht unterscheidbar sind. Jemand nimmt, ohne hinzusehen, Kugeln aus der Urne."
     }
   ]
 }

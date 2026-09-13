@@ -1,6 +1,6 @@
 {
   "id": "2024-wt-t1-05",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -36,12 +36,18 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5",
+          "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=7",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_1320a",
+          "id": "1_1320",
           "baseId": "1_1320",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/868/1_1320_srdp_ma_Paralleler%20Vektor_PT3_23.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -63,11 +69,19 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Geben Sie die Komponenten eines möglichen Vektors b an."
+          "v": "Geben Sie die Komponenten eines möglichen Vektors "
         },
         {
           "t": "math",
-          "v": "\\vec{b}=\\begin{pmatrix}\\ \\\\ \\ \\\\ \\ \\end{pmatrix}"
+          "v": "\\vec b"
+        },
+        {
+          "t": "text",
+          "v": " an.\n\n"
+        },
+        {
+          "t": "math",
+          "v": "\\vec b=\\begin{pmatrix}\\boxed{\\phantom{0}}\\\\\\boxed{\\phantom{0}}\\\\\\boxed{\\phantom{0}}\\end{pmatrix}"
         }
       ],
       "answer": {
@@ -110,6 +124,12 @@
   ],
   "externalRefs": [
     {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5",
+      "url": "https://www.matura.gv.at/fileadmin/user_upload/downloads/Matura-2022-23/MAT/KL23_PT3_AHS_MAT_00_DE_AU.pdf#page=7",
+      "verifiedAt": "2026-09-13"
+    },
+    {
       "system": "aufgabenpool",
       "id": "1_1320",
       "baseId": "1_1320",
@@ -121,15 +141,39 @@
   "prompt": [
     {
       "t": "text",
-      "v": "Gegeben ist der Vektor"
+      "v": "Gegeben ist der Vektor "
     },
     {
       "t": "math",
-      "v": "\\vec{a}=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}."
+      "v": "\\vec a=\\begin{pmatrix}2\\\\-1\\\\3\\end{pmatrix}"
     },
     {
       "t": "text",
-      "v": "Ein Vektor b soll zum Vektor a parallel sein und eine größere Länge als a haben."
+      "v": ".\n\nEin Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec b"
+    },
+    {
+      "t": "text",
+      "v": " soll zum Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " parallel sein und eine größere Länge als "
+    },
+    {
+      "t": "math",
+      "v": "\\vec a"
+    },
+    {
+      "t": "text",
+      "v": " haben."
     }
   ]
 }

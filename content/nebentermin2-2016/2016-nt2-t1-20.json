@@ -1,7 +1,7 @@
 {
   "id": "2016-nt2-t1-20",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2016",
@@ -36,26 +36,82 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 20 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=24",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_450a",
+          "id": "1_450",
           "baseId": "1_450",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/158/Median%20und%20Modus.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Median: 11\nModus: 14"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe beider Kennzahlen."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie den Median und den Modus dieser Liste an!\n\nMedian:\n\nModus:"
+        }
+      ],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "median",
+            "label": "Median",
+            "value": 11,
+            "tol": 1e-09
+          },
+          {
+            "id": "modus",
+            "label": "Modus",
+            "value": 14,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 20 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=855&token=45f57dee9905f78fa85977b1d77096e6ee58c07a#page=24",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_450",
       "baseId": "1_450",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/158/Median%20und%20Modus.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben ist eine ungeordnete Liste von 19 natürlichen Zahlen:\n\n5, 15, 14, 2, 5, 13, 11, 9, 7, 16, 15, 9, 10, 14, 3, 14, 5, 15, 14"
     }
   ]
 }

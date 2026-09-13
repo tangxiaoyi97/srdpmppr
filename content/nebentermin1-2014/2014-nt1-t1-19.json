@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-19",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,114 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 19 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=23",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_355a",
+          "id": "1_355",
           "baseId": "1_355",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/66/Computer-%20und%20Videospiele.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Anzahl der in der Kategorie „freigegeben ab 16 Jahren“ eingestuften Spiele ist in den beiden Jahren 2008 und 2009 nahezu gleich.\n\nIm Jahr 2008 erhielt etwa jedes zwanzigste Spiel keine Jugendfreigabe."
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und alle Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der im Jahr 2009 ohne Altersbeschränkung freigegebenen Spiele hat sich im Vergleich zum Jahr 2008 um etwa 10 % verringert."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Anzahl der in der Kategorie „freigegeben ab 16 Jahren“ eingestuften Spiele ist in den beiden Jahren 2008 und 2009 nahezu gleich."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Jahr 2008 wurde annähernd jedes dritte Spiel für Kinder ab 6 Jahren freigegeben."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Jahr 2009 wurden weniger als 500 Spiele der Kategorie „freigegeben ab 12 Jahren“ zugeordnet."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Jahr 2008 erhielt etwa jedes zwanzigste Spiel keine Jugendfreigabe."
+            }
+          ]
+        ],
+        "correct": [
+          1,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 19 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=23",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_355",
       "baseId": "1_355",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/66/Computer-%20und%20Videospiele.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Computer- und Videospiele müssen vor ihrer Markteinführung ein Einstufungsverfahren durchlaufen, bei dem festgelegt wird, welches Mindestalter für den Erwerb des Spiels erreicht sein muss. Im Jahr 2009 wurden 3 100 Spiele dieser Einstufung unterzogen. Im Jahr 2008 waren es um 114 Spiele weniger. Die nachstehende Graphik stellt die Ergebnisse der Auswertungen dar."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-19-ratings.png",
+      "alt": "Originaldiagramm der Freigaben von Computer- und Videospielen für 2008 und 2009."
+    },
+    {
+      "t": "text",
+      "v": "Datenquelle: http://www.usk.de/pruefverfahren/statistik/jahresbilanz-2009/ [21.05.2014]"
     }
   ]
 }

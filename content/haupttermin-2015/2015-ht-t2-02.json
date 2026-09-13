@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t2-02",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -22,14 +22,968 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-ht-t2-02-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-ht-t2-02-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie die Halbwertszeit von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\tau=\\frac{\\ln(2)}{\\lambda}\\approx5\\,728"
+          },
+          {
+            "t": "text",
+            "v": ". Die Halbwertszeit von "
+          },
+          {
+            "t": "math",
+            "v": "^{14}\\mathrm C"
+          },
+          {
+            "t": "text",
+            "v": " beträgt ca. 5 728 Jahre."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit Jahre nicht angeführt werden muss. Toleranzintervall: [5 727; 5 730]."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\tau=\\frac{\\ln(2)}{\\lambda}\\approx5\\,728"
+            },
+            {
+              "t": "text",
+              "v": ". Die Halbwertszeit von "
+            },
+            {
+              "t": "math",
+              "v": "^{14}\\mathrm C"
+            },
+            {
+              "t": "text",
+              "v": " beträgt ca. 5 728 Jahre."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung, wobei die Einheit Jahre nicht angeführt werden muss. Toleranzintervall: [5 727; 5 730]."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-02-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie, dass nach zehn Halbwertszeiten die Nachweisgrenze von "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": " unterschritten ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\left(\\frac12\\right)^{10}\\approx0{,}00098<\\frac1{1\\,000}"
+          },
+          {
+            "t": "text",
+            "v": " oder "
+          },
+          {
+            "t": "math",
+            "v": "N_0\\cdot\\mathrm e^{-\\lambda\\cdot5\\,728\\cdot10}\\approx0{,}00098\\cdot N_0<\\frac{N_0}{1\\,000}"
+          },
+          {
+            "t": "text",
+            "v": ". Das bedeutet, dass die Nachweisgrenze von "
+          },
+          {
+            "t": "math",
+            "v": "^{14}\\mathrm C"
+          },
+          {
+            "t": "text",
+            "v": " nach 10 Halbwertszeiten unterschritten ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für einen korrekten Nachweis. Jeder korrekte Nachweis, der zeigt, dass nach 10 Halbwertszeiten die Nachweisgrenze von ¹⁴C unterschritten ist, ist ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\left(\\frac12\\right)^{10}\\approx0{,}00098<\\frac1{1\\,000}"
+            },
+            {
+              "t": "text",
+              "v": " oder "
+            },
+            {
+              "t": "math",
+              "v": "N_0\\cdot\\mathrm e^{-\\lambda\\cdot5\\,728\\cdot10}\\approx0{,}00098\\cdot N_0<\\frac{N_0}{1\\,000}"
+            },
+            {
+              "t": "text",
+              "v": ". Das bedeutet, dass die Nachweisgrenze von "
+            },
+            {
+              "t": "math",
+              "v": "^{14}\\mathrm C"
+            },
+            {
+              "t": "text",
+              "v": " nach 10 Halbwertszeiten unterschritten ist."
+            }
+          ],
+          "note": "Ein Punkt für einen korrekten Nachweis. Jeder korrekte Nachweis, der zeigt, dass nach 10 Halbwertszeiten die Nachweisgrenze von ¹⁴C unterschritten ist, ist ebenfalls als richtig zu werten."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-02-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 1991 wurde in den Ötztaler Alpen von Wanderern die Gletschermumie „Ötzi“ entdeckt. Die "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Methode ergab, dass bereits "
+        },
+        {
+          "t": "math",
+          "v": "47\\,\\%\\pm0{,}5\\,\\%"
+        },
+        {
+          "t": "text",
+          "v": " der ursprünglich vorhandenen "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atome zerfallen waren (d. h., das Messverfahren hat einen Fehler von "
+        },
+        {
+          "t": "math",
+          "v": "\\pm0{,}5\\,\\%"
+        },
+        {
+          "t": "text",
+          "v": " der in der frischen Probe vorhandenen Anzahl an "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atomen).\nBerechnen Sie ein Intervall für das Alter der Gletschermumie zum Zeitpunkt ihres Auffindens!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "0{,}535\\cdot N_0=N_0\\cdot\\mathrm e^{-\\lambda\\cdot t_1}\\Rightarrow t_1=\\frac{\\ln(0{,}535)}{-\\lambda}\\approx5\\,169"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "0{,}525\\cdot N_0=N_0\\cdot\\mathrm e^{-\\lambda\\cdot t_2}\\Rightarrow t_2=\\frac{\\ln(0{,}525)}{-\\lambda}\\approx5\\,325"
+          },
+          {
+            "t": "text",
+            "v": ". Das Alter der Mumie (in Jahren) lag zum Zeitpunkt ihres Auffindens im Intervall "
+          },
+          {
+            "t": "math",
+            "v": "[5\\,169;5\\,325]"
+          },
+          {
+            "t": "text",
+            "v": ". Ein Punkt für ein korrektes Intervall. Toleranzintervall für t₁: [5 164; 5 174]. Toleranzintervall für t₂: [5 320; 5 330]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "0{,}535\\cdot N_0=N_0\\cdot\\mathrm e^{-\\lambda\\cdot t_1}\\Rightarrow t_1=\\frac{\\ln(0{,}535)}{-\\lambda}\\approx5\\,169"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "0{,}525\\cdot N_0=N_0\\cdot\\mathrm e^{-\\lambda\\cdot t_2}\\Rightarrow t_2=\\frac{\\ln(0{,}525)}{-\\lambda}\\approx5\\,325"
+            },
+            {
+              "t": "text",
+              "v": ". Das Alter der Mumie (in Jahren) lag zum Zeitpunkt ihres Auffindens im Intervall "
+            },
+            {
+              "t": "math",
+              "v": "[5\\,169;5\\,325]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für ein korrektes Intervall. Toleranzintervall für t₁: [5 164; 5 174]. Toleranzintervall für t₂: [5 320; 5 330]."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-02-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Im Jahr 1991 wurde in den Ötztaler Alpen von Wanderern die Gletschermumie „Ötzi“ entdeckt. Die "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Methode ergab, dass bereits "
+        },
+        {
+          "t": "math",
+          "v": "47\\,\\%\\pm0{,}5\\,\\%"
+        },
+        {
+          "t": "text",
+          "v": " der ursprünglich vorhandenen "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atome zerfallen waren (d. h., das Messverfahren hat einen Fehler von "
+        },
+        {
+          "t": "math",
+          "v": "\\pm0{,}5\\,\\%"
+        },
+        {
+          "t": "text",
+          "v": " der in der frischen Probe vorhandenen Anzahl an "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atomen)."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Angenommen, Ötzi wäre nicht im Jahr "
+        },
+        {
+          "t": "math",
+          "v": "t_1=1991"
+        },
+        {
+          "t": "text",
+          "v": ", sondern zu einem späteren Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t_2"
+        },
+        {
+          "t": "text",
+          "v": " gefunden worden."
+        },
+        {
+          "t": "text",
+          "v": "\nGeben Sie an, welche Auswirkung auf die Breite des für das Alter der Gletschermumie ermittelten Intervalls dies hat (den gleichen Messfehler vorausgesetzt)!\nBegründen Sie Ihre Aussage anhand der unten abgebildeten Grafik!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2015/fig/2015-ht-t2-02-decay.png",
+          "alt": "Originalgraph der Zerfallsfunktion mit den Zeitpunkten t₁ und t₂."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für große Werte von "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": " wird der Graph der Funktion "
+          },
+          {
+            "t": "math",
+            "v": "N"
+          },
+          {
+            "t": "text",
+            "v": " flacher, d. h., einem Intervall konstanter Länge auf der "
+          },
+          {
+            "t": "math",
+            "v": "N(t)"
+          },
+          {
+            "t": "text",
+            "v": "-Achse entspricht ein größeres Intervall auf der "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": "-Achse."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für große Werte von "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": " wird der Graph der Funktion "
+            },
+            {
+              "t": "math",
+              "v": "N"
+            },
+            {
+              "t": "text",
+              "v": " flacher, d. h., einem Intervall konstanter Länge auf der "
+            },
+            {
+              "t": "math",
+              "v": "N(t)"
+            },
+            {
+              "t": "text",
+              "v": "-Achse entspricht ein größeres Intervall auf der "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": "-Achse."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-02-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "math",
+          "v": "N(t)"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atome zum Zeitpunkt "
+        },
+        {
+          "t": "math",
+          "v": "t"
+        },
+        {
+          "t": "text",
+          "v": ". Interpretieren Sie "
+        },
+        {
+          "t": "math",
+          "v": "N'(t)"
+        },
+        {
+          "t": "text",
+          "v": " im Hinblick auf den radioaktiven Zerfallsprozess!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "N'(t)"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt die (momentane) Zerfallsgeschwindigkeit von "
+          },
+          {
+            "t": "math",
+            "v": "^{14}\\mathrm C"
+          },
+          {
+            "t": "text",
+            "v": " zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": ". Oder: "
+          },
+          {
+            "t": "math",
+            "v": "N'(t)"
+          },
+          {
+            "t": "text",
+            "v": " beschreibt die (momentane) Änderungsrate (Abnahmerate) der Anzahl der "
+          },
+          {
+            "t": "math",
+            "v": "^{14}\\mathrm C"
+          },
+          {
+            "t": "text",
+            "v": "-Atome zum Zeitpunkt "
+          },
+          {
+            "t": "math",
+            "v": "t"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N'(t)"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die (momentane) Zerfallsgeschwindigkeit von "
+            },
+            {
+              "t": "math",
+              "v": "^{14}\\mathrm C"
+            },
+            {
+              "t": "text",
+              "v": " zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": ". Oder: "
+            },
+            {
+              "t": "math",
+              "v": "N'(t)"
+            },
+            {
+              "t": "text",
+              "v": " beschreibt die (momentane) Änderungsrate (Abnahmerate) der Anzahl der "
+            },
+            {
+              "t": "math",
+              "v": "^{14}\\mathrm C"
+            },
+            {
+              "t": "text",
+              "v": "-Atome zum Zeitpunkt "
+            },
+            {
+              "t": "math",
+              "v": "t"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation."
+        }
+      ]
+    },
+    {
+      "id": "2015-ht-t2-02-c2",
+      "label": "c2",
+      "format": "1 aus 6",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 2 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Nach den Gesetzmäßigkeiten des radioaktiven Zerfalls zerfällt pro Zeiteinheit ein konstanter Prozentsatz "
+        },
+        {
+          "t": "math",
+          "v": "p"
+        },
+        {
+          "t": "text",
+          "v": " der vorhandenen Menge an "
+        },
+        {
+          "t": "math",
+          "v": "^{14}\\mathrm C"
+        },
+        {
+          "t": "text",
+          "v": "-Atomen.\nWelche der folgenden Differenzengleichungen beschreibt diese Gesetzmäßigkeit? Kreuzen Sie die zutreffende Differenzengleichung an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=-p"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=p\\cdot t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=-p\\cdot t"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=p\\cdot N(t)"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=-p\\cdot N(t)"
+            }
+          ]
+        ],
+        "correct": [
+          5
+        ],
+        "selectCount": 1
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "N(t+1)-N(t)=-p\\cdot N(t)"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Differenzengleichung angekreuzt ist."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 2 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=880&token=5b39a7b2537f1b9bc94fea6548f0626d6fa10569#page=6",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Radiokohlenstoffdatierung, auch "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Methode genannt, ist ein Verfahren zur Altersbestimmung von kohlenstoffhaltigen Materialien. Das Verfahren beruht darauf, dass in abgestorbenen Organismen die Menge an gebundenen radioaktiven "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atomen gemäß dem Zerfallsgesetz exponentiell abnimmt, während der Anteil an "
+    },
+    {
+      "t": "math",
+      "v": "^{12}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atomen gleich bleibt. Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, sodass der "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Anteil nahezu konstant bleibt und somit auch das Verhältnis zwischen "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "^{12}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "text",
+      "v": "\n\n"
+    },
+    {
+      "t": "text",
+      "v": "Die Anzahl der noch vorhandenen "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atome in einem abgestorbenen Organismus wird durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben. Für diese Anzahl "
+    },
+    {
+      "t": "math",
+      "v": "N(t)"
+    },
+    {
+      "t": "text",
+      "v": " der "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atome "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Jahre nach dem Tod des Organismus gilt daher näherungsweise die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "N(t)=N_0\\cdot\\mathrm e^{-\\lambda\\cdot t}"
+    },
+    {
+      "t": "text",
+      "v": ", wobei "
+    },
+    {
+      "t": "math",
+      "v": "N_0"
+    },
+    {
+      "t": "text",
+      "v": " die Anzahl der "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atome zum Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": " angibt und die Zerfallskonstante für "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": " den Wert "
+    },
+    {
+      "t": "math",
+      "v": "\\lambda=1{,}21\\cdot10^{-4}"
+    },
+    {
+      "t": "text",
+      "v": " pro Jahr hat."
+    },
+    {
+      "t": "text",
+      "v": "\n\n"
+    },
+    {
+      "t": "text",
+      "v": "Eine frische Probe enthält pro Billion ("
+    },
+    {
+      "t": "math",
+      "v": "10^{12}"
+    },
+    {
+      "t": "text",
+      "v": ") Kohlenstoffatomen nur ein "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": "-Atom. Die Nachweisgrenze von "
+    },
+    {
+      "t": "math",
+      "v": "^{14}\\mathrm C"
+    },
+    {
+      "t": "text",
+      "v": " liegt bei einem Atom pro Billiarde ("
+    },
+    {
+      "t": "math",
+      "v": "10^{15}"
+    },
+    {
+      "t": "text",
+      "v": ") Kohlenstoffatomen (also einem Tausendstel der frischen Probe)."
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "2019-ht-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -24,13 +24,20 @@
     {
       "id": "2019-ht-t2-02-a1",
       "label": "a1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
-          "v": "In den ersten fünf Wochen kann der Flächeninhalt A(t) des Algenteppichs näherungsweise durch eine Exponentialfunktion A beschrieben werden, weil der Algenteppich nur einen kleinen Teil des Teichs bedeckt (A(t) in m², t in Wochen).\n\nErmitteln Sie, um welchen Prozentsatz sich der Flächeninhalt des Algenteppichs wöchentlich vergrößert, und geben Sie eine Funktionsgleichung für A an!"
+          "v": "In den ersten fünf Wochen kann der Flächeninhalt A(t) des Algenteppichs näherungsweise durch eine Exponentialfunktion A beschrieben werden, weil der Algenteppich nur einen kleinen Teil des Teichs bedeckt (A(t) in m², t in Wochen).\n\nErmitteln Sie, um welchen Prozentsatz sich der Flächeninhalt des Algenteppichs wöchentlich vergrößert, und geben Sie eine Funktionsgleichung für A an!\n\n"
         },
         {
           "t": "math",
@@ -39,16 +46,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "expression",
-        "canonical": "4\\cdot 1{,}75^{t}",
-        "vars": [
-          "t"
-        ],
-        "checker": "cas"
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Fläche des Algenteppichs vergrößert sich jede Woche um ca. 75 %. "
+          },
+          {
+            "t": "math",
+            "v": "A(t)=4\\cdot 1{,}75^{t}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung und eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen (z. B.: A(t) = 4 · e^{0,5596 · t}) sind als richtig zu werten."
+          }
+        ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung und eine richtige Funktionsgleichung. Äquivalente Funktionsgleichungen (z. B.: A(t) = 4 · e^{0,5596 · t}) sind als richtig zu werten.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -70,10 +96,21 @@
     {
       "id": "2019-ht-t2-02-a2",
       "label": "a2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "In den ersten fünf Wochen kann der Flächeninhalt A(t) des Algenteppichs näherungsweise durch eine Exponentialfunktion A beschrieben werden, weil der Algenteppich nur einen kleinen Teil des Teichs bedeckt (A(t) in m², t in Wochen).\n\n"
+        },
         {
           "t": "text",
           "v": "Am Ende der fünften Woche sollen nach erfolgter Messung 30 m² Algen geerntet werden. Das soll regelmäßig im Abstand von jeweils einer Woche wiederholt werden.\n\nErmitteln Sie, wie oft dieser Vorgang unter der Voraussetzung, dass sich der Flächeninhalt des Algenteppichs zwischen den Erntevorgängen weiterhin um den gleichen Prozentsatz vergrößert, durchgeführt werden kann!"
@@ -81,18 +118,47 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "n",
-            "value": 4,
-            "tol": 1e-9
+            "t": "math",
+            "v": "A(6)=(A(5)-30)\\cdot 1{,}75\\approx 62{,}39"
+          },
+          {
+            "t": "math",
+            "v": "A(7)=(A(6)-30)\\cdot 1{,}75\\approx 56{,}68"
+          },
+          {
+            "t": "math",
+            "v": "A(8)=(A(7)-30)\\cdot 1{,}75\\approx 46{,}69"
+          },
+          {
+            "t": "math",
+            "v": "A(9)=(A(8)-30)\\cdot 1{,}75\\approx 29{,}21"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Die geplante Menge kann viermal geerntet werden."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -103,12 +169,24 @@
               "v": "A(6)=(A(5)-30)\\cdot 1{,}75\\approx 62{,}39"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "A(7)=(A(6)-30)\\cdot 1{,}75\\approx 56{,}68"
             },
             {
+              "t": "text",
+              "v": "\n"
+            },
+            {
               "t": "math",
               "v": "A(8)=(A(7)-30)\\cdot 1{,}75\\approx 46{,}69"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -128,9 +206,16 @@
     {
       "id": "2019-ht-t2-02-b1",
       "label": "b1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -175,9 +260,16 @@
     {
       "id": "2019-ht-t2-02-b2",
       "label": "b2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
@@ -205,7 +297,7 @@
         },
         {
           "t": "text",
-          "v": " des Algenteppichs, bei dem die Wachstumsgeschwindigkeit am größten ist!"
+          "v": " des Algenteppichs, bei dem die Wachstumsgeschwindigkeit am größten ist!\n\n"
         },
         {
           "t": "math",
@@ -214,20 +306,39 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "A1",
-            "label": "A_1",
-            "value": 400,
-            "tol": 1e-9,
-            "unit": "m²"
+            "t": "math",
+            "v": "w'(A)=k\\cdot(800-A)-k\\cdot A"
+          },
+          {
+            "t": "math",
+            "v": "800\\cdot k-2\\cdot k\\cdot A_1=0"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "A_1=400\\ \\text{m}^{2}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -236,6 +347,10 @@
             {
               "t": "math",
               "v": "w'(A)=k\\cdot(800-A)-k\\cdot A"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -255,13 +370,20 @@
     {
       "id": "2019-ht-t2-02-c1",
       "label": "c1",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
         {
           "t": "text",
-          "v": "Der Beobachtungszeitraum wird über die in der Einleitung beschriebenen fünf Wochen hinaus verlängert. Der Flächeninhalt des Algenteppichs t Wochen nach Beobachtungsbeginn wird mithilfe einer Funktion A2 mit"
+          "v": "Der Beobachtungszeitraum wird über die in der Einleitung beschriebenen fünf Wochen hinaus verlängert. Der Flächeninhalt des Algenteppichs t Wochen nach Beobachtungsbeginn wird mithilfe einer Funktion A2 mit "
         },
         {
           "t": "math",
@@ -282,20 +404,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "k",
-            "label": "k",
-            "value": 0.00075,
-            "tol": 0.00005,
-            "unit": "m⁻²/Woche"
+            "t": "math",
+            "v": "65{,}65=\\frac{800}{1+199\\cdot e^{-800\\cdot 5\\cdot k}}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "k\\approx 0{,}00072\\ \\text{m}^{-2}/\\text{Woche}"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die richtige Lösung, wobei die Einheit „m⁻²/Woche“ nicht angeführt sein muss. Toleranzintervall: [0,0007; 0,0008] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Lösung, wobei die Einheit „m⁻²/Woche“ nicht angeführt sein muss. Toleranzintervall: [0,0007; 0,0008] Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -319,10 +456,45 @@
     {
       "id": "2019-ht-t2-02-c2",
       "label": "c2",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 26 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Der Beobachtungszeitraum wird über die in der Einleitung beschriebenen fünf Wochen hinaus verlängert. Der Flächeninhalt des Algenteppichs t Wochen nach Beobachtungsbeginn wird mithilfe einer Funktion A2 mit "
+        },
+        {
+          "t": "math",
+          "v": "A_2(t)=\\frac{800}{1+199\\cdot e^{-800\\cdot k\\cdot t}}"
+        },
+        {
+          "t": "text",
+          "v": " modelliert (A2(t) in m², t in Wochen).\n\nGeben Sie den Wert des Parameters "
+        },
+        {
+          "t": "math",
+          "v": "k\\in\\mathbb{R}^{+}"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe des in der Tabelle angegebenen Messwerts zum Zeitpunkt t = 5 an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
         {
           "t": "text",
           "v": "Zu welchem Zeitpunkt bedeckt der Algenteppich erstmals 90 % der Oberfläche, wenn dieses Modell zugrunde liegt?\n\nErmitteln Sie diesen Zeitpunkt!"
@@ -330,20 +502,39 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "t",
-            "label": "t",
-            "value": 13.5,
-            "tol": 0.5,
-            "unit": "Wochen"
+            "t": "math",
+            "v": "720=\\frac{800}{1+199\\cdot e^{-800\\cdot 0{,}00072\\cdot t}}"
+          },
+          {
+            "t": "math",
+            "v": "t\\approx 13"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Nach ca. 13 Wochen sind erstmals 90 % der Oberfläche des Teichs mit Algen bedeckt."
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für die Angabe des richtigen Zeitpunkts. Auch die Angabe „in der 14. Woche“ ist als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die Angabe des richtigen Zeitpunkts. Auch die Angabe „in der 14. Woche“ ist als richtig zu werten. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -352,6 +543,10 @@
             {
               "t": "math",
               "v": "720=\\frac{800}{1+199\\cdot e^{-800\\cdot 0{,}00072\\cdot t}}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
             },
             {
               "t": "math",
@@ -369,7 +564,14 @@
       ]
     }
   ],
-  "externalRefs": [],
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 26 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=3066&token=756c57b082ca3da513b40da8e113eb42466a5b12#page=30",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
   "prompt": [
     {
       "t": "text",

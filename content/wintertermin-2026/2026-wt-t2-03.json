@@ -1,6 +1,6 @@
 {
   "id": "2026-wt-t2-03",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -160,7 +160,7 @@
           {
             "id": "punkte",
             "value": 740,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "Punkte"
           }
         ]
@@ -207,7 +207,7 @@
     {
       "id": "2026-wt-t2-03-b2",
       "label": "b2",
-      "format": "Offenes Antwortformat",
+      "format": "Halboffenes Antwortformat",
       "competencies": [
         {
           "code": "AG 4.1",
@@ -327,20 +327,55 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "z",
-            "label": "z",
-            "value": 3.52,
-            "tol": 0.1,
-            "unit": "m"
+            "t": "text",
+            "v": "zurückgelegte Strecke der Sportlerin 1:\n"
+          },
+          {
+            "t": "math",
+            "v": "36{,}80\\cdot\\pi+84{,}39=200{,}00\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\nzurückgelegte Strecke der Sportlerin 2:\n"
+          },
+          {
+            "t": "math",
+            "v": "(36{,}80+1{,}12)\\cdot\\pi+\\sqrt{1{,}12^{2}+84{,}39^{2}}=203{,}52\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "z=3{,}52\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Die Länge des Kreisbogens z beträgt rund 3,5 m."
+          },
+          {
+            "t": "text",
+            "v": "c1) Ein Punkt für das richtige Berechnen der Länge von z."
+          },
+          {
+            "t": "text",
+            "v": "Maßgeblich sind der im offiziellen Lösungsweg angegebene Wert und seine dort angegebene Rundung; genauere gleichwertige Ergebnisse sind ebenfalls richtig. Es gilt keine darüber hinausgehende zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Kreisbogenlängez=3,52…m, laut Original rund3,5m.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -36,26 +36,126 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_344a",
+          "id": "1_344",
           "baseId": "1_344",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/56/Definition%20der%20Winkelfunktionen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\sin\\alpha=\\frac pr"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\cos\\beta=\\frac pr"
+            }
+          ],
+          "note": "Ein Punkt ist nur dann zu geben, wenn genau zwei Gleichungen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kreuzen Sie jene beiden Gleichungen an, die für das dargestellte Dreieck gelten!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "math",
+              "v": "\\sin\\alpha=\\frac pr"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\sin\\alpha=\\frac qr"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tan\\beta=\\frac pq"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\tan\\alpha=\\frac rp"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "\\cos\\beta=\\frac pr"
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          4
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=889&token=cedda93d771aa04a29517e852cd7768d57c43f23#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_344",
       "baseId": "1_344",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/56/Definition%20der%20Winkelfunktionen.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt ein rechtwinkeliges Dreieck "
+    },
+    {
+      "t": "math",
+      "v": "PQR"
+    },
+    {
+      "t": "text",
+      "v": "."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2014/fig/2014-ht-t1-06-triangle.png",
+      "alt": "Rechtwinkeliges Dreieck PQR mit den Seiten p, q, r und Winkeln α und β."
     }
   ]
 }

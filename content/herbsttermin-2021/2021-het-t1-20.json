@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t1-20",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_873a",
+          "id": "1_873",
           "baseId": "1_873",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/682/Veraenderung_von_Zahlen.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -60,6 +60,22 @@
         {
           "t": "text",
           "v": "Eine bestimmte Datenliste besteht aus 100 Zahlen x₁, x₂, …, x₁₀₀. Das arithmetische Mittel der Datenliste beträgt 86, deren Minimum 29 und deren Maximum 103.\n\nEine zweite Datenliste besteht ebenfalls aus 100 Zahlen. Sie entsteht dadurch, dass jede Zahl der ursprünglichen Datenliste um 20 verkleinert wird.\n\nGeben Sie für die zweite Datenliste das arithmetische Mittel und die Spannweite an."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "arithmetisches Mittel: ____________________"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Spannweite: ____________________"
         }
       ],
       "answer": {
@@ -69,13 +85,13 @@
             "id": "mittel",
             "label": "arithmetisches Mittel",
             "value": 66,
-            "tol": 1e-9
+            "tol": 1e-09
           },
           {
             "id": "spannweite",
             "label": "Spannweite",
             "value": 74,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },

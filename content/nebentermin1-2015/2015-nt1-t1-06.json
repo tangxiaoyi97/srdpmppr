@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-06",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,170 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 6 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=10",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_440a",
+          "id": "1_440",
           "baseId": "1_440",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/148/Sonnenh%C3%B6he.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "s=\\dfrac{h}{\\tan(\\varphi)}"
+            },
+            {
+              "t": "text",
+              "v": " mit "
+            },
+            {
+              "t": "math",
+              "v": "\\varphi\\in(0^\\circ;90^\\circ)"
+            },
+            {
+              "t": "text",
+              "v": " bzw. "
+            },
+            {
+              "t": "math",
+              "v": "\\varphi\\in\\left(0;\\dfrac\\pi2\\right)"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Formel, wobei der Definitionsbereich für φ nicht angegeben werden muss. Äquivalente Ausdrücke sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Formel an, mit der die Schattenlänge "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": " eines Gebäudes der Höhe "
+        },
+        {
+          "t": "math",
+          "v": "h"
+        },
+        {
+          "t": "text",
+          "v": " mithilfe der Sonnenhöhe "
+        },
+        {
+          "t": "math",
+          "v": "\\varphi"
+        },
+        {
+          "t": "text",
+          "v": " berechnet werden kann!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "s="
+        },
+        {
+          "t": "text",
+          "v": " _____"
+        }
+      ],
+      "answer": {
+        "kind": "expression",
+        "canonical": "h/tan(phi)",
+        "vars": [
+          "h",
+          "phi"
+        ],
+        "checker": "cas"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 6 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=10",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_440",
       "baseId": "1_440",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/148/Sonnenh%C3%B6he.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Unter der Sonnenhöhe "
+    },
+    {
+      "t": "math",
+      "v": "\\varphi"
+    },
+    {
+      "t": "text",
+      "v": " versteht man denjenigen spitzen Winkel, den die einfallenden Sonnenstrahlen mit einer horizontalen Ebene einschließen. Die Schattenlänge "
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": " eines Gebäudes der Höhe "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " hängt von der Sonnenhöhe "
+    },
+    {
+      "t": "math",
+      "v": "\\varphi"
+    },
+    {
+      "t": "text",
+      "v": " ab ("
+    },
+    {
+      "t": "math",
+      "v": "s"
+    },
+    {
+      "t": "text",
+      "v": ", "
+    },
+    {
+      "t": "math",
+      "v": "h"
+    },
+    {
+      "t": "text",
+      "v": " in Metern)."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2018-nt2-t1-10",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2018",
@@ -36,26 +36,134 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 10 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=14",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_599a",
+          "id": "1_599",
           "baseId": "1_599",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/308/Aenderungsprozess.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Pro Zeiteinheit nimmt die Temperatur eines Körpers um 2 % ab."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich der laut Lösungserwartung richtige Änderungsprozess angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Welcher der angeführten Änderungsprozesse kann durch die angegebene Gleichung beschrieben werden? Kreuzen Sie den zutreffenden Änderungsprozess an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Von einer radioaktiven Substanz zerfallen pro Zeiteinheit 0,02 % der am jeweiligen Tag vorhandenen Menge."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "In ein Speicherbecken fließen pro Zeiteinheit 0,02 m³ Wasser zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Vom Wirkstoff eines Medikaments werden pro Zeiteinheit 1,2 mg abgebaut."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Einwohnerzahl eines Landes nimmt pro Zeiteinheit um 1,2 % zu."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Der Wert einer Immobilie steigt pro Zeiteinheit um 2 %."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Pro Zeiteinheit nimmt die Temperatur eines Körpers um 2 % ab."
+            }
+          ]
+        ],
+        "correct": [
+          5
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 10 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2306&token=9ee89800636418f600aa0ca554f3b45e4f03628b#page=14",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_599",
       "baseId": "1_599",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/308/Aenderungsprozess.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Durch die Gleichung "
+    },
+    {
+      "t": "math",
+      "v": "N(t)=1{,}2\\cdot0{,}98^t"
+    },
+    {
+      "t": "text",
+      "v": " wird ein Änderungsprozess einer Größe "
+    },
+    {
+      "t": "math",
+      "v": "N"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben."
     }
   ]
 }

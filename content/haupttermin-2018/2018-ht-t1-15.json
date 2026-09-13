@@ -1,7 +1,7 @@
 {
   "id": "2018-ht-t1-15",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2018",
@@ -24,12 +24,91 @@
     {
       "id": "2018-ht-t1-15-a",
       "label": "a",
-      "format": "",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 15 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=19",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Differenzengleichung: "
+            },
+            {
+              "t": "math",
+              "v": "S(t+1)-S(t)=S(t)\\cdot0{,}004-450"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Differenzengleichung. Andere korrekte Gleichungen sind ebenfalls als richtig zu werten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie eine Differenzengleichung an, mit deren Hilfe man bei Kenntnis des Schuldenstands am Ende eines Monats den Schuldenstand am Ende des darauffolgenden Monats berechnen kann!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Differenzengleichung: "
+          },
+          {
+            "t": "math",
+            "v": "S(t+1)-S(t)=S(t)\\cdot0{,}004-450"
+          },
+          {
+            "t": "text",
+            "v": "\nEin Punkt für eine korrekte Differenzengleichung. Andere korrekte Gleichungen sind ebenfalls als richtig zu werten."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 15 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2492&token=b9a31ece27e8ae7b0010c262b2496c491899dbbc#page=19",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Jemand hat bei einer Bank einen Wohnbaukredit zur Finanzierung einer Eigentumswohnung aufgenommen. Am Ende eines jeden Monats erhöht sich der Schuldenstand aufgrund der Kreditzinsen um 0,4 % und anschließend wird die monatliche Rate von € 450 zurückgezahlt.\n\nDer Schuldenstand am Ende von "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Monaten wird durch "
+    },
+    {
+      "t": "math",
+      "v": "S(t)"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben."
+    }
+  ]
 }

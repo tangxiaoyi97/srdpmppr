@@ -1,7 +1,7 @@
 {
   "id": "2016-ht-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2016",
@@ -22,14 +22,884 @@
   "figures": [],
   "parts": [
     {
-      "id": "2016-ht-t2-04-a",
-      "label": "a",
-      "format": "",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Herr Fischer wirft Würfel "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " zweimal. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " gibt die Summe der beiden geworfenen Zahlen an. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " kann die Werte 2, 3, 4, 5 und 6 annehmen.\nFrau Fischer wirft die Würfel "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": ". Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Y"
+        },
+        {
+          "t": "text",
+          "v": " gibt die Summe der beiden geworfenen Zahlen an.\n\nⒶ Geben Sie für die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Y"
+        },
+        {
+          "t": "text",
+          "v": " alle möglichen Werte an!\n\nmögliche Werte für "
+        },
+        {
+          "t": "math",
+          "v": "Y"
+        },
+        {
+          "t": "text",
+          "v": ": _________________________________________________________"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "mögliche Werte für "
+          },
+          {
+            "t": "math",
+            "v": "Y"
+          },
+          {
+            "t": "text",
+            "v": ": 0, 1, 2, 3, 4, 5, 6, 7, 8"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die vollständige Angabe der korrekten Werte für Y."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "mögliche Werte für "
+            },
+            {
+              "t": "math",
+              "v": "Y"
+            },
+            {
+              "t": "text",
+              "v": ": 0, 1, 2, 3, 4, 5, 6, 7, 8"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die vollständige Angabe der korrekten Werte für Y."
+        }
+      ],
+      "id": "2016-ht-t2-04-a1"
+    },
+    {
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Herr Fischer wirft Würfel "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " zweimal. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " gibt die Summe der beiden geworfenen Zahlen an. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "X"
+        },
+        {
+          "t": "text",
+          "v": " kann die Werte 2, 3, 4, 5 und 6 annehmen.\nFrau Fischer wirft die Würfel "
+        },
+        {
+          "t": "math",
+          "v": "A"
+        },
+        {
+          "t": "text",
+          "v": " und "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": ". Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Y"
+        },
+        {
+          "t": "text",
+          "v": " gibt die Summe der beiden geworfenen Zahlen an.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Es gibt Werte der Zufallsvariablen, die bei Herrn Fischer wahrscheinlicher auftreten als bei Frau Fischer. Geben Sie denjenigen Wert an, bei dem der Unterschied der beiden Wahrscheinlichkeiten am größten ist, und berechnen Sie diesen Unterschied!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Bei "
+          },
+          {
+            "t": "math",
+            "v": "Y"
+          },
+          {
+            "t": "text",
+            "v": " hat jeder Wert die gleiche Wahrscheinlichkeit "
+          },
+          {
+            "t": "math",
+            "v": "(=\\frac19)"
+          },
+          {
+            "t": "text",
+            "v": ", bei "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " hat 4 die größte Wahrscheinlichkeit "
+          },
+          {
+            "t": "math",
+            "v": "(=3\\cdot\\frac13\\cdot\\frac13=\\frac13)"
+          },
+          {
+            "t": "text",
+            "v": ". Der Unterschied ist bei 4 am größten, er beträgt "
+          },
+          {
+            "t": "math",
+            "v": "\\frac29"
+          },
+          {
+            "t": "text",
+            "v": ".\n\noder:\nDie Wahrscheinlichkeit für 4 ist bei Herrn Fischer dreimal so groß wie bei Frau Fischer."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die Angabe des gesuchten Wertes und einer korrekten Berechnung des Unterschieds."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei "
+            },
+            {
+              "t": "math",
+              "v": "Y"
+            },
+            {
+              "t": "text",
+              "v": " hat jeder Wert die gleiche Wahrscheinlichkeit "
+            },
+            {
+              "t": "math",
+              "v": "(=\\frac19)"
+            },
+            {
+              "t": "text",
+              "v": ", bei "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " hat 4 die größte Wahrscheinlichkeit "
+            },
+            {
+              "t": "math",
+              "v": "(=3\\cdot\\frac13\\cdot\\frac13=\\frac13)"
+            },
+            {
+              "t": "text",
+              "v": ". Der Unterschied ist bei 4 am größten, er beträgt "
+            },
+            {
+              "t": "math",
+              "v": "\\frac29"
+            },
+            {
+              "t": "text",
+              "v": ".\n\noder:\nDie Wahrscheinlichkeit für 4 ist bei Herrn Fischer dreimal so groß wie bei Frau Fischer."
+            }
+          ],
+          "note": "Ein Punkt für die Angabe des gesuchten Wertes und einer korrekten Berechnung des Unterschieds."
+        }
+      ],
+      "id": "2016-ht-t2-04-a2"
+    },
+    {
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Spiel wird Würfel "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " dreimal geworfen. Der Einsatz des Spiels für eine Spielerin / einen Spieler beträgt € 2. Die jeweilige Auszahlung ist von der Summe der drei geworfenen Zahlen abhängig und wird in der nachstehenden Tabelle teilweise angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-04-payout-table.png",
+          "alt": "Auszahlungstabelle: positive Summe0Euro,Summe null2Euro,negative Summe unbekannt."
+        },
+        {
+          "t": "text",
+          "v": "\nEine Person spielt dieses Spiel fünfmal. Berechnen Sie die Wahrscheinlichkeit, dass dabei genau zweimal die Summe der drei geworfenen Zahlen genau null ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung:\nZufallsvariable "
+          },
+          {
+            "t": "math",
+            "v": "X"
+          },
+          {
+            "t": "text",
+            "v": " = Anzahl der Spiele, bei denen die Summe der drei geworfenen Zahlen genau null ist\n"
+          },
+          {
+            "t": "math",
+            "v": "P("
+          },
+          {
+            "t": "text",
+            "v": "„Summe der drei geworfenen Zahlen ist null“"
+          },
+          {
+            "t": "math",
+            "v": ")=p=\\frac13\\cdot\\frac13\\cdot\\frac13\\cdot3=\\frac19"
+          },
+          {
+            "t": "text",
+            "v": "\nBinomialverteilung mit den Parametern "
+          },
+          {
+            "t": "math",
+            "v": "n=5,k=2,p=\\frac19"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P(X=2)=\\binom52\\cdot\\left(\\frac19\\right)^2\\cdot\\left(\\frac89\\right)^3\\approx0{,}087\\Rightarrow"
+          },
+          {
+            "t": "text",
+            "v": " Die gesuchte Wahrscheinlichkeit liegt bei ca. 8,7 %."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,08; 0,09] bzw. [8 %; 9 %]"
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(X=2)=\\binom52\\cdot\\left(\\frac19\\right)^2\\cdot\\left(\\frac89\\right)^3\\approx0{,}087\\Rightarrow"
+            },
+            {
+              "t": "text",
+              "v": " Die gesuchte Wahrscheinlichkeit liegt bei ca. 8,7 %."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Andere Schreibweisen des Ergebnisses sind ebenfalls als richtig zu werten. Toleranzintervall: [0,08; 0,09] bzw. [8 %; 9 %]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung:\nZufallsvariable "
+            },
+            {
+              "t": "math",
+              "v": "X"
+            },
+            {
+              "t": "text",
+              "v": " = Anzahl der Spiele, bei denen die Summe der drei geworfenen Zahlen genau null ist\n"
+            },
+            {
+              "t": "math",
+              "v": "P("
+            },
+            {
+              "t": "text",
+              "v": "„Summe der drei geworfenen Zahlen ist null“"
+            },
+            {
+              "t": "math",
+              "v": ")=p=\\frac13\\cdot\\frac13\\cdot\\frac13\\cdot3=\\frac19"
+            },
+            {
+              "t": "text",
+              "v": "\nBinomialverteilung mit den Parametern "
+            },
+            {
+              "t": "math",
+              "v": "n=5,k=2,p=\\frac19"
+            }
+          ]
+        }
+      ],
+      "id": "2016-ht-t2-04-b1"
+    },
+    {
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Bei einem Spiel wird Würfel "
+        },
+        {
+          "t": "math",
+          "v": "B"
+        },
+        {
+          "t": "text",
+          "v": " dreimal geworfen. Der Einsatz des Spiels für eine Spielerin / einen Spieler beträgt € 2. Die jeweilige Auszahlung ist von der Summe der drei geworfenen Zahlen abhängig und wird in der nachstehenden Tabelle teilweise angegeben."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-04-payout-table.png",
+          "alt": "Auszahlungstabelle: positive Summe0Euro,Summe null2Euro,negative Summe unbekannt."
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie, welchen Betrag der Anbieter des Spiels für das Würfeln einer negativen Summe höchstens auszahlen darf, um langfristig mit keinem Verlust rechnen zu müssen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung: "
+          },
+          {
+            "t": "math",
+            "v": "x"
+          },
+          {
+            "t": "text",
+            "v": " ... Auszahlung für das Würfeln einer negativen Summe\n"
+          },
+          {
+            "t": "math",
+            "v": "2\\cdot\\frac19+x\\cdot\\frac1{27}<2\\Rightarrow x<48"
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "text",
+            "v": "Die Auszahlung für das Würfeln einer negativen Summe darf höchstens € 48 betragen, damit der Anbieter des Spiels langfristig mit keinem Verlust rechnen muss."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Auszahlung für das Würfeln einer negativen Summe darf höchstens € 48 betragen, damit der Anbieter des Spiels langfristig mit keinem Verlust rechnen muss."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei die Einheit „€“ nicht angegeben sein muss. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung: "
+            },
+            {
+              "t": "math",
+              "v": "x"
+            },
+            {
+              "t": "text",
+              "v": " ... Auszahlung für das Würfeln einer negativen Summe\n"
+            },
+            {
+              "t": "math",
+              "v": "2\\cdot\\frac19+x\\cdot\\frac1{27}<2\\Rightarrow x<48"
+            }
+          ]
+        }
+      ],
+      "id": "2016-ht-t2-04-b2"
+    },
+    {
+      "label": "c1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Peter wirft den Würfel "
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": " 100-mal. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Z"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der gewürfelten Sechser.\n\nBerechnen Sie den Erwartungswert und die Standardabweichung von "
+        },
+        {
+          "t": "math",
+          "v": "Z"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "numeric",
+        "blanks": [
+          {
+            "id": "mean",
+            "label": "E(Z)",
+            "value": 50,
+            "tol": 1e-09
+          },
+          {
+            "id": "sd",
+            "label": "Standardabweichung",
+            "value": 5,
+            "tol": 1e-09
+          }
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "n=100"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}5"
+            },
+            {
+              "t": "text",
+              "v": "\nErwartungswert: "
+            },
+            {
+              "t": "math",
+              "v": "E(Z)=50"
+            },
+            {
+              "t": "text",
+              "v": "\nStandardabweichung: "
+            },
+            {
+              "t": "math",
+              "v": "\\sqrt{V(Z)}=5"
+            }
+          ],
+          "note": "Ein Punkt für die Angabe der beiden korrekten Werte für den Erwartungswert und die Standardabweichung."
+        }
+      ],
+      "id": "2016-ht-t2-04-c1"
+    },
+    {
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Peter wirft den Würfel "
+        },
+        {
+          "t": "math",
+          "v": "C"
+        },
+        {
+          "t": "text",
+          "v": " 100-mal. Die Zufallsvariable "
+        },
+        {
+          "t": "math",
+          "v": "Z"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Anzahl der gewürfelten Sechser.\n\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die Wahrscheinlichkeit, dass die Summe der geworfenen Zahlen größer als 350 ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Mögliche Berechnung (z. B. durch Approximation durch die Normalverteilung ohne Stetigkeitskorrektur):\nDie Summe ist größer als 350, wenn die Anzahl der Sechser mindestens 59 ist.\nEs ist möglich, die (für die Anzahl der Sechser) zugrunde liegende Binomialverteilung mit "
+          },
+          {
+            "t": "math",
+            "v": "n=100"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "p=0{,}5"
+          },
+          {
+            "t": "text",
+            "v": " durch die Normalverteilung mit "
+          },
+          {
+            "t": "math",
+            "v": "\\mu=50"
+          },
+          {
+            "t": "text",
+            "v": " und "
+          },
+          {
+            "t": "math",
+            "v": "\\sigma=5"
+          },
+          {
+            "t": "text",
+            "v": " zu approximieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\n"
+          },
+          {
+            "t": "math",
+            "v": "P(Z\\ge59)\\approx0{,}036=3{,}6\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung, wobei Ergebnisse durch Berechnung mit Stetigkeitskorrektur oder exakt mittels Binomialverteilung ebenfalls als richtig zu werten sind. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [0,035; 0,045] bzw. [3,5 %; 4,5 %]"
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "P(Z\\ge59)\\approx0{,}036=3{,}6\\,\\%"
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung, wobei Ergebnisse durch Berechnung mit Stetigkeitskorrektur oder exakt mittels Binomialverteilung ebenfalls als richtig zu werten sind. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist. Toleranzintervall: [0,035; 0,045] bzw. [3,5 %; 4,5 %]",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Mögliche Berechnung (z. B. durch Approximation durch die Normalverteilung ohne Stetigkeitskorrektur):\nDie Summe ist größer als 350, wenn die Anzahl der Sechser mindestens 59 ist.\nEs ist möglich, die (für die Anzahl der Sechser) zugrunde liegende Binomialverteilung mit "
+            },
+            {
+              "t": "math",
+              "v": "n=100"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "p=0{,}5"
+            },
+            {
+              "t": "text",
+              "v": " durch die Normalverteilung mit "
+            },
+            {
+              "t": "math",
+              "v": "\\mu=50"
+            },
+            {
+              "t": "text",
+              "v": " und "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma=5"
+            },
+            {
+              "t": "text",
+              "v": " zu approximieren."
+            }
+          ]
+        }
+      ],
+      "id": "2016-ht-t2-04-c2"
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=772&token=39f307673a2a1ad703f1e42eb0272d62d483668d#page=10",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Gegeben sind die Netze von drei fairen Würfeln, deren Seitenflächen auf unterschiedliche Weise mit verschiedenen Zahlen beschriftet sind. (Ein Würfel ist „fair“, wenn die Wahrscheinlichkeit, nach einem Wurf nach oben zu zeigen, für alle Seitenflächen gleich groß ist.)"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/haupttermin-2016/fig/2016-ht-t2-04-dice-nets.png",
+      "alt": "Würfelnetze:A mit1,1,2,2,3,3;B mit−1,−1,2,2,5,5;C mit0,0,0,6,6,6."
+    }
+  ]
 }

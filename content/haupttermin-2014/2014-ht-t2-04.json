@@ -1,7 +1,7 @@
 {
   "id": "2014-ht-t2-04",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2014",
@@ -22,14 +22,358 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-ht-t2-04-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-ht-t2-04-a1",
+      "label": "a1",
+      "format": "Halboffenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Stückkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "\\bar K"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Gesamtkosten pro Stück bei einer Produktionsmenge von "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " Stück.\nⒶ Geben Sie eine Gleichung der Stückkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "\\bar K"
+        },
+        {
+          "t": "text",
+          "v": " für das oben beschriebene Produkt an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "expression",
+        "canonical": "0.001x^2-0.09x+2.8+\\frac5x",
+        "vars": [
+          "x"
+        ],
+        "checker": "cas"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar K(x)=\\frac{0{,}001\\cdot x^3-0{,}09\\cdot x^2+2{,}8\\cdot x+5}{x}=0{,}001\\cdot x^2-0{,}09\\cdot x+2{,}8+5\\cdot x^{-1}"
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die korrekte Stückkostenfunktion, wobei der Funktionsterm nicht vereinfacht werden muss."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-04-a2",
+      "label": "a2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Die Stückkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "\\bar K"
+        },
+        {
+          "t": "text",
+          "v": " beschreibt die Gesamtkosten pro Stück bei einer Produktionsmenge von "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " Stück."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Berechnen Sie die Stückkosten bei einer Produktion von 100 Stück!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\bar K(100)=3{,}85"
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für die korrekte Berechnung des Funktionswertes (sollte die Stückkostenfunktion zwar im Ansatz richtig, aber in der Vereinfachung fehlerhaft berechnet worden sein, jedoch der Funktionswert dann korrekt berechnet worden sein, ist dieser Punkt zu geben)."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\bar K(100)=3{,}85"
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Berechnung des Funktionswertes (sollte die Stückkostenfunktion zwar im Ansatz richtig, aber in der Vereinfachung fehlerhaft berechnet worden sein, jedoch der Funktionswert dann korrekt berechnet worden sein, ist dieser Punkt zu geben)."
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-04-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Wert der Grenzkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "K'"
+        },
+        {
+          "t": "text",
+          "v": " an einer bestimmten Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " wird als Kostenzuwachs bei der Steigerung der Produktion um ein Stück interpretiert. Diese betriebswirtschaftliche Interpretation ist im Allgemeinen mathematisch nicht exakt.\n\nGeben Sie das mathematisch korrekte Änderungsmaß an, das der angestrebten Interpretation entspricht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Der Differenzenquotient "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{K(x+1)-K(x)}{(x+1)-x}=K(x+1)-K(x)"
+          },
+          {
+            "t": "text",
+            "v": " bzw. die absolute Änderung "
+          },
+          {
+            "t": "math",
+            "v": "K(x+1)-K(x)"
+          },
+          {
+            "t": "text",
+            "v": " wäre mathematisch korrekt (anstatt des Differenzialquotienten)."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Der Differenzenquotient "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{K(x+1)-K(x)}{(x+1)-x}=K(x+1)-K(x)"
+            },
+            {
+              "t": "text",
+              "v": " bzw. die absolute Änderung "
+            },
+            {
+              "t": "math",
+              "v": "K(x+1)-K(x)"
+            },
+            {
+              "t": "text",
+              "v": " wäre mathematisch korrekt (anstatt des Differenzialquotienten)."
+            }
+          ],
+          "note": "Ein Punkt für das korrekte Änderungsmaß. Eine der beiden Möglichkeiten muss zumindest begrifflich angeführt sein. Die formale Definition des Differenzenquotienten kann gegebenenfalls nachgesehen werden.",
+          "steps": [
+            {
+              "t": "text",
+              "v": "Anmerkung: Der betriebswirtschaftlich eigentlich genutzte Differenzialquotient gibt die momentane Änderungsrate an einer bestimmten Stelle an. Die betriebswirtschaftliche Interpretation bezieht sich aber auf eine Änderungsrate (= Kostenzuwachs) bei einer Produktionssteigerung um eine Gütereinheit – also eigentlich auf die Änderungsrate in einem Intervall [x; x + 1], weswegen die Verwendung des Differenzenquotienten bzw. der absoluten Änderung mathematisch korrekt ist. (Geometrisch wird die Sekantensteigung durch die Tangentensteigung ersetzt.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-ht-t2-04-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 4 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Wert der Grenzkostenfunktion "
+        },
+        {
+          "t": "math",
+          "v": "K'"
+        },
+        {
+          "t": "text",
+          "v": " an einer bestimmten Stelle "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": " wird als Kostenzuwachs bei der Steigerung der Produktion um ein Stück interpretiert. Diese betriebswirtschaftliche Interpretation ist im Allgemeinen mathematisch nicht exakt."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Für welche Art von Kostenfunktionen ist die betriebswirtschaftliche Interpretation der Grenzkostenfunktion gleichzeitig auch mathematisch exakt? Geben Sie diesen Funktionstyp an!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Für eine lineare Kostenfunktion."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Für eine lineare Kostenfunktion ist die betriebswirtschaftliche Interpretation der Grenzkostenfunktion gleichzeitig auch mathematisch exakt."
+            }
+          ],
+          "note": "Ein Punkt für die korrekte Angabe des Funktionstyps. (Auch graphische Überlegungen – ein Graph einer linearen Funktion – gelten als richtige Antwort.)"
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 4 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=887&token=a5e59c2ef2aab529c344ad2d31bbc19561b68b8a#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Unter den Gesamtkosten eines Betriebes versteht man alle Ausgaben (z. B. Löhne, Miete, Strom, Kosten für Rohstoffe usw.), die für die Produktion anfallen.\nMit mathematischen Mitteln können die Kostenverläufe beschrieben werden, die für Betriebe strategische Entscheidungshilfen sind.\n\nDie Gleichung der Gesamtkostenfunktion "
+    },
+    {
+      "t": "math",
+      "v": "K"
+    },
+    {
+      "t": "text",
+      "v": " eines bestimmten Produkts lautet:\n"
+    },
+    {
+      "t": "math",
+      "v": "K(x)=0{,}001x^3-0{,}09x^2+2{,}8x+5"
+    },
+    {
+      "t": "text",
+      "v": "\n"
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " ... produzierte Stückanzahl"
+    }
+  ]
 }

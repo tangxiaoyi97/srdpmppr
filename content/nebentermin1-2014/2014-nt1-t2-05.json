@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t2-05",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -22,14 +22,696 @@
   "figures": [],
   "parts": [
     {
-      "id": "2014-nt1-t2-05-a",
-      "label": "a",
-      "format": "",
+      "id": "2014-nt1-t2-05-a1",
+      "label": "a1",
+      "format": "2 aus 5",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Die Ziehung der Gewinnzahlen 3, 12, 19, 25, 36, 41 bei einer Lottoziehung ist gleich wahrscheinlich wie die Ziehung der Gewinnzahlen 1, 2, 3, 4, 5, 6."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Eine Zahl, die bei einer Lottoziehung gezogen wurde, wird bei der darauffolgenden Lottoziehung mit einer Wahrscheinlichkeit kleiner als "
+            },
+            {
+              "t": "math",
+              "v": "\\frac6{45}"
+            },
+            {
+              "t": "text",
+              "v": " erneut gezogen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Kalenderjahr 2010 war die Wahrscheinlichkeit, die Zahl 8 zu ziehen, bei manchen Ziehungen kleiner als "
+            },
+            {
+              "t": "math",
+              "v": "\\frac6{45}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Zahl 17 als erste Zahl gezogen wird, beträgt bei jeder Ziehung "
+            },
+            {
+              "t": "math",
+              "v": "\\frac1{45}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Wahrscheinlichkeit, dass die Zahl 32 bei einer Ziehung als zweite Zahl gezogen wird, beträgt "
+            },
+            {
+              "t": "math",
+              "v": "\\frac1{44}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          0,
+          3
+        ],
+        "selectCount": 2
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Ziehung der Gewinnzahlen 3, 12, 19, 25, 36, 41 bei einer Lottoziehung ist gleich wahrscheinlich wie die Ziehung der Gewinnzahlen 1, 2, 3, 4, 5, 6.\n\nDie Wahrscheinlichkeit, dass die Zahl 17 als erste Zahl gezogen wird, beträgt bei jeder Ziehung "
+            },
+            {
+              "t": "math",
+              "v": "\\frac1{45}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt ist nur dann zu geben, wenn genau zwei Aussagen angekreuzt sind und beide Kreuze richtig gesetzt sind."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-05-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe a1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Ⓐ Kreuzen Sie die beiden zutreffenden Aussagen an!"
+        },
+        {
+          "t": "text",
+          "v": "\n\n• "
+        },
+        {
+          "t": "text",
+          "v": "Die Ziehung der Gewinnzahlen 3, 12, 19, 25, 36, 41 bei einer Lottoziehung ist gleich wahrscheinlich wie die Ziehung der Gewinnzahlen 1, 2, 3, 4, 5, 6."
+        },
+        {
+          "t": "text",
+          "v": "\n\n• "
+        },
+        {
+          "t": "text",
+          "v": "Eine Zahl, die bei einer Lottoziehung gezogen wurde, wird bei der darauffolgenden Lottoziehung mit einer Wahrscheinlichkeit kleiner als "
+        },
+        {
+          "t": "math",
+          "v": "\\frac6{45}"
+        },
+        {
+          "t": "text",
+          "v": " erneut gezogen."
+        },
+        {
+          "t": "text",
+          "v": "\n\n• "
+        },
+        {
+          "t": "text",
+          "v": "Im Kalenderjahr 2010 war die Wahrscheinlichkeit, die Zahl 8 zu ziehen, bei manchen Ziehungen kleiner als "
+        },
+        {
+          "t": "math",
+          "v": "\\frac6{45}"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n• "
+        },
+        {
+          "t": "text",
+          "v": "Die Wahrscheinlichkeit, dass die Zahl 17 als erste Zahl gezogen wird, beträgt bei jeder Ziehung "
+        },
+        {
+          "t": "math",
+          "v": "\\frac1{45}"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\n• "
+        },
+        {
+          "t": "text",
+          "v": "Die Wahrscheinlichkeit, dass die Zahl 32 bei einer Ziehung als zweite Zahl gezogen wird, beträgt "
+        },
+        {
+          "t": "math",
+          "v": "\\frac1{44}"
+        },
+        {
+          "t": "text",
+          "v": "."
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Stellen Sie eine der falschen Aussagen zur Ziehungswahrscheinlichkeit richtig!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Eine Zahl, die bei einer Lottoziehung gezogen wurde, wird bei der darauffolgenden Lottoziehung mit einer Wahrscheinlichkeit von "
+          },
+          {
+            "t": "math",
+            "v": "\\frac6{45}"
+          },
+          {
+            "t": "text",
+            "v": " erneut gezogen.\nOder: Im Kalenderjahr 2010 war die Wahrscheinlichkeit, die Zahl 8 zu ziehen, bei jeder Ziehung gleich "
+          },
+          {
+            "t": "math",
+            "v": "\\frac6{45}"
+          },
+          {
+            "t": "text",
+            "v": ".\nOder: Die Wahrscheinlichkeit, dass die Zahl 32 bei einer Ziehung als zweite Zahl gezogen wird, beträgt "
+          },
+          {
+            "t": "math",
+            "v": "\\frac1{45}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Eine Zahl, die bei einer Lottoziehung gezogen wurde, wird bei der darauffolgenden Lottoziehung mit einer Wahrscheinlichkeit von "
+            },
+            {
+              "t": "math",
+              "v": "\\frac6{45}"
+            },
+            {
+              "t": "text",
+              "v": " erneut gezogen.\nOder: Im Kalenderjahr 2010 war die Wahrscheinlichkeit, die Zahl 8 zu ziehen, bei jeder Ziehung gleich "
+            },
+            {
+              "t": "math",
+              "v": "\\frac6{45}"
+            },
+            {
+              "t": "text",
+              "v": ".\nOder: Die Wahrscheinlichkeit, dass die Zahl 32 bei einer Ziehung als zweite Zahl gezogen wird, beträgt "
+            },
+            {
+              "t": "math",
+              "v": "\\frac1{45}"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Richtigstellung einer der drei falschen Aussagen."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-05-b1",
+      "label": "b1",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ermitteln Sie die relative Ziehungshäufigkeit der Zahl 10 im Kalenderjahr 2010!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "Die relative Ziehungshäufigkeit der Zahl 10 im Kalenderjahr 2010 beträgt "
+          },
+          {
+            "t": "math",
+            "v": "\\frac{19}{104}\\approx0{,}183"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für das korrekte Bestimmen der relativen Ziehungshäufigkeit, wobei das Ergebnis in Bruch-, Dezimal- oder Prozentschreibweise angegeben werden kann."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die relative Ziehungshäufigkeit der Zahl 10 im Kalenderjahr 2010 beträgt "
+            },
+            {
+              "t": "math",
+              "v": "\\frac{19}{104}\\approx0{,}183"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für das korrekte Bestimmen der relativen Ziehungshäufigkeit, wobei das Ergebnis in Bruch-, Dezimal- oder Prozentschreibweise angegeben werden kann."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-05-b2",
+      "label": "b2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie, dass die Ziehungshäufigkeiten der Zahl 10 in den Abbildungen 1 und 2 mit dem empirischen Gesetz der großen Zahlen im Einklang stehen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Bei 2 056 Ziehungen hat sich die relative Häufigkeit "
+          },
+          {
+            "t": "math",
+            "v": "\\left(\\frac{270}{2\\,056}\\approx0{,}131\\right)"
+          },
+          {
+            "t": "text",
+            "v": " der theoretischen Ziehungswahrscheinlichkeit von "
+          },
+          {
+            "t": "math",
+            "v": "\\frac6{45}\\approx0{,}133"
+          },
+          {
+            "t": "text",
+            "v": " im Vergleich zu den 104 Ziehungen des Kalenderjahres 2010 angenähert."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Bei 2 056 Ziehungen hat sich die relative Häufigkeit "
+            },
+            {
+              "t": "math",
+              "v": "\\left(\\frac{270}{2\\,056}\\approx0{,}131\\right)"
+            },
+            {
+              "t": "text",
+              "v": " der theoretischen Ziehungswahrscheinlichkeit von "
+            },
+            {
+              "t": "math",
+              "v": "\\frac6{45}\\approx0{,}133"
+            },
+            {
+              "t": "text",
+              "v": " im Vergleich zu den 104 Ziehungen des Kalenderjahres 2010 angenähert."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Erklärung, warum die Häufigkeiten in den Abbildungen 1 und 2 mit dem empirischen Gesetz der großen Zahlen für die relative Ziehungshäufigkeit der Zahl 10 im Einklang stehen."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-05-c1",
+      "label": "c1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Überprüfen Sie anhand von Abbildung 2, bei welchen Zahlen die absolute Ziehungshäufigkeit bei den 2 056 Ziehungen um mehr als das Doppelte der Standardabweichung vom Erwartungswert abweicht!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "\\mu=2\\,056\\cdot\\frac6{45}\\approx274"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "\\sigma=\\sqrt{2\\,056\\cdot\\frac6{45}\\cdot\\frac{39}{45}}\\approx15"
+          },
+          {
+            "t": "text",
+            "v": ". "
+          },
+          {
+            "t": "math",
+            "v": "\\mu-2\\sigma\\approx243"
+          },
+          {
+            "t": "text",
+            "v": ", "
+          },
+          {
+            "t": "math",
+            "v": "\\mu+2\\sigma\\approx305"
+          },
+          {
+            "t": "text",
+            "v": ". Bei allen Zahlen, die höchstens 243-mal oder mindestens 305-mal gezogen wurden, weicht die Ziehungshäufigkeit um mehr als "
+          },
+          {
+            "t": "math",
+            "v": "2\\sigma"
+          },
+          {
+            "t": "text",
+            "v": " vom Erwartungswert ab. Dies trifft auf die Zahlen 39, 42 und 43 zu."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\mu=2\\,056\\cdot\\frac6{45}\\approx274"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\sigma=\\sqrt{2\\,056\\cdot\\frac6{45}\\cdot\\frac{39}{45}}\\approx15"
+            },
+            {
+              "t": "text",
+              "v": ". "
+            },
+            {
+              "t": "math",
+              "v": "\\mu-2\\sigma\\approx243"
+            },
+            {
+              "t": "text",
+              "v": ", "
+            },
+            {
+              "t": "math",
+              "v": "\\mu+2\\sigma\\approx305"
+            },
+            {
+              "t": "text",
+              "v": ". Bei allen Zahlen, die höchstens 243-mal oder mindestens 305-mal gezogen wurden, weicht die Ziehungshäufigkeit um mehr als "
+            },
+            {
+              "t": "math",
+              "v": "2\\sigma"
+            },
+            {
+              "t": "text",
+              "v": " vom Erwartungswert ab. Dies trifft auf die Zahlen 39, 42 und 43 zu."
+            }
+          ],
+          "note": "Ein Punkt für das Ermitteln der Zahlen 39, 42 und 43."
+        }
+      ]
+    },
+    {
+      "id": "2014-nt1-t2-05-c2",
+      "label": "c2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 5 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\n"
+        },
+        {
+          "t": "text",
+          "v": "Überprüfen Sie anhand von Abbildung 2, bei welchen Zahlen die absolute Ziehungshäufigkeit bei den 2 056 Ziehungen um mehr als das Doppelte der Standardabweichung vom Erwartungswert abweicht!"
+        },
+        {
+          "t": "text",
+          "v": "\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie an, welche Verteilung Sie für die Berechnungen verwendet haben, und begründen Sie Ihre Entscheidung!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Es wurde die Binomialverteilung verwendet, da es um Anzahlen geht („absolute Ziehungshäufigkeit“), es nur zwei mögliche Ausgänge bei einer Lottoziehung gibt (eine bestimmte Zahl wurde gezogen oder sie wurde nicht gezogen) und weil die Ziehungswahrscheinlichkeit von Ziehung zu Ziehung gleich bleibt."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Es wurde die Binomialverteilung verwendet, da es um Anzahlen geht („absolute Ziehungshäufigkeit“), es nur zwei mögliche Ausgänge bei einer Lottoziehung gibt (eine bestimmte Zahl wurde gezogen oder sie wurde nicht gezogen) und weil die Ziehungswahrscheinlichkeit von Ziehung zu Ziehung gleich bleibt."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung, warum die Binomialverteilung verwendet werden darf."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 5 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1823&token=3bc02f254d0942e499892874e9e44934fb968af4#page=11",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Beim österreichischen Zahlenlotto sind 45 Kugeln mit den Zahlen von 1 bis 45 beschriftet.\nBei einer Lottoziehung werden zufällig und ohne Zurücklegen 6 der 45 Kugeln aus der „Lottotrommel“ entnommen. Die Wahrscheinlichkeit, dass eine bestimmte Zahl im Rahmen einer Lottoziehung (6 aus 45) gezogen wird, beträgt "
+    },
+    {
+      "t": "math",
+      "v": "\\frac6{45}"
+    },
+    {
+      "t": "text",
+      "v": ".\n\nEin Zufallsexperiment habe genau zwei Ausgänge: Ein Ereignis "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " tritt mit einer gewissen Wahrscheinlichkeit ein oder es tritt nicht ein.\nDas empirische Gesetz der großen Zahlen besagt nun Folgendes: Bei einer hinreichend großen Anzahl von Durchführungen dieses Experiments stabilisieren sich die relativen Häufigkeiten "
+    },
+    {
+      "t": "math",
+      "v": "h_r(A)"
+    },
+    {
+      "t": "text",
+      "v": " bei einem Wert, der der Wahrscheinlichkeit "
+    },
+    {
+      "t": "math",
+      "v": "P(A)"
+    },
+    {
+      "t": "text",
+      "v": " für das Ereignis "
+    },
+    {
+      "t": "math",
+      "v": "A"
+    },
+    {
+      "t": "text",
+      "v": " entspricht.\n\nAbbildung 1 zeigt die absoluten Ziehungshäufigkeiten der Zahlen 1 bis 45 bei den 104 Ziehungen im Kalenderjahr 2010.\nAbbildung 2 zeigt die absoluten Ziehungshäufigkeiten der Zahlen 1 bis 45 bei 2 056 Ziehungen vom 1.1.1986 bis zum 27.11.2011.\n\nAbbildung 1:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-05-draws-2010.png",
+      "alt": "Abbildung 1: Originale Ziehungshäufigkeiten der 45 Zahlen im Jahr 2010."
+    },
+    {
+      "t": "text",
+      "v": "Abbildung 2:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t2-05-draws-total.png",
+      "alt": "Abbildung 2: Originale Ziehungshäufigkeiten bei 2 056 Ziehungen."
+    }
+  ]
 }

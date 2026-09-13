@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,178 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_655a",
+          "id": "1_655",
           "baseId": "1_655",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/380/Beschleunigung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Objekts hat in diesem Zeitintervall um 2 m/s zugenommen."
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn ausschließlich die laut Lösungserwartung richtige Aussage angekreuzt ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Eine der nachstehenden Aussagen interpretiert das angegebene bestimmte Integral korrekt.\nKreuzen Sie die zutreffende Aussage an!"
+        }
+      ],
+      "answer": {
+        "kind": "choice",
+        "options": [
+          [
+            {
+              "t": "text",
+              "v": "Das Objekt legt im gegebenen Zeitintervall 2 m zurück."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Objekts am Ende des gegebenen Zeitintervalls beträgt 2 m/s."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Beschleunigung des Objekts ist am Ende des gegebenen Zeitintervalls um "
+            },
+            {
+              "t": "math",
+              "v": "2\\,\\mathrm{m/s}^2"
+            },
+            {
+              "t": "text",
+              "v": " höher als am Anfang des Intervalls."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Die Geschwindigkeit des Objekts hat in diesem Zeitintervall um 2 m/s zugenommen."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im Mittel erhöht sich die Geschwindigkeit des Objekts im gegebenen Zeitintervall pro Sekunde um 2 m/s."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Im gegebenen Zeitintervall erhöht sich die Beschleunigung des Objekts pro Sekunde um "
+            },
+            {
+              "t": "math",
+              "v": "\\frac24\\,\\mathrm{m/s}^2"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ]
+        ],
+        "correct": [
+          3
+        ],
+        "selectCount": 1
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_655",
       "baseId": "1_655",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/380/Beschleunigung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "a"
+    },
+    {
+      "t": "text",
+      "v": " beschreibt die Beschleunigung eines sich in Bewegung befindlichen Objekts in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " im Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "[t_1;t_1+4]"
+    },
+    {
+      "t": "text",
+      "v": ". Die Beschleunigung "
+    },
+    {
+      "t": "math",
+      "v": "a(t)"
+    },
+    {
+      "t": "text",
+      "v": " wird in "
+    },
+    {
+      "t": "math",
+      "v": "\\mathrm{m/s}^2"
+    },
+    {
+      "t": "text",
+      "v": ", die Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in s angegeben.\n\nEs gilt:\n"
+    },
+    {
+      "t": "math",
+      "v": "\\int_{t_1}^{t_1+4} a(t)\\,\\mathrm{d}t=2"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "2014-nt1-t1-18",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2014",
@@ -36,26 +36,120 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 18 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=22",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_356a",
+          "id": "1_356",
           "baseId": "1_356",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/67/Geschwindigkeitsfunktion.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Die zurückgelegte Wegstrecke ist in den ersten 5 Sekunden größer als in den zweiten 5 Sekunden."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Deutung."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie an, was die Aussage "
+        },
+        {
+          "t": "math",
+          "v": "\\int_0^5 v(t)\\,\\mathrm dt>\\int_5^{10}v(t)\\,\\mathrm dt"
+        },
+        {
+          "t": "text",
+          "v": " im vorliegenden Kontext bedeutet!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Die zurückgelegte Wegstrecke ist in den ersten 5 Sekunden größer als in den zweiten 5 Sekunden."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 18 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1822&token=d668b30aaf1e939bf327a2660175fd2e74aad190#page=22",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_356",
       "baseId": "1_356",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/67/Geschwindigkeitsfunktion.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die nachstehende Abbildung zeigt den Graphen einer Funktion "
+    },
+    {
+      "t": "math",
+      "v": "v"
+    },
+    {
+      "t": "text",
+      "v": ", die die Geschwindigkeit "
+    },
+    {
+      "t": "math",
+      "v": "v(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Abhängigkeit von der Zeit "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " ("
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Sekunden) modelliert."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2014/fig/2014-nt1-t1-18-velocity.png",
+      "alt": "Originalgraph der Geschwindigkeitsfunktion v."
     }
   ]
 }

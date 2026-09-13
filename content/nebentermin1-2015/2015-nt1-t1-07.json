@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -36,26 +36,158 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_439a",
+          "id": "1_439",
           "baseId": "1_439",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/147/Bewegung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Skizze:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-07-solution.png",
+              "alt": "Möglicher Weggraph: Start horizontal, beschleunigt bis t=3, linear bis t=6, gebremst bis t=10"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Skizze, wobei folgende Aspekte erkennbar sein müssen: der Graph verläuft durch die in der Tabelle angegebenen Punkte; s′(0) = s′(10) = 0; linksgekrümmt in [0; 3), rechtsgekrümmt in (6; 10] und linearer Verlauf in [3; 6]."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeichnen Sie den Graphen einer möglichen Zeit-Weg-Funktion "
+        },
+        {
+          "t": "math",
+          "v": "s"
+        },
+        {
+          "t": "text",
+          "v": ", die den beschriebenen Sachverhalt modelliert, in das nachstehende Koordinatensystem!"
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-07-grid.png",
+          "alt": "Leeres Zeit-Weg-Koordinatensystem"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Graph durch (0|0),(3|20),(6|50),(10|70), "
+          },
+          {
+            "t": "math",
+            "v": "s'(0)=s'(10)=0"
+          },
+          {
+            "t": "text",
+            "v": ", linksgekrümmt [0;3), linear [3;6], rechtsgekrümmt (6;10]."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Skizze, wobei folgende Aspekte erkennbar sein müssen: der Graph verläuft durch die in der Tabelle angegebenen Punkte; s′(0) = s′(10) = 0; linksgekrümmt in [0; 3), rechtsgekrümmt in (6; 10] und linearer Verlauf in [3; 6]."
+          }
+        ],
+        "grader": "self"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=867&token=981dc8972ca59a2cfe0ab9b60366d46d2fc461d0#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_439",
       "baseId": "1_439",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/147/Bewegung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein Körper wird entlang einer Geraden bewegt.\nDie Entfernungen des Körpers (in Metern) vom Ausgangspunkt seiner Bewegung nach "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " Sekunden sind in der nachstehenden Tabelle angeführt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t1-07-table.png",
+      "alt": "Zeit/Weg: 0 s/0 m, 3 s/20 m, 6 s/50 m, 10 s/70 m"
+    },
+    {
+      "t": "text",
+      "v": "\nDer Bewegungsablauf des Körpers weist folgende Eigenschaften auf:\n• (positive) Beschleunigung im Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "[0;3)"
+    },
+    {
+      "t": "text",
+      "v": " aus dem Stillstand bei "
+    },
+    {
+      "t": "math",
+      "v": "t=0"
+    },
+    {
+      "t": "text",
+      "v": "\n• konstante Geschwindigkeit im Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "[3;6]"
+    },
+    {
+      "t": "text",
+      "v": "\n• Bremsen (negative Beschleunigung) im Zeitintervall "
+    },
+    {
+      "t": "math",
+      "v": "(6;10]"
+    },
+    {
+      "t": "text",
+      "v": " bis zum Stillstand bei "
+    },
+    {
+      "t": "math",
+      "v": "t=10"
     }
   ]
 }

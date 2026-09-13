@@ -1,6 +1,6 @@
 {
   "id": "2024-ht-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -214,19 +214,27 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "P",
-            "value": 0.865,
-            "tol": 0.0005
+            "t": "math",
+            "v": "1-\\frac35\\cdot\\frac3{10}\\cdot\\frac34=0{,}865=86{,}5\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "Ein Punkt für das richtige Berechnen; gleichwertige Bruch-, Dezimal- und Prozentdarstellungen sind richtig. Keine zusätzliche numerische Toleranz."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Wahrscheinlichkeit0,865=86,5% odergleichwertig.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -274,6 +282,19 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Paul schießt beim Training auf die 3 Ziele A, B und C. Er trifft diese bei jedem Schuss unabhängig von jedem anderen Schuss mit den in der nachstehenden Tabelle angeführten Wahrscheinlichkeiten."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/haupttermin-2024/fig/2024-ht-t2-01-c-tab.png",
+          "alt": "Tabelle: Ziel | Wahrscheinlichkeit — A: 2/5, B: 7/10, C: 1/4."
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
         {
           "t": "text",
           "v": "Paul schießt 10-mal auf das Ziel A. Die binomialverteilte Zufallsvariable X gibt dabei die Anzahl der Treffer an.\n\nErmitteln Sie den Erwartungswert "

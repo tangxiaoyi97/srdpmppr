@@ -1,7 +1,7 @@
 {
   "id": "2017-nt2-t1-07",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin2-2017",
@@ -36,26 +36,136 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 7 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=11",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_535a",
+          "id": "1_535",
           "baseId": "1_535",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/244/Schnittpunkt.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Interpretationen:\n\nDie erste Koordinate des Schnittpunkts gibt diejenige Produktionsmenge an, bei der kostendeckend produziert wird (d. h., bei der Erlös und Kosten gleich hoch sind), die zweite Koordinate gibt dabei den zugehörigen Erlös bzw. die zugehörigen Kosten an.\n\noder:\n\nDie erste Koordinate des Schnittpunkts gibt diejenige Produktionsmenge an, bei der weder Gewinn noch Verlust gemacht wird, die zweite Koordinate gibt dabei den zugehörigen Erlös bzw. die zugehörigen Kosten an."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Interpretation beider Koordinaten."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Interpretieren Sie die beiden Koordinaten des Schnittpunkts "
+        },
+        {
+          "t": "math",
+          "v": "S"
+        },
+        {
+          "t": "text",
+          "v": " der beiden Funktionsgraphen im gegebenen Zusammenhang!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Mögliche Interpretationen:\n\nDie erste Koordinate des Schnittpunkts gibt diejenige Produktionsmenge an, bei der kostendeckend produziert wird (d. h., bei der Erlös und Kosten gleich hoch sind), die zweite Koordinate gibt dabei den zugehörigen Erlös bzw. die zugehörigen Kosten an.\n\noder:\n\nDie erste Koordinate des Schnittpunkts gibt diejenige Produktionsmenge an, bei der weder Gewinn noch Verlust gemacht wird, die zweite Koordinate gibt dabei den zugehörigen Erlös bzw. die zugehörigen Kosten an."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 7 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=1647&token=f28496d2ec49d45f3f57cfe8f43b49b0840f6cc3#page=11",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_535",
       "baseId": "1_535",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/244/Schnittpunkt.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "E"
+    },
+    {
+      "t": "text",
+      "v": " gibt den Erlös "
+    },
+    {
+      "t": "math",
+      "v": "E(x)"
+    },
+    {
+      "t": "text",
+      "v": " und die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "K"
+    },
+    {
+      "t": "text",
+      "v": " die Kosten "
+    },
+    {
+      "t": "math",
+      "v": "K(x)"
+    },
+    {
+      "t": "text",
+      "v": " jeweils in Euro bezogen auf die Produktionsmenge "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " an. Die Produktionsmenge "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " wird in Mengeneinheiten (ME) angegeben.\nIm folgenden Koordinatensystem sind die Graphen beider Funktionen dargestellt:"
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin2-2017/fig/2017-nt2-t1-07-q.png",
+      "alt": "Kostenfunktion K und Erlösfunktion E schneiden sich im Punkt S."
     }
   ]
 }

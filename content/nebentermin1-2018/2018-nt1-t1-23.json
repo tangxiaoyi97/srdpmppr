@@ -1,7 +1,7 @@
 {
   "id": "2018-nt1-t1-23",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2018",
@@ -36,26 +36,158 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 23 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=27",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_660a",
+          "id": "1_660",
           "baseId": "1_660",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/385/Binomialverteilung.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "E; C; F; D"
+            }
+          ],
+          "note": "Ein Punkt ist genau dann zu geben, wenn jedem der vier Ereignisse ausschließlich der laut Lösungserwartung richtige Buchstabe zugeordnet ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ordnen Sie den vier angeführten Ereignissen jeweils denjenigen Term (aus A bis F) zu, der die diesem Ereignis entsprechende Wahrscheinlichkeit angibt!"
+        }
+      ],
+      "answer": {
+        "kind": "matching",
+        "left": [
+          [
+            {
+              "t": "text",
+              "v": "Genau eine Person hat die Blutgruppe AB–."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Mindestens eine Person hat die Blutgruppe AB–."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Höchstens eine Person hat die Blutgruppe AB–."
+            }
+          ],
+          [
+            {
+              "t": "text",
+              "v": "Keine Person hat die Blutgruppe AB–."
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "t": "math",
+              "v": "1-p^{100}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p\\cdot(1-p)^{99}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "1-(1-p)^{100}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(1-p)^{100}"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "p\\cdot(1-p)^{99}\\cdot100"
+            }
+          ],
+          [
+            {
+              "t": "math",
+              "v": "(1-p)^{100}+p\\cdot(1-p)^{99}\\cdot100"
+            }
+          ]
+        ],
+        "pairs": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 23 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2763&token=e9f67be0600ed7bbd9c4ee669ca9c11b689b08cc#page=27",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_660",
       "baseId": "1_660",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/385/Binomialverteilung.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der relative Anteil der österreichischen Bevölkerung mit der Blutgruppe „AB Rhesusfaktor negativ“ (AB–) ist bekannt und wird mit "
+    },
+    {
+      "t": "math",
+      "v": "p"
+    },
+    {
+      "t": "text",
+      "v": " bezeichnet.\nIn einer Zufallsstichprobe von 100 Personen soll ermittelt werden, wie viele dieser zufällig ausgewählten Personen die genannte Blutgruppe haben."
     }
   ]
 }

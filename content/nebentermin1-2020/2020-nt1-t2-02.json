@@ -1,6 +1,6 @@
 {
   "id": "2020-nt1-t2-02",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -58,19 +58,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "p",
-            "value": 21.4,
-            "tol": 0.2,
-            "unit": "%"
+            "t": "math",
+            "v": "\\tfrac{B(90)-B(70)}{B(70)}=0{,}2138\\ldots\\approx 21{,}4\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\approx 21{,}4\\,\\%"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für die richtige Lösung."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a1) Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -127,20 +143,35 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "v1",
-            "label": "v₁",
-            "value": 24.24,
-            "tol": 0.1,
-            "unit": "km/h"
+            "t": "math",
+            "v": "B(v_1)\\cdot 0{,}75=B(40)"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "v_1=24{,}24\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "\n\na2) Ein Punkt für die richtige Lösung."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "a2) Ein Punkt für die richtige Lösung.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -238,6 +269,10 @@
           {
             "t": "math",
             "v": "f(v)=0{,}0734\\ldots\\cdot v-2{,}9399\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb1) Ein Ausgleichspunkt für einen richtigen Funktionsterm. Äquivalente Funktionsterme sind als richtig zu werten."
           }
         ],
         "grader": "ai"
@@ -276,7 +311,7 @@
     {
       "id": "2020-nt1-t2-02-b2",
       "label": "b2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "FA 2.1",
@@ -304,25 +339,93 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Für hohe Geschwindigkeiten soll die Funktion B durch eine lineare Funktion f mit "
+        },
+        {
+          "t": "math",
+          "v": "f(v)=k\\cdot v+d\\ \\text{mit}\\ k,d\\in\\mathbb{R}"
+        },
+        {
+          "t": "text",
+          "v": " angenähert werden, sodass gilt:\n"
+        },
+        {
+          "t": "math",
+          "v": "f(100)=B(100)"
+        },
+        {
+          "t": "text",
+          "v": "\n"
+        },
+        {
+          "t": "math",
+          "v": "f(130)=B(130)"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
           "v": "Diese Näherung kann verwendet werden, wenn die Abweichung zwischen den Funktionswerten von f und B höchstens 0,3 L/100 km beträgt.\n\nGeben Sie das größtmögliche Intervall für die Geschwindigkeit an, in dem die Funktion f als Näherung verwendet werden kann."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "interval",
-        "lower": 87.1,
-        "upper": 143.3,
-        "lowerClosed": true,
-        "upperClosed": true
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "mögliche Vorgehensweise:\n"
+          },
+          {
+            "t": "math",
+            "v": "D(v)=B(v)-f(v)"
+          },
+          {
+            "t": "math",
+            "v": "D(v)=0{,}3"
+          },
+          {
+            "t": "math",
+            "v": "(v_1=-10{,}94\\ldots),\\quad v_2=87{,}08\\ldots,\\quad v_3=143{,}34\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Da die Funktion D an der Stelle v = 114,91... km/h eine Minimumstelle mit dem Funktionswert –0,1 > –0,3 hat, erhält man das Intervall [87,1 km/h; 143,3 km/h]."
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "[87,1 km/h; 143,3 km/h]"
+          },
+          {
+            "t": "text",
+            "v": "\n\nb2) Ein Punkt für das richtige Intervall, wobei die Einheit „km/h“ nicht angeführt sein muss."
+          }
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "b2) Ein Punkt für das richtige Intervall, wobei die Einheit „km/h“ nicht angeführt sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
         {
           "steps": [
+            {
+              "t": "text",
+              "v": "mögliche Vorgehensweise:\n"
+            },
             {
               "t": "math",
               "v": "D(v)=B(v)-f(v)"
@@ -381,32 +484,64 @@
       "prompt": [
         {
           "t": "text",
-          "v": "Ermitteln Sie mithilfe der Funktion B diejenige Geschwindigkeit v_min, bei der der Benzinverbrauch am geringsten ist, sowie den zugehörigen Benzinverbrauch B_min.\n\nv_min = ___ km/h\n\nB_min = ___ L/100 km"
+          "v": "Ermitteln Sie mithilfe der Funktion B diejenige Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": ", bei der der Benzinverbrauch am geringsten ist, sowie den zugehörigen Benzinverbrauch "
+        },
+        {
+          "t": "math",
+          "v": "B_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\n"
+        },
+        {
+          "t": "math",
+          "v": "v_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": " = ___ km/h\n\n"
+        },
+        {
+          "t": "math",
+          "v": "B_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": " = ___ L/100 km"
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "vmin",
-            "label": "v_min",
-            "value": 55.73,
-            "tol": 0.1,
-            "unit": "km/h"
+            "t": "math",
+            "v": "v_{\\min}=55{,}73\\ldots\\ \\text{km/h},\\quad B_{\\min}=3{,}03\\ldots\\ \\text{L/100 km}"
           },
           {
-            "id": "Bmin",
-            "label": "B_min",
-            "value": 3.03,
-            "tol": 0.05,
-            "unit": "L/100 km"
+            "t": "text",
+            "v": "\n\nc1) Ein Punkt für die beiden richtigen Werte."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c1) Ein Punkt für die beiden richtigen Werte.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -424,7 +559,7 @@
     {
       "id": "2020-nt1-t2-02-c2",
       "label": "c2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "AN 3.3",
@@ -452,6 +587,26 @@
       "prompt": [
         {
           "t": "text",
+          "v": "Kontext aus Teilaufgabe c1:\nErmitteln Sie mithilfe der Funktion B diejenige Geschwindigkeit "
+        },
+        {
+          "t": "math",
+          "v": "v_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": ", bei der der Benzinverbrauch am geringsten ist, sowie den zugehörigen Benzinverbrauch "
+        },
+        {
+          "t": "math",
+          "v": "B_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": ".\n\nAktuelle Aufgabenstellung:\n"
+        },
+        {
+          "t": "text",
           "v": "Der Benzinverbrauch hängt auch vom Reifendruck ab.\nDie Funktion g beschreibt den Benzinverbrauch in Abhängigkeit von der Geschwindigkeit v bei einem etwas zu niedrigen Reifendruck.\nDabei gilt: "
         },
         {
@@ -460,32 +615,64 @@
         },
         {
           "t": "text",
-          "v": "\n\nBerechnen Sie mithilfe der Funktion g, bei welchen beiden Geschwindigkeiten der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als B_min ist."
+          "v": "\n\nBerechnen Sie mithilfe der Funktion g, bei welchen beiden Geschwindigkeiten der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als "
+        },
+        {
+          "t": "math",
+          "v": "B_{\\min}"
+        },
+        {
+          "t": "text",
+          "v": " ist."
         }
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "rubric": [
           {
-            "id": "v1",
-            "label": "v₁",
-            "value": 20.41,
-            "tol": 0.1,
-            "unit": "km/h"
+            "t": "math",
+            "v": "g(v)=B_{\\min}+2"
           },
           {
-            "id": "v2",
-            "label": "v₂",
-            "value": 108.67,
-            "tol": 0.1,
-            "unit": "km/h"
+            "t": "math",
+            "v": "v_1=20{,}41\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "math",
+            "v": "v_2=108{,}67\\ldots\\ \\text{km/h}"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "text",
+            "v": "Bei Geschwindigkeiten von ca. 20,4 km/h und ca. 108,7 km/h ist der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als "
+          },
+          {
+            "t": "math",
+            "v": "B_{\\min}"
+          },
+          {
+            "t": "text",
+            "v": "."
+          },
+          {
+            "t": "text",
+            "v": "\n\nc2) Ein Punkt für die beiden richtigen Geschwindigkeiten, wobei die Einheit „km/h“ nicht angeführt sein muss."
           }
-        ]
+        ],
+        "grader": "ai"
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "c2) Ein Punkt für die beiden richtigen Geschwindigkeiten, wobei die Einheit „km/h“ nicht angeführt sein muss.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [
@@ -494,12 +681,28 @@
             {
               "t": "math",
               "v": "g(v)=B_{\\min}+2"
+            },
+            {
+              "t": "math",
+              "v": "v_1=20{,}41\\ldots\\ \\text{km/h}"
+            },
+            {
+              "t": "math",
+              "v": "v_2=108{,}67\\ldots\\ \\text{km/h}"
             }
           ],
           "result": [
             {
               "t": "text",
-              "v": "Bei Geschwindigkeiten von ca. 20,4 km/h und ca. 108,7 km/h ist der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als B_min."
+              "v": "Bei Geschwindigkeiten von ca. 20,4 km/h und ca. 108,7 km/h ist der Benzinverbrauch bei einem etwas zu niedrigen Reifendruck um 2 L/100 km höher als "
+            },
+            {
+              "t": "math",
+              "v": "B_{\\min}"
+            },
+            {
+              "t": "text",
+              "v": "."
             }
           ],
           "note": "c2) Ein Punkt für die beiden richtigen Geschwindigkeiten, wobei die Einheit „km/h“ nicht angeführt sein muss."

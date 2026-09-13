@@ -207,7 +207,7 @@
           [
             {
               "t": "math",
-              "v": "\\int_{4}^{5} r(t)\\,\\mathrm{d}t<\\frac{\\int_{0}^{3} r(t)\\,\\mathrm{d}t}{3}"
+              "v": "\\int_{4}^{5} r(t)\\,\\mathrm{d}t<\\frac{\\int_{4}^{7} r(t)\\,\\mathrm{d}t}{3}"
             }
           ]
         ],
@@ -329,7 +329,7 @@
           {
             "id": "praemie",
             "value": 280,
-            "tol": 1e-9,
+            "tol": 1e-09,
             "unit": "€"
           }
         ]
@@ -396,19 +396,27 @@
       ],
       "figures": [],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "p",
-            "label": "p",
-            "value": 0.69,
-            "tol": 0.01
+            "t": "math",
+            "v": "p=\\frac{0{,}64-0{,}35}{0{,}64-0{,}22}=\\frac{29}{42}=0{,}690476\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "Angemessen gerundet p≈0,69 bzw. 69 %. Gleichwertige Bruch-, Dezimal- oder Prozentdarstellungen sind richtig. Ein Punkt für das richtige Berechnen von p."
           }
         ]
       },
       "scoring": {
-        "mode": "allOrNothing",
-        "points": 1
+        "mode": "rubric",
+        "criteria": [
+          {
+            "desc": "Ein Punkt für die richtige Antwort gemäß dem offiziellen Lösungsschlüssel.",
+            "points": 1
+          }
+        ]
       },
       "points": 1,
       "solution": [

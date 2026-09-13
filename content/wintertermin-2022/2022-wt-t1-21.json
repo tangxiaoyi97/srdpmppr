@@ -1,6 +1,6 @@
 {
   "id": "2022-wt-t1-21",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,11 +37,11 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_898a",
+          "id": "1_898",
           "baseId": "1_898",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/700/Feuerwehreinsatz.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
@@ -67,13 +67,24 @@
         }
       ],
       "answer": {
-        "kind": "numeric",
-        "blanks": [
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
           {
-            "id": "h",
-            "label": "h",
-            "value": 0.0616,
-            "tol": 0.0005
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "h = \\dfrac{4\\,026}{65\\,270} = \\dfrac{33}{535} = 0{,}0616\\ldots"
+          },
+          {
+            "t": "text",
+            "v": "\n\nEin Punkt für das Angeben des richtigen Wertes von h."
           }
         ]
       },

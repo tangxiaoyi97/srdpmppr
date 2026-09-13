@@ -1,6 +1,6 @@
 {
   "id": "2021-het-t2-01",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -55,29 +55,25 @@
         "kind": "open",
         "rubric": [
           {
-            "t": "text",
-            "v": "Gleichungssystem mit zwei Gleichungen, z. B.:"
-          },
-          {
             "t": "math",
             "v": "\\text{I}\\colon\\ 20\\cdot x+22\\cdot y=13\\,240"
           },
           {
             "t": "math",
             "v": "\\text{II}\\colon\\ x+y=640"
+          },
+          {
+            "t": "text",
+            "v": "\n\na1) Ein Punkt für das richtige Erstellen des Gleichungssystems mit zwei Gleichungen, ein halber Punkt für nur eine richtige Gleichung."
           }
         ],
         "grader": "ai"
       },
       "scoring": {
-        "mode": "tiered",
-        "tiers": [
+        "mode": "rubric",
+        "criteria": [
           {
-            "minCorrect": 1,
-            "points": 0.5
-          },
-          {
-            "minCorrect": 2,
+            "desc": "a1) Ein Punkt für das richtige Erstellen des Gleichungssystems mit zwei Gleichungen, ein halber Punkt für nur eine richtige Gleichung.",
             "points": 1
           }
         ]
@@ -134,7 +130,7 @@
           {
             "id": "p",
             "value": 0.140625,
-            "tol": 0.000001
+            "tol": 1e-06
           }
         ]
       },
@@ -148,7 +144,7 @@
           "steps": [
             {
               "t": "text",
-              "v": "X ... Anzahl der Gewinne; X ist binomialverteilt mit n = 3, p = 0,25."
+              "v": "X ... Anzahl der Gewinne\nX ist binomialverteilt mit n = 3, p = 0,25."
             },
             {
               "t": "math",
@@ -208,7 +204,7 @@
           {
             "id": "x",
             "value": 1,
-            "tol": 1e-9
+            "tol": 1e-09
           }
         ]
       },
@@ -232,7 +228,7 @@
     {
       "id": "2021-het-t2-01-c2",
       "label": "c2",
-      "format": "Halboffenes Antwortformat",
+      "format": "Offenes Antwortformat",
       "competencies": [
         {
           "code": "WS 3.3",
@@ -252,6 +248,10 @@
         }
       ],
       "prompt": [
+        {
+          "t": "text",
+          "v": "Weiters wird das Spiel Entenspiel angeboten.\nVon insgesamt 50 Badeenten sind 5 an ihrer Unterseite markiert.\n\nBei diesem Spiel wählt eine teilnehmende Person 2 der 50 Badeenten zufällig und ohne Zurücklegen aus. Jede markierte Badeente, die dabei ausgewählt wird, führt zu einem Gewinn.\n\nDie Zufallsvariable X gibt dabei an, wie viele der beiden ausgewählten Badeenten markiert sind.\n\n"
+        },
         {
           "t": "text",
           "v": "Martin behauptet: „Die Zufallsvariable X ist binomialverteilt.“\n\nBegründen Sie, warum Martins Behauptung falsch ist."

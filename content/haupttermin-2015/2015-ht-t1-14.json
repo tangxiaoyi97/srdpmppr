@@ -1,7 +1,7 @@
 {
   "id": "2015-ht-t1-14",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "haupttermin-2015",
@@ -36,26 +36,151 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 14 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=18",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_408a",
+          "id": "1_408",
           "baseId": "1_408",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/116/Mittlere%20%C3%84nderungsrate%20der%20Temperatur.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "D=\\frac{T(30)-T(20)}{10}\\ \\mathrm{^\\circ C/min}"
+            }
+          ],
+          "note": "Ein Punkt für eine korrekte Angabe des Terms. Äquivalente Ausdrücke sind ebenfalls als richtig zu werten. Die Angabe des Terms nur in allgemeiner Form wie z. B. (T(b) − T(a))/(b − a) genügt nicht."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Stellen Sie die mittlere Änderungsrate "
+        },
+        {
+          "t": "math",
+          "v": "D"
+        },
+        {
+          "t": "text",
+          "v": " der Temperatur im Zeitintervall "
+        },
+        {
+          "t": "math",
+          "v": "[20;30]"
+        },
+        {
+          "t": "text",
+          "v": " durch einen Term dar!\n\n"
+        },
+        {
+          "t": "math",
+          "v": "D="
+        },
+        {
+          "t": "text",
+          "v": " _____ °C/min"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "D=\\frac{T(30)-T(20)}{10}\\ \\mathrm{^\\circ C/min}"
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine korrekte Angabe des Terms. Äquivalente Ausdrücke sind ebenfalls als richtig zu werten. Die Angabe des Terms nur in allgemeiner Form wie z. B. (T(b) − T(a))/(b − a) genügt nicht."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 14 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=879&token=b45bec07dbb3b95fa445753a22adbc35448661d1#page=18",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_408",
       "baseId": "1_408",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/116/Mittlere%20%C3%84nderungsrate%20der%20Temperatur.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Ein bestimmter Temperaturverlauf wird modellhaft durch eine Funktion "
+    },
+    {
+      "t": "math",
+      "v": "T"
+    },
+    {
+      "t": "text",
+      "v": " beschrieben. Die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "T:[0;60]\\to\\mathbb R"
+    },
+    {
+      "t": "text",
+      "v": " ordnet jedem Zeitpunkt "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " eine Temperatur "
+    },
+    {
+      "t": "math",
+      "v": "T(t)"
+    },
+    {
+      "t": "text",
+      "v": " zu. Dabei wird "
+    },
+    {
+      "t": "math",
+      "v": "t"
+    },
+    {
+      "t": "text",
+      "v": " in Minuten und "
+    },
+    {
+      "t": "math",
+      "v": "T(t)"
+    },
+    {
+      "t": "text",
+      "v": " in Grad Celsius angegeben."
     }
   ]
 }

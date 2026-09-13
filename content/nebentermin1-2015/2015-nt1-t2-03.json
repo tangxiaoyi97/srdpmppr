@@ -1,7 +1,7 @@
 {
   "id": "2015-nt1-t2-03",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2015",
@@ -22,14 +22,524 @@
   "figures": [],
   "parts": [
     {
-      "id": "2015-nt1-t2-03-a",
-      "label": "a",
-      "format": "",
+      "id": "2015-nt1-t2-03-a1",
+      "label": "a1",
+      "format": "Offenes Antwortformat",
       "competencies": [],
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Ⓐ Berechnen Sie, wie viel Prozent des Gesamteinkommens auf die reichsten 20 % der Haushalte des Landes entfallen!"
+        }
+      ],
       "figures": [],
-      "solution": []
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 38,8 %; Toleranz [38 %;39 %] bzw. [0,38;0,39], Bruch/Dezimalzahl ebenfalls."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Ausgleichspunkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervalle: [38 %; 39 %] bzw. [0,38; 0,39]."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "100-f(80)=38{,}816"
+            },
+            {
+              "t": "text",
+              "v": "\nEs entfallen ca. 38,8 % des Gesamteinkommens auf die reichsten 20 % der Haushalte."
+            }
+          ],
+          "note": "Ein Ausgleichspunkt für die richtige Lösung. Äquivalente Schreibweisen des Ergebnisses (als Bruch oder Dezimalzahl) sind ebenfalls als richtig zu werten. Toleranzintervalle: [38 %; 39 %] bzw. [0,38; 0,39]."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-03-a2",
+      "label": "a2",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Zeigen Sie mithilfe der Differenzialrechnung, dass die Funktion "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": " im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;100]"
+        },
+        {
+          "t": "text",
+          "v": " linksgekrümmt ist!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "math",
+            "v": "f''(x)=4{,}8\\cdot10^{-6}x^2+4\\cdot10^{-3}>0"
+          },
+          {
+            "t": "text",
+            "v": " auf [0;100], deshalb linksgekrümmt."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für eine (sinngemäß) korrekte Begründung."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "f(x)=4\\cdot10^{-7}\\cdot x^4+2\\cdot10^{-3}\\cdot x^2+4\\cdot10^{-1}\\cdot x"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f'(x)=1{,}6\\cdot10^{-6}\\cdot x^3+4\\cdot10^{-3}\\cdot x+4\\cdot10^{-1}"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "f''(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDie Funktion "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " ist linksgekrümmt, weil: "
+            },
+            {
+              "t": "math",
+              "v": "f''(x)=4{,}8\\cdot10^{-6}\\cdot x^2+4\\cdot10^{-3}>0"
+            },
+            {
+              "t": "text",
+              "v": " für alle "
+            },
+            {
+              "t": "math",
+              "v": "x\\in[0;100]"
+            },
+            {
+              "t": "text",
+              "v": "."
+            }
+          ],
+          "note": "Ein Punkt für eine (sinngemäß) korrekte Begründung."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-03-b1",
+      "label": "b1",
+      "format": "Offenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Gini-Koeffizient ist der Anteil der schraffierten Fläche an der Fläche zwischen der Gleichverteilungsgeraden und der "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;100]"
+        },
+        {
+          "t": "text",
+          "v": ".\nBerechnen Sie den Gini-Koeffizienten des Landes mit der Lorenz-Kurve "
+        },
+        {
+          "t": "math",
+          "v": "f"
+        },
+        {
+          "t": "text",
+          "v": "!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Ca. 0,31; Toleranz [0,30;0,31]. Korrekter Ansatz trotz Rechenfehler akzeptieren."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung. Toleranzintervall: [0,30; 0,31]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          },
+          {
+            "t": "text",
+            "v": "\n\nOffizielle Lösungserwartung / möglicher Ansatz:\n"
+          },
+          {
+            "t": "math",
+            "v": "A_1=\\int_0^{100}f(x)\\,\\mathrm dx=3466{,}\\overline6"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "A_2=\\dfrac{100\\cdot100}{2}=5000"
+          },
+          {
+            "t": "text",
+            "v": "\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac{A_2-A_1}{A_2}=\\dfrac{1533{,}\\overline3}{5000}=0{,}30\\overline6\\approx0{,}31"
+          },
+          {
+            "t": "text",
+            "v": "\nDer Gini-Koeffizient für das Land mit der Lorenz-Kurve "
+          },
+          {
+            "t": "math",
+            "v": "f"
+          },
+          {
+            "t": "text",
+            "v": " beträgt 0,31."
+          }
+        ],
+        "grader": "ai"
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "A_1=\\int_0^{100}f(x)\\,\\mathrm dx=3466{,}\\overline6"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "A_2=\\dfrac{100\\cdot100}{2}=5000"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\dfrac{A_2-A_1}{A_2}=\\dfrac{1533{,}\\overline3}{5000}=0{,}30\\overline6\\approx0{,}31"
+            },
+            {
+              "t": "text",
+              "v": "\nDer Gini-Koeffizient für das Land mit der Lorenz-Kurve "
+            },
+            {
+              "t": "math",
+              "v": "f"
+            },
+            {
+              "t": "text",
+              "v": " beträgt 0,31."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [0,30; 0,31]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ]
+    },
+    {
+      "id": "2015-nt1-t2-03-b2",
+      "label": "b2",
+      "format": "Halboffenes Antwortformat",
+      "competencies": [],
+      "externalRefs": [
+        {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 3 (Teil 2)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=9",
+          "verifiedAt": "2026-09-13"
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Der Gini-Koeffizient ist der Anteil der schraffierten Fläche an der Fläche zwischen der Gleichverteilungsgeraden und der "
+        },
+        {
+          "t": "math",
+          "v": "x"
+        },
+        {
+          "t": "text",
+          "v": "-Achse im Intervall "
+        },
+        {
+          "t": "math",
+          "v": "[0;100]"
+        },
+        {
+          "t": "text",
+          "v": ".\n"
+        },
+        {
+          "t": "text",
+          "v": "\n\n"
+        },
+        {
+          "t": "text",
+          "v": "Geben Sie den Gini-Koeffizienten für einen Staat an, in dem alle Haushalte gleich viel verdienen!"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "kind": "open",
+        "grader": "ai",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Lösungserwartung:\n"
+          },
+          {
+            "t": "math",
+            "v": "\\dfrac0{5000}=0"
+          },
+          {
+            "t": "text",
+            "v": "\nDer Wert des Gini-Koeffizienten für einen Staat, in dem alle Haushalte gleich viel verdienen, beträgt 0."
+          },
+          {
+            "t": "text",
+            "v": "\n\nBewertung: Ein Punkt für die richtige Lösung."
+          }
+        ]
+      },
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      },
+      "points": 1,
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "math",
+              "v": "\\dfrac0{5000}=0"
+            },
+            {
+              "t": "text",
+              "v": "\nDer Wert des Gini-Koeffizienten für einen Staat, in dem alle Haushalte gleich viel verdienen, beträgt 0."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung."
+        }
+      ]
     }
   ],
-  "externalRefs": []
+  "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 3 (Teil 2)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=868&token=fb8a29c8c0a815b52720b9fe9acdcecff52a29fc#page=9",
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Der US-amerikanische Statistiker Max Otto Lorenz entwickelte im Jahr 1905 zur Veranschaulichung von Einkommensverteilungen die Lorenz-Kurve. Für die Darstellung der Lorenz-Kurve ordnet man die Haushalte eines Staates nach der Höhe ihres Einkommens.\nDie Lorenz-Kurve gibt für jeden Prozentsatz der Haushalte an, wie viel Prozent des Volkseinkommens auf ihn entfallen. So steht jeder Punkt "
+    },
+    {
+      "t": "math",
+      "v": "P=(x|y)"
+    },
+    {
+      "t": "text",
+      "v": " auf der Kurve für folgende Aussage: „Die unteren "
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " % aller Haushalte beziehen "
+    },
+    {
+      "t": "math",
+      "v": "y"
+    },
+    {
+      "t": "text",
+      "v": " % des Gesamteinkommens.“ Die nachstehende Abbildung zeigt die Lorenz-Kurve von Österreich für das Jahr 2009."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-03-lorenz-austria.png",
+      "alt": "Lorenz-Kurve Österreich 2009 mit Gleichverteilungsgerade und Beispielpunkt P=(x|y)"
+    },
+    {
+      "t": "text",
+      "v": "\nQuelle: http://diepresse.com/home/wirtschaft/economist/446997/Sozialbericht_Einkommen-in-Oesterreich-ungleicher-verteilt [26.05.2015] (bearbeitet)\n\nNehmen Sie an, dass die Lorenz-Kurve eines Landes durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " mit\n\n"
+    },
+    {
+      "t": "math",
+      "v": "f(x)=4\\cdot10^{-7}\\cdot x^4+2\\cdot10^{-3}\\cdot x^2+4\\cdot10^{-1}\\cdot x"
+    },
+    {
+      "t": "text",
+      "v": "\n\nund die Gleichverteilungsgerade durch die Funktion "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": " mit\n\n"
+    },
+    {
+      "t": "math",
+      "v": "g(x)=x"
+    },
+    {
+      "t": "text",
+      "v": "\nmodelliert werden können ("
+    },
+    {
+      "t": "math",
+      "v": "x"
+    },
+    {
+      "t": "text",
+      "v": " in %; "
+    },
+    {
+      "t": "math",
+      "v": "f(x)"
+    },
+    {
+      "t": "text",
+      "v": " in %; "
+    },
+    {
+      "t": "math",
+      "v": "g(x)"
+    },
+    {
+      "t": "text",
+      "v": " in %). Die nachstehende Abbildung zeigt die Graphen der Funktionen "
+    },
+    {
+      "t": "math",
+      "v": "f"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "g"
+    },
+    {
+      "t": "text",
+      "v": ". Der charakteristische „Bauch“ der Lorenz-Kurve unterhalb der Diagonalen ist ein Maß für die Ungleichverteilung der Einkommen. Er ist in der Abbildung schraffiert dargestellt."
+    },
+    {
+      "t": "fig",
+      "src": "assets/pdf/nebentermin1-2015/fig/2015-nt1-t2-03-model.png",
+      "alt": "Lorenz-Funktion f und Gerade g, Fläche dazwischen schraffiert, Achsen Haushalte/Einkommen in Prozent"
+    }
+  ]
 }

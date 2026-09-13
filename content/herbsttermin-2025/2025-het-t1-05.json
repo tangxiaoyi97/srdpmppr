@@ -1,6 +1,6 @@
 {
   "id": "2025-het-t1-05",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "converted",
   "lang": "de",
   "source": {
@@ -37,36 +37,52 @@
       "externalRefs": [
         {
           "system": "aufgabenpool",
-          "id": "1_1547a",
+          "id": "1_1547",
           "baseId": "1_1547",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/1054/1_1547_srdp_ma_Einzeichnen%20eines%20Vektors_PT2_25.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
       "solution": [
         {
-          "result": [
+          "steps": [
+            {
+              "t": "fig",
+              "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-sol.png",
+              "alt": "Erste offizielle Lösung: Vektor b vom Punkt P um zwei Kästchen nach links und drei nach oben."
+            },
             {
               "t": "text",
-              "v": "Ausgehend von P wird ein Pfeil b mit gleicher Länge wie a eingezeichnet, der normal auf a steht. Es gibt zwei mögliche Lösungen (b nach der einen oder der anderen Seite)."
+              "v": "oder:"
+            },
+            {
+              "t": "fig",
+              "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-sol2.png",
+              "alt": "Zweite offizielle Lösung: Vektor b vom Punkt P um zwei Kästchen nach rechts und drei nach unten."
             }
           ],
-          "note": "Ein Punkt für das richtige Einzeichnen.",
-          "figures": [
-            {
-              "kind": "image",
-              "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-sol.png",
-              "alt": "Offizielle Lösungsabbildung zu „Einzeichnen eines Vektors“: die eingezeichnete bzw. markierte Lösung."
-            }
-          ]
+          "note": "Ein Punkt für das richtige Einzeichnen."
         }
       ],
       "prompt": [
         {
           "t": "text",
-          "v": "Zeichnen Sie einen möglichen Vektor b als Pfeil ausgehend von P ein."
+          "v": "Zeichnen Sie einen möglichen Vektor "
+        },
+        {
+          "t": "math",
+          "v": "\\vec{b}"
+        },
+        {
+          "t": "text",
+          "v": " als Pfeil ausgehend von P ein."
+        },
+        {
+          "t": "fig",
+          "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-q.png",
+          "alt": "Koordinatengitter mit dem als Pfeil dargestellten Vektor a (nach rechts oben gerichtet) und dem Punkt P."
         }
       ],
       "answer": {
@@ -99,20 +115,43 @@
   "prompt": [
     {
       "t": "text",
-      "v": "In der unten stehenden Abbildung sind der Vektor a sowie der Punkt P dargestellt."
-    },
-    {
-      "t": "fig",
-      "src": "assets/pdf/herbsttermin-2025/fig/2025-het-t1-05-q.png",
-      "alt": "Koordinatengitter mit dem als Pfeil dargestellten Vektor a (nach rechts oben gerichtet) und dem Punkt P."
-    },
-    {
-      "t": "text",
-      "v": "Für einen Vektor b gilt:\n- a und b haben die gleiche Länge\n- "
+      "v": "In der unten stehenden Abbildung sind der Vektor "
     },
     {
       "t": "math",
-      "v": "a\\cdot b=0"
+      "v": "\\vec{a}"
+    },
+    {
+      "t": "text",
+      "v": " sowie der Punkt P dargestellt.\n\nFür einen Vektor "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}"
+    },
+    {
+      "t": "text",
+      "v": " gilt:\n• "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}"
+    },
+    {
+      "t": "text",
+      "v": " und "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{b}"
+    },
+    {
+      "t": "text",
+      "v": " haben die gleiche Länge\n• "
+    },
+    {
+      "t": "math",
+      "v": "\\vec{a}\\cdot\\vec{b}=0"
     }
   ]
 }

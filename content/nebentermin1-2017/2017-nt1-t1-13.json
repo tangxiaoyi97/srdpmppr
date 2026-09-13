@@ -1,7 +1,7 @@
 {
   "id": "2017-nt1-t1-13",
-  "schemaVersion": 2,
-  "status": "linked",
+  "schemaVersion": 3,
+  "status": "converted",
   "lang": "de",
   "source": {
     "suite": "nebentermin1-2017",
@@ -36,26 +36,91 @@
       ],
       "externalRefs": [
         {
+          "system": "maturaArchiv",
+          "id": "Aufgabe 13 (Teil 1)",
+          "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=17",
+          "verifiedAt": "2026-09-13"
+        },
+        {
           "system": "aufgabenpool",
-          "id": "1_578a",
+          "id": "1_578",
           "baseId": "1_578",
           "url": "https://www.aufgabenpool.at/amn/Typ-1/287/Angestelltengehalt.pdf",
           "license": "CC-BY-4.0",
-          "verifiedAt": "2026-06-30"
+          "verifiedAt": "2026-09-13"
         }
       ],
       "figures": [],
-      "solution": []
+      "solution": [
+        {
+          "result": [
+            {
+              "t": "text",
+              "v": "Mögliche Vorgehensweise:\n"
+            },
+            {
+              "t": "math",
+              "v": "2160+6\\cdot225=3510"
+            },
+            {
+              "t": "text",
+              "v": "\n"
+            },
+            {
+              "t": "math",
+              "v": "\\frac{3510-2160}{2160}=0{,}625"
+            },
+            {
+              "t": "text",
+              "v": "\n\nDas Bruttogehalt des Angestellten ist im gesamten betrachteten Zeitraum um 62,5 % gestiegen."
+            }
+          ],
+          "note": "Ein Punkt für die richtige Lösung. Toleranzintervall: [62 %; 63 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+        }
+      ],
+      "prompt": [
+        {
+          "t": "text",
+          "v": "Geben Sie die prozentuelle Änderung des monatlichen Bruttogehalts im gesamten betrachteten Zeitraum von 2008 bis 2014 an!"
+        }
+      ],
+      "answer": {
+        "kind": "open",
+        "rubric": [
+          {
+            "t": "text",
+            "v": "Das Bruttogehalt ist um 62,5 % gestiegen; Toleranzintervall [62 %; 63 %]. Die Aufgabe ist auch dann als richtig gelöst zu werten, wenn bei korrektem Ansatz das Ergebnis aufgrund eines Rechenfehlers nicht richtig ist."
+          }
+        ],
+        "grader": "ai"
+      },
+      "points": 1,
+      "scoring": {
+        "mode": "allOrNothing",
+        "points": 1
+      }
     }
   ],
   "externalRefs": [
+    {
+      "system": "maturaArchiv",
+      "id": "Aufgabe 13 (Teil 1)",
+      "url": "https://www.matura.gv.at/index.php?eID=dumpFile&t=f&f=2159&token=edb350fa58c50bd7ded5b9ea272524c35faf68be#page=17",
+      "verifiedAt": "2026-09-13"
+    },
     {
       "system": "aufgabenpool",
       "id": "1_578",
       "baseId": "1_578",
       "url": "https://www.aufgabenpool.at/amn/Typ-1/287/Angestelltengehalt.pdf",
       "license": "CC-BY-4.0",
-      "verifiedAt": "2026-06-30"
+      "verifiedAt": "2026-09-13"
+    }
+  ],
+  "prompt": [
+    {
+      "t": "text",
+      "v": "Das Bruttogehalt eines bestimmten Angestellten betrug im Jahr 2008 monatlich € 2.160.\n\nIn den folgenden sechs Jahren ist sein monatliches Bruttogehalt durchschnittlich um € 225 pro Jahr gestiegen."
     }
   ]
 }
